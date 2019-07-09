@@ -6,7 +6,8 @@
         "label": "Getting Started",
         "ids":
           [
-            "concepts/getting-started/gs-visao-geral-da-plataforma"
+            "concepts/getting-started/gs-visao-geral-da-plataforma",
+            "concepts/getting-started/gs-como-criar-um-bot-com-builder"
           ]
       },
       {
