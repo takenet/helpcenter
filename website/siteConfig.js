@@ -21,6 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
+  docsSideNavCollapsible: true,
   title: 'Test Site', // Title for your website.
   tagline: 'A website for testing',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
