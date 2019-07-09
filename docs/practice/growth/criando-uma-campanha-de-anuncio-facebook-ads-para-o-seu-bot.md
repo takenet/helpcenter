@@ -48,4 +48,4 @@ Além de preencher a imagem e os dados do anúncio é possível analisar como el
 
 ![Criando sua primeira campanha 6](../../assets/practice/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-6.png)
 
-\* *Integração realizada em parceria com a [SugarAds]().*
+\* *Integração realizada em parceria com a **SugarAds**.*
