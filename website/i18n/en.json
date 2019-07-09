@@ -5,8 +5,9 @@
     "previous": "Previous",
     "tagline": "A website for testing",
     "docs": {
-      "concepts/Builder/builder-visa-geral-variaveis": {
-        "title": "concepts/Builder/builder-visa-geral-variaveis"
+      "concepts/builder/builder-visao-geral-variaveis": {
+        "title": "[Builder] Visão geral das variáveis",
+        "sidebar_label": "[Builder] Visão geral das variáveis"
       },
       "doc1": {
         "title": "Latin-ish",
@@ -34,7 +35,8 @@
     "categories": {
       "Docusaurus": "Docusaurus",
       "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Second Category": "Second Category",
+      "Help Center": "Help Center"
     }
   },
   "pages-strings": {

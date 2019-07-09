@@ -2,9 +2,10 @@
   "docs": {
     "Docusaurus": ["doc1"],
     "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Second Category": ["doc3"],
+    "Help Center" : ["concepts/builder/builder-visao-geral-variaveis"]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5", "builder-visao-geral-variaveis"]
+    "First Category": ["doc4", "doc5"]
   }
 }
