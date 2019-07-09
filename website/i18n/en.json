@@ -25,10 +25,10 @@
       "doc5": {
         "title": "Fifth Document"
       },
-      "practice/growh/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads": {
+      "practice/growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads": {
         "title": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)"
       },
-      "practice/growh/criando-uma-campanha-de-anuncio-Facebook-Ads-para-o-seu-bot": {
+      "practice/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot": {
         "title": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot"
       }
     },
@@ -39,7 +39,8 @@
       "Blog": "Blog"
     },
     "categories": {
-      "Conceitos": "Conceitos"
+      "Conceitos": "Conceitos",
+      "Prática": "Prática"
     }
   },
   "pages-strings": {
