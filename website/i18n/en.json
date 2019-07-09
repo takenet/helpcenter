@@ -5,6 +5,13 @@
     "previous": "Previous",
     "tagline": "A website for testing",
     "docs": {
+      "concepts/builder/builder-o-que-e-um-bloco-de-conteudo": {
+        "title": "[Builder] O que é um bloco de contéudo"
+      },
+      "concepts/builder/builder-o-que-sao-blocos-de-controle": {
+        "title": "[Builder] O que são blocos de controle (Início e Exceção)",
+        "sidebar_label": "[Builder] O que são blocos de controle (Início e Exceção)"
+      },
       "concepts/builder/builder-visao-geral-variaveis": {
         "title": "[Builder] Visão geral das variáveis",
         "sidebar_label": "[Builder] Visão geral das variáveis"

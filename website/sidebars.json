@@ -4,7 +4,11 @@
       {
         "type": "subcategory",
         "label": "Builder",
-        "ids": ["concepts/builder/builder-visao-geral-variaveis"]
+        "ids": [
+          "concepts/builder/builder-visao-geral-variaveis", 
+          "concepts/builder/builder-o-que-sao-blocos-de-controle", 
+          "concepts/builder/builder-o-que-e-um-bloco-de-conteudo"
+        ]
       },
       {
         "type": "subcategory",

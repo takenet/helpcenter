@@ -68,9 +68,9 @@ Onde:
 
 **nomeVariavel** representa o nome da variável de contato desejada.
 
-Se você deseja enviar uma mensagem de saudação com o nome do usuário que está interagindo com o seu bot, utilize a variável {{contact<span>.</span>name}} para isso. Por exemplo:
+Se você deseja enviar uma mensagem de saudação com o nome do usuário que está interagindo com o seu bot, utilize a variável {{contact\.name}} para isso. Por exemplo:
 
-*“Olá {{contact<span>.</span>name}}, boas vindas!”*
+*“Olá {{contact\.name}}, boas vindas!”*
 
 A tabela abaixo apresenta todas variáveis de contato disponíveis no BLiP e uma descrição sobre o que representam. Os valores e a disponibilidade dos dados depende do canal do usuário.
 
@@ -174,16 +174,16 @@ A tabela abaixo apresenta todas as variáveis de sistema disponíveis no BLiP, a
 | input.entity.?.name        | Nome da entidade reconhecida (onde ? deve ser trocado pelo nome da entidade)|
 | input.entity.?.value          | Valor da entidade reconhecida (onde ? deve ser trocado pelo nome da entidade)|
 | input.entity.?.name        | Nome da entidade reconhecida (onde ? deve ser trocado pelo nome da entidade)|
-| input<span>.intent.</span>id          | Identificador da intenção reconehcida|
-| input<span>.intent.</span>name          | Nome da intenção reconehcida|
-| input<span>.intent.</span>score          | Confiabilidade atrelada à intenção reconehcida|
-| input<span>.intent.</span>answer          | Uma das respostas atreladas à intenção reconehcida|
+| input\.intent.id          | Identificador da intenção reconehcida|
+| input\.intent.name          | Nome da intenção reconehcida|
+| input\.intent.score          | Confiabilidade atrelada à intenção reconehcida|
+| input\.intent.answer          | Uma das respostas atreladas à intenção reconehcida|
 | input.length          | Quantidade de conteúdos existentes na mensagem enviada pelo usuário|
 | input.type          | Tipo da mensagem enviado pelo usuário|
 | random.guid          | Identificador alfa numérico único|
 | random.string          | Conjunto de caracteres (string) aleatório|
 | random.integer          | Número inteiro aleatório|
 | `calendar.plus/minus 12345  (milisseconds seconds minutes hours days weeks months years dayOfWeek)` | Funções disponíveis para manipulação de datas
-| state<span>.</span>id | Id do bloco corrente no fluxo |
-| state<span>.</span>name | Nome do bloco corrente no fluxo |
+| state\.id | Id do bloco corrente no fluxo |
+| state\.name | Nome do bloco corrente no fluxo |
 **Observação: As variáveis de sistema são apenas de leitura**
