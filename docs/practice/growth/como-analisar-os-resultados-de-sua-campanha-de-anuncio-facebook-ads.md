@@ -16,6 +16,6 @@ O BLiP apresenta as seguintes métricas para cada anúncio:
 * **Custo por Resultado (ou Custo por Contatos)**: Valor médio gasto por cada contato convertido.
 * **Alcance**: Quantidade total de pessoas impactadas (não só as convertidas) pelo anúncio. 
 
-![como-analisar-os-resultados-de-sua-campanha-de-anúncio-facebook-ads-1](/images/como-analisar-os-resultados-de-sua-campanha-de-anúncio-facebook-ads-1.png)
+![como-analisar-os-resultados-de-sua-campanha-de-anúncio-facebook-ads-1](/images/como-analisar-os-resultados-de-sua-campanha-de-anúncio-facebook-ads.png)
 
 Todos os resultados podem ser visualizados **de forma geral ou por anúncio específico**. É possível também aplicar um filtro por período de datas definido.
