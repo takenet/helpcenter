@@ -23,4 +23,7 @@ Devem ser enviadas através da Ferramenta Agendador (agendamento de mensagens) d
 ## Alerta de violação da Política de mensagens ativas do BLiP
 Para reduzir as chances de que um bot seja punido por violar as políticas de mensagens ativas, o BLiP envia um email de alerta para o criador do bot informando que a política foi violada. Esse é apenas um alerta para que você fique atento e não cometa o erro novamente.
 
-É muito comum violar a política de mensagens ativas em bots que possuem atendimento humano. Nesses casos, se um ticket de atendimento ficar em aberto por mais de 24 horas e o atendente enviar alguma mensagem para o cliente, uma mensagem de resposta será enviada após o tempo limite, acarretando assim na violação da política.
+É muito comum violar a política de mensagens ativas em bots que possuem atendimento humano. Nesses casos, se um ticket de atendimento ficar em aberto por mais de 24 horas e o atendente enviar alguma mensagem para o cliente, uma mensagem de resposta será enviada após o tempo limite, acarretando assim na violação da política.<br><br><br>
+
+*[1] [Veja todos os detalhes da política de privacidade do Messenger](https://developers.facebook.com/docs/messenger-platform/policy/policy-overview)
+[2] [Veja todos os detalhes da política de privacidade do WhatsApp](https://developers.facebook.com/docs/whatsapp/guidelines)*
