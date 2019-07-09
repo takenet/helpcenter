@@ -11,10 +11,10 @@ A imagem abaixo, apresenta um exemplo do Weblink no canal BLiP Chat.
 
 Para criar um weblink é preciso definir 4 propriedades:
 
-**Url**: Link da página que será exibida **(obrigatório)**. O link DEVE deve estar acessível através do protocolo HTTPS *(páginas HTTP estarão acessíveis apenas com o target Blank)*.
-**Title**: Título que será exibido no card de weblink **(obrigatório)**.
-**Description**: Descrição do link que será exibido no card **(opcional)**.
-**Target**: Modo em que o link será aberto no momento em que o usuário clicar no card **(obrigatório)**.
+**Url**: Link da página que será exibida **(obrigatório)**. O link DEVE deve estar acessível através do protocolo HTTPS *(páginas HTTP estarão acessíveis apenas com o target Blank)*.  
+**Title**: Título que será exibido no card de weblink **(obrigatório)**  
+**Description**: Descrição do link que será exibido no card **(opcional)**.  
+**Target**: Modo em que o link será aberto no momento em que o usuário clicar no card **(obrigatório)**.  
 
 Exsitem 4 tipos possíveis de target:
 
