@@ -5,6 +5,9 @@
     "previous": "Previous",
     "tagline": "A website for testing",
     "docs": {
+      "concepts/Builder/builder-visa-geral-variaveis": {
+        "title": "concepts/Builder/builder-visa-geral-variaveis"
+      },
       "doc1": {
         "title": "Latin-ish",
         "sidebar_label": "Example Page"
