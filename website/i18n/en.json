@@ -41,9 +41,17 @@
         "title": "[Builder] Visão geral das variáveis",
         "sidebar_label": "[Builder] Visão geral das variáveis"
       },
+      "concepts/getting-started/gs-como-criar-um-bot-com-builder": {
+        "title": "Como criar um bot com o Builder do BLiP",
+        "sidebar_label": "Como criar um bot com o Builder do BLiP"
+      },
       "concepts/getting-started/gs-visao-geral-da-plataforma": {
         "title": "Visão geral da plataforma",
         "sidebar_label": "Visão geral da plataforma"
+      },
+      "concepts/getting-started/gs-visao-geral-do-builder": {
+        "title": "Visão geral do Builder",
+        "sidebar_label": "Visão geral do Builder"
       },
       "doc1": {
         "title": "Latin-ish",
@@ -69,7 +77,7 @@
       }
     },
     "links": {
-      "Docs": "Docs",
+      "Artigos": "Artigos",
       "API": "API",
       "Help": "Help",
       "Blog": "Blog"

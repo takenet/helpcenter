@@ -13,6 +13,14 @@
       },
       {
         "type": "subcategory",
+        "label": "Geral",
+        "ids": 
+          [
+            "concepts/general/gen-politica-de-violacao-mensagens"
+          ]
+      },
+      {
+        "type": "subcategory",
         "label": "Builder",
         "ids": 
           [
@@ -26,11 +34,6 @@
           "concepts/builder/builder-o-que-e-um-weblink", 
           "concepts/builder/builder-o-que-sao-listas-de-distribuicao"
           ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Geral",
-        "ids": []
       },
       {
         "type": "subcategory",
