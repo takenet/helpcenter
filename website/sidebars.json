@@ -3,8 +3,17 @@
     "Conceitos" : [
       {
         "type": "subcategory",
+        "label": "Getting Started",
+        "ids":
+          [
+            "concepts/getting-started/gs-visao-geral-da-plataforma"
+          ]
+      },
+      {
+        "type": "subcategory",
         "label": "Builder",
-        "ids": [
+        "ids": 
+          [
           "concepts/builder/builder-visao-geral-variaveis", 
           "concepts/builder/builder-o-que-sao-blocos-de-controle", 
           "concepts/builder/builder-o-que-e-um-bloco-de-conteudo", 
@@ -14,12 +23,7 @@
           "concepts/builder/builder-o-que-e-um-bloco-de-atendimento",
           "concepts/builder/builder-o-que-e-um-weblink", 
           "concepts/builder/builder-o-que-sao-listas-de-distribuicao"
-        ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Getting Started",
-        "ids": []
+          ]
       },
       {
         "type": "subcategory",

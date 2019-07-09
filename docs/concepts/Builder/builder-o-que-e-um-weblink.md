@@ -6,9 +6,10 @@ sidebar_label: [Builder] O que é um Weblink?
 O tipo de conteúdo **weblink** permite que o bot envie para o cliente um link de qualquer página pública na internet. Esse tipo de conteúdo é muito útil para facilitar o acesso dos usuários, de forma simples, à informações disponíveis em sites e blogs.
 
 A imagem abaixo, apresenta um exemplo do Weblink no canal BLiP Chat.
-
+<br><br>
 ![Exemplo de conteudo weblink](../../assets/concepts/builder/builder-o-que-e-um-weblink-1.png)
 
+<br><br>
 Para criar um weblink é preciso definir 4 propriedades:
 
 **Url**: Link da página que será exibida **(obrigatório)**. O link DEVE deve estar acessível através do protocolo HTTPS *(páginas HTTP estarão acessíveis apenas com o target Blank)*.  
@@ -25,7 +26,7 @@ Exsitem 4 tipos possíveis de target:
 | **SelfCompact** | Link é aberto no mesmo contexto da conversa ocupando 30% da tela. **Suportado em alguns canais**.
 | **SelfTall**  | Link é aberto no mesmo context da conversa ocupando 70% da tela. **Suportado em alguns canais**.
 
-Nos canais que suportam weblinks com os targets Self, SelfCompact e SelfTall, é possível utilizar esse conteúdo para gerar conteúdos customizados para cada bot.
+<br><br>Nos canais que suportam weblinks com os targets Self, SelfCompact e SelfTall, é possível utilizar esse conteúdo para gerar conteúdos customizados para cada bot.
 
 Imagine que seu bot precise solicitar uma data para o cliente. Neste caso, nâo existe um tipo de conteúdo, nativo, capaz de entregar uma boa experiência ao usuário. Para solucionar esse problema é possível criar uma página web, que possua um elemento específico para datas - um datepicker por exemplo, e utilizá-la através de um weblink.
 

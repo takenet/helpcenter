@@ -21,6 +21,10 @@
         "title": "[Builder] O que são blocos de controle (Início e Exceção)",
         "sidebar_label": "[Builder] O que são blocos de controle (Início e Exceção)"
       },
+      "concepts/builder/builder-o-que-sao-listas-de-distribuicao": {
+        "title": "[Builder] O que são listas de distribuição",
+        "sidebar_label": "[Builder] O que são listas de distribuição"
+      },
       "concepts/builder/builder-visao-geral-das-acoes": {
         "title": "[Builder] Visão geral das ações",
         "sidebar_label": "[Builder] Visão geral das ações"
@@ -36,6 +40,10 @@
       "concepts/builder/builder-visao-geral-variaveis": {
         "title": "[Builder] Visão geral das variáveis",
         "sidebar_label": "[Builder] Visão geral das variáveis"
+      },
+      "concepts/getting-started/gs-visao-geral-da-plataforma": {
+        "title": "Visão geral da plataforma",
+        "sidebar_label": "Visão geral da plataforma"
       },
       "doc1": {
         "title": "Latin-ish",
