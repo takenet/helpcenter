@@ -41,6 +41,10 @@
         "title": "[Builder] Visão geral das variáveis",
         "sidebar_label": "[Builder] Visão geral das variáveis"
       },
+      "concepts/general/gen-politica-de-violacao-mensagens": {
+        "title": "Política de violação de mensagens ativas do BLiP",
+        "sidebar_label": "Política de violação de mensagens ativas do BLiP"
+      },
       "concepts/getting-started/gs-como-criar-um-bot-com-builder": {
         "title": "Como criar um bot com o Builder do BLiP",
         "sidebar_label": "Como criar um bot com o Builder do BLiP"
