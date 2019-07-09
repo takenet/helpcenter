@@ -103,7 +103,7 @@ Nesse cenário, é possível criar, por exemplo, uma variável de configuração
 
 Para criar ou alterar o valor de qualquer variável de configuração, clique nas **configurações do Builder**, expanda a opção **Variáveis de configuração** e adicione o nome e o valor da variável (conforme imagem abaixo).
 
-![Variáveis de Configuração](images/builder-visao-geral-variaveis-01.png)
+![Variáveis de Configuração](../../../website/static/img/undraw_code_review.svg)
 
 Para recuperar o valor de uma variável de configuração, basta utilizar, em qualquer ponto do fluxo da conversa, o seguinte padrão:
 
