@@ -1,23 +1,25 @@
 ---
 id: builder-visao-geral-das-condicoes-de-saida
 title: [Builder] Visão geral das condições de saída
-sidebar_title: [Builder] Visão geral das condições de saída
+sidebar_label: [Builder] Visão geral das condições de saída
 ---
 Para que seja possível condicionar a mudança de estado de um usuário, o Builder disponibiliza condições de saída. Uma condição de saída é composta de **uma ou mais regras e o identificador do bloco de destino**, caso a condição seja alcançada.
 
 O bloco de destino pode ser qualquer um dos blocos existentes no fluxo da conversa do bot. Cada regra é formada por até quatro estruturas: **fonte de dados, operador, nome de uma variável e um valor esperado**.
 
+
 ![Condicoes de saida](../../assets/concepts/builder/builder-visao-geral-das-condicoes-de-saida-1.png)
 
 Quando a fonte de dados do tipo **Variável** é selecionada, é necessário também adicionar o nome da variável que será analisada na condição.
 
-##### Fonte de Dados
+**Fonte de Dados**
 
 Uma condição pode utilizar até quatro diferentes fontes de dados para criar uma regra. São elas: entrada do usuário, valor de uma variável, intenção ou entidade extraídos a partir da última entrada do usuário.
 
-##### Operador
+**Operador**
 
 Existem diferentes tipos de operadores para uma regra. A tabela abaixo apresenta todos os operadores e suas respectivas definições:
+
 
 | Nome do operador  | Descrição                                                            |
 | ----------------- | -------------------------------------------------------------------- |
@@ -34,7 +36,7 @@ Existem diferentes tipos de operadores para uma regra. A tabela abaixo apresenta
 | **Parecido com** | Verifica se a fonte de dados é parecida com o valor esperado. (Utilizando a função **Levenshtein**)
 | **Corresponde a regex** | Verifica se a fonte de dados corresponde ao padrão regex definido no valor esperado.
 
-##### Valor esperado
+**Valor Esperado**
 
 O valor esperado na fonte de dados. Este valor pode ser texto, número ou até mesmo o padrão de um regex.
 

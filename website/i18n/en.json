@@ -12,8 +12,13 @@
         "title": "[Builder] O que são blocos de controle (Início e Exceção)",
         "sidebar_label": "[Builder] O que são blocos de controle (Início e Exceção)"
       },
+      "concepts/builder/builder-visao-geral-das-condicoes-de-saida": {
+        "title": "[Builder] Visão geral das condições de saída",
+        "sidebar_label": "[Builder] Visão geral das condições de saída"
+      },
       "concepts/builder/builder-visao-geral-dos-tipos-de-conteudo": {
-        "title": "[Builder] Visão geral dos tipos de conteúdo"
+        "title": "[Builder] Visão geral dos tipos de conteúdo",
+        "sidebar_label": "[Builder] Visão geral dos tipos de conteúdo"
       },
       "concepts/builder/builder-visao-geral-variaveis": {
         "title": "[Builder] Visão geral das variáveis",
