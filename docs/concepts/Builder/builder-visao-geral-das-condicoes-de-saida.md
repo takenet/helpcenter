@@ -7,7 +7,6 @@ Para que seja possível condicionar a mudança de estado de um usuário, o Build
 
 O bloco de destino pode ser qualquer um dos blocos existentes no fluxo da conversa do bot. Cada regra é formada por até quatro estruturas: **fonte de dados, operador, nome de uma variável e um valor esperado**.
 
-
 ![Condicoes de saida](../../assets/concepts/builder/builder-visao-geral-das-condicoes-de-saida-1.png)
 
 Quando a fonte de dados do tipo **Variável** é selecionada, é necessário também adicionar o nome da variável que será analisada na condição.
@@ -19,7 +18,6 @@ Uma condição pode utilizar até quatro diferentes fontes de dados para criar u
 **Operador**
 
 Existem diferentes tipos de operadores para uma regra. A tabela abaixo apresenta todos os operadores e suas respectivas definições:
-
 
 | Nome do operador  | Descrição                                                            |
 | ----------------- | -------------------------------------------------------------------- |
