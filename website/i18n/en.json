@@ -13,6 +13,10 @@
         "title": "[Builder] O que são blocos de controle (Início e Exceção)",
         "sidebar_label": "[Builder] O que são blocos de controle (Início e Exceção)"
       },
+      "concepts/builder/builder-visao-geral-das-acoes": {
+        "title": "[Builder] Visão geral das ações",
+        "sidebar_label": "[Builder] Visão geral das ações"
+      },
       "concepts/builder/builder-visao-geral-das-condicoes-de-saida": {
         "title": "[Builder] Visão geral das condições de saída",
         "sidebar_label": "[Builder] Visão geral das condições de saída"
