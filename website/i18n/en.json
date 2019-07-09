@@ -12,6 +12,9 @@
         "title": "[Builder] O que são blocos de controle (Início e Exceção)",
         "sidebar_label": "[Builder] O que são blocos de controle (Início e Exceção)"
       },
+      "concepts/builder/builder-visao-geral-dos-tipos-de-conteudo": {
+        "title": "[Builder] Visão geral dos tipos de conteúdo"
+      },
       "concepts/builder/builder-visao-geral-variaveis": {
         "title": "[Builder] Visão geral das variáveis",
         "sidebar_label": "[Builder] Visão geral das variáveis"
