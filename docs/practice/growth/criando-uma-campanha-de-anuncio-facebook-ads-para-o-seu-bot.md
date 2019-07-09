@@ -1,9 +1,8 @@
 ---
 id: criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot
 title: Criando uma campanha de anúncio (Facebook Ads) para o seu bot
+sidebar_label: Criando uma campanha de anúncio (Facebook Ads) para o seu bot
 ---
-
-# Criando uma campanha de anúncio (Facebook Ads) para o seu bot
 
 O módulo *Growth* - do inglês crescimento, é o módulo da plataforma responsável por ajudar a aumentar, o número e o engajamento da base de usuários do seu bot. Através deste módulo, é possível buscar novos usuários ou chamar a atenção de usuários que não interagem com sua aplicação por algum tempo.
 
