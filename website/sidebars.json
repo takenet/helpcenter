@@ -38,7 +38,10 @@
       {
         "type": "subcategory",
         "label": "Bots",
-        "ids": []
+        "ids": 
+          [
+            "concepts/bots/bots-chatbots-e-a-importancia-contexto"
+          ]
       },
       {
         "type": "subcategory",
