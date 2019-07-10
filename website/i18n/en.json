@@ -5,6 +5,13 @@
     "previous": "Previous",
     "tagline": "A website for testing",
     "docs": {
+      "api": {
+        "title": "api"
+      },
+      "concepts/bots/bots-chatbots-e-a-importancia-contexto": {
+        "title": "Chatbots e a importância do contexto",
+        "sidebar_label": "Chatbots e a importância do contexto"
+      },
       "concepts/builder/builder-o-que-e-um-bloco-de-atendimento": {
         "title": "[Builder] O que é um bloco de atendimento",
         "sidebar_label": "[Builder] O que é um bloco de atendimento"
@@ -57,27 +64,17 @@
         "title": "Visão geral do Builder",
         "sidebar_label": "Visão geral do Builder"
       },
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
-      },
-      "doc2": {
-        "title": "document number 2"
-      },
-      "doc3": {
-        "title": "This is document number 3"
-      },
-      "doc4": {
-        "title": "Other Document"
-      },
-      "doc5": {
-        "title": "Fifth Document"
-      },
       "practice/growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads": {
-        "title": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)"
+        "title": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)",
+        "sidebar_label": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)"
       },
       "practice/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot": {
-        "title": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot"
+        "title": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot",
+        "sidebar_label": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot"
+      },
+      "practice/growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast": {
+        "title": "Obtendo o número de usuários afetados por um broadcast",
+        "sidebar_label": "Obtendo o número de usuários afetados por um broadcast"
       }
     },
     "links": {

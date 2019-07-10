@@ -88,12 +88,66 @@
       {
         "type": "subcategory",
         "label": "Growth",
-        "ids": ["practice/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot"]
+        "ids": [
+          "practice/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot",
+          "practice/growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads",
+          "practice/growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast"
+        ]
       },
       {
         "type": "subcategory",
-        "label": "Growth",
-        "ids": ["practice/growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads"]
+        "label": "BLiP Desk",
+        "ids": []
+      },
+      {
+        "type": "subcategory",
+        "label": "Gestão",
+        "ids": []
+      },
+      {
+        "type": "subcategory",
+        "label": "API HTTP e SDKs",
+        "ids": []
+      },
+      {
+        "type": "subcategory",
+        "label": "Builder",
+        "ids": []
+      },
+      {
+        "type": "subcategory",
+        "label": "BLiP Chat",
+        "ids": []
+      },
+      {
+        "type": "subcategory",
+        "label": "Canais",
+        "ids": []
+      },
+      {
+        "type": "subcategory",
+        "label": "AI",
+        "ids": []
+      },
+      {
+        "type": "subcategory",
+        "label": "Análise de Dados",
+        "ids": []
+      },
+      {
+        "type": "subcategory",
+        "label": "Router",
+        "ids": []
+      },
+      {
+        "type": "subcategory",
+        "label": "Integrações",
+        "ids": []
+      },
+      {
+        "type": "subcategory",
+        "label": "Contatos",
+        "ids": []
       }
     ]
   }
