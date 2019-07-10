@@ -40,7 +40,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'concepts/builder/builder-visao-geral-variaveis', label: 'Artigos'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'api', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
