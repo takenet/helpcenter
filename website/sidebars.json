@@ -67,7 +67,8 @@
         "label": "Métricas",
         "ids": 
         [
-          "concepts/metrics/metrics-entendendo-diferentes-tipos-msg"
+          "concepts/metrics/metrics-entendendo-diferentes-tipos-msg",
+          "concepts/metrics/metrics-descricao-metricas-blip"
         ]
       },
       {

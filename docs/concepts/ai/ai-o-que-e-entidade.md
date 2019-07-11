@@ -1,7 +1,7 @@
 ---
 id: ai-o-que-e-entidade
 title: O que é uma entidade?
-sidebar_title: O que é uma entidade?
+sidebar_label: O que é uma entidade?
 ---
 
 Entidades podem ser entendidas como **pedaços do texto que completam o sentido de intenções**.
