@@ -95,7 +95,8 @@
         "label": "BLiP Desk",
         "ids": 
           [
-            "concepts/blip-desk/desk-descricao-metricas-desk"
+            "concepts/blip-desk/desk-descricao-metricas-desk",
+            "concepts/blip-desk/desk-visao-geral-desk"
           ]
       },
       {
