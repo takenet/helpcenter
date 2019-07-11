@@ -8,6 +8,10 @@
       "api": {
         "title": "api"
       },
+      "concepts/ai/ai-conceitos-basicos-nlp-e-ai": {
+        "title": "Conceitos básicos para utilizar NLP e IA em chatbots",
+        "sidebar_label": "Conceitos básicos para utilizar NLP e IA em chatbots"
+      },
       "concepts/bots/bots-chatbots-e-a-importancia-contexto": {
         "title": "Chatbots e a importância do contexto",
         "sidebar_label": "Chatbots e a importância do contexto"
