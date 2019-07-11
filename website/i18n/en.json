@@ -16,6 +16,13 @@
         "title": "Importância de IA e NLP para chatbots",
         "sidebar_label": "Importância de IA e NLP para chatbots"
       },
+      "concepts/ai/ai-o-que-e-entidade": {
+        "title": "O que é uma entidade?"
+      },
+      "concepts/ai/ai-o-que-e-intencao": {
+        "title": "O que é intenção?",
+        "sidebar_label": "O que é intenção?"
+      },
       "concepts/bots/bots-chatbots-e-a-importancia-contexto": {
         "title": "Chatbots e a importância do contexto",
         "sidebar_label": "Chatbots e a importância do contexto"
@@ -71,6 +78,14 @@
       "concepts/getting-started/gs-visao-geral-do-builder": {
         "title": "Visão geral do Builder",
         "sidebar_label": "Visão geral do Builder"
+      },
+      "concepts/integration/ana-integracao-ferramentas-analytics": {
+        "title": "Integração com ferramentas de analytics",
+        "sidebar_label": "Integraão com ferramentas de analytics"
+      },
+      "concepts/metrics/metrics-entendendo-diferentes-tipos-msg": {
+        "title": "Entendendo os diferentes tipos de mensagem do BLiP",
+        "sidebar_label": "Entendendo os diferentes tipos de mensagem do BLiP"
       },
       "practice/growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads": {
         "title": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)",
