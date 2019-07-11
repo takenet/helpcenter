@@ -12,6 +12,10 @@
         "title": "Conceitos básicos para utilizar NLP e IA em chatbots",
         "sidebar_label": "Conceitos básicos para utilizar NLP e IA em chatbots"
       },
+      "concepts/ai/ai-importancia-de-ia-nlp-chatbots": {
+        "title": "Importância de IA e NLP para chatbots",
+        "sidebar_label": "Importância de IA e NLP para chatbots"
+      },
       "concepts/bots/bots-chatbots-e-a-importancia-contexto": {
         "title": "Chatbots e a importância do contexto",
         "sidebar_label": "Chatbots e a importância do contexto"
