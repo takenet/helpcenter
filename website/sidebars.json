@@ -83,13 +83,11 @@
       },
       {
         "type": "subcategory",
-        "label": "Métricas",
-        "ids": []
-      },
-      {
-        "type": "subcategory",
         "label": "BLiP Chat",
-        "ids": []
+        "ids": 
+          [
+            "concepts/blip-chat/chat-o-que-e-blip-chat"
+          ]
       },
       {
         "type": "subcategory",
