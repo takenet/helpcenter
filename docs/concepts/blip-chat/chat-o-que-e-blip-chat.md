@@ -26,9 +26,9 @@ A imagem abaixo apresenta o BLiP Chat integrado ao site do BLiP como um widget f
 
 Você também pode adicionar o BLiP Chat em aplicações móveis nativas. Para maiores informações sobre como utilizar as bibliotecas mobile do BLiP Chat, verifique os projetos [Android](https://github.com/takenet/blip-chat-android) e [iOS](https://github.com/takenet/blip-chat-ios) no Github
 
-![BLiP Chat Android](../../assets/concepts/blip-chat/chat-o-que-e-blip-chat-3.png) ![BLiP Chat iOS](../../assets/concepts/blip-chat/chat-o-que-e-blip-chat-4.png)<br><br>
+![BLiP Chat Android](../../assets/concepts/blip-chat/chat-o-que-e-blip-chat-3.png) <br><br>
 
-3. Através de um link
+1. Através de um link
 
 Por fim, também é possível enviar um link para seus usuários e permitir que eles interajam com o seu bot. Essa é uma alternativa interessante para converter usuários entre canais.
 

@@ -24,6 +24,18 @@
         "title": "O que é intenção?",
         "sidebar_label": "O que é intenção?"
       },
+      "concepts/api-http-sdk/api-construcao-api-sdk": {
+        "title": "Construção de bots através de SDKs ou API HTTP",
+        "sidebar_label": "Construção de bots através de SDKs ou API HTTP"
+      },
+      "concepts/api-http-sdk/api-facilitando-criacao-extensoes": {
+        "title": "Facilitando a criação do seu chatbot através das extensões",
+        "sidebar_label": "Facilitando a criação do seu chatbot através das entensões"
+      },
+      "concepts/blip-chat/chat-o-que-e-blip-chat": {
+        "title": "O que é o BLiP Chat?",
+        "sidebar_label": "O que é o BLiP Chat?"
+      },
       "concepts/bots/bots-chatbots-e-a-importancia-contexto": {
         "title": "Chatbots e a importância do contexto",
         "sidebar_label": "Chatbots e a importância do contexto"
