@@ -88,6 +88,10 @@
         "title": "[Builder] Visão geral das variáveis",
         "sidebar_label": "[Builder] Visão geral das variáveis"
       },
+      "concepts/channels/channels-o-que-e-workplace": {
+        "title": "O que é Workplace?",
+        "sidebar_label": "O que é o Workplace?"
+      },
       "concepts/general/gen-politica-de-violacao-mensagens": {
         "title": "Política de violação de mensagens ativas do BLiP",
         "sidebar_label": "Política de violação de mensagens ativas do BLiP"
@@ -119,6 +123,10 @@
       "concepts/metrics/metrics-o-que-sao-usuarios-unicos": {
         "title": "O que são usuários únicos do BLiP",
         "sidebar_label": "O que são usuários únicos do BLiP"
+      },
+      "concepts/router/router-hierarquia-bots-subbots": {
+        "title": "Hierarquia (ou arquitetura) de bots e subbots",
+        "sidebar_label": "Hierarquia (ou arquitetura) de bots e subbots"
       },
       "practice/growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads": {
         "title": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)",

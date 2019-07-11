@@ -110,7 +110,10 @@
       {
         "type": "subcategory",
         "label": "Canais",
-        "ids": []
+        "ids": 
+          [
+            "concepts/channels/channels-o-que-e-workplace"
+          ]
       }
     ],
     "Prática" : [
