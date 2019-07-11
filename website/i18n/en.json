@@ -36,6 +36,10 @@
         "title": "O que é o BLiP Chat?",
         "sidebar_label": "O que é o BLiP Chat?"
       },
+      "concepts/blip-chat/chat-tipos-de-autenticacao-chat": {
+        "title": "Tipos de autenticação dos usuários no BLiP Chat",
+        "sidebar_label": "Tipos de autenticação dos usuários no BLiP Chat"
+      },
       "concepts/bots/bots-chatbots-e-a-importancia-contexto": {
         "title": "Chatbots e a importância do contexto",
         "sidebar_label": "Chatbots e a importância do contexto"
@@ -94,7 +98,7 @@
       },
       "concepts/integration/integ-integracao-ferramentas-analytics": {
         "title": "Integração com ferramentas de analytics",
-        "sidebar_label": "Integraão com ferramentas de analytics"
+        "sidebar_label": "Integração com ferramentas de analytics"
       },
       "concepts/metrics/metrics-descricao-metricas-blip": {
         "title": "Descrição das métricas geradas pelo BLiP",

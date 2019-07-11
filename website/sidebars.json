@@ -93,7 +93,10 @@
       {
         "type": "subcategory",
         "label": "BLiP Desk",
-        "ids": []
+        "ids": 
+          [
+            "concepts/blip-desk/desk-descricao-metricas-desk"
+          ]
       },
       {
         "type": "subcategory",
