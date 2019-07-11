@@ -28,7 +28,7 @@ Você também pode adicionar o BLiP Chat em aplicações móveis nativas. Para m
 
 ![BLiP Chat Android](../../assets/concepts/blip-chat/chat-o-que-e-blip-chat-3.png) <br><br>
 
-1. Através de um link
+3. Através de um link
 
 Por fim, também é possível enviar um link para seus usuários e permitir que eles interajam com o seu bot. Essa é uma alternativa interessante para converter usuários entre canais.
 

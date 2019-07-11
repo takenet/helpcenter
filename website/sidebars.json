@@ -86,7 +86,8 @@
         "label": "BLiP Chat",
         "ids": 
           [
-            "concepts/blip-chat/chat-o-que-e-blip-chat"
+            "concepts/blip-chat/chat-o-que-e-blip-chat",
+            "concepts/blip-chat/chat-tipos-de-autenticacao-chat"
           ]
       },
       {

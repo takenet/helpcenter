@@ -1,7 +1,7 @@
 ---
 id: integ-integracao-ferramentas-analytics
 title: Integração com ferramentas de analytics
-sidebar_label: Integraão com ferramentas de analytics
+sidebar_label: Integração com ferramentas de analytics
 ---
 
 Durante o evento [Chatbot4Devs](http://chatbot4devs.take.net/), o BLiP, anunciou mais uma grande novidade: o hub de ferramentas de *analytics* 😃!
