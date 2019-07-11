@@ -44,6 +44,10 @@
         "title": "Descrição das métricas do BLiP Desk",
         "sidebar_label": "Descrição das métricas do BLiP Desk"
       },
+      "concepts/blip-desk/desk-visao-geral-desk": {
+        "title": "Visão geral do BLiP Desk",
+        "sidebar_label": "Visão geral do BLiP Desk"
+      },
       "concepts/bots/bots-chatbots-e-a-importancia-contexto": {
         "title": "Chatbots e a importância do contexto",
         "sidebar_label": "Chatbots e a importância do contexto"
