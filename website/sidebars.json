@@ -46,7 +46,10 @@
       {
         "type": "subcategory",
         "label": "AI",
-        "ids": []
+        "ids": 
+          [
+            "concepets/ai/ai-conceitos-basicos-nlp-e-ai"
+          ]
       },
       {
         "type": "subcategory",
