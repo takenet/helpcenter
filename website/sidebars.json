@@ -77,7 +77,8 @@
         "label": "API HTTP e SDKs",
         "ids": 
           [
-            "concepts/api-http-sdk/api-facilitando-criacao-entensoes"
+            "concepts/api-http-sdk/api-facilitando-criacao-entensoes",
+            "concepts/api-construcao-sdk-api"
           ]
       },
       {
