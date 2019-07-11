@@ -75,7 +75,10 @@
       {
         "type": "subcategory",
         "label": "API HTTP e SDKs",
-        "ids": []
+        "ids": 
+          [
+            "concepts/api-http-sdk/api-facilitando-criacao-entensoes"
+          ]
       },
       {
         "type": "subcategory",
