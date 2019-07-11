@@ -57,14 +57,17 @@
       {
         "type": "subcategory",
         "label": "Integração",
-        "ids": []
+        "ids": 
+          [
+            "concepts/integration/integ-integracao-ferramentas-analytics"
+          ]
       },
       {
         "type": "subcategory",
-        "label": "Analytics",
+        "label": "Métricas",
         "ids": 
         [
-          "concepts/analytics/ana-integracao-ferramentas-analytics"
+          
         ]
       },
       {
