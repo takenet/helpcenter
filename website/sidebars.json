@@ -61,6 +61,14 @@
       },
       {
         "type": "subcategory",
+        "label": "Analytics",
+        "ids": 
+        [
+          "concepts/analytics/ana-integracao-ferramentas-analytics"
+        ]
+      },
+      {
+        "type": "subcategory",
         "label": "API HTTP e SDKs",
         "ids": []
       },
