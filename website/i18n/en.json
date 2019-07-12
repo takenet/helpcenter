@@ -187,6 +187,10 @@
       "practice/management/mana-gerenciando-permissoes-acesso-equipe": {
         "title": "Gerenciando permissões de acesso da equipe de um bot",
         "sidebar_label": "Gerenciando permissões de acesso da equipe de um bot"
+      },
+      "practice/management/mana-transcricao-conversas-contatos": {
+        "title": "Transcrição das conversas dos contatos",
+        "sidebar_label": "Transcrição das conversas dos contatos"
       }
     },
     "links": {
