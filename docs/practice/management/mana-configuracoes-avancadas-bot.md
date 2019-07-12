@@ -14,4 +14,4 @@ A tela de configurações avançadas lista várias configurações que o BLiP ar
 
 **<p align="center"> ... </p>**
 
-<font size=30px>**ATENÇÃO: Não altere nenhum valor nessa tela a menos que tenha certeza do que está fazendo. Qualquer modificação indevida pode fazer com que seu bot deixe de funcionar corretamente. </font>😉**
+<font size=5px>**ATENÇÃO: Não altere nenhum valor nessa tela a menos que tenha certeza do que está fazendo. Qualquer modificação indevida pode fazer com que seu bot deixe de funcionar corretamente. </font>😉**
