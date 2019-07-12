@@ -183,6 +183,10 @@
       "practice/management/mana-configuracoes-avancadas-bot": {
         "title": "Configurações avançadas do bot",
         "sidebar_label": "Configurações avançadas do bot"
+      },
+      "practice/management/mana-gerenciando-permissoes-acesso-equipe": {
+        "title": "Gerenciando permissões de acesso da equipe de um bot",
+        "sidebar_label": "Gerenciando permissões de acesso da equipe de um bot"
       }
     },
     "links": {
