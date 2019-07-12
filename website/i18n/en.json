@@ -176,6 +176,10 @@
         "title": "Obtendo o número de usuários afetados por um broadcast",
         "sidebar_label": "Obtendo o número de usuários afetados por um broadcast"
       },
+      "practice/integrations/integ-chatbase-como-enviar-dados-chatbase": {
+        "title": "Integração Chatbase - Como enviar dados de um bot para o Chatbase?",
+        "sidebar_label": "Integração Chatbase - Como enviar dados de um bot para um Chatbase?"
+      },
       "practice/management/mana-como-marcar-contato-como-teste": {
         "title": "Como marcar um contato como usuários de teste",
         "sidebar_label": "Como marcar um contato como usuários de teste"
