@@ -23,7 +23,8 @@ As variáveis que temos são:
 E o seguinte método para processar o pedido:
 
 ```csharp
-public Task<string> ConfirmOrderAsync(string size, string flavor, string address, IRequestContext context)
+public Task<string> ConfirmOrderAsync(string size, string flavor, string address,
+                                        IRequestContext context)
 {
     // 1. Cria e armazena o pedido
     var order = new Order

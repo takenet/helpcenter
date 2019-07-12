@@ -179,7 +179,10 @@
       {
         "type": "subcategory",
         "label": "Contatos",
-        "ids": []
+        "ids": 
+          [
+            "practice/contacts/contacts-como-encontrar-id-usuario"
+          ]
       }
     ], 
     "Geral" : [

@@ -128,6 +128,14 @@
         "title": "Hierarquia (ou arquitetura) de bots e subbots",
         "sidebar_label": "Hierarquia (ou arquitetura) de bots e subbots"
       },
+      "general/auxiliary-tools/aux-central-notificacoes": {
+        "title": "Central de Notificações",
+        "sidebar_label": "Central de Notificações"
+      },
+      "general/auxiliary-tools/aux-utilizando-textc-construir-conversa": {
+        "title": "Utilizando o Textc para construir uma conversa contextual",
+        "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
+      },
       "practice/growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads": {
         "title": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)",
         "sidebar_label": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)"
@@ -149,7 +157,8 @@
     },
     "categories": {
       "Conceitos": "Conceitos",
-      "Prática": "Prática"
+      "Prática": "Prática",
+      "Geral": "Geral"
     }
   },
   "pages-strings": {
