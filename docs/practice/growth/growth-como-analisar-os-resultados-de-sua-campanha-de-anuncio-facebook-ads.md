@@ -1,5 +1,5 @@
 ---
-id: como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads
+id: growth-como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads
 title: Como analisar os resultados de sua campanha de anúncio (Facebook Ads)
 sidebar_label: Como analisar os resultados de sua campanha de anúncio (Facebook Ads)
 ---

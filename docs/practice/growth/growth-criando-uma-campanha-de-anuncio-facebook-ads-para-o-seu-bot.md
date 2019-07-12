@@ -1,5 +1,5 @@
 ---
-id: criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot
+id: growth-criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot
 title: Criando uma campanha de anúncio (Facebook Ads) para o seu bot
 sidebar_label: Criando uma campanha de anúncio (Facebook Ads) para o seu bot
 ---

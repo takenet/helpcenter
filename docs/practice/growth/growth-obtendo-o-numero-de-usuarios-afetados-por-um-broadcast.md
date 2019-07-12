@@ -1,5 +1,5 @@
 ---
-id: obtendo-o-numero-de-usuarios-afetados-por-um-broadcast
+id: growth-obtendo-o-numero-de-usuarios-afetados-por-um-broadcast
 title: Obtendo o número de usuários afetados por um broadcast
 sidebar_label: Obtendo o número de usuários afetados por um broadcast
 ---
