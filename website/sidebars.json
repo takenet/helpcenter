@@ -193,7 +193,8 @@
         "label": "Integrações",
         "ids": 
           [
-            "practice/integrations/integ-chatbase-como-enviar-dados-chatbase"
+            "practice/integrations/integ-chatbase-como-enviar-dados-chatbase",
+            "practice/integrations/integ-agendando-uma-mensagem-scheduler"
           ]
       },
       {
