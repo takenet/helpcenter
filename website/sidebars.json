@@ -141,7 +141,10 @@
       {
         "type": "subcategory",
         "label": "Gestão",
-        "ids": []
+        "ids": 
+          [
+            "practice/management/mana-como-marcar-contato-como-teste"
+          ]
       },
       {
         "type": "subcategory",
