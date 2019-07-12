@@ -156,6 +156,10 @@
         "title": "Como filtrar um ticket por ID?",
         "sidebar_label": "Como filtrar um ticket por ID?"
       },
+      "practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk": {
+        "title": "Como realizar um atendimento através do BLiP Desk",
+        "sidebar_label": "Como realizar um atendimento através do BLiP Desk"
+      },
       "practice/blip-desk/desk-gerenciamento-equipes": {
         "title": "Gerenciando equipes de atendimento no BLiP Desk",
         "sidebar_label": "Gerenciado equipes de atendimento no BLiP Desk"
