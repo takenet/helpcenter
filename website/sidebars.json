@@ -155,7 +155,8 @@
         "label": "API HTTP e SDKs",
         "ids": 
           [
-            "practice/api-http-sdks/api-http-sdks-como-encontrar-a-api-key-do-meu-bot"
+            "practice/api-http-sdks/api-http-sdks-como-encontrar-a-api-key-do-meu-bot",
+            "practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger"
           ]
       },
       {

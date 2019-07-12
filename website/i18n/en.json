@@ -144,6 +144,10 @@
         "title": "Como encontrar a API-KEY do meu bot?",
         "sidebar_label": "Como encontrar a API-KEY do meu bot?"
       },
+      "practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger": {
+        "title": "[HTTP] Criando um bot para receber feeds no Messenger",
+        "sidebar_label": "[HTTP] Criando um bot para receber feeds no Messenger"
+      },
       "practice/blip-desk/desk-como-ativar-blip-desk-canal": {
         "title": "Como ativar o BLiP Desk como um canal de atendimento",
         "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
