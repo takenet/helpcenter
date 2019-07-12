@@ -181,6 +181,17 @@
         "label": "Contatos",
         "ids": []
       }
+    ], 
+    "Geral" : [
+      {
+      "type": "subcategory",
+      "label": "Ferramentas Auxiliares",
+      "ids": 
+        [
+          "concepts/auxiliary-tools/aux-central-notificacoes", 
+          
+        ]
+      }
     ]
   }
 }
