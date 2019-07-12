@@ -16,6 +16,6 @@ Para acessar o identificador de um usuário através do portal acesse o seu bot,
 
 ![Id do usuário na URL do navegador](../../assets/practice/contacts/contacts-como-encontrar-id-usuario-1.png)
 
-Todo o texto localizado após a rota **.../users/** representa o identificador do usuário em questão. Neste exemplo o usuário Rafael Pacheco possui o identificador **\`1419130854872447@messenger.gw.msging.net\`**.
+Todo o texto localizado após a rota **.../users/** representa o identificador do usuário em questão. Neste exemplo o usuário Rafael Pacheco possui o identificador **\`1419130854872447@messenger<span>.</span>gw.msging.net\`**.
 
 Para saber mais sobre como o identificador de um usuário é formado [clique aqui](https://docs.blip.ai/#addressing).

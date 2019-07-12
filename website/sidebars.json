@@ -129,7 +129,10 @@
       {
         "type": "subcategory",
         "label": "BLiP Desk",
-        "ids": []
+        "ids": 
+          [
+            "practice/blip-desk/desk-como-filtrar-ticket-id"
+          ]
       },
       {
         "type": "subcategory",
