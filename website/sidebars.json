@@ -191,7 +191,10 @@
       {
         "type": "subcategory",
         "label": "Integrações",
-        "ids": []
+        "ids": 
+          [
+            "practice/integrations/integ-chatbase-como-enviar-dados-chatbase"
+          ]
       },
       {
         "type": "subcategory",
