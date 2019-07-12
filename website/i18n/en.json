@@ -144,6 +144,10 @@
         "title": "Como realizar um atendimento através do BLiP Desk",
         "sidebar_label": "Como realizar um atendimento através do BLiP Desk"
       },
+      "practice/blip-desk/desk-como-ativar-blip-desk-canal": {
+        "title": "Como ativar o BLiP Desk como um canal de atendimento",
+        "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
+      },
       "practice/blip-desk/desk-como-definir-regras-atendimento": {
         "title": "Como definir regras de atendimento no BLiP Desk",
         "sidebar_label": "Como definir regras de atendimento no BLiP Desk"
@@ -151,6 +155,10 @@
       "practice/blip-desk/desk-como-filtrar-ticket-id": {
         "title": "Como filtrar um ticket por ID?",
         "sidebar_label": "Como filtrar um ticket por ID?"
+      },
+      "practice/blip-desk/desk-gerenciamento-equipes": {
+        "title": "Gerenciando equipes de atendimento no BLiP Desk",
+        "sidebar_label": "Gerenciado equipes de atendimento no BLiP Desk"
       },
       "practice/blip-desk/desk-utilizando-variav-respostas": {
         "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
@@ -171,6 +179,22 @@
       "practice/growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast": {
         "title": "Obtendo o número de usuários afetados por um broadcast",
         "sidebar_label": "Obtendo o número de usuários afetados por um broadcast"
+      },
+      "practice/management/mana-como-marcar-contato-como-teste": {
+        "title": "Como marcar um contato como usuários de teste",
+        "sidebar_label": "Como marcar um contato como usuários de teste"
+      },
+      "practice/management/mana-configuracoes-avancadas-bot": {
+        "title": "Configurações avançadas do bot",
+        "sidebar_label": "Configurações avançadas do bot"
+      },
+      "practice/management/mana-gerenciando-permissoes-acesso-equipe": {
+        "title": "Gerenciando permissões de acesso da equipe de um bot",
+        "sidebar_label": "Gerenciando permissões de acesso da equipe de um bot"
+      },
+      "practice/management/mana-transcricao-conversas-contatos": {
+        "title": "Transcrição das conversas dos contatos",
+        "sidebar_label": "Transcrição das conversas dos contatos"
       }
     },
     "links": {
