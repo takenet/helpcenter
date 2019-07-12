@@ -180,6 +180,10 @@
         "title": "Obtendo o número de usuários afetados por um broadcast",
         "sidebar_label": "Obtendo o número de usuários afetados por um broadcast"
       },
+      "practice/integrations/integ-agendando-uma-mensagem-scheduler": {
+        "title": "Agendando uma mensagem com a extensão scheduler",
+        "sidebar_label": "Agendando uma mensagem com a extensão scheduler"
+      },
       "practice/integrations/integ-chatbase-como-enviar-dados-chatbase": {
         "title": "Integração Chatbase - Como enviar dados de um bot para o Chatbase?",
         "sidebar_label": "Integração Chatbase - Como enviar dados de um bot para um Chatbase?"
