@@ -159,7 +159,10 @@
       {
         "type": "subcategory",
         "label": "AI",
-        "ids": []
+        "ids": 
+          [
+            "practice/ai/ai-como-treinar-modelo-nlp"
+          ]
       },
       {
         "type": "subcategory",
