@@ -143,7 +143,8 @@
         "label": "Gestão",
         "ids": 
           [
-            "practice/management/mana-como-marcar-contato-como-teste"
+            "practice/management/mana-como-marcar-contato-como-teste",
+            "practice/management/mana-configuracoes-avancadas-bot"
           ]
       },
       {
