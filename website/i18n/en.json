@@ -140,6 +140,18 @@
         "title": "Como treinar seu modelo de NLP?",
         "sidebar_label": "Como treinar seu modelo de NLP?"
       },
+      "practice/blip-desk/desk-como-definir-regras-atendimento": {
+        "title": "Como definir regras de atendimento no BLiP Desk",
+        "sidebar_label": "Como definir regras de atendimento no BLiP Desk"
+      },
+      "practice/blip-desk/desk-como-filtrar-ticket-id": {
+        "title": "Como filtrar um ticket por ID?",
+        "sidebar_label": "Como filtrar um ticket por ID?"
+      },
+      "practice/blip-desk/desk-utilizando-variav-respostas": {
+        "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
+        "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
+      },
       "practice/contacts/contacts-como-encontrar-id-usuario": {
         "title": "Como encontrar o identificador de um usuário",
         "sidebar_label": "Como encontrar o identificador de um usuário"
