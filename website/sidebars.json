@@ -188,8 +188,9 @@
       "label": "Ferramentas Auxiliares",
       "ids": 
         [
-          "concepts/auxiliary-tools/aux-central-notificacoes", 
-          
+          "general/auxiliary-tools/aux-central-notificacoes",
+          "general/auxiliary-tools/aux-utilizando-textc-construir-conversa"
+
         ]
       }
     ]
