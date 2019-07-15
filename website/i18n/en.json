@@ -136,6 +136,10 @@
         "title": "Utilizando o Textc para construir uma conversa contextual",
         "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
       },
+      "practice/ai/ai-como-configurar-dialogflow": {
+        "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
+        "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
+      },
       "practice/ai/ai-como-criar-uma-intencao": {
         "title": "Como criar uma intenção",
         "sidebar_label": "Como criar uma intenção"
