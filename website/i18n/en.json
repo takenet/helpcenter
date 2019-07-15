@@ -144,9 +144,29 @@
         "title": "Como encontrar a API-KEY do meu bot?",
         "sidebar_label": "Como encontrar a API-KEY do meu bot?"
       },
+      "practice/api-http-sdks/api-http-sdks-criando-um-bot-para-busca-de-imagens-no-bing": {
+        "title": "Criando um bot para busca de imagens no BING",
+        "sidebar_label": "Criando um bot para busca de imagens no BING"
+      },
       "practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger": {
         "title": "[HTTP] Criando um bot para receber feeds no Messenger",
         "sidebar_label": "[HTTP] Criando um bot para receber feeds no Messenger"
+      },
+      "practice/api-http-sdks/api-http-sdks-criando-um-chatbot-curriculo-usando-api-http": {
+        "title": "Criando um chatbot 'currículo' usando API HTTP",
+        "sidebar_label": "Criando um chatbot 'currículo' usando API HTTP"
+      },
+      "practice/api-http-sdks/api-http-sdks-sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario": {
+        "title": "[SDK C#] Armazenando o último acesso de um usuário",
+        "sidebar_label": "[SDK C#] Armazenando o último acesso de um usuário"
+      },
+      "practice/api-http-sdks/api-http-sdks-sdk-csharp-com-suporte-a-dotnet-core": {
+        "title": "SDK C# com suporte a .NET Core",
+        "sidebar_label": "SDK C# com suporte a .NET Core"
+      },
+      "practice/api-http-sdks/api-http-sdks-sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo": {
+        "title": "[SDK C#] Criando uma lista de distribuição de conteúdo",
+        "sidebar_label": "[SDK C#] Criando uma lista de distribuição de conteúdo"
       },
       "practice/blip-desk/desk-como-ativar-blip-desk-canal": {
         "title": "Como ativar o BLiP Desk como um canal de atendimento",
