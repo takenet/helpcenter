@@ -196,7 +196,10 @@
       {
         "type": "subcategory",
         "label": "Análise de Dados",
-        "ids": []
+        "ids": 
+          [
+            "practice/data-analytics/da-tratando-eventos-not-handled-sessionFlow-chatbase"
+          ]
       },
       {
         "type": "subcategory",
