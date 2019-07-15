@@ -156,6 +156,10 @@
         "title": "Criando um chatbot 'currículo' usando API HTTP",
         "sidebar_label": "Criando um chatbot 'currículo' usando API HTTP"
       },
+      "practice/api-http-sdks/api-http-sdks-sdk-csharp-com-suporte-a-dotnet-core": {
+        "title": "SDK C# com suporte a .NET Core",
+        "sidebar_label": "SDK C# com suporte a .NET Core"
+      },
       "practice/blip-desk/desk-como-ativar-blip-desk-canal": {
         "title": "Como ativar o BLiP Desk como um canal de atendimento",
         "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
