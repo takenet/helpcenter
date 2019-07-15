@@ -199,7 +199,10 @@
       {
         "type": "subcategory",
         "label": "Router",
-        "ids": []
+        "ids": 
+          [
+            "practice/router/router-criando-bot-com-3-subbots"
+          ]
       },
       {
         "type": "subcategory",

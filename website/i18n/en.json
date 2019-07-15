@@ -259,6 +259,10 @@
       "practice/management/mana-transcricao-conversas-contatos": {
         "title": "Transcrição das conversas dos contatos",
         "sidebar_label": "Transcrição das conversas dos contatos"
+      },
+      "practice/router/router-criando-bot-com-3-subbots": {
+        "title": "Criando um bot router com 3 subbots",
+        "sidebar_label": "Criando um bot router com 3 subbots"
       }
     },
     "links": {
