@@ -172,6 +172,10 @@
         "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
         "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
       },
+      "practice/builder/builder-como-utilizar-debug-builder": {
+        "title": "Como utilizar a ferramenta de debug do Builder",
+        "sidebar_label": "Como utilizar a ferramenta de debug do Builder"
+      },
       "practice/contacts/contacts-como-encontrar-id-usuario": {
         "title": "Como encontrar o identificador de um usuário",
         "sidebar_label": "Como encontrar o identificador de um usuário"
@@ -195,6 +199,10 @@
       "practice/integrations/integ-chatbase-como-enviar-dados-chatbase": {
         "title": "Integração Chatbase - Como enviar dados de um bot para o Chatbase?",
         "sidebar_label": "Integração Chatbase - Como enviar dados de um bot para um Chatbase?"
+      },
+      "practice/integrations/integ-dashbot-como-enviar-dados-dashbot": {
+        "title": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?",
+        "sidebar_label": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?"
       },
       "practice/management/mana-como-marcar-contato-como-teste": {
         "title": "Como marcar um contato como usuários de teste",
