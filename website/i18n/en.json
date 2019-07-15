@@ -156,6 +156,10 @@
         "title": "Criando um chatbot 'currículo' usando API HTTP",
         "sidebar_label": "Criando um chatbot 'currículo' usando API HTTP"
       },
+      "practice/api-http-sdks/api-http-sdks-sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario": {
+        "title": "[SDK C#] Armazenando o último acesso de um usuário",
+        "sidebar_label": "[SDK C#] Armazenando o último acesso de um usuário"
+      },
       "practice/api-http-sdks/api-http-sdks-sdk-csharp-com-suporte-a-dotnet-core": {
         "title": "SDK C# com suporte a .NET Core",
         "sidebar_label": "SDK C# com suporte a .NET Core"
