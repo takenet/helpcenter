@@ -46,7 +46,7 @@ Para verificar se existe algum atendente disponível no Builder siga os passos a
 
 ![Criando a requisição HTTP](../../assets/practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder-2.png)
 
-**Observação**: Caso não saiba onde encontrar a API-KEY do seu bot, veja esse artigo: [Como encontrar a API-KEY de um bot no BLiP](practice/api-http-sdks/api-http-sdks-como-encontrar-a-api-key-do-meu-bot).
+**Observação**: Caso não saiba onde encontrar a API-KEY do seu bot, veja esse artigo: [Como encontrar a API-KEY de um bot no BLiP](practice/api-http-sdks/api-http-sdks-como-encontrar-a-api-key-do-meu-bot.md).
 
 3. Adicione mais uma ação de entrada (após a ação de requisição HTTP criada no passo 2) do tipo Script JS, com o script abaixo:
 
