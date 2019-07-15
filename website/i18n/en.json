@@ -140,6 +140,10 @@
         "title": "Como criar uma intenção",
         "sidebar_label": "Como criar uma intenção"
       },
+      "practice/ai/ai-como-exportar-base-conhecimento": {
+        "title": "Como importar/exportar uma base de conhecimento",
+        "sidebar_label": "Como importar/exportar uma base de conhecimento"
+      },
       "practice/ai/ai-como-treinar-modelo-nlp": {
         "title": "Como treinar seu modelo de NLP?",
         "sidebar_label": "Como treinar seu modelo de NLP?"
