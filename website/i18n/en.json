@@ -196,6 +196,14 @@
         "title": "Como utilizar a ferramenta de debug do Builder",
         "sidebar_label": "Como utilizar a ferramenta de debug do Builder"
       },
+      "practice/builder/builder-importando-o-fluxo-de-um-bot-no-builder": {
+        "title": "Importando o fluxo de um bot no Builder",
+        "sidebar_label": "Importando o fluxo de um bot no Builder"
+      },
+      "practice/builder/builder-salvando-informacoes-de-um-usuario": {
+        "title": "Salvando informações de um usuário",
+        "sidebar_label": "Salvando informações de um usuário"
+      },
       "practice/contacts/contacts-como-encontrar-id-usuario": {
         "title": "Como encontrar o identificador de um usuário",
         "sidebar_label": "Como encontrar o identificador de um usuário"
