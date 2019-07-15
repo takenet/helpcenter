@@ -170,6 +170,7 @@
         "ids": 
           [
             "practice/builder/builder-salvando-informacoes-de-um-usuario",
+            "practice/builder/builder-importando-o-fluxo-de-um-bot-no-builder",
             "practice/builder/builder-como-utilizar-debug-builder"
           ]
       },
