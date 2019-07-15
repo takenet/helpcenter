@@ -176,6 +176,10 @@
         "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
         "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
       },
+      "practice/builder/builder-como-utilizar-debug-builder": {
+        "title": "Como utilizar a ferramenta de debug do Builder",
+        "sidebar_label": "Como utilizar a ferramenta de debug do Builder"
+      },
       "practice/contacts/contacts-como-encontrar-id-usuario": {
         "title": "Como encontrar o identificador de um usuário",
         "sidebar_label": "Como encontrar o identificador de um usuário"
@@ -196,9 +200,25 @@
         "title": "Agendando uma mensagem com a extensão scheduler",
         "sidebar_label": "Agendando uma mensagem com a extensão scheduler"
       },
+      "practice/integrations/integ-botanalytics-como-enviar-dados-botanalytics": {
+        "title": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?",
+        "sidebar_label": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?"
+      },
       "practice/integrations/integ-chatbase-como-enviar-dados-chatbase": {
         "title": "Integração Chatbase - Como enviar dados de um bot para o Chatbase?",
         "sidebar_label": "Integração Chatbase - Como enviar dados de um bot para um Chatbase?"
+      },
+      "practice/integrations/integ-dashbot-como-enviar-dados-dashbot": {
+        "title": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?",
+        "sidebar_label": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?"
+      },
+      "practice/integrations/integ-enviando-dados-atraves-webhook": {
+        "title": "Enviando dados do seu bot através de Webhooks",
+        "sidebar_label": "Enviando dados do seu bot através de Webhooks"
+      },
+      "practice/integrations/integ-event-track-sdk-csharp": {
+        "title": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade",
+        "sidebar_label": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade"
       },
       "practice/management/mana-como-marcar-contato-como-teste": {
         "title": "Como marcar um contato como usuários de teste",

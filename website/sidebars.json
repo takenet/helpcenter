@@ -163,7 +163,10 @@
       {
         "type": "subcategory",
         "label": "Builder",
-        "ids": []
+        "ids": 
+          [
+            "practice/builder/builder-como-utilizar-debug-builder"
+          ]
       },
       {
         "type": "subcategory",
@@ -199,7 +202,11 @@
         "ids": 
           [
             "practice/integrations/integ-chatbase-como-enviar-dados-chatbase",
-            "practice/integrations/integ-agendando-uma-mensagem-scheduler"
+            "practice/integrations/integ-agendando-uma-mensagem-scheduler",
+            "practice/integrations/integ-dashbot-como-enviar-dados-dashbot",
+            "practice/integrations/integ-botanalytics-como-enviar-dados-botanalytics",
+            "practice/integrations/integ-enviando-dados-atraves-webhook",
+            "practice/integrations/integ-event-track-sdk-csharp"
           ]
       },
       {
