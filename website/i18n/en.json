@@ -212,6 +212,10 @@
         "title": "Enviando dados do seu bot através de Webhooks",
         "sidebar_label": "Enviando dados do seu bot através de Webhooks"
       },
+      "practice/integrations/integ-event-track-sdk-csharp": {
+        "title": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade",
+        "sidebar_label": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade"
+      },
       "practice/management/mana-como-marcar-contato-como-teste": {
         "title": "Como marcar um contato como usuários de teste",
         "sidebar_label": "Como marcar um contato como usuários de teste"
