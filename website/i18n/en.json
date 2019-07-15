@@ -208,6 +208,10 @@
         "title": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?",
         "sidebar_label": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?"
       },
+      "practice/integrations/integ-enviando-dados-atraves-webhook": {
+        "title": "Enviando dados do seu bot através de Webhooks",
+        "sidebar_label": "Enviando dados do seu bot através de Webhooks"
+      },
       "practice/management/mana-como-marcar-contato-como-teste": {
         "title": "Como marcar um contato como usuários de teste",
         "sidebar_label": "Como marcar um contato como usuários de teste"

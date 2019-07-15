@@ -203,7 +203,8 @@
             "practice/integrations/integ-chatbase-como-enviar-dados-chatbase",
             "practice/integrations/integ-agendando-uma-mensagem-scheduler",
             "practice/integrations/integ-dashbot-como-enviar-dados-dashbot",
-            "practice/integrations/integ-botanalytics-como-enviar-dados-botanalytics"
+            "practice/integrations/integ-botanalytics-como-enviar-dados-botanalytics",
+            "practice/integrations/integ-enviando-dados-atraves-webhook"
           ]
       },
       {
