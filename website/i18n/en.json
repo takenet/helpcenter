@@ -152,6 +152,10 @@
         "title": "[HTTP] Criando um bot para receber feeds no Messenger",
         "sidebar_label": "[HTTP] Criando um bot para receber feeds no Messenger"
       },
+      "practice/api-http-sdks/api-http-sdks-criando-um-chatbot-curriculo-usando-api-http": {
+        "title": "Criando um chatbot 'currículo' usando API HTTP",
+        "sidebar_label": "Criando um chatbot 'currículo' usando API HTTP"
+      },
       "practice/blip-desk/desk-como-ativar-blip-desk-canal": {
         "title": "Como ativar o BLiP Desk como um canal de atendimento",
         "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
