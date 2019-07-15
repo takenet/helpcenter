@@ -162,7 +162,10 @@
       {
         "type": "subcategory",
         "label": "Builder",
-        "ids": []
+        "ids": 
+          [
+            "practice/builder/builder-como-utilizar-debug-builder"
+          ]
       },
       {
         "type": "subcategory",
