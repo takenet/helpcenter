@@ -87,7 +87,7 @@ Para o exemplo deste artigo a página web é executada na URL: <https://blip-web
 
 Finalmente, para que o usuário final receba uma página web é necessário enviar um conteúdo do tipo Weblink. Para isso acesse seu bot, selecione o Builder, escolha um bloco e adicione um conteúdo Weblink. 
 
-![](../../assets/practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat-2.png)
+![Enviando conteúdo do tipo Weblink](../../assets/practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat-2.png)
 
 Clique [neste link](https://drive.google.com/file/d/1bH2Kkya47lOMUxs4Uhque1ONItFFqqeQ/view) para baixar o fluxo de um bot que envia um weblink.
 
