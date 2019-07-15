@@ -169,6 +169,7 @@
         "label": "Builder",
         "ids": 
           [
+            "practice/builder/builder-salvando-informacoes-de-um-usuario",
             "practice/builder/builder-como-utilizar-debug-builder"
           ]
       },
