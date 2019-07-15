@@ -205,7 +205,8 @@
             "practice/integrations/integ-dashbot-como-enviar-dados-dashbot",
             "practice/integrations/integ-botanalytics-como-enviar-dados-botanalytics",
             "practice/integrations/integ-enviando-dados-atraves-webhook",
-            "practice/integrations/integ-event-track-sdk-csharp"
+            "practice/integrations/integ-event-track-sdk-csharp",
+            "practice/integrations/integ-texto-rotativo-spintax"
           ]
       },
       {

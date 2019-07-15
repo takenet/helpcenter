@@ -216,6 +216,10 @@
         "title": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade",
         "sidebar_label": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade"
       },
+      "practice/integrations/integ-texto-rotativo-spintax": {
+        "title": "Texto rotativo com spintax",
+        "sidebar_label": "Texto rotativo com spintax"
+      },
       "practice/management/mana-como-marcar-contato-como-teste": {
         "title": "Como marcar um contato como usuários de teste",
         "sidebar_label": "Como marcar um contato como usuários de teste"
