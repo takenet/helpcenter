@@ -140,6 +140,10 @@
         "title": "LevelUp 0 - Lançamento oficial do BLiP",
         "sidebar_label": "LevelUp 0 - Lançamento oficial do BLiP"
       },
+      "general/level-up/level-up-1-blip-desk": {
+        "title": "LevelUp 1 - BLiP Desk",
+        "sidebar_label": "LevelUp 1 - BLiP Desk"
+      },
       "practice/ai/ai-como-configurar-dialogflow": {
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
