@@ -12,6 +12,6 @@ Outros links importantes para quem quer saber mais sobre o Builder do BLiP:
 
 * [**Visão geral da plataforma**](concepts/getting-started/gs-visao-geral-da-plataforma.md)
 * [**Visão geral do Builder**](concepts/getting-started/gs-visao-geral-do-builder.md)
-* [**Como criar um bot com o Builder do BLiP**](concepts/getting-started/gs-como-criar-um-bot-com-builder)
+* [**Como criar um bot com o Builder do BLiP**](concepts/getting-started/gs-como-criar-um-bot-com-builder.md)
 
 Ficou com alguma dúvida? Use o fórum do BLiP para pedir ajuda [**forum.blip.ai**](https://forum.blip.ai/).
