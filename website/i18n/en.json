@@ -188,6 +188,14 @@
         "title": "[SDK C#] Criando uma lista de distribuição de conteúdo",
         "sidebar_label": "[SDK C#] Criando uma lista de distribuição de conteúdo"
       },
+      "practice/blip-chat/chat-adicionar-bot-site-blip-chat": {
+        "title": "Como adicionar um bot em um site utilizando o BLiP Chat?",
+        "sidebar_label": "Como adicionar um bot em um site utilizando o BLiP Chat?"
+      },
+      "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat": {
+        "title": "Customizações disponíveis no BLiP Chat",
+        "sidebar_label": "Customizações disponíveis no BLiP Chat"
+      },
       "practice/blip-desk/desk-como-ativar-blip-desk-canal": {
         "title": "Como ativar o BLiP Desk como um canal de atendimento",
         "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
