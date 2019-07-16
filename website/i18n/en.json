@@ -188,6 +188,10 @@
         "title": "[SDK C#] Criando uma lista de distribuição de conteúdo",
         "sidebar_label": "[SDK C#] Criando uma lista de distribuição de conteúdo"
       },
+      "practice/blip-chat/chat-adicionando-push-notification-blip-chat-android": {
+        "title": "Adicionando push notification no BLiP Chat Android",
+        "sidebar_label": "Adicionando push notification no BLiP Chat Android"
+      },
       "practice/blip-chat/chat-adicionar-bot-site-blip-chat": {
         "title": "Como adicionar um bot em um site utilizando o BLiP Chat?",
         "sidebar_label": "Como adicionar um bot em um site utilizando o BLiP Chat?"
