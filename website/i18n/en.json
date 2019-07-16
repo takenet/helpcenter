@@ -268,6 +268,10 @@
         "title": "Enviando email pelo bot através do Builder",
         "sidebar_label": "Enviando email pelo bot através do Builder"
       },
+      "practice/builder/builder-expirando-sessao-usuarios-builder": {
+        "title": "Expirando a sessão dos usuários do Builder",
+        "sidebar_label": "Expirando a sessão dos usuários do Builder"
+      },
       "practice/builder/builder-importando-o-fluxo-de-um-bot-no-builder": {
         "title": "Importando o fluxo de um bot no Builder",
         "sidebar_label": "Importando o fluxo de um bot no Builder"

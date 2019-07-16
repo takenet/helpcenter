@@ -180,7 +180,8 @@
             "practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder",
             "practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder",
             "practice/builder/builder-proporcao-de-exibicao-de-imagens",
-            "practice/builder/builder-acao-processar-comando"
+            "practice/builder/builder-acao-processar-comando",
+            "practice/builder/builder-expirando-sessao-usuarios-builder"
           ]
       },
       {
