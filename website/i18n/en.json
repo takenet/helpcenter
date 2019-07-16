@@ -240,9 +240,21 @@
         "title": "Verificar se existe atendente disponível no Builder",
         "sidebar_label": "Verificar se existe atendente disponível no Builder"
       },
+      "practice/channels/channels-como-configurar-sua-propria-aplicacao-facebook": {
+        "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
+        "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
+      },
       "practice/channels/channels-criando-graficos-em-um-relatorio-customizado": {
         "title": "Criando gráficos em um relatório customizado",
         "sidebar_label": "Criando gráficos em um relatório customizado"
+      },
+      "practice/channels/channels-criando-solucao-atendimento-humano-whatsapp": {
+        "title": "Criando uma solução de atendimento humano no WhatsApp",
+        "sidebar_label": "Criando uma solução de atendimento humano no WhatsApp"
+      },
+      "practice/channels/channels-enviar-notificacao-whatsapp-blip-api": {
+        "title": "Enviar notificações WhatsApp via API do BLiP",
+        "sidebar_label": "Enviar notificações WhatsApp via API do BLiP"
       },
       "practice/channels/channels-publicando-seu-bot-workplace": {
         "title": "Publicando seu bot no Workplace",
