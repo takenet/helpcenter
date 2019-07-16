@@ -15,7 +15,7 @@ Outros links importantes para quem quer saber mais sobre algoritmos de NLP no BL
 * [**Visão geral do Builder**](concepts/getting-started/gs-visao-geral-do-builder.md)
 * [**Como criar um bot com o Builder do BLiP**](concepts/getting-started/gs-como-criar-um-bot-com-builder.md)
 
-Ficou com alguma dúvida? Use o fórum do BLiP para pedir ajuda forum.blip.ai
+Ficou com alguma dúvida? Use o fórum do BLiP para pedir ajuda [**forum.blip.ai**](https://forum.blip.ai/).
 
-* Veja mais informações sobre os planos do Dialogflow aqui.
+\* *Veja mais informações sobre os planos do Dialogflow [**aqui**](https://dialogflow.com/pricing).*
 
