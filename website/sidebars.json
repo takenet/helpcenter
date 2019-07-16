@@ -184,7 +184,10 @@
       {
         "type": "subcategory",
         "label": "Canais",
-        "ids": []
+        "ids": 
+          [
+            "practice/channels/channels-publicando-seu-bot-workplace"
+          ]
       },
       {
         "type": "subcategory",
