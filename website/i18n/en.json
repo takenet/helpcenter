@@ -232,6 +232,10 @@
         "title": "Verificar se existe atendente disponível no Builder",
         "sidebar_label": "Verificar se existe atendente disponível no Builder"
       },
+      "practice/channels/channels-como-configurar-sua-propria-aplicacao-facebook": {
+        "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
+        "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
+      },
       "practice/channels/channels-criando-graficos-em-um-relatorio-customizado": {
         "title": "Criando gráficos em um relatório customizado",
         "sidebar_label": "Criando gráficos em um relatório customizado"
