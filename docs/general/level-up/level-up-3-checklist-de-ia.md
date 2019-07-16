@@ -9,10 +9,10 @@ Em maio, para o terceiro **LevelUp** da plataforma em 2018, lançamos uma nova f
 * Número mínimo de frases de exemplo relacionadas à uma intenção.
 * Balanceamento na quantidade de exemplos em todas as intenções.
 
-[Este vídeo](https://www.facebook.com/blip.messaging/videos/1913991341965130/) apresenta detalhadamente como o checklist de IA pode te ajudar a manter a qualidade do seu modelo.
+[**Este vídeo**](https://www.facebook.com/blip.messaging/videos/1913991341965130/) apresenta detalhadamente como o checklist de IA pode te ajudar a manter a qualidade do seu modelo.
 
 Outros links importantes para quem quer saber mais sobre o modelo de IA, intenções e entidades:
 
-* [O que é uma intenção](concepts/ai/ai-o-que-e-intencao.md)
-* [O que é uma entidade](concepts/ai/ai-o-que-e-entidade.md)
-* [Conceitos básicos para utilizar NLP e IA em chatbots](concepts/ai/ai-importancia-de-ia-nlp-chatbots.md)
+* [**O que é uma intenção**](concepts/ai/ai-o-que-e-intencao.md)
+* [**O que é uma entidade**](concepts/ai/ai-o-que-e-entidade.md)
+* [**Conceitos básicos para utilizar NLP e IA em chatbots**](concepts/ai/ai-importancia-de-ia-nlp-chatbots.md)
