@@ -152,6 +152,10 @@
         "title": "LevelUp 3 - Checklist de IA",
         "sidebar_label": "LevelUp 3 - Checklist de IA"
       },
+      "general/level-up/level-up-4-blip-desk-2": {
+        "title": "LevelUp 4 - BLiP Desk 2.0",
+        "sidebar_label": "LevelUp 4 - BLiP Desk 2.0"
+      },
       "practice/ai/ai-como-configurar-dialogflow": {
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
