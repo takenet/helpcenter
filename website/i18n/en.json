@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "",
+    "tagline": "BLiP | Help Center",
     "docs": {
       "api": {
         "title": "api"
@@ -151,6 +151,14 @@
       "general/level-up/level-up-11-comemoracao-de-um-ano-mais-caso-mundiale": {
         "title": "LevelUp 11 - Comemoração de 1 ano + Case Mundiale",
         "sidebar_label": "LevelUp 11 - Comemoração de 1 ano + Case Mundiale"
+      },
+      "general/level-up/level-up-12-botanalytics": {
+        "title": "LevelUp 12 - BotAnalytics",
+        "sidebar_label": "LevelUp 12 - BotAnalytics"
+      },
+      "general/level-up/level-up-13-blip-ideas": {
+        "title": "LevelUp 13 - BLiP Ideas",
+        "sidebar_label": "LevelUp 13 - BLiP Ideas"
       },
       "general/level-up/level-up-2-blip-chat": {
         "title": "LevelUp 2 - BLiP Chat",
