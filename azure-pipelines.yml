@@ -26,3 +26,9 @@ steps:
     rootFolderOrFile: 'website/build'
     includeRootFolder: false
   displayName: 'ArchiveFiles'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
