@@ -183,7 +183,8 @@
         "label": "BLiP Chat",
         "ids": 
           [
-            "practice/blip-chat/chat-adicionar-bot-site-blip-chat"
+            "practice/blip-chat/chat-adicionar-bot-site-blip-chat",
+            "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat"
           ]
       },
       {
