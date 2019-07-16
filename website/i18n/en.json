@@ -136,6 +136,14 @@
         "title": "Utilizando o Textc para construir uma conversa contextual",
         "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
       },
+      "practice/ai/ai-como-configurar-dialogflow": {
+        "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
+        "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
+      },
+      "practice/ai/ai-como-configurar-watson": {
+        "title": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial",
+        "sidebar_label": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial"
+      },
       "practice/ai/ai-como-criar-uma-intencao": {
         "title": "Como criar uma intenção",
         "sidebar_label": "Como criar uma intenção"
@@ -180,6 +188,18 @@
         "title": "[SDK C#] Criando uma lista de distribuição de conteúdo",
         "sidebar_label": "[SDK C#] Criando uma lista de distribuição de conteúdo"
       },
+      "practice/blip-chat/chat-adicionando-push-notification-blip-chat-android": {
+        "title": "Adicionando push notification no BLiP Chat Android",
+        "sidebar_label": "Adicionando push notification no BLiP Chat Android"
+      },
+      "practice/blip-chat/chat-adicionar-bot-site-blip-chat": {
+        "title": "Como adicionar um bot em um site utilizando o BLiP Chat?",
+        "sidebar_label": "Como adicionar um bot em um site utilizando o BLiP Chat?"
+      },
+      "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat": {
+        "title": "Customizações disponíveis no BLiP Chat",
+        "sidebar_label": "Customizações disponíveis no BLiP Chat"
+      },
       "practice/blip-desk/desk-como-ativar-blip-desk-canal": {
         "title": "Como ativar o BLiP Desk como um canal de atendimento",
         "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
@@ -204,6 +224,10 @@
         "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
         "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
       },
+      "practice/builder/builder-acao-processar-comando": {
+        "title": "Ação: Processar Comando",
+        "sidebar_label": "Ação: Processar Comando"
+      },
       "practice/builder/builder-como-utilizar-debug-builder": {
         "title": "Como utilizar a ferramenta de debug do Builder",
         "sidebar_label": "Como utilizar a ferramenta de debug do Builder"
@@ -212,13 +236,45 @@
         "title": "Criando um elemento web através de um weblink no BLiP Chat",
         "sidebar_label": "Criando um elemento web através de um weblink no BLiP Chat"
       },
+      "practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder": {
+        "title": "Enviando email pelo bot através do Builder",
+        "sidebar_label": "Enviando email pelo bot através do Builder"
+      },
       "practice/builder/builder-importando-o-fluxo-de-um-bot-no-builder": {
         "title": "Importando o fluxo de um bot no Builder",
         "sidebar_label": "Importando o fluxo de um bot no Builder"
       },
+      "practice/builder/builder-proporcao-de-exibicao-de-imagens": {
+        "title": "Proporção de exibição de imagens (Aspect Ratio)",
+        "sidebar_label": "Proporção de exibição de imagens (Aspect Ratio)"
+      },
       "practice/builder/builder-salvando-informacoes-de-um-usuario": {
         "title": "Salvando informações de um usuário",
         "sidebar_label": "Salvando informações de um usuário"
+      },
+      "practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder": {
+        "title": "Verificar se existe atendente disponível no Builder",
+        "sidebar_label": "Verificar se existe atendente disponível no Builder"
+      },
+      "practice/channels/channels-como-configurar-sua-propria-aplicacao-facebook": {
+        "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
+        "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
+      },
+      "practice/channels/channels-criando-graficos-em-um-relatorio-customizado": {
+        "title": "Criando gráficos em um relatório customizado",
+        "sidebar_label": "Criando gráficos em um relatório customizado"
+      },
+      "practice/channels/channels-criando-solucao-atendimento-humano-whatsapp": {
+        "title": "Criando uma solução de atendimento humano no WhatsApp",
+        "sidebar_label": "Criando uma solução de atendimento humano no WhatsApp"
+      },
+      "practice/channels/channels-enviar-notificacao-whatsapp-blip-api": {
+        "title": "Enviar notificações WhatsApp via API do BLiP",
+        "sidebar_label": "Enviar notificações WhatsApp via API do BLiP"
+      },
+      "practice/channels/channels-publicando-seu-bot-workplace": {
+        "title": "Publicando seu bot no Workplace",
+        "sidebar_label": "Publicando seu bot no Workplace"
       },
       "practice/contacts/contacts-como-encontrar-id-usuario": {
         "title": "Como encontrar o identificador de um usuário",

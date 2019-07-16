@@ -172,18 +172,34 @@
             "practice/builder/builder-salvando-informacoes-de-um-usuario",
             "practice/builder/builder-importando-o-fluxo-de-um-bot-no-builder",
             "practice/builder/builder-como-utilizar-debug-builder",
-            "practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat"
+            "practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat",
+            "practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder",
+            "practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder",
+            "practice/builder/builder-proporcao-de-exibicao-de-imagens",
+            "practice/builder/builder-acao-processar-comando"
           ]
       },
       {
         "type": "subcategory",
         "label": "BLiP Chat",
-        "ids": []
+        "ids": 
+          [
+            "practice/blip-chat/chat-adicionar-bot-site-blip-chat",
+            "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat",
+            "practice/blip-chat/chat-adicionando-push-notification-blip-chat-android"
+          ]
       },
       {
         "type": "subcategory",
         "label": "Canais",
-        "ids": []
+        "ids": 
+          [
+            "practice/channels/channels-publicando-seu-bot-workplace",
+            "practice/channels/channels-criando-graficos-em-um-relatorio-customizado",
+            "practice/channels/channels-como-configurar-sua-propria-aplicacao-facebook",
+            "practice/channels/channels-criando-solucao-atendimento-humano-whatsapp",
+            "practice/channels/channels-enviar-notificacao-whatsapp-blip-api"
+          ]
       },
       {
         "type": "subcategory",
@@ -193,7 +209,9 @@
             "practice/ai/ai-como-treinar-modelo-nlp",
             "practice/ai/ai-como-criar-uma-intencao",
             "practice/ai/ai-treinando-publicando-modelo-de-ia",
-            "practice/ai/ai-como-exportar-base-conhecimento"
+            "practice/ai/ai-como-exportar-base-conhecimento", 
+            "practice/ai/ai-como-configurar-dialogflow",
+            "practice/ai/ai-como-configurar-watson"
           ]
       },
       {
