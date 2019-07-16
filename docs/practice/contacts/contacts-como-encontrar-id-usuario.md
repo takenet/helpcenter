@@ -14,7 +14,7 @@ Em alguns momentos, durante a construção de um bot, pode ser necessário reali
 
 Para acessar o identificador de um usuário através do portal acesse o seu bot, escolha o módulo **Contatos** e clique no usuário desejado. Você perceberá que o identificador do usuário aparecerá no final da URL no seu navegador, conforme imagem abaixo:
 
-![Id do usuário na URL do navegador](../../assets/practice/contacts/contacts-como-encontrar-id-usuario-1.png)
+![Id do usuário na URL do navegador](/img/practice/contacts/contacts-como-encontrar-id-usuario-1.png)
 
 Todo o texto localizado após a rota **.../users/** representa o identificador do usuário em questão. Neste exemplo o usuário Rafael Pacheco possui o identificador **\`1419130854872447@messenger<span>.</span>gw.msging.net\`**.
 

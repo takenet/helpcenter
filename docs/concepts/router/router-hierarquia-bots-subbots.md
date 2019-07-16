@@ -12,7 +12,7 @@ No mundo dos bots acontece algo bem similar. Sua empresa pode contar com diferen
 
 Pensando nesse problema, o BLiP desenvolveu o conceito de bots e subbots. Através de um bot **router** - bot responsável por gerir os subbots, é possível criar uma hierarquia de subbots que trabalharam em conjunto durante a interação do usuário.
 
-![Bot router arquitetura](../../assets/concepts/router/router-hierarquia-bots-subbots-1.png)<br><br>
+![Bot router arquitetura](/img/concepts/router/router-hierarquia-bots-subbots-1.png)<br><br>
 
 Uma das vantagens em trabalhar neste modelo é ter a possibilidade de reaproveitar um bot já construido dentro de um novo bot. Imagine, por exemplo, uma empresa que possui filiais no Brasil e nos EUA. A filial brasileira precisa de um bot capaz de atender as solicitações dos clientes na língua portuguesa, enquanto que a filial norte americana precisa que a aplicação seja capaz de atender as solicitações dos clientes em inglês. 
 
@@ -22,7 +22,7 @@ Uma solução possível para esse cenário é construir um novo bot com a replic
 
 Através da hirarquia de bots e subbots do BLiP, é possível solucionar esse problema adicionando 2 novos bots. O primeiro será o bot **router** - o bot para a filial da Irlanda, capaz de conversar em qualquer língua, e o segundo será o **bot principal**, responsável por descobrir qual a língua de preferência do usuário e enviá-lo à um dos bots já existentes (Brasil ou EUA). O desenho abaixo mostra a arquitetura dessa solução.
 
-![Subbot arquitetura](../../assets/concepts/router/router-hierarquia-bots-subbots-2.png)<br><br>
+![Subbot arquitetura](/img/concepts/router/router-hierarquia-bots-subbots-2.png)<br><br>
 
 Repare que os subbots continuam trabalhando para atender as filiais (Brasil e EUA) de forma direta, e agora também podem ajudar no atendimento dos clientes da Irlanda de forma indireta.
 Além disso, qualquer correção ou evolução feita nas aplicações Filial Brasil ou Filial EUA também estarão disponíveis para o bot Irlandês.

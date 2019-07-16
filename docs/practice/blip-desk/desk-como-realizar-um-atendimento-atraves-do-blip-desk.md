@@ -15,11 +15,11 @@ Verificados todos os pré-requisitos acima, qualquer atendente, cadastrado como 
 
 ## 1. O atendente deve estar logado na ferramenta [BLiP Desk](desk.blip.ai)
 
-![Login na ferramenta](../../assets/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-1.png)
+![Login na ferramenta](/img/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-1.png)
 
 ## 2. O atendente deve estar *Online* na ferramenta
 
-![Online na ferramenta](../../assets/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-2.png)
+![Online na ferramenta](/img/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-2.png)
 
 **<u>A partir desse momento, o atendente está pronto para realizar atendimentos.</u>**
 
@@ -27,11 +27,11 @@ Sempre que um usuário for enviado para atendimento, ele será enviado para a fi
 
 Todos os atendentes têm a visão do número de usuários nas filas das equipes que participam.
 
-![Número de usuários nas filas](../../assets/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-3.png)
+![Número de usuários nas filas](/img/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-3.png)
 
 Para iniciar um atendimento, basta clicar no botão **Atender um novo cliente**.
 
-![Iniciando um novo atendimento](../../assets/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-4.png)
+![Iniciando um novo atendimento](/img/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-4.png)
 
 Depois de iniciado o atendimento, o atendente terá o controle da conversa entre o bot e o cliente. Todas as mensagens enviadas pelo atendente serão enviadas para o bot, que consequentemente a encaminha para o usuário.
 
@@ -39,8 +39,8 @@ Da mesma forma, as mensagens enviadas pelo cliente que está sendo atendido ser�
 
 A imagem abaixo ilustra uma troca de mensagens entre o atendente e o cliente final:
 
-![Troca de mensagens entre o atendente e o cliente final](../../assets/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-5.png)
+![Troca de mensagens entre o atendente e o cliente final](/img/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-5.png)
 
 Após realizado o atendimento, o atendente pode finalizar a conversa clicando no botão **Finalizar Atendimento**, localizado na parte superior da conversa, conforme a imagem abaixo. Note que o BLiP Desk exibirá, ainda, uma tela de confirmação da finalização do ticket de atendimento.
 
-![Finalizando atendimento](../../assets/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-6.png)
+![Finalizando atendimento](/img/practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-6.png)

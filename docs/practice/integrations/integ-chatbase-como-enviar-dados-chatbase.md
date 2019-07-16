@@ -14,19 +14,19 @@ Se você ainda não criou um bot no Chatbase siga os passos abaixo:
 * [Acesse o Chatbase](https://chatbase.com/)
 * Acesse/Crie sua conta
 
-![Criando uma conta no Chatbase](../../assets/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-1.png)<br><br>
+![Criando uma conta no Chatbase](/img/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-1.png)<br><br>
 
 * Clique no botão **Add a bot**
 
-![Adicionando um bot no Chatbase](../../assets/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-2.png)<br><br>
+![Adicionando um bot no Chatbase](/img/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-2.png)<br><br>
 
 * Informe os dados necessários e clique em **Continuar**
 
-![Dados necessários chatbase](../../assets/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-3.png)<br><br>
+![Dados necessários chatbase](/img/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-3.png)<br><br>
 
 * Copie a API-KEY do seu bot, você precisará desta informação no passo 2.
 
-![Dado API-KEY chatbase](../../assets/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-4.png)<br><br>
+![Dado API-KEY chatbase](/img/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-4.png)<br><br>
 
 * Finalize o processo de criação
 
@@ -34,15 +34,15 @@ Se você ainda não criou um bot no Chatbase siga os passos abaixo:
 
 De posse da API-KEY do Chatbase, vá até o portal do BLiP, selecione o seu bot e clique em Integrações (conforme imagem abaixo).
 
-![Portal do BLiP](../../assets/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-5.png)<br><br>
+![Portal do BLiP](/img/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-5.png)<br><br>
 
 Escolha a integração **Chatbase** e clique na aba **Configuração**. Preencha o campo API-KEY com a chave gerada pelo Chatbase na etapa anterior e clique em salvar. Depois disso clique na chave **Ativar** (no campo superior direito) para ativar a integração.
 
-![Configurando chatbase no BLiP](../../assets/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-6.png)<br><br>
+![Configurando chatbase no BLiP](/img/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-6.png)<br><br>
 
 Volte ao Builder, clique em configurações e selecione a opção Tracking Automático. A partir de agora, todas as mensagens (enviadas e recebidas) serão enviadas para o chatbase automaticamente.
 
-![Opção tracking Builder](../../assets/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-7.png)<br><br>
+![Opção tracking Builder](/img/practice/integrations/integ-chatbase-como-enviar-dados-chatbase-7.png)<br><br>
 
 ## 3 - Testando a integração
 

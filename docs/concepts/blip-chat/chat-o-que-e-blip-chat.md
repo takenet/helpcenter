@@ -16,17 +16,17 @@ Com o BLiP Chat, é possível disponibilizar um bot através de um link embarcad
 
 A imagem abaixo apresenta o BLiP Chat integrado ao site do BLiP como um widget flutuante:
 
-![BLiP Chat](../../assets/concepts/blip-chat/chat-o-que-e-blip-chat-1.png)
+![BLiP Chat](/img/concepts/blip-chat/chat-o-que-e-blip-chat-1.png)
 
 <br>Já na imagem abaixo, o BLiP Chat foi integrado ao site de forma embutida a um elemento HTML:
 
-![BLiP Chat embutido](../../assets/concepts/blip-chat/chat-o-que-e-blip-chat-2.png)<br><br>
+![BLiP Chat embutido](/img/concepts/blip-chat/chat-o-que-e-blip-chat-2.png)<br><br>
 
 2. Em aplicativos móveis
 
 Você também pode adicionar o BLiP Chat em aplicações móveis nativas. Para maiores informações sobre como utilizar as bibliotecas mobile do BLiP Chat, verifique os projetos [Android](https://github.com/takenet/blip-chat-android) e [iOS](https://github.com/takenet/blip-chat-ios) no Github
 
-![BLiP Chat Android](../../assets/concepts/blip-chat/chat-o-que-e-blip-chat-3.png) <br><br>
+![BLiP Chat Android](/img/concepts/blip-chat/chat-o-que-e-blip-chat-3.png) <br><br>
 
 3. Através de um link
 

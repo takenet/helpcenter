@@ -24,13 +24,13 @@ De posse das duas informações acima, vá até o portal de desenvolvedores do F
 Url: https://messenger.gw.msging.net
 *Token: ze3jRmmaLU5KUTtUN*
 
-![Configurando informações de url de retorno de chamada](../../assets/practice/channels/channels-como-configurar-sua-propria-aplicacao-facebook-1.png)<br>
+![Configurando informações de url de retorno de chamada](/img/practice/channels/channels-como-configurar-sua-propria-aplicacao-facebook-1.png)<br>
 
 ## 2. Configurações dos eventos de Webhook
 
 Após configurado o Webhook da aplicação é necessário configurar quais eventos do Messenger a serão enviados pelo Facebook. Ainda no portal de desenvolvedores do Facebook, clique no menu **Messenger** e selecione **Configurações** de Webhooks. Selecione os itens, conforme apresentado pela imagem abaixo:
 
-![Configurações de eventos de Webhook](../../assets/practice/channels/channels-como-configurar-sua-propria-aplicacao-facebook-2.png)<br>
+![Configurações de eventos de Webhook](/img/practice/channels/channels-como-configurar-sua-propria-aplicacao-facebook-2.png)<br>
 
 ## 3. Configuração das informações da aplicação do Facebook BLiP
 

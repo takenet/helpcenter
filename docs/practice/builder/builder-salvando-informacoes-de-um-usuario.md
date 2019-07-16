@@ -10,7 +10,7 @@ Imagine por exemplo, que seu bot solicita ao usuário informações como **nome*
 
 1. Escolha um bloco, onde as variáveis que você deseja utilizar já existam, e crie uma ação de Definir Contato.
 
-![Criando ação Definir Contato](../../assets/practice/builder/builder-salvando-informacoes-de-um-usuario-1.png)
+![Criando ação Definir Contato](/img/practice/builder/builder-salvando-informacoes-de-um-usuario-1.png)
 
 2. Insira os dados nos campos correspondentes. Atualmente, é possível definir os valores:
 
@@ -21,10 +21,10 @@ Imagine por exemplo, que seu bot solicita ao usuário informações como **nome*
 * **Gênero**.
 * **Extras** - Propriedade genérica onde é possível adicionar qualquer propriedade customizada ao contexto do bot. (Exemplo: CPF, IdentificadorExterno e etc...).
 
-![Inserindo os dados nos campos correspondentes](../../assets/practice/builder/builder-salvando-informacoes-de-um-usuario-2.png)
+![Inserindo os dados nos campos correspondentes](/img/practice/builder/builder-salvando-informacoes-de-um-usuario-2.png)
 
 3. Faça um teste com algum usuário, garantindo que a ação definida no passo anterior seja executada.
 
 4. Abra o módulo de **Usuários**, acesse algum contato e verifique se as informações foram armazenadas corretamente. As mesmas informações estarão disponíveis também no Builder através das variáveis de contato (exemplo: {{contact.name}}, {{contact.phoneNumber}} e etc...).
 
-![Informações do contato](../../assets/practice/builder/builder-salvando-informacoes-de-um-usuario-3.png)
+![Informações do contato](/img/practice/builder/builder-salvando-informacoes-de-um-usuario-3.png)

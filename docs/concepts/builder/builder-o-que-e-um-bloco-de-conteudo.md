@@ -5,7 +5,7 @@ sidebar_label: [Builder] O que é um bloco de conteúdo
 ---
 Além de representar os possíveis estados de um cliente no fluxo da conversa os blocos de conteúdo são responsáveis por outras três funções: **envio (e recebimento) de conteúdos, escolha de condições de saída** e a **execução de ações**. Essas funções estão organizadas através de abas na tela de edição de um bloco, conforme exibido pela figura abaixo:
 
-![Abas na tela de edição do builder](../../assets/concepts/builder/buider-o-que-e-um-bloco-de-conteudo-1.png)
+![Abas na tela de edição do builder](/img/concepts/builder/buider-o-que-e-um-bloco-de-conteudo-1.png)
 
 ## 1. Conteúdo
 Sempre que um usuário alcança um determinado estado (um bloco), todo o conteúdo disponível nele é enviado para o cliente. Esses conteúdos representam os cards suportados nos principais aplicativos de mensagem do mercado.

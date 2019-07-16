@@ -23,7 +23,7 @@ Neste artigo explicarei, passo a passo, como criar uma página web e utilizá-la
 
 Crie uma página web contendo os componentes necessários para o seu caso de uso. No exemplo deste artigo, a página web utilizada (veja imagem abaixo) contém apenas um datepicker e um botão enviar. O usuário deverá escolher uma data e depois clicar no botão enviar. Ao clicar no botão a janela será fechada e a data enviada para o bot. (Acesse a página de exemplo clicando [neste link](https://blip-weblink-demo.herokuapp.com/)).
 
-![Página de exemplo](../../assets/practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat-1.png)
+![Página de exemplo](/img/practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat-1.png)
 
 Você têm total liberdade para utilizar qualquer componente em sua página web, mas lembre-se que os componentes devem suportar os mais diversos browsers (desktop e mobile).
 
@@ -87,7 +87,7 @@ Para o exemplo deste artigo a página web é executada na URL: <https://blip-web
 
 Finalmente, para que o usuário final receba uma página web é necessário enviar um conteúdo do tipo Weblink. Para isso acesse seu bot, selecione o Builder, escolha um bloco e adicione um conteúdo Weblink. 
 
-![Enviando conteúdo do tipo Weblink](../../assets/practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat-2.png)
+![Enviando conteúdo do tipo Weblink](/img/practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat-2.png)
 
 Clique [neste link](https://drive.google.com/file/d/1bH2Kkya47lOMUxs4Uhque1ONItFFqqeQ/view) para baixar o fluxo de um bot que envia um weblink.
 

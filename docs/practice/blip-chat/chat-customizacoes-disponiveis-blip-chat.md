@@ -6,7 +6,7 @@ sidebar_label: Customizações disponíveis no BLiP Chat
 
 O BLiP Chat permite customizar alguns detalhes na interface do chat. A imagem abaixo detalha exatamente quais itens podem ser customizados:
 
-![Item customizáveis blip chat](../../assets/practice/blip-chat/chat-customizacoes-disponiveis-blip-chat-1.png)<br>
+![Item customizáveis blip chat](/img/practice/blip-chat/chat-customizacoes-disponiveis-blip-chat-1.png)<br>
 
 * Nome de exibição do bot  
 * Avatar do bot  
@@ -16,4 +16,4 @@ O BLiP Chat permite customizar alguns detalhes na interface do chat. A imagem ab
 
 Para modificar qualquer um desses valores, vá até o **portal** e escolha o bot correspondente. Clique no módulo **Canais** e escolha o canal **BLiP Chat**. Clique na aba **Configurações** e altere as informações desejadas, conforme a imagem abaixo:
 
-![Opções de customização blip chat](../../assets/practice/blip-chat/chat-customizacoes-disponiveis-blip-chat-2.png)
+![Opções de customização blip chat](/img/practice/blip-chat/chat-customizacoes-disponiveis-blip-chat-2.png)

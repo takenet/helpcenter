@@ -10,13 +10,13 @@ Para enviar os dados gerados em um bot para outras ferramentas, em tempo real, �
 
 Acesse o portal do BLiP, selecione seu bot e escolha o módulo **Integrações**. Escolha a opção Webhook e adicione pelo menos uma URL que receberá todas as informações enviadas pelo BLiP. Caso sejam adicionadas mais de uma URL, todas receberão as mesmas informações.
 
-![Opção Webhook no BLiP](../../assets/practice/integrations/integ-enviando-dados-atraves-webhook-1.png)<br>
+![Opção Webhook no BLiP](/img/practice/integrations/integ-enviando-dados-atraves-webhook-1.png)<br>
 
 **Exemplo:**
 
 Imagine que a aplicação responsável por receber as informações enviadas pelo BLiP está disponível na URL <https://requestb.in/14rxsmm1>. Adicione a URL no portal do BLiP, clique no botão **Salvar** e depois clique na chave **Ativar** conforme indicado na figura abaixo. Caso seja necessário adicionar uma nova URL, clique no botão **Adicionar**.
 
-![Exemplo de uso Webhook BLiP](../../assets/practice/integrations/integ-enviando-dados-atraves-webhook-2.png)<br>
+![Exemplo de uso Webhook BLiP](/img/practice/integrations/integ-enviando-dados-atraves-webhook-2.png)<br>
 
 Observação: Essa URL deve estar preparada para receber requisições **HTTP** do método **POST** com objetos do tipo JSON no body da requisições. Os objetos recebidos pela aplicação definida no Webhook seguem as definições dos documentos **Message** e **Events**.
 

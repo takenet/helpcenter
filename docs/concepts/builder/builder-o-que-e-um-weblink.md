@@ -7,7 +7,7 @@ O tipo de conteúdo **weblink** permite que o bot envie para o cliente um link d
 
 A imagem abaixo, apresenta um exemplo do Weblink no canal BLiP Chat.
 <br><br>
-![Exemplo de conteudo weblink](../../assets/concepts/builder/builder-o-que-e-um-weblink-1.png)
+![Exemplo de conteudo weblink](/img/concepts/builder/builder-o-que-e-um-weblink-1.png)
 
 <br><br>
 Para criar um weblink é preciso definir 4 propriedades:
@@ -41,11 +41,11 @@ Neste caso, é necessário utilizar o tipo de conteúdo dinâmico. Veja o passo 
 
 1. Adicione um conteúdo do tipo **Conteúdo Dinâmico**.
 
-![Tipo de conteúdo dinamico](../../assets/concepts/builder/builder-o-que-e-um-weblink-2.png)
+![Tipo de conteúdo dinamico](/img/concepts/builder/builder-o-que-e-um-weblink-2.png)
 
 2. Escolha o MIME type **application/vnd.lime.web-link+json**.
 
-![MME type para weblink](../../assets/concepts/builder/builder-o-que-e-um-weblink-3.png)
+![MME type para weblink](/img/concepts/builder/builder-o-que-e-um-weblink-3.png)
 
 3. Preencha o Source do conteúdo dinâmico com o JSON abaixo.
 *Obs.: Lembre-se de alterar a propriedade uri com o valor da variável desejada.*
@@ -58,4 +58,4 @@ Neste caso, é necessário utilizar o tipo de conteúdo dinâmico. Veja o passo 
 }
 ```
 
-![Source do conteúdo dinamico com JSON](../../assets/concepts/builder/builder-o-que-e-um-weblink-4.png)
+![Source do conteúdo dinamico com JSON](/img/concepts/builder/builder-o-que-e-um-weblink-4.png)

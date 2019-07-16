@@ -12,13 +12,13 @@ Assim, é possível montar uma equipe e definir os níveis de permissão: **leit
 
 Para realizar essas configurações acesse o portal do BLiP, selecione seu bot e clique no ícone **Equipe**, posicionado no canto superior direito (veja imagem abaixo).
 
-![Menu equipe](../../assets/practice/management/mana-gerenciamento-permissoes-acesso-equipes-1.png)<br><br>
+![Menu equipe](/img/practice/management/mana-gerenciamento-permissoes-acesso-equipes-1.png)<br><br>
 
 Na tela de equipe é possível <u>adicionar, remover e editar as permissões</u> de todos os integrantes da equipe. As imagens abaixo ilustram como adicionar membros à equipe e definir as permissões por área do portal.
 
-![Adicionar membro à equipe](../../assets/practice/management/mana-gerenciamento-permissoes-acesso-equipes-2.png)
+![Adicionar membro à equipe](/img/practice/management/mana-gerenciamento-permissoes-acesso-equipes-2.png)
 
-![Editar permissões membro](../../assets/practice/management/mana-gerenciamento-permissoes-acesso-equipes-3.png)<br><br>
+![Editar permissões membro](/img/practice/management/mana-gerenciamento-permissoes-acesso-equipes-3.png)<br><br>
 
 ### Detalhamento das funcionalidades
 

@@ -85,7 +85,7 @@ Mais uma vez essa é uma escolha pessoal. Você pode publicar sua API onde se se
 
 4. Insira os endpoints de sua API nos campos ‘Url de Mensagens’ e ‘Url de Notificações’ (por exemplo: <http://resumebottemplate.azurewebsites.net/api/messages> e <http://resumebottemplate.azurewebsites.net/api/notifications> no meu caso).
 
-![Configuração dos endpoints no portal do BLiP](../../assets/practice/api-http-sdks/api-http-sdks-criando-um-chatbot-curriculo-usando-api-http-1.png)
+![Configuração dos endpoints no portal do BLiP](/img/practice/api-http-sdks/api-http-sdks-criando-um-chatbot-curriculo-usando-api-http-1.png)
 
 Pronto, seu chatbot já está devidamente configurado e pronto para receber a regra de resposta das mensagens.
 
@@ -189,7 +189,7 @@ O método **ReplyMessageAsync(string text)** envia uma mensagem de resposta com 
 
 Para isso, foi utilizado um client Http simples que executa um post em uma url específica da plataforma BLiP. Note que para enviar a resposta é necessário obter a Url de resposta e a chave de autenticação no portal BLiP. Vá nas **Configurações** de seu chatbot, clique na seção **Informações de conexão**, no menu lateral esquerdo, e copie as url’s para envio de mensagens/notificações e a chave de autenticação de seu bot. Veja a imagem abaixo.
 
-![Informações de conexão](../../assets/practice/api-http-sdks/api-http-sdks-criando-um-chatbot-curriculo-usando-api-http-2.png)
+![Informações de conexão](/img/practice/api-http-sdks/api-http-sdks-criando-um-chatbot-curriculo-usando-api-http-2.png)
 
 Finalmente, se o conteúdo recebido não for compatível com nenhuma das sentenças aceitas (default case) o chatbot responderá uma mensagem padrão explicando ao usuário quais são os comandos aceitos.
 
@@ -203,7 +203,7 @@ Para testarmos nossa aplicação vou publicá-la no Facebook Messenger.
 
 A imagem abaixo mostra uma interação simples com o chatbot criado.
 
-![Interação com o chatbot criado](../../assets/practice/api-http-sdks/api-http-sdks-criando-um-chatbot-curriculo-usando-api-http-3.jpg)
+![Interação com o chatbot criado](/img/practice/api-http-sdks/api-http-sdks-criando-um-chatbot-curriculo-usando-api-http-3.jpg)
 
 [Clique aqui](https://m.me/744908842324712) para testar o ResumeBotTemplate no Facebook Messenger.
 

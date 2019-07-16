@@ -9,6 +9,6 @@ Assim como nos blocos de conteúdo, a tela de edição dos blocos de atendimento
 
 Entretanto, apenas a seção de **Condições de saída** pode ser editada nesse bloco. Através dela, é possível configurar a mudança de estado do cliente, durante a finalização do atendimento. Assim, o usuário que tem seu atendimento humano finalizado é redirecionado para um novo estado.
 
-![Condicoes de saida bloco de atendimento](../../assets/concepts/builder/builder-o-que-e-um-bloco-de-atendimento-1.png)
+![Condicoes de saida bloco de atendimento](/img/concepts/builder/builder-o-que-e-um-bloco-de-atendimento-1.png)
 
 Para entender como configurar o BLiP Desk no módulo de atendimento do BLiP, [clique aqui](https://help.blip.ai/hc/pt-br/articles/360001215251?flash_digest=ac633a3e35d911da8949026d057ab284ea3f0acb).

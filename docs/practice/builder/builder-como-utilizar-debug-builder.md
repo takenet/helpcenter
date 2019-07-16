@@ -12,7 +12,7 @@ Para utilizar o Debug, é necessário ter conhecimento sobre como o Builder func
 
 Após acessar um bot criado através do Builder, selecione a **opção de teste** e posteriormente selecione a **opção de Debug**, conforme apresentado na tela abaixo.
 
-![menu debug](../../assets/practice/builder/builder-como-utilizar-debug-builder-1.png)<br><br>
+![menu debug](/img/practice/builder/builder-como-utilizar-debug-builder-1.png)<br><br>
 
 Após clicar na opção de Debug o BLiP abrirá uma nova janela com todos os recursos necessários para analisar o funcionamento da sua aplicação. O Debug é formado por 3 grandes áreas: **console**, **variáveis** e **tela de testes**.
 
@@ -20,7 +20,7 @@ Após clicar na opção de Debug o BLiP abrirá uma nova janela com todos os rec
 **2. Variáveis** - Seção que apresenta o valor corrente de todas as variáveis do usuário de teste no debug.
 **3. Tela de testes** - Seção que representa a interface de conversa para o usuário de teste do Debug.
 
-![exmplo de debug](../../assets/practice/builder/builder-como-utilizar-debug-builder-2.png)<br><br>
+![exmplo de debug](/img/practice/builder/builder-como-utilizar-debug-builder-2.png)<br><br>
 
 ## Utilizando o Debug para analisar o fluxo da conversa
 
@@ -30,11 +30,11 @@ Acesse o portal, crie um novo bot (do zero), e publique o fluxo do bot. Todo bot
 
 Depois de enviar a mensagem o bot responderá com os conteúdos definidos no bloco Welcome (ou Boas Vindas) e a seção de **Console** exibirá tudo o que aconteceu com o usuário de teste dentro do fluxo. Veja que o caminho percorrido pelo usuário foi a transição entre os blocos Start e Welcome (ou Início e Boas Vindas), executado devido a entrada do usuário "oi". Este comportamento é descrito na primeira linha do console. Caso queira analisar exatamente quais foram todas as ações (de entrada ou saída) executadas a partir de uma transição específica, expanda a linha no console.
 
-![analisando debug](../../assets/practice/builder/builder-como-utilizar-debug-builder-3.png)<br><br>
+![analisando debug](/img/practice/builder/builder-como-utilizar-debug-builder-3.png)<br><br>
 
 Além da seção de console, veja que agora a seção de **variáveis** também possui valores relacionados ao usuário de teste. Neste caso apenas as variáveis **previous-state** e **state-id**, criadas automaticamente, possuem valores até o momento. Elas representam, respectivamente, o último bloco acessado e o bloco corrente do usuário.
 
-![variáveis debug](../../assets/practice/builder/builder-como-utilizar-debug-builder-4.png)<br><br>
+![variáveis debug](/img/practice/builder/builder-como-utilizar-debug-builder-4.png)<br><br>
 
 Continue enviando mensagens pela tela de teste e analise as mudanças ocorridas no console (relacionadas as transições entre os blocos) e na seção de variáveis.
 
@@ -51,7 +51,7 @@ function run() {
 }
 ```
 
-![Tela de script](../../assets/practice/builder/builder-como-utilizar-debug-builder-5.png)<br><br>
+![Tela de script](/img/practice/builder/builder-como-utilizar-debug-builder-5.png)<br><br>
 
 Após criar a ação, republique o fluxo do seu bot e volte para a tela de Debug.
 
@@ -59,8 +59,8 @@ O script que acabamos de criar possui um erro básico, **tentar acessar a propri
 
 Clique no botão de reiniciar o usuário de teste no Debug e refaça os testes.
 
-![Botão reiniciar debug](../../assets/practice/builder/builder-como-utilizar-debug-builder-6.png)<br><br>
+![Botão reiniciar debug](/img/practice/builder/builder-como-utilizar-debug-builder-6.png)<br><br>
 
 Agora você perceberá que o console apresentará uma ação com um erro e o detalhe do que está ocasionando este problema. Repare ainda que as linhas do console são pintadas de vermelho sempre que uma ou mais ações relacionadas a essa transição possuírem erros.
 
-![Erros no debug](../../assets/practice/builder/builder-como-utilizar-debug-builder-7.png)
+![Erros no debug](/img/practice/builder/builder-como-utilizar-debug-builder-7.png)

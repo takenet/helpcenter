@@ -8,7 +8,7 @@ Um dos parâmetros de configuração de um conteúdo que possua uma imagem é o 
 
 Ao enviar uma imagem através do Builder selecione uma das opções disponíveis no campo AspecRatio para alterar o comportamento. Veja o exemplo abaixo:
 
-![Aspect Ratio](../../assets/practice/builder/builder-proporcao-de-exibicao-de-imagens-1.png)
+![Aspect Ratio](/img/practice/builder/builder-proporcao-de-exibicao-de-imagens-1.png)
 
 Caso esteja utilizando um dos SDKs ou a API HTTP do BLiP utilize a propriedade **aspectRatio** para definir a proporção.
 

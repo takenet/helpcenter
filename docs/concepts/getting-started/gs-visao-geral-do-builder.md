@@ -14,7 +14,7 @@ Um fluxo de conversa no Builder é composto por diversos blocos que representam 
 
 Existem três tipos de blocos:
 
-![tipos de blocos](../../assets/concepts/getting-started/gs-viao-geral-do-builder.png)
+![tipos de blocos](/img/concepts/getting-started/gs-viao-geral-do-builder.png)
 
 **1. Blocos de Controle (Início e Exceção)**
 

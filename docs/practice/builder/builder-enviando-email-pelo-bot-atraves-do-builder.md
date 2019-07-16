@@ -10,7 +10,7 @@ Enviar um email é uma tarefa comum para quem está desenvolvendo um bot. Email 
 
 No BLiP, todo chatbot já possui, automaticamente, um email. Este email é formado sempre pelo identificador do bot + **@blip.ai**. Assim, um bot criado com o identificador papagaio, terá um email **papagaio@blip.ai**. Para saber exatamente qual é o email do seu bot acesse no **Portal** o módulo **Canais > Email**, conforme imagem abaixo:
 
-![Email do Bot](../../assets/practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder-1.png)
+![Email do Bot](/img/practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder-1.png)
 
 ## Como enviar um email utilizando o Builder?
 
@@ -18,7 +18,7 @@ Para enviar um email no Builder é bem simples, basta realizar uma requisição 
 
 Para exemplificar, vamos imaginar que seu bot faz a coleta de informações de possível leads em uma empresa. Em algum ponto do fluxo você precisará enviar um conteúdo em troca das informações obtidas dos usuários. Esse é um momento interessante para enviar um email, por exemplo.
 
-![Enviando conteúdo](../../assets/practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder-2.png)
+![Enviando conteúdo](/img/practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder-2.png)
 
 Após definido em qual ponto do fluxo o email será disparado, acesse o bloco correspondente e crie uma ação de **Requisição HTTP** (entrada ou saída, de acordo com o seu contexto) para a API do BLiP com as seguintes informações:
 
@@ -46,7 +46,7 @@ Para enviar um email para **abcdef@<span>foo.bar</span>** o campo **to** do JSON
 
 Além de montar a mensagem que será enviada por email e o seu respectivo destinatário, você precisará também da <u>*API-KEY-BOT*</u>. Para saber onde encontrar a API key do seu bot [clique aqui](practice/api-http-sdks/api-http-sdks-como-encontrar-a-api-key-do-meu-bot.md).
 
-![Enviando email](../../assets/practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder-3.png)
+![Enviando email](/img/practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder-3.png)
 
 ***Observação:*** *Atualmente o canal de email suporta apenas o tipo de conteúdo texto.*
 
