@@ -248,6 +248,10 @@
         "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
         "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
       },
+      "practice/blip-desk/desk-utilizar-live-agent-salesForce-atendimento-humano": {
+        "title": "Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?",
+        "sidebar_label": "Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?"
+      },
       "practice/builder/builder-acao-processar-comando": {
         "title": "Ação: Processar Comando",
         "sidebar_label": "Ação: Processar Comando"
