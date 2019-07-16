@@ -260,6 +260,10 @@
         "title": "Como utilizar a ferramenta de debug do Builder",
         "sidebar_label": "Como utilizar a ferramenta de debug do Builder"
       },
+      "practice/builder/builder-criando-acoes-condicionais": {
+        "title": "Criando ações condicionais",
+        "sidebar_label": "Criando ações condicionais"
+      },
       "practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat": {
         "title": "Criando um elemento web através de um weblink no BLiP Chat",
         "sidebar_label": "Criando um elemento web através de um weblink no BLiP Chat"

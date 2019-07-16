@@ -182,7 +182,8 @@
             "practice/builder/builder-proporcao-de-exibicao-de-imagens",
             "practice/builder/builder-acao-processar-comando",
             "practice/builder/builder-expirando-sessao-usuarios-builder",
-            "practice/builder/builder-definindo-acoes-globais"
+            "practice/builder/builder-definindo-acoes-globais", 
+            "practice/builder/builder-criando-acoes-condicionais"
           ]
       },
       {
