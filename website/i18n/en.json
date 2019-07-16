@@ -144,6 +144,10 @@
         "title": "LevelUp 1 - BLiP Desk",
         "sidebar_label": "LevelUp 1 - BLiP Desk"
       },
+      "general/level-up/level-up-2-blip-chat": {
+        "title": "LevelUp 2 - BLiP Chat",
+        "sidebar_label": "LevelUp 2 - BLiP Chat"
+      },
       "practice/ai/ai-como-configurar-dialogflow": {
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
