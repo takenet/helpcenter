@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "docusaurus": "^1.11.0"
+  },
+  "dependencies": {
+    "blip-toolkit": "^4.12.1"
   }
 }
