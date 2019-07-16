@@ -264,6 +264,10 @@
         "title": "Criando um elemento web através de um weblink no BLiP Chat",
         "sidebar_label": "Criando um elemento web através de um weblink no BLiP Chat"
       },
+      "practice/builder/builder-definindo-acoes-globais": {
+        "title": "Definindo ações globais no Builder",
+        "sidebar_label": "Definindo ações globais no Builder"
+      },
       "practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder": {
         "title": "Enviando email pelo bot através do Builder",
         "sidebar_label": "Enviando email pelo bot através do Builder"
