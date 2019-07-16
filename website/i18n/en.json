@@ -228,6 +228,10 @@
         "title": "Como realizar um atendimento através do BLiP Desk",
         "sidebar_label": "Como realizar um atendimento através do BLiP Desk"
       },
+      "practice/blip-desk/desk-configurar-alertas-inatividade-clientes-blip-desk": {
+        "title": "Como configurar alertas de inatividade dos clientes no BLiP Desk",
+        "sidebar_label": "Como configurar alertas de inatividade dos clientes no BLiP Desk"
+      },
       "practice/blip-desk/desk-gerenciamento-equipes": {
         "title": "Gerenciando equipes de atendimento no BLiP Desk",
         "sidebar_label": "Gerenciado equipes de atendimento no BLiP Desk"
