@@ -180,7 +180,10 @@
       {
         "type": "subcategory",
         "label": "BLiP Chat",
-        "ids": []
+        "ids": 
+          [
+            "practice/blip-chat/chat-adicionar-bot-site-blip-chat"
+          ]
       },
       {
         "type": "subcategory",
