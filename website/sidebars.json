@@ -136,7 +136,11 @@
             "practice/blip-desk/desk-utilizando-variav-respostas",
             "practice/blip-desk/desk-como-definir-regras-atendimento",
             "practice/blip-desk/desk-gerenciamento-equipes",
-            "practice/blip-desk/desk-como-ativar-blip-desk-canal"
+            "practice/blip-desk/desk-como-ativar-blip-desk-canal",
+            "practice/blip-desk/desk-habilitando-uso-emoji-desk",
+            "practice/blip-desk/desk-configurar-alertas-inatividade-clientes-blip-desk",
+            "practice/blip-desk/desk-definindo-alerta-tempo-resposta-atendente",
+            "practice/blip-desk/desk-utilizar-live-agent-salesForce-atendimento-humano"
           ]
       },
       {
@@ -176,7 +180,9 @@
             "practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder",
             "practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder",
             "practice/builder/builder-proporcao-de-exibicao-de-imagens",
-            "practice/builder/builder-acao-processar-comando"
+            "practice/builder/builder-acao-processar-comando",
+            "practice/builder/builder-expirando-sessao-usuarios-builder",
+            "practice/builder/builder-definindo-acoes-globais"
           ]
       },
       {
@@ -188,7 +194,9 @@
             "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat",
             "practice/blip-chat/chat-adicionando-push-notification-blip-chat-android",
             "practice/blip-chat/chat-adicionar-blip-chat-site-wix",
-            "practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css"
+            "practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css",
+            "practice/blip-chat/chat-adicionar-blip-chat-site-wordpress",
+            "practice/blip-chat/chat-permitir-envio-de-arquivos-blip-chat"
           ]
       },
       {
