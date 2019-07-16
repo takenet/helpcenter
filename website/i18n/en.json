@@ -208,6 +208,10 @@
         "title": "Customizações disponíveis no BLiP Chat",
         "sidebar_label": "Customizações disponíveis no BLiP Chat"
       },
+      "practice/blip-chat/chat-permitir-envio-de-arquivos-blip-chat": {
+        "title": "Permitir envio de arquivos no BLiP Chat",
+        "sidebar_label": "Permitir envio de arquivos no BLiP Chat"
+      },
       "practice/blip-desk/desk-como-ativar-blip-desk-canal": {
         "title": "Como ativar o BLiP Desk como um canal de atendimento",
         "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
