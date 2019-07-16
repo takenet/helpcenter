@@ -275,6 +275,14 @@
           "general/auxiliary-tools/aux-utilizando-textc-construir-conversa"
 
         ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Level Up",
+        "ids": 
+          [
+            "general/level-up/level-up-0-lancamento-oficial-do-blip"
+          ]
       }
     ]
   }
