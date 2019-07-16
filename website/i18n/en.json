@@ -208,6 +208,10 @@
         "title": "Customizações disponíveis no BLiP Chat",
         "sidebar_label": "Customizações disponíveis no BLiP Chat"
       },
+      "practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css": {
+        "title": "Customizando o BLiP Chat Widget através de CSS",
+        "sidebar_label": "Customizando o BLiP Chat Widget através de CSS"
+      },
       "practice/blip-chat/chat-permitir-envio-de-arquivos-blip-chat": {
         "title": "Permitir envio de arquivos no BLiP Chat",
         "sidebar_label": "Permitir envio de arquivos no BLiP Chat"
