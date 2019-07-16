@@ -173,7 +173,8 @@
             "practice/builder/builder-importando-o-fluxo-de-um-bot-no-builder",
             "practice/builder/builder-como-utilizar-debug-builder",
             "practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat",
-            "practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder"
+            "practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder",
+            "practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder"
           ]
       },
       {
