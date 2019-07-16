@@ -92,7 +92,3 @@ Tudo feito usando CSS, externo ao widget, controlando o que já existe em volta 
 
 O código utilizado em todos os exemplos pode ser encontrado em: <https://henriquetorquato.github.io/>
 
-Este artigo, imagens e códigos de exemplos foram criados pelo [Henrique Torquato](https://github.com/henriquetorquato) 😍.
-
-
-
