@@ -40,8 +40,11 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'concepts/builder/builder-visao-geral-variaveis', label: 'Artigos'},
-    {doc: 'api', label: 'API'},
-    {page: 'help', label: 'Help'},
+    {doc: 'api', label: 'Áreas do BLiP'},
+    {page: 'help', label: 'Recursos'},
+    {page: 'help', label: 'Cursos'},
+    {page: 'help', label: 'Comunidade'},
+    {page: 'help', label: 'Políticas'},
     {blog: true, label: 'Blog'},
   ],
 
@@ -85,7 +88,7 @@ const siteConfig = {
   scripts: ['https://buttons.github.io/buttons.js'],
 
   // On page navigation for the current documentation page.
-  onPageNav: 'separate',
+  //onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
 
