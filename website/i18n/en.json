@@ -136,6 +136,18 @@
         "title": "Utilizando o Textc para construir uma conversa contextual",
         "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
       },
+      "general/level-up/level-up-0-lancamento-oficial-do-blip": {
+        "title": "LevelUp 0 - Lançamento oficial do BLiP",
+        "sidebar_label": "LevelUp 0 - Lançamento oficial do BLiP"
+      },
+      "general/level-up/level-up-1-blip-desk": {
+        "title": "LevelUp 1 - BLiP Desk",
+        "sidebar_label": "LevelUp 1 - BLiP Desk"
+      },
+      "general/level-up/level-up-2-blip-chat": {
+        "title": "LevelUp 2 - BLiP Chat",
+        "sidebar_label": "LevelUp 2 - BLiP Chat"
+      },
       "practice/ai/ai-como-configurar-dialogflow": {
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
@@ -196,6 +208,10 @@
         "title": "Adicionar o BLiP Chat em um site Wix",
         "sidebar_label": "Adicionar o BLiP Chat em um site Wix"
       },
+      "practice/blip-chat/chat-adicionar-blip-chat-site-wordpress": {
+        "title": "Adicionar o BLiP Chat em um site Wordpress",
+        "sidebar_label": "Adicionar o BLiP Chat em um site Wordpress"
+      },
       "practice/blip-chat/chat-adicionar-bot-site-blip-chat": {
         "title": "Como adicionar um bot em um site utilizando o BLiP Chat?",
         "sidebar_label": "Como adicionar um bot em um site utilizando o BLiP Chat?"
@@ -203,6 +219,14 @@
       "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat": {
         "title": "Customizações disponíveis no BLiP Chat",
         "sidebar_label": "Customizações disponíveis no BLiP Chat"
+      },
+      "practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css": {
+        "title": "Customizando o BLiP Chat Widget através de CSS",
+        "sidebar_label": "Customizando o BLiP Chat Widget através de CSS"
+      },
+      "practice/blip-chat/chat-permitir-envio-de-arquivos-blip-chat": {
+        "title": "Permitir envio de arquivos no BLiP Chat",
+        "sidebar_label": "Permitir envio de arquivos no BLiP Chat"
       },
       "practice/blip-desk/desk-como-ativar-blip-desk-canal": {
         "title": "Como ativar o BLiP Desk como um canal de atendimento",
@@ -220,29 +244,61 @@
         "title": "Como realizar um atendimento através do BLiP Desk",
         "sidebar_label": "Como realizar um atendimento através do BLiP Desk"
       },
+      "practice/blip-desk/desk-configurar-alertas-inatividade-clientes-blip-desk": {
+        "title": "Como configurar alertas de inatividade dos clientes no BLiP Desk",
+        "sidebar_label": "Como configurar alertas de inatividade dos clientes no BLiP Desk"
+      },
+      "practice/blip-desk/desk-definindo-alerta-tempo-resposta-atendente": {
+        "title": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk",
+        "sidebar_label": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk"
+      },
       "practice/blip-desk/desk-gerenciamento-equipes": {
         "title": "Gerenciando equipes de atendimento no BLiP Desk",
         "sidebar_label": "Gerenciado equipes de atendimento no BLiP Desk"
+      },
+      "practice/blip-desk/desk-habilitando-uso-emoji-desk": {
+        "title": "Habilitando o uso de emoji para o Desk",
+        "sidebar_label": "Habilitando o uso de emoji para o Desk"
       },
       "practice/blip-desk/desk-utilizando-variav-respostas": {
         "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
         "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
       },
+      "practice/blip-desk/desk-utilizar-live-agent-salesForce-atendimento-humano": {
+        "title": "Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?",
+        "sidebar_label": "Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?"
+      },
       "practice/builder/builder-acao-processar-comando": {
         "title": "Ação: Processar Comando",
         "sidebar_label": "Ação: Processar Comando"
+      },
+      "practice/builder/builder-como-definir-um-tempo-limite-para-acoes-do-builder": {
+        "title": "Como definir um tempo limite (timeout) para ações do Builder",
+        "sidebar_label": "Como definir um tempo limite (timeout) para ações do Builder"
       },
       "practice/builder/builder-como-utilizar-debug-builder": {
         "title": "Como utilizar a ferramenta de debug do Builder",
         "sidebar_label": "Como utilizar a ferramenta de debug do Builder"
       },
+      "practice/builder/builder-criando-acoes-condicionais": {
+        "title": "Criando ações condicionais",
+        "sidebar_label": "Criando ações condicionais"
+      },
       "practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat": {
         "title": "Criando um elemento web através de um weblink no BLiP Chat",
         "sidebar_label": "Criando um elemento web através de um weblink no BLiP Chat"
       },
+      "practice/builder/builder-definindo-acoes-globais": {
+        "title": "Definindo ações globais no Builder",
+        "sidebar_label": "Definindo ações globais no Builder"
+      },
       "practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder": {
         "title": "Enviando email pelo bot através do Builder",
         "sidebar_label": "Enviando email pelo bot através do Builder"
+      },
+      "practice/builder/builder-expirando-sessao-usuarios-builder": {
+        "title": "Expirando a sessão dos usuários do Builder",
+        "sidebar_label": "Expirando a sessão dos usuários do Builder"
       },
       "practice/builder/builder-importando-o-fluxo-de-um-bot-no-builder": {
         "title": "Importando o fluxo de um bot no Builder",

@@ -136,7 +136,11 @@
             "practice/blip-desk/desk-utilizando-variav-respostas",
             "practice/blip-desk/desk-como-definir-regras-atendimento",
             "practice/blip-desk/desk-gerenciamento-equipes",
-            "practice/blip-desk/desk-como-ativar-blip-desk-canal"
+            "practice/blip-desk/desk-como-ativar-blip-desk-canal",
+            "practice/blip-desk/desk-habilitando-uso-emoji-desk",
+            "practice/blip-desk/desk-configurar-alertas-inatividade-clientes-blip-desk",
+            "practice/blip-desk/desk-definindo-alerta-tempo-resposta-atendente",
+            "practice/blip-desk/desk-utilizar-live-agent-salesForce-atendimento-humano"
           ]
       },
       {
@@ -176,7 +180,11 @@
             "practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder",
             "practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder",
             "practice/builder/builder-proporcao-de-exibicao-de-imagens",
-            "practice/builder/builder-acao-processar-comando"
+            "practice/builder/builder-acao-processar-comando",
+            "practice/builder/builder-expirando-sessao-usuarios-builder",
+            "practice/builder/builder-definindo-acoes-globais", 
+            "practice/builder/builder-criando-acoes-condicionais",
+            "practice/builder/builder-como-definir-um-tempo-limite-para-acoes-do-builder"
           ]
       },
       {
@@ -187,7 +195,10 @@
             "practice/blip-chat/chat-adicionar-bot-site-blip-chat",
             "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat",
             "practice/blip-chat/chat-adicionando-push-notification-blip-chat-android",
-            "practice/blip-chat/chat-adicionar-blip-chat-site-wix"
+            "practice/blip-chat/chat-adicionar-blip-chat-site-wix",
+            "practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css",
+            "practice/blip-chat/chat-adicionar-blip-chat-site-wordpress",
+            "practice/blip-chat/chat-permitir-envio-de-arquivos-blip-chat"
           ]
       },
       {
@@ -264,6 +275,16 @@
           "general/auxiliary-tools/aux-utilizando-textc-construir-conversa"
 
         ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Level Up",
+        "ids": 
+          [
+            "general/level-up/level-up-0-lancamento-oficial-do-blip",
+            "general/level-up/level-up-1-blip-desk",
+            "general/level-up/level-up-2-blip-chat"
+          ]
       }
     ]
   }
