@@ -156,6 +156,10 @@
         "title": "LevelUp 4 - BLiP Desk 2.0",
         "sidebar_label": "LevelUp 4 - BLiP Desk 2.0"
       },
+      "general/level-up/level-up-5-whatsapp": {
+        "title": "LevelUp 5 - WhatsApp",
+        "sidebar_label": "LevelUp 5 - WhatsApp"
+      },
       "practice/ai/ai-como-configurar-dialogflow": {
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
