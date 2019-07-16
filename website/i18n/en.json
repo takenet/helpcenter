@@ -232,6 +232,10 @@
         "title": "Como configurar alertas de inatividade dos clientes no BLiP Desk",
         "sidebar_label": "Como configurar alertas de inatividade dos clientes no BLiP Desk"
       },
+      "practice/blip-desk/desk-definindo-alerta-tempo-resposta-atendente": {
+        "title": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk",
+        "sidebar_label": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk"
+      },
       "practice/blip-desk/desk-gerenciamento-equipes": {
         "title": "Gerenciando equipes de atendimento no BLiP Desk",
         "sidebar_label": "Gerenciado equipes de atendimento no BLiP Desk"
