@@ -218,7 +218,7 @@
         "label": "AI",
         "ids": 
           [
-            "practice/ai/ai-como-treinar-modelo-nlp",
+            "practice/ai/ai-como-testar-modelo-nlp",
             "practice/ai/ai-como-criar-uma-intencao",
             "practice/ai/ai-treinando-publicando-modelo-de-ia",
             "practice/ai/ai-como-exportar-base-conhecimento", 
@@ -287,7 +287,12 @@
             "general/level-up/level-up-3-checklist-de-ia",
             "general/level-up/level-up-4-blip-desk-2",
             "general/level-up/level-up-5-whatsapp",
-            "general/level-up/level-up-6-templates-tags-e-biblioteca-de-variaveis"
+            "general/level-up/level-up-6-templates-tags-e-biblioteca-de-variaveis",
+            "general/level-up/level-up-7-dialogflow",
+            "general/level-up/level-up-8-blip-growth",
+            "general/level-up/level-up-9-marcos-de-2018",
+            "general/level-up/level-up-10-ferramenta-de-debug",
+            "general/level-up/level-up-11-comemoracao-de-um-ano-mais-caso-mundiale"
           ]
       }
     ]

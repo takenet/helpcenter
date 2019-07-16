@@ -144,6 +144,14 @@
         "title": "LevelUp 1 - BLiP Desk",
         "sidebar_label": "LevelUp 1 - BLiP Desk"
       },
+      "general/level-up/level-up-10-ferramenta-de-debug": {
+        "title": "LevelUp 10 - Ferramenta de Debug",
+        "sidebar_label": "LevelUp 10 - Ferramenta de Debug"
+      },
+      "general/level-up/level-up-11-comemoracao-de-um-ano-mais-caso-mundiale": {
+        "title": "LevelUp 11 - Comemoração de 1 ano + Case Mundiale",
+        "sidebar_label": "LevelUp 11 - Comemoração de 1 ano + Case Mundiale"
+      },
       "general/level-up/level-up-2-blip-chat": {
         "title": "LevelUp 2 - BLiP Chat",
         "sidebar_label": "LevelUp 2 - BLiP Chat"
@@ -164,6 +172,18 @@
         "title": "LevelUp 6 - Templates, tags e biblioteca de variáveis",
         "sidebar_label": "LevelUp 6 - Templates, tags e biblioteca de variáveis"
       },
+      "general/level-up/level-up-7-dialogflow": {
+        "title": "LevelUp 7 - Dialogflow",
+        "sidebar_label": "LevelUp 7 - Dialogflow"
+      },
+      "general/level-up/level-up-8-blip-growth": {
+        "title": "LevelUp 8 - BLiP Growth",
+        "sidebar_label": "LevelUp 8 - BLiP Growth"
+      },
+      "general/level-up/level-up-9-marcos-de-2018": {
+        "title": "LevelUp 9 - Marcos de 2018",
+        "sidebar_label": "LevelUp 9 - Marcos de 2018"
+      },
       "practice/ai/ai-como-configurar-dialogflow": {
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
@@ -180,9 +200,9 @@
         "title": "Como importar/exportar uma base de conhecimento",
         "sidebar_label": "Como importar/exportar uma base de conhecimento"
       },
-      "practice/ai/ai-como-treinar-modelo-nlp": {
-        "title": "Como treinar seu modelo de NLP?",
-        "sidebar_label": "Como treinar seu modelo de NLP?"
+      "practice/ai/ai-como-testar-modelo-nlp": {
+        "title": "Como testar seu modelo de NLP",
+        "sidebar_label": "Como testar seu modelo de NLP"
       },
       "practice/ai/ai-treinando-publicando-modelo-de-ia": {
         "title": "Treinando e publicando seu modelo de inteligência artificial",
