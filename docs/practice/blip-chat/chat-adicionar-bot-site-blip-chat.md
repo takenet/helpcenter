@@ -68,6 +68,6 @@ Para embutir a interface em um elemento html com o id **'your-element-id'** do s
 
 **Observações**:
 
-\* Independentemente da forma de integração, são possíveis ainda algumas customizações para personalizar a experiência do usuário com a interface do BLiP Chat.  
+\* Independentemente da forma de integração, são possíveis ainda algumas customizações para personalizar a experiência do usuário com a interface do BLiP Chat. Para verificar todos os detalhes, [clique aqui](practice/blip-chat/chat-customizacoes-disponiveis-blip-chat.md).
 
 \* Para configurações avançadas do scritpt do BLiP Chat na web, consulte o projeto no [Github](https://github.com/takenet/blip-chat-widget).
