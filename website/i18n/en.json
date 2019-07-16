@@ -228,6 +228,10 @@
         "title": "Importando o fluxo de um bot no Builder",
         "sidebar_label": "Importando o fluxo de um bot no Builder"
       },
+      "practice/builder/builder-proporcao-de-exibicao-de-imagens": {
+        "title": "Proporção de exibição de imagens (Aspect Ratio)",
+        "sidebar_label": "Proporção de exibição de imagens (Aspect Ratio)"
+      },
       "practice/builder/builder-salvando-informacoes-de-um-usuario": {
         "title": "Salvando informações de um usuário",
         "sidebar_label": "Salvando informações de um usuário"
