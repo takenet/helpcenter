@@ -192,6 +192,10 @@
         "title": "Adicionando push notification no BLiP Chat Android",
         "sidebar_label": "Adicionando push notification no BLiP Chat Android"
       },
+      "practice/blip-chat/chat-adicionar-blip-chat-site-wix": {
+        "title": "Adicionar o BLiP Chat em um site Wix",
+        "sidebar_label": "Adicionar o BLiP Chat em um site Wix"
+      },
       "practice/blip-chat/chat-adicionar-bot-site-blip-chat": {
         "title": "Como adicionar um bot em um site utilizando o BLiP Chat?",
         "sidebar_label": "Como adicionar um bot em um site utilizando o BLiP Chat?"
