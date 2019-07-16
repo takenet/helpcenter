@@ -232,6 +232,10 @@
         "title": "Verificar se existe atendente disponível no Builder",
         "sidebar_label": "Verificar se existe atendente disponível no Builder"
       },
+      "practice/channels/channels-criando-graficos-em-um-relatorio-customizado": {
+        "title": "Criando gráficos em um relatório customizado",
+        "sidebar_label": "Criando gráficos em um relatório customizado"
+      },
       "practice/channels/channels-publicando-seu-bot-workplace": {
         "title": "Publicando seu bot no Workplace",
         "sidebar_label": "Publicando seu bot no Workplace"
