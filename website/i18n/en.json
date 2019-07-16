@@ -212,6 +212,10 @@
         "title": "Criando um elemento web através de um weblink no BLiP Chat",
         "sidebar_label": "Criando um elemento web através de um weblink no BLiP Chat"
       },
+      "practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder": {
+        "title": "Enviando email pelo bot através do Builder",
+        "sidebar_label": "Enviando email pelo bot através do Builder"
+      },
       "practice/builder/builder-importando-o-fluxo-de-um-bot-no-builder": {
         "title": "Importando o fluxo de um bot no Builder",
         "sidebar_label": "Importando o fluxo de um bot no Builder"
