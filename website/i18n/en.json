@@ -232,6 +232,10 @@
         "title": "Gerenciando equipes de atendimento no BLiP Desk",
         "sidebar_label": "Gerenciado equipes de atendimento no BLiP Desk"
       },
+      "practice/blip-desk/desk-habilitando-uso-emoji-desk": {
+        "title": "Habilitando o uso de emoji para o Desk",
+        "sidebar_label": "Habilitando o uso de emoji para o Desk"
+      },
       "practice/blip-desk/desk-utilizando-variav-respostas": {
         "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
         "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
