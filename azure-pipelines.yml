@@ -23,6 +23,6 @@ steps:
 
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: 'build'
+    rootFolderOrFile: 'website/build'
     includeRootFolder: false
   displayName: 'ArchiveFiles'
