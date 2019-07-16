@@ -180,9 +180,9 @@
         "title": "Como importar/exportar uma base de conhecimento",
         "sidebar_label": "Como importar/exportar uma base de conhecimento"
       },
-      "practice/ai/ai-como-treinar-modelo-nlp": {
-        "title": "Como treinar seu modelo de NLP?",
-        "sidebar_label": "Como treinar seu modelo de NLP?"
+      "practice/ai/ai-como-testar-modelo-nlp": {
+        "title": "Como testar seu modelo de NLP?",
+        "sidebar_label": "Como testar seu modelo de NLP?"
       },
       "practice/ai/ai-treinando-publicando-modelo-de-ia": {
         "title": "Treinando e publicando seu modelo de inteligência artificial",
