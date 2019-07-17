@@ -451,8 +451,11 @@
     },
     "links": {
       "Artigos": "Artigos",
-      "API": "API",
-      "Help": "Help",
+      "Áreas do BLiP": "Áreas do BLiP",
+      "Recursos": "Recursos",
+      "Cursos": "Cursos",
+      "Comunidade": "Comunidade",
+      "Políticas": "Políticas",
       "Blog": "Blog"
     },
     "categories": {
