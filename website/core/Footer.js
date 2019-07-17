@@ -26,75 +26,98 @@ class Footer extends React.Component {
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
           <a href={this.props.config.baseUrl} className="nav-home">
-            {this.props.config.footerIcon && (
+          {this.props.config.footerIcon && (
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
-                width="66"
-                height="58"
+                width="150"
+                height="75"
               />
             )}
           </a>
           <div>
-            <h5>Docs</h5>
+            <h5>Áreas do BLiP</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+              Analytics
             </a>
             <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+              Builder
             </a>
             <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+              Canais
+            </a>
+            <a href={this.docUrl('doc3.html', this.props.language)}>
+              CRM
+            </a>
+            <a href={this.docUrl('doc3.html', this.props.language)}>
+              Desk
+            </a>
+            <a href={this.docUrl('doc3.html', this.props.language)}>
+              Growth
+            </a>
+            <a href={this.docUrl('doc3.html', this.props.language)}>
+              Help Desk
+            </a>
+            <a href={this.docUrl('doc3.html', this.props.language)}>
+              I.A.
             </a>
           </div>
           <div>
-            <h5>Community</h5>
+            <h5>Recursos</h5>
             <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
+              API Reference
             </a>
-            <a
-              href="https://stackoverflow.com/questions/tagged/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Stack Overflow
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              Changelogs
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              Faq
+            </a>
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              Github 
+            </a>
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              Status 
             </a>
           </div>
           <div>
-            <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              Star
+            <h5>Cursos</h5>
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              Certificação BLiP
+            </a>
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              Tutoriais
+            </a>
+          </div>
+          <div>
+            <h5>Comunidade</h5>
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              BLiP Beta
+            </a>
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              BLiP Ideas
+            </a>
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              BLiP Lovers
+            </a>
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              Blog 
+            </a>
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              Eventos 
+            </a>
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              Fórum 
+            </a>
+          </div>
+          <div>
+            <h5>Políticas</h5>
+            <a href={this.pageUrl('users.html', this.props.language)}>
+              LGPD 
             </a>
           </div>
         </section>
 
-        <a
-          href="https://opensource.facebook.com/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
-          <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
-          />
-        </a>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
