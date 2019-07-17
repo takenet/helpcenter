@@ -46,6 +46,8 @@ const siteConfig = {
     {page: 'help', label: 'Comunidade'},
     {page: 'help', label: 'Políticas'},
     {blog: true, label: 'Blog'},
+    {languages: true},
+    {search: true}
   ],
 
   // If you have users set above, you add it here:
