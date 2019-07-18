@@ -155,28 +155,17 @@ class Index extends React.Component {
     };
 
     const LearnHow = () => (
-      // <Block background="light">
-      //   {[
-      //     {
-      //       content:
-      //         'O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!',
-      //       image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-      //       imageAlign: 'right',
-      //       title: 'Tire dúvidas e faça sugestões',
-      //     },
-      //   ]}
-      // </Block>]
-      <div className="homeContainer">
-        <span>
-          asdhuasdusadhasdjkasdhjasdjkjsadkhjsad
-          susadkjhasdhjkasd sadhusasdjk hasdklkhdakjdsal <br/>
-        </span>
-        <BlipIcon name="arrow-ball-up-outline" className="bp-fs-2 bp-fill-doritos"></BlipIcon>
-        
-        <div class="section-icon-circle section-icon-circle--doritos">
-          <BlipIcon name="blip-ideas" style={learnHowIconStyle} className="bp-fs-1 bp-fill-doritos"></BlipIcon>
-        </div>
-      </div>
+      <Block background="light">
+        {[
+          {
+            content:
+              'Each new Docusaurus project has **randomly-generated** theme colors.',
+            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            imageAlign: 'right',
+            title: 'Randomly Generated Theme Colors',
+          },
+        ]}
+      </Block>
     );
 
     const Features = () => (
