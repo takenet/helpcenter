@@ -77,17 +77,22 @@ class HomeSplash extends React.Component {
     );
 
     return (
-      <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
-        <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
-          </PromoSection>
-        </div>
-      </SplashContainer>
+      <div className="div-rectangle-main">
+        <img className="img-logo-blip" src="img/logo.svg"/>
+          <h1 className="bp-fs-2-title"> Estamos aqui para te ajudar!</h1>
+          <div className="div-subtitle-main">
+            <strong>Antes de começar a explorar, que tal escolher um nível de conhecimento?</strong>
+            <p>Os níveis de conhecimento servem para melhor filtrar os conteúdos que podem auxiliar a tirar suas dúvidas =)</p>
+          </div>
+          
+          <div className="card-home-main">
+            <div className="card-home-main-img">
+              <img src="img/illustrations/person-2.svg"/>
+            </div>
+            <h3 className="card-home-main-title">Básico</h3>
+            <p className="card-home-main-text">Este nível é para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
+          </div>
+      </div>
     );
   }
 }

@@ -7725,6 +7725,17 @@
 	font-size: 2rem
 }
 
+.bp-fs-2-title{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: 800;
+	margin-top: 36px;
+	font-size: 40px;
+	line-height: 55px;
+	text-align: center;
+	color: #2CC3D5;
+}
+
 .bp-fs-3 {
 	font-size: 1.5rem
 }
@@ -7998,4 +8009,105 @@
     margin: 0;
     padding: 0;
 	padding: 20px 10px;
+}
+
+.div-rectangle-main{
+	width: 100%;
+	height: 100%;
+	left: 100%;
+	top: 492px;
+	background: linear-gradient(192deg, #3D4554 -10.36%, #242B36 45.63%, #1D1D1D 117.21%);
+}
+
+.img-logo-blip{
+	display: block;
+	padding-top: 79px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0%;
+	width: 250px;
+}
+
+.div-subtitle-main{
+	font-family: Nunito Sans;
+	font-style: normal;
+	color: #FFFFFF;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 200%;
+	text-align: center;
+}
+
+.card-home-main{
+	position: relative;
+	width: 25%;
+	height: 232px;
+	margin-left: 10%;
+	background: #FFFFFF;
+	border: 1px solid #EAEEEE;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.15);
+	border-radius: 8px;
+}
+
+.card-home-main-img{
+	position: relative;
+	width: 80%;
+	height: 80%;
+	margin-right: 10%;
+	left: 5%;
+	top: 10%;
+	background-size: cover;
+    background-position: center;
+}
+
+.card-home-main-title{
+	position: relative;
+	left: 50%;
+	top: -77%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 100%;
+	color: #2CC3D5;
+}
+
+.card-home-main-text{
+	position: relative;
+	left: 50%;
+	top: -80%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	width: 38%;
+	line-height: 16px;
+	color: #3D4554;
+}
+
+
+.flexbox-container {
+	display: flex;
+	justify-content: center;
+}
+
+.buttton-card{
+	position: relative;
+	background: #2CC3D5;
+	border: 1px solid #2498A8;
+	box-sizing: border-box;
+	border-radius: 8px;
+	width: 30%;
+	height: 12%;
+	left: 50%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 22px;
+	color: #FFFFFF;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
 }
