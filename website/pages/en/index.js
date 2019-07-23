@@ -149,23 +149,41 @@ class Index extends React.Component {
       </Block>
     );
 
-    const learnHowIconStyle = {
-      width: '72px',
-      height: '72px'
-    };
+    const ForumAndIdeas = () => (
+      //  <Block background="light">
+      //   {[
+      //     {
+      //       content:
+      //         'O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!',
+      //       image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+      //       imageAlign: 'right',
+      //       title: 'Tire dúvidas e faça sugestões',
+      //     },
+      // </Block>]}
+      //<img src="img/illustrations/person-1.svg"/>
 
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
-          },
-        ]}
-      </Block>
+      <div className="div-forum-ideas">
+
+        <h2 className="div-forum-ideas-title">Tire dúvidas e faça sugestões!</h2>
+        <p className="div-forum-ideas-text">O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!</p>
+
+        <div className="div-forum-ideas-forum-balloon">
+          <div className="section-icon-circle section-icon-circle--sea">
+            <BlipIcon name="forum" className="bp-fs-1 bp-fill-sea"></BlipIcon>
+          </div>
+          <div>
+            <h3 className="div-forum-ideas-forum-balloon-title">Fórum</h3>
+            <p className="div-forum-ideas-forum-balloon-text"> Não encontrou o que procurava aqui no nosso help center? Sendo assim você pode abrir um chamado para outros usuários ou nosso setor de suporte ajudar a tirar suas dúvidas!</p>
+          </div>
+        </div>
+
+        {/* <div className="div-forum-ideas-ideas-balloon">
+          <div class="section-icon-circle section-icon-circle--doritos">
+              <BlipIcon name="blip-ideas" className="bp-fs-1 bp-fill-doritos"></BlipIcon>
+          </div>
+        </div> */}
+      </div>
+        
     );
 
     const Features = () => (
@@ -222,7 +240,7 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <LearnHow />
+          <ForumAndIdeas />
           <TryOut />
           <Description />
           <Showcase />

@@ -97,6 +97,30 @@
 	unicode-range: U+0000-00FF, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd
 }
 
+.section-icon-circle {
+	border-radius: 100%;
+	width: 108px;
+	height: 108px;
+	padding: 18px;
+	margin-top: 2.5%;
+	margin-bottom: 3.95%;
+	margin-left: 6.42%;
+	float: left;
+}
+
+.section-icon-circle--doritos {
+	background-color: rgba(249, 155, 69, 0.12);
+}
+
+.section-icon-circle--sea {
+	background-color: rgba(81, 123, 242, 0.12);
+}
+
+.section-icon-circle .blip-icon {
+	width: 72px;
+	height: 72px;
+}
+
 .bp-arrow {
 	box-sizing: border-box;
 	display: block;
@@ -7833,6 +7857,65 @@
 	height: 85%;
 	margin-right: 10px;
 	margin-top: 8px;
+}
+
+.div-forum-ideas {
+	width: 100%;
+	height: 100%;
+	background: rgba(218, 242, 244, 0.3);
+}
+
+.div-forum-ideas-title {
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	color: #607B99;
+	padding-top: 37px;
+}
+
+.div-forum-ideas-text {
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: #A8BFC4;
+}
+
+.div-forum-ideas-forum-balloon {
+	width: 36.04%;
+	height: 49.84%;
+	margin-top: 0.5%;
+	margin-bottom: 2%; 
+	margin-left: 8.60%;
+	background: #FFFFFF;
+	border: 1px solid rgba(96, 123, 153, 0.15);
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.div-forum-ideas-forum-balloon-title {
+	margin-left: 28.64%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 100%;
+	color: #607B99;
+}
+
+.div-forum-ideas-forum-balloon-text {
+	margin-left: 28.64%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 150%;
+	color: #52636C;
+	margin-bottom: 40px;
 }
 
 .nav-footer {
