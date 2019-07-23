@@ -4,6 +4,79 @@
 
 	.div-forum-ideas-balloon-text {
 		display: none;
+
+	}
+	
+	.card-home-main-mobile{
+		position: relative;
+		width: 360px;
+		height: 232px;
+		margin-left: 10%;
+		background: #000000;
+		border: 1px solid #EAEEEE;
+		box-sizing: border-box;
+		box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.15);
+		border-radius: 8px;
+	}
+	
+	.card-home-main-img{
+		position: relative;
+		width: 80%;
+		height: 80%;
+		margin-right: 10%;
+		left: 5%;
+		top: 10%;
+		background-size: cover;
+		background-position: center;
+	}
+	
+	.card-home-main-title{
+		position: relative;
+		left: -32%;
+		top: -77%;
+		font-family: Nunito Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 100%;
+		color: #2CC3D5;
+		float: right;
+	}
+	
+	.card-home-main-text{
+		position: relative;
+		left: 6%;
+		top: -50%;
+		font-family: Nunito Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		width: 38%;
+		line-height: 16px;
+		color: #3D4554;
+		float: right;
+	}
+	
+	.buttton-card{
+		position: relative;
+		background: #2CC3D5;
+		border: 1px solid #2498A8;
+		box-sizing: border-box;
+		border-radius: 8px;
+		width: 30%;
+		height: 12%;
+		left: 36%;
+		top: -10%;
+		font-family: Nunito Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		line-height: 22px;
+		color: #FFFFFF;
+		text-align: center;
+		outline: none;
+		text-decoration: none;
+		float: right;
 	}
 }
 
@@ -7868,9 +7941,9 @@
 }
 
 .fixedHeaderContainer header img {
-	height: 85%;
+	height: 100%;
 	margin-right: 10px;
-	margin-top: 8px;
+	margin-top: 5px;
 }
 
 .div-forum-ideas {
@@ -8050,7 +8123,8 @@
 	font-style: normal;
 	color: #FFFFFF;
 	margin-top: 20px;
-	font-size: 20px;
+	margin-bottom: 200px;
+	font-size: 1.25rem;
 	line-height: 200%;
 	text-align: center;
 }
@@ -8059,7 +8133,8 @@
 	position: relative;
 	width: 25%;
 	height: 232px;
-	margin-left: 10%;
+	margin-top: -9%;
+	margin-left: 3.8%;
 	background: #FFFFFF;
 	border: 1px solid #EAEEEE;
 	box-sizing: border-box;
@@ -8074,39 +8149,91 @@
 	margin-right: 10%;
 	left: 5%;
 	top: 10%;
-	background-size: cover;
-    background-position: center;
+    
 }
 
 .card-home-main-title{
 	position: relative;
-	left: 50%;
+	left: -32%;
 	top: -77%;
 	font-family: Nunito Sans;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 1.25rem;
 	line-height: 100%;
 	color: #2CC3D5;
+	float: right;
+	text-align: center;
+}
+
+.card-home-main-title-2{
+	position: relative;
+	left: -18%;
+	top: -77%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.25rem;
+	line-height: 100%;
+	color: #2CC3D5;
+	float: right;
+	text-align: center;
+}
+
+.card-home-main-title-3{
+	position: relative;
+	left: -25%;
+	top: -77%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.25rem;
+	line-height: 100%;
+	color: #2CC3D5;
+	float: right;
+	text-align: center;
 }
 
 .card-home-main-text{
 	position: relative;
-	left: 50%;
-	top: -80%;
+	left: 6%;
+	top: -50%;
 	font-family: Nunito Sans;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 0.75rem;
 	width: 38%;
 	line-height: 16px;
 	color: #3D4554;
+	float: right;
 }
 
+.card-home-main-text-2{
+	position: relative;
+	left: 20%;
+	top: -50%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.75rem;
+	width: 38%;
+	line-height: 16px;
+	color: #3D4554;
+	float: right;
+}
 
-.flexbox-container {
-	display: flex;
-	justify-content: center;
+.card-home-main-text-3{
+	position: relative;
+	left: 13%;
+	top: -50%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.75rem;
+	width: 38%;
+	line-height: 16px;
+	color: #3D4554;
+	float: right;
 }
 
 .buttton-card{
@@ -8115,16 +8242,84 @@
 	border: 1px solid #2498A8;
 	box-sizing: border-box;
 	border-radius: 8px;
-	width: 30%;
+	width: 33%;
 	height: 12%;
-	left: 50%;
+	left: 38%;
+	top: -10%;
 	font-family: Nunito Sans;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 10px;
+	font-size: 0.625rem;
 	line-height: 22px;
 	color: #FFFFFF;
 	text-align: center;
 	outline: none;
 	text-decoration: none;
+	float: right;
 }
+
+.buttton-card:hover{
+	background: #2498A8;
+	color: #FFFFFF;
+}
+.buttton-card-2:hover{
+	background: #2498A8;
+	color: #FFFFFF;
+}
+.buttton-card-3:hover{
+	background: #2498A8;
+	color: #FFFFFF;
+}
+
+
+
+.buttton-card-2{
+	position: relative;
+	background: #2CC3D5;
+	border: 1px solid #2498A8;
+	box-sizing: border-box;
+	border-radius: 8px;
+	width: 33%;
+	height: 12%;
+	left: -18%;
+	top: -50%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.625rem;
+	line-height: 22px;
+	color: #FFFFFF;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	float: right;
+}
+
+.buttton-card-3{
+	position: relative;
+	background: #2CC3D5;
+	border: 1px solid #2498A8;
+	box-sizing: border-box;
+	border-radius: 8px;
+	width: 33%;
+	height: 12%;
+	left: 45%;
+	top: -10%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.625rem;
+	line-height: 22px;
+	color: #FFFFFF;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	float: right;
+}
+
+.flexbox-container {
+	display: flex;
+	justify-content: center;
+}
+
+
