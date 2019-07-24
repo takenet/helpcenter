@@ -26,7 +26,7 @@ const siteConfig = require(process.cwd() + "/siteConfig.js");
 function redirectURL(path) {
   console.log(path);
   const REDIRECT = {
-      "hc": "docs/concepts/builder/builder-visao-geral-variaveis",
+      "hc": "/docs/concepts/builder/builder-visao-geral-variaveis",
       "hc/pt-br/articles/360000661451-Facilitando-a-criação-de-seu-chatbot-através-das-extensões": "/docs/en/hello-world.html",
       GLOSSARY: "/docs/en/glossary"
   };
@@ -45,7 +45,7 @@ const newURL =
       ? redirectURL(window.location.href)
       : undefined;
 if(newURL){
-  location.replace(newURL);
+  location.replace(siteConfig.url + newURL);
 }
 `
               }}
