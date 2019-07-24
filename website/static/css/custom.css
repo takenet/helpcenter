@@ -2,11 +2,48 @@
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 
-	.div-forum-ideas-balloon-text {
+	.div-forum-ideas-text {
 		display: none;
+	}
 
+	.div-forum-ideas .div-forum-ideas-forum-balloon {
+		margin-left: 5.32%;
+		width: 43.40%;
+		height: 49.84%;
 	}
 	
+	.div-forum-ideas .div-forum-ideas-ideas-balloon {
+		margin-left: 51.28%;
+		width: 43.40%;
+		height: 49.84%;
+	}
+
+	.div-forum-ideas-forum-balloon .section-icon-circle {
+		margin-top: 14.28%;
+		margin-left: 20%;
+		float: none;
+	}
+
+	.div-forum-ideas-ideas-balloon .section-icon-circle {
+		margin-top: 14.28%;
+		margin-left: 20%;
+		float: none;
+	}
+
+	.div-forum-ideas-forum-balloon .div-forum-ideas-balloon-title {
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.div-forum-ideas-ideas-balloon .div-forum-ideas-balloon-title {
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.div-forum-ideas-balloon-text {
+		display: none;
+	}
+
 	.card-home-main-mobile{
 		position: relative;
 		width: 360px;
