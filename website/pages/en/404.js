@@ -45,7 +45,7 @@ const newURL =
       ? redirectURL(window.location.href)
       : undefined;
 if(newURL){
-  location.replace(siteConfig.url + newURL);
+  location.replace(window.location.origing + newURL);
 }
 `
               }}
