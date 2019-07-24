@@ -24,7 +24,7 @@ const siteConfig = {
   docsSideNavCollapsible: true,
   title: '', // Title for your website.
   tagline: 'BLiP | Help Center',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  url: 'https://hmg-help.blip.ai', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -107,6 +107,7 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/takenet/helpcenter',
+  gaTrackingId: 'UA-79317370-14',
 };
 
 module.exports = siteConfig;
