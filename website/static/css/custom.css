@@ -6,41 +6,41 @@
 		display: none;
 	}
 
-	.div-forum-ideas .div-forum-ideas-forum-balloon {
+	.div-forum-ideas .div-forum-ideas-forum-card {
 		margin-left: 5.32%;
 		width: 43.40%;
 		height: 49.84%;
 	}
 	
-	.div-forum-ideas .div-forum-ideas-ideas-balloon {
+	.div-forum-ideas .div-forum-ideas-ideas-card {
 		margin-left: 51.28%;
 		width: 43.40%;
 		height: 49.84%;
 	}
 
-	.div-forum-ideas-forum-balloon .section-icon-circle {
+	.div-forum-ideas-forum-card .section-icon-circle-forum-ideas-card {
 		margin-top: 14.28%;
 		margin-left: 20%;
 		float: none;
 	}
 
-	.div-forum-ideas-ideas-balloon .section-icon-circle {
+	.div-forum-ideas-ideas-card .section-icon-circle-forum-ideas-card {
 		margin-top: 14.28%;
 		margin-left: 20%;
 		float: none;
 	}
 
-	.div-forum-ideas-forum-balloon .div-forum-ideas-balloon-title {
+	.div-forum-ideas-forum-card .div-forum-ideas-card-title {
 		margin-left: auto;
 		text-align: center;
 	}
 
-	.div-forum-ideas-ideas-balloon .div-forum-ideas-balloon-title {
+	.div-forum-ideas-ideas-card .div-forum-ideas-card-title {
 		margin-left: auto;
 		text-align: center;
 	}
 
-	.div-forum-ideas-balloon-text {
+	.div-forum-ideas-card-text {
 		display: none;
 	}
 
@@ -210,29 +210,6 @@
 	unicode-range: U+0000-00FF, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd
 }
 
-.section-icon-circle {
-	border-radius: 100%;
-	width: 108px;
-	height: 108px;
-	padding: 18px;
-	margin-top: 4.95%;
-	margin-bottom: 4.95%;
-	margin-left: 6.42%;
-	float: left;
-}
-
-.section-icon-circle--doritos {
-	background-color: rgba(249, 155, 69, 0.12);
-}
-
-.section-icon-circle--sea {
-	background-color: rgba(81, 123, 242, 0.12);
-}
-
-.section-icon-circle .blip-icon {
-	width: 72px;
-	height: 72px;
-}
 
 .bp-arrow {
 	box-sizing: border-box;
@@ -8009,7 +7986,31 @@
 	color: #A8BFC4;
 }
 
-.div-forum-ideas-forum-balloon {
+.section-icon-circle-forum-ideas-card {
+	border-radius: 100%;
+	width: 108px;
+	height: 108px;
+	padding: 18px;
+	margin-top: 4.95%;
+	margin-bottom: 4.95%;
+	margin-left: 6.42%;
+	float: left;
+}
+
+.section-icon-circle-forum-ideas-card .blip-icon {
+	width: 72px;
+	height: 72px;
+}
+
+.section-icon-circle-forum-ideas-card--sea {
+	background-color: rgba(81, 123, 242, 0.12);
+}
+
+.section-icon-circle-forum-ideas-card--doritos {
+	background-color: rgba(249, 155, 69, 0.12);
+}
+
+.div-forum-ideas-forum-card {
 	width: 36.04%;
 	height: 49.84%;
 	margin-left: 13.46%;
@@ -8021,7 +8022,7 @@
 	float: left;
 }
 
-.div-forum-ideas-ideas-balloon {
+.div-forum-ideas-ideas-card {
 	width: 36.04%;
 	height: 49.84%;
 	margin-bottom: 2%; 
@@ -8032,7 +8033,7 @@
 	border-radius: 8px;
 }
 
-.div-forum-ideas-balloon-title {
+.div-forum-ideas-card-title {
 	margin-top: 6.5%;
 	margin-left: 28.64%;
 	font-family: Nunito Sans;
@@ -8043,7 +8044,7 @@
 	color: #607B99;
 }
 
-.div-forum-ideas-balloon-text {
+.div-forum-ideas-card-text {
 	margin-left: 28.64%;
 	margin-right: 5%;
 	font-family: Nunito Sans;
