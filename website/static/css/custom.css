@@ -1,82 +1,127 @@
 /* your custom css */
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+@media only screen and (min-device-width: 2px) and (max-device-width: 736px) {
 
 	.div-forum-ideas-balloon-text {
 		display: none;
 
 	}
+
+	.div-rectangle-main{
+		width: 100%;
+		height: 100%;
+		left: 100%;
+		margin-top: -46px;
+		background: linear-gradient(192deg, #3D4554 -10.36%, #242B36 45.63%, #1D1D1D 117.21%);
+	}
+
+	.div-rectangle-main .main-subtitle{
+		font-family: Nunito Sans;
+		font-style: normal;
+		font-weight: normal !important;
+		color: #FFFFFF;
+		margin-top: 30px;
+		margin-bottom: 100px !important;
+		font-size: 1.25rem;
+		line-height: 200%;
+		text-align: center;
+	}
+
+	.div-rectangle-main .main-subtitle .main-subsubtitle{
+		display: none;
+	}
+
+	.div-rectangle-main .main-title{
+		padding-top: 10%;
+	}
 	
-	.card-home-main-mobile{
-		position: relative;
-		width: 360px;
-		height: 232px;
-		margin-left: 10%;
-		background: #000000;
+	.div-rectangle-main .main-logo{
+		display: none !important;
+	}
+	
+	.flexbox-container {
+		flex-direction: column;
+		flex-wrap: wrap;
+		flex: 1 0 26%;
+	}
+	
+	.flexbox-container .card-home-main:nth-of-type(1){
+		margin-top: -17% !important;
+		margin-left: 6% !important;
+	}
+	
+	.flexbox-container .card-home-main{
+		background: #FFFFFF;
+		margin-top: 7% !important;
+		width: 91% !important;
+		height: 160px !important;
 		border: 1px solid #EAEEEE;
 		box-sizing: border-box;
 		box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.15);
 		border-radius: 8px;
+		flex-direction: row !important;
+		flex-wrap: wrap !important;
+		flex: 1 0 26% !important;
 	}
 	
-	.card-home-main-img{
-		position: relative;
-		width: 80%;
-		height: 80%;
-		margin-right: 10%;
-		left: 5%;
-		top: 10%;
-		background-size: cover;
-		background-position: center;
+	.card-home-main .card-img{
+		height: 0%  !important;
+		width: 0% !important;
+		margin-left: 2% !important;
+		margin-top: 5% !important;
 	}
 	
-	.card-home-main-title{
+	.section-icon-circle-card {
+		border-radius: 100%;
+		width: 90px !important;
+		height: 90px !important;
+		padding: 18px;
+		margin-top: 0% !important;
+		margin-bottom: 0% !important;
+		margin-left: 0% !important;
+		margin-right: 0% !important;
+	}
+
+	.card-home-main .card-info{
+		display: flex;
+		flex-direction: column;
+		margin-top: -7%;
+		margin-left: 1%;
+	}
+
+	.card-home-main .card-title{
 		position: relative;
-		left: -32%;
-		top: -77%;
 		font-family: Nunito Sans;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 20px;
+		width: auto !important;
+		font-size: 1.25rem;
 		line-height: 100%;
 		color: #2CC3D5;
-		float: right;
+		text-align: center;
 	}
 	
-	.card-home-main-text{
+	.card-home-main .card-text{
+		display: none;
+	}
+	
+	.card-home-main .card-text-mobile{
+		display: flex !important;
 		position: relative;
-		left: 6%;
-		top: -50%;
 		font-family: Nunito Sans;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 12px;
-		width: 38%;
+		font-size: 0.75rem;
+		word-wrap: normal !important;
+		width: fit-content;
+		margin-left: 30%;
+		margin-top: -5%;
 		line-height: 16px;
 		color: #3D4554;
-		float: right;
 	}
-	
-	.buttton-card{
-		position: relative;
-		background: #2CC3D5;
-		border: 1px solid #2498A8;
-		box-sizing: border-box;
-		border-radius: 8px;
-		width: 30%;
-		height: 12%;
-		left: 36%;
-		top: -10%;
-		font-family: Nunito Sans;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 10px;
-		line-height: 22px;
-		color: #FFFFFF;
-		text-align: center;
-		outline: none;
-		text-decoration: none;
-		float: right;
+
+	.card-home-main .card-info .card-icon{
+		display: none;
 	}
 }
 
@@ -6787,7 +6832,7 @@
 .bp-fill-bot--hover:hover use,
 .bp-fill-bot svg,
 .bp-fill-bot use {
-	fill: #2cc3d5
+	fill: #2cc3d5;
 }
 
 .bp-c-blip-light {
@@ -7801,17 +7846,6 @@
 	font-size: 2rem
 }
 
-.bp-fs-2-title{
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: 800;
-	margin-top: 36px;
-	font-size: 40px;
-	line-height: 55px;
-	text-align: center;
-	color: #2CC3D5;
-}
-
 .bp-fs-3 {
 	font-size: 1.5rem
 }
@@ -8109,7 +8143,7 @@
 	background: linear-gradient(192deg, #3D4554 -10.36%, #242B36 45.63%, #1D1D1D 117.21%);
 }
 
-.img-logo-blip{
+.div-rectangle-main .main-logo{
 	display: block;
 	padding-top: 79px;
 	margin-left: auto;
@@ -8118,9 +8152,21 @@
 	width: 250px;
 }
 
-.div-subtitle-main{
+.div-rectangle-main .main-title{
 	font-family: Nunito Sans;
 	font-style: normal;
+	font-weight: 800;
+	margin-top: 36px;
+	font-size: 40px;
+	line-height: 55px;
+	text-align: center;
+	color: #2CC3D5;
+}
+
+.div-rectangle-main .main-subtitle{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
 	color: #FFFFFF;
 	margin-top: 20px;
 	margin-bottom: 200px;
@@ -8129,197 +8175,111 @@
 	text-align: center;
 }
 
-.card-home-main{
-	position: relative;
-	width: 25%;
-	height: 232px;
-	margin-top: -9%;
-	margin-left: 3.8%;
-	background: #FFFFFF;
-	border: 1px solid #EAEEEE;
-	box-sizing: border-box;
-	box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.15);
-	border-radius: 8px;
-}
-
-.card-home-main-img{
-	position: relative;
-	width: 80%;
-	height: 80%;
-	margin-right: 10%;
-	left: 5%;
-	top: 10%;
-    
-}
-
-.card-home-main-title{
-	position: relative;
-	left: -32%;
-	top: -77%;
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 1.25rem;
-	line-height: 100%;
-	color: #2CC3D5;
-	float: right;
-	text-align: center;
-}
-
-.card-home-main-title-2{
-	position: relative;
-	left: -18%;
-	top: -77%;
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 1.25rem;
-	line-height: 100%;
-	color: #2CC3D5;
-	float: right;
-	text-align: center;
-}
-
-.card-home-main-title-3{
-	position: relative;
-	left: -25%;
-	top: -77%;
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 1.25rem;
-	line-height: 100%;
-	color: #2CC3D5;
-	float: right;
-	text-align: center;
-}
-
-.card-home-main-text{
-	position: relative;
-	left: 6%;
-	top: -50%;
-	font-family: Nunito Sans;
-	font-style: normal;
+.div-rectangle-main .main-subtitle .main-subsubtitle{
 	font-weight: normal;
-	font-size: 0.75rem;
-	width: 38%;
-	line-height: 16px;
-	color: #3D4554;
-	float: right;
+	
 }
 
-.card-home-main-text-2{
-	position: relative;
-	left: 20%;
-	top: -50%;
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 0.75rem;
-	width: 38%;
-	line-height: 16px;
-	color: #3D4554;
-	float: right;
-}
-
-.card-home-main-text-3{
-	position: relative;
-	left: 13%;
-	top: -50%;
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 0.75rem;
-	width: 38%;
-	line-height: 16px;
-	color: #3D4554;
-	float: right;
-}
-
-.buttton-card{
-	position: relative;
-	background: #2CC3D5;
-	border: 1px solid #2498A8;
-	box-sizing: border-box;
-	border-radius: 8px;
-	width: 33%;
-	height: 12%;
-	left: 38%;
-	top: -10%;
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 0.625rem;
-	line-height: 22px;
-	color: #FFFFFF;
-	text-align: center;
-	outline: none;
-	text-decoration: none;
-	float: right;
-}
-
-.buttton-card:hover{
-	background: #2498A8;
-	color: #FFFFFF;
-}
-.buttton-card-2:hover{
-	background: #2498A8;
-	color: #FFFFFF;
-}
-.buttton-card-3:hover{
-	background: #2498A8;
-	color: #FFFFFF;
-}
-
-
-
-.buttton-card-2{
-	position: relative;
-	background: #2CC3D5;
-	border: 1px solid #2498A8;
-	box-sizing: border-box;
-	border-radius: 8px;
-	width: 33%;
-	height: 12%;
-	left: -18%;
-	top: -50%;
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 0.625rem;
-	line-height: 22px;
-	color: #FFFFFF;
-	text-align: center;
-	outline: none;
-	text-decoration: none;
-	float: right;
-}
-
-.buttton-card-3{
-	position: relative;
-	background: #2CC3D5;
-	border: 1px solid #2498A8;
-	box-sizing: border-box;
-	border-radius: 8px;
-	width: 33%;
-	height: 12%;
-	left: 45%;
-	top: -10%;
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 0.625rem;
-	line-height: 22px;
-	color: #FFFFFF;
-	text-align: center;
-	outline: none;
-	text-decoration: none;
-	float: right;
-}
 
 .flexbox-container {
 	display: flex;
 	justify-content: center;
 }
+
+.flexbox-container .card-home-main{
+	width: 18%;
+	height: auto;
+	margin-top: -9%;
+	margin-left: 5.8%;
+	background: #FFFFFF;
+	border: 1px solid #EAEEEE;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.15);
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+.flexbox-container .card-home-main:nth-of-type(1){
+	margin-left: 0.8%;
+}
+
+.card-home-main .card-img{
+	height: 80%;
+	width: 80%;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+
+.section-icon-circle-card {
+	border-radius: 100%;
+	width: 108px;
+	height: 108px;
+	padding: 18px;
+	margin-top: 4.95%;
+	margin-bottom: 4.95%;
+	margin-left: 6.42%;
+}
+
+.section-icon-circle-card--bot{
+	background: rgba(44, 195, 213, 0.2);
+}
+
+.section-icon-circle-card--watermelon{
+	background: rgba(246, 102, 137, 0.2)
+	
+}
+
+.section-icon-circle-card--warning{
+	background: rgba(255, 207, 51, 0.2);
+}
+
+.card-home-main .card-info{
+	float: left;
+	height: 100%;
+	width: 100%;
+	max-width: 100% !important;
+	padding-top: 0%;
+	overflow: auto;
+}
+
+.card-home-main .card-info .card-title{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 120%;
+	color: #607B99;
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+}
+
+.card-home-main .card-info .card-icon{
+	margin-left: 40%;
+}
+
+.card-home-main .card-info .card-text{
+	display: none;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.75rem;
+	line-height: 120%;
+	color: #3D4554;
+	width: fit-content;
+	margin-right: 20%;
+}
+
+.card-home-main .card-info .card-text-mobile{
+	display: none;
+}
+
+
+.buttton-card:hover{
+	background: #2498A8;
+	color: #FFFFFF;
+}
+
 
 

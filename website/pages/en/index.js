@@ -79,37 +79,65 @@ class HomeSplash extends React.Component {
     return (
       <div>
         <div className="div-rectangle-main">
-          <img className="img-logo-blip" src="img/logo.svg"/>
-            <h1 className="bp-fs-2-title"> Estamos aqui para te ajudar!</h1>
-            <div className="div-subtitle-main">
-              <strong>Antes de começar a explorar, que tal escolher um nível de conhecimento?</strong>
-              <p>Os níveis de conhecimento servem para melhor filtrar os conteúdos que podem auxiliar a tirar suas dúvidas =)</p>
+          <img className="main-logo" src="img/logo.svg"/>
+            <h1 className="main-title"> Estamos aqui para te ajudar!</h1>
+            <div className="main-subtitle">
+              Antes de começar a explorar, que tal escolher uma área de conhecimento?
+              <p className="main-subsubtitle">Os níveis de conhecimento servem para melhor filtrar os conteúdos que podem auxiliar a tirar suas dúvidas =)</p>
             </div>
         </div>
             <div className="flexbox-container">
               <div className="card-home-main">
-                <div className="card-home-main-img">
-                  <img src="img/illustrations/person-2.svg"/>
+                <div className="card-img">
+                <div className="section-icon-circle-card section-icon-circle-card--bot">
+                    <img src="img/illustrations/Estrela-1.svg"/>
                 </div>
-                <h3 className="card-home-main-title">Básico</h3>
-                <p className="card-home-main-text">Este nível é para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
-                <a href="#" className="buttton-card" role="button" aria-pressed="true">Ok, vou começar aqui</a>
+                </div>
+                <div className="card-info">
+                  <div className="card-title">
+                    <h3>Introdução à plataforma</h3>
+                  </div>
+                  <p className="card-text">Este nível é para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
+                  <div className="card-icon">
+                    <BlipIcon name="arrow-ball-down-solid" className="bp-fs-1 bp-fill-bot"></BlipIcon> 
+                  </div>
+                  <p className="card-text-mobile">Para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
+                </div>
+              </div>
+
+              <div className="card-home-main">
+                <div className="card-img">
+                <div className="section-icon-circle-card section-icon-circle-card--watermelon">
+                    <img src="img/illustrations/Estrela-2.svg"/>
+                </div>
+                </div>
+                <div className="card-info">
+                  <div className="card-title">
+                    <h3>Explorando a plataforma</h3>
+                  </div>
+                  <div className="card-icon">
+                    <BlipIcon name="arrow-ball-down-solid" className="bp-fs-1 bp-fill-bot"></BlipIcon> 
+                  </div>
+                  <p className="card-text">Este nível é para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</p>
+                  <p className="card-text-mobile">Para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
+                </div>
               </div>
               <div className="card-home-main">
-                <div className="card-home-main-img">
-                  <img src="img/illustrations/person-3.svg"/>
+                <div className="card-img">
+                  <div className="section-icon-circle-card section-icon-circle-card--warning">
+                    <img src="img/illustrations/Estrela-3.svg"/>
+                  </div>
                 </div>
-                <h3 className="card-home-main-title-2">Intermediário</h3>
-                <p className="card-home-main-text-2">Este nível é para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</p>
-                <a href="#" className="buttton-card-2" role="button" aria-pressed="true">Ok, este é o meu nível</a>
-              </div>
-              <div className="card-home-main">
-                <div className="card-home-main-img">
-                  <img src="img/illustrations/person-1.svg"/>
+                <div className="card-info">
+                  <div className="card-title">
+                    <h3>Dominando a plataforma</h3>
+                  </div>
+                  <div className="card-icon">
+                    <BlipIcon name="arrow-ball-down-solid" className="bp-fs-1 bp-fill-bot"></BlipIcon> 
+                  </div>
+                  <p className="card-text">Este nível é para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
+                  <p className="card-text-mobile">Para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
                 </div>
-                <h3 className="card-home-main-title-3">Avançado</h3>
-                <p className="card-home-main-text-3">Este nível é para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
-                <a href="#" className="buttton-card-3" role="button" aria-pressed="true">Ok, este é o meu nível</a>
               </div>
             </div>
       </div>
