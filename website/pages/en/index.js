@@ -203,45 +203,36 @@ class Index extends React.Component {
     );
 
     const ForumAndIdeas = () => (
-      //  <Block background="light">
-      //   {[
-      //     {
-      //       content:
-      //         'O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!',
-      //       image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-      //       imageAlign: 'right',
-      //       title: 'Tire dúvidas e faça sugestões',
-      //     },
-      // </Block>]}
-      //<img src="img/illustrations/person-1.svg"/>
-
       <div className="div-forum-ideas">
 
         <h2 className="div-forum-ideas-title">Tire dúvidas e faça sugestões!</h2>
         <p className="div-forum-ideas-text">O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!</p>
 
-        <div className="div-forum-ideas-forum-balloon">
-          <div className="section-icon-circle section-icon-circle--sea">
-            <BlipIcon name="forum" className="bp-fs-1 bp-fill-sea"></BlipIcon>
+        <a href= 'https://forum.blip.ai/' target = "_blank">
+          <div className="div-forum-ideas-forum-card">
+            <div className="section-icon-circle-forum-ideas-card section-icon-circle-forum-ideas-card--sea">
+              <BlipIcon name="forum" className="bp-fs-1 bp-fill-sea"></BlipIcon>
+            </div>
+            <div>
+              <h3 className="div-forum-ideas-card-title">Fórum</h3>
+              <p className="div-forum-ideas-card-text">Não encontrou o que procurava aqui no nosso help center? Sendo assim você pode abrir um chamado para outros usuários ou nosso setor de suporte ajudar a tirar suas dúvidas!</p>
+            </div>
           </div>
-          <div>
-            <h3 className="div-forum-ideas-balloon-title">Fórum</h3>
-            <p className="div-forum-ideas-balloon-text">Não encontrou o que procurava aqui no nosso help center? Sendo assim você pode abrir um chamado para outros usuários ou nosso setor de suporte ajudar a tirar suas dúvidas!</p>
-          </div>
-        </div>
+        </a>
 
-        <div className="div-forum-ideas-ideas-balloon">
-          <div className="section-icon-circle section-icon-circle--doritos">
-            <BlipIcon name="blip-ideas" className="bp-fs-1 bp-fill-doritos"></BlipIcon>
+        <a href= 'https://ideas.blip.ai/' target = "_blank">
+          <div className="div-forum-ideas-ideas-card">
+            <div className="section-icon-circle-forum-ideas-card section-icon-circle-forum-ideas-card--doritos">
+              <BlipIcon name="blip-ideas" className="bp-fs-1 bp-fill-doritos"></BlipIcon>
+            </div>
+            <div>
+              <h3 className="div-forum-ideas-card-title">BLiP Ideas</h3>
+              <p className="div-forum-ideas-card-text">Alguma ideia para melhorarmos a plataforma? Conta para gente! As ideias mais votadas são analisadas e podem se tornar uma de nossas features.</p>
+            </div>
           </div>
-          <div>
-            <h3 className="div-forum-ideas-balloon-title">BLiP Ideas</h3>
-            <p className="div-forum-ideas-balloon-text">Alguma ideia para melhorarmos a plataforma? Conta para gente! As ideias mais votadas são analisadas e podem se tornar uma de nossas features</p>
-          </div>
-        </div>
+        </a>
 
       </div>
-        
     );
 
     const Features = () => (
