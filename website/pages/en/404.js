@@ -43,7 +43,7 @@ const newURL =
       ? redirectURL(window.location.href)
       : undefined;
 if(newURL){
-  location.replace(window.location.origing + newURL);
+  location.replace(window.location.origin + newURL);
 }
 `
               }}
