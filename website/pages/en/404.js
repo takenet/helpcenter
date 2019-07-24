@@ -7,8 +7,6 @@
 
 const React = require("react");
 
-const siteConfig = require(process.cwd() + "/siteConfig.js");
-
 /* Code to redirect old links to new links at Docusaurus
  * In order to know more about this workaround see
  * https://chillicream.com/blog/2018/11/07/docusaurus-docs-redirect
