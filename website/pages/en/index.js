@@ -87,7 +87,7 @@ class HomeSplash extends React.Component {
             </div>
         </div>
             <div className="flexbox-container">
-              <div className="card-home-main">
+              <div className="card-home-main" id="card1">
                 <div className="card-img">
                 <div className="section-icon-circle-card section-icon-circle-card--bot">
                     <img src="img/illustrations/Estrela-1.svg"/>
@@ -97,15 +97,16 @@ class HomeSplash extends React.Component {
                   <div className="card-title">
                     <h3>Introdução à plataforma</h3>
                   </div>
-                  <p className="card-text">Este nível é para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
+                  <p className="card-text">Área para usuários com pouca intimidade sobre contatos inteligentes e criação de chatbots.</p>
                   <div className="card-icon">
                     <BlipIcon name="arrow-ball-down-solid" className="bp-fs-1 bp-fill-bot"></BlipIcon> 
                   </div>
+                  <a href="#" className="card-button">Começar aqui</a>
                   <p className="card-text-mobile">Para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
                 </div>
               </div>
 
-              <div className="card-home-main">
+              <div className="card-home-main" id="card2">
                 <div className="card-img">
                 <div className="section-icon-circle-card section-icon-circle-card--watermelon">
                     <img src="img/illustrations/Estrela-2.svg"/>
@@ -118,11 +119,12 @@ class HomeSplash extends React.Component {
                   <div className="card-icon">
                     <BlipIcon name="arrow-ball-down-solid" className="bp-fs-1 bp-fill-bot"></BlipIcon> 
                   </div>
-                  <p className="card-text">Este nível é para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</p>
-                  <p className="card-text-mobile">Para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
+                  <p className="card-text">Área para usuários com pouca intimidade sobre contatos inteligentes e criação de chatbots.</p>
+                  <a href="#" className="card-button">Começar aqui</a>
+                  <p className="card-text-mobile">Para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</p>
                 </div>
               </div>
-              <div className="card-home-main">
+              <div className="card-home-main" id="card3">
                 <div className="card-img">
                   <div className="section-icon-circle-card section-icon-circle-card--warning">
                     <img src="img/illustrations/Estrela-3.svg"/>
@@ -135,8 +137,9 @@ class HomeSplash extends React.Component {
                   <div className="card-icon">
                     <BlipIcon name="arrow-ball-down-solid" className="bp-fs-1 bp-fill-bot"></BlipIcon> 
                   </div>
-                  <p className="card-text">Este nível é para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
-                  <p className="card-text-mobile">Para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
+                  <p className="card-text">Área para usuários com pouca intimidade sobre contatos inteligentes e criação de chatbots.</p>
+                  <a href="#" className="card-button">Começar aqui</a>
+                  <p className="card-text-mobile">Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
                 </div>
               </div>
             </div>
