@@ -5323,6 +5323,14 @@
 	height: 3px
 }
 
+.bp-divider-h.bp-divider--recent-accessed {
+	width: 429px;
+	height: 0px;
+	left: 840px;
+	top: 1658px;
+	border: 1px solid #C9DFE4;
+}
+
 .bp-divider-v {
 	background-color: #c9dfe4;
 	width: 1px;
@@ -8209,6 +8217,39 @@
 	text-align: justify;
 	color: #52636C;
 	margin-bottom: 40px;
+}
+
+.flexbox-recent-accessed {
+	display: flex;
+	flex-direction: column;
+}
+
+.flexbox-recent-accessed-lists {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.div-recent-accessed-list {
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.h2-recent-accessed {
+	font-size: 24px;
+	color: #52636C;
+}
+
+.ul-recent-accessed {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 22px;
+	color: #2CC3D5;
 }
 
 .nav-footer {
