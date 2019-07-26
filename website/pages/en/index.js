@@ -87,7 +87,7 @@ class HomeSplash extends React.Component {
             </div>
         </div>
             <div className="flexbox-container">
-              <div className="card-home-main" id="card1">
+              <a href="#" className="nonClickable"><div className="card-home-main" id="card1">
                 <div className="card-img">
                 <div className="section-icon-circle-card section-icon-circle-card--bot">
                     <img src="img/illustrations/Estrela-1.svg"/>
@@ -104,9 +104,10 @@ class HomeSplash extends React.Component {
                   <a href="#" className="card-button">Começar aqui</a>
                   <p className="card-text-mobile">Para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
                 </div>
-              </div>
+              </div></a>
 
-              <div className="card-home-main" id="card2">
+              
+              <a href="#" className="nonClickable"><div className="card-home-main" id="card2">
                 <div className="card-img">
                 <div className="section-icon-circle-card section-icon-circle-card--watermelon">
                     <img src="img/illustrations/Estrela-2.svg"/>
@@ -123,8 +124,9 @@ class HomeSplash extends React.Component {
                   <a href="#" className="card-button">Começar aqui</a>
                   <p className="card-text-mobile">Para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</p>
                 </div>
-              </div>
-              <div className="card-home-main" id="card3">
+              </div></a>
+              
+              <a href="#" className="nonClickable"><div className="card-home-main" id="card3">
                 <div className="card-img">
                   <div className="section-icon-circle-card section-icon-circle-card--warning">
                     <img src="img/illustrations/Estrela-3.svg"/>
@@ -141,7 +143,8 @@ class HomeSplash extends React.Component {
                   <a href="#" className="card-button">Começar aqui</a>
                   <p className="card-text-mobile">Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
                 </div>
-              </div>
+              </div></a>
+            
             </div>
       </div>
     );
@@ -218,7 +221,7 @@ class Index extends React.Component {
             </div>
             <div>
               <h3 className="div-forum-ideas-card-title">Fórum</h3>
-              <p className="div-forum-ideas-card-text">Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!</p>
+              <p className="div-forum-ideas-card-text">Não encontrou o que procurava aqui no nosso help center? Sendo assim você pode abrir um chamado para outros usuários ou nosso setor de suporte ajudar a tirar suas dúvidas!</p>
             </div>
           </div>
         </a>
@@ -230,7 +233,7 @@ class Index extends React.Component {
             </div>
             <div>
               <h3 className="div-forum-ideas-card-title">BLiP Ideas</h3>
-              <p className="div-forum-ideas-card-text">Alguma ideia para melhorar a plataforma? Crie uma sugestão no BLiP Ideas! As ideias mais votadas são analisadas e podem se tornar novas features.</p>
+              <p className="div-forum-ideas-card-text">Alguma ideia para melhorarmos a plataforma? Conta para gente! As ideias mais votadas são analisadas e podem se tornar uma de nossas features.</p>
             </div>
           </div>
         </a>
