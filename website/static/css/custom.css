@@ -8469,3 +8469,102 @@
 	display: none;
 	
 }
+
+.div-beta-main{
+	background: rgba(218, 242, 244, 0.3);
+	width: 100%;
+	height: fit-content;
+	max-height: 169px;
+	margin-bottom: 0%;
+	flex-direction: row;
+	padding-top: 1.8%;
+	display: flex;
+}
+
+.div-beta-main .info{
+	display: flex;
+	flex-direction: column;
+	margin-left: 15%;
+}
+
+.div-beta-main .title{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 100%;
+	color: #607B99;
+}
+
+.div-beta-main .text{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	width: 82%;
+	color: #8CA0B3;
+}
+
+.div-form-beta{
+	display: flex; 
+	flex-direction: row;
+	padding-top: 4.5%; 
+	width: fit-content;
+	margin-left: -5%;
+}
+
+form .form-beta{
+	width: 100%;
+}
+
+.form-input-email{
+	background: #FFFFFF;
+	border: 1px solid #D2DFE6;
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-size: 0.75rem;
+	background-color: white;
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	width: 70%;
+}
+
+.form-icon-circle {
+	border: 1px solid #DAF2F4;
+	box-sizing: border-box;
+	border-radius: 8px;
+
+}
+
+.form-icon-circle--sky{
+	background: rgba(218, 242, 244, 0.5);
+}
+
+
+.section-icon-circle-card {
+	border-radius: 100%;
+	width: 108px;
+	height: 108px;
+	padding: 18px;
+	margin-top: 4.95%;
+	margin-bottom: 4.95%;
+	margin-left: 6.42%;
+}
+
+label-email{
+    width: 100%;
+    position: absolute;
+    color: red;
+  	font-weight: bold;
+    top: 0; bottom: 0; left: 0; right: 0;
+	transition: 0.5s;          
+}
+
+.form-input-email:focus + .label-email{
+    margin-top: 0px;
+    top: -50%;
+    z-index: 2;
+    transition: 0.2s;  
+}
