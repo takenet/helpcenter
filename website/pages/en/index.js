@@ -275,17 +275,28 @@ class Index extends React.Component {
 
       const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
 
+      //area do beta
       return (
-        <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
-          <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
-            </a>
+        <div className="div-beta-main">
+         
+          <div className="info">
+            <div className="title">
+              <h3> Torne-se um usuário beta! </h3>
+            </div>
+            <div className="text">
+              <p> Ao se tornar um usuário beta você será um dos primeiros a testar as novas feautres que serão lançadas</p>
+            </div>
           </div>
+
+          <div className="div-form-beta">
+            <form className="form-beta">
+              <input type="email" id="email" name="email" required className="form-input-email" placeholder="Digite o seu email"></input>
+              <input type="submit" className="bp-btn bp-btn--bot" value="Assinar"></input>
+            </form>
+          </div>
+
         </div>
+
       );
     };
 
