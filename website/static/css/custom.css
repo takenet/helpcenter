@@ -293,7 +293,6 @@
 	}
 	
 }
-
 @font-face {
 	font-family: Nunito Sans;
 	font-style: normal;
@@ -374,7 +373,6 @@
 	src: local("Nunito Sans Bold"), local("NunitoSans-Bold"), url(https://fonts.gstatic.com/s/nunitosans/v4/pe03MImSLYBIv1o4X1M8cc8GBs5tU1E.woff2) format("woff2");
 	unicode-range: U+0000-00FF, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd
 }
-
 
 .bp-arrow {
 	box-sizing: border-box;
@@ -5323,14 +5321,6 @@
 	height: 3px
 }
 
-.bp-divider-h.bp-divider--recent-accessed {
-	width: 429px;
-	height: 0px;
-	left: 840px;
-	top: 1658px;
-	border: 1px solid #C9DFE4;
-}
-
 .bp-divider-v {
 	background-color: #c9dfe4;
 	width: 1px;
@@ -8239,7 +8229,8 @@
 }
 
 .h2-recent-accessed {
-	font-size: 24px;
+	font-size: 1.5rem;
+	margin-bottom: 20px;
 	color: #52636C;
 }
 
@@ -8247,9 +8238,55 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 22px;
 	color: #2CC3D5;
+}
+
+.li-recent-accessed {
+	display: flex;
+	flex-direction: row;
+}
+
+.bp-divider-h.bp-divider--recent-accessed {
+	height: 0;
+	border: 1px solid #C9DFE4;
+	margin: 20px 0;
+}
+
+.bp-divider-h.bp-divider--recent-accessed:last-child {
+	margin-bottom: 0;
+}
+
+.div-see-more {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.bp-divider-h.bp-divider--see-more {
+	position: absolute;
+	padding-left: 164px;
+	padding-right: 164px;
+	top: 50%;
+	margin: 0;
+	height: 0;
+	width: 70%;
+	border: 1px solid #EAEEEE;
+}
+
+.bp-btn.bp-btn--bot.btn--recent-accessed {
+	border: 1px solid #2CC3D5;
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.875rem;
+	line-height: 20px;
+	z-index: 2;
 }
 
 .nav-footer {
