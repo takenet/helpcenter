@@ -31,7 +31,7 @@ class BlipIcon extends React.Component {
 }
 
 
-class HomeSplash extends React.Component {
+class HomeSplash extends React.Component { 
   render() {
     const {siteConfig, language = ''} = this.props;
     const {baseUrl, docsUrl} = siteConfig;
@@ -95,7 +95,7 @@ class HomeSplash extends React.Component {
                 </div>
                 <div className="card-info">
                   <div className="card-title">
-                    <h3>Introdução à plataforma</h3>
+                    <p>Introdução à plataforma</p>
                   </div>
                   <p className="card-text">Área para usuários com pouca intimidade sobre contatos inteligentes e criação de chatbots.</p>
                   <div className="card-icon">
@@ -115,7 +115,7 @@ class HomeSplash extends React.Component {
                 </div>
                 <div className="card-info">
                   <div className="card-title">
-                    <h3>Explorando a plataforma</h3>
+                    <p>Explorando a plataforma</p>
                   </div>
                   <div className="card-icon">
                     <BlipIcon name="arrow-ball-down-solid" className="bp-fs-1 bp-fill-bot"></BlipIcon> 
@@ -134,7 +134,7 @@ class HomeSplash extends React.Component {
                 </div>
                 <div className="card-info">
                   <div className="card-title">
-                    <h3>Dominando a plataforma</h3>
+                    <p>Dominando a plataforma</p>
                   </div>
                   <div className="card-icon">
                     <BlipIcon name="arrow-ball-down-solid" className="bp-fs-1 bp-fill-bot"></BlipIcon> 
@@ -337,27 +337,13 @@ class Index extends React.Component {
     );
 
     const Showcase = () => {
-      if ((siteConfig.users || []).length === 0) {
-        return null;
-      }
-
-      const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
-        ));
-
-      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
-
       //area do beta
       return (
         <div className="div-beta-main">
          
           <div className="info">
             <div className="title">
-              <h3> Torne-se um usuário beta! </h3>
+              <p> Torne-se um usuário beta! </p>
             </div>
             <div className="text">
               <p> Ao se tornar um usuário beta você será um dos primeiros a testar as novas feautres que serão lançadas</p>
@@ -365,9 +351,11 @@ class Index extends React.Component {
           </div>
 
           <div className="div-form-beta">
-            <form className="form-beta">
-              <input type="email" id="email" name="email" required className="form-input-email" placeholder="Digite o seu email"></input>
-              <input type="submit" className="bp-btn bp-btn--bot" value="Assinar"></input>
+          <form className="form-beta">
+            <label htmlFor="email" className="label-beta">E-mail</label>
+              <br></br>
+              <input type="email" id="email" name="email"   required className="form-input-email" placeholder="Digite o seu e-mail"></input>
+              <input type="button" className="button-beta" onClick={() => console.log('Hello world!')} value="Assinar"></input>
             </form>
           </div>
 
