@@ -8249,6 +8249,12 @@
 	flex-direction: row;
 }
 
+a.recent-accessed {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 .bp-divider-h.bp-divider--recent-accessed {
 	height: 0;
 	border: 1px solid #C9DFE4;
@@ -8263,8 +8269,8 @@
 	display: flex;
 	justify-content: center;
 	position: relative;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 48px;
+	padding-bottom: 48px;
 }
 
 .bp-divider-h.bp-divider--see-more {

@@ -191,28 +191,28 @@ class Index extends React.Component {
 
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   Facilitando a criação de seu chatbot através das extensões
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   Conceitos básicos para utilizar NLP e IA em chatbots
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   O que é o BLiP Chat?
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed"> 
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   O que é o Workplace?
                 </a>
               </li>
@@ -230,28 +230,28 @@ class Index extends React.Component {
 
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   Facilitando a criação de seu chatbot através das extensões
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   Conceitos básicos para utilizar NLP e IA em chatbots
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   O que é o BLiP Chat?
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   O que é o Workplace?
                 </a>
               </li>
