@@ -152,6 +152,22 @@ class HomeSplash extends React.Component {
 }
 
 class Index extends React.Component {
+  constructor(props){
+    super(props);
+
+    this.state = {
+      email: ""
+    }
+
+    this.handleChange = this.handleChange.bind(this);
+    
+  } 
+
+  handleChange(event) {
+    event.prevent
+    this.setState({email: event.target.value});
+  }
+
   render() {
     const {config: siteConfig, language = ''} = this.props;
     const {baseUrl} = siteConfig;
@@ -339,9 +355,30 @@ class Index extends React.Component {
       </Block>
     );
 
-    const Showcase = () => {
-      //area do beta
-      return (
+  //area do beta
+  class FormBeta extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {email: 'bruno'};
+
+      console.log(props);
+      this.handleChange = this.handleChange.bind(this);
+      this.handleSubmit = this.handleSubmit.bind(this);
+    }
+    
+      handleChange(event) {
+        console.log(event);
+        this.setState({email: event.target.value});
+      }
+
+      handleSubmit(event) {
+        event.prevent();
+        alert('Um email foi enviado: ' + this.state.email);
+        
+      }
+
+      render () {
+        return (
         <div className="div-beta-main">
          
           <div className="info">
@@ -355,16 +392,23 @@ class Index extends React.Component {
 
           <div className="div-form-beta">
           <form className="form-beta">
-            <label htmlFor="email" className="label-beta">E-mail</label>
+            <label htmlFor="email" className="label-beta">{this.state.email}</label>
               <br></br>
-              <input type="email" id="email" name="email"   required className="form-input-email" placeholder="Digite o seu e-mail"></input>
-              <input type="button" className="button-beta" onClick={() => console.log('Hello world!')} value="Assinar"></input>
+              <input type="email" 
+              id="email" 
+              name="email" 
+              className="form-input-email" 
+              placeholder="Digite o seu e-mail" 
+              value={this.state.email}
+              onChange={this.handleChange}></input>
+              <input type="submit" onClick={this.handleSubmit} className="button-beta" value="Assinar"></input>
             </form>
           </div>
 
         </div>
 
-      );
+        );
+      };
     };
 
     return (
@@ -376,7 +420,7 @@ class Index extends React.Component {
           <ForumAndIdeas />
           <RecentAndAccessed />
           <Description />
-          <Showcase />
+          {/* <FormBeta /> */}
         </div>
       </div>
     );
