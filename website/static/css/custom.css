@@ -8649,3 +8649,74 @@ a.recent-accessed {
 	position: relative;
 	margin-left: 6%;
 }
+
+.div-aprenda-main{
+	display: flex;
+	flex-direction: column;
+}
+
+.div-aprenda-main .title{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 100%;
+	text-align: center;
+	color: #607B99;
+	margin-top: 3%;
+}
+
+.div-aprenda-main .subtitle{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: #738192;
+}
+
+.div-aprenda-main .articles{
+	display: flex;
+	flex-direction: row;
+	margin-left: 9%;
+	margin-right: 8%;
+	padding-top: 2%;
+	align-items: start;
+	flex-wrap: wrap;
+}
+
+.div-aprenda-main .articles .cards{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 22%;
+	margin-right: 3%;
+}
+
+.div-aprenda-main .articles .cards .titles{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 100%;
+	color: #52636C;
+	margin-left: 0%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+	width: 90%;
+}
+
+.bp-divider-h--articles {
+	background-color: #c9dfe4;
+	height: 1px;
+	width: 100%;
+	margin-top: 0%;
+}
+
+.bp-fs-3-articles {
+	margin-right: 0;
+	align-self: right;
+	font-size: 1.5rem;
+}
