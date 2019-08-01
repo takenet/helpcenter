@@ -48,7 +48,6 @@
 		margin-top: -12% !important;
 		margin-left: 6% !important;
 	}
-
 	
 	.flexbox-container .card-home-main{
 		background: #FFFFFF;
@@ -223,6 +222,53 @@
 @media only screen and (min-device-width: 740px) and (max-device-width: 974px) {
 	
 	.div-forum-ideas-text {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+
+	.recent-accessed-mobile {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+
+	.recent-accessed-mobile .div-recent-accessed-list {
+		padding-top: 32px;
+		padding-bottom: 33px;
+	}
+
+	.recent-accessed-mobile .div-recent-accessed-list:nth-of-type(2) {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.recent-accessed-mobile .h2-recent-accessed {
+		font-size: 1.25rem;
+		font-style: normal;
+		font-weight: unset;
+		margin-top: 0;
+		margin-bottom: 2px;
+		margin-right: auto;
+		color: #52636C;
+	}
+
+	.btn-title-recent-accessed {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		padding-bottom: 30px;
+	}
+
+	.recent-accessed-mobile .div-see-more {
+		padding-top: 24px;
+		padding-bottom: 40px;
+	}
+
+	.recent-accessed-desktop {
 		display: none;
 	}
 }
@@ -8249,7 +8295,7 @@
 	flex-direction: row;
 }
 
-a.recent-accessed {
+.a-recent-accessed {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -8275,12 +8321,10 @@ a.recent-accessed {
 
 .bp-divider-h.bp-divider--see-more {
 	position: absolute;
-	padding-left: 164px;
-	padding-right: 164px;
 	top: 50%;
 	margin: 0;
 	height: 0;
-	width: 70%;
+	width: 75%;
 	border: 1px solid #EAEEEE;
 }
 
