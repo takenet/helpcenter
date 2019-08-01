@@ -398,7 +398,7 @@ class Index extends React.Component {
             </div>
             <div>
               <h3 className="div-forum-ideas-card-title">Fórum</h3>
-              <p className="div-forum-ideas-card-text">Não encontrou o que procurava aqui no nosso help center? Sendo assim você pode abrir um chamado para outros usuários ou nosso setor de suporte ajudar a tirar suas dúvidas!</p>
+              <p className="div-forum-ideas-card-text">Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!</p>
             </div>
           </div>
         </a>
@@ -410,7 +410,7 @@ class Index extends React.Component {
             </div>
             <div>
               <h3 className="div-forum-ideas-card-title">BLiP Ideas</h3>
-              <p className="div-forum-ideas-card-text">Alguma ideia para melhorarmos a plataforma? Conta para gente! As ideias mais votadas são analisadas e podem se tornar uma de nossas features.</p>
+              <p className="div-forum-ideas-card-text">Alguma ideia para melhorar a plataforma? Crie uma sugestão no BLiP Ideas! As ideias mais votadas são analisadas e podem se tornar novas features.</p>
             </div>
           </div>
         </a>
