@@ -8692,25 +8692,37 @@ a.recent-accessed {
 	flex-wrap: wrap;
 	width: 22%;
 	margin-right: 3%;
+	margin-bottom: 2%;
 }
 
-.div-aprenda-main .articles .cards .titles{
+.titles{
+	cursor: pointer;
+	display: inline-block;
+	color: #000000;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+	user-select: none;
+	width: 100%;
+}
+
+.titles{
 	font-family: Nunito Sans;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 1.25rem;
 	line-height: 100%;
 	color: #52636C;
 	margin-left: 0%;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap; 
-	width: 90%;
 }
 
 .bp-divider-h--articles {
 	background-color: #c9dfe4;
-	height: 1px;
+	height: 0px;
 	width: 100%;
 	margin-top: 0%;
 }
@@ -8719,4 +8731,37 @@ a.recent-accessed {
 	margin-right: 0;
 	align-self: right;
 	font-size: 1.5rem;
+	margin-left: 30%;
+}
+
+.hidden-checkbox {
+	display: none;
+  }
+  
+.hidden-content {
+	transition: height .5s ease;
+	height: 0;
+	overflow: hidden;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 0%;
+	margin-bottom: 0%;
+  }
+  
+.hidden-checkbox:checked + .hidden-content {
+	height: 200px;
+}
+
+.hidden-checkbox:checked > .bp-fs-3-articles {
+	transition: .3s;
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+li {
+	list-style-type: none;
+	margin-left: -18%;
 }
