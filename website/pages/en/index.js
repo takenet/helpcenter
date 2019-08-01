@@ -388,32 +388,36 @@ class Index extends React.Component {
     const ForumAndIdeas = () => (
       <div className="div-forum-ideas">
 
-        <h2 className="div-forum-ideas-title">Tire dúvidas e faça sugestões!</h2>
-        <p className="div-forum-ideas-text">O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!</p>
+        <h2 className="h2-forum-ideas">Tire dúvidas e faça sugestões!</h2>
+        <p className="p-forum-ideas">O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!</p>
 
-        <a href= 'https://forum.blip.ai/' target = "_blank">
-          <div className="div-forum-ideas-forum-card">
-            <div className="section-icon-circle-forum-ideas-card section-icon-circle-forum-ideas-card--sea">
-              <BlipIcon name="forum" className="bp-fs-1 bp-fill-sea"></BlipIcon>
-            </div>
-            <div>
-              <h3 className="div-forum-ideas-card-title">Fórum</h3>
-              <p className="div-forum-ideas-card-text">Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!</p>
-            </div>
-          </div>
-        </a>
+        <div className="flexbox-forum-ideas">
 
-        <a href= 'https://ideas.blip.ai/' target = "_blank">
-          <div className="div-forum-ideas-ideas-card">
-            <div className="section-icon-circle-forum-ideas-card section-icon-circle-forum-ideas-card--doritos">
-              <BlipIcon name="blip-ideas" className="bp-fs-1 bp-fill-doritos"></BlipIcon>
+          <a className="a-forum-ideas" href= 'https://forum.blip.ai/' target = "_blank">
+            <div className="flexbox-forum-ideas-card">
+              <div className="section-icon-circle-forum-ideas-card section-icon-circle-forum-ideas-card--sea">
+                <BlipIcon name="forum" className="bp-fs-1 bp-fill-sea"></BlipIcon>
+              </div>
+              <div className="section-card">
+                <h3 className="h3-forum-ideas-card">Fórum</h3>
+                <p className="p-forum-ideas-card">Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!</p>
+              </div>
             </div>
-            <div>
-              <h3 className="div-forum-ideas-card-title">BLiP Ideas</h3>
-              <p className="div-forum-ideas-card-text">Alguma ideia para melhorar a plataforma? Crie uma sugestão no BLiP Ideas! As ideias mais votadas são analisadas e podem se tornar novas features.</p>
+          </a>
+
+          <a className="a-forum-ideas" href= 'https://ideas.blip.ai/' target = "_blank">
+            <div className="flexbox-forum-ideas-card">
+              <div className="section-icon-circle-forum-ideas-card section-icon-circle-forum-ideas-card--doritos">
+                <BlipIcon name="blip-ideas" className="bp-fs-1 bp-fill-doritos"></BlipIcon>
+              </div>
+              <div className="section-card">
+                <h3 className="h3-forum-ideas-card">BLiP Ideas</h3>
+                <p className="p-forum-ideas-card">Alguma ideia para melhorar a plataforma? Crie uma sugestão no BLiP Ideas! As ideias mais votadas são analisadas e podem se tornar novas features.</p>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+
+        </div>
 
       </div>
     );

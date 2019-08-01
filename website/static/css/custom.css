@@ -116,55 +116,6 @@
 	.card-home-main .card-info .card-icon{
 		display: none !important;
 	}
-
-	.mainContainer .div-forum-ideas {
-		padding-top: 5%;
-		padding-bottom: 5%;
-	}	
-
-	.div-forum-ideas-text {
-		display: none;
-	}
-
-	.div-forum-ideas .div-forum-ideas-forum-card {
-		margin-left: 5.32%;
-		width: 43.40%;
-		height: 49.84%;
-	}
-
-	.div-forum-ideas .div-forum-ideas-ideas-card {
-		margin-left: 51.28%;
-		width: 43.40%;
-		height: 49.84%;
-	}
-
-	.div-forum-ideas-forum-card .section-icon-circle-forum-ideas-card {
-		margin-top: 14.28%;
-		margin-left: auto;
-		margin-right: auto;
-		float: none;
-	}
-
-	.div-forum-ideas-ideas-card .section-icon-circle-forum-ideas-card {
-		margin-top: 14.28%;
-		margin-left: auto;
-		margin-right: auto;
-		float: none;
-	}
-
-	.div-forum-ideas-forum-card .div-forum-ideas-card-title {
-		margin-left: auto;
-		text-align: center;
-	}
-
-	.div-forum-ideas-ideas-card .div-forum-ideas-card-title {
-		margin-left: auto;
-		text-align: center;
-	}
-
-	.div-forum-ideas-card-text {
-		display: none;
-	}
 }
 
 @media only screen and (min-device-width: 737px){
@@ -219,16 +170,57 @@
 	}
 }
 
-@media only screen and (min-device-width: 740px) and (max-device-width: 974px) {
-	
-	.div-forum-ideas-text {
+@media only screen and (min-width: 1100px) {
+
+	.recent-accessed-mobile {
 		display: none;
 	}
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (max-width: 1082px) {
+	
+	.mainContainer .div-forum-ideas {
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}	
 
-	.recent-accessed-mobile {
+	.p-forum-ideas {
+		display: none;
+	}
+
+	.div-forum-ideas .flexbox-forum-ideas {
+		padding: 0 23px;
+	}
+
+	.flexbox-forum-ideas .a-forum-ideas:nth-child(1) {
+		margin-right: 4%;
+	}
+	
+	.flexbox-forum-ideas .flexbox-forum-ideas-card {
+		flex-direction: column;
+		padding: 23px 30px 24px 30px;
+		width: 100%;
+	}
+
+	.flexbox-forum-ideas-card .section-icon-circle-forum-ideas-card {
+		margin: 0;
+		width: 85px;
+		height: 85px;
+		padding: 14px;
+	}
+
+	.flexbox-forum-ideas-card .section-icon-circle-forum-ideas-card .blip-icon {
+		width: 56.67px;
+		height: 56.67px;
+	}
+
+	.flexbox-forum-ideas-card .h3-forum-ideas-card {
+		font-size: 1.25rem;
+		padding-top: 10px;
+		text-align: center;
+	}
+
+	.p-forum-ideas-card {
 		display: none;
 	}
 }
@@ -8167,7 +8159,7 @@
 	padding-top: 2%
 }
 
-.div-forum-ideas-title {
+.h2-forum-ideas {
 	font-family: Nunito Sans;
 	font-style: normal;
 	font-weight: bold;
@@ -8177,7 +8169,7 @@
 	margin-top: unset;
 }
 
-.div-forum-ideas-text {
+.p-forum-ideas {
 	font-family: Nunito Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -8187,15 +8179,18 @@
 	color: #A8BFC4;
 }
 
+.flexbox-forum-ideas {
+	display: flex;
+	flex-direction: row;
+	padding: 0 200px; 
+	justify-content: center
+}
+
 .section-icon-circle-forum-ideas-card {
 	border-radius: 100%;
 	width: 108px;
 	height: 108px;
 	padding: 18px;
-	margin-top: 4.95%;
-	margin-bottom: 4.95%;
-	margin-left: 6.42%;
-	float: left;
 }
 
 .section-icon-circle-forum-ideas-card .blip-icon {
@@ -8204,56 +8199,63 @@
 }
 
 .section-icon-circle-forum-ideas-card--sea {
+	flex-shrink: 0; 
+	margin-right: 20px;
 	background-color: rgba(81, 123, 242, 0.12);
 }
 
 .section-icon-circle-forum-ideas-card--doritos {
+	flex-shrink: 0; 
+	margin-right: 20px;
 	background-color: rgba(249, 155, 69, 0.12);
 }
 
-.div-forum-ideas-forum-card {
-	width: 36.04%;
-	height: 49.84%;
-	margin-left: 13.46%;
+.a-forum-ideas {
+	display: block; 
+	max-width: 576px; 
+	flex-shrink: 0; 
+	width: 49%; 
+}
+
+.a-forum-ideas:nth-child(1) {
+	margin-right: 2%;
+}
+
+.flexbox-forum-ideas-card {
+	display: flex; 
+	padding: 27px 37px 26px 37px; 
+	align-items: center;
 	background: #FFFFFF;
 	border: 1px solid rgba(96, 123, 153, 0.15);
 	box-sizing: border-box;
 	border-radius: 8px;
-	float: left;
+	height: 100%;
 }
 
-.div-forum-ideas-ideas-card {
-	width: 36.04%;
-	height: 49.84%;
-	margin-left: 50.5%;
-	background: #FFFFFF;
-	border: 1px solid rgba(96, 123, 153, 0.15);
-	box-sizing: border-box;
-	border-radius: 8px;
+.section-card {
+	width: 100%
 }
 
-.div-forum-ideas-card-title {
-	margin-top: 6.5%;
-	margin-left: 155px;
+.h3-forum-ideas-card {
 	font-family: Nunito Sans;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 1.25rem;
 	line-height: 100%;
 	color: #607B99;
+	margin-top: 0;
+	margin-bottom: 14px;
 }
 
-.div-forum-ideas-card-text {
-	margin-left: 155px;
-	margin-right: 5%;
+.p-forum-ideas-card {
 	font-family: Nunito Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 0.75rem;
 	line-height: 150%;
-	text-align: justify;
-	color: #52636C;
-	margin-bottom: 40px;
+	text-align: left;
+	color: #738192;;
+	margin-bottom: 0;
 }
 
 .flexbox-recent-accessed {
