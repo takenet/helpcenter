@@ -152,6 +152,22 @@ class HomeSplash extends React.Component {
 }
 
 class Index extends React.Component {
+  constructor(props){
+    super(props);
+
+    this.state = {
+      email: ""
+    }
+
+    this.handleChange = this.handleChange.bind(this);
+    
+  } 
+
+  handleChange(event) {
+    event.prevent
+    this.setState({email: event.target.value});
+  }
+
   render() {
     const {config: siteConfig, language = ''} = this.props;
     const {baseUrl} = siteConfig;
@@ -169,15 +185,7 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
-
+   
     const RecentAndAccessed = () => (
       <div className="flexbox-recent-accessed">
         
@@ -377,20 +385,6 @@ class Index extends React.Component {
       </div>
     );
 
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
-            title: 'Description',
-          },
-        ]}
-      </Block>
-    );
-
     const ForumAndIdeas = () => (
       <div className="div-forum-ideas">
 
@@ -424,28 +418,88 @@ class Index extends React.Component {
       </div>
     );
 
-    const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
-            imageAlign: 'top',
-            title: 'Feature One',
-          },
-          {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two',
-          },
-        ]}
-      </Block>
+    const AprendaMais = () => (
+      <div className="div-aprenda-main">
+        <p className="title"> Aprenda mais sobre o universo dos contatos inteligentes </p>
+        <p className="subtitle"> Todas as informações que você precisa para saber para utilizar o BLiP como um expert estão em nas categorias abaixo: </p>
+          <div className="articles">
+            
+            <div className="cards">
+            <p className="titles"> Primeiro acesso </p>
+            <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
+            <hr className="bp-divider-h--articles"></hr>
+            </div>
+             
+            <div className="cards">
+            <p className="titles"> Canais </p>
+            <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
+            <hr className="bp-divider-h--articles"></hr>
+            </div>
+
+            <div className="cards">
+            <p className="titles"> Integrações</p>
+            <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
+            <hr className="bp-divider-h--articles"></hr>
+            </div>
+
+            <div className="cards">
+            <p className="titles"> Recursos </p>
+            <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
+            <hr className="bp-divider-h--articles"></hr>
+            </div>
+
+            <div className="cards">
+            <p className="titles"> Explore o BLiP </p>
+            <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
+            <hr className="bp-divider-h--articles"></hr>
+            </div>
+
+            <div className="cards">
+            <p className="titles"> Cursos </p>
+            <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
+            <hr className="bp-divider-h--articles"></hr>
+            </div>
+
+            <div className="cards">
+            <p className="titles"> Comunidade </p>
+            <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
+            <hr className="bp-divider-h--articles"></hr>
+            </div>
+
+            <div className="cards">
+            <p className="titles"> Políticas </p>
+            <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
+            <hr className="bp-divider-h--articles"></hr>
+            </div>
+        
+          </div>
+      </div>
     );
 
-    const Showcase = () => {
-      //area do beta
-      return (
+  //area do beta
+  class FormBeta extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {email: 'bruno'};
+
+      console.log(props);
+      this.handleChange = this.handleChange.bind(this);
+      this.handleSubmit = this.handleSubmit.bind(this);
+    }
+    
+      handleChange(event) {
+        console.log(event);
+        this.setState({email: event.target.value});
+      }
+
+      handleSubmit(event) {
+        event.prevent();
+        alert('Um email foi enviado: ' + this.state.email);
+        
+      }
+
+      render () {
+        return (
         <div className="div-beta-main">
          
           <div className="info">
@@ -459,28 +513,33 @@ class Index extends React.Component {
 
           <div className="div-form-beta">
           <form className="form-beta">
-            <label htmlFor="email" className="label-beta">E-mail</label>
+            <label htmlFor="email" className="label-beta">{this.state.email}</label>
               <br></br>
-              <input type="email" id="email" name="email"   required className="form-input-email" placeholder="Digite o seu e-mail"></input>
-              <input type="button" className="button-beta" onClick={() => console.log('Hello world!')} value="Assinar"></input>
+              <input type="email" 
+              id="email" 
+              name="email" 
+              className="form-input-email" 
+              placeholder="Digite o seu e-mail" 
+              value={this.state.email}
+              onChange={this.handleChange}></input>
+              <input type="submit" onClick={this.handleSubmit} className="button-beta" value="Assinar"></input>
             </form>
           </div>
 
         </div>
 
-      );
+        );
+      };
     };
 
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
+          <AprendaMais />
           <ForumAndIdeas />
           <RecentAndAccessed />
-          <Description />
-          <Showcase />
+          {/* <FormBeta /> */}
         </div>
       </div>
     );
