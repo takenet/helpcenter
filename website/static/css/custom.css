@@ -203,11 +203,10 @@
 		transition: max-height .5s ease;
 		max-height: 0;
 		overflow: hidden;
-		width: 200px;
 		margin-top: 10px;
 		margin-left: 0%;
 		margin-bottom: 0%;
-	  }
+	}
 	  
 	.hidden-checkbox:checked + .hidden-content {
 		max-height: 300px;
@@ -359,7 +358,6 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-items: center;
-		padding-bottom: 30px;
 	}
 
 	.recent-accessed-mobile .div-see-more {
@@ -8394,14 +8392,14 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	font-size: 1rem;
-	line-height: 22px;
-	color: #2CC3D5;
 }
 
 .li-recent-accessed {
 	display: flex;
 	flex-direction: row;
+	font-size: 1rem;
+	line-height: 22px;
+	color: #2CC3D5;
 }
 
 .a-recent-accessed {
@@ -8576,7 +8574,6 @@
 	
 }
 
-
 .flexbox-container {
 	display: flex;
 	justify-content: center;
@@ -8750,7 +8747,6 @@
 	background: rgba(218, 242, 244, 0.5);
 }
 
-
 .section-icon-circle-card {
 	border-radius: 100%;
 	width: 108px;
@@ -8896,7 +8892,6 @@
 	transition: max-height .5s ease;
 	max-height: 0;
 	overflow: hidden;
-	width: 200px;
 	margin-top: 10px;
 	margin-left: 0%;
 	margin-bottom: 0%;
