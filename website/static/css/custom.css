@@ -8749,7 +8749,7 @@
     -moz-user-select: none; 
     -ms-user-select: none; 
 	user-select: none;
-	width: 100%;
+	width: 90%;
 }
 
 .titles{
@@ -8762,6 +8762,7 @@
 	margin-left: 0%;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .bp-divider-h--articles {
@@ -8775,7 +8776,6 @@
 	margin-right: 0;
 	align-self: right;
 	font-size: 1.5rem;
-	margin-left: 30%;
 }
 
 .hidden-checkbox {
@@ -8805,7 +8805,7 @@
     transform: rotate(180deg);
 }
 
-li {
+li .aprenda-mais {
 	list-style-type: none;
 	margin-left: -18%;
 }
