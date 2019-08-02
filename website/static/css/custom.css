@@ -53,15 +53,13 @@
 		background: #FFFFFF;
 		margin-top: 7% !important;
 		width: 91% !important;
-		height: 160px !important;
-		min-height: fit-content !important;
+		height: 140px !important;
+		align-items: baseline  !important;
 	}
 	
 	.card-home-main .card-img{
-		height: 0%  !important;
-		width: 0% !important;
 		margin-left: 3% !important;
-		margin-top: 9% !important;
+		margin-top: 20% !important;
 	}
 	
 	.section-icon-circle-card {
@@ -91,24 +89,21 @@
 	}
 
 	.card-home-main .card-title{
+		margin-top: 10% !important;
 		margin-left: 29% !important; 
-		margin-top: 0% !important;
-		height: fit-content !important;
+		font-size: 1.1rem !important;
 		width: fit-content !important;
 	}
 	
 	.card-home-main .card-text-mobile{
-		display: flex !important;
-		position: relative;
 		font-family: Nunito Sans;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 0.75rem;
 		word-wrap: normal !important;
-		width: 60% !important;
+		width: 65% !important;
 		height: fit-content !important;
 		margin-left: 30%;
-		margin-top: -18%;
 		line-height: 16px;
 		color: #3D4554;
 	}
@@ -229,7 +224,9 @@
 	}
 	
 	.flexbox-container .card-home-main:hover{
-		height: 420px;
+		transition: max-height .6s ease;
+		max-height: 350px;
+		
 	}
 	
 	.flexbox-container .card-home-main:hover > .card-info .card-icon{
@@ -244,12 +241,10 @@
 		font-size: 0.75rem;
 		line-height: 120%;
 		color: #738192;
-		width: fit-content;
 		text-align: center;
-		margin-left: 20%;
-		margin-right: 20%;
-		margin-top: -10%;
-		margin-bottom: -10%;
+		max-width: 80%;
+		margin-left: 10%;
+		margin-top: 0%;
 	}
 	
 	.flexbox-container .card-home-main:hover > .card-info .card-button{
@@ -264,14 +259,16 @@
 		font-size: 12px;
 		line-height: 16px;
 		text-align: center;
-		margin-top: 32%;
 		border-radius: 0px 0px 8px 8px;
+		margin-top: 10%;
 		padding: 18px;
 	}
 	
 	.card-home-main .card-info .card-text-mobile{
 		display: none;
 	}
+
+	
 }
 
 @media only screen and (min-width: 1100px) {
@@ -8582,6 +8579,7 @@
 
 .flexbox-container .card-home-main{
 	width: 18%;
+	max-height: 289px;
 	margin-top: -9%;
 	margin-left: 5.8%;
 	background: #FFFFFF;
@@ -8592,7 +8590,8 @@
 	display: flex;
 	overflow: hidden;
 	flex-direction: column;
-	transition: .4s;
+	transition: max-heigth .6s ease;
+	align-items: center;
 }
 
 .nonClickable{
@@ -8604,9 +8603,8 @@
 }
 
 .card-home-main .card-img{
-	height: auto;
-	width: auto;
-	margin-left: 25%;
+	height: 50%;
+	width: 50%;
 	margin-top: 10%;
 }
 
@@ -8618,6 +8616,7 @@
 	margin-top: 4.95%;
 	margin-bottom: 4.95%;
 	margin-left: 6.42%;
+	text-align: center;
 }
 
 .section-icon-circle-card--bot{
@@ -8634,13 +8633,9 @@
 }
 
 .card-home-main .card-info{
-	float: left;
-	height: auto;
 	max-height: 290px;
-	width: auto;
 	max-width: 100% !important;
 	padding-top: 0%;
-	overflow: auto;
 }
 
 .card-home-main .card-info .card-title{
@@ -8650,15 +8645,18 @@
 	font-size: 1.5rem;
 	line-height: 120%;
 	color: #607B99;
-	width: 52%;
+	width: 97.5%;
+	height: 50%;
+	white-space: wrap;
 	margin-top: 3%;
-	margin-left: 25%;
-	margin-bottom: 18%;
+	margin-left: 1%;
+	margin-bottom: 0;
 	text-align: center;
 }
 
 .card-home-main .card-info .card-icon{
-	margin-left: 40%;
+	text-align: center;
+	margin-bottom: 5%;
 }
 
 .card-home-main .card-info .card-button{
@@ -8802,7 +8800,7 @@
 .div-aprenda-main{
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 
 .div-aprenda-main .title{
