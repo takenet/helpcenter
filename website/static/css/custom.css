@@ -8807,7 +8807,7 @@
     transform: rotate(180deg);
 }
 
-li .aprenda-mais {
-	list-style-type: none;
+.li-aprenda-mais {
+	list-style-type: none !important;
 	margin-left: -18%;
 }

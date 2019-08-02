@@ -428,138 +428,138 @@ class Index extends React.Component {
         <p className="subtitle"> Todas as informações que você precisa para saber para utilizar o BLiP como um expert estão em nas categorias abaixo: </p>
           <div className="articles">
           
-          <label htmlFor="check1" className="cards">
+          <label htmlFor="check1-aprendaMais" className="cards">
               <p className="titles">Primeiros acessos</p>
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
-                <input id="check1" className="hidden-checkbox" type="checkbox" />
+                <input id="check1-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
                 <ul>
-                <li className="aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="aprenda-mais"><a href="#">Sexto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
               </ul>
                 </div> 
                 <hr className="bp-divider-h--articles"></hr>  
           </label>
              
-          <label htmlFor="check2" className="cards">
+          <label htmlFor="check2-aprendaMais" className="cards">
               <p className="titles">Canais</p>
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
-                <input id="check2" className="hidden-checkbox" type="checkbox" />
+                <input id="check2-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
                 <ul>
-                <li className="aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="aprenda-mais"><a href="#">Sexto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
               </ul>
                 </div>  
                 <hr className="bp-divider-h--articles"></hr> 
           </label>
 
-          <label htmlFor="check3" className="cards">
+          <label htmlFor="check3-aprendaMais" className="cards">
               <p className="titles">Integrações</p>
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
-                <input id="check3" className="hidden-checkbox" type="checkbox" />
+                <input id="check3-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
                 <ul>
-                <li className="aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="aprenda-mais"><a href="#">Sexto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
               </ul>
                 </div>   
                 <hr className="bp-divider-h--articles"></hr>
           </label>
 
-          <label htmlFor="check4" className="cards">
+          <label htmlFor="check4-aprendaMais" className="cards">
               <p className="titles">Recursos</p>
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
-                <input id="check4" className="hidden-checkbox" type="checkbox" />
+                <input id="check4-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
                 <ul>
-                <li className="aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="aprenda-mais"><a href="#">Sexto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
               </ul>
                 </div>   
                 <hr className="bp-divider-h--articles"></hr>
           </label>
 
-          <label htmlFor="check5" className="cards">
+          <label htmlFor="check5-aprendaMais" className="cards">
               <p className="titles">Explore o BLiP</p>
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
-                <input id="check5" className="hidden-checkbox" type="checkbox" />
+                <input id="check5-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
                 <ul>
-                <li className="aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="aprenda-mais"><a href="#">Sexto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
               </ul>
                 </div>   
                 <hr className="bp-divider-h--articles"></hr>
           </label>
 
-          <label htmlFor="check6" className="cards">
+          <label htmlFor="check6-aprendaMais" className="cards">
               <p className="titles">Cursos </p>
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
-                <input id="check6" className="hidden-checkbox" type="checkbox" />
+                <input id="check6-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
                 <ul>
-                <li className="aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="aprenda-mais"><a href="#">Sexto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
               </ul>
                 </div>   
                 <hr className="bp-divider-h--articles"></hr>
           </label>
 
-          <label htmlFor="check7" className="cards">
+          <label htmlFor="check7-aprendaMais" className="cards">
               <p className="titles">Comunidade</p>
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
-                <input id="check7" className="hidden-checkbox" type="checkbox" />
+                <input id="check7-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
                 <ul>
-                <li className="aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="aprenda-mais"><a href="#">Sexto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
               </ul>
                 </div> 
                 <hr className="bp-divider-h--articles"></hr>  
           </label>
           
 
-          <label htmlFor="check8" className="cards">
+          <label htmlFor="check8-aprendaMais" className="cards">
               <p className="titles">Políticas </p>
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
-                <input id="check8" className="hidden-checkbox" type="checkbox" />
+                <input id="check8-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
                 <ul>
-                <li className="aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="aprenda-mais"><a href="#">Sexto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
+                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
               </ul>
                 </div>
                 <hr className="bp-divider-h--articles"></hr>   
