@@ -99,7 +99,7 @@ class HomeSplash extends React.Component {
                   </div>
                   <p className="card-text">Área para usuários com pouca intimidade sobre contatos inteligentes e criação de chatbots.</p>
                   <div className="card-icon">
-                    <BlipIcon name="arrow-ball-down-solid" className="bp-fs-1 bp-fill-bot"></BlipIcon> 
+                    <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon> 
                   </div>
                   <a href="#" className="card-button">Começar aqui</a>
                   <p className="card-text-mobile">Para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
@@ -118,7 +118,7 @@ class HomeSplash extends React.Component {
                     <p>Explorando a plataforma</p>
                   </div>
                   <div className="card-icon">
-                    <BlipIcon name="arrow-ball-down-solid" className="bp-fs-1 bp-fill-bot"></BlipIcon> 
+                    <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon> 
                   </div>
                   <p className="card-text">Área para usuários com pouca intimidade sobre contatos inteligentes e criação de chatbots.</p>
                   <a href="#" className="card-button">Começar aqui</a>
@@ -137,7 +137,7 @@ class HomeSplash extends React.Component {
                     <p>Dominando a plataforma</p>
                   </div>
                   <div className="card-icon">
-                    <BlipIcon name="arrow-ball-down-solid" className="bp-fs-1 bp-fill-bot"></BlipIcon> 
+                    <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon> 
                   </div>
                   <p className="card-text">Área para usuários com pouca intimidade sobre contatos inteligentes e criação de chatbots.</p>
                   <a href="#" className="card-button">Começar aqui</a>
