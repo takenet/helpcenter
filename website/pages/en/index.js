@@ -189,38 +189,139 @@ class Index extends React.Component {
     const RecentAndAccessed = () => (
       <div className="flexbox-recent-accessed">
         
-        <div className="flexbox-recent-accessed-lists">
+        {/* -------------------------DESKTOP VERSION------------------------- */}
+        
+        <div className="recent-accessed-desktop">
+
+          <div className="flexbox-recent-accessed-lists">
+            
+            <div className="div-recent-accessed-list">
+              
+              <h2 className="h2-recent-accessed">Mais recentes</h2>
+              
+              <ul className="ul-recent-accessed">
+
+                <li className="li-recent-accessed">
+                  <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+                  <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                    Facilitando a criação de seu chatbot através das extensões
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+                <li className="li-recent-accessed">
+                  <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+                  <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                    Conceitos básicos para utilizar NLP e IA em chatbots
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+                <li className="li-recent-accessed">
+                  <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+                  <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                    O que é o BLiP Chat?
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+                <li className="li-recent-accessed"> 
+                  <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+                  <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                    O que é o Workplace?
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+
+              </ul>
+            
+            </div>
+
+            <div className="div-recent-accessed-list">
+              
+              <h2 className="h2-recent-accessed">Mais acessados</h2>
+
+              <ul className="ul-recent-accessed">
+
+                <li className="li-recent-accessed">
+                  <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+                  <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                    Facilitando a criação de seu chatbot através das extensões
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+                <li className="li-recent-accessed">
+                  <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+                  <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                    Conceitos básicos para utilizar NLP e IA em chatbots
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+                <li className="li-recent-accessed">
+                  <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+                  <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                    O que é o BLiP Chat?
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+                <li className="li-recent-accessed">
+                  <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+                  <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                    O que é o Workplace?
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+
+              </ul>
+            
+            </div>
           
+          </div>
+
+          <div className="div-see-more">
+            
+            <button className="bp-btn bp-btn--bot btn--recent-accessed">Veja outros artigos!</button>
+            <hr className="bp-divider-h bp-divider--see-more"></hr>
+          
+          </div>
+
+        </div>
+
+        {/* -------------------------MOBILE VERSION------------------------- */}
+
+        <div className="recent-accessed-mobile">
+
           <div className="div-recent-accessed-list">
             
-            <h2 className="h2-recent-accessed">Mais recentes</h2>
+            <div className= "btn-title-recent-accessed">
+              <h2 className="h2-recent-accessed">Artigos mais <strong>recentes</strong></h2>
+              <BlipIcon name="arrow-ball-down-outline" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+              <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+            </div>
             
             <ul className="ul-recent-accessed">
 
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   Facilitando a criação de seu chatbot através das extensões
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   Conceitos básicos para utilizar NLP e IA em chatbots
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   O que é o BLiP Chat?
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed"> 
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   O que é o Workplace?
                 </a>
               </li>
@@ -232,34 +333,38 @@ class Index extends React.Component {
           
           <div className="div-recent-accessed-list">
             
-            <h2 className="h2-recent-accessed">Mais acessados</h2>
-
+            <div className="btn-title-recent-accessed">
+              <h2 className="h2-recent-accessed">Artigos mais <strong>acessados</strong></h2>
+              <BlipIcon name="arrow-ball-down-outline" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+              <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+            </div>
+            
             <ul className="ul-recent-accessed">
 
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   Facilitando a criação de seu chatbot através das extensões
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   Conceitos básicos para utilizar NLP e IA em chatbots
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   O que é o BLiP Chat?
                 </a>
               </li>
               <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
               <li className="li-recent-accessed">
                 <BlipIcon name="txt-file" className="bp-fs-4 bp-fill-bot"></BlipIcon>
-                <a className="recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
+                <a className="a-recent-accessed" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target = "_blank">
                   O que é o Workplace?
                 </a>
               </li>
@@ -269,13 +374,12 @@ class Index extends React.Component {
           
           </div>
         
-        </div>
-
         <div className="div-see-more">
           
-          <button className="bp-btn bp-btn--bot btn--recent-accessed">Veja outros artigos</button>
-          <hr className="bp-divider-h bp-divider--see-more"></hr>
+          <button className="bp-btn bp-btn--bot btn--recent-accessed">Veja outros artigos!</button>
         
+        </div>
+
         </div>
       
       </div>
@@ -284,32 +388,36 @@ class Index extends React.Component {
     const ForumAndIdeas = () => (
       <div className="div-forum-ideas">
 
-        <h2 className="div-forum-ideas-title">Tire dúvidas e faça sugestões!</h2>
-        <p className="div-forum-ideas-text">O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!</p>
+        <h2 className="h2-forum-ideas">Tire dúvidas e faça sugestões!</h2>
+        <p className="p-forum-ideas">O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!</p>
 
-        <a href= 'https://forum.blip.ai/' target = "_blank">
-          <div className="div-forum-ideas-forum-card">
-            <div className="section-icon-circle-forum-ideas-card section-icon-circle-forum-ideas-card--sea">
-              <BlipIcon name="forum" className="bp-fs-1 bp-fill-sea"></BlipIcon>
-            </div>
-            <div>
-              <h3 className="div-forum-ideas-card-title">Fórum</h3>
-              <p className="div-forum-ideas-card-text">Não encontrou o que procurava aqui no nosso help center? Sendo assim você pode abrir um chamado para outros usuários ou nosso setor de suporte ajudar a tirar suas dúvidas!</p>
-            </div>
-          </div>
-        </a>
+        <div className="flexbox-forum-ideas">
 
-        <a href= 'https://ideas.blip.ai/' target = "_blank">
-          <div className="div-forum-ideas-ideas-card">
-            <div className="section-icon-circle-forum-ideas-card section-icon-circle-forum-ideas-card--doritos">
-              <BlipIcon name="blip-ideas" className="bp-fs-1 bp-fill-doritos"></BlipIcon>
+          <a className="a-forum-ideas" href= 'https://forum.blip.ai/' target = "_blank">
+            <div className="flexbox-forum-ideas-card">
+              <div className="section-icon-circle-forum-ideas-card section-icon-circle-forum-ideas-card--sea">
+                <BlipIcon name="forum" className="bp-fs-1 bp-fill-sea"></BlipIcon>
+              </div>
+              <div className="section-card">
+                <h3 className="h3-forum-ideas-card">Fórum</h3>
+                <p className="p-forum-ideas-card">Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!</p>
+              </div>
             </div>
-            <div>
-              <h3 className="div-forum-ideas-card-title">BLiP Ideas</h3>
-              <p className="div-forum-ideas-card-text">Alguma ideia para melhorarmos a plataforma? Conta para gente! As ideias mais votadas são analisadas e podem se tornar uma de nossas features.</p>
+          </a>
+
+          <a className="a-forum-ideas" href= 'https://ideas.blip.ai/' target = "_blank">
+            <div className="flexbox-forum-ideas-card">
+              <div className="section-icon-circle-forum-ideas-card section-icon-circle-forum-ideas-card--doritos">
+                <BlipIcon name="blip-ideas" className="bp-fs-1 bp-fill-doritos"></BlipIcon>
+              </div>
+              <div className="section-card">
+                <h3 className="h3-forum-ideas-card">BLiP Ideas</h3>
+                <p className="p-forum-ideas-card">Alguma ideia para melhorar a plataforma? Crie uma sugestão no BLiP Ideas! As ideias mais votadas são analisadas e podem se tornar novas features.</p>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+
+        </div>
 
       </div>
     );
@@ -459,64 +567,64 @@ class Index extends React.Component {
           
           
           </div>
-      </div>
+    </div>
     );
 
   //area do beta
-  class FormBeta extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = {email: 'bruno'};
+  // class FormBeta extends React.Component {
+  //   constructor(props) {
+  //     super(props);
+  //     this.state = {email: 'bruno'};
 
-      console.log(props);
-      this.handleChange = this.handleChange.bind(this);
-      this.handleSubmit = this.handleSubmit.bind(this);
-    }
+  //     console.log(props);
+  //     this.handleChange = this.handleChange.bind(this);
+  //     this.handleSubmit = this.handleSubmit.bind(this);
+  //   }
     
-      handleChange(event) {
-        console.log(event);
-        this.setState({email: event.target.value});
-      }
+  //     handleChange(event) {
+  //       console.log(event);
+  //       this.setState({email: event.target.value});
+  //     }
 
-      handleSubmit(event) {
-        event.prevent();
-        alert('Um email foi enviado: ' + this.state.email);
+  //     handleSubmit(event) {
+  //       event.prevent();
+  //       alert('Um email foi enviado: ' + this.state.email);
         
-      }
+  //     }
 
-      render () {
-        return (
-        <div className="div-beta-main">
+  //     render () {
+  //       return (
+  //       <div className="div-beta-main">
          
-          <div className="info">
-            <div className="title">
-              <p> Torne-se um usuário beta! </p>
-            </div>
-            <div className="text">
-              <p> Ao se tornar um usuário beta você será um dos primeiros a testar as novas feautres que serão lançadas</p>
-            </div>
-          </div>
+  //         <div className="info">
+  //           <div className="title">
+  //             <p> Torne-se um usuário beta! </p>
+  //           </div>
+  //           <div className="text">
+  //             <p> Ao se tornar um usuário beta você será um dos primeiros a testar as novas feautres que serão lançadas</p>
+  //           </div>
+  //         </div>
 
-          <div className="div-form-beta">
-          <form className="form-beta">
-            <label htmlFor="email" className="label-beta">{this.state.email}</label>
-              <br></br>
-              <input type="email" 
-              id="email" 
-              name="email" 
-              className="form-input-email" 
-              placeholder="Digite o seu e-mail" 
-              value={this.state.email}
-              onChange={this.handleChange}></input>
-              <input type="submit" onClick={this.handleSubmit} className="button-beta" value="Assinar"></input>
-            </form>
-          </div>
+  //         <div className="div-form-beta">
+  //         <form className="form-beta">
+  //           <label htmlFor="email" className="label-beta">{this.state.email}</label>
+  //             <br></br>
+  //             <input type="email" 
+  //             id="email" 
+  //             name="email" 
+  //             className="form-input-email" 
+  //             placeholder="Digite o seu e-mail" 
+  //             value={this.state.email}
+  //             onChange={this.handleChange}></input>
+  //             <input type="submit" onClick={this.handleSubmit} className="button-beta" value="Assinar"></input>
+  //           </form>
+  //         </div>
 
-        </div>
+  //       </div>
 
-        );
-      };
-    };
+  //       );
+  //     };
+  //   };
 
     return (
       <div>
