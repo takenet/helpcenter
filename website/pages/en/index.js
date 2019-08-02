@@ -433,13 +433,13 @@ class Index extends React.Component {
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
                 <input id="check1-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
-                <ul>
-                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
+                <ul className="ul-aprenda-mais">
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Primeiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Segundo link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
               </ul>
                 </div> 
                 <hr className="bp-divider-h--articles"></hr>  
@@ -450,13 +450,13 @@ class Index extends React.Component {
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
                 <input id="check2-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
-                <ul>
-                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
+                <ul className="ul-aprenda-mais">
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Primeiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Segundo link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
               </ul>
                 </div>  
                 <hr className="bp-divider-h--articles"></hr> 
@@ -467,14 +467,14 @@ class Index extends React.Component {
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
                 <input id="check3-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
-                <ul>
-                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
-              </ul>
+                  <ul className="ul-aprenda-mais">
+                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Primeiro link </a></li>
+                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Segundo link </a></li>
+                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
+                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
+                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
+                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
+                  </ul>
                 </div>   
                 <hr className="bp-divider-h--articles"></hr>
           </label>
@@ -484,13 +484,13 @@ class Index extends React.Component {
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
                 <input id="check4-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
-                <ul>
-                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
+                <ul className="ul-aprenda-mais">
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Primeiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Segundo link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
               </ul>
                 </div>   
                 <hr className="bp-divider-h--articles"></hr>
@@ -501,13 +501,13 @@ class Index extends React.Component {
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
                 <input id="check5-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
-                <ul>
-                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
+                <ul className="ul-aprenda-mais">
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Primeiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Segundo link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
               </ul>
                 </div>   
                 <hr className="bp-divider-h--articles"></hr>
@@ -518,13 +518,13 @@ class Index extends React.Component {
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
                 <input id="check6-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
-                <ul>
-                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
+                <ul className="ul-aprenda-mais">
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Primeiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Segundo link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
               </ul>
                 </div>   
                 <hr className="bp-divider-h--articles"></hr>
@@ -535,13 +535,13 @@ class Index extends React.Component {
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
                 <input id="check7-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
-                <ul>
-                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
+                <ul className="ul-aprenda-mais">
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Primeiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Segundo link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
               </ul>
                 </div> 
                 <hr className="bp-divider-h--articles"></hr>  
@@ -553,13 +553,13 @@ class Index extends React.Component {
               <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
                 <input id="check8-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
-                <ul>
-                <li className="li-aprenda-mais"><a href="#">Primeiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Segundo link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Terceiro link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quarto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Quinto link </a></li>
-                <li className="li-aprenda-mais"><a href="#">Sexto link </a></li>
+                <ul className="ul-aprenda-mais">
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Primeiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Segundo link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
               </ul>
                 </div>
                 <hr className="bp-divider-h--articles"></hr>   
