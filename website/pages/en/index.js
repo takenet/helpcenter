@@ -375,9 +375,7 @@ class Index extends React.Component {
           </div>
         
         <div className="div-see-more">
-          
           <button className="bp-btn bp-btn--bot btn--recent-accessed">Veja outros artigos!</button>
-        
         </div>
 
         </div>
