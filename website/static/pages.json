@@ -1,0 +1,52 @@
+{ 
+    "title":"Introdução à plataforma",
+    "subtitle":"Aqui você encontra os primeiros passos para entender melhor o BLiP",
+    "img":"img/illustrations/person-2.svg",
+    "from":"BLiP Help Center >",
+    "here":"Introdução à plataforma",
+    "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+    "cards":[  
+       {  
+          "title":"Integração com a ferramenta de Analytics 1",
+          "type": "text",
+          "url": "#", 
+          "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+          "text":"ver mais!"
+       },
+       {  
+          "title":"Integração com a ferramenta de Analytics 2",
+          "type": "video",
+          "url": "#",
+          "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+          "text":"ver mais!"
+       },
+       {  
+        "title":"Integração com a ferramenta de Analytics 3",
+        "type": "text",
+        "url": "#",
+        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+        "text":"ver mais!"
+      },
+      {  
+        "title":"Integração com a ferramenta de Analytics 4",
+        "type": "text",
+        "url": "#",
+        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+        "text":"ver mais!"
+      },
+      {  
+        "title":"Integração com a ferramenta de Analytics 5",
+        "type": "text",
+        "url": "#",
+        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+        "text":"ver mais!"
+     },
+     {  
+      "title":"Integração com a ferramenta de Analytics 6",
+      "type": "text",
+      "url": "#",
+      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "text":"ver mais!"
+    }
+    ]
+ }

@@ -87,7 +87,7 @@ class HomeSplash extends React.Component {
             </div>
         </div>
             <div className="flexbox-container">
-              <a href="#" className="nonClickable"><div className="card-home-main" id="card1">
+              <a href="/introduction" className="nonClickable"><div className="card-home-main" id="card1">
                 <div className="card-img">
                 <div className="section-icon-circle-card section-icon-circle-card--bot">
                     <img src="img/illustrations/Estrela-1.svg"/>
@@ -101,7 +101,7 @@ class HomeSplash extends React.Component {
                   <div className="card-icon">
                     <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon> 
                   </div>
-                  <a href="#" className="card-button">Começar aqui</a>
+                  <a href="/introduction" className="card-button">Começar aqui</a>
                   <p className="card-text-mobile">Para pessoas que tem pouca intimidade com o universo de contatos inteligentes e criação de chatbots.</p>
                 </div>
               </div></a>
