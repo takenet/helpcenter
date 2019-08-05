@@ -434,6 +434,71 @@
 	}
 	
 }
+
+h1 {
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 2.5rem;
+	line-height: 110%;
+	color: #607B99;
+}
+
+h2 {
+	font-family: 1.25rem;
+}
+
+h3 {
+	font-family: 0.9rem;
+}
+
+p {
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 150%;
+	color: #52636C;
+}
+
+table {
+	border-collapse: unset;
+}
+
+table tr {
+	background-color: #F5F8F9;
+}
+
+table thead tr{
+	background-color: transparent;
+}
+  
+table tbody tr:nth-child(2n) {
+	background-color: transparent;
+}
+
+table th,
+table td {
+	border: 0px solid #FFFFFF;
+	font-size: 1rem;
+}
+
+table th {
+	font-style: normal;
+	line-height: 22px;
+	color: #2CC3D5;
+	padding-top: 10px;
+	padding-bottom: 24px;
+	padding-left: 10px;
+}
+
+table td {
+	line-height: 150%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 10px;
+}
+
 @font-face {
 	font-family: Nunito Sans;
 	font-style: normal;
