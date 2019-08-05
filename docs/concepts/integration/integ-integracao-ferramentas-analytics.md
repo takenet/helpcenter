@@ -12,7 +12,7 @@ Pensando em todo o ciclo de vida de um **bom chatbot**, analisar e entender tudo
 
 A partir de agora, além dos já conhecidos dashboards de **Visão Geral** e **Análise de dados**, é possível também enviar as mensagens trocadas pelo bot para ferramentas especializadas nessas análises.
 
-##Como funciona o Hub de analytics ?
+## Como funciona o Hub de analytics ?
 O Hub de ferramentas de analytics do BLiP envia eventos e mensages recebidas (ou enviadas) pelo seu bot para todas as ferramentas de análises ativas. Essa é uma forma ágil de testar a qualidade e usabilidade de diferentes ferramentas sem a necessidade de integrar-se a cada delas diretamente.
 
 Atualmente, o hub de analytics conta com duas ferramentas:
