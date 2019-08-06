@@ -23,103 +23,69 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <footer className="nav-footer" id="footer">
-        <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
-          {this.props.config.footerIcon && (
-              <img
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-                width="150"
-                height="75"
-              />
-            )}
-          </a>
-          <div>
-            <h5>Áreas do BLiP</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
-              Analytics
-            </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Builder
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              Canais
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              CRM
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              Desk
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              Growth
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              Help Desk
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              I.A.
-            </a>
-          </div>
-          <div>
-            <h5>Recursos</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              API Reference
-            </a>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              Changelogs
-            </a>
-            <a href='/faq'>
-              Faq
-            </a>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              Github 
-            </a>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              Status 
-            </a>
-          </div>
-          <div>
-            <h5>Cursos</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              Certificação BLiP
-            </a>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              Tutoriais
-            </a>
-          </div>
-          <div>
-            <h5>Comunidade</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              BLiP Beta
-            </a>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              BLiP Ideas
-            </a>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              BLiP Lovers
-            </a>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              Blog 
-            </a>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              Eventos 
-            </a>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              Fórum 
-            </a>
-          </div>
-          <div>
-            <h5>Políticas</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              LGPD 
-            </a>
-          </div>
-        </section>
+      <div>
 
-        <section className="copyright">{this.props.config.copyright}</section>
-      </footer>
+        <div className="custom-footer">
+          
+          <div className="footer-content">
+              <div className="footer-logo">
+                <img src="/img/footer_logo.png"></img>
+              </div>
+
+              <div className="footer-links">
+                
+                <div className="footer-column">
+                <p className="title">Áreas do BLiP</p>
+                  <a href="#" className="link-footer">Analytics</a>
+                  <a href="#" className="link-footer"> Builder</a>
+                  <a href="#" className="link-footer">Canais</a>
+                  <a href="#" className="link-footer">CRM</a>
+                  <a href="#" className="link-footer">Desk</a>
+                  <a href="#" className="link-footer">Growth</a>
+                  <a href="#" className="link-footer">Help Desk</a>
+                  <a href="#" className="link-footer">I.A.</a>
+                </div>
+              
+                <div className="footer-column">
+                <p className="title">Recursos</p>
+                  <a href="#" className="link-footer">API Reference</a>
+                  <a href="#" className="link-footer">Changelogs</a>
+                  <a href="/faq" className="link-footer">Faq</a>
+                  <a href="#" className="link-footer">Github</a>
+                  <a href="#" className="link-footer">Status</a>
+                </div>
+
+                <div className="footer-column">
+                  <p className="title">Cursos</p>
+                  <a href="#" className="link-footer">Certificação BLiP</a>
+                  <a href="#" className="link-footer">Tutoriais</a>
+                </div>
+
+                <div className="footer-column">
+                  <p className="title">Comunidade</p>
+                  <a href="#" className="link-footer">BLiP Beta</a>
+                  <a href="#" className="link-footer">BLiP Ideas</a>
+                  <a href="#" className="link-footer">BLiP Lovers</a>
+                  <a href="#" className="link-footer"> Blog</a>
+                  <a href="#" className="link-footer">Eventos</a>
+                  <a href="#" className="link-footer">Fórum</a>
+                </div>
+
+                <div className="footer-column">
+                  <p className="title">Políticas</p>
+                  <a href="#" className="link-footer">LGPD</a>
+                </div>
+
+              </div>
+          
+          </div>
+
+          <div>
+              <p className="custom-copyright">{this.props.config.copyright}</p>
+          </div>
+
+        </div>
+      </div>
     );
   }
 }
