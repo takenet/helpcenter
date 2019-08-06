@@ -4,7 +4,7 @@ const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
   "title":"Introdução à plataforma",
   "subtitle":"Aqui você encontra os primeiros passos para entender melhor o BLiP",
-  "img":"img/illustrations/Person-2.svg",
+  "img":"/img/illustrations/Person-2.svg",
   "from":"BLiP Help Center >",
   "here":"Introdução à plataforma",
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
@@ -107,8 +107,8 @@ class BlipPage extends React.Component{
 
                 {/* Cards */}
                 <div className="cards">
-                  {data.cards.map((c) => ( 
-                  <a href={c.url} className="card">
+                  {data.cards.map((c, index) => ( 
+                  <a href={c.url} className="card" key={index}>
                    
                       { c.type === "video" ? 
                       <div className="title-with-icon">
