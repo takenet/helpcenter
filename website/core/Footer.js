@@ -70,7 +70,7 @@ class Footer extends React.Component {
             <a href={this.pageUrl('users.html', this.props.language)}>
               Changelogs
             </a>
-            <a href={this.pageUrl('users.html', this.props.language)}>
+            <a href='/faq'>
               Faq
             </a>
             <a href={this.pageUrl('users.html', this.props.language)}>
