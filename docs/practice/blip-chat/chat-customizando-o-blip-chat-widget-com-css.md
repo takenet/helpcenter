@@ -12,15 +12,17 @@ Não tema, pois o widget já vem de fábrica, com ferramentas que podem facilmen
 
 Pode acontecer do círculo flutuante não se encaixar muito com o estilo do seu site ou, pode ser, que você simplesmente queira colocar o chat dentro de um elemento qualquer na sua página.
 
-    <!-- some element of your site -->
-    <div id="chat">
-    </div>
+```html
+<!-- some element of your site -->
+<div id="chat">
+</div>
 
-    <script>
-        new BlipChat()
-            .withTarget("chat")
-            .build();
-    </script>
+<script>
+    new BlipChat()
+        .withTarget("chat")
+        .build();
+</script>
+```
 
 A método **withTarget** do widget do BLiP Chat permite que você coloque seu chat onde quiser no site. Basta utilizar o "id" de um elemento HTML da sua página. A partir disso, a extensão vai carregar o chat no elemento que você indicar e você conseguirá ter mais liberdade para tratar o chat na sua página. Veja um exemplo abaixo:
 
@@ -38,27 +40,31 @@ Por motivos de segurança, fornecidos pelo próprio navegador, seu chat vem emba
 
 O navegador impede qualquer tentativa de enviar regras de estilo para customizar a aparência interna do widget. Por isso, não é possível modificar o CSS do chat. Ou será que é?
 
-    <script>
-        new BlipChat()
-            .withTarget("chat")
-            .withCustomStyle("div { padding: 0; }")
-            .build();
-    </script>
+```html
+<script>
+    new BlipChat()
+        .withTarget("chat")
+        .withCustomStyle("div { padding: 0; }")
+        .build();
+</script>
+```
 
 O método **withCustomStyle** permite enviar para o Widget, uma *string* contendo o seu CSS customizado que será aplicado internamente no chat.
 
 Caso queira manter esse CSS em um arquivo externo, para manter [linting](https://stackoverflow.com/questions/8503559/what-is-linting), organizar e facilitar a sua vida, você pode utilizar uma requisição para carregar (quase como adicionar um *link* no seu site):
 
-    <script>
-        fetch("localização do seu .css")
-        .then(r => r.text()) // recupera o conteúdo como texto
-        .then(styleSheet => { // "styleSheet" está preenchida com o conteúdo do arquivo
-            new BlipChat()
-                    .withTarget("chat")
-                    .withCustomStyle(styleSheet)
-                    .build();
-        });          
-    </script>
+```html
+<script>
+    fetch("localização do seu .css")
+    .then(r => r.text()) // recupera o conteúdo como texto
+    .then(styleSheet => { // "styleSheet" está preenchida com o conteúdo do arquivo
+        new BlipChat()
+                .withTarget("chat")
+                .withCustomStyle(styleSheet)
+                .build();
+    });          
+</script>
+```
 
 Dessa forma, você conseguirá customizar totalmente o seu chat:
 

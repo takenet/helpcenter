@@ -14,24 +14,25 @@ Para resolver este problema basta utilizar a extensão de listas.
 4. Adicione um novo usuário à sua lista com o método AddRecipientAsync(string listName, Identity recipientIdentity).
 5. Finalmente, envie uma mensagem para todos os usuários de sua lista com o método SendMessageAsync(string listName, Document d).
 
-
-    public class BroadcastMessageReceiver : IMessageReceiver
+```csharp
+public class BroadcastMessageReceiver : IMessageReceiver
+{
+    private readonly IBroadcastExtension _broadcastExtension;
+    private readonly IMessagingHubSender _sender;
+    public BroadcastMessageReceiver(IMessagingHubSender sender, IBroadcastExtension broadcastExtension)
     {
-        private readonly IBroadcastExtension _broadcastExtension;
-        private readonly IMessagingHubSender _sender;
-        public BroadcastMessageReceiver(IMessagingHubSender sender, IBroadcastExtension broadcastExtension)
-        {
-            _broadcastExtension = broadcastExtension;
-            _sender = sender;
-        }
-        public async Task ReceiveAsync(Message message, CancellationToken cancellationToken)
-        {
-            var listName = "couponUsers";
-            //Add a new distribution list with name couponUsers
-            await _broadcastExtension.CreateDistributionListAsync(listName);
-            //Add some users to couponUsers list
-            await _broadcastExtension.AddRecipientAsync(listName, message.From.ToIdentity());
-            //Send a message to couponUsers list users
-            await _broadcastExtension.SendMessageAsync(listName, new PlainText { Text = "Olá você ganhou um novo cupom de descontos" });
-        }
+        _broadcastExtension = broadcastExtension;
+        _sender = sender;
     }
+    public async Task ReceiveAsync(Message message, CancellationToken cancellationToken)
+    {
+        var listName = "couponUsers";
+        //Add a new distribution list with name couponUsers
+        await _broadcastExtension.CreateDistributionListAsync(listName);
+        //Add some users to couponUsers list
+        await _broadcastExtension.AddRecipientAsync(listName, message.From.ToIdentity());
+        //Send a message to couponUsers list users
+        await _broadcastExtension.SendMessageAsync(listName, new PlainText { Text = "Olá você ganhou um novo cupom de descontos" });
+    }
+}
+```

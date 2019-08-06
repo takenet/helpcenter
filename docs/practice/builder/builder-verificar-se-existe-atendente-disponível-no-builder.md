@@ -31,12 +31,14 @@ Para verificar se existe algum atendente disponível no Builder siga os passos a
 
 **Body:**
 
-    {
-        "id": "{{random.guid}}",
-        "to": "postmaster@desk.msging.net",
-        "method": "get",
-        "uri": "/attendants"
-    }
+```json
+{
+    "id": "{{random.guid}}",
+    "to": "postmaster@desk.msging.net",
+    "method": "get",
+    "uri": "/attendants"
+}
+```
 
 **Variável de status da resposta:** `status`
 
@@ -54,20 +56,22 @@ Para verificar se existe algum atendente disponível no Builder siga os passos a
 
 **Código fonte:**
 
-    // Receive the variables as parameters
-    function run(result) {
+```javascript
+// Receive the variables as parameters
+function run(result) {
 
-        result = JSON.parse(result);
-        let hasAttendant = false;
-        
-        if(result.resource && result.resource.total >= 1){
-                hasAttendant = result.resource.items.some(function(attendant){
-                    return attendant.status === 'Online';
-                });
-        }
-
-        return hasAttendant;
+    result = JSON.parse(result);
+    let hasAttendant = false;
+    
+    if(result.resource && result.resource.total >= 1){
+            hasAttendant = result.resource.items.some(function(attendant){
+                return attendant.status === 'Online';
+            });
     }
+
+    return hasAttendant;
+}
+```
 
 **Variável para o valor de retorno:** `hasAttendant`
 

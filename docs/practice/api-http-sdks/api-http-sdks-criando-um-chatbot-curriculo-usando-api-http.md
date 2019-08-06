@@ -47,29 +47,31 @@ O mínimo que precisamos fazer agora é criar dois endpoints na API, um para rec
 
 * Crie um *Controller* para Mensagens, com uma action **Post**
 
-
-    public class MessagesController : ApiController
+```csharp
+public class MessagesController : ApiController
+{
+    // POST api/messages
+    public async Task<IHttpActionResult> Post(JObject jsonObject)
     {
-        // POST api/messages
-        public async Task<IHttpActionResult> Post(JObject jsonObject)
-        {
-            Console.WriteLine($"Message Received: {jsonObject}");
+        Console.WriteLine($"Message Received: {jsonObject}");
 
-            return Ok();
-        }
+        return Ok();
     }
+}
+```
 
 * Crie outro *Controller* para Notificações, com uma action **Post**
 
-
-    public class NotificationsController : ApiController
+```csharp
+public class NotificationsController : ApiController
+{
+    // POST api/notifications
+    public void Post([FromBody]JObject jsonObject)
     {
-        // POST api/notifications
-        public void Post([FromBody]JObject jsonObject)
-        {
-            Console.WriteLine($"Received Notification  {jsonObject}");
-        }
+        Console.WriteLine($"Received Notification  {jsonObject}");
     }
+}
+```
 
 ## Publicando a API no Azure
 
@@ -102,90 +104,94 @@ Conforme destacado anteriormente, nosso chatbot não terá uma regra muito compl
 
 Pensando nisso seu chatbot precisará, logo que receber uma mensagem, identificar se o conteúdo enviado bate com algum dos comandos listados acima. Mas antes de começar lembre-se que **todo conteúdo enviado (ou recebido) para o chatbot** deve seguir o **padrão dos tipos aceitos pelo BLiP**. Neste [link](https://docs.blip.ai/#content-types) é possível encontrar todas as opções disponíveis. Para este artigo vamos utilizar apenas o tipo **texto**, conhecido como [PlainText](https://docs.blip.ai/#plain-text).
 
-    public class MessagesController : ApiController
+```csharp
+public class MessagesController : ApiController
+{
+    public MessagesController()
     {
-        public MessagesController()
-        {
-        }
-
-        // POST api/messages
-        public async Task<IHttpActionResult> Post(JObject jsonObject)
-        {
-            Console.WriteLine($"Message Received: {jsonObject}");
-
-            var content = message["content"].Value<string>();
-            var from = message["from"].Value<string>();
-            var messageContent = "";
-
-            switch (content.Trim())
-            {
-            case "info":
-            case "informação":
-            case "about":
-                messageContent = "Meu nome é Jonh Lorem Foo, eu tenho 25 anos. \n\nVocê pode me encontrar por telefone: +55 31 99827 1039 ou através do meu email: loremfoo@ipsum.com";
-                break;
-
-            case "formação":
-            case "formacao":
-            case "education":
-                messageContent = "*Mestre em Física Nuclear pela NASA\n*Graduado em Economia pela Faculdade de Harvard - USA";
-                break;
-
-            case "experiência":
-            case "experiencia":
-            case "experience":
-                messageContent = "Possuo 10 anos de experiência em análise de dados complexos. Meus últimos trabalhos foram para:\n\nGoogle\nFacebook\nNSA\nMicrosoft";
-                break;
-
-            case "habilidade":
-            case "skills":
-                messageContent = "Principais habilidades: \n\nComunicador\nExtrovertido\nGosta de trabalhar em equipe\nProgramação Android";
-                break;
-
-            default:
-                //default message if user send a unknow command
-                messageContent = "Oi, eu sou o chatbot do Jonh :) \nPosso lhe passar várias informações profissionais sobre ele. \n\nSe quiser saber mais me mande um dos comandos abaixo: \n\n about \n education \n experience \n skills!";
-                break;
-            }
-
-            var replyMessage = new
-            {
-                id = Guid.NewGuid(),
-                to = from,
-                type = "text/plain",
-                content = messageContent
-            };
-
-            await ReplyMessageAsync(replyMessage);
-
-            return Ok();
-        }
     }
+
+    // POST api/messages
+    public async Task<IHttpActionResult> Post(JObject jsonObject)
+    {
+        Console.WriteLine($"Message Received: {jsonObject}");
+
+        var content = message["content"].Value<string>();
+        var from = message["from"].Value<string>();
+        var messageContent = "";
+
+        switch (content.Trim())
+        {
+        case "info":
+        case "informação":
+        case "about":
+            messageContent = "Meu nome é Jonh Lorem Foo, eu tenho 25 anos. \n\nVocê pode me encontrar por telefone: +55 31 99827 1039 ou através do meu email: loremfoo@ipsum.com";
+            break;
+
+        case "formação":
+        case "formacao":
+        case "education":
+            messageContent = "*Mestre em Física Nuclear pela NASA\n*Graduado em Economia pela Faculdade de Harvard - USA";
+            break;
+
+        case "experiência":
+        case "experiencia":
+        case "experience":
+            messageContent = "Possuo 10 anos de experiência em análise de dados complexos. Meus últimos trabalhos foram para:\n\nGoogle\nFacebook\nNSA\nMicrosoft";
+            break;
+
+        case "habilidade":
+        case "skills":
+            messageContent = "Principais habilidades: \n\nComunicador\nExtrovertido\nGosta de trabalhar em equipe\nProgramação Android";
+            break;
+
+        default:
+            //default message if user send a unknow command
+            messageContent = "Oi, eu sou o chatbot do Jonh :) \nPosso lhe passar várias informações profissionais sobre ele. \n\nSe quiser saber mais me mande um dos comandos abaixo: \n\n about \n education \n experience \n skills!";
+            break;
+        }
+
+        var replyMessage = new
+        {
+            id = Guid.NewGuid(),
+            to = from,
+            type = "text/plain",
+            content = messageContent
+        };
+
+        await ReplyMessageAsync(replyMessage);
+
+        return Ok();
+    }
+}
+```
 
 Caso a mensagem enviada possua alguma das sentenças o chatbot deverá responder o conteúdo específico daquele comando. Para isso será necessário enviar uma mensagem de resposta para o usuário com as informações referentes a pergunta.
 
 O método **ReplyMessageAsync(string text)** envia uma mensagem de resposta com um texto qualquer.
 
-    public class MessagesController : ApiController
+```csharp
+public class MessagesController : ApiController
+{
+    private readonly WebClientService webClientService;
+
+    public MessagesController()
     {
-        private readonly WebClientService webClientService;
-
-        public MessagesController()
-        {
-            webClientService = new WebClientService(new Uri("https://msging.net/messages"), "<your-api-key-here>");
-        }
-                
-        // POST api/messages
-        public async Task<IHttpActionResult> Post(JObject message)
-        {
-            ... Código de tratamento das mensagens recebidas pelo chatbot 
-        }
-
-        private async Task ReplyMessageAsync(object message)
-        {
-            var response = await webClientService.SendMessageAsync(message);
-        }
+        webClientService = new WebClientService(new Uri("https://msging.net/messages"), "<your-api-key-here>");
     }
+            
+    // POST api/messages
+    public async Task<IHttpActionResult> Post(JObject message)
+    {
+        ... Código de tratamento das mensagens recebidas pelo chatbot 
+    }
+
+    private async Task ReplyMessageAsync(object message)
+    {
+        var response = await webClientService.SendMessageAsync(message);
+    }
+}
+```
 
 Para isso, foi utilizado um client Http simples que executa um post em uma url específica da plataforma BLiP. Note que para enviar a resposta é necessário obter a Url de resposta e a chave de autenticação no portal BLiP. Vá nas **Configurações** de seu chatbot, clique na seção **Informações de conexão**, no menu lateral esquerdo, e copie as url’s para envio de mensagens/notificações e a chave de autenticação de seu bot. Veja a imagem abaixo.
 

@@ -15,24 +15,26 @@ Para isso, vamos precisar de:
 
 O código abaixo mostra como salvar um documento json contendo a data de último acesso.
 
-    public class BucketMessageReceiver : IMessageReceiver
+```csharp
+public class BucketMessageReceiver : IMessageReceiver
+{
+    private readonly IBucketExtension _bucketExtension;
+    private readonly IMessagingHubSender _sender;
+    public BucketMessageReceiver(IMessagingHubSender sender, IBucketExtension bucketExtension)
     {
-        private readonly IBucketExtension _bucketExtension;
-        private readonly IMessagingHubSender _sender;
-        public BucketMessageReceiver(IMessagingHubSender sender, IBucketExtension bucketExtension)
-        {
-            _bucketExtension = bucketExtension;
-            _sender = sender;
-        }
-        public async Task ReceiveAsync(Message message, CancellationToken cancellationToken)
-        {
-            //Store last access date
-            var jsonLastAccess = new JsonDocument();
-            jsonLastAccess.Add("lastAccessDate", DateTimeOffset.Now);
-            await _bucketExtension.SetAsync(message.From.ToString(), jsonLastAccess);
-
-            //Get last access date
-            await _bucketExtension.GetAsync<JsonDocument>(message.From.ToString());
-        }
+        _bucketExtension = bucketExtension;
+        _sender = sender;
     }
+    public async Task ReceiveAsync(Message message, CancellationToken cancellationToken)
+    {
+        //Store last access date
+        var jsonLastAccess = new JsonDocument();
+        jsonLastAccess.Add("lastAccessDate", DateTimeOffset.Now);
+        await _bucketExtension.SetAsync(message.From.ToString(), jsonLastAccess);
+
+        //Get last access date
+        await _bucketExtension.GetAsync<JsonDocument>(message.From.ToString());
+    }
+}
+```
 

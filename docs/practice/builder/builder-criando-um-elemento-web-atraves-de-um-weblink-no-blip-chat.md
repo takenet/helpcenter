@@ -35,47 +35,53 @@ Além de apresentar um conteúdo para o cliente, provavelmente, será necessári
 
 No nosso exemplo sempre que o usuário escolher uma data e clicar no botão **Enviar** o bot deverá receber uma mensagem contendo a data escolhida pelo usuário. O fragmento de script abaixo utiliza o objeto **webView** para enviar mensagem na janela de conversa no momento em que o cliente clica no botão Enviar. 
 
-    <script>
-        vardatepicker = $('#datepicker').datepicker({
-            uiLibrary:'bootstrap4'
-        });
+```html
+<script>
+    vardatepicker = $('#datepicker').datepicker({
+        uiLibrary:'bootstrap4'
+    });
 
-        //Carrega webview extensions
-        var webView = newBlipChatExtension()
+    //Carrega webview extensions
+    var webView = newBlipChatExtension()
 
-        $('#button').click(function () {
-            
-            vardate = datepicker.value();
-            console.log(date);
-            $('#value').text(date);
+    $('#button').click(function () {
+        
+        vardate = datepicker.value();
+        console.log(date);
+        $('#value').text(date);
 
-            //envia mensagem de texto simples. (Usuário consegue visualizar a mensagem na janela de conversa)
-            webView.sendMessage(date);
+        //envia mensagem de texto simples. (Usuário consegue visualizar a mensagem na janela de conversa)
+        webView.sendMessage(date);
 
-            //finalizar webview
-            webView.closeWebView();
-        })
-    </script>
+        //finalizar webview
+        webView.closeWebView();
+    })
+</script>
+```
 
 **Observação**: Não se esqueça de adicionar a tag script que importa o pacote **blip-chat-extension**.
 
-    <script src="https://unpkg.com/blip-chat-extension@1.0.4" type="text/javascript">
+```html
+<script src="https://unpkg.com/blip-chat-extension@1.0.4" type="text/javascript">
+```
 
 Além de enviar dados da página web para o bot é possível ainda criar uma regra que define quando a janela pode ou não ser fechada. Neste exemplo, o usuário não pode finalizar a janela enquanto não fornecer a data. O código abaixo ilustra esse processo.
 
-    //Método que define as regras para fechamento da webview
-    webView.overrideOnClose(function () {
+```javascript
+//Método que define as regras para fechamento da webview
+webView.overrideOnClose(function () {
 
-        if (datepicker.value() != '') {
-            //Permite fechar a webiview
-            return true;
-        }
+    if (datepicker.value() != '') {
+        //Permite fechar a webiview
+        return true;
+    }
 
-        alert('Escolha uma data antes de fechar a Webview');
-        
-        //Impede o fechamento da webiview
-            returnfalse;
-    })
+    alert('Escolha uma data antes de fechar a Webview');
+    
+    //Impede o fechamento da webiview
+        returnfalse;
+})
+```
 
 ### 3. Criar endpoint (URL) público para sua página
 

@@ -50,7 +50,7 @@ Neste caso, é necessário utilizar o tipo de conteúdo dinâmico. Veja o passo 
 3. Preencha o Source do conteúdo dinâmico com o JSON abaixo.
 *Obs.: Lembre-se de alterar a propriedade uri com o valor da variável desejada.*
 
-```http
+```json
 {
    "uri": "{{url}}",
    "target": "blank",

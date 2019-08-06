@@ -21,7 +21,7 @@ Esta sintaxe poderá dar saída a qualquer um dos seguintes valores:
 
 Por padrão, o Builder aceita textos com o padrão spintax em qualquer conteúdo. Para ativar o processamento dos textos rotativos nos bots criados através dos SDKs ou da API HTTP do BLiP, basta incluir nos medatados da mensagem a propriedade `#message.spinText` com o valor `true`, como no exemplo abaixo:
 
-```
+```json
 {
     "id": "1",
     "to": "128271320123982@messenger.gw.msging.net",

@@ -34,11 +34,13 @@ Após definido em qual ponto do fluxo o email será disparado, acesse o bloco co
 * **Value:** `Key API-KEY-BOT`
 * **Corpo:** JSON com uma mensagem, de acordo com o protocolo LIME, com o tipo desejado ([veja aqui](https://docs.blip.ai/#content-types) todas as opções de conteúdos).
 
-<pre><code>{
-   "to":"<i><b>xpto%40xpto.com@mailgun.gw.msging.net</b></i>",
+```json
+{
+   "to":"xpto%40xpto.com@mailgun.gw.msging.net",
    "type":"text/plain",
    "content":"Olá {{contact.name}}, acesse seu ebook no link {{link}}"
-}</pre></code>
+}
+```
 
 Repare que o destinatário do email deve ser informado no campo **to** do JSON que será enviado para a API do BLiP (destacado em azul). Neste exemplo, o email do destinatário é: **xpto@<span>xpto.com</span>**. Como todo *Node* do LIME possui o caracter **@**, é preciso subsituir o @ do email por seu código ASCII correspondente (**%40**). Além do email do destinatário é preciso identificar o canal de email (**@mailgun.<span>gw.msging.net</span>**), para que o BLiP saiba enviar sua mensagem corretamente.
 
@@ -58,42 +60,44 @@ Para enviar um email através de um dos SDKs dos BLiP é muito fácil, basta env
 
 Enviando um email para **xpto@xpto.com** com o conteúdo "Hello World":
 
-* SDK JS
+#### SDK JS
 
+```javascript
+client.sendMessage({
+    id: Lime.Guid(),
+    type: "text/plain",
+    to: "xpto%40xpto.com@mailgun.gw.msging.net",
+    content: "Hello World"
+});
+```
 
-    client.sendMessage({
-        id: Lime.Guid(),
-        type: "text/plain",
-        to: "xpto%40xpto.com@mailgun.gw.msging.net",
-        content: "Hello World"
-    });
+#### SDK C#
 
-* SDK C#
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using Lime.Messaging.Contents;
+using Lime.Protocol;
+using Take.Blip.Client;
 
+//Replying a received message with a simple text message.
+public class PlainTextMessageReceiver : IMessageReceiver
+{
+    private readonly ISender _sender;
+    private readonly Settings _settings;
 
-    using System;
-    using System.Collections.Generic;
-    using System.Threading;
-    using System.Threading.Tasks;
-    using Lime.Messaging.Contents;
-    using Lime.Protocol;
-    using Take.Blip.Client;
-
-    //Replying a received message with a simple text message.
-    public class PlainTextMessageReceiver : IMessageReceiver
+    public PlainTextMessageReceiver(ISender sender, Settings settings)
     {
-        private readonly ISender _sender;
-        private readonly Settings _settings;
-
-        public PlainTextMessageReceiver(ISender sender, Settings settings)
-        {
-            _sender = sender;
-            _settings = settings;
-        }
-
-        public async Task ReceiveAsync(Message message, CancellationToken cancellationToken)
-        {
-            var document = new PlainText {Text = "Welcome to our service! How can I help you?"};
-            await _sender.SendMessageAsync(document, Node.Parse("xpto%40xpto.com@mailgun.gw.msging.net"), cancellationToken);
-        }
+        _sender = sender;
+        _settings = settings;
     }
+
+    public async Task ReceiveAsync(Message message, CancellationToken cancellationToken)
+    {
+        var document = new PlainText {Text = "Welcome to our service! How can I help you?"};
+        await _sender.SendMessageAsync(document, Node.Parse("xpto%40xpto.com@mailgun.gw.msging.net"), cancellationToken);
+    }
+}
+```
