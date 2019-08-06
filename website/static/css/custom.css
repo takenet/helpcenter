@@ -598,6 +598,10 @@ p {
 	color: #52636C;
 }
 
+ul {
+	padding-left: 1.5rem;
+}
+
 table {
 	border-collapse: unset;
 }
