@@ -640,6 +640,23 @@ table td {
 	padding-left: 10px;
 }
 
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+	color: #607B99;
+}
+
+.toc .toggleNav .navGroup .navGroupSubcategoryTitle {
+	color: #738192;
+}
+
+.toc .toggleNav ul li a {
+	color: #3CC3D5;
+}
+
+.toc .toggleNav ul li a:hover {
+	text-decoration: underline;
+	color: #15AFB2;
+}
+
 @font-face {
 	font-family: Nunito Sans;
 	font-style: normal;
