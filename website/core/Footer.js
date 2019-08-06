@@ -29,7 +29,7 @@ class Footer extends React.Component {
           
           <div className="footer-content">
               <div className="footer-logo">
-                <img src="/img/footer_logo.png"></img>
+                <a href="/"><img src="/img/footer_logo.png"></img></a>
               </div>
 
               <div className="footer-links">

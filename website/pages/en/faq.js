@@ -4,7 +4,8 @@ const CompLibrary = require('../../core/CompLibrary.js');
 
 //BLiP Icon for SVGs
 const defs = '/img/defs.svg';
-class Faq extends React.Component {
+
+class BlipIcon extends React.Component {
   render() {
     const className = 'blip-icon' + (this.props.className ? (' ' + this.props.className) : '')
     return (<svg
@@ -20,7 +21,7 @@ class Faq extends React.Component {
 }
 
 
-class Faqi extends React.Component{
+class Faq extends React.Component{
     render(){
         return(
            
@@ -184,5 +185,5 @@ class Faqi extends React.Component{
     }
 }
 
-Faqi.title = 'FAQ';
-module.exports = Faqi; 
+Faq.title = 'FAQ';
+module.exports = Faq; 

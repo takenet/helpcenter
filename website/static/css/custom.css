@@ -8980,17 +8980,6 @@ table td {
 	background-color: #25a9b9
 }
 
-.label-beta{
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 12px;
-	align-items: center;
-	color: #607B99;
-	position: relative;
-	margin-left: 6%;
-}
-
 .div-aprenda-main{
 	display: flex;
 	flex-direction: column;
@@ -9421,4 +9410,129 @@ table td {
 	text-align: center;
 	color: #ffffff;
 	margin-bottom: 1%;
+}
+
+.be-beta{
+	margin-top: 3%;
+	margin-left: 10%;
+	display: flex;
+	flex-direction: row;
+}
+
+.be-beta .formulario-beta{
+	margin-top: 7%;
+	margin-bottom: 0%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 36%;
+}
+
+.formulario-beta .title{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3.5rem;
+	color: #343C4C;
+	margin-bottom: 0%;
+}
+
+.formulario-beta .subtitle{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5rem;
+	line-height: 150%;
+	color: #607B99;
+	margin-top: 4%;
+	width: 100%;
+}
+
+
+.be-beta .illustration-beta{
+	margin-left: 5%;
+	width: 80%;
+}
+
+.illustration-beta .beta-img{
+	width: 60%;
+}
+
+.formulario-beta .form-input-email-page{
+	border: 1px solid #D2DFE6;
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-size: 0.75rem;
+	background-color: #000;
+	background: url("/img/email.svg");
+	background-position: 15px 20px;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	padding: 18px 20px 20px 40px;
+	width: 78%;
+	outline: none;
+	display:block;
+}
+
+.button-beta-page {
+	box-sizing: border-box;
+	display: inline-block;
+	cursor: pointer;
+	min-width: 6rem;
+	height: 3.2rem;
+	line-height: 1.25rem;
+	margin-top: 3%;
+	padding: 0 2.25rem;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 0.875rem;
+	font-weight: normal;
+	outline: none;
+	text-decoration: none;
+	color: #fff;
+	background-color: #2cc3d5;
+	border: 1px solid #2CC3D5;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.button-beta-page:hover {
+	background-color: #25a9b9
+}
+
+.beta-contents{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10%;
+	margin-top: 3%;
+	flex-wrap: wrap;
+}
+
+.beta-contents .title{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 100%;
+	color: #607B99;
+}
+
+.beta-contents .content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 90%;
+	margin-bottom: 5%;
+}
+
+
+.content .text{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 150%;
+	color: #52636C;
+	width: 36%;
+	margin-right: 5%;
 }
