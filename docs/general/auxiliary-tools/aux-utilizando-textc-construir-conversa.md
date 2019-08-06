@@ -70,7 +70,7 @@ public Task<string> CancelOrderAsync(long orderId, IRequestContext context)
 
 Executando o exemplo, temos:
 
-```html
+```
 > Mande uma pizza grande sabor Marguerita para à Rua Acme, 1234
 Seu pedido:
 - Sabor: marguerita

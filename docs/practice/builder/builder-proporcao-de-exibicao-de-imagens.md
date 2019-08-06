@@ -12,17 +12,19 @@ Ao enviar uma imagem através do Builder selecione uma das opções disponíveis
 
 Caso esteja utilizando um dos SDKs ou a API HTTP do BLiP utilize a propriedade **aspectRatio** para definir a proporção.
 
-    {
-        "id": "1",
-        "to": "1630307207029499@messenger.gw.msging.net",
-        "type": "application/vnd.lime.media-link+json",
-        "content": {
-            "title": "Gato",
-            "text": "Segue uma imagem de um gato",
-            "type": "image/jpeg",
-            "uri": "http://2.bp.blogspot.com/-pATX0YgNSFs/VP-82AQKcuI/AAAAAAAALSU/Vet9e7Qsjjw/s1600/Cat-hd-wallpapers.jpg",
-            "aspectRatio": "1:1"
-        }
+```json
+{
+    "id": "1",
+    "to": "1630307207029499@messenger.gw.msging.net",
+    "type": "application/vnd.lime.media-link+json",
+    "content": {
+        "title": "Gato",
+        "text": "Segue uma imagem de um gato",
+        "type": "image/jpeg",
+        "uri": "http://2.bp.blogspot.com/-pATX0YgNSFs/VP-82AQKcuI/AAAAAAAALSU/Vet9e7Qsjjw/s1600/Cat-hd-wallpapers.jpg",
+        "aspectRatio": "1:1"
     }
+}
+```
 
 Para mais detalhes sobre o tipo de conteúdo Media Link acesse [a documentação](https://docs.blip.ai/#media-link).

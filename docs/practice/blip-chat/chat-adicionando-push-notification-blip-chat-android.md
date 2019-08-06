@@ -4,7 +4,7 @@ title: Adicionando push notification no BLiP Chat Android
 sidebar_label: Adicionando push notification no BLiP Chat Android
 ---
 
-Em alguns cenário específicos, pode ser necessário adicionar push notification em aplicativos Android que embarcam o BLiP Chat.
+Em alguns cenários específicos, pode ser necessário adicionar push notification em aplicativos Android que embarcam o BLiP Chat.
 
 Através do **Push Notification** é possível notificar o usuário sobre mensagens não lidas.
 
@@ -19,8 +19,7 @@ Configure [um app cliente do Firebase Cloud Messaging](https://firebase.google.c
 
 Para que o BLiP Chat envie notificações é necessário registrar o token do usuário no servidor do BLiP. É através desta informação que o BLiP consegue determinar qual a credencial FCM (Google) de um usuário do BLiP Chat.
 
-O token do usuário deve ser capturado utilizando o método onTokenRefresh
-da sua classe que herda de FirebaseInstanceIdService.
+O token do usuário deve ser capturado utilizando o método onTokenRefresh da sua classe que herda de FirebaseInstanceIdService.
 
 ```java
 @Override
