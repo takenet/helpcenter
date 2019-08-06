@@ -564,6 +564,10 @@
 
 }
 
+h1, h2, h3, h4, h5, h6 {
+	color: #607B99;
+}
+
 h1 {
 	font-family: Nunito Sans;
 	font-style: normal;
@@ -574,11 +578,15 @@ h1 {
 }
 
 h2 {
-	font-family: 1.25rem;
+	font-family: 1.5rem;
 }
 
 h3 {
-	font-family: 0.9rem;
+	font-family: 1.25rem;
+}
+
+h4, h5, h6 {
+	font-family: 1.125rem;
 }
 
 p {
