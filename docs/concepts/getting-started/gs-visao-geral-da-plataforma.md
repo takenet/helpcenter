@@ -5,7 +5,7 @@ sidebar_label: Visão geral da plataforma
 ---
 O vídeo abaixo apresenta uma visão geral das principais funcionalidades do BLiP.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/d9e1H2b5fWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<iframe width="778" height="517" src="https://www.youtube.com/embed/d9e1H2b5fWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
 <br><br>
 
