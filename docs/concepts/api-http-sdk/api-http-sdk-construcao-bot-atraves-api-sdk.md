@@ -1,5 +1,5 @@
 ---
-id: api-construcao-api-sdk
+id: api-http-sdk-construcao-bot-atraves-api-sdk
 title: Construção de bots através de SDKs ou API HTTP
 sidebar_label: Construção de bots através de SDKs ou API HTTP
 ---
