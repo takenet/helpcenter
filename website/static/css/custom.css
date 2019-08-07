@@ -499,7 +499,7 @@
 	.docMainWrapper > *:first-child {
 		min-width: 22.86%;
 		margin-left: 3%;
-}
+	}
 
 	.docMainWrapper > * {
 		margin: 0;
@@ -666,6 +666,10 @@ table td {
 
 .docMainWrapper ::-webkit-scrollbar-thumb:hover {
 	background: #52636C; 
+}
+
+.wrapper {
+	max-width: 1600px;
 }
 
 .toc .toggleNav .navGroup .navGroupCategoryTitle {
