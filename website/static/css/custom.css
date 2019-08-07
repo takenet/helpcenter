@@ -646,6 +646,20 @@ p {
 	color: #52636C;
 }
 
+p a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+p a:hover {
+	color: #15AFB2;
+	text-decoration: underline;
+}
+
+p a strong{
+	font-weight: unset;
+}
+
 .mainContainer .post ul {
 	padding-left: 1.5rem;
 	font-family: Nunito Sans;
