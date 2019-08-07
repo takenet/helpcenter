@@ -651,6 +651,23 @@ table td {
 	flex-flow: row-reverse;
 }
 
+.docMainWrapper ::-webkit-scrollbar {
+	width: 5px;
+}
+
+.docMainWrapper ::-webkit-scrollbar-track {
+	background: #eaeeee; 
+}
+
+.docMainWrapper ::-webkit-scrollbar-thumb {
+	background: #738192;
+	border-radius: 10px;
+}
+
+.docMainWrapper ::-webkit-scrollbar-thumb:hover {
+	background: #52636C; 
+}
+
 .toc .toggleNav .navGroup .navGroupCategoryTitle {
 	color: #607B99;
 }
