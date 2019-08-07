@@ -496,6 +496,14 @@
 }
 
 @media only screen and (min-width: 1024px) {
+	.docMainWrapper > *:first-child {
+		min-width: 22.86%;
+		margin-left: 3%;
+}
+
+	.docMainWrapper > * {
+		margin: 0;
+	}
 }
 
 @media only screen and (max-width: 1023px) {
@@ -637,6 +645,10 @@ table td {
 	padding-top: 16px;
 	padding-bottom: 16px;
 	padding-left: 10px;
+}
+
+.docMainWrapper {
+	flex-flow: row-reverse;
 }
 
 .toc .toggleNav .navGroup .navGroupCategoryTitle {
