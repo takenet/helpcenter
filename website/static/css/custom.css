@@ -336,6 +336,57 @@
 		width: 100% !important;
 		margin-bottom: 10% !important;
 	}
+
+	.be-beta{
+		flex-direction: column-reverse !important;
+		margin-left: 5% !important;
+	}
+	
+	.be-beta .formulario-beta{
+		margin-top: 10% !important;
+		width: 100% !important;
+	}
+	
+	.formulario-beta .title{
+		font-size: 2rem !important;
+		line-height: 120%;
+	}
+	
+	.formulario-beta .subtitle{
+		display: none;
+	}
+	
+	
+	.be-beta .illustration-beta{
+		margin-left: 1% !important;
+		width: 100% !important;
+	}
+	
+	.illustration-beta .beta-img{
+		width: 90% !important;
+	}
+	
+	.formulario-beta .form-input-email-page{
+		margin-top: 3%;
+		width: 90% !important;
+		
+	}
+
+	.beta-contents{
+		margin-top: 15% !important;
+		margin-left: 5% !important;
+	}
+	
+	.beta-contents .content{
+		flex-direction: column !important;
+		width: 100% !important;
+		margin-left: 0% !important;
+	}
+	
+	
+	.content .text{
+		width: 97% !important;
+	}
 	
 }
 
@@ -9420,16 +9471,17 @@ table td {
 
 }
 
-.footer-column .link-footer{
+a.link-footer{
 	font-family: Nunito Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 0.85rem;
 	line-height: 200%;
 	color: #FFFFFF;
+	width: fit-content;
 }
 
-.link-footer:hover{
+a.link-footer:hover{
 	color: #3D4554;
 }
 
