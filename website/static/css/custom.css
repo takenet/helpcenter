@@ -9294,7 +9294,8 @@ table td {
 	box-sizing: border-box;
 	border-radius: 8px;
 	width: 27%;
-	overflow: auto;
+	overflow: hidden;
+	min-height: fit-content;
 	height: 209px;
 	transition: transform .4s ease;
 	margin-left: 5%;
