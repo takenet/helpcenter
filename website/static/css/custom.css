@@ -656,6 +656,20 @@ table {
 	border-collapse: unset;
 }
 
+table a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+table a:hover {
+	color: #15AFB2;
+	text-decoration: underline;
+}
+
+table a strong {
+	font-weight: unset;
+}
+
 table tr {
 	background-color: #F5F8F9;
 }
