@@ -537,6 +537,14 @@
 }
 
 @media only screen and (min-width: 1024px) {
+	.docMainWrapper > *:first-child {
+		min-width: 22.86%;
+		margin-left: 3%;
+	}
+
+	.docMainWrapper > * {
+		margin: 0;
+	}
 }
 
 @media only screen and (max-width: 1023px) {
@@ -678,6 +686,31 @@ table td {
 	padding-top: 16px;
 	padding-bottom: 16px;
 	padding-left: 10px;
+}
+
+.docMainWrapper {
+	flex-flow: row-reverse;
+}
+
+.docMainWrapper ::-webkit-scrollbar {
+	width: 5px;
+}
+
+.docMainWrapper ::-webkit-scrollbar-track {
+	background: #eaeeee; 
+}
+
+.docMainWrapper ::-webkit-scrollbar-thumb {
+	background: #738192;
+	border-radius: 10px;
+}
+
+.docMainWrapper ::-webkit-scrollbar-thumb:hover {
+	background: #52636C; 
+}
+
+.wrapper {
+	max-width: 1600px;
 }
 
 .toc .toggleNav .navGroup .navGroupCategoryTitle {
