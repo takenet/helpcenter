@@ -651,6 +651,8 @@ ul {
 }
 
 table {
+	font-family: Nunito Sans;
+	color: #52636C;
 	border-collapse: unset;
 }
 
@@ -674,6 +676,7 @@ table td {
 
 table th {
 	font-style: normal;
+	font-weight: bold;
 	line-height: 22px;
 	color: #2CC3D5;
 	padding-top: 10px;
