@@ -553,6 +553,13 @@
 	}
 }
 
+@media only screen and (max-width: 1024px) {
+
+	.fixedHeaderContainer header img {
+		height: 75% !important;
+	}
+} 
+
 @media only screen and (min-width: 1024px) {
 	.docMainWrapper > *:first-child {
 		min-width: 22.86%;
@@ -561,6 +568,14 @@
 
 	.docMainWrapper > * {
 		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 1650px) {
+	
+	.wrapper {
+		padding-left: 5%;
+		padding-right: 5%; 
 	}
 }
 
