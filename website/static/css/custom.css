@@ -571,6 +571,14 @@
 	}
 }
 
+@media only screen and (max-width: 1650px) {
+	
+	.wrapper {
+		padding-left: 5%;
+		padding-right: 5%; 
+	}
+}
+
 @media only screen and (min-width: 1400px) {
 }
 
