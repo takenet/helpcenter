@@ -8,12 +8,6 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
-let settings = require('./settings.json');
-
-if(!settings){
-  throw "You need add a settings.json file in your /website folder."
-}
-
 // List of projects/orgs using your project for the users page.
 const users = [
   {
@@ -30,15 +24,15 @@ const siteConfig = {
   docsSideNavCollapsible: true,
   title: '', // Title for your website.
   tagline: 'BLiP | Help Center',
-  url: settings.url, // Your website URL
+  url: 'hmg-help.blip.ai', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   algolia: {
-    apiKey: settings.algoliaApiKey,
-    indexName: settings.algoliaIndexName,
+    apiKey: 'dba1ba1153052cc0f5f78d622135cedf',
+    indexName: 'hmg_helpcenter',
     placeholder: 'Pesquisa',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
@@ -120,7 +114,7 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/takenet/helpcenter',
-  gaTrackingId: settings.gaTrackingId,
+  gaTrackingId: 'UA-79317370-14',
 };
 
 module.exports = siteConfig;
