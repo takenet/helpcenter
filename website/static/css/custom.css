@@ -9334,6 +9334,11 @@ table td {
 	width: 55%;
 }
 
+.image .img-faq{
+	width: 55%;
+	margin-top: 13%;
+}
+
 .main .title{
 	font-family: Nunito Sans;
 	font-style: normal;
