@@ -131,30 +131,15 @@ class ScriptForm extends React.Component {
                     dangerouslySetInnerHTML={{
                         __html: `
                     var btn = document.getElementById("Bsubmit");
-                    var e = document.getElementById("email").value;
+                    var e = document.getElementById("email");
 
                     btn.onclick = function() {
-                        var data = "email=%5B%22bruno_camarda%40hotmail.com%22%5D";
-
                         var xhr = new XMLHttpRequest();
-                        xhr.withCredentials = true;
-
-                        xhr.addEventListener("readystatechange", function () {
-                        if (this.readyState === 4) {
-                            console.log(this.responseText);
-                        }
-                        });
-
                         xhr.open("POST", "https://gw.msging.net/httpreceiver/fd3c240f-c602-406d-b081-f347a68c72eb");
                         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-                        xhr.setRequestHeader("Accept", "*/*");
-                        xhr.setRequestHeader("Cache-Control", "no-cache");
-                        xhr.setRequestHeader("Postman-Token", "d506b711-c132-4478-a39f-2aa11c91058c,247ed191-f663-46aa-b52b-b02dbdc61035");
-                        xhr.setRequestHeader("cache-control", "no-cache");
                         xhr.setRequestHeader("Access-Control-Allow-Headers", "*");
-
                         xhr.send(data);
-                        alert("ok");
+ 
                     }
                 `
                     }}
