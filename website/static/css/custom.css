@@ -660,6 +660,10 @@ p a strong{
 	font-weight: unset;
 }
 
+.headerTitleWithLogo {
+	display: none;
+}
+
 .mainContainer .post ul {
 	padding-left: 1.5rem;
 	font-family: Nunito Sans;
