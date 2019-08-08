@@ -1,8 +1,0 @@
-{
-    "url": "PUT-YOUR-URL",
-    "algoliaApiKey": "PUT-YOUR-API-KEY",
-    "algoliaIndexName": "PUT-YOUR-INDEX-NAME",
-    "gaTrackingId": "PUT-YOUR-GA-ID",
-    "env": "hmg",
-    "version": "1.0.0"
-}

@@ -10,6 +10,10 @@
 
 let settings = require('./settings.json');
 
+if(!settings){
+  throw "You need add a settings.json file in your /website folder."
+}
+
 // List of projects/orgs using your project for the users page.
 const users = [
   {

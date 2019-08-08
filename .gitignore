@@ -62,4 +62,4 @@ typings/
 .next
 
 #settings file
-settings.json
+website/settings.json
