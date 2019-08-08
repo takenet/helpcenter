@@ -8,6 +8,8 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
+let settings = require('./settings.json');
+
 // List of projects/orgs using your project for the users page.
 const users = [
   {
@@ -29,6 +31,13 @@ const siteConfig = {
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
+
+  algolia: {
+    apiKey: 'dba1ba1153052cc0f5f78d622135cedf',
+    indexName: 'hmg_helpcenter',
+    placeholder: 'Pesquisa',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
 
   // Used for publishing and more
   projectName: 'blip-help-center',
