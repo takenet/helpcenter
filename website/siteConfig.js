@@ -26,15 +26,15 @@ const siteConfig = {
   docsSideNavCollapsible: true,
   title: '', // Title for your website.
   tagline: 'BLiP | Help Center',
-  url: 'https://hmg-help.blip.ai', // Your website URL
+  url: settings.url, // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   algolia: {
-    apiKey: 'dba1ba1153052cc0f5f78d622135cedf',
-    indexName: 'hmg_helpcenter',
+    apiKey: settings.algoliaApiKey,
+    indexName: settings.algoliaIndexName,
     placeholder: 'Pesquisa',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
@@ -116,7 +116,7 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/takenet/helpcenter',
-  gaTrackingId: 'UA-79317370-14',
+  gaTrackingId: settings.gaTrackingId,
 };
 
 module.exports = siteConfig;
