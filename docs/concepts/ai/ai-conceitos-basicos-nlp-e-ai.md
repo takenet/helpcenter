@@ -9,7 +9,7 @@ O vídeo abaixo apresenta os conceitos básicos, intenções e entidades, envolv
 **Intenções**: Ações que o cliente deseja executar.
 **Entidades**: Parâmetros importantes para as ações que o cliente deseja executar.
 
-<br><iframe width="560" height="315" src="https://www.youtube.com/embed/m7JPVnDNWI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+<br><iframe width="778" height="517" src="https://www.youtube.com/embed/m7JPVnDNWI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 
 Outros conceitos importantes:
 

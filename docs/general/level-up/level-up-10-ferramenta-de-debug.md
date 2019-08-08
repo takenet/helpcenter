@@ -8,7 +8,7 @@ Que a análise do comportamento do bot é fundamental, você já sabe. Mas a gra
 
 O décimo primeiro Level Up da plataforma veio para aprimorar ainda mais o desenvolvimento e o sucesso dos seus bots. Quer saber mais sobre essa novidade? Veja como foi a live no vídeo abaixo:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WSP8EAUEtjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="778" height="517" src="https://www.youtube.com/embed/WSP8EAUEtjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <pre></pre>
 

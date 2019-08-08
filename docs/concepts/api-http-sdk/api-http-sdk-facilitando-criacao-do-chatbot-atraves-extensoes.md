@@ -1,7 +1,7 @@
 ---
-id: api-facilitando-criacao-extensoes
+id: api-http-sdk-facilitando-criacao-do-chatbot-atraves-extensoes
 title: Facilitando a criação do seu chatbot através das extensões
-sidebar_label: Facilitando a criação do seu chatbot através das entensões
+sidebar_label: Facilitando a criação do seu chatbot através das extensões
 ---
 
 Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar informações de seus clientes em um local seguro ou trackear eventos ocorridos são exemplos de tarefas simples que podem demandar um grande esforço para serem realizadas.

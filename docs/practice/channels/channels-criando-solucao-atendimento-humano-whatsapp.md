@@ -10,7 +10,7 @@ Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar
 
 No vídeo abaixo, demonstro, passo a passo, como utilizar o template de Atendimento Manual (humano) do BLiP no canal WhatsApp.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gfXfbFBRy7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<iframe width="778" height="517" src="https://www.youtube.com/embed/gfXfbFBRy7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
 **Resumo das etapas**:
 

@@ -12,7 +12,7 @@ Qualquer mensagem enviada pelo bot (contato inteligente da empresa no WhatsApp),
 
 Utilizando a API do BLiP é possível enviar notificações para usuários de um bot no WhatsApp. No vídeo abaixo, demonstro, passo a passo, como realizar este procedimento.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JtY0woSr9wo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<iframe width="778" height="517" src="https://www.youtube.com/embed/JtY0woSr9wo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
 **Resumo das etapas**:
 

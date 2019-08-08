@@ -26,15 +26,8 @@ class Footer extends React.Component {
       <div>
 
         <div className="custom-footer">
-          
           <div className="footer-content">
-              <div className="footer-logo">
-                <a href="/"><img src="/img/footer_logo.png"></img></a>
-              </div>
-
-              <div className="footer-links">
-                
-                <div className="footer-column">
+              <div className="content-links">
                 <p className="title">Áreas do BLiP</p>
                   <a href="#" className="link-footer">Analytics</a>
                   <a href="#" className="link-footer"> Builder</a>
@@ -44,24 +37,24 @@ class Footer extends React.Component {
                   <a href="#" className="link-footer">Growth</a>
                   <a href="#" className="link-footer">Help Desk</a>
                   <a href="#" className="link-footer">I.A.</a>
-                </div>
-              
-                <div className="footer-column">
+              </div>
+               
+              <div className="content-links">
                 <p className="title">Recursos</p>
                   <a href="#" className="link-footer">API Reference</a>
                   <a href="#" className="link-footer">Changelogs</a>
                   <a href="/faq" className="link-footer">Faq</a>
                   <a href="#" className="link-footer">Github</a>
                   <a href="#" className="link-footer">Status</a>
-                </div>
+              </div>  
 
-                <div className="footer-column">
+              <div className="content-links">
                   <p className="title">Cursos</p>
                   <a href="#" className="link-footer">Certificação BLiP</a>
                   <a href="#" className="link-footer">Tutoriais</a>
-                </div>
+              </div>
 
-                <div className="footer-column">
+              <div className="content-links">
                   <p className="title">Comunidade</p>
                   <a href="#" className="link-footer">BLiP Beta</a>
                   <a href="#" className="link-footer">BLiP Ideas</a>
@@ -69,15 +62,13 @@ class Footer extends React.Component {
                   <a href="#" className="link-footer"> Blog</a>
                   <a href="#" className="link-footer">Eventos</a>
                   <a href="#" className="link-footer">Fórum</a>
-                </div>
-
-                <div className="footer-column">
+              </div>
+               
+              <div className="content-links">
                   <p className="title">Políticas</p>
                   <a href="#" className="link-footer">LGPD</a>
-                </div>
-
               </div>
-          
+
           </div>
 
           <div>

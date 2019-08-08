@@ -6,7 +6,7 @@ sidebar_label: LevelUp 9 - Marcos de 2018
 
 A decima edição do Level Up relembrou os lançamentos incríveis da nossa plataforma ao longo de 2018 e deu alguns spoilers sobre o que está por virá em 2019! 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jpMFqKN5FIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="778" height="517" src="https://www.youtube.com/embed/jpMFqKN5FIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <pre></pre>
 

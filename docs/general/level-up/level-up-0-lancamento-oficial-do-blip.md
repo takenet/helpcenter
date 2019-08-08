@@ -10,7 +10,7 @@ Aqueles que já utilizam o BLiP vão perceber uma reorganização geral da plata
 
 O vídeo abaixo apresenta várias novidades disponíveis durante o lançamento oficial da plataforma. Ele explica como o BLiP pode ajudar sua equipe a construir bons chatbots.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jp3nGV1ZkTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="778" height="517" src="https://www.youtube.com/embed/jp3nGV1ZkTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <pre></pre>
 

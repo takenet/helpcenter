@@ -77,8 +77,8 @@
         "label": "API HTTP e SDKs",
         "ids": 
           [
-            "concepts/api-http-sdk/api-facilitando-criacao-entensoes",
-            "concepts/api-construcao-sdk-api"
+            "concepts/api-http-sdk/api-http-sdk-facilitando-criacao-do-chatbot-atraves-extensoes",
+            "concepts/api-http-sdk/api-http-sdk-construcao-bot-atraves-api-sdk"
           ]
       },
       {
