@@ -373,11 +373,17 @@
 		margin-left: 0% !important;
 	}
 	
-	
 	.content .text{
 		width: 97% !important;
 	}
-	
+
+	.mainContainer .docs-prevnext {
+		display: flex;
+	}
+
+	.mainContainer .docs-prevnext .button {
+		margin-right: 10%;
+	}
 }
 
 @media only screen and (min-device-width: 737px){
@@ -536,6 +542,17 @@
 	}
 }
 
+@media only screen and (max-width: 1023px) {
+	
+	.mainContainer .docs-prev span:nth-child(2) {
+		display: none;
+	}
+
+	.mainContainer .docs-next span:nth-child(1) {
+		display: none;
+	}
+}
+
 @media only screen and (min-width: 1024px) {
 	.docMainWrapper > *:first-child {
 		min-width: 22.86%;
@@ -545,9 +562,6 @@
 	.docMainWrapper > * {
 		margin: 0;
 	}
-}
-
-@media only screen and (max-width: 1023px) {
 }
 
 @media only screen and (min-width: 1400px) {
@@ -682,6 +696,38 @@ p a strong{
 
 .mainContainer .post ul a strong {
 	font-weight: unset;
+}
+
+.mainContainer .docs-prevnext .button {
+	display: flex;
+	flex-direction: row;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	box-sizing: border-box;
+	border-radius: 8px;
+	max-width: 30%;
+}
+
+.mainContainer .docs-prevnext .arrow-prev,
+.mainContainer .docs-prevnext .arrow-next {
+	flex-shrink: 0;	
+}
+
+.mainContainer .docs-prevnext .arrow-prev {
+	margin-right: 1.93%;
+}
+
+.mainContainer .docs-prevnext .arrow-next {
+	margin-left: 1.93%;
+}
+
+.mainContainer .docs-prevnext span {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
 }
 
 table {
