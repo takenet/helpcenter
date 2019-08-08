@@ -1,0 +1,8 @@
+{
+    "url": "http://localhost:3000",
+    "algoliaApiKey": "xxxxxxxxx",
+    "algoliaIndexName": "xxxxxxxx",
+    "gaTrackingId": "xxxxxxxxx",
+    "env": "hmg",
+    "version": "1.0.0"
+}
