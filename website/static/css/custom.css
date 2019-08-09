@@ -398,6 +398,11 @@
 	
    }
 
+   .bp-btn.bp-btn--bot.btn--recent-accessed {
+	padding-top: 10px !important;
+	text-decoration: none;
+  }
+
 }
 
 @media only screen and (min-device-width: 737px) {
@@ -455,6 +460,11 @@
     box-shadow: 0px 4px 8px rgba(96, 123, 153, 0.15);
     border-radius: 10px;
     transform: translateY(-5px);
+  }
+
+  .bp-btn.bp-btn--bot.btn--recent-accessed {
+	text-align: center;
+	text-decoration: none;
   }
 }
 
@@ -8903,6 +8913,7 @@ table td {
   font-size: 0.875rem;
   line-height: 20px;
   z-index: 2;
+  padding-top: 0.5%;
 }
 
 .nav-footer {

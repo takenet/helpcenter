@@ -277,7 +277,7 @@ class Index extends React.Component {
 
           <div className="div-see-more">
             
-            <a className="button-all" href="/articles"><button className="bp-btn bp-btn--bot btn--recent-accessed" >Veja outros artigos!</button></a>
+            <a role="button" href="/articles" className="bp-btn bp-btn--bot btn--recent-accessed" >Veja outros artigos!</a>
             <hr className="bp-divider-h bp-divider--see-more"></hr>
           
           </div>
@@ -385,7 +385,7 @@ class Index extends React.Component {
           </div>
         
         <div className="div-see-more">
-          <button className="bp-btn bp-btn--bot btn--recent-accessed">Veja outros artigos!</button>
+          <a role="button" href="/articles" className="bp-btn bp-btn--bot btn--recent-accessed" >Veja outros artigos!</a>
         </div>
 
         </div>
