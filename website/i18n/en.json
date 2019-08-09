@@ -212,6 +212,10 @@
         "title": "Como testar seu modelo de NLP",
         "sidebar_label": "Como testar seu modelo de NLP"
       },
+      "practice/ai/ai-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip": {
+        "title": "Importar modelo de NLP (intenções e entidades) pré-existente no BLiP",
+        "sidebar_label": "Importar modelo de NLP (intenções e entidades) pré-existente no BLiP"
+      },
       "practice/ai/ai-treinando-publicando-modelo-de-ia": {
         "title": "Treinando e publicando seu modelo de inteligência artificial",
         "sidebar_label": "Treinando e publicando sue modelo de inteligência artificial"
