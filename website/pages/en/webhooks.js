@@ -72,7 +72,7 @@ class BlipIcon extends React.Component {
 }
 
 
-class RDStation extends React.Component{
+class Webhook extends React.Component{
     constructor(props){
       super(props);
     }
@@ -139,5 +139,5 @@ class RDStation extends React.Component{
     }
 }
 
-RDStation.title = 'RDStation no BLiP';
-module.exports = RDStation; 
+Webhook.title = 'Webhook no BLiP';
+module.exports = Webhook; 
