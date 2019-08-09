@@ -200,6 +200,10 @@
         "title": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial"
       },
+      "practice/ai/ai-como-criar-uma-entidade": {
+        "title": "Como criar uma entidade",
+        "sidebar_label": "Como criar uma entidade"
+      },
       "practice/ai/ai-como-criar-uma-intencao": {
         "title": "Como criar uma intenção",
         "sidebar_label": "Como criar uma intenção"
