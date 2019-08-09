@@ -71,7 +71,7 @@ class BlipIcon extends React.Component {
 }
 
 
-class BlipPage extends React.Component{
+class Introduction extends React.Component{
     constructor(props){
       super(props)
     }
@@ -137,5 +137,5 @@ class BlipPage extends React.Component{
     }
 }
 
-BlipPage.title = 'Introdução à Plataforma';
-module.exports = BlipPage; 
+Introduction.title = 'Introdução à Plataforma';
+module.exports = Introduction; 
