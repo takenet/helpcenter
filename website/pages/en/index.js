@@ -478,7 +478,7 @@ class Index extends React.Component {
                   <ul className="ul-aprenda-mais">
                     <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/rdstation">RDStation </a></li>
                     <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/webhooks">Webhooks </a></li>
-                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
+                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/botanalytics">Botanalytics </a></li>
                     <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
                     <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
                     <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
