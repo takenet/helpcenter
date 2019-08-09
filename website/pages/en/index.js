@@ -462,7 +462,7 @@ class Index extends React.Component {
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp">WhatsApp </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/messenger">Messenger </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/workplace">Workplace </a></li>
-                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/skype">Skype </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
               </ul>
