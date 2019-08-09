@@ -42,7 +42,7 @@ class Footer extends React.Component {
               <div className="content-links">
                 <p className="title">Recursos</p>
                   <a href="#" className="link-footer">API Reference</a>
-                  <a href="#" className="link-footer">Changelogs</a>
+                  <a href="/changelog" className="link-footer">Changelogs</a>
                   <a href="/faq" className="link-footer">Faq</a>
                   <a href="#" className="link-footer">Github</a>
                   <a href="#" className="link-footer">Status</a>
@@ -59,7 +59,7 @@ class Footer extends React.Component {
                   <a href="#" className="link-footer">BLiP Beta</a>
                   <a href="#" className="link-footer">BLiP Ideas</a>
                   <a href="#" className="link-footer">BLiP Lovers</a>
-                  <a href="#" className="link-footer"> Blog</a>
+                  <a href="#" className="link-footer">Blog</a>
                   <a href="#" className="link-footer">Eventos</a>
                   <a href="#" className="link-footer">Fórum</a>
               </div>
