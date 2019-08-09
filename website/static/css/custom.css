@@ -260,13 +260,22 @@
     width: 90% !important;
   }
 
-  .image .img-changelog{
-	  width: 60% !important;
+  .image .img-changelog {
+    width: 60% !important;
   }
 
-  .image .img-faq{
-	  width: 80% !important;
+  .image .img-faq {
+    width: 80% !important;
   }
+
+  .image .img-channel {
+    width: 80% !important;
+  }
+
+  .image .img-integration{
+	width: 95% !important;
+	margin-top: 30% !important;
+   }
 
   .main .title {
     font-size: 2rem !important;
@@ -393,11 +402,14 @@
     margin-right: 10%;
   }
 
-  table.table-changelog{
-	width: 100% !important;
-	
-   }
+  table.table-changelog {
+    width: 100% !important;
+  }
 
+  .bp-btn.bp-btn--bot.btn--recent-accessed {
+    padding-top: 10px !important;
+    text-decoration: none;
+  }
 }
 
 @media only screen and (min-device-width: 737px) {
@@ -455,6 +467,11 @@
     box-shadow: 0px 4px 8px rgba(96, 123, 153, 0.15);
     border-radius: 10px;
     transform: translateY(-5px);
+  }
+
+  .bp-btn.bp-btn--bot.btn--recent-accessed {
+    text-align: center;
+    text-decoration: none;
   }
 }
 
@@ -8764,20 +8781,20 @@ table td {
 }
 
 .a-forum-ideas {
-	border-width: 1px;
-	border-style: solid;
-	border-color: transparent;
-	display: block; 
-	max-width: 576px; 
-	flex-shrink: 0; 
-	width: 49%; 
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  display: block;
+  max-width: 576px;
+  flex-shrink: 0;
+  width: 49%;
 }
 
 .a-forum-ideas:hover {
-	border-color: rgba(96, 123, 153, 0.15);
-	box-sizing: border-box;
-	box-shadow: 0px 4px 8px rgba(96, 123, 153, 0.15);
-	border-radius: 10px;
+  border-color: rgba(96, 123, 153, 0.15);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px rgba(96, 123, 153, 0.15);
+  border-radius: 10px;
 }
 
 .a-forum-ideas:nth-child(1) {
@@ -8911,6 +8928,7 @@ table td {
   font-size: 0.875rem;
   line-height: 20px;
   z-index: 2;
+  padding-top: 0.5%;
 }
 
 .nav-footer {
@@ -9421,11 +9439,20 @@ table td {
   margin-top: 7%;
 }
 
+.image .img-channel {
+  width: 35%;
+  margin-top: 5%;
+}
+
+.image .img-integration {
+  width: 65%;
+  margin-top: 10%;
+}
 .main .uptitle {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
-  font-size: 1.250rem;
+  font-size: 1.25rem;
   line-height: 100%;
   color: #4dcb7b;
   margin-bottom: 0%;
@@ -9814,23 +9841,27 @@ a.link-footer:hover {
   margin-right: 5%;
 }
 
-table.table-changelog{
-	display: table;
-	width: 85%;
-	padding-top: 2%;
-	padding-bottom: 2%;
+table.table-changelog {
+  display: table;
+  width: 85%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
-tr.table-changelog:nth-child(odd){
-	background-color: rgb(218,242,244,0.5);
+tr.table-changelog:nth-child(odd) {
+  background-color: rgb(218, 242, 244, 0.5);
 }
 
-a.version{
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 150%;
-	color: #52636C;
-	text-decoration: none;
+a.version {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  color: #52636c;
+  text-decoration: none;
+}
+
+a.button-all {
+  text-decoration: none;
 }

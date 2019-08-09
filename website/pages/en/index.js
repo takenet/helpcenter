@@ -277,7 +277,7 @@ class Index extends React.Component {
 
           <div className="div-see-more">
             
-            <button className="bp-btn bp-btn--bot btn--recent-accessed">Veja outros artigos!</button>
+            <a role="button" href="/articles" className="bp-btn bp-btn--bot btn--recent-accessed" >Veja outros artigos!</a>
             <hr className="bp-divider-h bp-divider--see-more"></hr>
           
           </div>
@@ -385,7 +385,7 @@ class Index extends React.Component {
           </div>
         
         <div className="div-see-more">
-          <button className="bp-btn bp-btn--bot btn--recent-accessed">Veja outros artigos!</button>
+          <a role="button" href="/articles" className="bp-btn bp-btn--bot btn--recent-accessed" >Veja outros artigos!</a>
         </div>
 
         </div>
@@ -459,11 +459,11 @@ class Index extends React.Component {
                 <input id="check2-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
                 <ul className="ul-aprenda-mais">
-                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Primeiro link </a></li>
-                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Segundo link </a></li>
-                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
-                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
-                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp">WhatsApp </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/messenger">Messenger </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/workplace">Workplace </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/skype">Skype </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/telegram">Telegram </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
               </ul>
                 </div>  
@@ -476,10 +476,10 @@ class Index extends React.Component {
                 <input id="check3-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
                   <ul className="ul-aprenda-mais">
-                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Primeiro link </a></li>
-                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Segundo link </a></li>
-                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
-                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>
+                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/rdstation">RDStation </a></li>
+                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/webhooks">Webhooks </a></li>
+                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/botanalytics">Botanalytics </a></li>
+                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/dashbot">Dashbot </a></li>
                     <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quinto link </a></li>
                     <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
                   </ul>
