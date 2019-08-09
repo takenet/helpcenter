@@ -107,7 +107,7 @@ class HomeSplash extends React.Component {
               </div></a>
 
               
-              <a href="#" className="nonClickable"><div className="card-home-main" id="card2">
+              <a href="/exploring" className="nonClickable"><div className="card-home-main" id="card2">
                 <div className="card-img">
                 <div className="section-icon-circle-card section-icon-circle-card--watermelon">
                     <img src="img/illustrations/Estrela-2.svg"/>
@@ -121,12 +121,12 @@ class HomeSplash extends React.Component {
                     <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon> 
                   </div>
                   <p className="card-text">Área para usuários com pouca intimidade sobre contatos inteligentes e criação de chatbots.</p>
-                  <a href="#" className="card-button">Começar aqui</a>
+                  <a href="/exploring" className="card-button">Começar aqui</a>
                   <p className="card-text-mobile">Para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</p>
                 </div>
               </div></a>
               
-              <a href="#" className="nonClickable"><div className="card-home-main" id="card3">
+              <a href="/dominating" className="nonClickable"><div className="card-home-main" id="card3">
                 <div className="card-img">
                   <div className="section-icon-circle-card section-icon-circle-card--warning">
                     <img src="img/illustrations/Estrela-3.svg"/>
@@ -140,7 +140,7 @@ class HomeSplash extends React.Component {
                     <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon> 
                   </div>
                   <p className="card-text">Área para usuários com pouca intimidade sobre contatos inteligentes e criação de chatbots.</p>
-                  <a href="#" className="card-button">Começar aqui</a>
+                  <a href="/dominating" className="card-button">Começar aqui</a>
                   <p className="card-text-mobile">Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
                 </div>
               </div></a>

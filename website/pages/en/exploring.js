@@ -2,16 +2,16 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
-  "title":"Introdução à plataforma",
+  "title":"Explorando a plataforma",
   "subtitle":"Aqui você encontra os primeiros passos para entender melhor o BLiP",
-  "img":"/img/illustrations/Person-2.svg",
+  "img":"/img/illustrations/Person-3.svg",
   "from":"BLiP Help Center >",
-  "here":"Introdução à plataforma",
+  "here":"Explorando a platafomra",
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
      {  
         "title":"Integração com a ferramenta de Analytics 1",
-        "type": "text",
+        "type": "video",
         "url": "#", 
         "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
         "text":"ver mais!"
@@ -46,7 +46,7 @@ const data = {
    },
    {  
     "title":"Integração com a ferramenta de Analytics 6",
-    "type": "text",
+    "type": "video",
     "url": "#",
     "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
     "text":"ver mais!"
@@ -71,9 +71,9 @@ class BlipIcon extends React.Component {
 }
 
 
-class Introduction extends React.Component{
+class Exploring extends React.Component{
     constructor(props){
-      super(props)
+      super(props);
     }
 
     render(){
@@ -137,5 +137,5 @@ class Introduction extends React.Component{
     }
 }
 
-Introduction.title = 'Introdução à Plataforma';
-module.exports = Introduction; 
+Exploring.title = 'Explorando a Plataforma';
+module.exports = Exploring; 
