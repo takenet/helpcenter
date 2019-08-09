@@ -459,7 +459,7 @@ class Index extends React.Component {
                 <input id="check2-aprendaMais" className="hidden-checkbox" type="checkbox" />
                 <div className="hidden-content">
                 <ul className="ul-aprenda-mais">
-                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Primeiro link </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp">WhatsApp </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Segundo link </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Terceiro link </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Quarto link </a></li>

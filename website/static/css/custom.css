@@ -268,6 +268,10 @@
 	  width: 80% !important;
   }
 
+  .image .img-channel{
+	width: 80% !important;
+	}
+
   .main .title {
     font-size: 2rem !important;
     line-height: 120% !important;
@@ -9424,6 +9428,10 @@ table td {
   margin-top: 7%;
 }
 
+.image .img-channel {
+	width: 35%;
+	margin-top: 5%;
+  }
 .main .uptitle {
   font-family: Nunito Sans;
   font-style: normal;
