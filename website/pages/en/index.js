@@ -468,6 +468,7 @@ class Index extends React.Component {
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/email">Email</a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/skype">Skype </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/telegram">Telegram </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/sms">SMS </a></li>
               </ul>
                 </div>  
                 <hr className="bp-divider-h--articles"></hr> 
