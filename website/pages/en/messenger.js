@@ -6,7 +6,8 @@ const data = {
   "subtitle":"Melhore o seu relacionamento com o cliente por meio do messenger!",
   "img":"/img/illustrations/messenger-logo.svg",
   "from":"BLiP Help Center >",
-  "session": "Canais >",
+  "session": "Canais",
+  "session_url": "/channels",
   "here":"Messenger no BLiP",
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
@@ -99,7 +100,7 @@ class Messenger extends React.Component{
               <div className="pages-content">
                 <div className="navigation">
                   <p className="from">{data.from}</p>
-                  <p className="from">{data.session}</p>
+                  <p className="from"><a className="link-from" href={data.session_url}>{data.session}</a> ></p>
                   <p className="here">{data.here}</p>
                 </div>
                 <div className="info">
