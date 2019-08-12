@@ -8,6 +8,10 @@
       "api": {
         "title": "api"
       },
+      "concepts/ai/ai-boas-praticas-para-criar-um-bom-modelo-nlp": {
+        "title": "Boas práticas para criar um bom modelo de NLP",
+        "sidebar_label": "Boas práticas para criar um bom modelo de NLP"
+      },
       "concepts/ai/ai-conceitos-basicos-nlp-e-ai": {
         "title": "Conceitos básicos para utilizar NLP e IA em chatbots",
         "sidebar_label": "Conceitos básicos para utilizar NLP e IA em chatbots"
