@@ -31,7 +31,7 @@ class Footer extends React.Component {
                 <p className="title">Áreas do BLiP</p>
                   <a href="#" className="link-footer">Analytics</a>
                   <a href="#" className="link-footer"> Builder</a>
-                  <a href="#" className="link-footer">Canais</a>
+                  <a href="/channels" className="link-footer">Canais</a>
                   <a href="#" className="link-footer">CRM</a>
                   <a href="#" className="link-footer">Desk</a>
                   <a href="#" className="link-footer">Growth</a>
