@@ -9457,7 +9457,7 @@ table td {
 }
 
 .hidden-checkbox:checked + .hidden-content {
-  max-height: 300px;
+  max-height: 450px;
 }
 
 .hidden-checkbox:checked + .bp-fs-3-articles {
