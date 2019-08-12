@@ -1,7 +1,7 @@
 ---
 id: ai-como-aprimorar-meu-modelo-de-inteligencia-artificial
 title: Como aprimorar meu modelo de inteligência artificial
-sideb_bar: Como aprimorar meu modelo de inteligência artificial
+sidebar_label: Como aprimorar meu modelo de inteligência artificial
 ---
 
 Para visualizar todas as análises realizadas no modelo de NLP de seu bot, bem como as intenções identificadas em cada análise, acesse o portal do BLiP, clique no módulo de **Inteligência Artificial** e escolha a opção de **Aprimoramento** no menu lateral.
