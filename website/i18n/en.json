@@ -8,6 +8,10 @@
       "api": {
         "title": "api"
       },
+      "concepts/ai/ai-boas-praticas-para-criar-um-bom-modelo-nlp": {
+        "title": "Boas práticas para criar um bom modelo de NLP",
+        "sidebar_label": "Boas práticas para criar um bom modelo de NLP"
+      },
       "concepts/ai/ai-conceitos-basicos-nlp-e-ai": {
         "title": "Conceitos básicos para utilizar NLP e IA em chatbots",
         "sidebar_label": "Conceitos básicos para utilizar NLP e IA em chatbots"
@@ -192,6 +196,10 @@
         "title": "LevelUp 9 - Marcos de 2018",
         "sidebar_label": "LevelUp 9 - Marcos de 2018"
       },
+      "practice/ai/ai-como-aprimorar-meu-modelo-de-inteligencia-artificial": {
+        "title": "Como aprimorar meu modelo de inteligência artificial",
+        "sidebar_label": "Como aprimorar meu modelo de inteligência artificial"
+      },
       "practice/ai/ai-como-configurar-dialogflow": {
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
@@ -199,6 +207,10 @@
       "practice/ai/ai-como-configurar-watson": {
         "title": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial"
+      },
+      "practice/ai/ai-como-criar-uma-entidade": {
+        "title": "Como criar uma entidade",
+        "sidebar_label": "Como criar uma entidade"
       },
       "practice/ai/ai-como-criar-uma-intencao": {
         "title": "Como criar uma intenção",
@@ -211,6 +223,10 @@
       "practice/ai/ai-como-testar-modelo-nlp": {
         "title": "Como testar seu modelo de NLP",
         "sidebar_label": "Como testar seu modelo de NLP"
+      },
+      "practice/ai/ai-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip": {
+        "title": "Importar modelo de NLP (intenções e entidades) pré-existente no BLiP",
+        "sidebar_label": "Importar modelo de NLP (intenções e entidades) pré-existente no BLiP"
       },
       "practice/ai/ai-treinando-publicando-modelo-de-ia": {
         "title": "Treinando e publicando seu modelo de inteligência artificial",
@@ -259,6 +275,10 @@
       "practice/blip-chat/chat-adicionar-bot-site-blip-chat": {
         "title": "Como adicionar um bot em um site utilizando o BLiP Chat?",
         "sidebar_label": "Como adicionar um bot em um site utilizando o BLiP Chat?"
+      },
+      "practice/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip": {
+        "title": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?",
+        "sidebar_label": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?"
       },
       "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat": {
         "title": "Customizações disponíveis no BLiP Chat",
@@ -376,9 +396,9 @@
         "title": "Enviar notificações WhatsApp via API do BLiP",
         "sidebar_label": "Enviar notificações WhatsApp via API do BLiP"
       },
-      "practice/channels/channels-publicando-seu-bot-workplace": {
-        "title": "Publicando seu bot no Workplace",
-        "sidebar_label": "Publicando seu bot no Workplace"
+      "practice/channels/channels-publicando-chatbot-no-workplace": {
+        "title": "Publicando seu chatbot no Workplace",
+        "sidebar_label": "Publicando seu chatbot no Workplace"
       },
       "practice/contacts/contacts-como-encontrar-id-usuario": {
         "title": "Como encontrar o identificador de um usuário",
@@ -455,8 +475,7 @@
       "Recursos": "Recursos",
       "Cursos": "Cursos",
       "Comunidade": "Comunidade",
-      "Políticas": "Políticas",
-      "Blog": "Blog"
+      "Políticas": "Políticas"
     },
     "categories": {
       "Conceitos": "Conceitos",

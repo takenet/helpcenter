@@ -41,10 +41,10 @@ class Footer extends React.Component {
                
               <div className="content-links">
                 <p className="title">Recursos</p>
-                  <a href="#" className="link-footer">API Reference</a>
-                  <a href="#" className="link-footer">Changelogs</a>
+                  <a href="https://docs.blip.ai/" target="_blank" className="link-footer">API Reference</a>
+                  <a href="/changelog" className="link-footer">Changelogs</a>
                   <a href="/faq" className="link-footer">Faq</a>
-                  <a href="#" className="link-footer">Github</a>
+                  <a href="https://github.com/takenet" target="_blank" className="link-footer">Github</a>
                   <a href="#" className="link-footer">Status</a>
               </div>  
 
@@ -56,12 +56,11 @@ class Footer extends React.Component {
 
               <div className="content-links">
                   <p className="title">Comunidade</p>
-                  <a href="#" className="link-footer">BLiP Beta</a>
-                  <a href="#" className="link-footer">BLiP Ideas</a>
-                  <a href="#" className="link-footer">BLiP Lovers</a>
-                  <a href="#" className="link-footer"> Blog</a>
-                  <a href="#" className="link-footer">Eventos</a>
-                  <a href="#" className="link-footer">Fórum</a>
+                  <a href="/beta" className="link-footer">BLiP Beta</a>
+                  <a href="https://ideas.blip.ai/" target="_blak" className="link-footer">BLiP Ideas</a>
+                  {/* <a href="#" className="link-footer">BLiP Lovers</a> */}
+                  <a href="http://meetup.blip.ai" target="_blank" className="link-footer">Eventos</a>
+                  <a href="https://forum.blip.ai/" target="_blank" className="link-footer">Fórum</a>
               </div>
                
               <div className="content-links">

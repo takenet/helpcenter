@@ -2,12 +2,11 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
-  "title":"Introdução à plataforma",
-  "subtitle":"Aqui você encontra os primeiros passos para entender melhor o BLiP",
-  "img":"/img/illustrations/Person-2.svg",
+  "title":"Todos os artigos",
+  "subtitle":"Veja abaixo todos os artigos do BLiP",
+  "img":"/img/illustrations/Ilustracao-Pesquisa.svg",
   "from":"BLiP Help Center >",
-  "here":"Introdução à plataforma",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+  "here":"Todos os artigos",
   "cards":[  
      {  
         "title":"Integração com a ferramenta de Analytics 1",
@@ -50,6 +49,83 @@ const data = {
     "url": "#",
     "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
     "text":"ver mais!"
+  },
+  {  
+    "title":"Integração com a ferramenta de Analytics 6",
+    "type": "video",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"ver mais!"
+  },
+  {  
+    "title":"Integração com a ferramenta de Analytics 6",
+    "type": "text",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"ver mais!"
+  },
+  {  
+    "title":"Integração com a ferramenta de Analytics 6",
+    "type": "text",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"ver mais!"
+  },
+  {  
+    "title":"Integração com a ferramenta de Analytics 6",
+    "type": "video",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"ver mais!"
+  },
+  {  
+    "title":"Integração com a ferramenta de Analytics 6",
+    "type": "text",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"ver mais!"
+  },
+  {  
+    "title":"Integração com a ferramenta de Analytics 6",
+    "type": "text",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"ver mais!"
+  },
+  {  
+    "title":"Integração com a ferramenta de Analytics 6",
+    "type": "text",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"ver mais!"
+  },
+  {  
+    "title":"Integração com a ferramenta de Analytics 6",
+    "type": "text",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"ver mais!"
+  },
+  {  
+    "title":"Integração com a ferramenta de Analytics 6",
+    "type": "video",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"ver mais!"
+  },
+  {  
+    "title":"Integração com a ferramenta de Analytics 6",
+    "type": "text",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"ver mais!"
+  },
+  {  
+    "title":"Integração com a ferramenta de Analytics 6",
+    "type": "text",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"ver mais!"
   }
   ]
 };
@@ -71,7 +147,7 @@ class BlipIcon extends React.Component {
 }
 
 
-class Introduction extends React.Component{
+class All extends React.Component{
     constructor(props){
       super(props)
     }
@@ -99,9 +175,6 @@ class Introduction extends React.Component{
                 <div className="navigation">
                   <p className="from">{data.from}</p>
                   <p className="here">{data.here}</p>
-                </div>
-                <div className="info">
-                  <p className="intro">{data.intro}</p>
                 </div>
 
 
@@ -137,5 +210,5 @@ class Introduction extends React.Component{
     }
 }
 
-Introduction.title = 'Introdução à Plataforma';
-module.exports = Introduction; 
+All.title = 'Todos os artigos';
+module.exports = All; 

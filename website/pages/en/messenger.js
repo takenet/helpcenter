@@ -2,16 +2,17 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
-  "title":"Introdução à plataforma",
-  "subtitle":"Aqui você encontra os primeiros passos para entender melhor o BLiP",
-  "img":"/img/illustrations/Person-2.svg",
+  "title":"Messenger no BLiP",
+  "subtitle":"Melhore o seu relacionamento com o cliente por meio do messenger!",
+  "img":"/img/illustrations/messenger-logo.svg",
   "from":"BLiP Help Center >",
-  "here":"Introdução à plataforma",
+  "session": "Canais >",
+  "here":"Messenger no BLiP",
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
      {  
         "title":"Integração com a ferramenta de Analytics 1",
-        "type": "text",
+        "type": "video",
         "url": "#", 
         "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
         "text":"ver mais!"
@@ -46,7 +47,7 @@ const data = {
    },
    {  
     "title":"Integração com a ferramenta de Analytics 6",
-    "type": "text",
+    "type": "video",
     "url": "#",
     "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
     "text":"ver mais!"
@@ -71,9 +72,9 @@ class BlipIcon extends React.Component {
 }
 
 
-class Introduction extends React.Component{
+class Messenger extends React.Component{
     constructor(props){
-      super(props)
+      super(props);
     }
 
     render(){
@@ -89,7 +90,7 @@ class Introduction extends React.Component{
                     <p className="subtitle">{data.subtitle}</p>
                   </div>
                   <div className="image">
-                    <img className="img" src={data.img} />
+                    <img className="img-channel" src={data.img} />
                   </div>
                 </div>
               </div>
@@ -98,6 +99,7 @@ class Introduction extends React.Component{
               <div className="pages-content">
                 <div className="navigation">
                   <p className="from">{data.from}</p>
+                  <p className="from">{data.session}</p>
                   <p className="here">{data.here}</p>
                 </div>
                 <div className="info">
@@ -137,5 +139,5 @@ class Introduction extends React.Component{
     }
 }
 
-Introduction.title = 'Introdução à Plataforma';
-module.exports = Introduction; 
+Messenger.title = 'Messenger no BLiP';
+module.exports = Messenger; 

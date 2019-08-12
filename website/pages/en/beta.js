@@ -1,4 +1,6 @@
 const React = require('react');
+const request = require("request");
+
 
 //BLiP Icon for SVGs
 const defs = '/img/defs.svg';
@@ -128,24 +130,17 @@ class ScriptForm extends React.Component {
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
-
                     var btn = document.getElementById("Bsubmit");
-                    var e = document.getElementById("email").value;
+                    var e = document.getElementById("email");
 
                     btn.onclick = function() {
-                        var ajax = new XMLHttpRequest();
-                            var email = "[bruno_camarda@hotmail.com]"; 
-                            ajax.open("GET", "https://viacep.com.br/ws/30180101/json/", true);
-                    ajax.send();
-
-                    ajax.onreadystatechange = function() {
-                        if (ajax.readyState == 4 && ajax.status == 200) {
-                        var data = ajax.responseText;
-                        alert(data);
-                        }
+                        var xhr = new XMLHttpRequest();
+                        xhr.open("POST", "https://gw.msging.net/httpreceiver/fd3c240f-c602-406d-b081-f347a68c72eb");
+                        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                        xhr.setRequestHeader("Access-Control-Allow-Headers", "*");
+                        xhr.send(data);
+ 
                     }
-                }
-
                 `
                     }}
                 />

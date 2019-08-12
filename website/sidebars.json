@@ -51,7 +51,8 @@
             "concepts/ai/ai-conceitos-basicos-nlp-e-ai", 
             "concepts/ai/ai-importancia-de-ia-nlp-chatbots",
             "concepts/ai/ai-o-que-e-intencao", 
-            "concepts/ai/ai-o-que-e-entidade"
+            "concepts/ai/ai-o-que-e-entidade",
+            "concepts/ai/ai-boas-praticas-para-criar-um-bom-modelo-nlp"
           ]
       },
       {
@@ -198,7 +199,8 @@
             "practice/blip-chat/chat-adicionar-blip-chat-site-wix",
             "practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css",
             "practice/blip-chat/chat-adicionar-blip-chat-site-wordpress",
-            "practice/blip-chat/chat-permitir-envio-de-arquivos-blip-chat"
+            "practice/blip-chat/chat-permitir-envio-de-arquivos-blip-chat",
+            "practice/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip"
           ]
       },
       {
@@ -206,7 +208,7 @@
         "label": "Canais",
         "ids": 
           [
-            "practice/channels/channels-publicando-seu-bot-workplace",
+            "practice/channels/channels-publicando-chatbot-no-workplace",
             "practice/channels/channels-criando-graficos-em-um-relatorio-customizado",
             "practice/channels/channels-como-configurar-sua-propria-aplicacao-facebook",
             "practice/channels/channels-criando-solucao-atendimento-humano-whatsapp",
@@ -220,10 +222,13 @@
           [
             "practice/ai/ai-como-testar-modelo-nlp",
             "practice/ai/ai-como-criar-uma-intencao",
+            "practice/ai/ai-como-criar-uma-entidade",
             "practice/ai/ai-treinando-publicando-modelo-de-ia",
-            "practice/ai/ai-como-exportar-base-conhecimento", 
+            "practice/ai/ai-como-exportar-base-conhecimento",
+            "practice/ai/ai-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip", 
             "practice/ai/ai-como-configurar-dialogflow",
-            "practice/ai/ai-como-configurar-watson"
+            "practice/ai/ai-como-configurar-watson",
+            "practice/ai/ai-como-aprimorar-meu-modelo-de-inteligencia-artificial"
           ]
       },
       {

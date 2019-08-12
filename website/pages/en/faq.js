@@ -35,7 +35,7 @@ class Faq extends React.Component{
                     <p className="subtitle">Perguntas frequentes</p>
                   </div>
                   <div className="image">
-                    <img className="img" src="/" />
+                    <img className="img-faq" src="/img/illustrations/Ilustracao-FAQ.svg" />
                   </div>
                 </div>
               </div>

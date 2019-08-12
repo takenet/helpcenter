@@ -52,7 +52,6 @@ const siteConfig = {
     {page: 'help', label: 'Cursos'},
     {page: 'help', label: 'Comunidade'},
     {page: 'help', label: 'Políticas'},
-    {blog: true, label: 'Blog'},
     {languages: true},
     {search: true}
   ],
