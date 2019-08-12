@@ -472,6 +472,7 @@ class Index extends React.Component {
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/infobip">Infobip</a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googleassistant">Google Assistant</a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googlercs">Google RCS</a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googlercs">Apple Business Chat</a></li>
               </ul>
                 </div>  
                 <hr className="bp-divider-h--articles"></hr> 
