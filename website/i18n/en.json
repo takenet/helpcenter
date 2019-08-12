@@ -391,9 +391,9 @@
         "title": "Enviar notificações WhatsApp via API do BLiP",
         "sidebar_label": "Enviar notificações WhatsApp via API do BLiP"
       },
-      "practice/channels/channels-publicando-seu-bot-workplace": {
-        "title": "Publicando seu bot no Workplace",
-        "sidebar_label": "Publicando seu bot no Workplace"
+      "practice/channels/channels-publicando-chatbot-no-workplace": {
+        "title": "Publicando seu chatbot no Workplace",
+        "sidebar_label": "Publicando seu chatbot no Workplace"
       },
       "practice/contacts/contacts-como-encontrar-id-usuario": {
         "title": "Como encontrar o identificador de um usuário",
