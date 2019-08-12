@@ -2,13 +2,13 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
-  "title":"Telegram no BLiP",
-  "subtitle":"Melhore o seu relacionamento com o cliente por meio do Telegram!",
-  "img":"/img/illustrations/Telegram-logo.svg",
+  "title":"Infobip",
+  "subtitle":"Melhore o seu relacionamento com o cliente por meio do Whatsapp!",
+  "img":"/img/illustrations/infobip-logo.svg",
   "from":"BLiP Help Center >",
   "session": "Canais",
-  "session_url": "/channels",
-  "here":"Telegram no BLiP",
+  "session_url": "channels",
+  "here":"Infobip",
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
      {  
@@ -73,7 +73,7 @@ class BlipIcon extends React.Component {
 }
 
 
-class Telegram extends React.Component{
+class Infobip extends React.Component{
     constructor(props){
       super(props);
     }
@@ -140,5 +140,5 @@ class Telegram extends React.Component{
     }
 }
 
-Telegram.title = 'Telegram no BLiP';
-module.exports = Telegram; 
+Infobip.title = 'Infobip';
+module.exports = Infobip; 

@@ -455,8 +455,8 @@ class Index extends React.Component {
           <label htmlFor="check2-aprendaMais" className="cards">
             <p className="titles">Canais</p>
             <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
-            <input id="check2-aprendaMais" className="hidden-checkbox" type="checkbox" />
-            <div className="hidden-content">
+              <input id="check2-aprendaMais" className="hidden-checkbox" type="checkbox" />
+              <div className="hidden-content">
               <ul className="ul-aprenda-mais">
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp">WhatsApp </a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/messenger">Messenger </a></li>
@@ -465,6 +465,11 @@ class Index extends React.Component {
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/email">Email</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/skype">Skype </a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/telegram">Telegram </a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/sms">SMS </a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/infobip">Infobip</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googleassistant">Google Assistant</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googlercs">Google RCS</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googlercs">Apple Business Chat</a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
