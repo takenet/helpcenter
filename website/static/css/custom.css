@@ -8873,6 +8873,15 @@ table td {
   text-overflow: ellipsis;
 }
 
+.a-recent-accessed svg {
+	vertical-align: sub;
+}
+
+.a-recent-accessed:hover {
+	color: #3d4554;
+}
+
+
 .bp-divider-h.bp-divider--recent-accessed {
   height: 0;
   border: 1px solid #c9dfe4;
