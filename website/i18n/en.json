@@ -280,6 +280,10 @@
         "title": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?",
         "sidebar_label": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?"
       },
+      "practice/blip-chat/chat-como-adicionar-bot-em-app-ios-utilizando-blip": {
+        "title": "Como adicionar um bot em um aplicativo iOS utilizando o BLiP Chat?",
+        "sidebar_label": "Como adicionar um bot em um aplicativo iOS utilizando o BLiP Chat?"
+      },
       "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat": {
         "title": "Customizações disponíveis no BLiP Chat",
         "sidebar_label": "Customizações disponíveis no BLiP Chat"
