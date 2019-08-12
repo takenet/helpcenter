@@ -10125,3 +10125,13 @@ a.button-all {
   line-height: 20px;
   color: #607b99;
 }
+
+a.link-from{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8CA0B3;
+  text-decoration: none;
+}
