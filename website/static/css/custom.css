@@ -798,7 +798,7 @@ p a strong {
 }
 
 .headerTitleWithLogo {
-  display: none;
+  display: none !important;
 }
 
 .mainContainer .post ul {
@@ -8964,6 +8964,15 @@ table td {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.a-recent-accessed svg {
+	vertical-align: sub;
+}
+
+.a-recent-accessed:hover {
+	color: #3d4554;
+}
+
 
 .bp-divider-h.bp-divider--recent-accessed {
   height: 0;
