@@ -44,7 +44,7 @@ class Footer extends React.Component {
                   <a href="/changelog" className="link-footer">Changelogs</a>
                   <a href="/faq" className="link-footer">Faq</a>
                   <a href="https://github.com/takenet" target="_blank" className="link-footer">Github</a>
-                  <a href="#" className="link-footer">Status</a>
+                  {/* <a href="#" className="link-footer">Status</a> */}
               </div>  
 
               <div className="content-links">
