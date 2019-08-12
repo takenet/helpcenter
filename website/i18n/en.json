@@ -8,6 +8,10 @@
       "api": {
         "title": "api"
       },
+      "concepts/ai/ai-boas-praticas-para-criar-um-bom-modelo-nlp": {
+        "title": "Boas práticas para criar um bom modelo de NLP",
+        "sidebar_label": "Boas práticas para criar um bom modelo de NLP"
+      },
       "concepts/ai/ai-conceitos-basicos-nlp-e-ai": {
         "title": "Conceitos básicos para utilizar NLP e IA em chatbots",
         "sidebar_label": "Conceitos básicos para utilizar NLP e IA em chatbots"
@@ -193,7 +197,8 @@
         "sidebar_label": "LevelUp 9 - Marcos de 2018"
       },
       "practice/ai/ai-como-aprimorar-meu-modelo-de-inteligencia-artificial": {
-        "title": "Como aprimorar meu modelo de inteligência artificial"
+        "title": "Como aprimorar meu modelo de inteligência artificial",
+        "sidebar_label": "Como aprimorar meu modelo de inteligência artificial"
       },
       "practice/ai/ai-como-configurar-dialogflow": {
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
@@ -270,6 +275,10 @@
       "practice/blip-chat/chat-adicionar-bot-site-blip-chat": {
         "title": "Como adicionar um bot em um site utilizando o BLiP Chat?",
         "sidebar_label": "Como adicionar um bot em um site utilizando o BLiP Chat?"
+      },
+      "practice/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip": {
+        "title": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?",
+        "sidebar_label": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?"
       },
       "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat": {
         "title": "Customizações disponíveis no BLiP Chat",
@@ -387,9 +396,9 @@
         "title": "Enviar notificações WhatsApp via API do BLiP",
         "sidebar_label": "Enviar notificações WhatsApp via API do BLiP"
       },
-      "practice/channels/channels-publicando-seu-bot-workplace": {
-        "title": "Publicando seu bot no Workplace",
-        "sidebar_label": "Publicando seu bot no Workplace"
+      "practice/channels/channels-publicando-chatbot-no-workplace": {
+        "title": "Publicando seu chatbot no Workplace",
+        "sidebar_label": "Publicando seu chatbot no Workplace"
       },
       "practice/contacts/contacts-como-encontrar-id-usuario": {
         "title": "Como encontrar o identificador de um usuário",
