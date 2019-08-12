@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   docsSideNavCollapsible: true,
-  title: '', // Title for your website.
+  title: 'BLiP', // Title for your website.
   tagline: 'BLiP | Help Center',
   url: 'hmg-help.blip.ai', // Your website URL
   baseUrl: '/', // Base URL for your project */
