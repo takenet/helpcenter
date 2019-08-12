@@ -706,7 +706,7 @@ p a strong {
 }
 
 .headerTitleWithLogo {
-  display: none;
+  display: none !important;
 }
 
 .mainContainer .post ul {
