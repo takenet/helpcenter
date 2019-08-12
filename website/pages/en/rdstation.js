@@ -4,7 +4,7 @@ const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
   "title":"RD Station no BLiP",
   "subtitle":"Melhore o seu relacionamento com o cliente por meio do RD Station!",
-  "img":"/img/illustrations/RDStation-logo.svg",
+  "img":"/img/illustrations/rd-logo.svg",
   "from":"BLiP Help Center >",
   "session": "Integrações >",
   "here":"RD Station no BLiP",
@@ -90,7 +90,7 @@ class RDStation extends React.Component{
                     <p className="subtitle">{data.subtitle}</p>
                   </div>
                   <div className="image">
-                    <img className="img-integration" src={data.img} />
+                    <img className="img-channel" src={data.img} />
                   </div>
                 </div>
               </div>
