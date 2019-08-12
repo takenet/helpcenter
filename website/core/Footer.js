@@ -29,14 +29,13 @@ class Footer extends React.Component {
           <div className="footer-content">
               <div className="content-links">
                 <p className="title">Áreas do BLiP</p>
-                  <a href="#" className="link-footer">Analytics</a>
-                  <a href="#" className="link-footer"> Builder</a>
-                  <a href="#" className="link-footer">Canais</a>
-                  <a href="#" className="link-footer">CRM</a>
-                  <a href="#" className="link-footer">Desk</a>
-                  <a href="#" className="link-footer">Growth</a>
-                  <a href="#" className="link-footer">Help Desk</a>
-                  <a href="#" className="link-footer">I.A.</a>
+                <a href="/helpdesk" className="link-footer">Atendimento Humano</a>
+                  <a href="/builder" className="link-footer">Builder</a>
+                  <a href="/channels" className="link-footer">Canais</a>
+                  {/* <a href="#" className="link-footer">CRM</a> */}
+                  <a href="/growth" className="link-footer">Growth</a>
+                  <a href="/ai" className="link-footer">Inteligência Artificial</a>
+                  <a href="/analytics" className="link-footer">Métricas e Analytics</a>
               </div>
                
               <div className="content-links">
@@ -50,8 +49,9 @@ class Footer extends React.Component {
 
               <div className="content-links">
                   <p className="title">Cursos</p>
-                  <a href="#" className="link-footer">Certificação BLiP</a>
-                  <a href="#" className="link-footer">Tutoriais</a>
+                  <a className="link-footer" target="blank" href="http://learn.take.net/courses/criando-chatbots-com-a-plataforma-blip">Curso Gratuito</a>
+                  <a className="link-footer" target="blank" href="http://botcamp.blip.ai">Botcamp</a>
+                  {/* <a href="#" className="link-footer">Certificação BLiP</a> */}
               </div>
 
               <div className="content-links">
@@ -71,7 +71,7 @@ class Footer extends React.Component {
           </div>
 
           <div>
-              <p className="custom-copyright">{this.props.config.copyright}</p>
+              <p className="custom-copyright">{this.props.config.copyright} <a className="link-footer" target="blank" href="https://take.net"> Take</a></p>
           </div>
 
         </div>

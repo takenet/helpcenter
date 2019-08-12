@@ -85,7 +85,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} BLiP Powered by Take`,
+  copyright: `Copyright © ${new Date().getFullYear()} BLiP Powered by`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
