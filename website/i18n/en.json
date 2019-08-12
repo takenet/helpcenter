@@ -197,7 +197,8 @@
         "sidebar_label": "LevelUp 9 - Marcos de 2018"
       },
       "practice/ai/ai-como-aprimorar-meu-modelo-de-inteligencia-artificial": {
-        "title": "Como aprimorar meu modelo de inteligência artificial"
+        "title": "Como aprimorar meu modelo de inteligência artificial",
+        "sidebar_label": "Como aprimorar meu modelo de inteligência artificial"
       },
       "practice/ai/ai-como-configurar-dialogflow": {
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
@@ -274,6 +275,10 @@
       "practice/blip-chat/chat-adicionar-bot-site-blip-chat": {
         "title": "Como adicionar um bot em um site utilizando o BLiP Chat?",
         "sidebar_label": "Como adicionar um bot em um site utilizando o BLiP Chat?"
+      },
+      "practice/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip": {
+        "title": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?",
+        "sidebar_label": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?"
       },
       "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat": {
         "title": "Customizações disponíveis no BLiP Chat",
