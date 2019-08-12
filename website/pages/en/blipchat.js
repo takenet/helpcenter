@@ -2,12 +2,12 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
-  "title":"RD Station no BLiP",
-  "subtitle":"Melhore o seu relacionamento com o cliente por meio do RD Station!",
-  "img":"/img/illustrations/rd-logo.svg",
+  "title":"BLiP Chat",
+  "subtitle":"Melhore o seu relacionamento com o cliente por meio do BLiP Chat!",
+  "img":"/img/illustrations/blipchat-logo.svg",
   "from":"BLiP Help Center >",
-  "session": "Integrações >",
-  "here":"RD Station no BLiP",
+  "session": "Canais >",
+  "here":"BLiP Chat",
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
      {  
@@ -72,7 +72,7 @@ class BlipIcon extends React.Component {
 }
 
 
-class RDStation extends React.Component{
+class BlipChat extends React.Component{
     constructor(props){
       super(props);
     }
@@ -139,5 +139,5 @@ class RDStation extends React.Component{
     }
 }
 
-RDStation.title = 'RDStation no BLiP';
-module.exports = RDStation; 
+BlipChat.title = 'BLiP Chat';
+module.exports = BlipChat; 
