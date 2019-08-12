@@ -464,9 +464,9 @@ class Index extends React.Component {
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp">WhatsApp </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/messenger">Messenger </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/workplace">Workplace </a></li>
+                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/blipchat">BLiP Chat </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/skype">Skype </a></li>
                   <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/telegram">Telegram </a></li>
-                  <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
               </ul>
                 </div>  
                 <hr className="bp-divider-h--articles"></hr> 
@@ -483,7 +483,6 @@ class Index extends React.Component {
                     <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/botanalytics">Botanalytics </a></li>
                     <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/dashbot">Dashbot </a></li>
                     <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/chatbase">Chatbase </a></li>
-                    <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Sexto link </a></li>
                   </ul>
                 </div>   
                 <hr className="bp-divider-h--articles"></hr>
