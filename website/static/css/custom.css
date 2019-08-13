@@ -9143,6 +9143,7 @@ table td {
 
 .div-rectangle-main .main-subtitle .main-subsubtitle {
   font-weight: normal;
+  color: #ffffff;
 }
 
 .flexbox-container {
@@ -9219,7 +9220,7 @@ table td {
   font-size: 1.5rem;
   line-height: 120%;
   color: #607b99;
-  width: 97.5%;
+  width: 100%;
   height: 50%;
   white-space: wrap;
   margin-top: 3%;
