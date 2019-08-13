@@ -4,7 +4,7 @@ const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
   "title":"Utilizando o BLiP Desk",
   "subtitle":"Melhore o seu relacionamento com clientes através do atendimento humano!",
-  "img":"/img/illustrations/blipchat-logo.svg",
+  "img":"/img/illustrations/ilustracao-categorias.svg",
   "from":"BLiP Help Center >",
   "session": "Canais",
   "here":"Utilizando o BLiP Desk",
@@ -83,14 +83,14 @@ class Desk extends React.Component{
             <div>
 
             {/* Topo */}
-              <div>
-                <div className="pages-top">
-                  <div className="main">
-                    <p className="title">{data.title}</p>
-                    <p className="subtitle">{data.subtitle}</p>
+            <div>
+                <div className="pages-top-category">
+                  <div className="main-category">
+                    <p className="title-category">{data.title}</p>
+                    <p className="subtitle-category">{data.subtitle}</p>
                   </div>
-                  <div className="image">
-                    <img className="img-channel" src={data.img} />
+                  <div className="image-category">
+                    <img className="img" src={data.img} />
                   </div>
                 </div>
               </div>
