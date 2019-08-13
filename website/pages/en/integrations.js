@@ -12,21 +12,21 @@ const data = {
      {  
         "title":"Botanalytics",
         "icon": "/img/illustrations/botanalytics-logo.svg",
-        "url": "/botanalytics", 
+        "url": "/analytics", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
         "text":"aprenda mais!"
      },
      {  
         "title":"Chatbase",
         "icon": "/img/illustrations/chatbase-logo.svg",
-        "url": "/chatbase", 
+        "url": "/analytics", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
         "text":"aprenda mais!"
      },
      {  
         "title":"Dashbot",
         "icon": "/img/illustrations/dashbot-logo.svg",
-        "url": "/dashbot", 
+        "url": "/analytics", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
         "text":"aprenda mais!"
      },
@@ -54,17 +54,24 @@ const data = {
      {  
         "title":"RDStation",
         "icon": "/img/illustrations/rd-logo.svg",
-        "url": "/rdstation", 
+        "url": "/analytics", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
         "text":"aprenda mais!"
      },
      {  
         "title":"Webhook",
         "icon": "/img/illustrations/webhooks-logo.svg",
-        "url": "/webhooks", 
+        "url": "/analytics", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
         "text":"aprenda mais!"
      },
+     {  
+      "title":"Google Adlingo",
+      "icon": "/img/illustrations/adlingo-logo.png",
+      "url": "#", 
+      "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "text":"aprenda mais!"
+   }
   ]
 };
 //BLiP Icon for SVGs
