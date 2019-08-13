@@ -67,7 +67,7 @@ const data = {
      },
      {  
       "title":"Google Adlingo",
-      "icon": "/img/illustrations/adlingo-logo.png",
+      "icon": "/img/illustrations/adlingo-logo.svg",
       "url": "#", 
       "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
       "text":"aprenda mais!"
