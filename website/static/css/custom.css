@@ -404,8 +404,26 @@
     margin-right: 10%;
   }
 
-  table.table-changelog {
-    width: 100% !important;
+  .content-changelog .changelog-title{
+    margin-left: 5%;
+    max-width: 100%;
+  }
+
+  .changelog-title .version-title{
+    max-width: 90%;
+  }
+  
+  p.info-content-text{
+    margin-left: 5%;
+    width: 90% !important;
+  }
+  
+  p.span-changelog{
+    display: none;
+  }
+  
+  a.info-content-link{
+    margin-left: 5%;
   }
 
   .bp-btn.bp-btn--bot.btn--recent-accessed {
@@ -499,6 +517,35 @@
 }
 
 @media only screen and (min-device-width: 737px) {
+  
+  p.span-changelog{
+    display: none;
+  }
+
+  
+  .content-changelog .changelog-title{
+    margin-left: 5%;
+    max-width: 100%;
+  }
+
+  .changelog-title .version-title{
+    max-width: 90%;
+  }
+  
+  p.info-content-text{
+    margin-left: 5%;
+    width: 90% !important;
+  }
+  
+  p.span-changelog{
+    display: none;
+  }
+  
+  a.info-content-link{
+    margin-left: 5%;
+  }
+
+  
   .card-home-main .card-info .card-text {
     display: none;
   }
@@ -9926,25 +9973,79 @@ a.link-footer:hover {
   margin-right: 5%;
 }
 
-table.table-changelog {
-  display: table;
-  width: 85%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+.content-changelog{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
 }
 
-tr.table-changelog:nth-child(odd) {
-  background-color: rgb(218, 242, 244, 0.5);
+.content-changelog .changelog-card{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
 }
 
-a.version {
+.changelog-card .changelog-card-date{
+  width: 20%;
+}
+
+.changelog-card-date .version-date{
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 150%;
-  color: #52636c;
-  text-decoration: none;
+  color: #8CA0B3;
+}
+
+.content-changelog .changelog-title{
+  display: flex;
+  flex-direction: row;
+}
+
+.content-changelog .changelog-card-info .changelog-title .version-title{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 150%;
+  color: #52636C;
+}
+
+p.info-content-text{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #52636C;
+  width: 72%;
+}
+
+p.span-changelog{
+  margin-left: 1%;
+  background: #2CC3D5;
+  border-radius: 30px;
+  width: 5%;
+  max-width: 60px;
+  padding-top: 0.4%;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+a.info-content-link{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration-line: underline;
+  color: #2CC3D5;
 }
 
 a.button-all {

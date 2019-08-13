@@ -52,32 +52,52 @@ class Changelog extends React.Component{
                       Documentação para versões recentes também pode ser encontrada abaixo.</p>
                 </div>
 
-                    <table className="table-changelog">
-                        <tr className="table-changelog">
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                        </tr>
-                        <tr className="table-changelog">
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                        </tr>
-                        <tr className="table-changelog">
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                        </tr>
-                        <tr className="table-changelog">
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                            <td><a href="#" className="version">BLiP v1.0</a></td>
-                        </tr>
-                    </table>
+                    <div className="content-changelog">
+                      
+                      <div className="changelog-card">
+                        <div className="changelog-card-date">
+                          <p className="version-date">Ago 16, 2019</p>
+                        </div>
+
+                        <div className="changelog-card-info">
+                          <div className="changelog-title">
+                            <p className="version-title">Título da atualização</p>
+                            <p className="span-changelog">Novo!</p>
+                          </div>
+
+                          <div className="info-content">
+                          <p className="info-content-text">Transforme o seu lifestyle. Bora pra action. Se você não vê a oportunidade, ela passa. 
+                          Se você não tá no jogo do longo prazo, então seu futuro é estar fora do jogo. 
+                          Genialidade é fruto de muito hardwork. Trabalho é aprendizado, tudo é um só, onelife. 
+                          Você nunca vai estar pronto então comece agora. Se você não vê a oportunidade, ela passa.</p>
+                          <a href="#" className="info-content-link">Saiba mais!</a>
+                          </div>
+                        </div>
+                      </div>
+                      <hr></hr>
+
+                      <div className="changelog-card">
+                        <div className="changelog-card-date">
+                          <p className="version-date">Jul 20, 2019</p>
+                        </div>
+
+                        <div className="changelog-card-info">
+                          <div className="changelog-title">
+                            <p className="version-title">Título da atualização</p>
+                          </div>
+
+                          <div className="info-content">
+                          <p className="info-content-text">Você tá realmente obcecado pelos seus sonhos? 
+                            O inconformismo é o combustível da alta performance. 
+                            É você quem decide se o seu dia vai ser incrível ou não. A vida acontece de você e não pra você. 
+                            Ninguém lembra do médio, foque no excelente. A vida acontece de você e não pra você. 
+                            Não adianta ter conhecimento se você não tem action. Busque o next level.</p>
+                          <a href="#" className="info-content-link">Saiba mais!</a>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
 
                 
               </div>
