@@ -10135,3 +10135,7 @@ a.link-from{
   color: #8CA0B3;
   text-decoration: none;
 }
+
+.toc .toggleNav ul li.navListItemActive a {
+  font-weight: bold;
+}
