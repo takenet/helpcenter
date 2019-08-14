@@ -7,7 +7,7 @@ const data = {
   "img":"/img/illustrations/google-assistant-logo.svg",
   "from":"BLiP Help Center >",
   "session": "Canais",
-  "session_url": "channels",
+  "session_url": "/channels",
   "here":"Google Assistant no BLiP",
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
