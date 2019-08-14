@@ -34,12 +34,6 @@ const data = {
       "text":"ver mais!"
     },
     {  
-    "title":"Growth",
-    "url": "/growth", 
-    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-    "text":"ver mais!"
-    },
-    {  
         "title":"Inteligência Artificial",
         "url": "/ai", 
         "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
@@ -48,6 +42,12 @@ const data = {
     {  
         "title":"Métricas e Analytics",
         "url": "/analytics", 
+        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+        "text":"ver mais!"
+    },
+    {  
+        "title":"Retenção e Engajamento",
+        "url": "/growth", 
         "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
         "text":"ver mais!"
     }
