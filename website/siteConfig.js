@@ -48,7 +48,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'concepts/builder/builder-visao-geral-variaveis', label: 'Artigos'},
     {page: 'blipareas', label: 'Áreas do BLiP'},
-    {page: 'integrations', label: 'Integrações'},
+    {page: 'resources', label: 'Recursos'},
     {page: 'help', label: 'Cursos'},
     {page: 'help', label: 'Comunidade'},
     {page: 'help', label: 'Políticas'},
