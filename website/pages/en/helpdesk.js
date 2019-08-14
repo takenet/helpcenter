@@ -2,12 +2,13 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
-  "title":"Utilizando o BLiP Desk",
+  "title":"Atendimento Humano",
   "subtitle":"Melhore o seu relacionamento com clientes através do atendimento humano!",
   "img":"/img/illustrations/ilustracao-categorias.svg",
   "from":"BLiP Help Center >",
-  "session": "Canais",
-  "here":"Utilizando o BLiP Desk",
+  "session": "Áreas do BLiP",
+  "session_url": "/blipareas", 
+  "here":"Atendimento Humano",
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
      {  

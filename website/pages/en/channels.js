@@ -6,6 +6,8 @@ const data = {
   "subtitle": "Conheça todos os canais que o BLiP oferece",
   "img": "/img/illustrations/Ilustracao-categorias.svg",
   "from": "BLiP Help Center >",
+  "session": "Áreas do BLiP",
+  "session_url": "/blipareas", 
   "here": "Canais",
   "intro": "Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards": [
@@ -140,6 +142,7 @@ class Channels extends React.Component {
         <div className="pages-content-category">
           <div className="navigation">
             <p className="from">{data.from}</p>
+            <p className="from"><a className="link-from" href={data.session_url}>{data.session}</a> ></p>
             <p className="here">{data.here}</p>
           </div>
           <div className="info-category">

@@ -6,7 +6,9 @@ const data = {
   "subtitle":"Tire o máximo de proveito utilizando as ferramentas Métricas e Analytics",
   "img":"/img/illustrations/ilustracao-categorias.svg",
   "from":"BLiP Help Center >",
-  "here":"Growth",
+  "session": "Áreas do BLiP",
+  "session_url": "/blipareas", 
+  "here":"Métricas e Analytics",
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
      {  
@@ -91,6 +93,7 @@ class Analytics extends React.Component{
               <div className="pages-content">
                 <div className="navigation">
                   <p className="from">{data.from}</p>
+                  <p className="from"><a className="link-from" href={data.session_url}>{data.session}</a> ></p>
                   <p className="here">{data.here}</p>
                 </div>
                 <div className="info">
