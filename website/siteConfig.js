@@ -49,7 +49,7 @@ const siteConfig = {
     {doc: 'concepts/builder/builder-visao-geral-variaveis', label: 'Artigos'},
     {page: 'blipareas', label: 'Áreas do BLiP'},
     {page: 'resources', label: 'Recursos'},
-    {page: 'help', label: 'Cursos'},
+    {page: 'courses', label: 'Cursos'},
     {page: 'help', label: 'Comunidade'},
     {page: 'help', label: 'Políticas'},
     {languages: true},
