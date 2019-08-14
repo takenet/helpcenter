@@ -312,6 +312,18 @@
     margin-left: 1% !important;
   }
 
+  .cards .card-0,
+  .cards .card-1,
+  .cards .card-2,
+  .cards .card-3,
+  .cards .card-4,
+  .cards .card-5,
+  .cards .card-6 {
+    width: 100% !important;
+    margin-left: 1% !important;
+    margin-top: 2%;
+  }
+
   .cards .card:nth-child(1) {
     margin-left: 1% !important;
   }
@@ -337,6 +349,12 @@
   .cards .seeMore {
     margin-top: 8% !important;
     padding-left: 5%;
+  }
+
+  .abstract-area {
+    margin-top: 3% !important;
+    padding-left: 5%;
+    width: 95%;
   }
 
   .pages-content .cards-faq {
