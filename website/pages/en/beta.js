@@ -132,13 +132,16 @@ class ScriptForm extends React.Component {
                         __html: `
                     var btn = document.getElementById("Bsubmit");
                     var e = document.getElementById("email");
+                    var data = {
+	                            "Email": "bruno_camarda@hotmail.com"
+                                }
+                    var json = JSON.parse(data);
 
                     btn.onclick = function() {
                         var xhr = new XMLHttpRequest();
-                        xhr.open("POST", "https://gw.msging.net/httpreceiver/fd3c240f-c602-406d-b081-f347a68c72eb");
-                        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-                        xhr.setRequestHeader("Access-Control-Allow-Headers", "*");
-                        xhr.send(data);
+                        xhr.open("POST", "localhost:3000");
+                        xhr.setRequestHeader("Content-Type", "application/json");
+                        xhr.send(json);
  
                     }
                 `
