@@ -45,6 +45,7 @@ class Changelog extends React.Component{
               <div className="pages-content">
                 <div className="navigation">
                   <p className="from">BLiP Help Center ></p>
+                  <p className="from"><a className="link-from" href="/resources">Recursos</a> ></p>
                   <p className="here">Versionamento</p>
                 </div>
                 <div className="info">
