@@ -2,7 +2,7 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = {
-    "title": "Curso",
+    "title": "Cursos",
     "subtitle": "Cursos para você aprender a usar o BLiP",
     "img": "/img/illustrations/ilustracao-categorias.svg",
     "from": "BLiP Help Center >",
@@ -98,5 +98,5 @@ class Courses extends React.Component {
     }
 }
 
-Courses.title = 'Courses';
+Courses.title = 'Cursos';
 module.exports = Courses; 
