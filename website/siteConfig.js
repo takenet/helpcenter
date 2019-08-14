@@ -50,8 +50,7 @@ const siteConfig = {
     {page: 'blipareas', label: 'Áreas do BLiP'},
     {page: 'resources', label: 'Recursos'},
     {page: 'courses', label: 'Cursos'},
-    {page: 'help', label: 'Comunidade'},
-    {page: 'help', label: 'Políticas'},
+    {page: 'Community', label: 'Comunidade'},
     {languages: true},
     {search: true}
   ],
