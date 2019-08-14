@@ -47,7 +47,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'concepts/builder/builder-visao-geral-variaveis', label: 'Artigos'},
-    {page: 'channels', label: 'Canais'},
+    {page: 'blipareas', label: 'Áreas do BLiP'},
     {page: 'integrations', label: 'Integrações'},
     {page: 'help', label: 'Cursos'},
     {page: 'help', label: 'Comunidade'},
