@@ -31,8 +31,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   algolia: {
-    apiKey: 'dba1ba1153052cc0f5f78d622135cedf',
-    indexName: 'hmg_helpcenter',
+    apiKey: '1547b084568ff1ef72b9714cde5ac362',
+    indexName: 'blip',
     placeholder: 'Pesquisa',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
@@ -46,7 +46,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'concepts/builder/builder-visao-geral-variaveis', label: 'Artigos'},
+    {doc: 'introduction/introduction-visao-geral-da-plataforma', label: 'Artigos'},
     {page: 'blipareas', label: 'Áreas do BLiP'},
     {page: 'resources', label: 'Recursos'},
     {page: 'courses', label: 'Cursos'},

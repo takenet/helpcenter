@@ -1,287 +1,198 @@
 {
   "docs": {
-    "Conceitos" : [
-      {
-        "type": "subcategory",
-        "label": "Getting Started",
-        "ids":
-          [
-            "concepts/getting-started/gs-visao-geral-da-plataforma",
-            "concepts/getting-started/gs-como-criar-um-bot-com-builder",
-            "concepts/getting-started/gs-visao-geral-do-builder"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Geral",
-        "ids": 
-          [
-            "concepts/general/gen-politica-de-violacao-mensagens"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Builder",
-        "ids": 
-          [
-          "concepts/builder/builder-visao-geral-variaveis", 
-          "concepts/builder/builder-o-que-sao-blocos-de-controle", 
-          "concepts/builder/builder-o-que-e-um-bloco-de-conteudo", 
-          "concepts/builder/builder-visao-geral-dos-tipos-de-conteudo", 
-          "concepts/builder/builder-visao-geral-das-condicoes-de-saida",
-          "concepts/builder/builder-visao-geral-das-acoes",
-          "concepts/builder/builder-o-que-e-um-bloco-de-atendimento",
-          "concepts/builder/builder-o-que-e-um-weblink", 
-          "concepts/builder/builder-o-que-sao-listas-de-distribuicao"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Bots",
-        "ids": 
-          [
-            "concepts/bots/bots-chatbots-e-a-importancia-contexto"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "AI",
-        "ids": 
-          [
-            "concepts/ai/ai-conceitos-basicos-nlp-e-ai", 
-            "concepts/ai/ai-importancia-de-ia-nlp-chatbots",
-            "concepts/ai/ai-o-que-e-intencao", 
-            "concepts/ai/ai-o-que-e-entidade",
-            "concepts/ai/ai-boas-praticas-para-criar-um-bom-modelo-nlp"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Integração",
-        "ids": 
-          [
-            "concepts/integration/integ-integracao-ferramentas-analytics"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Métricas",
-        "ids": 
-        [
-          "concepts/metrics/metrics-entendendo-diferentes-tipos-msg",
-          "concepts/metrics/metrics-descricao-metricas-blip",
-          "concepts/metrics/metrics-o-que-sao-usuarios-unicos"
-        ]
-      },
-      {
-        "type": "subcategory",
-        "label": "API HTTP e SDKs",
-        "ids": 
-          [
-            "concepts/api-http-sdk/api-http-sdk-facilitando-criacao-do-chatbot-atraves-extensoes",
-            "concepts/api-http-sdk/api-http-sdk-construcao-bot-atraves-api-sdk"
-          ]
-      },
+    "Introdução": [
+      "introduction/introduction-visao-geral-da-plataforma",
+      "introduction/introduction-como-criar-um-bot-com-builder"
+    ],
+    "Canais": [
       {
         "type": "subcategory",
         "label": "BLiP Chat",
-        "ids": 
+        "ids":
           [
-            "concepts/blip-chat/chat-o-que-e-blip-chat",
-            "concepts/blip-chat/chat-tipos-de-autenticacao-chat"
+            "channels/blip-chat/chat-o-que-e-blip-chat",
+            "channels/blip-chat/chat-customizacoes-disponiveis-blip-chat",
+            "channels/blip-chat/chat-tipos-de-autenticacao-chat",
+            "channels/blip-chat/chat-adicionar-blip-chat-site-wix",
+            "channels/blip-chat/chat-adicionar-blip-chat-site-wordpress",
+            "channels/blip-chat/chat-adicionar-bot-site-blip-chat",
+            "channels/blip-chat/chat-permitir-envio-de-arquivos-blip-chat",
+            "channels/blip-chat/chat-customizando-o-blip-chat-widget-com-css",
+            "channels/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip",
+            "channels/blip-chat/chat-adicionando-push-notification-blip-chat-android",
+            "channels/blip-chat/chat-como-adicionar-bot-em-app-ios-utilizando-blip"
           ]
       },
       {
         "type": "subcategory",
-        "label": "BLiP Desk",
-        "ids": 
+        "label": "Messenger",
+        "ids":
           [
-            "concepts/blip-desk/desk-descricao-metricas-desk",
-            "concepts/blip-desk/desk-visao-geral-desk"
+            "channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook"
           ]
       },
       {
         "type": "subcategory",
-        "label": "Router",
-        "ids": 
+        "label": "WhatsApp",
+        "ids":
           [
-            "concepts/router/router-hierarquia-bots-subbots"
+            "channels/whatsapp/whatsapp-criando-solucao-atendimento-humano-whatsapp",
+            "channels/whatsapp/whatsapp-enviar-notificacao-whatsapp-blip-api"
           ]
       },
       {
         "type": "subcategory",
-        "label": "Canais",
-        "ids": 
+        "label": "Workplace",
+        "ids":
           [
-            "concepts/channels/channels-o-que-e-workplace"
+            "channels/workplace/workplace-o-que-e-workplace",
+            "channels/workplace/workplace-publicando-chatbot-no-workplace"
           ]
       }
     ],
-    "Prática" : [
+    "Builder": [
+      "builder/builder-visao-geral-do-builder",
+      "builder/builder-o-que-sao-blocos-de-controle", 
+      "builder/builder-o-que-e-um-bloco-de-conteudo", 
+      "builder/builder-visao-geral-dos-tipos-de-conteudo",
+      "builder/builder-visao-geral-variaveis",
+      "builder/builder-visao-geral-das-condicoes-de-saida",
+      "builder/builder-visao-geral-das-acoes",
+      "builder/builder-o-que-e-um-bloco-de-atendimento",
+      "builder/builder-o-que-e-um-weblink", 
+      "builder/builder-o-que-sao-listas-de-distribuicao",
+      "builder/builder-salvando-informacoes-de-um-usuario",
+      "builder/builder-importando-o-fluxo-de-um-bot-no-builder",
+      "builder/builder-como-utilizar-debug-builder",
+      "builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat",
+      "builder/builder-verificar-se-existe-atendente-disponível-no-builder",
+      "builder/builder-enviando-email-pelo-bot-atraves-do-builder",
+      "builder/builder-proporcao-de-exibicao-de-imagens",
+      "builder/builder-acao-processar-comando",
+      "builder/builder-expirando-sessao-usuarios-builder",
+      "builder/builder-definindo-acoes-globais", 
+      "builder/builder-criando-acoes-condicionais",
+      "builder/builder-como-definir-um-tempo-limite-para-acoes-do-builder"
+    ],
+    "Inteligência Artificial": [
       {
         "type": "subcategory",
-        "label": "Growth",
-        "ids": [
-          "practice/growth/growth-criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot",
-          "practice/growth/growth-como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads",
-          "practice/growth/growth-obtendo-o-numero-de-usuarios-afetados-por-um-broadcast"
-        ]
-      },
-      {
-        "type": "subcategory",
-        "label": "BLiP Desk",
-        "ids": 
+        "label": "Programação Neurolinguística (NLP)",
+        "ids":
           [
-            "practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk",
-            "practice/blip-desk/desk-como-filtrar-ticket-id",
-            "practice/blip-desk/desk-utilizando-variav-respostas",
-            "practice/blip-desk/desk-como-definir-regras-atendimento",
-            "practice/blip-desk/desk-gerenciamento-equipes",
-            "practice/blip-desk/desk-como-ativar-blip-desk-canal",
-            "practice/blip-desk/desk-habilitando-uso-emoji-desk",
-            "practice/blip-desk/desk-configurar-alertas-inatividade-clientes-blip-desk",
-            "practice/blip-desk/desk-definindo-alerta-tempo-resposta-atendente",
-            "practice/blip-desk/desk-utilizar-live-agent-salesForce-atendimento-humano"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Gestão",
-        "ids": 
-          [
-            "practice/management/mana-como-marcar-contato-como-teste",
-            "practice/management/mana-configuracoes-avancadas-bot", 
-            "practice/management/mana-gerenciando-permissoes-acesso-equipe",
-            "practice/management/mana-transcricao-conversas-contatos"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "API HTTP e SDKs",
-        "ids": 
-          [
-            "practice/api-http-sdks/api-http-sdks-como-encontrar-a-api-key-do-meu-bot",
-            "practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger",
-            "practice/api-http-sdks/api-http-sdks-criando-um-bot-para-busca-de-imagens-no-bing",
-            "practice/api-http-sdks/api-http-sdks-criando-um-chatbot-curriculo-usando-api-http",
-            "practice/api-http-sdks/api-http-sdks-sdk-csharp-com-suporte-a-dotnet-core",
-            "practice/api-http-sdks/api-http-sdks-sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo",
-            "practice/api-http-sdks/api-http-sdks-sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Builder",
-        "ids": 
-          [
-            "practice/builder/builder-salvando-informacoes-de-um-usuario",
-            "practice/builder/builder-importando-o-fluxo-de-um-bot-no-builder",
-            "practice/builder/builder-como-utilizar-debug-builder",
-            "practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat",
-            "practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder",
-            "practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder",
-            "practice/builder/builder-proporcao-de-exibicao-de-imagens",
-            "practice/builder/builder-acao-processar-comando",
-            "practice/builder/builder-expirando-sessao-usuarios-builder",
-            "practice/builder/builder-definindo-acoes-globais", 
-            "practice/builder/builder-criando-acoes-condicionais",
-            "practice/builder/builder-como-definir-um-tempo-limite-para-acoes-do-builder"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "BLiP Chat",
-        "ids": 
-          [
-            "practice/blip-chat/chat-adicionar-bot-site-blip-chat",
-            "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat",
-            "practice/blip-chat/chat-adicionando-push-notification-blip-chat-android",
-            "practice/blip-chat/chat-adicionar-blip-chat-site-wix",
-            "practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css",
-            "practice/blip-chat/chat-adicionar-blip-chat-site-wordpress",
-            "practice/blip-chat/chat-permitir-envio-de-arquivos-blip-chat",
-            "practice/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip",
-            "practice/blip-chat/chat-como-adicionar-bot-em-app-ios-utilizando-blip"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Canais",
-        "ids": 
-          [
-            "practice/channels/channels-publicando-chatbot-no-workplace",
-            "practice/channels/channels-criando-graficos-em-um-relatorio-customizado",
-            "practice/channels/channels-como-configurar-sua-propria-aplicacao-facebook",
-            "practice/channels/channels-criando-solucao-atendimento-humano-whatsapp",
-            "practice/channels/channels-enviar-notificacao-whatsapp-blip-api"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "AI",
-        "ids": 
-          [
-            "practice/ai/ai-como-testar-modelo-nlp",
-            "practice/ai/ai-como-criar-uma-intencao",
-            "practice/ai/ai-como-criar-uma-entidade",
-            "practice/ai/ai-treinando-publicando-modelo-de-ia",
-            "practice/ai/ai-como-exportar-base-conhecimento",
-            "practice/ai/ai-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip", 
-            "practice/ai/ai-como-configurar-dialogflow",
-            "practice/ai/ai-como-configurar-watson",
-            "practice/ai/ai-como-aprimorar-meu-modelo-de-inteligencia-artificial"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Análise de Dados",
-        "ids": 
-          [
-            "practice/data-analytics/da-tratando-eventos-not-handled-sessionFlow-chatbase"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Router",
-        "ids": 
-          [
-            "practice/router/router-criando-bot-com-3-subbots"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Integrações",
-        "ids": 
-          [
-            "practice/integrations/integ-chatbase-como-enviar-dados-chatbase",
-            "practice/integrations/integ-agendando-uma-mensagem-scheduler",
-            "practice/integrations/integ-dashbot-como-enviar-dados-dashbot",
-            "practice/integrations/integ-botanalytics-como-enviar-dados-botanalytics",
-            "practice/integrations/integ-enviando-dados-atraves-webhook",
-            "practice/integrations/integ-event-track-sdk-csharp",
-            "practice/integrations/integ-texto-rotativo-spintax"
-          ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Contatos",
-        "ids": 
-          [
-            "practice/contacts/contacts-como-encontrar-id-usuario"
+            "ai/nlp/nlp-conceitos-basicos-nlp-e-ai", 
+            "ai/nlp/nlp-importancia-de-ia-nlp-chatbots",
+            "ai/nlp/nlp-o-que-e-intencao", 
+            "ai/nlp/nlp-o-que-e-entidade",
+            "ai/nlp/nlp-boas-praticas-para-criar-um-bom-modelo-nlp",
+            "ai/nlp/nlp-como-testar-modelo-nlp",
+            "ai/nlp/nlp-como-criar-uma-intencao",
+            "ai/nlp/nlp-como-criar-uma-entidade",
+            "ai/nlp/nlp-treinando-publicando-modelo-de-ia",
+            "ai/nlp/nlp-como-exportar-base-conhecimento",
+            "ai/nlp/nlp-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip", 
+            "ai/nlp/nlp-como-configurar-dialogflow",
+            "ai/nlp/nlp-como-configurar-watson",
+            "ai/nlp/nlp-como-aprimorar-meu-modelo-de-inteligencia-artificial"
           ]
       }
-    ], 
-    "Geral" : [
+    ],
+    "Atendimento Humano": [
+      "helpdesk/desk-descricao-metricas-desk",
+      "helpdesk/desk-visao-geral-desk",
+      "helpdesk/desk-como-realizar-um-atendimento-atraves-do-blip-desk",
+      "helpdesk/desk-como-filtrar-ticket-id",
+      "helpdesk/desk-utilizando-variav-respostas",
+      "helpdesk/desk-como-definir-regras-atendimento",
+      "helpdesk/desk-gerenciamento-equipes",
+      "helpdesk/desk-como-ativar-blip-desk-canal",
+      "helpdesk/desk-habilitando-uso-emoji-desk",
+      "helpdesk/desk-configurar-alertas-inatividade-clientes-blip-desk",
+      "helpdesk/desk-definindo-alerta-tempo-resposta-atendente",
+      "helpdesk/desk-utilizar-live-agent-salesForce-atendimento-humano"
+    ],
+    "Gestão": [
+      "management/management-como-encontrar-id-usuario",
+      "management/management-como-marcar-contato-como-teste",
+      "management/management-configuracoes-avancadas-bot", 
+      "management/management-gerenciando-permissoes-acesso-equipe",
+      "management/management-transcricao-conversas-contatos"
+    ],
+    "Métricas e Analytics": [
+      "analytics/analytics-integracao-ferramentas-analytics",
       {
-      "type": "subcategory",
-      "label": "Ferramentas Auxiliares",
-      "ids": 
-        [
-          "general/auxiliary-tools/aux-central-notificacoes",
-          "general/auxiliary-tools/aux-utilizando-textc-construir-conversa"
-
-        ]
+        "type": "subcategory",
+        "label": "BLiP Analytics",
+        "ids":
+          [
+            "analytics/blip-analytics/blip-analytics-criando-graficos-em-um-relatorio-customizado",
+            "analytics/blip-analytics/blip-analytics-entendendo-diferentes-tipos-msg",
+            "analytics/blip-analytics/blip-analytics-descricao-metricas-blip",
+            "analytics/blip-analytics/blip-analytics-o-que-sao-usuarios-unicos"
+          ]
       },
+      {
+        "type": "subcategory",
+        "label": "BotAnalytics",
+        "ids":
+          [
+            "analytics/botanalytics/botanalytics-como-enviar-dados-botanalytics"
+          ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Chatbase",
+        "ids":
+          [
+            "analytics/chatbase/chatbase-tratando-eventos-not-handled-sessionFlow-chatbase",
+            "analytics/chatbase/chatbase-como-enviar-dados-chatbase"
+          ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Dashbot",
+        "ids":
+          [
+            "analytics/dashbot/dashbot-como-enviar-dados-dashbot"
+          ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Webhook",
+        "ids":
+          [
+            "analytics/webhook/webhook-enviando-dados-atraves-webhook"
+          ]
+      }
+    ],
+    "Retenção e Engajamento (Growth)": [
+      "growth/growth-criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot",
+      "growth/growth-como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads",
+      "growth/growth-obtendo-o-numero-de-usuarios-afetados-por-um-broadcast"
+    ],
+    "Router": [
+      "router/router-criando-bot-com-3-subbots",
+      "router/router-hierarquia-bots-subbots"
+    ],
+    "API e SDKs": [
+      "api-sdks/api-sdks-utilizando-textc-construir-conversa",
+      "api-sdks/api-sdks-facilitando-criacao-do-chatbot-atraves-extensoes",
+      "api-sdks/api-sdks-construcao-bot-atraves-api-sdk",
+      "api-sdks/api-sdks-como-encontrar-a-api-key-do-meu-bot",
+      "api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger",
+      "api-sdks/api-sdks-criando-um-bot-para-busca-de-imagens-no-bing",
+      "api-sdks/api-sdks-criando-um-chatbot-curriculo-usando-api-http",
+      "api-sdks/api-sdks-sdk-csharp-com-suporte-a-dotnet-core",
+      "api-sdks/api-sdks-sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo",
+      "api-sdks/api-sdks-sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario",
+      "api-sdks/api-sdks-agendando-uma-mensagem-scheduler",
+      "api-sdks/api-sdks-event-track-sdk-csharp",
+      "api-sdks/api-sdks-texto-rotativo-spintax"
+    ],
+    "Geral" : [
+      "general/general-central-notificacoes",
+      "general/general-politica-de-violacao-mensagens",
+      "general/general-chatbots-e-a-importancia-contexto",
       {
         "type": "subcategory",
         "label": "Level Up",

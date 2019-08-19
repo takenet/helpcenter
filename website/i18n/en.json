@@ -5,140 +5,320 @@
     "previous": "Previous",
     "tagline": "BLiP | Help Center",
     "docs": {
-      "api": {
-        "title": "api"
-      },
-      "concepts/ai/ai-boas-praticas-para-criar-um-bom-modelo-nlp": {
+      "ai/nlp/nlp-boas-praticas-para-criar-um-bom-modelo-nlp": {
         "title": "Boas práticas para criar um bom modelo de NLP",
         "sidebar_label": "Boas práticas para criar um bom modelo de NLP"
       },
-      "concepts/ai/ai-conceitos-basicos-nlp-e-ai": {
+      "ai/nlp/nlp-como-aprimorar-meu-modelo-de-inteligencia-artificial": {
+        "title": "Como aprimorar meu modelo de inteligência artificial",
+        "sidebar_label": "Como aprimorar meu modelo de inteligência artificial"
+      },
+      "ai/nlp/nlp-como-configurar-dialogflow": {
+        "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
+        "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
+      },
+      "ai/nlp/nlp-como-configurar-watson": {
+        "title": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial",
+        "sidebar_label": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial"
+      },
+      "ai/nlp/nlp-como-criar-uma-entidade": {
+        "title": "Como criar uma entidade",
+        "sidebar_label": "Como criar uma entidade"
+      },
+      "ai/nlp/nlp-como-criar-uma-intencao": {
+        "title": "Como criar uma intenção",
+        "sidebar_label": "Como criar uma intenção"
+      },
+      "ai/nlp/nlp-como-exportar-base-conhecimento": {
+        "title": "Como importar/exportar uma base de conhecimento",
+        "sidebar_label": "Como importar/exportar uma base de conhecimento"
+      },
+      "ai/nlp/nlp-como-testar-modelo-nlp": {
+        "title": "Como testar seu modelo de NLP",
+        "sidebar_label": "Como testar seu modelo de NLP"
+      },
+      "ai/nlp/nlp-conceitos-basicos-nlp-e-ai": {
         "title": "Conceitos básicos para utilizar NLP e IA em chatbots",
         "sidebar_label": "Conceitos básicos para utilizar NLP e IA em chatbots"
       },
-      "concepts/ai/ai-importancia-de-ia-nlp-chatbots": {
+      "ai/nlp/nlp-importancia-de-ia-nlp-chatbots": {
         "title": "Importância de IA e NLP para chatbots",
         "sidebar_label": "Importância de IA e NLP para chatbots"
       },
-      "concepts/ai/ai-o-que-e-entidade": {
+      "ai/nlp/nlp-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip": {
+        "title": "Importar modelo de NLP (intenções e entidades) pré-existente no BLiP",
+        "sidebar_label": "Importar modelo de NLP (intenções e entidades) pré-existente no BLiP"
+      },
+      "ai/nlp/nlp-o-que-e-entidade": {
         "title": "O que é uma entidade?",
         "sidebar_label": "O que é uma entidade?"
       },
-      "concepts/ai/ai-o-que-e-intencao": {
+      "ai/nlp/nlp-o-que-e-intencao": {
         "title": "O que é intenção?",
         "sidebar_label": "O que é intenção?"
       },
-      "concepts/api-http-sdk/api-http-sdk-construcao-bot-atraves-api-sdk": {
-        "title": "Construção de bots através de SDKs ou API HTTP",
-        "sidebar_label": "Construção de bots através de SDKs ou API HTTP"
+      "ai/nlp/nlp-treinando-publicando-modelo-de-ia": {
+        "title": "Treinando e publicando seu modelo de inteligência artificial",
+        "sidebar_label": "Treinando e publicando sue modelo de inteligência artificial"
       },
-      "concepts/api-http-sdk/api-http-sdk-facilitando-criacao-do-chatbot-atraves-extensoes": {
-        "title": "Facilitando a criação do seu chatbot através das extensões",
-        "sidebar_label": "Facilitando a criação do seu chatbot através das extensões"
-      },
-      "concepts/blip-chat/chat-o-que-e-blip-chat": {
-        "title": "O que é o BLiP Chat?",
-        "sidebar_label": "O que é o BLiP Chat?"
-      },
-      "concepts/blip-chat/chat-tipos-de-autenticacao-chat": {
-        "title": "Tipos de autenticação dos usuários no BLiP Chat",
-        "sidebar_label": "Tipos de autenticação dos usuários no BLiP Chat"
-      },
-      "concepts/blip-desk/desk-descricao-metricas-desk": {
-        "title": "Descrição das métricas do BLiP Desk",
-        "sidebar_label": "Descrição das métricas do BLiP Desk"
-      },
-      "concepts/blip-desk/desk-visao-geral-desk": {
-        "title": "Visão geral do BLiP Desk",
-        "sidebar_label": "Visão geral do BLiP Desk"
-      },
-      "concepts/bots/bots-chatbots-e-a-importancia-contexto": {
-        "title": "Chatbots e a importância do contexto",
-        "sidebar_label": "Chatbots e a importância do contexto"
-      },
-      "concepts/builder/builder-o-que-e-um-bloco-de-atendimento": {
-        "title": "[Builder] O que é um bloco de atendimento",
-        "sidebar_label": "[Builder] O que é um bloco de atendimento"
-      },
-      "concepts/builder/builder-o-que-e-um-bloco-de-conteudo": {
-        "title": "[Builder] O que é um bloco de contéudo",
-        "sidebar_label": "[Builder] O que é um bloco de conteúdo"
-      },
-      "concepts/builder/builder-o-que-e-um-weblink": {
-        "title": "[Builder] O que é um Weblink?",
-        "sidebar_label": "[Builder] O que é um Weblink?"
-      },
-      "concepts/builder/builder-o-que-sao-blocos-de-controle": {
-        "title": "[Builder] O que são blocos de controle (Início e Exceção)",
-        "sidebar_label": "[Builder] O que são blocos de controle (Início e Exceção)"
-      },
-      "concepts/builder/builder-o-que-sao-listas-de-distribuicao": {
-        "title": "[Builder] O que são listas de distribuição",
-        "sidebar_label": "[Builder] O que são listas de distribuição"
-      },
-      "concepts/builder/builder-visao-geral-das-acoes": {
-        "title": "[Builder] Visão geral das ações",
-        "sidebar_label": "[Builder] Visão geral das ações"
-      },
-      "concepts/builder/builder-visao-geral-das-condicoes-de-saida": {
-        "title": "[Builder] Visão geral das condições de saída",
-        "sidebar_label": "[Builder] Visão geral das condições de saída"
-      },
-      "concepts/builder/builder-visao-geral-dos-tipos-de-conteudo": {
-        "title": "[Builder] Visão geral dos tipos de conteúdo",
-        "sidebar_label": "[Builder] Visão geral dos tipos de conteúdo"
-      },
-      "concepts/builder/builder-visao-geral-variaveis": {
-        "title": "[Builder] Visão geral das variáveis",
-        "sidebar_label": "[Builder] Visão geral das variáveis"
-      },
-      "concepts/channels/channels-o-que-e-workplace": {
-        "title": "O que é Workplace?",
-        "sidebar_label": "O que é o Workplace?"
-      },
-      "concepts/general/gen-politica-de-violacao-mensagens": {
-        "title": "Política de violação de mensagens ativas do BLiP",
-        "sidebar_label": "Política de violação de mensagens ativas do BLiP"
-      },
-      "concepts/getting-started/gs-como-criar-um-bot-com-builder": {
-        "title": "Como criar um bot com o Builder do BLiP",
-        "sidebar_label": "Como criar um bot com o Builder do BLiP"
-      },
-      "concepts/getting-started/gs-visao-geral-da-plataforma": {
-        "title": "Visão geral da plataforma",
-        "sidebar_label": "Visão geral da plataforma"
-      },
-      "concepts/getting-started/gs-visao-geral-do-builder": {
-        "title": "Visão geral do Builder",
-        "sidebar_label": "Visão geral do Builder"
-      },
-      "concepts/integration/integ-integracao-ferramentas-analytics": {
+      "analytics/analytics-integracao-ferramentas-analytics": {
         "title": "Integração com ferramentas de analytics",
         "sidebar_label": "Integração com ferramentas de analytics"
       },
-      "concepts/metrics/metrics-descricao-metricas-blip": {
+      "analytics/blip-analytics/blip-analytics-criando-graficos-em-um-relatorio-customizado": {
+        "title": "Criando gráficos em um relatório customizado",
+        "sidebar_label": "Criando gráficos em um relatório customizado"
+      },
+      "analytics/blip-analytics/blip-analytics-descricao-metricas-blip": {
         "title": "Descrição das métricas geradas pelo BLiP",
         "sidebar_label": "Descrição das métricas geradas pelo BLiP"
       },
-      "concepts/metrics/metrics-entendendo-diferentes-tipos-msg": {
+      "analytics/blip-analytics/blip-analytics-entendendo-diferentes-tipos-msg": {
         "title": "Entendendo os diferentes tipos de mensagem do BLiP",
         "sidebar_label": "Entendendo os diferentes tipos de mensagem do BLiP"
       },
-      "concepts/metrics/metrics-o-que-sao-usuarios-unicos": {
+      "analytics/blip-analytics/blip-analytics-o-que-sao-usuarios-unicos": {
         "title": "O que são usuários únicos do BLiP",
         "sidebar_label": "O que são usuários únicos do BLiP"
       },
-      "concepts/router/router-hierarquia-bots-subbots": {
-        "title": "Hierarquia (ou arquitetura) de bots e subbots",
-        "sidebar_label": "Hierarquia (ou arquitetura) de bots e subbots"
+      "analytics/botAnalytics/botanalytics-como-enviar-dados-botanalytics": {
+        "title": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?",
+        "sidebar_label": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?"
       },
-      "general/auxiliary-tools/aux-central-notificacoes": {
+      "analytics/chatbase/chatbase-como-enviar-dados-chatbase": {
+        "title": "Integração Chatbase - Como enviar dados de um bot para o Chatbase?",
+        "sidebar_label": "Integração Chatbase - Como enviar dados de um bot para um Chatbase?"
+      },
+      "analytics/chatbase/chatbase-tratando-eventos-not-handled-sessionFlow-chatbase": {
+        "title": "Tratando eventos not_Handled no relatório SessionFlow do Chatbase",
+        "sidebar_label": "Tratando eventos not_Handled no relatório SessionFlow do Chatbase"
+      },
+      "analytics/dashbot/dashbot-como-enviar-dados-dashbot": {
+        "title": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?",
+        "sidebar_label": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?"
+      },
+      "analytics/webhook/webhook-enviando-dados-atraves-webhook": {
+        "title": "Enviando dados do seu bot através de Webhooks",
+        "sidebar_label": "Enviando dados do seu bot através de Webhooks"
+      },
+      "api-sdks/api-sdks-agendando-uma-mensagem-scheduler": {
+        "title": "Agendando uma mensagem com a extensão scheduler",
+        "sidebar_label": "Agendando uma mensagem com a extensão scheduler"
+      },
+      "api-sdks/api-sdks-como-encontrar-a-api-key-do-meu-bot": {
+        "title": "Como encontrar a API-KEY do meu bot?",
+        "sidebar_label": "Como encontrar a API-KEY do meu bot?"
+      },
+      "api-sdks/api-sdks-construcao-bot-atraves-api-sdk": {
+        "title": "Construção de bots através de SDKs ou API HTTP",
+        "sidebar_label": "Construção de bots através de SDKs ou API HTTP"
+      },
+      "api-sdks/api-sdks-criando-um-bot-para-busca-de-imagens-no-bing": {
+        "title": "Criando um bot para busca de imagens no BING",
+        "sidebar_label": "Criando um bot para busca de imagens no BING"
+      },
+      "api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger": {
+        "title": "[HTTP] Criando um bot para receber feeds no Messenger",
+        "sidebar_label": "[HTTP] Criando um bot para receber feeds no Messenger"
+      },
+      "api-sdks/api-sdks-criando-um-chatbot-curriculo-usando-api-http": {
+        "title": "Criando um chatbot 'currículo' usando API HTTP",
+        "sidebar_label": "Criando um chatbot 'currículo' usando API HTTP"
+      },
+      "api-sdks/api-sdks-event-track-sdk-csharp": {
+        "title": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade",
+        "sidebar_label": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade"
+      },
+      "api-sdks/api-sdks-facilitando-criacao-do-chatbot-atraves-extensoes": {
+        "title": "Facilitando a criação do seu chatbot através das extensões",
+        "sidebar_label": "Facilitando a criação do seu chatbot através das extensões"
+      },
+      "api-sdks/api-sdks-sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario": {
+        "title": "[SDK C#] Armazenando o último acesso de um usuário",
+        "sidebar_label": "[SDK C#] Armazenando o último acesso de um usuário"
+      },
+      "api-sdks/api-sdks-sdk-csharp-com-suporte-a-dotnet-core": {
+        "title": "SDK C# com suporte a .NET Core",
+        "sidebar_label": "SDK C# com suporte a .NET Core"
+      },
+      "api-sdks/api-sdks-sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo": {
+        "title": "[SDK C#] Criando uma lista de distribuição de conteúdo",
+        "sidebar_label": "[SDK C#] Criando uma lista de distribuição de conteúdo"
+      },
+      "api-sdks/api-sdks-texto-rotativo-spintax": {
+        "title": "Texto rotativo com spintax",
+        "sidebar_label": "Texto rotativo com spintax"
+      },
+      "api-sdks/api-sdks-utilizando-textc-construir-conversa": {
+        "title": "Utilizando o Textc para construir uma conversa contextual",
+        "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
+      },
+      "api": {
+        "title": "api"
+      },
+      "builder/builder-acao-processar-comando": {
+        "title": "Ação: Processar Comando",
+        "sidebar_label": "Ação: Processar Comando"
+      },
+      "builder/builder-como-definir-um-tempo-limite-para-acoes-do-builder": {
+        "title": "Como definir um tempo limite (timeout) para ações do Builder",
+        "sidebar_label": "Como definir um tempo limite (timeout) para ações do Builder"
+      },
+      "builder/builder-como-utilizar-debug-builder": {
+        "title": "Como utilizar a ferramenta de debug do Builder",
+        "sidebar_label": "Como utilizar a ferramenta de debug do Builder"
+      },
+      "builder/builder-criando-acoes-condicionais": {
+        "title": "Criando ações condicionais",
+        "sidebar_label": "Criando ações condicionais"
+      },
+      "builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat": {
+        "title": "Criando um elemento web através de um weblink no BLiP Chat",
+        "sidebar_label": "Criando um elemento web através de um weblink no BLiP Chat"
+      },
+      "builder/builder-definindo-acoes-globais": {
+        "title": "Definindo ações globais no Builder",
+        "sidebar_label": "Definindo ações globais no Builder"
+      },
+      "builder/builder-enviando-email-pelo-bot-atraves-do-builder": {
+        "title": "Enviando email pelo bot através do Builder",
+        "sidebar_label": "Enviando email pelo bot através do Builder"
+      },
+      "builder/builder-expirando-sessao-usuarios-builder": {
+        "title": "Expirando a sessão dos usuários do Builder",
+        "sidebar_label": "Expirando a sessão dos usuários do Builder"
+      },
+      "builder/builder-importando-o-fluxo-de-um-bot-no-builder": {
+        "title": "Importando o fluxo de um bot no Builder",
+        "sidebar_label": "Importando o fluxo de um bot no Builder"
+      },
+      "builder/builder-o-que-e-um-bloco-de-atendimento": {
+        "title": "[Builder] O que é um bloco de atendimento",
+        "sidebar_label": "[Builder] O que é um bloco de atendimento"
+      },
+      "builder/builder-o-que-e-um-bloco-de-conteudo": {
+        "title": "[Builder] O que é um bloco de contéudo",
+        "sidebar_label": "[Builder] O que é um bloco de conteúdo"
+      },
+      "builder/builder-o-que-e-um-weblink": {
+        "title": "[Builder] O que é um Weblink?",
+        "sidebar_label": "[Builder] O que é um Weblink?"
+      },
+      "builder/builder-o-que-sao-blocos-de-controle": {
+        "title": "[Builder] O que são blocos de controle (Início e Exceção)",
+        "sidebar_label": "[Builder] O que são blocos de controle (Início e Exceção)"
+      },
+      "builder/builder-o-que-sao-listas-de-distribuicao": {
+        "title": "[Builder] O que são listas de distribuição",
+        "sidebar_label": "[Builder] O que são listas de distribuição"
+      },
+      "builder/builder-proporcao-de-exibicao-de-imagens": {
+        "title": "Proporção de exibição de imagens (Aspect Ratio)",
+        "sidebar_label": "Proporção de exibição de imagens (Aspect Ratio)"
+      },
+      "builder/builder-salvando-informacoes-de-um-usuario": {
+        "title": "Salvando informações de um usuário",
+        "sidebar_label": "Salvando informações de um usuário"
+      },
+      "builder/builder-verificar-se-existe-atendente-disponível-no-builder": {
+        "title": "Verificar se existe atendente disponível no Builder",
+        "sidebar_label": "Verificar se existe atendente disponível no Builder"
+      },
+      "builder/builder-visao-geral-das-acoes": {
+        "title": "[Builder] Visão geral das ações",
+        "sidebar_label": "[Builder] Visão geral das ações"
+      },
+      "builder/builder-visao-geral-das-condicoes-de-saida": {
+        "title": "[Builder] Visão geral das condições de saída",
+        "sidebar_label": "[Builder] Visão geral das condições de saída"
+      },
+      "builder/builder-visao-geral-do-builder": {
+        "title": "Visão geral do Builder",
+        "sidebar_label": "Visão geral do Builder"
+      },
+      "builder/builder-visao-geral-dos-tipos-de-conteudo": {
+        "title": "[Builder] Visão geral dos tipos de conteúdo",
+        "sidebar_label": "[Builder] Visão geral dos tipos de conteúdo"
+      },
+      "builder/builder-visao-geral-variaveis": {
+        "title": "[Builder] Visão geral das variáveis",
+        "sidebar_label": "[Builder] Visão geral das variáveis"
+      },
+      "channels/blip-chat/chat-adicionando-push-notification-blip-chat-android": {
+        "title": "Adicionando push notification no BLiP Chat Android",
+        "sidebar_label": "Adicionando push notification no BLiP Chat Android"
+      },
+      "channels/blip-chat/chat-adicionar-blip-chat-site-wix": {
+        "title": "Adicionar o BLiP Chat em um site Wix",
+        "sidebar_label": "Adicionar o BLiP Chat em um site Wix"
+      },
+      "channels/blip-chat/chat-adicionar-blip-chat-site-wordpress": {
+        "title": "Adicionar o BLiP Chat em um site Wordpress",
+        "sidebar_label": "Adicionar o BLiP Chat em um site Wordpress"
+      },
+      "channels/blip-chat/chat-adicionar-bot-site-blip-chat": {
+        "title": "Como adicionar um bot em um site utilizando o BLiP Chat?",
+        "sidebar_label": "Como adicionar um bot em um site utilizando o BLiP Chat?"
+      },
+      "channels/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip": {
+        "title": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?",
+        "sidebar_label": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?"
+      },
+      "channels/blip-chat/chat-como-adicionar-bot-em-app-ios-utilizando-blip": {
+        "title": "Como adicionar um bot em um aplicativo iOS utilizando o BLiP Chat?",
+        "sidebar_label": "Como adicionar um bot em um aplicativo iOS utilizando o BLiP Chat?"
+      },
+      "channels/blip-chat/chat-customizacoes-disponiveis-blip-chat": {
+        "title": "Customizações disponíveis no BLiP Chat",
+        "sidebar_label": "Customizações disponíveis no BLiP Chat"
+      },
+      "channels/blip-chat/chat-customizando-o-blip-chat-widget-com-css": {
+        "title": "Customizando o BLiP Chat Widget através de CSS",
+        "sidebar_label": "Customizando o BLiP Chat Widget através de CSS"
+      },
+      "channels/blip-chat/chat-o-que-e-blip-chat": {
+        "title": "O que é o BLiP Chat?",
+        "sidebar_label": "O que é o BLiP Chat?"
+      },
+      "channels/blip-chat/chat-permitir-envio-de-arquivos-blip-chat": {
+        "title": "Permitir envio de arquivos no BLiP Chat",
+        "sidebar_label": "Permitir envio de arquivos no BLiP Chat"
+      },
+      "channels/blip-chat/chat-tipos-de-autenticacao-chat": {
+        "title": "Tipos de autenticação dos usuários no BLiP Chat",
+        "sidebar_label": "Tipos de autenticação dos usuários no BLiP Chat"
+      },
+      "channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook": {
+        "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
+        "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
+      },
+      "channels/whatsapp/whatsapp-criando-solucao-atendimento-humano-whatsapp": {
+        "title": "Criando uma solução de atendimento humano no WhatsApp",
+        "sidebar_label": "Criando uma solução de atendimento humano no WhatsApp"
+      },
+      "channels/whatsapp/whatsapp-enviar-notificacao-whatsapp-blip-api": {
+        "title": "Enviar notificações WhatsApp via API do BLiP",
+        "sidebar_label": "Enviar notificações WhatsApp via API do BLiP"
+      },
+      "channels/workplace/workplace-o-que-e-workplace": {
+        "title": "O que é Workplace?",
+        "sidebar_label": "O que é o Workplace?"
+      },
+      "channels/workplace/workplace-publicando-chatbot-no-workplace": {
+        "title": "Publicando seu chatbot no Workplace",
+        "sidebar_label": "Publicando seu chatbot no Workplace"
+      },
+      "general/general-central-notificacoes": {
         "title": "Central de Notificações",
         "sidebar_label": "Central de Notificações"
       },
-      "general/auxiliary-tools/aux-utilizando-textc-construir-conversa": {
-        "title": "Utilizando o Textc para construir uma conversa contextual",
-        "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
+      "general/general-chatbots-e-a-importancia-contexto": {
+        "title": "Chatbots e a importância do contexto",
+        "sidebar_label": "Chatbots e a importância do contexto"
+      },
+      "general/general-politica-de-violacao-mensagens": {
+        "title": "Política de violação de mensagens ativas do BLiP",
+        "sidebar_label": "Política de violação de mensagens ativas do BLiP"
       },
       "general/level-up/level-up-0-lancamento-oficial-do-blip": {
         "title": "LevelUp 0 - Lançamento oficial do BLiP",
@@ -196,281 +376,101 @@
         "title": "LevelUp 9 - Marcos de 2018",
         "sidebar_label": "LevelUp 9 - Marcos de 2018"
       },
-      "practice/ai/ai-como-aprimorar-meu-modelo-de-inteligencia-artificial": {
-        "title": "Como aprimorar meu modelo de inteligência artificial",
-        "sidebar_label": "Como aprimorar meu modelo de inteligência artificial"
-      },
-      "practice/ai/ai-como-configurar-dialogflow": {
-        "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
-        "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
-      },
-      "practice/ai/ai-como-configurar-watson": {
-        "title": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial",
-        "sidebar_label": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial"
-      },
-      "practice/ai/ai-como-criar-uma-entidade": {
-        "title": "Como criar uma entidade",
-        "sidebar_label": "Como criar uma entidade"
-      },
-      "practice/ai/ai-como-criar-uma-intencao": {
-        "title": "Como criar uma intenção",
-        "sidebar_label": "Como criar uma intenção"
-      },
-      "practice/ai/ai-como-exportar-base-conhecimento": {
-        "title": "Como importar/exportar uma base de conhecimento",
-        "sidebar_label": "Como importar/exportar uma base de conhecimento"
-      },
-      "practice/ai/ai-como-testar-modelo-nlp": {
-        "title": "Como testar seu modelo de NLP",
-        "sidebar_label": "Como testar seu modelo de NLP"
-      },
-      "practice/ai/ai-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip": {
-        "title": "Importar modelo de NLP (intenções e entidades) pré-existente no BLiP",
-        "sidebar_label": "Importar modelo de NLP (intenções e entidades) pré-existente no BLiP"
-      },
-      "practice/ai/ai-treinando-publicando-modelo-de-ia": {
-        "title": "Treinando e publicando seu modelo de inteligência artificial",
-        "sidebar_label": "Treinando e publicando sue modelo de inteligência artificial"
-      },
-      "practice/api-http-sdks/api-http-sdks-como-encontrar-a-api-key-do-meu-bot": {
-        "title": "Como encontrar a API-KEY do meu bot?",
-        "sidebar_label": "Como encontrar a API-KEY do meu bot?"
-      },
-      "practice/api-http-sdks/api-http-sdks-criando-um-bot-para-busca-de-imagens-no-bing": {
-        "title": "Criando um bot para busca de imagens no BING",
-        "sidebar_label": "Criando um bot para busca de imagens no BING"
-      },
-      "practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger": {
-        "title": "[HTTP] Criando um bot para receber feeds no Messenger",
-        "sidebar_label": "[HTTP] Criando um bot para receber feeds no Messenger"
-      },
-      "practice/api-http-sdks/api-http-sdks-criando-um-chatbot-curriculo-usando-api-http": {
-        "title": "Criando um chatbot 'currículo' usando API HTTP",
-        "sidebar_label": "Criando um chatbot 'currículo' usando API HTTP"
-      },
-      "practice/api-http-sdks/api-http-sdks-sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario": {
-        "title": "[SDK C#] Armazenando o último acesso de um usuário",
-        "sidebar_label": "[SDK C#] Armazenando o último acesso de um usuário"
-      },
-      "practice/api-http-sdks/api-http-sdks-sdk-csharp-com-suporte-a-dotnet-core": {
-        "title": "SDK C# com suporte a .NET Core",
-        "sidebar_label": "SDK C# com suporte a .NET Core"
-      },
-      "practice/api-http-sdks/api-http-sdks-sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo": {
-        "title": "[SDK C#] Criando uma lista de distribuição de conteúdo",
-        "sidebar_label": "[SDK C#] Criando uma lista de distribuição de conteúdo"
-      },
-      "practice/blip-chat/chat-adicionando-push-notification-blip-chat-android": {
-        "title": "Adicionando push notification no BLiP Chat Android",
-        "sidebar_label": "Adicionando push notification no BLiP Chat Android"
-      },
-      "practice/blip-chat/chat-adicionar-blip-chat-site-wix": {
-        "title": "Adicionar o BLiP Chat em um site Wix",
-        "sidebar_label": "Adicionar o BLiP Chat em um site Wix"
-      },
-      "practice/blip-chat/chat-adicionar-blip-chat-site-wordpress": {
-        "title": "Adicionar o BLiP Chat em um site Wordpress",
-        "sidebar_label": "Adicionar o BLiP Chat em um site Wordpress"
-      },
-      "practice/blip-chat/chat-adicionar-bot-site-blip-chat": {
-        "title": "Como adicionar um bot em um site utilizando o BLiP Chat?",
-        "sidebar_label": "Como adicionar um bot em um site utilizando o BLiP Chat?"
-      },
-      "practice/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip": {
-        "title": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?",
-        "sidebar_label": "Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?"
-      },
-      "practice/blip-chat/chat-como-adicionar-bot-em-app-ios-utilizando-blip": {
-        "title": "Como adicionar um bot em um aplicativo iOS utilizando o BLiP Chat?",
-        "sidebar_label": "Como adicionar um bot em um aplicativo iOS utilizando o BLiP Chat?"
-      },
-      "practice/blip-chat/chat-customizacoes-disponiveis-blip-chat": {
-        "title": "Customizações disponíveis no BLiP Chat",
-        "sidebar_label": "Customizações disponíveis no BLiP Chat"
-      },
-      "practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css": {
-        "title": "Customizando o BLiP Chat Widget através de CSS",
-        "sidebar_label": "Customizando o BLiP Chat Widget através de CSS"
-      },
-      "practice/blip-chat/chat-permitir-envio-de-arquivos-blip-chat": {
-        "title": "Permitir envio de arquivos no BLiP Chat",
-        "sidebar_label": "Permitir envio de arquivos no BLiP Chat"
-      },
-      "practice/blip-desk/desk-como-ativar-blip-desk-canal": {
-        "title": "Como ativar o BLiP Desk como um canal de atendimento",
-        "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
-      },
-      "practice/blip-desk/desk-como-definir-regras-atendimento": {
-        "title": "Como definir regras de atendimento no BLiP Desk",
-        "sidebar_label": "Como definir regras de atendimento no BLiP Desk"
-      },
-      "practice/blip-desk/desk-como-filtrar-ticket-id": {
-        "title": "Como filtrar um ticket por ID?",
-        "sidebar_label": "Como filtrar um ticket por ID?"
-      },
-      "practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk": {
-        "title": "Como realizar um atendimento através do BLiP Desk",
-        "sidebar_label": "Como realizar um atendimento através do BLiP Desk"
-      },
-      "practice/blip-desk/desk-configurar-alertas-inatividade-clientes-blip-desk": {
-        "title": "Como configurar alertas de inatividade dos clientes no BLiP Desk",
-        "sidebar_label": "Como configurar alertas de inatividade dos clientes no BLiP Desk"
-      },
-      "practice/blip-desk/desk-definindo-alerta-tempo-resposta-atendente": {
-        "title": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk",
-        "sidebar_label": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk"
-      },
-      "practice/blip-desk/desk-gerenciamento-equipes": {
-        "title": "Gerenciando equipes de atendimento no BLiP Desk",
-        "sidebar_label": "Gerenciado equipes de atendimento no BLiP Desk"
-      },
-      "practice/blip-desk/desk-habilitando-uso-emoji-desk": {
-        "title": "Habilitando o uso de emoji para o Desk",
-        "sidebar_label": "Habilitando o uso de emoji para o Desk"
-      },
-      "practice/blip-desk/desk-utilizando-variav-respostas": {
-        "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
-        "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
-      },
-      "practice/blip-desk/desk-utilizar-live-agent-salesForce-atendimento-humano": {
-        "title": "Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?",
-        "sidebar_label": "Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?"
-      },
-      "practice/builder/builder-acao-processar-comando": {
-        "title": "Ação: Processar Comando",
-        "sidebar_label": "Ação: Processar Comando"
-      },
-      "practice/builder/builder-como-definir-um-tempo-limite-para-acoes-do-builder": {
-        "title": "Como definir um tempo limite (timeout) para ações do Builder",
-        "sidebar_label": "Como definir um tempo limite (timeout) para ações do Builder"
-      },
-      "practice/builder/builder-como-utilizar-debug-builder": {
-        "title": "Como utilizar a ferramenta de debug do Builder",
-        "sidebar_label": "Como utilizar a ferramenta de debug do Builder"
-      },
-      "practice/builder/builder-criando-acoes-condicionais": {
-        "title": "Criando ações condicionais",
-        "sidebar_label": "Criando ações condicionais"
-      },
-      "practice/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat": {
-        "title": "Criando um elemento web através de um weblink no BLiP Chat",
-        "sidebar_label": "Criando um elemento web através de um weblink no BLiP Chat"
-      },
-      "practice/builder/builder-definindo-acoes-globais": {
-        "title": "Definindo ações globais no Builder",
-        "sidebar_label": "Definindo ações globais no Builder"
-      },
-      "practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder": {
-        "title": "Enviando email pelo bot através do Builder",
-        "sidebar_label": "Enviando email pelo bot através do Builder"
-      },
-      "practice/builder/builder-expirando-sessao-usuarios-builder": {
-        "title": "Expirando a sessão dos usuários do Builder",
-        "sidebar_label": "Expirando a sessão dos usuários do Builder"
-      },
-      "practice/builder/builder-importando-o-fluxo-de-um-bot-no-builder": {
-        "title": "Importando o fluxo de um bot no Builder",
-        "sidebar_label": "Importando o fluxo de um bot no Builder"
-      },
-      "practice/builder/builder-proporcao-de-exibicao-de-imagens": {
-        "title": "Proporção de exibição de imagens (Aspect Ratio)",
-        "sidebar_label": "Proporção de exibição de imagens (Aspect Ratio)"
-      },
-      "practice/builder/builder-salvando-informacoes-de-um-usuario": {
-        "title": "Salvando informações de um usuário",
-        "sidebar_label": "Salvando informações de um usuário"
-      },
-      "practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder": {
-        "title": "Verificar se existe atendente disponível no Builder",
-        "sidebar_label": "Verificar se existe atendente disponível no Builder"
-      },
-      "practice/channels/channels-como-configurar-sua-propria-aplicacao-facebook": {
-        "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
-        "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
-      },
-      "practice/channels/channels-criando-graficos-em-um-relatorio-customizado": {
-        "title": "Criando gráficos em um relatório customizado",
-        "sidebar_label": "Criando gráficos em um relatório customizado"
-      },
-      "practice/channels/channels-criando-solucao-atendimento-humano-whatsapp": {
-        "title": "Criando uma solução de atendimento humano no WhatsApp",
-        "sidebar_label": "Criando uma solução de atendimento humano no WhatsApp"
-      },
-      "practice/channels/channels-enviar-notificacao-whatsapp-blip-api": {
-        "title": "Enviar notificações WhatsApp via API do BLiP",
-        "sidebar_label": "Enviar notificações WhatsApp via API do BLiP"
-      },
-      "practice/channels/channels-publicando-chatbot-no-workplace": {
-        "title": "Publicando seu chatbot no Workplace",
-        "sidebar_label": "Publicando seu chatbot no Workplace"
-      },
-      "practice/contacts/contacts-como-encontrar-id-usuario": {
-        "title": "Como encontrar o identificador de um usuário",
-        "sidebar_label": "Como encontrar o identificador de um usuário"
-      },
-      "practice/data-analytics/da-tratando-eventos-not-handled-sessionFlow-chatbase": {
-        "title": "Tratando eventos not_Handled no relatório SessionFlow do Chatbase",
-        "sidebar_label": "Tratando eventos not_Handled no relatório SessionFlow do Chatbase"
-      },
-      "practice/growth/growth-como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads": {
+      "growth/growth-como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads": {
         "title": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)",
         "sidebar_label": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)"
       },
-      "practice/growth/growth-criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot": {
+      "growth/growth-criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot": {
         "title": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot",
         "sidebar_label": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot"
       },
-      "practice/growth/growth-obtendo-o-numero-de-usuarios-afetados-por-um-broadcast": {
+      "growth/growth-obtendo-o-numero-de-usuarios-afetados-por-um-broadcast": {
         "title": "Obtendo o número de usuários afetados por um broadcast",
         "sidebar_label": "Obtendo o número de usuários afetados por um broadcast"
       },
-      "practice/integrations/integ-agendando-uma-mensagem-scheduler": {
-        "title": "Agendando uma mensagem com a extensão scheduler",
-        "sidebar_label": "Agendando uma mensagem com a extensão scheduler"
+      "helpdesk/desk-como-ativar-blip-desk-canal": {
+        "title": "Como ativar o BLiP Desk como um canal de atendimento",
+        "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
       },
-      "practice/integrations/integ-botanalytics-como-enviar-dados-botanalytics": {
-        "title": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?",
-        "sidebar_label": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?"
+      "helpdesk/desk-como-definir-regras-atendimento": {
+        "title": "Como definir regras de atendimento no BLiP Desk",
+        "sidebar_label": "Como definir regras de atendimento no BLiP Desk"
       },
-      "practice/integrations/integ-chatbase-como-enviar-dados-chatbase": {
-        "title": "Integração Chatbase - Como enviar dados de um bot para o Chatbase?",
-        "sidebar_label": "Integração Chatbase - Como enviar dados de um bot para um Chatbase?"
+      "helpdesk/desk-como-filtrar-ticket-id": {
+        "title": "Como filtrar um ticket por ID?",
+        "sidebar_label": "Como filtrar um ticket por ID?"
       },
-      "practice/integrations/integ-dashbot-como-enviar-dados-dashbot": {
-        "title": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?",
-        "sidebar_label": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?"
+      "helpdesk/desk-como-realizar-um-atendimento-atraves-do-blip-desk": {
+        "title": "Como realizar um atendimento através do BLiP Desk",
+        "sidebar_label": "Como realizar um atendimento através do BLiP Desk"
       },
-      "practice/integrations/integ-enviando-dados-atraves-webhook": {
-        "title": "Enviando dados do seu bot através de Webhooks",
-        "sidebar_label": "Enviando dados do seu bot através de Webhooks"
+      "helpdesk/desk-configurar-alertas-inatividade-clientes-blip-desk": {
+        "title": "Como configurar alertas de inatividade dos clientes no BLiP Desk",
+        "sidebar_label": "Como configurar alertas de inatividade dos clientes no BLiP Desk"
       },
-      "practice/integrations/integ-event-track-sdk-csharp": {
-        "title": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade",
-        "sidebar_label": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade"
+      "helpdesk/desk-definindo-alerta-tempo-resposta-atendente": {
+        "title": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk",
+        "sidebar_label": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk"
       },
-      "practice/integrations/integ-texto-rotativo-spintax": {
-        "title": "Texto rotativo com spintax",
-        "sidebar_label": "Texto rotativo com spintax"
+      "helpdesk/desk-descricao-metricas-desk": {
+        "title": "Descrição das métricas do BLiP Desk",
+        "sidebar_label": "Descrição das métricas do BLiP Desk"
       },
-      "practice/management/mana-como-marcar-contato-como-teste": {
+      "helpdesk/desk-gerenciamento-equipes": {
+        "title": "Gerenciando equipes de atendimento no BLiP Desk",
+        "sidebar_label": "Gerenciado equipes de atendimento no BLiP Desk"
+      },
+      "helpdesk/desk-habilitando-uso-emoji-desk": {
+        "title": "Habilitando o uso de emoji para o Desk",
+        "sidebar_label": "Habilitando o uso de emoji para o Desk"
+      },
+      "helpdesk/desk-utilizando-variav-respostas": {
+        "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
+        "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
+      },
+      "helpdesk/desk-utilizar-live-agent-salesForce-atendimento-humano": {
+        "title": "Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?",
+        "sidebar_label": "Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?"
+      },
+      "helpdesk/desk-visao-geral-desk": {
+        "title": "Visão geral do BLiP Desk",
+        "sidebar_label": "Visão geral do BLiP Desk"
+      },
+      "introduction/introduction-como-criar-um-bot-com-builder": {
+        "title": "Como criar um bot com o Builder do BLiP",
+        "sidebar_label": "Como criar um bot com o Builder do BLiP"
+      },
+      "introduction/introduction-visao-geral-da-plataforma": {
+        "title": "Visão geral da plataforma",
+        "sidebar_label": "Visão geral da plataforma"
+      },
+      "management/management-como-encontrar-id-usuario": {
+        "title": "Como encontrar o identificador de um usuário",
+        "sidebar_label": "Como encontrar o identificador de um usuário"
+      },
+      "management/management-como-marcar-contato-como-teste": {
         "title": "Como marcar um contato como usuários de teste",
         "sidebar_label": "Como marcar um contato como usuários de teste"
       },
-      "practice/management/mana-configuracoes-avancadas-bot": {
+      "management/management-configuracoes-avancadas-bot": {
         "title": "Configurações avançadas do bot",
         "sidebar_label": "Configurações avançadas do bot"
       },
-      "practice/management/mana-gerenciando-permissoes-acesso-equipe": {
+      "management/management-gerenciando-permissoes-acesso-equipe": {
         "title": "Gerenciando permissões de acesso da equipe de um bot",
         "sidebar_label": "Gerenciando permissões de acesso da equipe de um bot"
       },
-      "practice/management/mana-transcricao-conversas-contatos": {
+      "management/management-transcricao-conversas-contatos": {
         "title": "Transcrição das conversas dos contatos",
         "sidebar_label": "Transcrição das conversas dos contatos"
       },
-      "practice/router/router-criando-bot-com-3-subbots": {
+      "router/router-criando-bot-com-3-subbots": {
         "title": "Criando um bot router com 3 subbots",
         "sidebar_label": "Criando um bot router com 3 subbots"
+      },
+      "router/router-hierarquia-bots-subbots": {
+        "title": "Hierarquia (ou arquitetura) de bots e subbots",
+        "sidebar_label": "Hierarquia (ou arquitetura) de bots e subbots"
       }
     },
     "links": {
@@ -481,8 +481,16 @@
       "Comunidade": "Comunidade"
     },
     "categories": {
-      "Conceitos": "Conceitos",
-      "Prática": "Prática",
+      "Introdução": "Introdução",
+      "Canais": "Canais",
+      "Builder": "Builder",
+      "Inteligência Artificial": "Inteligência Artificial",
+      "Atendimento Humano": "Atendimento Humano",
+      "Gestão": "Gestão",
+      "Métricas e Analytics": "Métricas e Analytics",
+      "Retenção e Engajamento (Growth)": "Retenção e Engajamento (Growth)",
+      "Router": "Router",
+      "API e SDKs": "API e SDKs",
       "Geral": "Geral"
     }
   },
