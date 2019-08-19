@@ -910,6 +910,26 @@ p a strong {
   display: none !important;
 }
 
+.mainContainer .post ol {
+  padding-left: 1.5rem;
+  font-family: Nunito Sans;
+  color: #52636c;
+}
+
+.mainContainer .post ol a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.mainContainer .post ol a:hover {
+  color: #15afb2;
+  text-decoration: underline;
+}
+
+.mainContainer .post ol a strong {
+  font-weight: unset;
+}
+
 .mainContainer .post ul {
   padding-left: 1.5rem;
   font-family: Nunito Sans;
@@ -1015,6 +1035,15 @@ table td {
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 10px;
+}
+
+ol {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #52636c;
 }
 
 .docMainWrapper {
