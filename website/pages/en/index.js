@@ -455,8 +455,8 @@ class Index extends React.Component {
           <label htmlFor="check2-aprendaMais" className="cards">
             <p className="titles">Canais</p>
             <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
-              <input id="check2-aprendaMais" className="hidden-checkbox" type="checkbox" />
-              <div className="hidden-content">
+            <input id="check2-aprendaMais" className="hidden-checkbox" type="checkbox" />
+            <div className="hidden-content">
               <ul className="ul-aprenda-mais">
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googlercs">Apple Business Chat</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/blipchat">BLiP Chat </a></li>
@@ -488,7 +488,7 @@ class Index extends React.Component {
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/ai">IBM Watson</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/ai">Microsoft LUIS</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/rdstation">RDStation</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/webhooks">Webhooks</a></li>        
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/webhooks">Webhooks</a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
@@ -571,61 +571,105 @@ class Index extends React.Component {
       </div>
     );
 
-    //area do beta
-    // class FormBeta extends React.Component {
-    //   constructor(props) {
-    //     super(props);
-    //     this.state = {email: 'bruno'};
 
-    //     console.log(props);
-    //     this.handleChange = this.handleChange.bind(this);
-    //     this.handleSubmit = this.handleSubmit.bind(this);
-    //   }
+    class FormBeta extends React.Component {
 
-    //     handleChange(event) {
-    //       console.log(event);
-    //       this.setState({email: event.target.value});
-    //     }
+      render() {
+        return (
+          <div className="div-beta-main">
 
-    //     handleSubmit(event) {
-    //       event.prevent();
-    //       alert('Um email foi enviado: ' + this.state.email);
+            <div className="info">
+                <p className="title"> Torne-se um usuário beta! </p>
+                <p className="text"> Ao se tornar um usuário beta você será um dos primeiros a testar as novas feautres que serão lançadas</p>
+            </div>
 
-    //     }
+            <div className="div-form-beta">
+              <form id="form-beta" name="form-beta">
+                <input type="email"
+                  id="emailForm"
+                  name="emailForm"
+                  required
+                  className="form-input-email"
+                  placeholder="Digite o seu e-mail">
+                </input>
+                <button id="Bsubmit" disabled className="button-beta">Quero ser beta!</button>
+              </form>
+            </div>
 
-    //     render () {
-    //       return (
-    //       <div className="div-beta-main">
+            <div id="myModal" className="modal-beta">
+                    <div className="modal-beta-content">
+                        <div className="modal-beta-header">
+                            <BlipIcon name="checkball-outline" className="bp-fs-1 bp-fill-white"></BlipIcon>
+                            <p className="modal-beta-title">Parabéns, você agora é um beta!</p>
+                        </div>
+                        <div className="modal-beta-body">
+                            <p className="modal-beta-text">Em alguns instantes você vai receber um e-mail com mais informações</p>
+                            <button className="close-beta" > Ok</button>
+                        </div>
+                    </div>
+                </div>
 
-    //         <div className="info">
-    //           <div className="title">
-    //             <p> Torne-se um usuário beta! </p>
-    //           </div>
-    //           <div className="text">
-    //             <p> Ao se tornar um usuário beta você será um dos primeiros a testar as novas feautres que serão lançadas</p>
-    //           </div>
-    //         </div>
+          <ScriptForm />
 
-    //         <div className="div-form-beta">
-    //         <form className="form-beta">
-    //           <label htmlFor="email" className="label-beta">{this.state.email}</label>
-    //             <br></br>
-    //             <input type="email" 
-    //             id="email" 
-    //             name="email" 
-    //             className="form-input-email" 
-    //             placeholder="Digite o seu e-mail" 
-    //             value={this.state.email}
-    //             onChange={this.handleChange}></input>
-    //             <input type="submit" onClick={this.handleSubmit} className="button-beta" value="Assinar"></input>
-    //           </form>
-    //         </div>
+          </div>
 
-    //       </div>
+        );
+      };
+    };
 
-    //       );
-    //     };
-    //   };
+    class ScriptForm extends React.Component {
+      render() {
+        return (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                            var btn = document.getElementById("Bsubmit"),
+                            emailF =  btn.form.emailForm.value;
+                            var modal = document.getElementById("myModal");
+                            var span = document.getElementsByClassName("close-beta")[0];
+                            var eForm = btn.form.emailForm;
+                
+            
+                            btn.onclick = function() {
+                            var data = JSON.stringify({
+                                "Email": btn.form.emailForm.value
+                              });
+                              
+                              var xhr = new XMLHttpRequest();
+                              xhr.withCredentials = true;
+                              
+                              xhr.addEventListener("readystatechange", function () {
+                                if (this.readyState === 4) {
+                                }
+                              });
+                              xhr.open("POST", "https://helpcenter-api.azurewebsites.net/api/betauser");
+                              xhr.setRequestHeader("Content-Type", "application/json");
+                              xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+                              xhr.send(data);
+                              modal.style.display = "block";
+                              event.preventDefault();
+     
+                            }
+    
+                            span.onclick = function() {
+                                modal.style.display = "none";
+                            }
+    
+                        document.getElementById("emailForm").addEventListener("keyup", function() {
+                            var nameInput = document.getElementById('emailForm').value;
+                            if (nameInput != "") {
+                                document.getElementById('Bsubmit').removeAttribute("disabled");
+                            } else {
+                                document.getElementById('Bsumit').setAttribute("disabled", null);
+                            }
+                        });
+    
+                    `
+            }}
+          />
+        );
+      }
+    }
 
     return (
       <div>
@@ -634,7 +678,7 @@ class Index extends React.Component {
           <AprendaMais />
           <ForumAndIdeas />
           <RecentAndAccessed />
-          {/* <FormBeta /> */}
+          <FormBeta />
         </div>
       </div>
     );
