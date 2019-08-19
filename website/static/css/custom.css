@@ -312,6 +312,18 @@
     margin-left: 1% !important;
   }
 
+  .cards .card-0,
+  .cards .card-1,
+  .cards .card-2,
+  .cards .card-3,
+  .cards .card-4,
+  .cards .card-5,
+  .cards .card-6 {
+    width: 100% !important;
+    margin-left: 1% !important;
+    margin-top: 2%;
+  }
+
   .cards .card:nth-child(1) {
     margin-left: 1% !important;
   }
@@ -337,6 +349,12 @@
   .cards .seeMore {
     margin-top: 8% !important;
     padding-left: 5%;
+  }
+
+  .abstract-area {
+    margin-top: 3% !important;
+    padding-left: 5%;
+    width: 95%;
   }
 
   .pages-content .cards-faq {
@@ -600,6 +618,20 @@
     box-shadow: 0px 4px 8px rgba(96, 123, 153, 0.15);
     border-radius: 10px;
     transform: translateY(-5px);
+  }
+
+  .cards .card-0:hover,
+  .cards .card-1:hover,
+  .cards .card-2:hover,
+  .cards .card-3:hover,
+  .cards .card-4:hover,
+  .cards .card-5:hover,
+  .cards .card-6:hover {
+    border: 1px solid rgba(96, 123, 153, 0.15);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(96, 123, 153, 0.15);
+    border-radius: 10px;
+    transform: translateY(-10px);
   }
 
   .cards-category .card-category:hover {
@@ -10240,4 +10272,157 @@ a.link-from{
 
 .toc .toggleNav ul li.navListItemActive a {
   font-weight: bold;
+}
+
+.cards .card-0 {
+  background: linear-gradient(201.73deg, #6D8CE5 -10.36%, #517BF2 45.63%, #4D6CC5 117.21%);
+  border: 1px solid rgba(96, 123, 153, 0.15);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 27%;
+  overflow: hidden;
+  min-height: fit-content;
+  height: 209px;
+  transition: transform 0.4s ease;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  margin-left: 0%;
+}
+
+.cards .card-1 {
+  background: linear-gradient(201.73deg, #87DDE8 -10.36%, #2CC3D5 45.63%, #2498A8 117.21%);
+  border: 1px solid rgba(96, 123, 153, 0.15);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 27%;
+  overflow: hidden;
+  min-height: fit-content;
+  height: 209px;
+  transition: transform 0.4s ease;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+
+.cards .card-2 {
+  background: linear-gradient(201.73deg, #788CA3 -10.36%, #607B99 45.63%, #485C73 117.21%);
+  border: 1px solid rgba(96, 123, 153, 0.15);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 27%;
+  overflow: hidden;
+  min-height: fit-content;
+  height: 209px;
+  transition: transform 0.4s ease;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+
+.cards .card-3 {
+  background: linear-gradient(201.73deg, #9EE3FF -10.36%, #55CFFF 45.63%, #51B2DD 117.21%);
+  border: 1px solid rgba(96, 123, 153, 0.15);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 27%;
+  overflow: hidden;
+  min-height: fit-content;
+  height: 209px;
+  transition: transform 0.4s ease;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  margin-left: 0%;
+}
+
+.cards .card-4 {
+  background: linear-gradient(201.73deg, #514F64 -10.36%, #2C2A46 45.63%, #312F44 117.2%, #312F44 117.21%);
+  border: 1px solid rgba(96, 123, 153, 0.15);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 27%;
+  overflow: hidden;
+  min-height: fit-content;
+  height: 209px;
+  transition: transform 0.4s ease;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+
+.cards .card-5 {
+  background: linear-gradient(201.73deg, #FBB3C4 -10.36%, #F66689 45.63%, #C85C77 117.21%);
+  border: 1px solid rgba(96, 123, 153, 0.15);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 27%;
+  overflow: hidden;
+  min-height: fit-content;
+  height: 209px;
+  transition: transform 0.4s ease;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+
+.cards .card-6 {
+  background: linear-gradient(201.73deg, #93D2AA -10.36%, #4DCB7B 45.63%, #4AA86C 117.21%);
+  border: 1px solid rgba(96, 123, 153, 0.15);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 27%;
+  overflow: hidden;
+  min-height: fit-content;
+  height: 209px;
+  transition: transform 0.4s ease;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  margin-left: 0%;
+}
+
+.title-area {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  color: #FFFFFF;
+  text-overflow: ellipsis;
+}
+
+.abstract-area {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  text-overflow: ellipsis;
+}
+
+.text-area {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-right: 5%;
+  margin-top: -0.5%;
 }

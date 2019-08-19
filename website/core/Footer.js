@@ -33,10 +33,10 @@ class Footer extends React.Component {
                   <a href="/builder" className="link-footer">Builder</a>
                   <a href="/channels" className="link-footer">Canais</a>
                   <a href="/integrations" className="link-footer">Integrações</a>
-                  {/* <a href="#" className="link-footer">CRM</a> */}
-                  <a href="/growth" className="link-footer">Growth</a>
                   <a href="/ai" className="link-footer">Inteligência Artificial</a>
+                  {/* <a href="#" className="link-footer">CRM</a> */}
                   <a href="/analytics" className="link-footer">Métricas e Analytics</a>
+                  <a href="/growth" className="link-footer">Retenção e Engajamento</a>
               </div>
                
               <div className="content-links">

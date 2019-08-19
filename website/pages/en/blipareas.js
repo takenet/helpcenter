@@ -2,50 +2,55 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
-  "title":"Evoluindo seu contato inteligente através de Inteligência Artificial",
-  "subtitle":"Utilize os provedores de Inteligência artificial para melhorar seu contato inteligente",
+  "title":"Áreas do BLiP",
+  "subtitle":"Conheça mais sobre o BLiP",
   "img":"/img/illustrations/ilustracao-categorias.svg",
   "from":"BLiP Help Center >",
-  "session": "Áreas do BLiP",
-  "session_url": "/blipareas", 
-  "here":"Evoluindo seu contato inteligente através de IA",
+  "here":"Áreas do BLiP",
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
      {  
-        "title":"Integração com a ferramenta de Analytics 1",
-        "type": "text",
-        "url": "#", 
+        "title":"Atendimento Humano",
+        "url": "/ai", 
         "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
         "text":"ver mais!"
      },
      {  
-      "title":"Integração com a ferramenta de Analytics 1",
-      "type": "video",
-      "url": "#", 
+      "title":"Builder",
+      "url": "/builder", 
       "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
       "text":"ver mais!"
    },
    {  
-    "title":"Integração com a ferramenta de Analytics 1",
-    "type": "text",
-    "url": "#", 
+    "title":"Canais",
+    "url": "/channels", 
     "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
     "text":"ver mais!"
     },
     {  
-      "title":"Integração com a ferramenta de Analytics 1",
-      "type": "text",
-      "url": "#", 
+      "title":"Integrações",
+      "url": "/integrations", 
       "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
       "text":"ver mais!"
     },
     {  
-    "title":"Integração com a ferramenta de Analytics 1",
-    "type": "text",
-    "url": "#", 
-    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-    "text":"ver mais!"
+        "title":"Inteligência Artificial",
+        "url": "/ai", 
+        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+        "text":"ver mais!"
     },
+    {  
+        "title":"Métricas e Analytics",
+        "url": "/analytics", 
+        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+        "text":"ver mais!"
+    },
+    {  
+        "title":"Retenção e Engajamento",
+        "url": "/growth", 
+        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+        "text":"ver mais!"
+    }
   ]
 };
 //BLiP Icon for SVGs
@@ -66,7 +71,7 @@ class BlipIcon extends React.Component {
 }
 
 
-class Ai extends React.Component{
+class BlipAreas extends React.Component{
     constructor(props){
       super(props);
     }
@@ -93,7 +98,6 @@ class Ai extends React.Component{
               <div className="pages-content">
                 <div className="navigation">
                   <p className="from">{data.from}</p>
-                  <p className="from"><a className="link-from" href={data.session_url}>{data.session}</a> ></p>
                   <p className="here">{data.here}</p>
                 </div>
                 <div className="info">
@@ -104,24 +108,15 @@ class Ai extends React.Component{
                 {/* Cards */}
                 <div className="cards">
                   {data.cards.map((c, index) => ( 
-                  <a href={c.url} className="card" key={index}>
-                   
-                      { c.type === "video" ? 
+                  <a href={c.url} className={`card-${index}`} key={index}>
                       <div className="title-with-icon">
-                        <BlipIcon name="tutorials" className="bp-fs-3 bp-fill-watermelon"></BlipIcon>
-                        <p className="title-video">{c.title}</p>
+                        <p className="title-area">{c.title}</p>
                       </div>
-                      :
-                      <div className="title-with-icon">
-                        <BlipIcon name="txt-file" className="bp-fs-3 bp-fill-sea"></BlipIcon>
-                        <p className="title">{c.title}</p>
-                      </div>
-                      }
                    
-                    <p className="abstract">{c.abstract}</p>
+                    <p className="abstract-area">{c.abstract}</p>
                     <div className="seeMore">
-                      <p className="text">{c.text}</p>
-                      <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                      <p className="text-area">{c.text}</p>
+                      <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-white"></BlipIcon>
                     </div>
                   </a>
                   ))}
@@ -133,5 +128,5 @@ class Ai extends React.Component{
     }
 }
 
-Ai.title = 'Evoluindo seu contato inteligente através de IA';
-module.exports = Ai; 
+BlipAreas.title = 'Áreas do BLiP';
+module.exports = BlipAreas; 
