@@ -10,7 +10,7 @@ Assim como o Facebook Messenger, Telegram e outras aplicações de mensagens, o 
 
 Com o BLiP Chat, é possível disponibilizar um bot através de um link embarcado em um site ou em aplicativos móveis (Android ou iOS).
 
-1. Em um site
+## 1. Em um site
 
 É possível adicionar uma janela do BLiP Chat em um site através de um widget flutuante ou colocá-lo como parte do site.
 
@@ -22,13 +22,13 @@ A imagem abaixo apresenta o BLiP Chat integrado ao site do BLiP como um widget f
 
 ![BLiP Chat embutido](/img/concepts/blip-chat/chat-o-que-e-blip-chat-2.png)<br><br>
 
-2. Em aplicativos móveis
+## 2. Em aplicativos móveis
 
 Você também pode adicionar o BLiP Chat em aplicações móveis nativas. Para maiores informações sobre como utilizar as bibliotecas mobile do BLiP Chat, verifique os projetos [Android](https://github.com/takenet/blip-chat-android) e [iOS](https://github.com/takenet/blip-chat-ios) no Github
 
 ![BLiP Chat Android](/img/concepts/blip-chat/chat-o-que-e-blip-chat-3.png) <br><br>
 
-3. Através de um link
+## 3. Através de um link
 
 Por fim, também é possível enviar um link para seus usuários e permitir que eles interajam com o seu bot. Essa é uma alternativa interessante para converter usuários entre canais.
 

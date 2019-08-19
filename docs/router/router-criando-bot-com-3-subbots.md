@@ -4,7 +4,7 @@ title: Criando um bot router com 3 subbots
 sidebar_label: Criando um bot router com 3 subbots
 ---
 
-Para exemplificar como criar uma arquitetura de bot router e subbots no BLiP, implementaremos o exemplo discutido no artigo [Hierarquia (ou arquitetura) de bots e subbots](concepts/router/router-hierarquia-bots-subbots.md).
+Para exemplificar como criar uma arquitetura de bot router e subbots no BLiP, implementaremos o exemplo discutido no artigo [Hierarquia (ou arquitetura) de bots e subbots](/docs/router/router-hierarquia-bots-subbots).
 
 **IMPORTANTE: Este é um tutorial extenso, por favor leia cuidadosamente o artigo teórico anterior e certifique-se de que entendeu todos os conceitos e o exemplo antes de continuar. ;)**
 

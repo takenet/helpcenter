@@ -6,9 +6,9 @@ sidebar_label: Verificar se existe atendente disponível no Builder
 
 Uma das funcionalidades mais interessantes do BLiP é permitir que um bot faça a transferência de um cliente para um atendente humano de forma transparente. Caso tenha dúvida em como utilizar essa funcionalidade em seu bot acesse os artigos: 
 
-* [LevelUp 1 - BLiP Desk](https://help.blip.ai/hc/pt-br/articles/360003901911-LevelUp-1-BLiP-Desk) 
-* [Visão geral do BLiP Desk](concepts/blip-desk/desk-visao-geral-desk) 
-* [Como realizar um atendimento através do BLiP Desk](practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk)
+* [LevelUp 1 - BLiP Desk](/docs/general/level-up/level-up-1-blip-desk) 
+* [Visão geral do BLiP Desk](/docs/helpdesk/desk-visao-geral-desk) 
+* [Como realizar um atendimento através do BLiP Desk](/docs/helpdesk/desk-como-realizar-um-atendimento-atraves-do-blip-desk)
 
 Apesar de ser simples enviar um cliente para atendimento humano, a experiência do usuário pode ficar muito comprometida caso não haja nenhum atendente disponível na ferramenta (como no BLiP Desk por exemplo), uma vez que o bot para de responder e todas as mensagens são direcionadas para o ser humano.
 
@@ -48,7 +48,7 @@ Para verificar se existe algum atendente disponível no Builder siga os passos a
 
 ![Criando a requisição HTTP](/img/practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder-2.png)
 
-**Observação**: Caso não saiba onde encontrar a API-KEY do seu bot, veja esse artigo: [Como encontrar a API-KEY de um bot no BLiP](practice/api-http-sdks/api-http-sdks-como-encontrar-a-api-key-do-meu-bot.md).
+**Observação**: Caso não saiba onde encontrar a API-KEY do seu bot, veja esse artigo: [Como encontrar a API-KEY de um bot no BLiP](/docs/api-sdks/api-sdks-como-encontrar-a-api-key-do-meu-bot).
 
 3. Adicione mais uma ação de entrada (após a ação de requisição HTTP criada no passo 2) do tipo Script JS, com o script abaixo:
 

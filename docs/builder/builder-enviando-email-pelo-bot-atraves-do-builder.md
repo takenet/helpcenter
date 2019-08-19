@@ -46,7 +46,7 @@ Repare que o destinatário do email deve ser informado no campo **to** do JSON q
 
 Para enviar um email para **abcdef@<span>foo.bar</span>** o campo **to** do JSON será: **abcdef%<span>40foo.bar</span>@<span>mailgun.gw.msging.net</span>**
 
-Além de montar a mensagem que será enviada por email e o seu respectivo destinatário, você precisará também da <u>*API-KEY-BOT*</u>. Para saber onde encontrar a API key do seu bot [clique aqui](practice/api-http-sdks/api-http-sdks-como-encontrar-a-api-key-do-meu-bot.md).
+Além de montar a mensagem que será enviada por email e o seu respectivo destinatário, você precisará também da <u>*API-KEY-BOT*</u>. Para saber onde encontrar a API key do seu bot [clique aqui](/docs/api-sdks/api-sdks-como-encontrar-a-api-key-do-meu-bot).
 
 ![Enviando email](/img/practice/builder/builder-enviando-email-pelo-bot-atraves-do-builder-3.png)
 

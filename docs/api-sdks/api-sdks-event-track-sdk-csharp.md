@@ -8,8 +8,8 @@ Pense na tarefa de trackear quantos usuários utilizaram uma determinada funcion
 
 Para isso, vamos utilizar a extensão de análise de eventos:
 
-1. Crie o projeto template do SDK C# do BLiP (veja como aqui)
-2. Adicione a interface IEventTrackExtension no construtor de seu MessageReceiver. Obs.: Ele será injetado automaticamente pelo SDK
+1. Crie o projeto template do SDK C# do BLiP (veja como [aqui](https://github.com/takenet/blip-sdk-csharp));
+2. Adicione a interface IEventTrackExtension no construtor de seu MessageReceiver. **Observação:** Ele será injetado automaticamente pelo SDK;
 3. Utilize o método AddAsync(string eventName, string eventAction) para computar uma nova incidência de um evento.
 
 Veja o exemplo abaixo

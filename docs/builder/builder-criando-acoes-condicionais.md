@@ -4,9 +4,9 @@ title: Criando ações condicionais
 sidebar_label: Criando ações condicionais
 ---
 
-[Uma ação representa uma tarefa que será executada em um bloco do Builder](concepts/builder/builder-visao-geral-das-acoes.md). Existem diversas ações disponíveis no Builder, como Requisição HTTP, Registro de Eventos, Scripts JS entre várias outras.
+[Uma ação representa uma tarefa que será executada em um bloco do Builder](/docs/builder/builder-visao-geral-das-acoes). Existem diversas ações disponíveis no Builder, como Requisição HTTP, Registro de Eventos, Scripts JS entre várias outras.
 
-No momento de criar uma ação é possível definir se a mesma será [local ou global](practice/builder/builder-definindo-acoes-globais.md), se será uma [ação de entrada ou saída](concepts/builder/builder-visao-geral-das-acoes.md), além de qual(is) a(s) condição(ões) necessária(s) para que a mesma seja executada.
+No momento de criar uma ação é possível definir se a mesma será [local ou global](/docs/builder/builder-definindo-acoes-globais), se será uma [ação de entrada ou saída](/docs/builder/builder-visao-geral-das-acoes), além de qual(is) a(s) condição(ões) necessária(s) para que a mesma seja executada.
 
 Para definir a condição necessária para que uma determinada ação seja executada utilize a seção **Condição**, localizada na parte inferior da tela de definição de uma ação.
 

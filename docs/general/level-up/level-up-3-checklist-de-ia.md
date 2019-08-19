@@ -13,6 +13,6 @@ Em maio, para o terceiro **LevelUp** da plataforma em 2018, lançamos uma nova f
 
 Outros links importantes para quem quer saber mais sobre o modelo de IA, intenções e entidades:
 
-* [**O que é uma intenção**](concepts/ai/ai-o-que-e-intencao.md)
-* [**O que é uma entidade**](concepts/ai/ai-o-que-e-entidade.md)
-* [**Conceitos básicos para utilizar NLP e IA em chatbots**](concepts/ai/ai-importancia-de-ia-nlp-chatbots.md)
+* [**O que é uma intenção**](/docs/ai/nlp/nlp-o-que-e-intencao)
+* [**O que é uma entidade**](/docs/ai/nlp/nlp-o-que-e-entidade)
+* [**Conceitos básicos para utilizar NLP e IA em chatbots**](/docs/ai/nlp/nlp-conceitos-basicos-nlp-e-ai)

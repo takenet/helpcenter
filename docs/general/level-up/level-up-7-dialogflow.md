@@ -10,10 +10,10 @@ Em outubro de 2018 lançamos uma das features mais esperadas dos últimos tempos
 
 Outros links importantes para quem quer saber mais sobre algoritmos de NLP no BLiP:
 
-* [**Conceitos básicos para utilizar NLP e IA em chatbots**](concepts/ai/ai-conceitos-basicos-nlp-e-ai.md)
-* [**Como testar seu modelo de NLP?**](practice/ai/ai-como-testar-modelo-nlp.md)
-* [**Visão geral do Builder**](concepts/getting-started/gs-visao-geral-do-builder.md)
-* [**Como criar um bot com o Builder do BLiP**](concepts/getting-started/gs-como-criar-um-bot-com-builder.md)
+* [**Conceitos básicos para utilizar NLP e IA em chatbots**](/docs/ai/nlp/nlp-conceitos-basicos-nlp-e-ai)
+* [**Como testar seu modelo de NLP?**](/docs/ai/nlp/nlp-como-testar-modelo-nlp)
+* [**Visão geral do Builder**](/docs/builder/builder-visao-geral-do-builder)
+* [**Como criar um bot com o Builder do BLiP**](/docs/introduction/introduction-como-criar-um-bot-com-builder)
 
 Ficou com alguma dúvida? Use o fórum do BLiP para pedir ajuda [**forum.blip.ai**](https://forum.blip.ai/).
 
