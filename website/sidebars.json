@@ -1,12 +1,57 @@
 {
   "docs": {
+    "Introdução": [
+      "introduction/gs-visao-geral-da-plataforma"
+    ],
+    "Canais": [],
+    "Builder": [],
+    "Inteligência Artificial": [],
+    "Atendimento Humano": [],
+    "Gestão": [],
+    "Métricas e Analytics": [],
+    "Retenção e Engajamento (Growth)": [],
+    "Router": [],
+    "API e SDKs": [
+      "general/auxiliary-tools/aux-utilizando-textc-construir-conversa"
+    ],
+    "Geral" : [
+      {
+      "type": "subcategory",
+      "label": "Remover",
+      "ids": 
+        [
+          "general/auxiliary-tools/aux-central-notificacoes"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Level Up",
+        "ids": 
+          [
+            "general/level-up/level-up-0-lancamento-oficial-do-blip",
+            "general/level-up/level-up-1-blip-desk",
+            "general/level-up/level-up-2-blip-chat",
+            "general/level-up/level-up-3-checklist-de-ia",
+            "general/level-up/level-up-4-blip-desk-2",
+            "general/level-up/level-up-5-whatsapp",
+            "general/level-up/level-up-6-templates-tags-e-biblioteca-de-variaveis",
+            "general/level-up/level-up-7-dialogflow",
+            "general/level-up/level-up-8-blip-growth",
+            "general/level-up/level-up-9-marcos-de-2018",
+            "general/level-up/level-up-10-ferramenta-de-debug",
+            "general/level-up/level-up-11-comemoracao-de-um-ano-mais-caso-mundiale",
+            "general/level-up/level-up-12-botanalytics",
+            "general/level-up/level-up-13-blip-ideas"
+          ]
+      }
+    ],
     "Conceitos" : [
       {
         "type": "subcategory",
         "label": "Getting Started",
         "ids":
           [
-            "concepts/getting-started/gs-visao-geral-da-plataforma",
+            "",
             "concepts/getting-started/gs-como-criar-um-bot-com-builder",
             "concepts/getting-started/gs-visao-geral-do-builder"
           ]
@@ -268,39 +313,6 @@
         "ids": 
           [
             "practice/contacts/contacts-como-encontrar-id-usuario"
-          ]
-      }
-    ], 
-    "Geral" : [
-      {
-      "type": "subcategory",
-      "label": "Ferramentas Auxiliares",
-      "ids": 
-        [
-          "general/auxiliary-tools/aux-central-notificacoes",
-          "general/auxiliary-tools/aux-utilizando-textc-construir-conversa"
-
-        ]
-      },
-      {
-        "type": "subcategory",
-        "label": "Level Up",
-        "ids": 
-          [
-            "general/level-up/level-up-0-lancamento-oficial-do-blip",
-            "general/level-up/level-up-1-blip-desk",
-            "general/level-up/level-up-2-blip-chat",
-            "general/level-up/level-up-3-checklist-de-ia",
-            "general/level-up/level-up-4-blip-desk-2",
-            "general/level-up/level-up-5-whatsapp",
-            "general/level-up/level-up-6-templates-tags-e-biblioteca-de-variaveis",
-            "general/level-up/level-up-7-dialogflow",
-            "general/level-up/level-up-8-blip-growth",
-            "general/level-up/level-up-9-marcos-de-2018",
-            "general/level-up/level-up-10-ferramenta-de-debug",
-            "general/level-up/level-up-11-comemoracao-de-um-ano-mais-caso-mundiale",
-            "general/level-up/level-up-12-botanalytics",
-            "general/level-up/level-up-13-blip-ideas"
           ]
       }
     ]
