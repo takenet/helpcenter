@@ -4,7 +4,7 @@ title: Tratando eventos not_Handled no relatório SessionFlow do Chatbase
 sidebar_label: Tratando eventos not_Handled no relatório SessionFlow do Chatbase
 ---
 
-O Chatbase é uma das ferramentas, para análise de dados, disponível no BLiP (para saber como configurar a integração entre o BLiP e o Chatbase [clique aqui](practice/integrations/integ-chatbase-como-enviar-dados-chatbase.md)).
+O Chatbase é uma das ferramentas, para análise de dados, disponível no BLiP (para saber como configurar a integração entre o BLiP e o Chatbase [clique aqui](/docs/analytics/chatbase/chatbase-como-enviar-dados-chatbase)).
 
 Entre outras funcionalidades, o Chatbase fornece um relatório chamado Session Flow. A partir dele, é possível visualizar um mapa das principais jornadas realizadas dentro do seu bot.
 

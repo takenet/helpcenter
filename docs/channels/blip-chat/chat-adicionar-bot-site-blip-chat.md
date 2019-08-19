@@ -8,7 +8,7 @@ Para integrar seu o bot a uma página web com o BLiP é muito simples. Para isso
 
 O canal permite que um bot seja integrado em um site de duas formas diferentes: **como um widget** ou de **forma embutida** (embedded) ao site, junto ao corpo html do site.
 
-<u>Antes de começar, acesse o [portal](https://portal.blip.ai/) e escolha o bot que deseja colocar em seu site.</u>
+**Antes de começar, acesse o [portal](https://portal.blip.ai/) e escolha o bot que deseja colocar em seu site.**
 
 ## Integrar um bot a um site como um widget
 
@@ -68,6 +68,6 @@ Para embutir a interface em um elemento html com o id **'your-element-id'** do s
 
 **Observações**:
 
-\* Independentemente da forma de integração, são possíveis ainda algumas customizações para personalizar a experiência do usuário com a interface do BLiP Chat. Para verificar todos os detalhes, [clique aqui](practice/blip-chat/chat-customizacoes-disponiveis-blip-chat.md).
+\* Independentemente da forma de integração, são possíveis ainda algumas customizações para personalizar a experiência do usuário com a interface do BLiP Chat. Para verificar todos os detalhes, [clique aqui](/docs/channels/blip-chat/chat-customizacoes-disponiveis-blip-chat).
 
 \* Para configurações avançadas do scritpt do BLiP Chat na web, consulte o projeto no [Github](https://github.com/takenet/blip-chat-widget).

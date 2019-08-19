@@ -41,7 +41,7 @@ No iOS, apenas a permissão de localização precisa ser informada. Então, se o
 
 ## Configurando seu chat
 
-Para incluir seu chatbot em seu aplicativo, você precisa pegar a sua ApiKey. Caso tenha dúvidas, você pode conferir [este post ensinando a fazer isso](/docs/practice/api-http-sdks/api-http-sdks-como-encontrar-a-api-key-do-meu-bot).
+Para incluir seu chatbot em seu aplicativo, você precisa pegar a sua ApiKey. Caso tenha dúvidas, você pode conferir [este post ensinando a fazer isso](/docs/api-sdks/api-sdks-como-encontrar-a-api-key-do-meu-bot).
 
 Abrindo sua janela de conversa
 É muito simples abrir uma conversa com o seu chatbot. Use a classe **BlipClient** e chame o método *openBlipThread* passando o seu contexto atual e sua API-KEY.
@@ -106,7 +106,7 @@ Também existem algumas possibilidades de customização do seu chat que podem s
 * **Login**: onde o usuário deve informar seu nome e e-mail antes de conversar com o chatbot;
 * **Dev**: onde o desenvolvedor do app é responsável por passar as informações do usuário para o BLiP Chat. Nesse modo, o histórico da conversa esta disponível sempre que o usuário se conectar.
 
-Para entender melhor os possíveis modos de autenticação, dê uma olhada [neste post](/docs/concepts/blip-chat/chat-tipos-de-autenticacao-chat) que explica cada tipo de forma detalhada.
+Para entender melhor os possíveis modos de autenticação, dê uma olhada [neste post](/docs/channels/blip-chat/chat-tipos-de-autenticacao-chat) que explica cada tipo de forma detalhada.
 
 ### Esconder o menu da janela
 

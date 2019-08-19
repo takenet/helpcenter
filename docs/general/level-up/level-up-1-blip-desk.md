@@ -10,11 +10,11 @@ O BLiP Desk - a ferramenta de atendimento humano do BLiP, foi o principal lança
 
 Outros links importantes para quem quer saber mais sobre o BLiP Desk:
 
-* [**Visão geral do BLiP Desk**](concepts/blip-desk/desk-visao-geral-desk.md)
-* [**Gerenciando equipes de atendimento no BLiP Desk**](practice/blip-desk/desk-gerenciamento-equipes.md)
-* [**Como realizar um atendimento através do BLiP Desk**](practice/blip-desk/desk-como-realizar-um-atendimento-atraves-do-blip-desk.md)
-* [**Como definir regras de atendimento no BLiP Desk**](practice/blip-desk/desk-como-definir-regras-atendimento.md)
-* [**Como ativar o BLiP Desk como um canal de atendimento**](practice/blip-desk/desk-como-ativar-blip-desk-canal.md)
-* [**Como utilizar o BLiP Desk em um bot criado no Builder**](concepts/builder/builder-o-que-e-um-bloco-de-atendimento.md)
+* [**Visão geral do BLiP Desk**](/docs/helpdesk/desk-visao-geral-desk)
+* [**Gerenciando equipes de atendimento no BLiP Desk**](/docs/helpdesk/desk-gerenciamento-equipes)
+* [**Como realizar um atendimento através do BLiP Desk**](/docs/helpdesk/desk-como-realizar-um-atendimento-atraves-do-blip-desk)
+* [**Como definir regras de atendimento no BLiP Desk**](/docs/helpdesk/desk-como-definir-regras-atendimento)
+* [**Como ativar o BLiP Desk como um canal de atendimento**](/docs/helpdesk/desk-como-ativar-blip-desk-canal)
+* [**Como utilizar o BLiP Desk em um bot criado no Builder**](/docs/builder/builder-o-que-e-um-bloco-de-atendimento)
 
 Para acessar o BLiP Desk use o link [**desk.blip.ai**](https://desk.blip.ai).
