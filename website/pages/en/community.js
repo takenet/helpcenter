@@ -4,7 +4,7 @@ const CompLibrary = require('../../core/CompLibrary.js');
 const data = {
     "title": "Comunidade",
     "subtitle": "Um meio de você se comunicar com a gente",
-    "img": "/img/illustrations/ilustracao-categorias.svg",
+    "img": "/img/illustrations/ilustracao-sessao.svg",
     "from": "BLiP Help Center >",
     "here": "Comunidade",
     "intro": "Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
