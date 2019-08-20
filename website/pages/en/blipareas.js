@@ -13,6 +13,7 @@ const data = {
       "title": "Atendimento Humano",
       "url": "/ai",
       "icon": "operator",
+      "color": "sea",
       "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
       "text": "aprenda mais!"
     },
@@ -20,48 +21,76 @@ const data = {
       "title": "Análise e Métricas",
       "url": "/analytics",
       "icon": "chart-line",
+      "color": "watermelon",
       "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "ver mais!"
+      "text": "aprenda mais!"
     },
     {
       "title": "Builder",
       "url": "/builder",
       "icon": "robot",
+      "color": "blip",
       "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "ver mais!"
+      "text": "aprenda mais!"
     },
     {
       "title": "Canais",
       "url": "/channels",
       "icon": "sms-icon",
+      "color": "attention",
       "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "ver mais!"
+      "text": "aprenda mais!"
     },
      
     {
-      "title": "Growth",
+      "title": "Growth - Retenção e Engajamento",
       "url": "/growth",
       "icon": "publish-bot", 
+      "color": "refresh",
       "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "ver mais!"
+      "text": "aprenda mais!"
     },
     {
       "title": "Integrações",
       "url": "/integrations",
       "icon": "integration-solid", 
+      "color": "success",
       "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "ver mais!"
+      "text": "aprenda mais!"
     },
     {
       "title": "Inteligência Artificial",
       "url": "/ai",
       "icon": "ia", 
+      "color": "suit",
       "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "ver mais!"
+      "text": "aprenda mais!"
     }
    
   ]
 };
+
+//banners
+// link: image
+const banners = {
+  "/1": "/img/illustrations/rectangle 2.svg",
+  "/2": "/img/illustrations/rectangle 2.svg",
+  "/3": "/img/illustrations/rectangle 2.svg",
+  "/4": "/img/illustrations/rectangle 2.svg",
+  "/5": "/img/illustrations/rectangle 2.svg",
+  "/6": "/img/illustrations/rectangle 2.svg", 
+ }
+ const chaves = Object.keys(banners);
+ var randomKey = chaves[parseInt(Math.random() * chaves.length)];
+ var randomKey2 = randomKey;
+ 
+ //always two differents banners
+ do {
+   randomKey2 = chaves[parseInt(Math.random() * chaves.length)];
+ } while (randomKey2 === randomKey);
+ 
+
+
 //BLiP Icon for SVGs
 const defs = '/img/defs.svg';
 class BlipIcon extends React.Component {
@@ -116,9 +145,10 @@ class BlipAreas extends React.Component {
 
           {/* Cards */}
           <div className="cards-session">
+            <div className="cards">
             {data.cards.map((c, index) => (
               <a href={c.url} className="card" key={index}>
-                <div className="card-image">
+                <div className={`card-image-${c.color}`}>
                   <BlipIcon name={c.icon} className="bp-fs-1-session"></BlipIcon>
                   <img className="effects" src="/img/illustrations/efeitos-cards.svg" />
                 </div>
@@ -131,11 +161,21 @@ class BlipAreas extends React.Component {
                   <p className="abstract-session">{c.abstract}</p>
                   <div className="seeMore-session">
                     <p className="text-session">{c.text}</p>
-                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-white"></BlipIcon>
+                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4 bp-fill-bot"></BlipIcon>
                   </div>
                 </div>
               </a>
             ))}
+            </div>
+
+            <div className="banners-session">
+              <a href={randomKey} className="banner">
+                <img src={banners[randomKey]} className="imagem-banner"></img>
+              </a>
+              <a href={randomKey2} className="banner">
+                <img src={banners[randomKey2]} className="imagem-banner"></img>
+              </a>
+            </div>
 
           </div>
         </div>
