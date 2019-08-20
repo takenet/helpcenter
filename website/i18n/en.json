@@ -153,9 +153,6 @@
         "title": "Utilizando o Textc para construir uma conversa contextual",
         "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
       },
-      "api": {
-        "title": "api"
-      },
       "builder/builder-acao-processar-comando": {
         "title": "Ação: Processar Comando",
         "sidebar_label": "Ação: Processar Comando"
