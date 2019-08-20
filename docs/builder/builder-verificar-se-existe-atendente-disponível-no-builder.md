@@ -44,9 +44,9 @@ Para verificar se existe algum atendente disponível no Builder siga os passos a
 
 **Variável do corpo da resposta:** `result`
 
-![Criando uma ação de requisição HTTP](/img/practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder-1.png)
+![Criando uma ação de requisição HTTP](/img/builder/builder-verificar-se-existe-atendente-disponível-no-builder-1.png)
 
-![Criando a requisição HTTP](/img/practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder-2.png)
+![Criando a requisição HTTP](/img/builder/builder-verificar-se-existe-atendente-disponível-no-builder-2.png)
 
 **Observação**: Caso não saiba onde encontrar a API-KEY do seu bot, veja esse artigo: [Como encontrar a API-KEY de um bot no BLiP](/docs/api-sdks/api-sdks-como-encontrar-a-api-key-do-meu-bot).
 
@@ -75,15 +75,15 @@ function run(result) {
 
 **Variável para o valor de retorno:** `hasAttendant`
 
-![Adicionando ação de entrada](/img/practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder-3.png)
+![Adicionando ação de entrada](/img/builder/builder-verificar-se-existe-atendente-disponível-no-builder-3.png)
 
 *Ao final do passo 3, as ações do bloco "Validação de atendentes" deve ficar como a imagem abaixo:*
 
-![Ações de entrada criadas no bloco](/img/practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder-4.png)
+![Ações de entrada criadas no bloco](/img/builder/builder-verificar-se-existe-atendente-disponível-no-builder-4.png)
 
 4. Defina duas condições de saída no bloco criado no passo 1. Uma das condições (**hasAttendant = true**) será executada caso exista pelo menos 1 atendente disponível e a outra condição (**hasAttendant = false**) será executada caso não exista nenhum atendente disponível.
 
-![Definindo ações de saída](/img/practice/builder/builder-verificar-se-existe-atendente-disponível-no-builder-5.png)
+![Definindo ações de saída](/img/builder/builder-verificar-se-existe-atendente-disponível-no-builder-5.png)
 
 Adicione o bloco de **Atendimento Humano**. apenas na condição de saída que representa a disponibilidade de atendentes.
 

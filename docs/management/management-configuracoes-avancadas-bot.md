@@ -8,7 +8,7 @@ Em certos momentos, o desenvolvedor do bot pode precisar ter acesso a algumas co
 
 Para isso, basta acessar a tela de configurações do seu bot (o ícone com uma engrenagem no canto superior direito do portal), rolar a tela até embaixo e clicar no link de acesso as <u>configurações avançadas</u>.
 
-![Tela de configurações avançadas](/img/practice/management/mana-configuracoes-avancadas-bot-1.png)
+![Tela de configurações avançadas](/img/management/management-configuracoes-avancadas-bot-1.png)
 
 A tela de configurações avançadas lista várias configurações que o BLiP armazena sobre um determinado bot, sendo possível ler, alterar e excluir seus valores. Lembre-se, grandes poderes trazem grandes responsabilidades 🕷️🕸️.
 

@@ -6,7 +6,7 @@ sidebar_label: Ação: Processar Comando
 
 A ação **Processar Comando** foi desenvolvida com o objetivo de facilitar a integração entre o Builder e as APIs internas do BLiP. Na prática, isso significa que a partir de agora é possível utilizar as extensões do BLiP de forma simples, dentro do Builder.
 
-![Processar comando](/img/practice/builder/builder-acao-processar-comando-1.png)
+![Processar comando](/img/builder/builder-acao-processar-comando-1.png)
 
 **Extensões** são ferramentas que possibilitam o reaproveitamento e a extensão de vários recursos da plataforma. Através delas é possível por exemplo, agendar mensagens, salvar informações nos bancos de dados do BLiP, buscar histórico de conversas. Veja algumas das principais extensões disponíveis abaixo:
 
@@ -27,7 +27,7 @@ Para consultar a documentação completa de todas as extensões [clique aqui](ht
 
 Veja, no GIF abaixo, um exemplo de como agendar uma mensagem para um usuário (fictício com identificador destination@<span>0mn.io</span>) utilizando a extensão de **Agendamento** (Scheduler).
 
-![Agendando mensagem](/img/practice/builder/builder-acao-processar-comando-2.gif)
+![Agendando mensagem](/img/builder/builder-acao-processar-comando-2.gif)
 
 
 

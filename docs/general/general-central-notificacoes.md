@@ -8,4 +8,4 @@ O BLiP acabou de lançar uma nova funcionalidade para tornar a comunicação, en
 
 A partir de agora, através da **Central de notificações** os usuários receberão novidades e informações relevantes sobre sua conta e seus bots. Por isso fique atento ao sininho localizado no canto superior direito do portal.
 
-![Central de Notificações](/img/general/auxiliary-tools/aux-central-notificacoes-1.png)
+![Central de Notificações](/img/general/general-central-notificacoes-1.png)

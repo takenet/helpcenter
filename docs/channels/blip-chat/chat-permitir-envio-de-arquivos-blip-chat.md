@@ -11,11 +11,11 @@ Para permitir que um usuário faça upload de um arquivo (imagem, áudio, vídeo
 1 - Acesse o [Portal](https://portal.blip.ai/#/) e selecione seu bot  
 2 - Acesse o módulo **Canais** e selecione a opção **BLiP Chat**
 
-![Módulo de canais](/img/practice/blip-chat/chat-permitir-envio-de-arquivos-blip-chat-1.png)<br>
+![Módulo de canais](/img/channels/blip-chat/chat-permitir-envio-de-arquivos-blip-chat-1.png)<br>
 
 3 - Clique na aba Configurações e marque a opção Receber arquivos
 
-![Módulo de canais](/img/practice/blip-chat/chat-permitir-envio-de-arquivos-blip-chat-2.png)<br>
+![Módulo de canais](/img/channels/blip-chat/chat-permitir-envio-de-arquivos-blip-chat-2.png)<br>
 
 4 - Para confirmar a alteração, clique no botão Salvar (localizado no canto inferior da página)
 

@@ -18,7 +18,7 @@ Se você não é o Miguel ou o Pedro e não os conhece, provavelmente você não
 Estas informações fazem parte do **contexto** da conversa. O contexto depende de muitos fatores, como por exemplo da **data**, **horário** e **local da conversa**.
 
 
-![campo de futebol](/img/concepts/bots/bots-chatbots-e-a-importancia-contexto-1.jpg)
+![campo de futebol](/img/general/general-chatbots-e-a-importancia-contexto-1.jpg)
 
 *Com a imagem ficou fácil*
 

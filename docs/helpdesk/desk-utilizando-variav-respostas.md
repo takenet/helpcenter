@@ -42,19 +42,19 @@ Já as variáveis do atendente, que podem ser utilizadas,  estão dispostas no q
 
 Acesse o módulo de Atendimento do seu bot e crie uma resposta pronta. Neste exemplo criaremos uma resposta do tipo texto, mas você pode criar respostas com qualquer tipo de conteúdo suportado pelo canal que seu bot está sendo utilizado.
 
-![Módulo de atendimento](/img/practice/blip-desk/desk-utilizando-variav-respostas-1.png)<br><br>
+![Módulo de atendimento](/img/helpdesk/desk-utilizando-variav-respostas-1.png)<br><br>
 
 Antes de cadastrar uma resposta é necessário criar uma categoria. Para isso clique no botão **Criar Categoria** e defina um nome para a mesma. Crie agora uma resposta pronta definindo um título e o conteúdo.
 
-![Criar categoria](/img/practice/blip-desk/desk-utilizando-variav-respostas-2.png)
-![Nomear categoria](/img/practice/blip-desk/desk-utilizando-variav-respostas-3.png)<br><br>
+![Criar categoria](/img/helpdesk/desk-utilizando-variav-respostas-2.png)
+![Nomear categoria](/img/helpdesk/desk-utilizando-variav-respostas-3.png)<br><br>
 
 Neste exemplo, a resposta pronta criada refere-se a um mensagem padrão para saudação dos usuários que pedem atendimento no bot.
 
 A partir de agora o atendente já pode utilizar esta resposta dentro do BLiP Desk, conforme exibido na imagem abaixo:
 
-![Utilizando resposta pronta dentro do BLiP Desk](/img/practice/blip-desk/desk-utilizando-variav-respostas-4.png)<br><br>
+![Utilizando resposta pronta dentro do BLiP Desk](/img/helpdesk/desk-utilizando-variav-respostas-4.png)<br><br>
 
 Repare que o BLiP altera o valor das variáveis antes de realizar o envio da menssagem. Na imagem abaixo temos um exemplo de como o conteúdo chega no cliente final.
 
-![Exemplo uso mensagem pronta BLiP Desk](/img/practice/blip-desk/desk-utilizando-variav-respostas-5.png)
+![Exemplo uso mensagem pronta BLiP Desk](/img/helpdesk/desk-utilizando-variav-respostas-5.png)

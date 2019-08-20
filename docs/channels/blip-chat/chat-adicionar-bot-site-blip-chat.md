@@ -14,17 +14,17 @@ O canal permite que um bot seja integrado em um site de duas formas diferentes: 
 
 1. Clique no módulo **Canais** (no portal do BLiP) e escolha o canal **BLiP Chat**.
 ​
-![Menu canais de conversa BLiP](/img/practice/blip-chat/chat-adicionar-bot-site-blip-chat-1.png)<br>
+![Menu canais de conversa BLiP](/img/channels/blip-chat/chat-adicionar-bot-site-blip-chat-1.png)<br>
 
 2. Clique na aba **Configurações** e informe o domínio do(s) site(s) que deseja colocar o BLiP Chat.
 
 **Observação**: Essa é uma operação obrigatória. Por uma questão de segurança, seu bot funcionará apenas nas páginas cujo domínio tenha sido previamente habilitado no portal do BLiP. No exemplo da imagem abaixo, o BLiP Chat será carregado apenas em páginas cujo domínio seja **seudominio<span>.</span>com**
 
-![configurações blip chat](/img/practice/blip-chat/chat-adicionar-bot-site-blip-chat-2.png)<br>
+![configurações blip chat](/img/channels/blip-chat/chat-adicionar-bot-site-blip-chat-2.png)<br>
 
 3. Clique na aba **Instalação**, copie o script apresentado e cole-o dentro do <u>body da sua página web</u>.
 
-![instalação blip chat](/img/practice/blip-chat/chat-adicionar-bot-site-blip-chat-3.png)<br>
+![instalação blip chat](/img/channels/blip-chat/chat-adicionar-bot-site-blip-chat-3.png)<br>
 
 ## Integrar um bot a um site de forma embutida
 

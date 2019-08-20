@@ -10,12 +10,12 @@ Ações podem ser definidas de forma **local**, ou seja, no escopo de um bloco d
 
 Para definir uma ação global, acesse as **Configurações do Builder** do seu bot e escolha a opção **Ações Globais**.
 
-![Menu opções globais Builder](/img/practice/builder/builder-definindo-acoes-globais-1.png)<br>
+![Menu opções globais Builder](/img/builder/builder-definindo-acoes-globais-1.png)<br>
 
 ## Mas afinal, quando utilizar uma ação global?
 
 Pense em utilizar ações globais para tarefas que precisam ser realizadas a cada iteração (entradas responsáveis por receber as mensagens) dos seus usuários. Um exemplo de utilização deste tipo de ação é o registro de evento para cada um dos blocos responsáveis por receber conteúdos dos usuário. Nesse cenário é possível utilizar a variável *{{state<span>.</span>name}}* para garantir que todos os eventos levem em consideração o nome do bloco associado à entrada.
 
-![Ações globais exemplo](/img/practice/builder/builder-definindo-acoes-globais-2.png)<br>
+![Ações globais exemplo](/img/builder/builder-definindo-acoes-globais-2.png)<br>
 
 <font color=gray>Adicionado na Release 19.25</font>

@@ -10,8 +10,8 @@ Algumas empresas possuem uma abordagem descontraída para interagir com seus cli
 
 Para habilitar o uso de emoji, por parte dos atendentes, no BLiP Desk acesse o módulo de **Atendimento**, clique em **Configurações** e **habilite esssa opção**.
 
-![Configurações atendimento blip](/img/practice/blip-desk/desk-habilitando-uso-emoji-1.png)<br>
+![Configurações atendimento blip](/img/helpdesk/desk-habilitando-uso-emoji-1.png)<br>
 
 Após habilitada esta configuração, os atendentes do Desk poderão utilizar o recurso de emoji conforme exibido na imagem abaixo.
 
-![Acessando emojis blip desk](/img/practice/blip-desk/desk-habilitando-uso-emoji-2.png)
+![Acessando emojis blip desk](/img/helpdesk/desk-habilitando-uso-emoji-2.png)

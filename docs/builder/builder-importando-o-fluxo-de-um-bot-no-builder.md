@@ -14,7 +14,7 @@ Para isso, basta exportar o fluxo de um bot e importá-lo em outro bot. Veja tod
 2. Clique no botão **Configurações**, no menu lateral esquerdo.
 3. No menu contextual, clique em **Versões** e depois exportar versão.
 
-![Exportando o fluxo](/img/practice/builder/builder-importando-o-fluxo-de-um-bot-no-builder-1.png)
+![Exportando o fluxo](/img/builder/builder-importando-o-fluxo-de-um-bot-no-builder-1.png)
 
 4. Após clicar no botão **Exportar fluxo**, o BLiP fará o download de um arquivo JSON com o identificador do seu bot.
 

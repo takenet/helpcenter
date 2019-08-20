@@ -7,7 +7,7 @@ Para que seja possível condicionar a mudança de estado de um usuário, o Build
 
 O bloco de destino pode ser qualquer um dos blocos existentes no fluxo da conversa do bot. Cada regra é formada por até quatro estruturas: **fonte de dados, operador, nome de uma variável e um valor esperado**.
 
-![Condicoes de saida](/img/concepts/builder/builder-visao-geral-das-condicoes-de-saida-1.png)
+![Condicoes de saida](/img/builder/builder-visao-geral-das-condicoes-de-saida-1.png)
 
 Quando a fonte de dados do tipo **Variável** é selecionada, é necessário também adicionar o nome da variável que será analisada na condição.
 
@@ -58,7 +58,7 @@ Nessa situação, o bloco que possui a pergunta terá duas condições de saída
 
 Para visualizar melhor, confira a imagem a seguir:
 
-![Exemplo condições de saída](/img/concepts/builder/builder-visao-geral-das-condicoes-de-saida-2.png)
+![Exemplo condições de saída](/img/builder/builder-visao-geral-das-condicoes-de-saida-2.png)
 
 **Exemplo 2**: Imagine que, durante uma pergunta qualquer, um bot precise alterar o estado do usuário de acordo com uma de suas variáveis de contexto. Considere que a variável {{plan}} representa o plano do usuário, foi setada em algum estado anterior e pode assumir os valores ‘free’ ou ‘premium’.
 
@@ -82,7 +82,7 @@ Nessa situação, o bloco que possui a pergunta terá duas condições de saída
 
 Para visualizar melhor, confira a imagem a seguir:
 
-![Exemplo 2 condições de saída](/img/concepts/builder/builder-visao-geral-das-condicoes-de-saida-3.png)
+![Exemplo 2 condições de saída](/img/builder/builder-visao-geral-das-condicoes-de-saida-3.png)
 
 **Observações:**
 

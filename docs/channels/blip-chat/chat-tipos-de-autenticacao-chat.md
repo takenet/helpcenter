@@ -31,7 +31,7 @@ A opção GUEST é o modo padrão de autenticação do BLiP Chat. Portanto, para
 ```
 *\* O script acima pode ser encontrado no portal do BLiP acessando o módulo **Canais > BLiP Chat > Instalação**, conforme imagem abaixo:*
 
-<br>![Script instalação BLiP Chat](/img/concepts/blip-chat/chat-tipos-de-autenticacao-chat-1.png)<br><br>
+<br>![Script instalação BLiP Chat](/img/channels/blip-chat/chat-tipos-de-autenticacao-chat-1.png)<br><br>
 
 ## DEV_AUTH
 O tipo de autenticaçao Dev deve ser escolhido quando houver a necessidade de manter sempre a mesma identificação do cliente que utiliza o BLiP Chat em seu site ou app, por exemplo em ambientes logados. Nesse modo, é possível definir o usuário através de um **identificador** e uma **senha**.

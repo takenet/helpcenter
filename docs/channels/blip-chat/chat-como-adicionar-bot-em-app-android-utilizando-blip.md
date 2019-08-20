@@ -59,7 +59,7 @@ Para encontrar a API-KEY do BLiP Chat do seu bot, vá até o portal e escolha o 
 
 Para encontrar a API-KEY do BLiP Chat do seu bot, vá até o portal e escolha o bot correspondente. Clique no módulo Canais e escolha o canal BLiP Chat. Clique na aba Instalação e copie sua API-KEY, conforme a imagem abaixo:
 
-![Encontrando API-KEY do Blip Chat do seu bot](/img/practice/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip-1.png)
+![Encontrando API-KEY do Blip Chat do seu bot](/img/channels/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip-1.png)
 
 **Observação**: O método *openBlipThread* pode retornar uma exceção, já que ele verifica se possui todas as informações necessárias para abrir o chat. Então, você deve colocá-lo dentro de um *try catch*. Você também pode passar um objeto *BlipOptions*, que possui algumas configurações opcionais que serão abordadas mais adiante.
 
@@ -142,4 +142,4 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-![Customizando a interface do chat no Android](/img/practice/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip-2.png)
+![Customizando a interface do chat no Android](/img/channels/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip-2.png)

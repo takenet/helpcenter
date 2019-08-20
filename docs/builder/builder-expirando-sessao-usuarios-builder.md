@@ -10,7 +10,7 @@ Por padrão, a sessão de um usuário no Builder nunca expira, mas você pode **
 
 Para isso, acesse o **Builder**, clique no botão de **Configurações do Builder** e clique na opção **Expiração de Sessão**. Defina o tempo máximo da sessão em segundos.
 
-![Configuração de Expiração de Sessão Builder](/img/practice/builder/builder-expirando-sessao-usuarios-builder-1.png)<br>
+![Configuração de Expiração de Sessão Builder](/img/builder/builder-expirando-sessao-usuarios-builder-1.png)<br>
 
 No exemplo acima, usuários que ficarem mais de 1 hora (3600 segundos) sem interagir com o bot serão automaticamente enviados para o bloco início.
 
