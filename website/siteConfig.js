@@ -51,6 +51,7 @@ const siteConfig = {
     {page: 'resources', label: 'Recursos'},
     {page: 'courses', label: 'Cursos'},
     {page: 'Community', label: 'Comunidade'},
+    {page: 'lgpd', label: 'Políticas'},
     {languages: true},
     {search: true}
   ],

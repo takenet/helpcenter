@@ -621,7 +621,7 @@
     padding-bottom: 3%;
   }
   
-  .cards-session .cards{
+  .cards-session .session-cards{
     width: 100% !important;
   }
   
@@ -633,23 +633,25 @@
     display: none;
   }
   
-  .cards .card {
+  .session-cards .card-session {
     height: 169px !important;
   }
   
-  .card .card-image-sea, 
-  .card .card-image-attention,
-  .card .card-image-suit, 
-  .card .card-image-refresh, 
-  .card .card-image-watermelon,
-  .card .card-image-success,
-  .card .card-image-blip{
+  .card-session .card-image-sea, 
+  .card-session .card-image-attention,
+  .card-session .card-image-suit,
+  .card-session .card-image-bluejeans,  
+  .card-session .card-image-refresh, 
+  .card-session .card-image-watermelon,
+  .card-session .card-image-success,
+  .card-session .card-image-blip{
     margin-left: 5%;
     margin-top: 5%;
   } 
   
   .card-image-sea .effects,
   .card-image-blip .effects,
+  .card-image-bluejeans .effects,
   .card-image-suit .effects,
   .card-image-success .effects,
   .card-image-attention .effects,
@@ -662,6 +664,7 @@
   .card-image-sea .bp-fs-1-session,
   .card-image-blip .bp-fs-1-session,
   .card-image-suit .bp-fs-1-session,
+  .card-image-bluejeans .bp-fs-1-session, 
   .card-image-success .bp-fs-1-session,
   .card-image-watermelon .bp-fs-1-session,
   .card-image-attention .bp-fs-1-session,
@@ -674,13 +677,13 @@
     margin-top: 35px;
   }
   
-  .card .cards-session-content{
+  .card-session .cards-session-content{
     display: flex;
     flex-direction: column;
     margin: auto;
   }
   
-  .card .div-title-session {
+  .card-session .div-title-session {
     width: 100%;
   }
   
@@ -10040,7 +10043,6 @@ ol {
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .custom-footer .footer-content {
@@ -10052,9 +10054,9 @@ ol {
 .footer-content .content-links {
   display: flex;
   flex-direction: column;
-  align-items: left;
   text-align: left;
   margin: 3%;
+  max-width: 8%;
 }
 
 .content-links .title {
@@ -10891,6 +10893,17 @@ a.link-from{
   flex-direction: row;
 }
 
+.card-session .card-image-bluejeans{
+  background: linear-gradient(221.83deg, #514F64 -10.36%, #2C2A46 45.63%, #312F44 117.2%, #312F44 117.21%);
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+  max-width: 88px;
+  max-height: 121px;
+  z-index: 1;
+  align-content: center;
+}
+
 .card-session .card-image-sea{
   background: linear-gradient(226.58deg, #6D8CE5 -10.36%, #517BF2 45.63%, #4D6CC5 117.21%);
   border-radius: 8px;
@@ -10964,6 +10977,7 @@ a.link-from{
 
 .card-image-sea .effects,
 .card-image-blip .effects,
+.card-image-bluejeans .effects,
 .card-image-suit .effects,
 .card-image-success .effects,
 .card-image-attention .effects,
@@ -10975,6 +10989,7 @@ a.link-from{
 
 .card-image-sea .bp-fs-1-session,
 .card-image-blip .bp-fs-1-session,
+.card-image-bluejeans .bp-fs-1-session,
 .card-image-suit .bp-fs-1-session,
 .card-image-success .bp-fs-1-session,
 .card-image-watermelon .bp-fs-1-session,

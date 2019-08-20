@@ -66,7 +66,13 @@ class Footer extends React.Component {
                
               <div className="content-links">
                   <p className="title">Políticas</p>
-                  <a href="#" className="link-footer">LGPD</a>
+                  <a href="#" className="link-footer">DPA</a>
+                  <a href="#" className="link-footer">Governança de Dados</a>
+                  <a href="#" className="link-footer">Legal</a>
+                  <a href="#" className="link-footer">Políticas de Cookies</a>
+                  <a href="#" className="link-footer">Políticas de Privacidade</a>
+                  <a href="#" className="link-footer">Programa de Privacidade e Proteção de Dados</a>
+                  <a href="#" className="link-footer">Termos de Uso</a>
               </div>
 
           </div>
