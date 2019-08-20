@@ -10833,6 +10833,7 @@ a.link-from{
 .cards-session .banners-session{
   width: 25%;
   margin-left: 2%;
+  display: none;
 }
 
 
