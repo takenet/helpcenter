@@ -8,7 +8,7 @@ Todas as ações do Builder possum um tempo limite (máximo) de execução - *um
 
 Por padrão, todas as ações possuem um tempo máximo de execução de 30 segundos, esse valor é definido pela plataforma. Caso você precise ajustar esse valor, acesse o **Builder**, clique em **Configurações** (aba de variáveis) e altere o valor da variável **Tempo limite de ações**. 
 
-![Definindo timeout](/img/practice/builder/builder-como-definir-um-tempo-limite-para-acoes-do-builder-1.png)
+![Definindo timeout](/img/builder/builder-como-definir-um-tempo-limite-para-acoes-do-builder-1.png)
 
 **Importante**: O valor dessa variável deverá ser dado em segundos e poderá variar entre 0 e 60.
 

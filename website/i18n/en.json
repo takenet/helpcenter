@@ -59,7 +59,7 @@
       },
       "ai/nlp/nlp-treinando-publicando-modelo-de-ia": {
         "title": "Treinando e publicando seu modelo de inteligência artificial",
-        "sidebar_label": "Treinando e publicando sue modelo de inteligência artificial"
+        "sidebar_label": "Treinando e publicando seu modelo de inteligência artificial"
       },
       "analytics/analytics-integracao-ferramentas-analytics": {
         "title": "Integração com ferramentas de analytics",
@@ -152,9 +152,6 @@
       "api-sdks/api-sdks-utilizando-textc-construir-conversa": {
         "title": "Utilizando o Textc para construir uma conversa contextual",
         "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
-      },
-      "api": {
-        "title": "api"
       },
       "builder/builder-acao-processar-comando": {
         "title": "Ação: Processar Comando",

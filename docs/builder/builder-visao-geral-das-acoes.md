@@ -12,11 +12,11 @@ As ações disponíveis são:
 
 * **Requisição HTTP**
 
-![Requisicao HTTP](/img/concepts/builder/builder-visao-geral-das-acoes-1.png)
+![Requisicao HTTP](/img/builder/builder-visao-geral-das-acoes-1.png)
 
 Essa ação permite realizar uma requisição HTTP para qualquer API pública.
 
-![Corpo requisicao HTTP](/img/concepts/builder/builder-visao-geral-das-acoes-2.png)
+![Corpo requisicao HTTP](/img/builder/builder-visao-geral-das-acoes-2.png)
 
 Para que o Builder seja capaz de realizar a requisição, é preciso preencher todas as informações necessárias para o request.
 
@@ -33,7 +33,7 @@ Para que o Builder seja capaz de realizar a requisição, é preciso preencher t
   
 Essa ação permite realizar o registro de um evento qualquer no módulo de análise do BLiP. Registro de eventos são necessários para a criação de relatórios customizados.
 
-![Registro de evento](/img/concepts/builder/builder-visao-geral-das-acoes-3.png)
+![Registro de evento](/img/builder/builder-visao-geral-das-acoes-3.png)
 
 Todo evento no BLiP é formado por uma **categoria**, uma **ação** e um **conjunto de metadados (opcionais)**. O usuário deve informar essas propriedades para registrar um evento.
 
@@ -41,7 +41,7 @@ Todo evento no BLiP é formado por uma **categoria**, uma **ação** e um **conj
 
 Através desta ação, é possível adicionar diversas informações sobre o usuário que está interagindo com o bot. A partir dessas informações, é possível aumentar o conhecimento do seu bot sobre cada um de seus usuários, além de categorizar os clientes de acordo com suas preferências.
 
-![Definir contato](/img/concepts/builder/builder-visao-geral-das-acoes-4.png)
+![Definir contato](/img/builder/builder-visao-geral-das-acoes-4.png)
 
 Uma vez adicionadas as informações de um contato, é possível visualizá-las em diferentes **módulos** do BLiP. Para saber mais sobre a ação de **Definir Contatos** [clique aqui](https://help.blip.ai/hc/pt-br/articles/360020287152-Salvando-informa%C3%A7%C3%B5es-de-um-usu%C3%A1rio).
 
@@ -49,7 +49,7 @@ Uma vez adicionadas as informações de um contato, é possível visualizá-las 
 
 Uma funcionalidade muito interessante do BLiP é a possibilidade de criar e utilizar listas de distribuição para envios de mensagens direcionadas a um público específico. O módulo de agendamento do BLiP permite agendar e enviar mensagens para listas específicas.
 
-![Gerenciar listas de distribuicao](/img/concepts/builder/builder-visao-geral-das-acoes-5.png)
+![Gerenciar listas de distribuicao](/img/builder/builder-visao-geral-das-acoes-5.png)
 
 A ação de gerenciamento de listas de distribuição permite adicionar ou remover o usuário que está interagindo com o bot de uma lista.
 
@@ -59,7 +59,7 @@ Pensando em escalabilidade e na administração correta das bases de conheciment
 
 Neste cenário, para que seja possível trocar o usuário entre os subbots, é necessário utilizar a ação de redirecionamento de serviço, como visto na figura abaixo:
 
-![Ação redirecionar a um serviço](/img/concepts/builder/builder-visao-geral-das-acoes-6.png)
+![Ação redirecionar a um serviço](/img/builder/builder-visao-geral-das-acoes-6.png)
 
 Esta ação é bem simples. Basta informar o identificador do Serviço (bot) para o qual o usuário será direcionado e marcar (caso desejado) o envio da mensagem de contexto ao serviço que tratará as próximas interações do usuário.
 

@@ -24,28 +24,28 @@ Para criar sua primeira campanha de anúncio do Facebook siga os passos abaixo:
 
 1. Acesse seu bot no portal do BLiP e escolha o módulo ***Growth*** clicando na opção mais módulos (representado pelo ícone de três pontos) no menu superior. Já no módulo ***Growth***, escolha a opção **Facebook Ads** no menu lateral esquerdo e clique no botão **Criar Campanha** (veja imagem abaixo).
 
-![Criando sua primeira campanha](/img/practice/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-1.png)
+![Criando sua primeira campanha](/img/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-1.png)
 
 2. Escolha o objetivo e dê um nome para sua campanha. Atualmente, apenas as campanhas para **Conquistar mais usuários** (através de clique para o Messenger) estão disponíveis.
 
-![Escolhendo objetivo e nome para a campanha](/img/practice/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-2.png)
+![Escolhendo objetivo e nome para a campanha](/img/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-2.png)
 
 3. Defina a audiência da sua campanha de acordo com o seu objetivo. Esse é o momento de definir o que é essencial para você: volume de usuários **vs** qualidade da base.
 
-![Definindo a audiência da campanha](/img/practice/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-3.png)
+![Definindo a audiência da campanha](/img/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-3.png)
 
 4. Agora, escolha qual será o orçamento da sua campanha. É possível definir um tempo de validade da campanha ou apenas o valor total do seu investimento.
 
-![Escolhendo o orçamento da campanha](/img/practice/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-4.png)
+![Escolhendo o orçamento da campanha](/img/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-4.png)
 
 5. Por fim, é necessário configurar o conteúdo do anúncio. Essa é a parte mais importante da sua campanha, afinal o que você definir nesta etapa será visualizado pelos clientes no Facebook.
 
-![Configurando o conteúdo do anúncio](/img/practice/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-5.png)
+![Configurando o conteúdo do anúncio](/img/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-5.png)
 
 Além de preencher a imagem e os dados do anúncio é possível analisar como ele aparecerá para os usuários tanto no *desktop* quando nos dispositivos móveis.
 
 6. Após criada a campanha, o BLiP envia todas as informações para o Facebook. Você receberá uma notificação do Facebook, depois de alguns minutos, informando se seu anúncio foi aprovado ou não.
 
-![Recebendo notificação do Facebook](/img/practice/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-6.png)
+![Recebendo notificação do Facebook](/img/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-6.png)
 
 \* *Integração realizada em parceria com a **SugarAds**.*

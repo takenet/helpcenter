@@ -10,11 +10,11 @@ Qualquer integrante da equipe de um bot que tenha acesso de escrita no módulo d
 
 Para definir uma regra, vá até o módulo de atendimento. No menu lateral esquerdo, selecione a opção **Regras de atendimento**, conforme a imagem abaixo:
 
-![Menu regras de atendimento](/img/practice/blip-desk/desk-como-definir-regras-atendimento-1.png)<br><br>
+![Menu regras de atendimento](/img/helpdesk/desk-como-definir-regras-atendimento-1.png)<br><br>
 
 Para adicionar uma regra, clique no botão **+ Adicionar regra** no canto superior direito. Uma regra de atendimento é formada por:
 
-![Dados de regras de atendimento](/img/practice/blip-desk/desk-como-definir-regras-atendimento-2.png)<br><br>
+![Dados de regras de atendimento](/img/helpdesk/desk-como-definir-regras-atendimento-2.png)<br><br>
 
 ## Fonte de dados
 

@@ -14,39 +14,39 @@ Vamos começar criando um novo *zap* no Zapier (você pode clicar [aqui](https:/
 
 Para a *trigger app*, escolha “RSS”.
 
-![Escolhendo RSS para a trigger app](/img/practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger-1.png)
+![Escolhendo RSS para a trigger app](/img/api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger-1.png)
 
 Escolha a opção “New item in Feed” (deve ser a única) e clique em “Save + Continue”.
 
-![Escolhendo a opção "New item in Feed"](/img/practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger-2.png)
+![Escolhendo a opção "New item in Feed"](/img/api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger-2.png)
 
 No passo seguinte, adicione o endereço do *feed RSS* que lhe interessar (como exemplo usei o endereço <https://take.net/blog/feed/> do *feed* do *blog* da Take). Pode deixar os demais campos em branco e clique em “Continue”.
 
-![Adicionando o endereço do feed RSS](/img/practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger-3.png)
+![Adicionando o endereço do feed RSS](/img/api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger-3.png)
 
 Em seguida, escolha um item buscado no *feed* para que seja feito um teste. Este passo deve ocorrer sem problemas, então clique em “Continue” para configurarmos a ação que será tomada quando uma nova notícia for recuperada do *feed*.
 
-![Escolhendo um item buscado no feed para testar](/img/practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger-4.png)
+![Escolhendo um item buscado no feed para testar](/img/api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger-4.png)
 
 Pronto, agora chegou o momento de definir o que o Zapier fará sempre que um novo artigo estiver disponível no *feed*. Para isso clique no botão "Add a Step", no canto lateral esquerdo.
 
-![Adicionando um step no Zapier](/img/practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger-5.png)
+![Adicionando um step no Zapier](/img/api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger-5.png)
 
 Escolha a opção Action/Search e depois procure pela opção Webhooks na lista de *action apps*.
 
-![Escolhendo a opção Action/Search e Weebhooks](/img/practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger-6.png)
+![Escolhendo a opção Action/Search e Weebhooks](/img/api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger-6.png)
 
 Selecione a opção de POST para a *action* e clique em “Save + Continue”.
 
-![Selecionando a opção de POST para a action](/img/practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger-7.png)
+![Selecionando a opção de POST para a action](/img/api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger-7.png)
 
 Esta é a tela mais importante deste *zap*: o mapeamento do conteúdo do *feed* para o formato Json de mensagem esperado pelo BLiP. No Painel do BLiP, escolha o bot (contato inteligente) que será usado para envio das mensagens. Entre na tela de **Configurações** do mesmo e escolha o sub menu **Informações de conexão**, localizado no canto esquerdo.
 
-![Escolhendo o Bot que será usado para o envio das mensagens](/img/practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger-8.png)
+![Escolhendo o Bot que será usado para o envio das mensagens](/img/api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger-8.png)
 
 Copie a “URL para enviar mensagens” do BLiP para a “URL” (exigida) pelo Zapier. O “Payload Type” deverá ser json.
 
-![Copiando a "URL para enviar mensagens" do BLiP](/img/practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger-9.png)
+![Copiando a "URL para enviar mensagens" do BLiP](/img/api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger-9.png)
 
 Para a configuração do “Data” vamos montar um envelope de uma mensagem com um [Weblink](https://docs.blip.ai/#web-link), conforme a documentação do BLiP disponível [aqui](https://docs.blip.ai/#introduction).
 
@@ -60,11 +60,11 @@ Para a configuração do “Data” vamos montar um envelope de uma mensagem com
 
 Observe que a propriedade content é um outro objeto Json. Para informar as propriedades deste objeto utilizamos a sintaxe especial do Zapier com “__” (2 *underscores*) como separador. Veja como deverá ficar:
 
-![Como ficará o seu Template](/img/practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger-10.png)
+![Como ficará o seu Template](/img/api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger-10.png)
 
 Por fim, ao final do formulário do Zapier, em “Headers”, adicione o cabeçalho Authorization fornecido na página de Configurações do Webhook do seu contato. Observe que ele será dividido entre os 2 campos do formulário.
 
-![Adicionando o cabeçalho Authorization](/img/practice/api-http-sdks/api-http-sdks-criando-um-bot-para-receber-feeds-no-messenger-10.png)
+![Adicionando o cabeçalho Authorization](/img/api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger-10.png)
 
 Cliquem agora no botão “Continue”. A página seguinte deverá produzir um conteúdo de teste a partir de uma das entradas do *feed*. Clique no botão “Create & Continue” e, se tudo ficou corretamente configurado, você deverá receber uma mensagem no canal que você configurou com o texto da notícia do *feed*.
 

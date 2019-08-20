@@ -20,7 +20,7 @@ Para mais detalhes sobre o processo de criação desta conta siga os passos defi
 * Deployment ID
 * Button ID
 
-![Configurações SalesForce](/img/practice/blip-desk/desk-utilizar-live-agent-salesForce-atendimento-humano-1.png)<br>
+![Configurações SalesForce](/img/helpdesk/desk-utilizar-live-agent-salesForce-atendimento-humano-1.png)<br>
 
 ## 3 - Adicionando suas configurações ao BLiP
 
@@ -28,5 +28,5 @@ Acesse o módulo **Atendimento** em seu bot, escolha o provedor **SalesForce** e
 
 Adicione os dados obtidos no passo anterior e clique em **Conectar**. Pronto, a partir de agora os tickets de atendimento humano serão enviados para a ferramenta **Live Agent**.
 
-![Configurações SalesForce no BLiP](/img/practice/blip-desk/desk-utilizar-live-agent-salesForce-atendimento-humano-2.png)
+![Configurações SalesForce no BLiP](/img/helpdesk/desk-utilizar-live-agent-salesForce-atendimento-humano-2.png)
 ***Observação: Lembre-se que ao ativar um provedor de atendimento humano diferente do BLiP Desk os recursos de Monitoramento e Relatórios não estarão mais disponíveis.***

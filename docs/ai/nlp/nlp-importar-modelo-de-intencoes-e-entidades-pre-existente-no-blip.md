@@ -159,6 +159,6 @@ Para fazer a migração de Intenções e Entidades de algum provedor para dentro
 
 Para realizar a importação dos arquivos preparados acesse o Portal, escolha o bot e selecione o módulo Inteligência Artificial. Selecione o menu Intenções (ou Entidades), no menu lateral esquerdo, clique no botão mais opções, selecione Importar intenções (ou Importar entidades) e faça upload do arquivo **blip-intentions.csv** (ou **blip-entities.csv**).
 
-![Importação dos arquivos](/img/practice/ai/ai-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip-1.png)
+![Importação dos arquivos](/img/ai/nlp/nlp-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip-1.png)
 
 

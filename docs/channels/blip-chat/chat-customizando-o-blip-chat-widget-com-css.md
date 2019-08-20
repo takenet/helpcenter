@@ -28,11 +28,11 @@ A método **withTarget** do widget do BLiP Chat permite que você coloque seu ch
 
 **Antes**
 
-![BLiP Chat](/img/practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css-1.png)
+![BLiP Chat](/img/channels/blip-chat/chat-customizando-o-blip-chat-widget-com-css-1.png)
 
 **Depois**
 
-![BLiP Chat em elemento customizado](/img/practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css-1.png)
+![BLiP Chat em elemento customizado](/img/channels/blip-chat/chat-customizando-o-blip-chat-widget-com-css-1.png)
 
 ## Customizando dentro do iframe
 
@@ -70,11 +70,11 @@ Dessa forma, você conseguirá customizar totalmente o seu chat:
 
 **Antes**
 
-![BLiP Chat em elemento customizado](/img/practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css-2.png)
+![BLiP Chat em elemento customizado](/img/channels/blip-chat/chat-customizando-o-blip-chat-widget-com-css-2.png)
 
 **Depois**
 
-![BLiP Chat com CSS customizado](/img/practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css-3.png)
+![BLiP Chat com CSS customizado](/img/channels/blip-chat/chat-customizando-o-blip-chat-widget-com-css-3.png)
 
 ## Chamando a atenção
 
@@ -84,15 +84,15 @@ Uma boa opção para melhorar a presença do seu bot, é adicionar, por exemplo,
 
 **Antes**
 
-![BLiP Chat](/img/practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css-4.png)
+![BLiP Chat](/img/channels/blip-chat/chat-customizando-o-blip-chat-widget-com-css-4.png)
 
 **Depois**
 
-![BLiP Chat com balão de convite](/img/practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css-5.png)
+![BLiP Chat com balão de convite](/img/channels/blip-chat/chat-customizando-o-blip-chat-widget-com-css-5.png)
 
 ou até mesmo mudar a forma como o chat abre:
 
-![BLiP Chat abrindo diferente](/img/practice/blip-chat/chat-customizando-o-blip-chat-widget-com-css-6.gif)
+![BLiP Chat abrindo diferente](/img/channels/blip-chat/chat-customizando-o-blip-chat-widget-com-css-6.gif)
 
 Tudo feito usando CSS, externo ao widget, controlando o que já existe em volta do iframe.
 

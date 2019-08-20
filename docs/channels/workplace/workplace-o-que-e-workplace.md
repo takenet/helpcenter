@@ -4,7 +4,7 @@ title: O que é Workplace?
 sidebar_label: O que é o Workplace?
 ---
 
-![Logo workplace](/img/concepts/channels/channels-o-que-workplace-1.png)<br><br>
+![Logo workplace](/img/channels/workplace/workplace-o-que-workplace-1.png)<br><br>
 
 [Workplace](https://www.workplace.com/) é um facebook corporativo voltado para todos os tipos de empresa. Através dele, é possível ter uma rede social privada, exatamente igual a que todos já estão acostumados (Facebook), para todos os membros de sua companhia.
 

@@ -9058,7 +9058,7 @@ ol {
   background: #2cc3d5;
   color: #fff;
   min-height: 50px;
-  padding: 8px 0;
+  padding: 10px 0;
   position: fixed;
   width: 100%;
   z-index: 9999;
@@ -9068,7 +9068,7 @@ ol {
 }
 
 .fixedHeaderContainer header {
-  display: inline-flex;
+  display: flex;
   flex-flow: row nowrap;
   position: relative;
   text-align: left;
@@ -9076,8 +9076,8 @@ ol {
 
 .fixedHeaderContainer header img {
   height: 100%;
-  margin-right: 10px;
-  margin-top: 5px;
+  padding: 1.18px 0;
+  margin: 0;
 }
 
 .div-forum-ideas {
@@ -9365,12 +9365,19 @@ ol {
   display: flex;
   font-size: 14px;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 500;
   height: 32px;
   line-height: 20px;
   margin: 0;
   padding: 0;
-  padding: 20px 10px;
+  padding: 2px 16px;
+}
+
+.navigationSlider .slidingNav ul li > a:focus,
+.navigationSlider .slidingNav ul li > a:hover,
+.navigationSlider .slidingNav ul li.siteNavItemActive > a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+  font-weight: 700;
 }
 
 .div-rectangle-main {

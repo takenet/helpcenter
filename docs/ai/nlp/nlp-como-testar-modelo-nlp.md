@@ -13,13 +13,13 @@ Antes de testar o funcionamento do seu modelo, verifique se todos os pré-requis
 
 Depois de garantir que todos os passos anteriores já foram seguidos é hora de testar se seu modelo. Para isso, acesse o módulo de **Inteligencia Artificial**, escolha o sub menu **Publicação**, clique no botão **Testar modelo de IA** e na janela de conversa lateral digite a frase que deseja testar.
 
-![Como treinar modelo NLP](/img/practice/ai/ai-como-testar-modelo-nlp-1.png)<br><br>
+![Como treinar modelo NLP](/img/ai/nlp/nlp-como-testar-modelo-nlp-1.png)<br><br>
 
 Repare que ao enviar uma frase de teste o BLiP exibirá:
 * A(s) intenção(ões) associada(s) a frase;
 * Qual a confiabilidade (score) associada a cada uma das intenções; 
 
-![Treinamento NLP](/img/practice/ai/ai-como-testar-modelo-nlp-2.png)<br><br>
+![Treinamento NLP](/img/ai/nlp/nlp-como-testar-modelo-nlp-2.png)<br><br>
 
 Seu objetivo agora é testar o máximo de frases que os usuários supostamente enviariam para o contato da sua empresa. Analise a possibilidade de adicionar novas frases em suas intenções ou criar novas inteções/entidades, para os exemplos de frase não reconhecidos pelo seu modelo.
 
