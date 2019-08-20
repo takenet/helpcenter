@@ -145,9 +145,9 @@ class BlipAreas extends React.Component {
 
           {/* Cards */}
           <div className="cards-session">
-            <div className="cards">
+            <div className="session-cards">
             {data.cards.map((c, index) => (
-              <a href={c.url} className="card" key={index}>
+              <a href={c.url} className="card-session" key={index}>
                 <div className={`card-image-${c.color}`}>
                   <BlipIcon name={c.icon} className="bp-fs-1-session"></BlipIcon>
                   <img className="effects" src="/img/illustrations/efeitos-cards.svg" />

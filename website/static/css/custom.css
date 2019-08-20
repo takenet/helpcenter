@@ -795,7 +795,7 @@
     transform: translateY(-10px);
   }
 
-  .cards-session .card:hover{
+  .cards-session .card-session:hover{
     border: 1px solid rgba(96, 123, 153, 0.15);
     box-sizing: border-box;
     box-shadow: 0px 4px 8px rgba(96, 123, 153, 0.15);
@@ -10823,7 +10823,7 @@ a.link-from{
   padding-bottom: 3%;
 }
 
-.cards-session .cards{
+.cards-session .session-cards{
   width: 70%;
 }
 
@@ -10871,7 +10871,7 @@ a.link-from{
 }
 
 
-.cards .card {
+.session-cards .card-session {
   background: #FFFFFF;
   border: 1px solid rgba(96, 123, 153, 0.15);
   box-sizing: border-box;
@@ -10891,7 +10891,7 @@ a.link-from{
   flex-direction: row;
 }
 
-.card .card-image-sea{
+.card-session .card-image-sea{
   background: linear-gradient(226.58deg, #6D8CE5 -10.36%, #517BF2 45.63%, #4D6CC5 117.21%);
   border-radius: 8px;
   width: fit-content;
@@ -10902,7 +10902,7 @@ a.link-from{
   align-content: center;
 }
 
-.card .card-image-attention{
+.card-session .card-image-attention{
   background: linear-gradient(221.83deg, #FFCF33 -10.36%, #F9B42F 45.63%, #F99B45 117.21%);
   border-radius: 8px;
   width: fit-content;
@@ -10912,7 +10912,7 @@ a.link-from{
   z-index: 1;
 }
 
-.card .card-image-watermelon{
+.card-session .card-image-watermelon{
   background: linear-gradient(221.83deg, #FBB3C4 -10.36%, #F66689 45.63%, #C85C77 117.21%);
   border-radius: 8px;
   width: fit-content;
@@ -10922,7 +10922,7 @@ a.link-from{
   z-index: 1;
 }
 
-.card .card-image-refresh{
+.card-session .card-image-refresh{
   background: linear-gradient(221.83deg, #93D2AA -10.36%, #4DCB7B 45.63%, #4AA86C 117.21%);
   border-radius: 8px;
   width: fit-content;
@@ -10932,7 +10932,7 @@ a.link-from{
   z-index: 1;
 }
 
-.card .card-image-suit{
+.card-session .card-image-suit{
   background: linear-gradient(221.83deg, #343C4C -10.36%, #242B36 45.63%, #1D1D1D 117.21%);
   border-radius: 8px;
   width: fit-content;
@@ -10942,7 +10942,7 @@ a.link-from{
   z-index: 1;
 }
 
-.card .card-image-success{
+.card-session .card-image-success{
   background: linear-gradient(221.83deg, #9EE3FF -10.36%, #55CFFF 45.63%, #51B2DD 117.21%);
   border-radius: 8px;
   width: fit-content;
@@ -10952,7 +10952,7 @@ a.link-from{
   z-index: 1;
 }
 
-.card .card-image-blip{
+.card-session .card-image-blip{
   background: linear-gradient(221.83deg, #87DDE8 -10.36%, #2CC3D5 45.63%, #2498A8 117.21%);
   border-radius: 8px;
   width: fit-content;
@@ -10988,13 +10988,13 @@ a.link-from{
   margin-top: 35px;
 }
 
-.card .cards-session-content{
+.card-session .cards-session-content{
   display: flex;
   flex-direction: column;
   margin-left: 4%;
 }
 
-.card .div-title-session {
+.card-session .div-title-session {
   width: 100%;
 }
 
