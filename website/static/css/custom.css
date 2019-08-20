@@ -13,6 +13,7 @@
   .footer-content .content-links {
     margin-left: 0% !important;
     width: 40% !important;
+    max-width: unset !important;
   }
 
   .custom-copyright {

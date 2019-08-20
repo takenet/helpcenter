@@ -4,7 +4,7 @@ const CompLibrary = require('../../core/CompLibrary.js');
 const data = {
     "title": "Recursos",
     "subtitle": "Entenda como funciona o BLiP",
-    "img": "/img/illustrations/ilustracao-categorias.svg",
+    "img": "/img/illustrations/ilustracao-sessao.svg",
     "from": "BLiP Help Center >",
     "here": "Recursos",
     "intro": "Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
@@ -12,29 +12,51 @@ const data = {
         {
             "title": "API Reference",
             "url": "https://docs.blip.ai/",
+            "icon": "jason-file",
+            "color": "bluejeans",
             "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
             "text": "ver mais!"
         },
         {
             "title": "Changelogs",
             "url": "/changelog",
+            "icon": "restore",
+            "color": "blip",
             "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
             "text": "ver mais!"
         },
         {
             "title": "FAQ",
             "url": "/faq",
+            "icon": "faq-outline",
+            "color": "attention",
             "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
             "text": "ver mais!"
         },
         {
             "title": "Github",
             "url": "/https://github.com/takenet",
+            "icon": "git-hub-logo",
+            "color": "watermelon",
             "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
             "text": "ver mais!"
         }
     ]
 };
+
+//banners
+// link: image
+const banners = {
+    "/1": "/img/illustrations/rectangle 2.svg",
+    "/2": "/img/illustrations/rectangle 2.svg",
+    "/3": "/img/illustrations/rectangle 2.svg",
+    "/4": "/img/illustrations/rectangle 2.svg",
+    "/5": "/img/illustrations/rectangle 2.svg",
+    "/6": "/img/illustrations/rectangle 2.svg", 
+   }
+   const chaves = Object.keys(banners);
+   var randomKey = chaves[parseInt(Math.random() * chaves.length)];
+  
 //BLiP Icon for SVGs
 const defs = '/img/defs.svg';
 class BlipIcon extends React.Component {
@@ -55,60 +77,75 @@ class BlipIcon extends React.Component {
 
 class Resources extends React.Component {
     constructor(props) {
-        super(props);
+      super(props);
     }
-
+  
     render() {
-        return (
-
-            <div>
-
-                {/* Topo */}
-                <div>
-                    <div className="pages-top-category">
-                        <div className="main-category">
-                            <p className="title-category">{data.title}</p>
-                            <p className="subtitle-category">{data.subtitle}</p>
-                        </div>
-                        <div className="image-category">
-                            <img className="img" src={data.img} />
-                        </div>
-                    </div>
-                </div>
-
-                {/* Conteudo */}
-                <div className="pages-content">
-                    <div className="navigation">
-                        <p className="from">{data.from}</p>
-                        <p className="here">{data.here}</p>
-                    </div>
-                    <div className="info">
-                        <p className="intro">{data.intro}</p>
-                    </div>
-
-
-                    {/* Cards */}
-                    <div className="cards">
-                        {data.cards.map((c, index) => (
-                            <a href={c.url} className={`card-${index}`} key={index}>
-                                <div className="title-with-icon">
-                                    <p className="title-area">{c.title}</p>
-                                </div>
-
-                                <p className="abstract-area">{c.abstract}</p>
-                                <div className="seeMore">
-                                    <p className="text-area">{c.text}</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-white"></BlipIcon>
-                                </div>
-                            </a>
-                        ))}
-
-                    </div>
-                </div>
+      return (
+  
+        <div>
+  
+          {/* Topo */}
+          <div>
+            <div className="session-top">
+              <div className="main-session">
+                <p className="title-session">{data.title}</p>
+                <p className="subtitle-session">{data.subtitle}</p>
+              </div>
+              <div className="image-session">
+                <img className="img" src={data.img} />
+              </div>
             </div>
-        );
+          </div>
+  
+          {/* Conteudo */}
+          <div className="session-content">
+            <div className="navigation">
+              <p className="from">{data.from}</p>
+              <p className="here">{data.here}</p>
+            </div>
+            <div className="info">
+              <p className="intro">{data.intro}</p>
+            </div>
+  
+  
+            {/* Cards */}
+            <div className="cards-session">
+              <div className="session-cards">
+              {data.cards.map((c, index) => (
+                <a href={c.url} className="card-session" key={index}>
+                  <div className={`card-image-${c.color}`}>
+                    <BlipIcon name={c.icon} className="bp-fs-1-session"></BlipIcon>
+                    <img className="effects" src="/img/illustrations/efeitos-cards.svg" />
+                  </div>
+  
+                  <div className="cards-session-content">
+                    <div className="div-title-session">
+                      <p className="title-session">{c.title}</p>
+                    </div>
+  
+                    <p className="abstract-session">{c.abstract}</p>
+                    <div className="seeMore-session">
+                      <p className="text-session">{c.text}</p>
+                      <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+                    </div>
+                  </div>
+                </a>
+              ))}
+              </div>
+  
+              <div className="banners-session">
+                <a href={randomKey} className="banner-maior">
+                  <img src={banners[randomKey]} className="imagem-banner-maior"></img>
+                </a>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      );
     }
-}
+  }
 
 Resources.title = 'Recursos';
 module.exports = Resources; 
