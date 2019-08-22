@@ -118,7 +118,7 @@ class Courses extends React.Component {
   
               <div className="banners-session">
                 <a href={randomKey} className="banner-maior">
-                  <img src={banners[randomKey]} className="imagem-banner-maior"></img>
+                  <img src={banners[randomKey]} className="imagem-banner"></img>
                 </a>
               </div>
   

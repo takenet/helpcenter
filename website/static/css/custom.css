@@ -10835,6 +10835,11 @@ a.link-from{
   margin-left: 2%;
 }
 
+.cards-session .banners-session .imagem-banner{
+  border-radius: 8px;
+}
+
+
 .cards-session .abstract-session {
   font-family: Nunito Sans;
   font-style: normal;
