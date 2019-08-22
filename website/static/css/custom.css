@@ -10833,13 +10833,6 @@ a.link-from{
 .cards-session .banners-session{
   width: 25%;
   margin-left: 2%;
-  display: none;
-}
-
-
-.banners-session .banner .imagem-banner{
-  height: 45%;
-  margin-top: 10%;
 }
 
 .cards-session .abstract-session {

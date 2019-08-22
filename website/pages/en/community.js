@@ -47,13 +47,12 @@ const data = {
 //banners
 // link: image
 const banners = {
-    "/1": "/img/illustrations/rectangle 2.svg",
-    "/2": "/img/illustrations/rectangle 2.svg",
-    "/3": "/img/illustrations/rectangle 2.svg",
-    "/4": "/img/illustrations/rectangle 2.svg",
-    "/5": "/img/illustrations/rectangle 2.svg",
-    "/6": "/img/illustrations/rectangle 2.svg", 
-   }
+  "https://forum.blip.ai/": "/img/banners/Banner-forum.jpg",
+  "https://ideas.blip.ai/": "/img/banners/Banner-ideas.jpg",
+  "/lgpd": "/img/banners/Banner-politicas.jpg",
+  "/beta": "/img/banners/Banner-beta.jpg",
+  "http://community.blip.ai": "/img/banners/Banner-communityfb.jpg",
+ }
    const chaves = Object.keys(banners);
    var randomKey = chaves[parseInt(Math.random() * chaves.length)];
 

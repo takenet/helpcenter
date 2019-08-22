@@ -81,22 +81,14 @@ const data = {
 //banners
 // link: image
 const banners = {
-  "/1": "/img/illustrations/rectangle 2.svg",
-  "/2": "/img/illustrations/rectangle 2.svg",
-  "/3": "/img/illustrations/rectangle 2.svg",
-  "/4": "/img/illustrations/rectangle 2.svg",
-  "/5": "/img/illustrations/rectangle 2.svg",
-  "/6": "/img/illustrations/rectangle 2.svg", 
+  "https://forum.blip.ai/": "/img/banners/Banner-forum.jpg",
+  "https://ideas.blip.ai/": "/img/banners/Banner-ideas.jpg",
+  "/lgpd": "/img/banners/Banner-politicas.jpg",
+  "/beta": "/img/banners/Banner-beta.jpg",
+  "http://community.blip.ai": "/img/banners/Banner-communityfb.jpg",
  }
  const chaves = Object.keys(banners);
- var randomKey = chaves[parseInt(Math.random() * chaves.length)];
- var randomKey2 = randomKey;
- 
- //always two differents banners
- do {
-   randomKey2 = chaves[parseInt(Math.random() * chaves.length)];
- } while (randomKey2 === randomKey);
- 
+   var randomKey = chaves[parseInt(Math.random() * chaves.length)];
 
 
 //BLiP Icon for SVGs
@@ -179,9 +171,6 @@ class Lgpd extends React.Component {
             <div className="banners-session">
               <a href={randomKey} className="banner">
                 <img src={banners[randomKey]} className="imagem-banner"></img>
-              </a>
-              <a href={randomKey2} className="banner">
-                <img src={banners[randomKey2]} className="imagem-banner"></img>
               </a>
             </div>
 
