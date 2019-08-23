@@ -734,7 +734,7 @@
   }
 
   .flexbox-container .card-home-main:hover {
-    transition: max-height 1s ease;
+    transition: max-height .5s ease;
     max-height: 290px !important;
   }
 
@@ -9456,7 +9456,7 @@ ol {
   display: flex;
   overflow: hidden;
   flex-direction: column;
-  transition: max-height 1s;
+  transition: max-height .5s;
   align-items: center;
 }
 
