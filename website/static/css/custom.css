@@ -10074,10 +10074,11 @@ a.link-footer {
   font-style: normal;
   font-weight: normal;
   font-size: 0.85rem;
-  line-height: 200%;
+  line-height: 130%;
   color: #ffffff;
   width: fit-content;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 a.link-footer:hover {
