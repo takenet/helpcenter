@@ -16,35 +16,35 @@ const data = {
         "type": "text",
         "url": "#", 
         "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"ver mais!"
+        "text":"Ver mais!"
      },
      {  
       "title":"Integração com a ferramenta de Analytics 1",
       "type": "video",
       "url": "#", 
       "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"ver mais!"
+      "text":"Ver mais!"
    },
    {  
     "title":"Integração com a ferramenta de Analytics 1",
     "type": "text",
     "url": "#", 
     "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-    "text":"ver mais!"
+    "text":"Ver mais!"
     },
     {  
       "title":"Integração com a ferramenta de Analytics 1",
       "type": "text",
       "url": "#", 
       "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"ver mais!"
+      "text":"Ver mais!"
     },
     {  
     "title":"Integração com a ferramenta de Analytics 1",
     "type": "text",
     "url": "#", 
     "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-    "text":"ver mais!"
+    "text":"Ver mais!"
     },
   ]
 };

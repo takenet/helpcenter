@@ -16,63 +16,63 @@ const data = {
         "icon": "/img/illustrations/botanalytics-logo.svg",
         "url": "/analytics", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-        "text":"aprenda mais!"
+        "text":"Aprenda mais!"
      },
      {  
         "title":"Chatbase",
         "icon": "/img/illustrations/chatbase-logo.svg",
         "url": "/analytics", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-        "text":"aprenda mais!"
+        "text":"Aprenda mais!"
      },
      {  
         "title":"Dashbot",
         "icon": "/img/illustrations/dashbot-logo.svg",
         "url": "/analytics", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-        "text":"aprenda mais!"
+        "text":"Aprenda mais!"
      },
      {  
         "title":"DialogFlow",
         "icon": "/img/illustrations/dialogflow-logo.svg",
         "url": "/ai", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-        "text":"aprenda mais!"
+        "text":"Aprenda mais!"
      },
      {  
         "title":"IBM Watson",
         "icon": "/img/illustrations/watson-logo.png",
         "url": "/ai", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-        "text":"aprenda mais!"
+        "text":"Aprenda mais!"
      },
      {  
         "title":"Microsoft Luis",
         "icon": "/img/illustrations/luis-logo.svg",
         "url": "/ai", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-        "text":"aprenda mais!"
+        "text":"Aprenda mais!"
      },
      {  
         "title":"RDStation",
         "icon": "/img/illustrations/rd-logo.svg",
         "url": "/analytics", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-        "text":"aprenda mais!"
+        "text":"Aprenda mais!"
      },
      {  
         "title":"Webhook",
         "icon": "/img/illustrations/webhooks-logo.svg",
         "url": "/analytics", 
         "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-        "text":"aprenda mais!"
+        "text":"Aprenda mais!"
      },
      {  
       "title":"Google Adlingo",
       "icon": "/img/illustrations/adlingo-logo.svg",
       "url": "#", 
       "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text":"aprenda mais!"
+      "text":"Aprenda mais!"
    }
   ]
 };

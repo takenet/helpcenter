@@ -14,42 +14,42 @@ const data = {
         "type": "text",
         "url": "#", 
         "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"ver mais!"
+        "text":"Ver mais!"
      },
      {  
         "title":"Integração com a ferramenta de Analytics 2",
         "type": "video",
         "url": "#",
         "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"ver mais!"
+        "text":"Ver mais!"
      },
      {  
       "title":"Integração com a ferramenta de Analytics 3",
       "type": "text",
       "url": "#",
       "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"ver mais!"
+      "text":"Ver mais!"
     },
     {  
       "title":"Integração com a ferramenta de Analytics 4",
       "type": "text",
       "url": "#",
       "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"ver mais!"
+      "text":"Ver mais!"
     },
     {  
       "title":"Integração com a ferramenta de Analytics 5",
       "type": "text",
       "url": "#",
       "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"ver mais!"
+      "text":"Ver mais!"
    },
    {  
     "title":"Integração com a ferramenta de Analytics 6",
     "type": "text",
     "url": "#",
     "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-    "text":"ver mais!"
+    "text":"Ver mais!"
   }
   ]
 };

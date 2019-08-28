@@ -15,7 +15,7 @@ const data = {
         "type": "video",
         "url": "#", 
         "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"ver mais!"
+        "text":"Ver mais!"
      }
   ]
 };

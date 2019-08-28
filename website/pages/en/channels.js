@@ -16,84 +16,84 @@ const data = {
       "icon": "/img/illustrations/business-chat-logo.svg",
       "url": "/businesschat",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "BLiP Chat",
       "icon": "/img/illustrations/blipchat-logo.svg",
       "url": "/blipchat",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "Email",
       "icon": "/img/illustrations/mailgun-logo.svg",
       "url": "/email",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "Google Assistant",
       "icon": "/img/illustrations/google-assistant-logo.svg",
       "url": "/googleassistant",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "Google RCS",
       "icon": "/img/illustrations/google-rcs-logo.svg",
       "url": "/googlercs",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "Infobip",
       "icon": "/img/illustrations/infobip-logo.svg",
       "url": "/infobip",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "Messenger",
       "icon": "/img/illustrations/messenger-logo.svg",
       "url": "/messenger",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "Skype",
       "icon": "/img/illustrations/skype-logo.svg",
       "url": "/skype",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "SMS",
       "icon": "/img/illustrations/sms-logo.svg",
       "url": "/sms",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "Telegram",
       "icon": "/img/illustrations/telegram-logo.svg",
       "url": "/telegram",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "WhastsApp",
       "icon": "/img/illustrations/whatsapp-logo.svg",
       "url": "/whatsapp",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "Workplace",
       "icon": "/img/illustrations/workplace-logo.svg",
       "url": "/workplace",
       "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
   ]
 };
