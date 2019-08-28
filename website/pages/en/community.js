@@ -14,32 +14,32 @@ const data = {
             "url": "/beta",
             "icon": "test-bot",
             "color": "success",
-            "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-            "text": "ver mais!"
+            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+            "text": "Aprenda mais!"
         },
         {
             "title": "BLiP Ideas",
             "url": "https://ideas.blip.ai/",
             "icon": "blip-ideas",
             "color": "attention",
-            "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-            "text": "ver mais!"
+            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+            "text": "Aprenda mais!"
         },
         {
             "title": "Eventos",
             "url": "http://meetup.blip.ai/",
             "icon": "localization-outline",
             "color": "watermelon",
-            "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-            "text": "ver mais!"
+            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+            "text": "Aprenda mais!"
         },
         {
             "title": "Fórum",
             "url": "https://forum.blip.ai/",
             "icon": "forum",
             "color": "blip",
-            "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-            "text": "ver mais!"
+            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+            "text": "Aprenda mais!"
         }
     ]
 };

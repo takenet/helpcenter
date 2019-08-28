@@ -15,31 +15,31 @@ const data = {
       "icon": "operator",
       "color": "sea",
       "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "Análise e Métricas",
       "url": "/analytics",
       "icon": "chart-line",
       "color": "watermelon",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     },
     {
       "title": "Builder",
       "url": "/builder",
       "icon": "robot",
       "color": "blip",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     },
     {
       "title": "Canais",
       "url": "/channels",
       "icon": "sms-icon",
       "color": "attention",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     },
 
     {
@@ -47,24 +47,24 @@ const data = {
       "url": "/growth",
       "icon": "publish-bot",
       "color": "refresh",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     },
     {
       "title": "Integrações",
       "url": "/integrations",
       "icon": "integration-solid",
       "color": "success",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     },
     {
       "title": "Inteligência Artificial",
       "url": "/ai",
       "icon": "ia",
       "color": "suit",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     }
 
   ]

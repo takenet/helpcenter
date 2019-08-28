@@ -15,31 +15,31 @@ const data = {
       "icon": "integration-solid",
       "color": "watermelon",
       "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
-      "text": "aprenda mais!"
+      "text": "Aprenda mais!"
     },
     {
       "title": "Governança de Dados",
       "url": "/",
       "icon": "folder-solid",
       "color": "bluejeans",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     },
     {
       "title": "Legal",
       "url": "/",
       "icon": "txt-file",
       "color": "blip",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     },
     {
       "title": "Política de Cookies",
       "url": "/",
       "icon": "cookie",
       "color": "attention",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     },
      
     {
@@ -47,32 +47,32 @@ const data = {
       "url": "/",
       "icon": "lock-outline", 
       "color": "success",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     },
     {
       "title": "Políticas de Propriedade Intelectual",
       "url": "/",
       "icon": "user-none", 
       "color": "suit",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     },
     {
       "title": "Programa de Privacidade e Proteção de Dados",
       "url": "/",
       "icon": "data-security", 
       "color": "sea",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text": "aprenda mais!"
+      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "text": "Aprenda mais!"
     },
     {
         "title": "Termos de Uso",
         "url": "/ai",
         "icon": "attention-outline", 
         "color": "refresh",
-        "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text": "aprenda mais!"
+        "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+        "text": "Aprenda mais!"
       }
    
   ]

@@ -14,32 +14,32 @@ const data = {
             "url": "https://docs.blip.ai/",
             "icon": "jason-file",
             "color": "bluejeans",
-            "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-            "text": "ver mais!"
+            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+            "text": "Aprenda mais!"
         },
         {
             "title": "Changelogs",
             "url": "/changelog",
             "icon": "restore",
             "color": "blip",
-            "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-            "text": "ver mais!"
+            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+            "text": "Aprenda mais!"
         },
         {
             "title": "FAQ",
             "url": "/faq",
             "icon": "faq-outline",
             "color": "attention",
-            "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-            "text": "ver mais!"
+            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+            "text": "Aprenda mais!"
         },
         {
             "title": "Github",
             "url": "/https://github.com/takenet",
             "icon": "git-hub-logo",
             "color": "watermelon",
-            "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-            "text": "ver mais!"
+            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+            "text": "Aprenda mais!"
         }
     ]
 };
