@@ -1,4 +1,35 @@
 /* your custom css */
+@media  (min-width: 2px) and (max-width: 736px) and (min-height: 790px) {
+  .flexbox-container .card-home-main {
+    width: 25% !important;
+    max-height: 250px !important;
+    min-height: 250px !important;
+  }
+
+  .flexbox-container .card-home-main:hover {
+    transition: min-height .5s ease !important;
+    min-height: 365px !important;
+  }
+
+  .flexbox-container .card-home-main:hover > .card-info .card-icon {
+    display: none !important;
+  }
+
+  .flexbox-container .card-home-main:hover > .card-info .card-text{
+    margin-bottom: 20% !important;
+  }
+
+  .card-home-main .card-info .card-title {
+    margin-top: 150px !important;
+    min-width: 100% !important;
+  }
+ 
+ .card-home-main .card-info .card-title > p {
+    max-width: 90% !important;
+    font-size: 0.9rem;
+  }
+
+}
 
 @media only screen and (min-device-width: 2px) and (max-device-width: 736px) {
   .custom-footer .footer-content {
