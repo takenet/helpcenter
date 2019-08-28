@@ -41,11 +41,11 @@ const data = {
       "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
       "text": "aprenda mais!"
     },
-     
+
     {
       "title": "Growth - Retenção e Engajamento",
       "url": "/growth",
-      "icon": "publish-bot", 
+      "icon": "publish-bot",
       "color": "refresh",
       "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
       "text": "aprenda mais!"
@@ -53,7 +53,7 @@ const data = {
     {
       "title": "Integrações",
       "url": "/integrations",
-      "icon": "integration-solid", 
+      "icon": "integration-solid",
       "color": "success",
       "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
       "text": "aprenda mais!"
@@ -61,26 +61,15 @@ const data = {
     {
       "title": "Inteligência Artificial",
       "url": "/ai",
-      "icon": "ia", 
+      "icon": "ia",
       "color": "suit",
       "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
       "text": "aprenda mais!"
     }
-   
+
   ]
 };
 
-//banners
-// link: image
-const banners = {
-  "https://forum.blip.ai/": "/img/banners/Banner-forum.jpg",
-  "https://ideas.blip.ai/": "/img/banners/Banner-ideas.jpg",
-  "/lgpd": "/img/banners/Banner-politicas.jpg",
-  "/beta": "/img/banners/Banner-beta.jpg",
-  "http://community.blip.ai": "/img/banners/Banner-communityfb.jpg",
- }
- const chaves = Object.keys(banners);
-var randomKey = chaves[parseInt(Math.random() * chaves.length)];
 
 //BLiP Icon for SVGs
 const defs = '/img/defs.svg';
@@ -137,37 +126,62 @@ class BlipAreas extends React.Component {
           {/* Cards */}
           <div className="cards-session">
             <div className="session-cards">
-            {data.cards.map((c, index) => (
-              <a href={c.url} className="card-session" key={index}>
-                <div className={`card-image-${c.color}`}>
-                  <BlipIcon name={c.icon} className="bp-fs-1-session"></BlipIcon>
-                  <img className="effects" src="/img/illustrations/efeitos-cards.svg" />
-                </div>
-
-                <div className="cards-session-content">
-                  <div className="div-title-session">
-                    <p className="title-session">{c.title}</p>
+              {data.cards.map((c, index) => (
+                <a href={c.url} className="card-session" key={index}>
+                  <div className={`card-image-${c.color}`}>
+                    <BlipIcon name={c.icon} className="bp-fs-1-session"></BlipIcon>
+                    <img className="effects" src="/img/illustrations/efeitos-cards.svg" />
                   </div>
 
-                  <p className="abstract-session">{c.abstract}</p>
-                  <div className="seeMore-session">
-                    <p className="text-session">{c.text}</p>
-                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+                  <div className="cards-session-content">
+                    <div className="div-title-session">
+                      <p className="title-session">{c.title}</p>
+                    </div>
+
+                    <p className="abstract-session">{c.abstract}</p>
+                    <div className="seeMore-session">
+                      <p className="text-session">{c.text}</p>
+                      <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4 bp-fill-bot"></BlipIcon>
+                    </div>
                   </div>
-                </div>
-              </a>
-            ))}
+                </a>
+              ))}
             </div>
 
             <div className="banners-session">
-              <a href={randomKey} className="banner">
-                <img src={banners[randomKey]} className="imagem-banner"></img>
+              <a className="banner" id="1">
+                <img className="imagem-banner" id="2"></img>
               </a>
+              <ScriptBanners></ScriptBanners>
             </div>
 
           </div>
         </div>
       </div>
+    );
+  }
+}
+
+class ScriptBanners extends React.Component {
+  render() {
+    return (
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+        const banners = {
+          "https://forum.blip.ai/": "/img/banners/Banner-forum.jpg",
+          "https://ideas.blip.ai/": "/img/banners/Banner-ideas.jpg",
+          "/lgpd": "/img/banners/Banner-politicas.jpg",
+          "/beta": "/img/banners/Banner-beta.jpg",
+          "http://community.blip.ai": "/img/banners/Banner-communityfb.jpg",
+        }
+        const chaves = Object.keys(banners);
+        var randomKey = chaves[parseInt(Math.random() * chaves.length)];
+        document.getElementsByClassName("imagem-banner")[0].src = banners[randomKey];
+        document.getElementsByClassName("banner")[0].href = randomKey;
+        `
+        }}
+      />
     );
   }
 }
