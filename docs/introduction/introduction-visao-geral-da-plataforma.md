@@ -15,5 +15,3 @@ Links importantes:
 [**Documentação**](https://docs.blip.ai/)  
 [**Comunidade do Facebook**](https://goo.gl/wnE1Vt)  
 [**Fórum de dúvidas**](https://forum.blip.ai/)  
-
-Ficou com alguma dúvida ? Veja outros artigos na categoria **Conceitos > Getting Started**

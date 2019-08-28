@@ -19,4 +19,3 @@ Links importantes:
 [**Comunidade do Facebook**](https://goo.gl/wnE1Vt)  
 [**Fórum de dúvidas**](https://forum.blip.ai/)  
 
-Ficou com alguma dúvida? Veja outros artigos sobre o Builder na categoria **Conceitos > Builder**
