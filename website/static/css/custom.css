@@ -9442,7 +9442,7 @@ ol {
   width: 18%;
   max-height: 230px;
   max-width: 272px;
-  margin-top: -9%;
+  margin-top: -150px;
   margin-left: 5.8%;
   background: #ffffff;
   border: 1px solid #eaeeee;
@@ -9716,6 +9716,7 @@ ol {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  max-width: 80%;
 }
 
 .bp-divider-h--articles {
