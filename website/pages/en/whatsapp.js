@@ -3,7 +3,7 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
   "title":"WhatsApp no BLiP",
-  "subtitle":"Melhore o seu relacionamento com o cliente por meio do Whatsapp!",
+  "subtitle":"Melhore o relacionamento com o seu cliente através do Whatsapp!  ",
   "img":"/img/illustrations/whatsapp-logo.svg",
   "from":"BLiP Help Center >",
   "session": "Canais",
@@ -12,47 +12,54 @@ const data = {
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
      {  
-        "title":"Integração com a ferramenta de Analytics 1",
-        "type": "video",
+        "title":"Visão geral do canal WhatsApp",
+        "type": "text",
         "url": "#", 
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+        "abstract":"O aplicativo WhatsApp ajuda na conexão e no compartilhamento de informações entre mais de 1 bilhão de pessoas em todo o mundo.",
         "text":"Ver mais!"
      },
      {  
-        "title":"Integração com a ferramenta de Analytics 2",
-        "type": "video",
+        "title":"Arquitetura do canal WhatsApp no BLiP",
+        "type": "text",
         "url": "#",
         "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
         "text":"Ver mais!"
      },
      {  
-      "title":"Integração com a ferramenta de Analytics 3",
+      "title":"Funcionalidades do canal WhatsApp",
       "type": "text",
       "url": "#",
       "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
       "text":"Ver mais!"
     },
     {  
-      "title":"Integração com a ferramenta de Analytics 4",
+      "title":"Tipos de conteúdo suportados",
       "type": "text",
       "url": "#",
       "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
       "text":"Ver mais!"
     },
     {  
-      "title":"Integração com a ferramenta de Analytics 5",
+      "title":"Como publicar seu Chatbot no WhatsApp",
       "type": "text",
       "url": "#",
       "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
       "text":"Ver mais!"
    },
    {  
-    "title":"Integração com a ferramenta de Analytics 6",
-    "type": "video",
+    "title":"Como interagir com os usuários",
+    "type": "text",
     "url": "#",
     "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
     "text":"Ver mais!"
-  }
+  }, 
+  {  
+    "title":"Acessando outras funcionalidades do canal através da API do BLiP",
+    "type": "text",
+    "url": "#",
+    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "text":"Ver mais!"
+  }, 
   ]
 };
 //BLiP Icon for SVGs
@@ -104,7 +111,18 @@ class WhatsApp extends React.Component{
                   <p className="here">{data.here}</p>
                 </div>
                 <div className="info">
-                  <p className="intro">{data.intro}</p>
+                  <p className="intro">O aplicativo WhatsApp ajuda na conexão e no compartilhamento de informações entre mais de 1 bilhão de 
+                    pessoas em todo o mundo. O WhatsApp Business API é a maneira segura, confiável e escalável para que as empresas possam se conectar, 
+                    de forma efetiva, com seus clientes dentro deste canal.</p>
+
+                  <p className="intro">Esta categoria apresenta vários artigos sobre a integração entre o BLiP e o canal WhatsApp Business API. 
+                    Nestes artigos você aprenderá como funciona este canal, quais seus principais benefícios e como criar sua primeira experiência 
+                    oficial de mensagens através do BLiP e da API oficial do WhatsApp.</p>
+
+                  <p className="intro">Se você ainda não tem acesso à API e gostaria de utilizá-la em sua empresa, entre em contato conosco
+                    <a href="https://take.net/fale-conosco/"> através do link.</a></p>
+
+                  <p className="intro"><em>Caso nunca tenha trabalhado com este canal clique no primeiro link abaixo.</em></p>
                 </div>
 
 
