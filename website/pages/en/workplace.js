@@ -1,58 +1,64 @@
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
-const data = { 
-  "title":"Workplace no BLiP",
-  "subtitle":"Melhore o seu relacionamento com o cliente por meio do Workplace!",
-  "img":"/img/illustrations/workplace-logo.svg",
-  "from":"BLiP Help Center >",
+const data = {
+  "title": "Workplace no BLiP",
+  "subtitle": "Utilize a versão corporativa da maior rede social do mundo para melhorar a comunicação na sua empresa.",
+  "img": "/img/illustrations/workplace-logo.svg",
+  "from": "BLiP Help Center >",
   "session": "Canais",
   "session_url": "/channels",
-  "here":"Workplace no BLiP",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
-  "cards":[  
-     {  
-        "title":"Integração com a ferramenta de Analytics 1",
-        "type": "video",
-        "url": "#", 
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"Ver mais!"
-     },
-     {  
-        "title":"Integração com a ferramenta de Analytics 2",
-        "type": "video",
-        "url": "#",
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"Ver mais!"
-     },
-     {  
-      "title":"Integração com a ferramenta de Analytics 3",
+  "here": "Workplace no BLiP",
+  "cards": [
+    {
+      "title": "Visão geral do canal Workplace",
       "type": "text",
       "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
+      "abstract": "O aplicativo WhatsApp ajuda na conexão e no compartilhamento de informações entre mais de 1 bilhão de pessoas em todo o mundo.",
+      "text": "Ver mais!"
     },
-    {  
-      "title":"Integração com a ferramenta de Analytics 4",
+    {
+      "title": "Arquitetura do Workplace no BLiP",
       "type": "text",
       "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
+      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "text": "Ver mais!"
     },
-    {  
-      "title":"Integração com a ferramenta de Analytics 5",
+    {
+      "title": "Funcionalidades do canal Workplace",
       "type": "text",
       "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
-   },
-   {  
-    "title":"Integração com a ferramenta de Analytics 6",
-    "type": "video",
-    "url": "#",
-    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-    "text":"Ver mais!"
-  }
+      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Tipos de conteúdo suportados",
+      "type": "text",
+      "url": "#",
+      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Como publicar seu Chatbot no Workplace",
+      "type": "text",
+      "url": "/docs/channels/workplace/workplace-publicando-chatbot-no-workplace/",
+      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Como interagir com os usuários",
+      "type": "text",
+      "url": "#",
+      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Acessando outras funcionalidades do canal através da API do BLiP",
+      "type": "text",
+      "url": "#",
+      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "text": "Ver mais!"
+    }
   ]
 };
 //BLiP Icon for SVGs
@@ -66,78 +72,86 @@ class BlipIcon extends React.Component {
       className={className}
       width="1em" height="1em"
     >
-      <use xlinkHref={`${defs}#${this.props.name}`}/>
+      <use xlinkHref={`${defs}#${this.props.name}`} />
     </svg>
     );
   }
 }
 
 
-class Workplace extends React.Component{
-    constructor(props){
-      super(props);
-    }
+class Workplace extends React.Component {
+  constructor(props) {
+    super(props);
+  }
 
-    render(){
-        return(
-           
-            <div>
+  render() {
+    return (
 
-            {/* Topo */}
-              <div>
-                <div className="pages-top">
-                  <div className="main">
-                    <p className="title">{data.title}</p>
-                    <p className="subtitle">{data.subtitle}</p>
-                  </div>
-                  <div className="image">
-                    <img className="img-channel" src={data.img} />
-                  </div>
-                </div>
-              </div>
+      <div>
 
-              {/* Conteudo */}
-              <div className="pages-content">
-                <div className="navigation">
-                  <p className="from">{data.from}</p>
-                  <p className="from"><a className="link-from" href={data.session_url}>{data.session}</a> ></p>
-                  <p className="here">{data.here}</p>
-                </div>
-                <div className="info">
-                  <p className="intro">{data.intro}</p>
-                </div>
-
-
-                {/* Cards */}
-                <div className="cards">
-                  {data.cards.map((c, index) => ( 
-                  <a href={c.url} className="card" key={index}>
-                   
-                      { c.type === "video" ? 
-                      <div className="title-with-icon">
-                        <BlipIcon name="tutorials" className="bp-fs-3 bp-fill-watermelon"></BlipIcon>
-                        <p className="title-video">{c.title}</p>
-                      </div>
-                      :
-                      <div className="title-with-icon">
-                        <BlipIcon name="txt-file" className="bp-fs-3 bp-fill-sea"></BlipIcon>
-                        <p className="title">{c.title}</p>
-                      </div>
-                      }
-                   
-                    <p className="abstract">{c.abstract}</p>
-                    <div className="seeMore">
-                      <p className="text">{c.text}</p>
-                      <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                    </div>
-                  </a>
-                  ))}
-
-                </div>
-              </div>
+        {/* Topo */}
+        <div>
+          <div className="pages-top">
+            <div className="main">
+              <p className="title">{data.title}</p>
+              <p className="subtitle">{data.subtitle}</p>
+            </div>
+            <div className="image">
+              <img className="img-channel" src={data.img} />
+            </div>
           </div>
-        );
-    }
+        </div>
+
+        {/* Conteudo */}
+        <div className="pages-content">
+          <div className="navigation">
+            <p className="from">{data.from}</p>
+            <p className="from"><a className="link-from" href={data.session_url}>{data.session}</a> ></p>
+            <p className="here">{data.here}</p>
+          </div>
+          <div className="info">
+            <p className="intro">Workplace é um facebook corporativo voltado para todos os tipos de empresa. 
+              Através dele, é possível ter uma rede social privada, exatamente igual a que todos já estão acostumados (Facebook), 
+              para todos os membros de sua companhia.</p>
+
+            <p className="intro">Além da possibilidade de criar grupos entre empresas é possível ainda criar chatbots que 
+              ficam acessíveis apenas aos funcionários devidamente credenciados.</p>
+
+            <p className="intro">Para o BLiP, o Workplace funciona como mais um canal disponível para seu bot. Na prática, 
+              os conteúdos trafegados no Workplace são exatamente os mesmos do canal Facebook Messenger.</p>
+          </div>
+
+
+          {/* Cards */}
+          <div className="cards">
+            {data.cards.map((c, index) => (
+              <a href={c.url} className="card" key={index}>
+
+                {c.type === "video" ?
+                  <div className="title-with-icon">
+                    <BlipIcon name="tutorials" className="bp-fs-3 bp-fill-watermelon"></BlipIcon>
+                    <p className="title-video">{c.title}</p>
+                  </div>
+                  :
+                  <div className="title-with-icon">
+                    <BlipIcon name="txt-file" className="bp-fs-3 bp-fill-sea"></BlipIcon>
+                    <p className="title">{c.title}</p>
+                  </div>
+                }
+
+                <p className="abstract">{c.abstract}</p>
+                <div className="seeMore">
+                  <p className="text">{c.text}</p>
+                  <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                </div>
+              </a>
+            ))}
+
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 Workplace.title = 'Workplace no BLiP';
