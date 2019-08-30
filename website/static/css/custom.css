@@ -782,8 +782,10 @@
     line-height: 120%;
     color: #738192;
     text-align: center;
-    max-width: 80%;
+    max-width: 85%;
+    min-width: 85% !important;
     margin-left: 10%;
+    min-height: fit-content !important; 
     margin-top: 0%;
   }
 
@@ -9525,7 +9527,7 @@ ol {
 }
 
 .card-home-main .card-info {
-  min-height: 230px;
+  min-height: 250px;
   max-width: 100% !important;
   padding-top: 0%;
 }
@@ -9540,9 +9542,7 @@ ol {
   width: 100%;
   height: 50%;
   white-space: wrap;
-  margin-top: 3%;
-  margin-left: 1%;
-  margin-bottom: 0;
+  margin-top: 1%;
   text-align: center;
 }
 
