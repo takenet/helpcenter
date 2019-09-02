@@ -1,5 +1,5 @@
 ---
-id: blip-analytics-criando-graficos-em-um-relatorio-customizado
+id: criando-graficos-em-um-relatorio-customizado
 title: Criando gráficos em um relatório customizado
 sidebar_label: Criando gráficos em um relatório customizado
 ---

@@ -61,43 +61,43 @@
         "title": "Treinando e publicando seu modelo de inteligência artificial",
         "sidebar_label": "Treinando e publicando seu modelo de inteligência artificial"
       },
-      "analytics/analytics-integracao-ferramentas-analytics": {
+      "analytics/integracao-ferramentas-analytics": {
         "title": "Integração com ferramentas de analytics",
         "sidebar_label": "Integração com ferramentas de analytics"
       },
-      "analytics/blip-analytics/blip-analytics-criando-graficos-em-um-relatorio-customizado": {
+      "analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado": {
         "title": "Criando gráficos em um relatório customizado",
         "sidebar_label": "Criando gráficos em um relatório customizado"
       },
-      "analytics/blip-analytics/blip-analytics-descricao-metricas-blip": {
+      "analytics/blip-analytics/descricao-metricas-blip": {
         "title": "Descrição das métricas geradas pelo BLiP",
         "sidebar_label": "Descrição das métricas geradas pelo BLiP"
       },
-      "analytics/blip-analytics/blip-analytics-entendendo-diferentes-tipos-msg": {
+      "analytics/blip-analytics/entendendo-diferentes-tipos-msg": {
         "title": "Entendendo os diferentes tipos de mensagem do BLiP",
         "sidebar_label": "Entendendo os diferentes tipos de mensagem do BLiP"
       },
-      "analytics/blip-analytics/blip-analytics-o-que-sao-usuarios-unicos": {
+      "analytics/blip-analytics/o-que-sao-usuarios-unicos": {
         "title": "O que são usuários únicos do BLiP",
         "sidebar_label": "O que são usuários únicos do BLiP"
       },
-      "analytics/botanalytics/botanalytics-como-enviar-dados-botanalytics": {
+      "analytics/botanalytics/como-enviar-dados-botanalytics": {
         "title": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?",
         "sidebar_label": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?"
       },
-      "analytics/chatbase/chatbase-como-enviar-dados-chatbase": {
+      "analytics/chatbase/como-enviar-dados-chatbase": {
         "title": "Integração Chatbase - Como enviar dados de um bot para o Chatbase?",
         "sidebar_label": "Integração Chatbase - Como enviar dados de um bot para um Chatbase?"
       },
-      "analytics/chatbase/chatbase-tratando-eventos-not-handled-sessionFlow-chatbase": {
+      "analytics/chatbase/tratando-eventos-not-handled-sessionFlow-chatbase": {
         "title": "Tratando eventos not_Handled no relatório SessionFlow do Chatbase",
         "sidebar_label": "Tratando eventos not_Handled no relatório SessionFlow do Chatbase"
       },
-      "analytics/dashbot/dashbot-como-enviar-dados-dashbot": {
+      "analytics/dashbot/como-enviar-dados-dashbot": {
         "title": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?",
         "sidebar_label": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?"
       },
-      "analytics/webhook/webhook-enviando-dados-atraves-webhook": {
+      "analytics/webhook/enviando-dados-atraves-webhook": {
         "title": "Enviando dados do seu bot através de Webhooks",
         "sidebar_label": "Enviando dados do seu bot através de Webhooks"
       },
@@ -288,6 +288,10 @@
       "channels/messenger/como-configurar-sua-propria-aplicacao-facebook": {
         "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
         "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
+      },
+      "channels/whatsapp/arquitetura-do-whatsapp": {
+        "title": "Arquitetura do canal WhatsApp",
+        "sidebar_label": "Arquitetura do canal WhatsApp"
       },
       "channels/whatsapp/criando-solucao-atendimento-humano-whatsapp": {
         "title": "Criando uma solução de atendimento humano no WhatsApp",

@@ -121,16 +121,16 @@
       "management/transcricao-conversas-contatos"
     ],
     "Métricas e Analytics": [
-      "analytics/analytics-integracao-ferramentas-analytics",
+      "analytics/integracao-ferramentas-analytics",
       {
         "type": "subcategory",
         "label": "BLiP Analytics",
         "ids":
           [
-            "analytics/blip-analytics/blip-analytics-criando-graficos-em-um-relatorio-customizado",
-            "analytics/blip-analytics/blip-analytics-entendendo-diferentes-tipos-msg",
-            "analytics/blip-analytics/blip-analytics-descricao-metricas-blip",
-            "analytics/blip-analytics/blip-analytics-o-que-sao-usuarios-unicos"
+            "analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado",
+            "analytics/blip-analytics/entendendo-diferentes-tipos-msg",
+            "analytics/blip-analytics/descricao-metricas-blip",
+            "analytics/blip-analytics/o-que-sao-usuarios-unicos"
           ]
       },
       {
@@ -138,7 +138,7 @@
         "label": "BotAnalytics",
         "ids":
           [
-            "analytics/botanalytics/botanalytics-como-enviar-dados-botanalytics"
+            "analytics/botanalytics/como-enviar-dados-botanalytics"
           ]
       },
       {
@@ -146,8 +146,8 @@
         "label": "Chatbase",
         "ids":
           [
-            "analytics/chatbase/chatbase-tratando-eventos-not-handled-sessionFlow-chatbase",
-            "analytics/chatbase/chatbase-como-enviar-dados-chatbase"
+            "analytics/chatbase/tratando-eventos-not-handled-sessionFlow-chatbase",
+            "analytics/chatbase/como-enviar-dados-chatbase"
           ]
       },
       {
@@ -155,7 +155,7 @@
         "label": "Dashbot",
         "ids":
           [
-            "analytics/dashbot/dashbot-como-enviar-dados-dashbot"
+            "analytics/dashbot/como-enviar-dados-dashbot"
           ]
       },
       {
@@ -163,7 +163,7 @@
         "label": "Webhook",
         "ids":
           [
-            "analytics/webhook/webhook-enviando-dados-atraves-webhook"
+            "analytics/webhook/enviando-dados-atraves-webhook"
           ]
       }
     ],

@@ -1,5 +1,5 @@
 ---
-id: chatbase-como-enviar-dados-chatbase
+id: como-enviar-dados-chatbase
 title: Integração Chatbase - Como enviar dados de um bot para o Chatbase?
 sidebar_label: Integração Chatbase - Como enviar dados de um bot para um Chatbase?
 ---
