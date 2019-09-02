@@ -285,9 +285,17 @@
         "title": "Tipos de autenticação dos usuários no BLiP Chat",
         "sidebar_label": "Tipos de autenticação dos usuários no BLiP Chat"
       },
+      "channels/messenger/arquitetura-messenger": {
+        "title": "Arquitetura do canal do Messenger",
+        "sidebar_label": "Arquitetura do canal do Messenger"
+      },
       "channels/messenger/como-configurar-sua-propria-aplicacao-facebook": {
         "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
         "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
+      },
+      "channels/messenger/visao-geral-messenger": {
+        "title": "Visão geral do Messenger",
+        "sidebar_label": "Visão geral do Messenger"
       },
       "channels/whatsapp/arquitetura-do-whatsapp": {
         "title": "Arquitetura do canal WhatsApp",
