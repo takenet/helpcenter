@@ -1,5 +1,5 @@
 ---
-id: webhook-enviando-dados-atraves-webhook
+id: enviando-dados-atraves-webhook
 title: Enviando dados do seu bot através de Webhooks
 sidebar_label: Enviando dados do seu bot através de Webhooks
 ---

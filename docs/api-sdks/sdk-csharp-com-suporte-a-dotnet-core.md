@@ -1,5 +1,5 @@
 ---
-id: api-sdks-sdk-csharp-com-suporte-a-dotnet-core
+id: sdk-csharp-com-suporte-a-dotnet-core
 title: SDK C# com suporte a .NET Core
 sidebar_label: SDK C# com suporte a .NET Core
 ---

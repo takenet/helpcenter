@@ -1,5 +1,5 @@
 ---
-id: api-sdks-utilizando-textc-construir-conversa
+id: utilizando-textc-construir-conversa
 title: Utilizando o Textc para construir uma conversa contextual
 sidebar_label: Utilizando o Textc para construir uma conversa contextual
 ---

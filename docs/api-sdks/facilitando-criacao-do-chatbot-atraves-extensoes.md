@@ -1,5 +1,5 @@
 ---
-id: api-sdks-facilitando-criacao-do-chatbot-atraves-extensoes
+id: facilitando-criacao-do-chatbot-atraves-extensoes
 title: Facilitando a criação do seu chatbot através das extensões
 sidebar_label: Facilitando a criação do seu chatbot através das extensões
 ---

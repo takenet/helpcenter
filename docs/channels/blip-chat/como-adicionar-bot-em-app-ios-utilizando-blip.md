@@ -41,7 +41,7 @@ No iOS, apenas a permissão de localização precisa ser informada. Então, se o
 
 ## Configurando seu chat
 
-Para incluir seu chatbot em seu aplicativo, você precisa pegar a sua ApiKey. Caso tenha dúvidas, você pode conferir [este post ensinando a fazer isso](/docs/api-sdks/api-sdks-como-encontrar-a-api-key-do-meu-bot).
+Para incluir seu chatbot em seu aplicativo, você precisa pegar a sua ApiKey. Caso tenha dúvidas, você pode conferir [este post ensinando a fazer isso](/docs/api-sdks/como-encontrar-a-api-key-do-meu-bot).
 
 Abrindo sua janela de conversa
 É muito simples abrir uma conversa com o seu chatbot. Use a classe **BlipClient** e chame o método *openBlipThread* passando o seu contexto atual e sua API-KEY.

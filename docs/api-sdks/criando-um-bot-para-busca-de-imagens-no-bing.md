@@ -1,5 +1,5 @@
 ---
-id: api-sdks-criando-um-bot-para-busca-de-imagens-no-bing
+id: criando-um-bot-para-busca-de-imagens-no-bing
 title: Criando um bot para busca de imagens no BING
 sidebar_label: Criando um bot para busca de imagens no BING
 ---

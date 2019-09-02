@@ -1,5 +1,5 @@
 ---
-id: api-sdks-event-track-sdk-csharp
+id: event-track-sdk-csharp
 title: [SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade
 sidebar_label: [SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade
 ---

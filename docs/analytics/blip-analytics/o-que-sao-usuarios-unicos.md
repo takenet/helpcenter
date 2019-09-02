@@ -1,5 +1,5 @@
 ---
-id: blip-analytics-o-que-sao-usuarios-unicos
+id: o-que-sao-usuarios-unicos
 title: O que são usuários únicos do BLiP
 sidebar_label: O que são usuários únicos do BLiP
 ---

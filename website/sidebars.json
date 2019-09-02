@@ -124,16 +124,16 @@
       "management/transcricao-conversas-contatos"
     ],
     "Métricas e Analytics": [
-      "analytics/analytics-integracao-ferramentas-analytics",
+      "analytics/integracao-ferramentas-analytics",
       {
         "type": "subcategory",
         "label": "BLiP Analytics",
         "ids":
           [
-            "analytics/blip-analytics/blip-analytics-criando-graficos-em-um-relatorio-customizado",
-            "analytics/blip-analytics/blip-analytics-entendendo-diferentes-tipos-msg",
-            "analytics/blip-analytics/blip-analytics-descricao-metricas-blip",
-            "analytics/blip-analytics/blip-analytics-o-que-sao-usuarios-unicos"
+            "analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado",
+            "analytics/blip-analytics/entendendo-diferentes-tipos-msg",
+            "analytics/blip-analytics/descricao-metricas-blip",
+            "analytics/blip-analytics/o-que-sao-usuarios-unicos"
           ]
       },
       {
@@ -141,7 +141,7 @@
         "label": "BotAnalytics",
         "ids":
           [
-            "analytics/botanalytics/botanalytics-como-enviar-dados-botanalytics"
+            "analytics/botanalytics/como-enviar-dados-botanalytics"
           ]
       },
       {
@@ -149,8 +149,8 @@
         "label": "Chatbase",
         "ids":
           [
-            "analytics/chatbase/chatbase-tratando-eventos-not-handled-sessionFlow-chatbase",
-            "analytics/chatbase/chatbase-como-enviar-dados-chatbase"
+            "analytics/chatbase/tratando-eventos-not-handled-sessionFlow-chatbase",
+            "analytics/chatbase/como-enviar-dados-chatbase"
           ]
       },
       {
@@ -158,7 +158,7 @@
         "label": "Dashbot",
         "ids":
           [
-            "analytics/dashbot/dashbot-como-enviar-dados-dashbot"
+            "analytics/dashbot/como-enviar-dados-dashbot"
           ]
       },
       {
@@ -166,7 +166,7 @@
         "label": "Webhook",
         "ids":
           [
-            "analytics/webhook/webhook-enviando-dados-atraves-webhook"
+            "analytics/webhook/enviando-dados-atraves-webhook"
           ]
       }
     ],
@@ -180,19 +180,19 @@
       "router/hierarquia-bots-subbots"
     ],
     "API e SDKs": [
-      "api-sdks/api-sdks-utilizando-textc-construir-conversa",
-      "api-sdks/api-sdks-facilitando-criacao-do-chatbot-atraves-extensoes",
-      "api-sdks/api-sdks-construcao-bot-atraves-api-sdk",
-      "api-sdks/api-sdks-como-encontrar-a-api-key-do-meu-bot",
-      "api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger",
-      "api-sdks/api-sdks-criando-um-bot-para-busca-de-imagens-no-bing",
-      "api-sdks/api-sdks-criando-um-chatbot-curriculo-usando-api-http",
-      "api-sdks/api-sdks-sdk-csharp-com-suporte-a-dotnet-core",
-      "api-sdks/api-sdks-sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo",
-      "api-sdks/api-sdks-sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario",
-      "api-sdks/api-sdks-agendando-uma-mensagem-scheduler",
-      "api-sdks/api-sdks-event-track-sdk-csharp",
-      "api-sdks/api-sdks-texto-rotativo-spintax"
+      "api-sdks/utilizando-textc-construir-conversa",
+      "api-sdks/facilitando-criacao-do-chatbot-atraves-extensoes",
+      "api-sdks/construcao-bot-atraves-api-sdk",
+      "api-sdks/como-encontrar-a-api-key-do-meu-bot",
+      "api-sdks/criando-um-bot-para-receber-feeds-no-messenger",
+      "api-sdks/criando-um-bot-para-busca-de-imagens-no-bing",
+      "api-sdks/criando-um-chatbot-curriculo-usando-api-http",
+      "api-sdks/sdk-csharp-com-suporte-a-dotnet-core",
+      "api-sdks/sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo",
+      "api-sdks/sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario",
+      "api-sdks/agendando-uma-mensagem-scheduler",
+      "api-sdks/event-track-sdk-csharp",
+      "api-sdks/texto-rotativo-spintax"
     ],
     "Geral" : [
       "general/central-notificacoes",

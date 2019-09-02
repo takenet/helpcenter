@@ -1,5 +1,5 @@
 ---
-id: api-sdks-sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario
+id: sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario
 title: [SDK C#] Armazenando o último acesso de um usuário
 sidebar_label: [SDK C#] Armazenando o último acesso de um usuário
 ---

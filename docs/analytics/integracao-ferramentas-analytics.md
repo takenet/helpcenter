@@ -1,5 +1,5 @@
 ---
-id: analytics-integracao-ferramentas-analytics
+id: integracao-ferramentas-analytics
 title: Integração com ferramentas de analytics
 sidebar_label: Integração com ferramentas de analytics
 ---

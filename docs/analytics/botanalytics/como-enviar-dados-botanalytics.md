@@ -1,5 +1,5 @@
 ---
-id: botanalytics-como-enviar-dados-botanalytics
+id: como-enviar-dados-botanalytics
 title: Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?
 sidebar_label: Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?
 ---

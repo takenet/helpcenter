@@ -1,5 +1,5 @@
 ---
-id: blip-analytics-entendendo-diferentes-tipos-msg
+id: entendendo-diferentes-tipos-msg
 title: Entendendo os diferentes tipos de mensagem do BLiP
 sidebar_label: Entendendo os diferentes tipos de mensagem do BLiP
 ---

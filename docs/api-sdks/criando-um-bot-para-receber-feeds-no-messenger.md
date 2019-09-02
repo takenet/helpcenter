@@ -1,5 +1,5 @@
 ---
-id: api-sdks-criando-um-bot-para-receber-feeds-no-messenger
+id: criando-um-bot-para-receber-feeds-no-messenger
 title: [HTTP] Criando um bot para receber feeds no Messenger
 sidebar_label: [HTTP] Criando um bot para receber feeds no Messenger
 ---

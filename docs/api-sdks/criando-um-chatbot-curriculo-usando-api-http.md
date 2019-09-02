@@ -1,5 +1,5 @@
 ---
-id: api-sdks-criando-um-chatbot-curriculo-usando-api-http
+id: criando-um-chatbot-curriculo-usando-api-http
 title: Criando um chatbot 'currículo' usando API HTTP
 sidebar_label: Criando um chatbot 'currículo' usando API HTTP
 ---
@@ -27,7 +27,7 @@ Para simplificar vamos reduzir o escopo do chatbot para tratar apenas os seguint
 3. Envio das **principais experiências profissionais**.
 4. Envio de uma **lista** com as **principais habilidades**.
 
-Embora seja possível, não vamos nos preocupar, inicialmente, com uma interpretação elaborada de linguagem natural. O artigo do André Bires ([Construindo um chatbot assistente virtual utilizando o Textc](/docs/api-sdks/api-sdks-utilizando-textc-construir-conversa)) dá algumas dicas de como utilizar a biblioteca Textc para melhorar a interpretação de texto de seu chatbot.
+Embora seja possível, não vamos nos preocupar, inicialmente, com uma interpretação elaborada de linguagem natural. O artigo do André Bires ([Construindo um chatbot assistente virtual utilizando o Textc](/docs/api-sdks/utilizando-textc-construir-conversa)) dá algumas dicas de como utilizar a biblioteca Textc para melhorar a interpretação de texto de seu chatbot.
 
 ## Criando seu chatbot
 
@@ -39,7 +39,7 @@ Antes de mais nada, precisamos criar um novo contato (chatbot) na plataforma [bl
 
 ## Criando uma API para receber as requisições do blip
 
-Para este artigo apresentarei uma api desenvolvida em C# utilizando o framework [ASP.NET Web API](https://dotnet.microsoft.com/apps/aspnet/apis). Entretanto tenha em mente que a tecnologia escolhida para construir a API não importa, escolha aquela que lhe for mais conveniente. Para ver um outro exemplo de webhook, utilizando uma API escrita em JavaScript usando Node.JS, veja este [post](/docs/api-sdks/api-sdks-criando-um-bot-para-busca-de-imagens-no-bing).
+Para este artigo apresentarei uma api desenvolvida em C# utilizando o framework [ASP.NET Web API](https://dotnet.microsoft.com/apps/aspnet/apis). Entretanto tenha em mente que a tecnologia escolhida para construir a API não importa, escolha aquela que lhe for mais conveniente. Para ver um outro exemplo de webhook, utilizando uma API escrita em JavaScript usando Node.JS, veja este [post](/docs/api-sdks/criando-um-bot-para-busca-de-imagens-no-bing).
 
 * Crie um novo projeto de uma aplicação *ASP.NET Web API* no *VisualStudio*
 

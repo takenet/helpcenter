@@ -1,5 +1,5 @@
 ---
-id: dashbot-como-enviar-dados-dashbot
+id: como-enviar-dados-dashbot
 title: Integração Dashbot - Como enviar dados de um bot para o Dashbot?
 sidebar_label: Integração Dashbot - Como enviar dados de um bot para o Dashbot?
 ---

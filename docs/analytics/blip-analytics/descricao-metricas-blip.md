@@ -1,5 +1,5 @@
 ---
-id: blip-analytics-descricao-metricas-blip
+id: descricao-metricas-blip
 title: Descrição das métricas geradas pelo BLiP
 sidebar_label: Descrição das métricas geradas pelo BLiP
 ---
