@@ -289,6 +289,10 @@
         "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
         "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
       },
+      "channels/whatsapp/arquitetura-do-whatsapp": {
+        "title": "Arquitetura do canal WhatsApp",
+        "sidebar_label": "Arquitetura do canal WhatsApp"
+      },
       "channels/whatsapp/criando-solucao-atendimento-humano-whatsapp": {
         "title": "Criando uma solução de atendimento humano no WhatsApp",
         "sidebar_label": "Criando uma solução de atendimento humano no WhatsApp"
@@ -296,6 +300,10 @@
       "channels/whatsapp/enviar-notificacao-whatsapp-blip-api": {
         "title": "Enviar notificações WhatsApp via API do BLiP",
         "sidebar_label": "Enviar notificações WhatsApp via API do BLiP"
+      },
+      "channels/whatsapp/funcionalidades-do-whatsapp": {
+        "title": "Funcionalidades do canal WhatsApp",
+        "sidebar_label": "Funcionalidades do canal WhatsApp"
       },
       "channels/whatsapp/visao-geral-do-whatsapp": {
         "title": "Visão geral do canal WhatsApp",
