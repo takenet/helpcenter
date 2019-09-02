@@ -12,21 +12,21 @@ const data = {
   "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
      {  
-        "title":"Visão geral do canal WhatsApp",
+        "title":"Visão geral do canal",
         "type": "text",
         "url": "#", 
         "abstract":"Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
         "text":"Ver mais!"
      },
      {  
-        "title":"Arquitetura do canal WhatsApp no BLiP",
+        "title":"Arquitetura do canal no BLiP",
         "type": "text",
         "url": "#",
         "abstract":"Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
         "text":"Ver mais!"
      },
      {  
-      "title":"Funcionalidades do canal WhatsApp",
+      "title":"Funcionalidades do canal",
       "type": "text",
       "url": "#",
       "abstract":"Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
@@ -54,7 +54,7 @@ const data = {
     "text":"Ver mais!"
   }, 
   {  
-    "title":"Acessando outras funcionalidades do canal através da API do BLiP",
+    "title":"Acessando outros recursos",
     "type": "text",
     "url": "#",
     "abstract":"Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",

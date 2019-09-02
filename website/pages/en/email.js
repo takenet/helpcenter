@@ -11,21 +11,21 @@ const data = {
   "here":"Email no BLiP",
   "cards":[  
     {  
-       "title":"Visão geral do canal Email",
+       "title":"Visão geral do canal",
        "type": "text",
        "url": "#", 
        "abstract":"Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
        "text":"Ver mais!"
     },
     {  
-       "title":"Arquitetura do canal Email no BLiP",
+       "title":"Arquitetura do canal no BLiP",
        "type": "text",
        "url": "#",
        "abstract":"Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
        "text":"Ver mais!"
     },
     {  
-     "title":"Funcionalidades do canal Email",
+     "title":"Funcionalidades do canal",
      "type": "text",
      "url": "#",
      "abstract":"Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
@@ -53,7 +53,7 @@ const data = {
    "text":"Ver mais!"
  }, 
  {  
-   "title":"Acessando outras funcionalidades do canal através da API do BLiP",
+   "title":"Acessando outros recursos",
    "type": "text",
    "url": "#",
    "abstract":"Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
