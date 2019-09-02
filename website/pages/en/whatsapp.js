@@ -21,14 +21,14 @@ const data = {
      {  
         "title":"Arquitetura do canal no BLiP",
         "type": "text",
-        "url": "#",
+        "url": "/docs/channels/whatsapp/arquitetura-do-whatsapp",
         "abstract":"Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
         "text":"Ver mais!"
      },
      {  
       "title":"Funcionalidades do canal",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/whatsapp/funcionalidades-do-whatsapp",
       "abstract":"Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text":"Ver mais!"
     },
@@ -42,7 +42,7 @@ const data = {
     {  
       "title":"Como publicar seu Chatbot no WhatsApp",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/whatsapp/publicando-bot-no-whatsapp",
       "abstract":"Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text":"Ver mais!"
    },
