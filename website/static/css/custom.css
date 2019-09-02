@@ -11073,3 +11073,6 @@ a.link-from{
   line-height: 100%;
   color: #607B99;
 }
+strong, b {
+  font-weight: 700;
+}
