@@ -1,5 +1,5 @@
 ---
-id: nlp-como-exportar-base-conhecimento
+id: como-exportar-base-conhecimento
 title: Como importar/exportar uma base de conhecimento
 sidebar_label: Como importar/exportar uma base de conhecimento
 ---

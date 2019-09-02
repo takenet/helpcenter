@@ -1,5 +1,5 @@
 ---
-id: nlp-como-configurar-dialogflow
+id: como-configurar-dialogflow
 title: Como configurar o DialogFlow como um provedor de Inteligência Artificial
 sidebar_label: Como configurar o DialogFlow como um provedor de Inteligência Artificial
 ---

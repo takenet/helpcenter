@@ -1,5 +1,5 @@
 ---
-id: nlp-como-aprimorar-meu-modelo-de-inteligencia-artificial
+id: como-aprimorar-meu-modelo-de-inteligencia-artificial
 title: Como aprimorar meu modelo de inteligência artificial
 sidebar_label: Como aprimorar meu modelo de inteligência artificial
 ---

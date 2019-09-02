@@ -1,5 +1,5 @@
 ---
-id: nlp-como-criar-uma-entidade
+id: como-criar-uma-entidade
 title: Como criar uma entidade
 sidebar_label: Como criar uma entidade
 ---

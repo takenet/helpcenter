@@ -1,5 +1,5 @@
 ---
-id: nlp-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip
+id: importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip
 title: Importar modelo de NLP (intenções e entidades) pré-existente no BLiP
 sidebar_label: Importar modelo de NLP (intenções e entidades) pré-existente no BLiP
 ---

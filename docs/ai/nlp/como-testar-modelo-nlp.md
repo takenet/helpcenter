@@ -1,5 +1,5 @@
 ---
-id: nlp-como-testar-modelo-nlp
+id: como-testar-modelo-nlp
 title: Como testar seu modelo de NLP
 sidebar_label: Como testar seu modelo de NLP
 ---

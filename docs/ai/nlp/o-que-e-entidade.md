@@ -1,5 +1,5 @@
 ---
-id: nlp-o-que-e-entidade
+id: o-que-e-entidade
 title: O que é uma entidade?
 sidebar_label: O que é uma entidade?
 ---

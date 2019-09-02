@@ -1,5 +1,5 @@
 ---
-id: nlp-como-configurar-watson
+id: como-configurar-watson
 title: Como configurar o Watson Assistant como um provedor de Inteligência Artificial
 sidebar_label: Como configurar o Watson Assistant como um provedor de Inteligência Artificial
 ---

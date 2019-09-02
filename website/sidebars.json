@@ -81,20 +81,20 @@
         "label": "Programação Neurolinguística (NLP)",
         "ids":
           [
-            "ai/nlp/nlp-conceitos-basicos-nlp-e-ai", 
-            "ai/nlp/nlp-importancia-de-ia-nlp-chatbots",
-            "ai/nlp/nlp-o-que-e-intencao", 
-            "ai/nlp/nlp-o-que-e-entidade",
-            "ai/nlp/nlp-boas-praticas-para-criar-um-bom-modelo-nlp",
-            "ai/nlp/nlp-como-testar-modelo-nlp",
-            "ai/nlp/nlp-como-criar-uma-intencao",
-            "ai/nlp/nlp-como-criar-uma-entidade",
-            "ai/nlp/nlp-treinando-publicando-modelo-de-ia",
-            "ai/nlp/nlp-como-exportar-base-conhecimento",
-            "ai/nlp/nlp-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip", 
-            "ai/nlp/nlp-como-configurar-dialogflow",
-            "ai/nlp/nlp-como-configurar-watson",
-            "ai/nlp/nlp-como-aprimorar-meu-modelo-de-inteligencia-artificial"
+            "ai/nlp/conceitos-basicos-nlp-e-ai", 
+            "ai/nlp/importancia-de-ia-nlp-chatbots",
+            "ai/nlp/o-que-e-intencao", 
+            "ai/nlp/o-que-e-entidade",
+            "ai/nlp/boas-praticas-para-criar-um-bom-modelo-nlp",
+            "ai/nlp/como-testar-modelo-nlp",
+            "ai/nlp/como-criar-uma-intencao",
+            "ai/nlp/como-criar-uma-entidade",
+            "ai/nlp/treinando-publicando-modelo-de-ia",
+            "ai/nlp/como-exportar-base-conhecimento",
+            "ai/nlp/importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip", 
+            "ai/nlp/como-configurar-dialogflow",
+            "ai/nlp/como-configurar-watson",
+            "ai/nlp/como-aprimorar-meu-modelo-de-inteligencia-artificial"
           ]
       }
     ],

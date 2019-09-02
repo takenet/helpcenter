@@ -1,5 +1,5 @@
 ---
-id: nlp-o-que-e-intencao
+id: o-que-e-intencao
 title: O que é intenção?
 sidebar_label: O que é intenção?
 ---

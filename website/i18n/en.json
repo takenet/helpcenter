@@ -5,59 +5,59 @@
     "previous": "Previous",
     "tagline": "BLiP | Help Center",
     "docs": {
-      "ai/nlp/nlp-boas-praticas-para-criar-um-bom-modelo-nlp": {
+      "ai/nlp/boas-praticas-para-criar-um-bom-modelo-nlp": {
         "title": "Boas práticas para criar um bom modelo de NLP",
         "sidebar_label": "Boas práticas para criar um bom modelo de NLP"
       },
-      "ai/nlp/nlp-como-aprimorar-meu-modelo-de-inteligencia-artificial": {
+      "ai/nlp/como-aprimorar-meu-modelo-de-inteligencia-artificial": {
         "title": "Como aprimorar meu modelo de inteligência artificial",
         "sidebar_label": "Como aprimorar meu modelo de inteligência artificial"
       },
-      "ai/nlp/nlp-como-configurar-dialogflow": {
+      "ai/nlp/como-configurar-dialogflow": {
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
       },
-      "ai/nlp/nlp-como-configurar-watson": {
+      "ai/nlp/como-configurar-watson": {
         "title": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial"
       },
-      "ai/nlp/nlp-como-criar-uma-entidade": {
+      "ai/nlp/como-criar-uma-entidade": {
         "title": "Como criar uma entidade",
         "sidebar_label": "Como criar uma entidade"
       },
-      "ai/nlp/nlp-como-criar-uma-intencao": {
+      "ai/nlp/como-criar-uma-intencao": {
         "title": "Como criar uma intenção",
         "sidebar_label": "Como criar uma intenção"
       },
-      "ai/nlp/nlp-como-exportar-base-conhecimento": {
+      "ai/nlp/como-exportar-base-conhecimento": {
         "title": "Como importar/exportar uma base de conhecimento",
         "sidebar_label": "Como importar/exportar uma base de conhecimento"
       },
-      "ai/nlp/nlp-como-testar-modelo-nlp": {
+      "ai/nlp/como-testar-modelo-nlp": {
         "title": "Como testar seu modelo de NLP",
         "sidebar_label": "Como testar seu modelo de NLP"
       },
-      "ai/nlp/nlp-conceitos-basicos-nlp-e-ai": {
+      "ai/nlp/conceitos-basicos-nlp-e-ai": {
         "title": "Conceitos básicos para utilizar NLP e IA em chatbots",
         "sidebar_label": "Conceitos básicos para utilizar NLP e IA em chatbots"
       },
-      "ai/nlp/nlp-importancia-de-ia-nlp-chatbots": {
+      "ai/nlp/importancia-de-ia-nlp-chatbots": {
         "title": "Importância de IA e NLP para chatbots",
         "sidebar_label": "Importância de IA e NLP para chatbots"
       },
-      "ai/nlp/nlp-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip": {
+      "ai/nlp/importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip": {
         "title": "Importar modelo de NLP (intenções e entidades) pré-existente no BLiP",
         "sidebar_label": "Importar modelo de NLP (intenções e entidades) pré-existente no BLiP"
       },
-      "ai/nlp/nlp-o-que-e-entidade": {
+      "ai/nlp/o-que-e-entidade": {
         "title": "O que é uma entidade?",
         "sidebar_label": "O que é uma entidade?"
       },
-      "ai/nlp/nlp-o-que-e-intencao": {
+      "ai/nlp/o-que-e-intencao": {
         "title": "O que é intenção?",
         "sidebar_label": "O que é intenção?"
       },
-      "ai/nlp/nlp-treinando-publicando-modelo-de-ia": {
+      "ai/nlp/treinando-publicando-modelo-de-ia": {
         "title": "Treinando e publicando seu modelo de inteligência artificial",
         "sidebar_label": "Treinando e publicando seu modelo de inteligência artificial"
       },
