@@ -1,5 +1,5 @@
 ---
-id: chat-como-adicionar-bot-em-app-ios-utilizando-blip
+id: como-adicionar-bot-em-app-ios-utilizando-blip
 title: Como adicionar um bot em um aplicativo iOS utilizando o BLiP Chat?
 sidebar_label: Como adicionar um bot em um aplicativo iOS utilizando o BLiP Chat?
 ---
@@ -106,7 +106,7 @@ Também existem algumas possibilidades de customização do seu chat que podem s
 * **Login**: onde o usuário deve informar seu nome e e-mail antes de conversar com o chatbot;
 * **Dev**: onde o desenvolvedor do app é responsável por passar as informações do usuário para o BLiP Chat. Nesse modo, o histórico da conversa esta disponível sempre que o usuário se conectar.
 
-Para entender melhor os possíveis modos de autenticação, dê uma olhada [neste post](/docs/channels/blip-chat/chat-tipos-de-autenticacao-chat) que explica cada tipo de forma detalhada.
+Para entender melhor os possíveis modos de autenticação, dê uma olhada [neste post](/docs/channels/blip-chat/tipos-de-autenticacao-chat) que explica cada tipo de forma detalhada.
 
 ### Esconder o menu da janela
 

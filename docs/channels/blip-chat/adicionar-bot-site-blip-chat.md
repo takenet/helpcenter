@@ -1,5 +1,5 @@
 ---
-id: chat-adicionar-bot-site-blip-chat
+id: adicionar-bot-site-blip-chat
 title: Como adicionar um bot em um site utilizando o BLiP Chat?
 sidebar_label: Como adicionar um bot em um site utilizando o BLiP Chat?
 ---
@@ -68,6 +68,6 @@ Para embutir a interface em um elemento html com o id **'your-element-id'** do s
 
 **Observações**:
 
-\* Independentemente da forma de integração, são possíveis ainda algumas customizações para personalizar a experiência do usuário com a interface do BLiP Chat. Para verificar todos os detalhes, [clique aqui](/docs/channels/blip-chat/chat-customizacoes-disponiveis-blip-chat).
+\* Independentemente da forma de integração, são possíveis ainda algumas customizações para personalizar a experiência do usuário com a interface do BLiP Chat. Para verificar todos os detalhes, [clique aqui](/docs/channels/blip-chat/customizacoes-disponiveis-blip-chat).
 
 \* Para configurações avançadas do scritpt do BLiP Chat na web, consulte o projeto no [Github](https://github.com/takenet/blip-chat-widget).

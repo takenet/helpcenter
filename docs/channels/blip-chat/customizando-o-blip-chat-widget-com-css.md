@@ -1,5 +1,5 @@
 ---
-id: chat-customizando-o-blip-chat-widget-com-css
+id: customizando-o-blip-chat-widget-com-css
 title: Customizando o BLiP Chat Widget através de CSS
 sidebar_label: Customizando o BLiP Chat Widget através de CSS
 ---
