@@ -1,5 +1,5 @@
 ---
-id: management-como-marcar-contato-como-teste
+id: como-marcar-contato-como-teste
 title: Como marcar um contato como usuários de teste
 sidebar_label: Como marcar um contato como usuários de teste
 ---

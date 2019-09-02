@@ -112,11 +112,11 @@
       "helpdesk/desk-utilizar-live-agent-salesForce-atendimento-humano"
     ],
     "Gestão": [
-      "management/management-como-encontrar-id-usuario",
-      "management/management-como-marcar-contato-como-teste",
-      "management/management-configuracoes-avancadas-bot", 
-      "management/management-gerenciando-permissoes-acesso-equipe",
-      "management/management-transcricao-conversas-contatos"
+      "management/como-encontrar-id-usuario",
+      "management/como-marcar-contato-como-teste",
+      "management/configuracoes-avancadas-bot", 
+      "management/gerenciando-permissoes-acesso-equipe",
+      "management/transcricao-conversas-contatos"
     ],
     "Métricas e Analytics": [
       "analytics/analytics-integracao-ferramentas-analytics",
@@ -171,8 +171,8 @@
       "growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast"
     ],
     "Router": [
-      "router/router-criando-bot-com-3-subbots",
-      "router/router-hierarquia-bots-subbots"
+      "router/criando-bot-com-3-subbots",
+      "router/hierarquia-bots-subbots"
     ],
     "API e SDKs": [
       "api-sdks/api-sdks-utilizando-textc-construir-conversa",

@@ -441,23 +441,23 @@
         "title": "Visão geral da plataforma",
         "sidebar_label": "Visão geral da plataforma"
       },
-      "management/management-como-encontrar-id-usuario": {
+      "management/como-encontrar-id-usuario": {
         "title": "Como encontrar o identificador de um usuário",
         "sidebar_label": "Como encontrar o identificador de um usuário"
       },
-      "management/management-como-marcar-contato-como-teste": {
+      "management/como-marcar-contato-como-teste": {
         "title": "Como marcar um contato como usuários de teste",
         "sidebar_label": "Como marcar um contato como usuários de teste"
       },
-      "management/management-configuracoes-avancadas-bot": {
+      "management/configuracoes-avancadas-bot": {
         "title": "Configurações avançadas do bot",
         "sidebar_label": "Configurações avançadas do bot"
       },
-      "management/management-gerenciando-permissoes-acesso-equipe": {
+      "management/gerenciando-permissoes-acesso-equipe": {
         "title": "Gerenciando permissões de acesso da equipe de um bot",
         "sidebar_label": "Gerenciando permissões de acesso da equipe de um bot"
       },
-      "management/management-transcricao-conversas-contatos": {
+      "management/transcricao-conversas-contatos": {
         "title": "Transcrição das conversas dos contatos",
         "sidebar_label": "Transcrição das conversas dos contatos"
       },
@@ -465,7 +465,7 @@
         "title": "Criando um bot router com 3 subbots",
         "sidebar_label": "Criando um bot router com 3 subbots"
       },
-      "router/router-hierarquia-bots-subbots": {
+      "router/hierarquia-bots-subbots": {
         "title": "Hierarquia (ou arquitetura) de bots e subbots",
         "sidebar_label": "Hierarquia (ou arquitetura) de bots e subbots"
       }
