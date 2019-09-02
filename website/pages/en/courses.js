@@ -3,27 +3,29 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = {
     "title": "Cursos",
-    "subtitle": "Cursos para você aprender a usar o BLiP",
+    "subtitle": "Aprenda com a gente!",
     "img": "/img/illustrations/ilustracao-sessao.svg",
     "from": "BLiP Help Center >",
     "here": "Cursos",
-    "intro": "Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+    "intro": "Acesse nossos cursos e aprenda a utilizar o BLiP como um expert em criação de contatos inteligentes.",
     "cards": [
         {
             "title": "Curso Gratuito",
             "url": "http://learn.take.net/courses/criando-chatbots-com-a-plataforma-blip",
             "icon": "library",
             "color": "blip",
-            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
-            "text": "Aprenda mais!"
+            "abstract": "Nosso curso gratuito te ajuda a entender mais sobre a plataforma e as melhores formas para desenvolver o seu contato inteligente.",
+            "text": "Aprenda mais!",
+            "class": "seeMore-session"
         },
         {
             "title": "Botcamp",
             "url": "http://botcamp.blip.ai/",
             "icon": "avatar-deafult",
             "color": "attention",
-            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
-            "text": "Aprenda mais!"
+            "abstract": "Nós do BLiP oferecemos alguns cursos, com nossos profissionais experts em criação de contatos inteligentes, que te ajudarão a evoluir e utilizar a plataforma de forma plena.",
+            "text": "Aprenda mais!",
+            "class": "seeMore-session"
         }
     ]
 };
@@ -96,7 +98,7 @@ class Courses extends React.Component {
                     </div>
   
                     <p className="abstract-session">{c.abstract}</p>
-                    <div className="seeMore-session">
+                    <div className={c.class}>
                       <p className="text-session">{c.text}</p>
                       <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4 bp-fill-bot"></BlipIcon>
                     </div>

@@ -3,43 +3,47 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = {
     "title": "Comunidade",
-    "subtitle": "Um meio de você se comunicar com a gente",
+    "subtitle": "Fale com a gente, nos dê ideias e nos ajude a crescer!",
     "img": "/img/illustrations/ilustracao-sessao.svg",
     "from": "BLiP Help Center >",
     "here": "Comunidade",
-    "intro": "Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+    "intro": "No BLiP suas ideias são ouvidas e podem entrar em nosso backlog, nossa comunidade também serve de suporte para tirar dúvidas que você possa possuir sobre a plataforma.",
     "cards": [
         {
             "title": "BLiP Beta",
             "url": "/beta",
             "icon": "test-bot",
             "color": "success",
-            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
-            "text": "Aprenda mais!"
+            "abstract": "Teste as novidades do BLiP antes delas serem implementadas para todos os usuários.",
+            "text": "Aprenda mais!",
+            "class": "seeMore-session-small"
         },
         {
             "title": "BLiP Ideas",
             "url": "https://ideas.blip.ai/",
             "icon": "blip-ideas",
             "color": "attention",
-            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
-            "text": "Aprenda mais!"
+            "abstract": "Nos ajude a melhorar a plataforma! As ideias mais votadas, depois de analisadas podem entrar em nosso backlog.",
+            "text": "Aprenda mais!",
+            "class": "seeMore-session"
         },
         {
             "title": "Eventos",
             "url": "http://meetup.blip.ai/",
             "icon": "localization-outline",
             "color": "watermelon",
-            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
-            "text": "Aprenda mais!"
+            "abstract": "Fique por dentro dos eventos que estamos palestrando ou realizando.",
+            "text": "Aprenda mais!",
+            "class": "seeMore-session-small"
         },
         {
             "title": "Fórum",
             "url": "https://forum.blip.ai/",
             "icon": "forum",
             "color": "blip",
-            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
-            "text": "Aprenda mais!"
+            "abstract": "Não encontrou o que procurava em nosso help center? Participe do nosso fórum.",
+            "text": "Aprenda mais!",
+            "class": "seeMore-session-small"
         }
     ]
 };
@@ -113,7 +117,7 @@ class Community extends React.Component {
                     </div>
   
                     <p className="abstract-session">{c.abstract}</p>
-                    <div className="seeMore-session">
+                    <div className={c.class}>
                       <p className="text-session">{c.text}</p>
                       <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4 bp-fill-bot"></BlipIcon>
                     </div>
