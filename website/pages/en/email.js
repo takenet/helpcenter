@@ -3,57 +3,63 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
   "title":"Email no BLiP",
-  "subtitle":"Melhore o seu relacionamento com o cliente por meio do email!",
+  "subtitle":"Melhore o relacionamento com o seu cliente através do envio de E-mails!",
   "img":"/img/illustrations/mailgun-logo.svg",
   "from":"BLiP Help Center >",
   "session": "Canais",
   "session_url": "/channels", 
   "here":"Email no BLiP",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
   "cards":[  
-     {  
-        "title":"Integração com a ferramenta de Analytics 1",
-        "type": "video",
-        "url": "#", 
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"Ver mais!"
-     },
-     {  
-        "title":"Integração com a ferramenta de Analytics 2",
-        "type": "video",
-        "url": "#",
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"Ver mais!"
-     },
-     {  
-      "title":"Integração com a ferramenta de Analytics 3",
-      "type": "text",
-      "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
+    {  
+       "title":"Visão geral do canal Email",
+       "type": "text",
+       "url": "#", 
+       "abstract":"Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
+       "text":"Ver mais!"
     },
     {  
-      "title":"Integração com a ferramenta de Analytics 4",
-      "type": "text",
-      "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
+       "title":"Arquitetura do canal Email no BLiP",
+       "type": "text",
+       "url": "#",
+       "abstract":"Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
+       "text":"Ver mais!"
     },
     {  
-      "title":"Integração com a ferramenta de Analytics 5",
-      "type": "text",
-      "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
+     "title":"Funcionalidades do canal Email",
+     "type": "text",
+     "url": "#",
+     "abstract":"Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
+     "text":"Ver mais!"
    },
    {  
-    "title":"Integração com a ferramenta de Analytics 6",
-    "type": "video",
-    "url": "#",
-    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-    "text":"Ver mais!"
-  }
-  ]
+     "title":"Tipos de conteúdo suportados",
+     "type": "text",
+     "url": "#",
+     "abstract":"Descubra aqui quais são os tipos de conteúdo que você consegue enviar através do BLiP e entenda como eles se comportam no canal.",
+     "text":"Ver mais!"
+   },
+   {  
+     "title":"Como publicar seu Chatbot no email",
+     "type": "text",
+     "url": "#",
+     "abstract":"Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
+     "text":"Ver mais!"
+  },
+  {  
+   "title":"Como interagir com os usuários",
+   "type": "text",
+   "url": "#",
+   "abstract":"Encontre todas as maneiras oferecidas pelo canal para que os usuários consigam iniciar e manter uma conversa com seu bot.",
+   "text":"Ver mais!"
+ }, 
+ {  
+   "title":"Acessando outras funcionalidades do canal através da API do BLiP",
+   "type": "text",
+   "url": "#",
+   "abstract":"Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
+   "text":"Ver mais!"
+ }, 
+ ]
 };
 //BLiP Icon for SVGs
 const defs = '/img/defs.svg';
@@ -104,7 +110,12 @@ class Email extends React.Component{
                   <p className="here">{data.here}</p>
                 </div>
                 <div className="info">
-                  <p className="intro">{data.intro}</p>
+                  <p className="intro">O correio eletrônico é uma das maneiras mais consolidadas da internet para enviar e receber mensagens. 
+                    Através dele é possível trocar textos, arquivos como fotos, vídeos e documentos, de forma direta e instantânea.</p>
+                  <p className="intro">Esta categoria apresenta diversos artigos sobre a integração do BLiP com um canal de E-mail. 
+                    Nestes artigos você aprenderá como funciona este canal, quais seus principais benefícios e sugestões para utilização 
+                    deste meio de comunicação que já vem habilitado para qualquer conta do BLiP.</p>
+                  <p className="intro">Caso nunca tenha trabalhado com este canal, clique no primeiro link abaixo.</p>
                 </div>
 
 
