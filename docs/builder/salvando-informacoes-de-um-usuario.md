@@ -1,5 +1,5 @@
 ---
-id: builder-salvando-informacoes-de-um-usuario
+id: salvando-informacoes-de-um-usuario
 title: Salvando informações de um usuário
 sidebar_label: Salvando informações de um usuário
 ---

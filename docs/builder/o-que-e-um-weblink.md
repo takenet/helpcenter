@@ -1,5 +1,5 @@
 ---
-id: builder-o-que-e-um-weblink
+id: o-que-e-um-weblink
 title: [Builder] O que é um Weblink?
 sidebar_label: [Builder] O que é um Weblink?
 ---

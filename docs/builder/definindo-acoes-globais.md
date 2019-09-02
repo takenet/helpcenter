@@ -1,5 +1,5 @@
 ---
-id: builder-definindo-acoes-globais
+id: definindo-acoes-globais
 title: Definindo ações globais no Builder
 sidebar_label: Definindo ações globais no Builder
 ---

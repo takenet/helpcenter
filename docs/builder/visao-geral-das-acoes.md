@@ -1,5 +1,5 @@
 ---
-id: builder-visao-geral-das-acoes
+id: visao-geral-das-acoes
 title: [Builder] Visão geral das ações
 sidebar_label: [Builder] Visão geral das ações
 ---

@@ -1,5 +1,5 @@
 ---
-id: builder-acao-processar-comando
+id: acao-processar-comando
 title: Ação: Processar Comando
 sidebar_label: Ação: Processar Comando
 ---

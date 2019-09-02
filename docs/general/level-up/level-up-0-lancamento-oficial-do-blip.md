@@ -17,7 +17,7 @@ O vídeo abaixo apresenta várias novidades disponíveis durante o lançamento o
 Ainda ficou com dúvidas? Veja os artigos/tutoriais abaixo 😉:
 
 * [**Visão Geral da Plataforma**](/docs/introduction/visao-geral-da-plataforma)
-* [**Visão Geral do Builder**](/docs/builder/builder-visao-geral-do-builder)
+* [**Visão Geral do Builder**](/docs/builder/visao-geral-do-builder)
 * [**Como criar um bot com o Builder do BLiP**](/docs/introduction/como-criar-um-bot-com-builder)
 
 A cada 15 dias, o BLiP lança novas ferramentas e integrações. Para acompanhar os próximos lançamentos fique de olho no Help Center!

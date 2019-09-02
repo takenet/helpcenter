@@ -1,5 +1,5 @@
 ---
-id: builder-importando-o-fluxo-de-um-bot-no-builder
+id: importando-o-fluxo-de-um-bot-no-builder
 title: Importando o fluxo de um bot no Builder
 sidebar_label: Importando o fluxo de um bot no Builder
 ---

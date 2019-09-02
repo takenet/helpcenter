@@ -1,5 +1,5 @@
 ---
-id: builder-visao-geral-variaveis
+id: visao-geral-variaveis
 title: [Builder] Visão geral das variáveis
 sidebar_label: [Builder] Visão geral das variáveis
 ---

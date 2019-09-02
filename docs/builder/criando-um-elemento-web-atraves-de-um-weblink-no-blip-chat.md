@@ -1,5 +1,5 @@
 ---
-id: builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat
+id: criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat
 title: Criando um elemento web através de um weblink no BLiP Chat
 sidebar_label: Criando um elemento web através de um weblink no BLiP Chat
 ---

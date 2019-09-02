@@ -1,5 +1,5 @@
 ---
-id: builder-visao-geral-do-builder
+id: visao-geral-do-builder
 title: Visão geral do Builder
 sidebar_label: Visão geral do Builder
 ---

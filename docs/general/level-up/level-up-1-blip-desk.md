@@ -15,6 +15,6 @@ Outros links importantes para quem quer saber mais sobre o BLiP Desk:
 * [**Como realizar um atendimento através do BLiP Desk**](/docs/helpdesk/desk-como-realizar-um-atendimento-atraves-do-blip-desk)
 * [**Como definir regras de atendimento no BLiP Desk**](/docs/helpdesk/desk-como-definir-regras-atendimento)
 * [**Como ativar o BLiP Desk como um canal de atendimento**](/docs/helpdesk/desk-como-ativar-blip-desk-canal)
-* [**Como utilizar o BLiP Desk em um bot criado no Builder**](/docs/builder/builder-o-que-e-um-bloco-de-atendimento)
+* [**Como utilizar o BLiP Desk em um bot criado no Builder**](/docs/builder/o-que-e-um-bloco-de-atendimento)
 
 Para acessar o BLiP Desk use o link [**desk.blip.ai**](https://desk.blip.ai).

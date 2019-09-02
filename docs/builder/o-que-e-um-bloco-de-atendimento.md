@@ -1,5 +1,5 @@
 ---
-id: builder-o-que-e-um-bloco-de-atendimento
+id: o-que-e-um-bloco-de-atendimento
 title: [Builder] O que é um bloco de atendimento
 sidebar_label: [Builder] O que é um bloco de atendimento
 ---

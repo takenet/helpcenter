@@ -153,91 +153,91 @@
         "title": "Utilizando o Textc para construir uma conversa contextual",
         "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
       },
-      "builder/builder-acao-processar-comando": {
+      "builder/acao-processar-comando": {
         "title": "Ação: Processar Comando",
         "sidebar_label": "Ação: Processar Comando"
       },
-      "builder/builder-como-definir-um-tempo-limite-para-acoes-do-builder": {
+      "builder/como-definir-um-tempo-limite-para-acoes-do-builder": {
         "title": "Como definir um tempo limite (timeout) para ações do Builder",
         "sidebar_label": "Como definir um tempo limite (timeout) para ações do Builder"
       },
-      "builder/builder-como-utilizar-debug-builder": {
+      "builder/como-utilizar-debug-builder": {
         "title": "Como utilizar a ferramenta de debug do Builder",
         "sidebar_label": "Como utilizar a ferramenta de debug do Builder"
       },
-      "builder/builder-criando-acoes-condicionais": {
+      "builder/criando-acoes-condicionais": {
         "title": "Criando ações condicionais",
         "sidebar_label": "Criando ações condicionais"
       },
-      "builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat": {
+      "builder/criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat": {
         "title": "Criando um elemento web através de um weblink no BLiP Chat",
         "sidebar_label": "Criando um elemento web através de um weblink no BLiP Chat"
       },
-      "builder/builder-definindo-acoes-globais": {
+      "builder/definindo-acoes-globais": {
         "title": "Definindo ações globais no Builder",
         "sidebar_label": "Definindo ações globais no Builder"
       },
-      "builder/builder-enviando-email-pelo-bot-atraves-do-builder": {
+      "builder/enviando-email-pelo-bot-atraves-do-builder": {
         "title": "Enviando email pelo bot através do Builder",
         "sidebar_label": "Enviando email pelo bot através do Builder"
       },
-      "builder/builder-expirando-sessao-usuarios-builder": {
+      "builder/expirando-sessao-usuarios-builder": {
         "title": "Expirando a sessão dos usuários do Builder",
         "sidebar_label": "Expirando a sessão dos usuários do Builder"
       },
-      "builder/builder-importando-o-fluxo-de-um-bot-no-builder": {
+      "builder/importando-o-fluxo-de-um-bot-no-builder": {
         "title": "Importando o fluxo de um bot no Builder",
         "sidebar_label": "Importando o fluxo de um bot no Builder"
       },
-      "builder/builder-o-que-e-um-bloco-de-atendimento": {
+      "builder/o-que-e-um-bloco-de-atendimento": {
         "title": "[Builder] O que é um bloco de atendimento",
         "sidebar_label": "[Builder] O que é um bloco de atendimento"
       },
-      "builder/builder-o-que-e-um-bloco-de-conteudo": {
+      "builder/o-que-e-um-bloco-de-conteudo": {
         "title": "[Builder] O que é um bloco de contéudo",
         "sidebar_label": "[Builder] O que é um bloco de conteúdo"
       },
-      "builder/builder-o-que-e-um-weblink": {
+      "builder/o-que-e-um-weblink": {
         "title": "[Builder] O que é um Weblink?",
         "sidebar_label": "[Builder] O que é um Weblink?"
       },
-      "builder/builder-o-que-sao-blocos-de-controle": {
+      "builder/o-que-sao-blocos-de-controle": {
         "title": "[Builder] O que são blocos de controle (Início e Exceção)",
         "sidebar_label": "[Builder] O que são blocos de controle (Início e Exceção)"
       },
-      "builder/builder-o-que-sao-listas-de-distribuicao": {
+      "builder/o-que-sao-listas-de-distribuicao": {
         "title": "[Builder] O que são listas de distribuição",
         "sidebar_label": "[Builder] O que são listas de distribuição"
       },
-      "builder/builder-proporcao-de-exibicao-de-imagens": {
+      "builder/proporcao-de-exibicao-de-imagens": {
         "title": "Proporção de exibição de imagens (Aspect Ratio)",
         "sidebar_label": "Proporção de exibição de imagens (Aspect Ratio)"
       },
-      "builder/builder-salvando-informacoes-de-um-usuario": {
+      "builder/salvando-informacoes-de-um-usuario": {
         "title": "Salvando informações de um usuário",
         "sidebar_label": "Salvando informações de um usuário"
       },
-      "builder/builder-verificar-se-existe-atendente-disponível-no-builder": {
+      "builder/verificar-se-existe-atendente-disponível-no-builder": {
         "title": "Verificar se existe atendente disponível no Builder",
         "sidebar_label": "Verificar se existe atendente disponível no Builder"
       },
-      "builder/builder-visao-geral-das-acoes": {
+      "builder/visao-geral-das-acoes": {
         "title": "[Builder] Visão geral das ações",
         "sidebar_label": "[Builder] Visão geral das ações"
       },
-      "builder/builder-visao-geral-das-condicoes-de-saida": {
+      "builder/visao-geral-das-condicoes-de-saida": {
         "title": "[Builder] Visão geral das condições de saída",
         "sidebar_label": "[Builder] Visão geral das condições de saída"
       },
-      "builder/builder-visao-geral-do-builder": {
+      "builder/visao-geral-do-builder": {
         "title": "Visão geral do Builder",
         "sidebar_label": "Visão geral do Builder"
       },
-      "builder/builder-visao-geral-dos-tipos-de-conteudo": {
+      "builder/visao-geral-dos-tipos-de-conteudo": {
         "title": "[Builder] Visão geral dos tipos de conteúdo",
         "sidebar_label": "[Builder] Visão geral dos tipos de conteúdo"
       },
-      "builder/builder-visao-geral-variaveis": {
+      "builder/visao-geral-variaveis": {
         "title": "[Builder] Visão geral das variáveis",
         "sidebar_label": "[Builder] Visão geral das variáveis"
       },

@@ -1,5 +1,5 @@
 ---
-id: builder-visao-geral-das-condicoes-de-saida
+id: visao-geral-das-condicoes-de-saida
 title: [Builder] Visão geral das condições de saída
 sidebar_label: [Builder] Visão geral das condições de saída
 ---

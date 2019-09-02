@@ -1,5 +1,5 @@
 ---
-id: builder-proporcao-de-exibicao-de-imagens
+id: proporcao-de-exibicao-de-imagens
 title: Proporção de exibição de imagens (Aspect Ratio)
 sidebar_label: Proporção de exibição de imagens (Aspect Ratio)
 ---

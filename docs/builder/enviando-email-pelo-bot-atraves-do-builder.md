@@ -1,5 +1,5 @@
 ---
-id: builder-enviando-email-pelo-bot-atraves-do-builder
+id: enviando-email-pelo-bot-atraves-do-builder
 title: Enviando email pelo bot através do Builder
 sidebar_label: Enviando email pelo bot através do Builder
 ---

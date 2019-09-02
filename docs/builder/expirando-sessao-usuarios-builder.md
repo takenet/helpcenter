@@ -1,5 +1,5 @@
 ---
-id: builder-expirando-sessao-usuarios-builder
+id: expirando-sessao-usuarios-builder
 title: Expirando a sessão dos usuários do Builder
 sidebar_label: Expirando a sessão dos usuários do Builder
 ---

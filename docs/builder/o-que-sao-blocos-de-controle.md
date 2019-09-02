@@ -1,5 +1,5 @@
 ---
-id: builder-o-que-sao-blocos-de-controle
+id: o-que-sao-blocos-de-controle
 title: [Builder] O que são blocos de controle (Início e Exceção)
 sidebar_label: [Builder] O que são blocos de controle (Início e Exceção)
 ---

@@ -1,5 +1,5 @@
 ---
-id: builder-visao-geral-dos-tipos-de-conteudo
+id: visao-geral-dos-tipos-de-conteudo
 title: [Builder] Visão geral dos tipos de conteúdo
 sidebar_label: [Builder] Visão geral dos tipos de conteúdo
 ---

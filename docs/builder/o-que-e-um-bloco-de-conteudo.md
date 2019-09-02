@@ -1,5 +1,5 @@
 ---
-id: builder-o-que-e-um-bloco-de-conteudo
+id: o-que-e-um-bloco-de-conteudo
 title: [Builder] O que é um bloco de contéudo
 sidebar_label: [Builder] O que é um bloco de conteúdo
 ---

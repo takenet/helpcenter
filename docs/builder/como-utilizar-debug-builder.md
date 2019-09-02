@@ -1,5 +1,5 @@
 ---
-id: builder-como-utilizar-debug-builder
+id: como-utilizar-debug-builder
 title: Como utilizar a ferramenta de debug do Builder
 sidebar_label: Como utilizar a ferramenta de debug do Builder
 ---

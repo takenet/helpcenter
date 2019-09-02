@@ -24,7 +24,7 @@ const React = require("react");
 function redirectURL(path) {
   console.log(path);
   const REDIRECT = {
-      "hc": "/docs/concepts/builder/builder-visao-geral-variaveis",
+      "hc": "/docs/concepts/builder/visao-geral-variaveis",
       "hc/pt-br/articles/360000661451-Facilitando-a-criação-de-seu-chatbot-através-das-extensões": "/docs/en/hello-world.html",
       GLOSSARY: "/docs/en/glossary"
   };

@@ -1,5 +1,5 @@
 ---
-id: builder-o-que-sao-listas-de-distribuicao
+id: o-que-sao-listas-de-distribuicao
 title: [Builder] O que são listas de distribuição
 sidebar_label: [Builder] O que são listas de distribuição
 ---

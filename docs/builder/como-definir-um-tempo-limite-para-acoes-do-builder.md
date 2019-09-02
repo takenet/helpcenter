@@ -1,5 +1,5 @@
 ---
-id: builder-como-definir-um-tempo-limite-para-acoes-do-builder
+id: como-definir-um-tempo-limite-para-acoes-do-builder
 title: Como definir um tempo limite (timeout) para ações do Builder
 sidebar_label: Como definir um tempo limite (timeout) para ações do Builder
 ---
