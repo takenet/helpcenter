@@ -1,5 +1,5 @@
 ---
-id: nlp-como-criar-uma-intencao
+id: como-criar-uma-intencao
 title: Como criar uma intenção
 sidebar_label: Como criar uma intenção
 ---

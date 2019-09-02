@@ -1,5 +1,5 @@
 ---
-id: nlp-boas-praticas-para-criar-um-bom-modelo-nlp
+id: boas-praticas-para-criar-um-bom-modelo-nlp
 title: Boas práticas para criar um bom modelo de NLP
 sidebar_label: Boas práticas para criar um bom modelo de NLP
 ---

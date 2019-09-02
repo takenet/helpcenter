@@ -1,5 +1,5 @@
 ---
-id: nlp-importancia-de-ia-nlp-chatbots
+id: importancia-de-ia-nlp-chatbots
 title: Importância de IA e NLP para chatbots
 sidebar_label: Importância de IA e NLP para chatbots
 ---

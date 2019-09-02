@@ -1,5 +1,5 @@
 ---
-id: nlp-conceitos-basicos-nlp-e-ai
+id: conceitos-basicos-nlp-e-ai
 title: Conceitos básicos para utilizar NLP e IA em chatbots
 sidebar_label: Conceitos básicos para utilizar NLP e IA em chatbots
 ---
