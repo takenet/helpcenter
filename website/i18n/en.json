@@ -293,6 +293,10 @@
         "title": "Arquitetura do canal WhatsApp",
         "sidebar_label": "Arquitetura do canal WhatsApp"
       },
+      "channels/whatsapp/como-interagir-whatsapp": {
+        "title": "Como interagir com os usuários através do WhatsApp",
+        "sidebar_label": "Como interagir com os usuários através do WhatsApp"
+      },
       "channels/whatsapp/criando-solucao-atendimento-humano-whatsapp": {
         "title": "Criando uma solução de atendimento humano no WhatsApp",
         "sidebar_label": "Criando uma solução de atendimento humano no WhatsApp"
