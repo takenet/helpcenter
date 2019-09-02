@@ -28,6 +28,7 @@
         "label": "Messenger",
         "ids":
           [
+            "channels/messenger/visao-geral-messenger",
             "channels/messenger/como-configurar-sua-propria-aplicacao-facebook"
           ]
       },
