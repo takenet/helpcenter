@@ -3,11 +3,11 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
   "title":"Explorando a plataforma",
-  "subtitle":"Aqui você encontra os primeiros passos para entender melhor o BLiP",
+  "subtitle":"Entenda como você pode evoluir seu contato inteligente",
   "img":"/img/illustrations/Person-3.svg",
   "from":"BLiP Help Center >",
   "here":"Explorando a platafomra",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+  "intro":"Com o contato inteligente implementado em sua empresa, entenda quais são as melhores práticas e como você pode evoluí-lo de forma eficaz para melhorar o relacionamento entre a sua empresa e seus clientes.",
   "cards":[  
      {  
         "title":"Integração com a ferramenta de Analytics 1",
