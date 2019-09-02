@@ -1,5 +1,5 @@
 ---
-id: management-gerenciando-permissoes-acesso-equipe
+id: gerenciando-permissoes-acesso-equipe
 title: Gerenciando permissões de acesso da equipe de um bot
 sidebar_label: Gerenciando permissões de acesso da equipe de um bot
 ---

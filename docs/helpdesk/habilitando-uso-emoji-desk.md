@@ -1,5 +1,5 @@
 ---
-id: desk-habilitando-uso-emoji-desk
+id: habilitando-uso-emoji-desk
 title: Habilitando o uso de emoji para o Desk
 sidebar_label: Habilitando o uso de emoji para o Desk
 ---

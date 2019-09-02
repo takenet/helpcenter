@@ -1,5 +1,5 @@
 ---
-id: desk-definindo-alerta-tempo-resposta-atendente
+id: definindo-alerta-tempo-resposta-atendente
 title: Definindo alerta para tempo de resposta de um atendente no BLiP Desk
 sidebar_label: Definindo alerta para tempo de resposta de um atendente no BLiP Desk
 ---

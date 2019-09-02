@@ -1,5 +1,5 @@
 ---
-id: desk-como-realizar-um-atendimento-atraves-do-blip-desk
+id: como-realizar-um-atendimento-atraves-do-blip-desk
 title: Como realizar um atendimento através do BLiP Desk
 sidebar_label: Como realizar um atendimento através do BLiP Desk
 ---

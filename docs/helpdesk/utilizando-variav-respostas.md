@@ -1,5 +1,5 @@
 ---
-id: desk-utilizando-variav-respostas
+id: utilizando-variav-respostas
 title: Utilizando variáveis nas respostas prontas do BLiP Desk
 sidebar_label: Utilizando variáveis nas respostas prontas do BLiP Desk
 ---

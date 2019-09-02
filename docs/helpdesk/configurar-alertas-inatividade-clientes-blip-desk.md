@@ -1,5 +1,5 @@
 ---
-id: desk-configurar-alertas-inatividade-clientes-blip-desk
+id: configurar-alertas-inatividade-clientes-blip-desk
 title: Como configurar alertas de inatividade dos clientes no BLiP Desk
 sidebar_label: Como configurar alertas de inatividade dos clientes no BLiP Desk
 ---

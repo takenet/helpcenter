@@ -1,5 +1,5 @@
 ---
-id: desk-descricao-metricas-desk
+id: descricao-metricas-desk
 title: Descrição das métricas do BLiP Desk
 sidebar_label: Descrição das métricas do BLiP Desk
 ---

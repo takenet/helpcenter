@@ -1,5 +1,5 @@
 ---
-id: management-como-encontrar-id-usuario
+id: como-encontrar-id-usuario
 title: Como encontrar o identificador de um usuário
 sidebar_label: Como encontrar o identificador de um usuário
 ---

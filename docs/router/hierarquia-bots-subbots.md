@@ -1,5 +1,5 @@
 ---
-id: router-hierarquia-bots-subbots
+id: hierarquia-bots-subbots
 title: Hierarquia (ou arquitetura) de bots e subbots
 sidebar_label: Hierarquia (ou arquitetura) de bots e subbots
 ---

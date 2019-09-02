@@ -1,5 +1,5 @@
 ---
-id: management-configuracoes-avancadas-bot
+id: configuracoes-avancadas-bot
 title: Configurações avançadas do bot
 sidebar_label: Configurações avançadas do bot
 ---

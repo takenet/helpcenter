@@ -1,5 +1,5 @@
 ---
-id: desk-gerenciamento-equipes
+id: gerenciamento-equipes
 title: Gerenciando equipes de atendimento no BLiP Desk
 sidebar_label: Gerenciado equipes de atendimento no BLiP Desk
 ---

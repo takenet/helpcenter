@@ -1,5 +1,5 @@
 ---
-id: desk-como-filtrar-ticket-id
+id: como-filtrar-ticket-id
 title: Como filtrar um ticket por ID?
 sidebar_label: Como filtrar um ticket por ID?
 ---

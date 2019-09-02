@@ -1,5 +1,5 @@
 ---
-id: management-transcricao-conversas-contatos
+id: transcricao-conversas-contatos
 title: Transcrição das conversas dos contatos
 sidebar_label: Transcrição das conversas dos contatos
 ---
