@@ -1,5 +1,5 @@
 ---
-id: api-sdks-agendando-uma-mensagem-scheduler
+id: agendando-uma-mensagem-scheduler
 title: Agendando uma mensagem com a extensão scheduler
 sidebar_label: Agendando uma mensagem com a extensão scheduler
 ---

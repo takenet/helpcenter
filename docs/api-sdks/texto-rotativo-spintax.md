@@ -1,5 +1,5 @@
 ---
-id: api-sdks-texto-rotativo-spintax
+id: texto-rotativo-spintax
 title: Texto rotativo com spintax
 sidebar_label: Texto rotativo com spintax
 ---

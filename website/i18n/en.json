@@ -61,10 +61,6 @@
         "title": "Treinando e publicando seu modelo de inteligência artificial",
         "sidebar_label": "Treinando e publicando seu modelo de inteligência artificial"
       },
-      "analytics/integracao-ferramentas-analytics": {
-        "title": "Integração com ferramentas de analytics",
-        "sidebar_label": "Integração com ferramentas de analytics"
-      },
       "analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado": {
         "title": "Criando gráficos em um relatório customizado",
         "sidebar_label": "Criando gráficos em um relatório customizado"
@@ -97,59 +93,63 @@
         "title": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?",
         "sidebar_label": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?"
       },
+      "analytics/integracao-ferramentas-analytics": {
+        "title": "Integração com ferramentas de analytics",
+        "sidebar_label": "Integração com ferramentas de analytics"
+      },
       "analytics/webhook/enviando-dados-atraves-webhook": {
         "title": "Enviando dados do seu bot através de Webhooks",
         "sidebar_label": "Enviando dados do seu bot através de Webhooks"
       },
-      "api-sdks/api-sdks-agendando-uma-mensagem-scheduler": {
+      "api-sdks/agendando-uma-mensagem-scheduler": {
         "title": "Agendando uma mensagem com a extensão scheduler",
         "sidebar_label": "Agendando uma mensagem com a extensão scheduler"
       },
-      "api-sdks/api-sdks-como-encontrar-a-api-key-do-meu-bot": {
+      "api-sdks/como-encontrar-a-api-key-do-meu-bot": {
         "title": "Como encontrar a API-KEY do meu bot?",
         "sidebar_label": "Como encontrar a API-KEY do meu bot?"
       },
-      "api-sdks/api-sdks-construcao-bot-atraves-api-sdk": {
+      "api-sdks/construcao-bot-atraves-api-sdk": {
         "title": "Construção de bots através de SDKs ou API HTTP",
         "sidebar_label": "Construção de bots através de SDKs ou API HTTP"
       },
-      "api-sdks/api-sdks-criando-um-bot-para-busca-de-imagens-no-bing": {
+      "api-sdks/criando-um-bot-para-busca-de-imagens-no-bing": {
         "title": "Criando um bot para busca de imagens no BING",
         "sidebar_label": "Criando um bot para busca de imagens no BING"
       },
-      "api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger": {
+      "api-sdks/criando-um-bot-para-receber-feeds-no-messenger": {
         "title": "[HTTP] Criando um bot para receber feeds no Messenger",
         "sidebar_label": "[HTTP] Criando um bot para receber feeds no Messenger"
       },
-      "api-sdks/api-sdks-criando-um-chatbot-curriculo-usando-api-http": {
+      "api-sdks/criando-um-chatbot-curriculo-usando-api-http": {
         "title": "Criando um chatbot 'currículo' usando API HTTP",
         "sidebar_label": "Criando um chatbot 'currículo' usando API HTTP"
       },
-      "api-sdks/api-sdks-event-track-sdk-csharp": {
+      "api-sdks/event-track-sdk-csharp": {
         "title": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade",
         "sidebar_label": "[SDK C#] Track de Usuários que utilizaram uma determinada funcionalidade"
       },
-      "api-sdks/api-sdks-facilitando-criacao-do-chatbot-atraves-extensoes": {
+      "api-sdks/facilitando-criacao-do-chatbot-atraves-extensoes": {
         "title": "Facilitando a criação do seu chatbot através das extensões",
         "sidebar_label": "Facilitando a criação do seu chatbot através das extensões"
       },
-      "api-sdks/api-sdks-sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario": {
+      "api-sdks/sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario": {
         "title": "[SDK C#] Armazenando o último acesso de um usuário",
         "sidebar_label": "[SDK C#] Armazenando o último acesso de um usuário"
       },
-      "api-sdks/api-sdks-sdk-csharp-com-suporte-a-dotnet-core": {
+      "api-sdks/sdk-csharp-com-suporte-a-dotnet-core": {
         "title": "SDK C# com suporte a .NET Core",
         "sidebar_label": "SDK C# com suporte a .NET Core"
       },
-      "api-sdks/api-sdks-sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo": {
+      "api-sdks/sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo": {
         "title": "[SDK C#] Criando uma lista de distribuição de conteúdo",
         "sidebar_label": "[SDK C#] Criando uma lista de distribuição de conteúdo"
       },
-      "api-sdks/api-sdks-texto-rotativo-spintax": {
+      "api-sdks/texto-rotativo-spintax": {
         "title": "Texto rotativo com spintax",
         "sidebar_label": "Texto rotativo com spintax"
       },
-      "api-sdks/api-sdks-utilizando-textc-construir-conversa": {
+      "api-sdks/utilizando-textc-construir-conversa": {
         "title": "Utilizando o Textc para construir uma conversa contextual",
         "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
       },
@@ -304,6 +304,10 @@
       "channels/whatsapp/funcionalidades-do-whatsapp": {
         "title": "Funcionalidades do canal WhatsApp",
         "sidebar_label": "Funcionalidades do canal WhatsApp"
+      },
+      "channels/whatsapp/publicando-bot-no-whatsapp": {
+        "title": "Publicando seu bot no canal WhatsApp",
+        "sidebar_label": "Publicando seu bot no canal WhatsApp"
       },
       "channels/whatsapp/visao-geral-do-whatsapp": {
         "title": "Visão geral do canal WhatsApp",

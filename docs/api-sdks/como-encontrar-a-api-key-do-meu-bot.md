@@ -1,5 +1,5 @@
 ---
-id: api-sdks-como-encontrar-a-api-key-do-meu-bot
+id: como-encontrar-a-api-key-do-meu-bot
 title: Como encontrar a API-KEY do meu bot?
 sidebar_label: Como encontrar a API-KEY do meu bot?
 ---

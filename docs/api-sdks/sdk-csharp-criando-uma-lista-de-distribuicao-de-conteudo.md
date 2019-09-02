@@ -1,5 +1,5 @@
 ---
-id: api-sdks-sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo
+id: sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo
 title: [SDK C#] Criando uma lista de distribuição de conteúdo
 sidebar_label: [SDK C#] Criando uma lista de distribuição de conteúdo
 ---

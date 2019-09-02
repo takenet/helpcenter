@@ -179,19 +179,19 @@
       "router/hierarquia-bots-subbots"
     ],
     "API e SDKs": [
-      "api-sdks/api-sdks-utilizando-textc-construir-conversa",
-      "api-sdks/api-sdks-facilitando-criacao-do-chatbot-atraves-extensoes",
-      "api-sdks/api-sdks-construcao-bot-atraves-api-sdk",
-      "api-sdks/api-sdks-como-encontrar-a-api-key-do-meu-bot",
-      "api-sdks/api-sdks-criando-um-bot-para-receber-feeds-no-messenger",
-      "api-sdks/api-sdks-criando-um-bot-para-busca-de-imagens-no-bing",
-      "api-sdks/api-sdks-criando-um-chatbot-curriculo-usando-api-http",
-      "api-sdks/api-sdks-sdk-csharp-com-suporte-a-dotnet-core",
-      "api-sdks/api-sdks-sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo",
-      "api-sdks/api-sdks-sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario",
-      "api-sdks/api-sdks-agendando-uma-mensagem-scheduler",
-      "api-sdks/api-sdks-event-track-sdk-csharp",
-      "api-sdks/api-sdks-texto-rotativo-spintax"
+      "api-sdks/utilizando-textc-construir-conversa",
+      "api-sdks/facilitando-criacao-do-chatbot-atraves-extensoes",
+      "api-sdks/construcao-bot-atraves-api-sdk",
+      "api-sdks/como-encontrar-a-api-key-do-meu-bot",
+      "api-sdks/criando-um-bot-para-receber-feeds-no-messenger",
+      "api-sdks/criando-um-bot-para-busca-de-imagens-no-bing",
+      "api-sdks/criando-um-chatbot-curriculo-usando-api-http",
+      "api-sdks/sdk-csharp-com-suporte-a-dotnet-core",
+      "api-sdks/sdk-csharp-criando-uma-lista-de-distribuicao-de-conteudo",
+      "api-sdks/sdk-csharp-armazenando-o-ultimo-acesso-de-um-usuario",
+      "api-sdks/agendando-uma-mensagem-scheduler",
+      "api-sdks/event-track-sdk-csharp",
+      "api-sdks/texto-rotativo-spintax"
     ],
     "Geral" : [
       "general/central-notificacoes",
