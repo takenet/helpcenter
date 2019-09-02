@@ -10,8 +10,8 @@ Setembro foi o mês em que demos mais um LevelUp no BLiP. Dessa vez as melhorias
 
 Outros links importantes para quem quer saber mais sobre o Builder do BLiP:
 
-* [**Visão geral da plataforma**](/docs/introduction/introduction-visao-geral-da-plataforma)
+* [**Visão geral da plataforma**](/docs/introduction/visao-geral-da-plataforma)
 * [**Visão geral do Builder**](/docs/builder/builder-visao-geral-do-builder)
-* [**Como criar um bot com o Builder do BLiP**](/docs/introduction/introduction-como-criar-um-bot-com-builder)
+* [**Como criar um bot com o Builder do BLiP**](/docs/introduction/como-criar-um-bot-com-builder)
 
 Ficou com alguma dúvida? Use o fórum do BLiP para pedir ajuda [**forum.blip.ai**](https://forum.blip.ai/).

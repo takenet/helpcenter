@@ -1,8 +1,8 @@
 {
   "docs": {
     "Introdução": [
-      "introduction/introduction-visao-geral-da-plataforma",
-      "introduction/introduction-como-criar-um-bot-com-builder"
+      "introduction/visao-geral-da-plataforma",
+      "introduction/como-criar-um-bot-com-builder"
     ],
     "Canais": [
       {

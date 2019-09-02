@@ -1,5 +1,5 @@
 ---
-id: introduction-como-criar-um-bot-com-builder
+id: como-criar-um-bot-com-builder
 title: Como criar um bot com o Builder do BLiP
 sidebar_label: Como criar um bot com o Builder do BLiP
 ---

@@ -404,9 +404,9 @@ class Index extends React.Component {
               <ul className="ul-aprenda-mais">
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://account.blip.ai/register">Criar uma conta</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://portal.blip.ai">Portal</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Visão geral da plataforma</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Visão geral do Builder</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Como criar um bot com o Builder</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="docs/introduction/visao-geral-da-plataforma">Visão geral da plataforma</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="docs/introduction/como-criar-um-bot-com-builder">Como criar um bot com o Builder</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="docs/builder/visao-geral-do-builder">Visão geral do Builder</a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
@@ -418,18 +418,12 @@ class Index extends React.Component {
             <input id="check2-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
+              <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp">WhatsApp </a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googlercs">Apple Business Chat</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/blipchat">BLiP Chat </a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/email">Email</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googleassistant">Google Assistant</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googlercs">Google RCS</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/infobip">Infobip</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/messenger">Messenger </a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/skype">Skype </a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/sms">SMS </a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/telegram">Telegram </a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp">WhatsApp </a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/workplace">Workplace </a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/blipchat">BLiP Chat </a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googleassistant">Google Assistant</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/channels">Ver todos</a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
@@ -445,10 +439,7 @@ class Index extends React.Component {
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/chatbase">Chatbase</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/dashbot">Dashbot</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/ai">DialogFlow</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/ai">IBM Watson</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/ai">Microsoft LUIS</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/rdstation">RDStation</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/webhooks">Webhooks</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/integrations">Ver todos</a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
@@ -464,7 +455,7 @@ class Index extends React.Component {
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/changelog">Changelogs</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/faq">Faq</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://github.com/takenet">Github</a></li>
-                {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="#">Status</a></li> */}
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://status.blip.ai">Status</a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
@@ -494,6 +485,7 @@ class Index extends React.Component {
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="http://learn.take.net/courses/criando-chatbots-com-a-plataforma-blip">Criando chatbots com a plataforma BLiP</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://botcamp.blip.ai">BLiP Botcamp</a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>

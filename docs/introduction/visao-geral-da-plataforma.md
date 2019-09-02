@@ -1,5 +1,5 @@
 ---
-id: introduction-visao-geral-da-plataforma
+id: visao-geral-da-plataforma
 title: Visão geral da plataforma
 sidebar_label: Visão geral da plataforma
 ---
