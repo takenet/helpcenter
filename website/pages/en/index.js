@@ -62,7 +62,7 @@ class HomeSplash extends React.Component {
               <div className="card-icon">
                 <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon>
               </div>
-              <a href="/introduction" className="card-button">Começar aqui</a>
+              <a href="/docs/introduction/visao-geral-da-plataforma" className="card-button">Começar aqui</a>
               <p className="card-text-mobile">Começou a usar o BLiP agora? Preparamos este conteúdo exclusivamente para ajudar nos seus primeiros passos.</p>
             </div>
           </div></a>
@@ -81,7 +81,7 @@ class HomeSplash extends React.Component {
                 <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon>
               </div>
               <p className="card-text">Para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</p>
-              <a href="/exploring" className="card-button">Começar aqui</a>
+              <a href="/blipareas" className="card-button">Começar aqui</a>
               <p className="card-text-mobile">Para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</p>
             </div>
           </div></a>
@@ -100,7 +100,7 @@ class HomeSplash extends React.Component {
                 <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon>
               </div>
               <p className="card-text">Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
-              <a href="/dominating" className="card-button">Começar aqui</a>
+              <a target="blank" href="https://docs.blip.ai" className="card-button">Começar aqui</a>
               <p className="card-text-mobile">Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
             </div>
           </div></a>
