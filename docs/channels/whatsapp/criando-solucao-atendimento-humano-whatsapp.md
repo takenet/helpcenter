@@ -1,5 +1,5 @@
 ---
-id: whatsapp-criando-solucao-atendimento-humano-whatsapp
+id: criando-solucao-atendimento-humano-whatsapp
 title: Criando uma solução de atendimento humano no WhatsApp
 sidebar_label: Criando uma solução de atendimento humano no WhatsApp
 ---
