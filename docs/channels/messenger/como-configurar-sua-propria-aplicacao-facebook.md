@@ -1,5 +1,5 @@
 ---
-id: messenger-como-configurar-sua-propria-aplicacao-facebook
+id: como-configurar-sua-propria-aplicacao-facebook
 title: Como configurar sua própria aplicação do Facebook em um bot no BLiP
 sidebar_label: Como configurar sua própria aplicação do Facebook em um bot no BLiP
 ---
