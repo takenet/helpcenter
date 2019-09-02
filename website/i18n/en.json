@@ -293,6 +293,14 @@
         "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
         "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
       },
+      "channels/messenger/funcionalidades-messenger": {
+        "title": "Funcionalidades do canal Messenger",
+        "sidebar_label": "Funcionalidades do canal Messenger"
+      },
+      "channels/messenger/tipos-conteudo-messenger": {
+        "title": "Tipos de conteúdo suportados pelo Messenger",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Messenger"
+      },
       "channels/messenger/visao-geral-messenger": {
         "title": "Visão geral do Messenger",
         "sidebar_label": "Visão geral do Messenger"
