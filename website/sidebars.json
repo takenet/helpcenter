@@ -30,6 +30,7 @@
           [
             "channels/messenger/visao-geral-messenger",
             "channels/messenger/arquitetura-messenger",
+            "channels/messenger/funcionalidades-messenger",
             "channels/messenger/como-configurar-sua-propria-aplicacao-facebook"
           ]
       },
