@@ -36,6 +36,7 @@
         "label": "WhatsApp",
         "ids":
           [
+            "channels/whatsapp/visao-geral-do-whatsapp",
             "channels/whatsapp/criando-solucao-atendimento-humano-whatsapp",
             "channels/whatsapp/enviar-notificacao-whatsapp-blip-api"
           ]
