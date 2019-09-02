@@ -12,7 +12,7 @@ Além da já conhecida ferramenta de agendamento de mensagens, a partir de agora
 
 Outros links importantes para quem quer saber mais sobre este módulo da plataforma:
 
-* [**Criando uma campanha de anúncio (Facebook Ads) para o seu bot**](/docs/growth/growth-criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot)
-* [**Como analisar os resultados de sua campanha de anúncio (Facebook Ads)**](/docs/growth/growth-como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads)
+* [**Criando uma campanha de anúncio (Facebook Ads) para o seu bot**](/docs/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot)
+* [**Como analisar os resultados de sua campanha de anúncio (Facebook Ads)**](/docs/growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads)
 
 Ficou com alguma dúvida? Use o fórum do BLiP para pedir ajuda [**forum.blip.ai**](https://forum.blip.ai).
