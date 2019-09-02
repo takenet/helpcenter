@@ -9823,6 +9823,7 @@ ol {
   flex-direction: row;
   flex-wrap: wrap;
   width: 70%;
+  overflow: hidden;
 }
 
 .pages-top .image {
@@ -9871,6 +9872,7 @@ ol {
   margin-bottom: 1%;
   width: 100%;
   color: #343c4c;
+  
 }
 
 .main .subtitle {
@@ -9943,15 +9945,16 @@ ol {
   box-sizing: border-box;
   border-radius: 8px;
   width: 27%;
-  overflow: hidden;
-  min-height: fit-content;
-  height: 209px;
+  min-width: 349px; 
+  height: 50%;
+  min-height: 209px;
   transition: transform 0.4s ease;
   margin-left: 5%;
   margin-bottom: 3%;
-  padding-left: 2%;
+  padding-left: 30px;
   padding-right: 2%;
-  padding-top: 2%;
+  padding-top: 30px;
+  text-overflow: ellipsis;
 }
 
 .cards .card:nth-child(1) {
@@ -9971,10 +9974,9 @@ ol {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 20px;
   margin-left: 2%;
-  margin-top: 1%;
   color: #517bf2;
   text-overflow: ellipsis;
 }
@@ -9983,10 +9985,9 @@ ol {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 20px;
   margin-left: 2%;
-  margin-top: 1%;
   color: #ff5a60;
   text-overflow: ellipsis;
 }
@@ -9995,8 +9996,9 @@ ol {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 150%;
+  font-size: 0.875rem;
+  line-height: 110%;
+  width: 100%;
   margin-top: 2%;
   color: #52636c;
   text-overflow: ellipsis;

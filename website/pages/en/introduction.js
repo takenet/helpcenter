@@ -7,7 +7,7 @@ const data = {
   "img":"/img/illustrations/Person-2.svg",
   "from":"BLiP Help Center >",
   "here":"Introdução à plataforma",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+  "intro":"O BLiP é uma ferramenta robusta e para te ajudar a conhecê-lo melhor, separamos alguns artigos iniciais que vão te nortear para começar a implementar o contato inteligente na sua empresa.",
   "cards":[  
      {  
         "title":"Integração com a ferramenta de Analytics 1",
