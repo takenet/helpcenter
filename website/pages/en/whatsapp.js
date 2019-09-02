@@ -28,7 +28,7 @@ const data = {
      {  
       "title":"Funcionalidades do canal",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/whatsapp/funcionalidades-do-whatsapp",
       "abstract":"Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text":"Ver mais!"
     },

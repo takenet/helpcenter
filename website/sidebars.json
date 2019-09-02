@@ -38,6 +38,7 @@
           [
             "channels/whatsapp/visao-geral-do-whatsapp",
             "channels/whatsapp/arquitetura-do-whatsapp",
+            "channels/whatsapp/funcionalidades-do-whatsapp",
             "channels/whatsapp/criando-solucao-atendimento-humano-whatsapp",
             "channels/whatsapp/enviar-notificacao-whatsapp-blip-api"
           ]
