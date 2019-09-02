@@ -3,7 +3,7 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
   "title":"Dominando a plataforma",
-  "subtitle":"Fale com a gente, nos dê ideias e nos ajude a crescer!",
+  "subtitle":"Tire o máximo de  proveito do que o BLiP tem a oferecer!",
   "img":"/img/illustrations/Person-1.svg",
   "from":"BLiP Help Center >",
   "here":"Dominando a platafomra",
