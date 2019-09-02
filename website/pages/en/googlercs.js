@@ -3,56 +3,62 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
   "title":"Google RCS no BLiP",
-  "subtitle":"Melhore o seu relacionamento com o cliente por meio do Google RCS!",
+  "subtitle":"Mantenha contato com seus clientes através do aplicativo nativo de mensagens do Android.",
   "img":"/img/illustrations/google-rcs-logo.svg",
   "from":"BLiP Help Center >",
   "session": "Canais",
   "session_url": "/channels",
   "here":"Google RCS no BLiP",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
-  "cards":[  
-     {  
-        "title":"Integração com a ferramenta de Analytics 1",
-        "type": "video",
-        "url": "#", 
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"Ver mais!"
-     },
-     {  
-        "title":"Integração com a ferramenta de Analytics 2",
-        "type": "video",
-        "url": "#",
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"Ver mais!"
-     },
-     {  
-      "title":"Integração com a ferramenta de Analytics 3",
+  "cards": [
+    {
+      "title": "Visão geral do canal",
       "type": "text",
       "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
+      "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
+      "text": "Ver mais!"
     },
-    {  
-      "title":"Integração com a ferramenta de Analytics 4",
+    {
+      "title": "Arquitetura do canal no BLiP",
       "type": "text",
       "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
+      "abstract": "Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
+      "text": "Ver mais!"
     },
-    {  
-      "title":"Integração com a ferramenta de Analytics 5",
+    {
+      "title": "Funcionalidades do canal",
       "type": "text",
       "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
-   },
-   {  
-    "title":"Integração com a ferramenta de Analytics 6",
-    "type": "video",
-    "url": "#",
-    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-    "text":"Ver mais!"
-  }
+      "abstract": "Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Tipos de conteúdo suportados",
+      "type": "text",
+      "url": "#",
+      "abstract": "Descubra aqui quais são os tipos de conteúdo que você consegue enviar através do BLiP e entenda como eles se comportam no canal.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Como publicar seu Chatbot no Google RCS",
+      "type": "text",
+      "url": "#",
+      "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Como interagir com os usuários",
+      "type": "text",
+      "url": "#",
+      "abstract": "Encontre todas as maneiras oferecidas pelo canal para que os usuários consigam iniciar e manter uma conversa com seu bot.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Acessando outros recursos",
+      "type": "text",
+      "url": "#",
+      "abstract": "Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
+      "text": "Ver mais!"
+    },
   ]
 };
 //BLiP Icon for SVGs
@@ -104,7 +110,13 @@ class GoogleRcs extends React.Component{
                   <p className="here">{data.here}</p>
                 </div>
                 <div className="info">
-                  <p className="intro">{data.intro}</p>
+                  <p className="intro">O Google RCS (Messages) é a nova versão nativa do aplicativo de mensagens do Android, 
+                    sistema operacional móvel com o maior número de usuários no mundo todo, com mais de 2,5 bilhões de usuários ativos por mês. 
+                    Ela oferece uma nova e única maneira de se comunicar diretamente do smartphone.</p>
+                  <p className="intro">Esta categoria apresenta vários artigos sobre como integrar o canal do RCS ao BLiP. 
+                    Através deles será possível entender como funciona o canal, suas funcionalidades, 
+                    seus benefícios e como criar sua primeira interação entre o BLiP e a plataforma da Google.</p>
+                  <p className="intro">Caso você nunca tenha trabalhado com este canal clique no primeiro link abaixo.</p>
                 </div>
 
 
