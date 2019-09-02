@@ -10886,12 +10886,28 @@ a.link-from{
 }
 
 .cards-session .seeMore-session {
-  margin-top: 0%;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.cards-session .seeMore-session-small {
+  margin-top: 4%;
   display: flex;
   flex-direction: row;
 }
 
 .seeMore-session .text-session {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #2CC3D5;
+}
+
+.seeMore-session-small .text-session {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
@@ -10923,6 +10939,7 @@ a.link-from{
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 3.5%;
+  padding-bottom: 3.5%;
   margin-left: 0%;
   display: flex;
   flex-direction: row;
