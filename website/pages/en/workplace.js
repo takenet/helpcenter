@@ -11,54 +11,54 @@ const data = {
   "here": "Workplace no BLiP",
   "cards": [
     {
-      "title": "Visão geral do canal Workplace",
+      "title": "Visão geral do canal",
       "type": "text",
       "url": "#",
-      "abstract": "O aplicativo WhatsApp ajuda na conexão e no compartilhamento de informações entre mais de 1 bilhão de pessoas em todo o mundo.",
+      "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
       "text": "Ver mais!"
     },
     {
-      "title": "Arquitetura do Workplace no BLiP",
+      "title": "Arquitetura do canal no BLiP",
       "type": "text",
       "url": "#",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "abstract": "Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
       "text": "Ver mais!"
     },
     {
-      "title": "Funcionalidades do canal Workplace",
+      "title": "Funcionalidades do canal",
       "type": "text",
       "url": "#",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "abstract": "Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text": "Ver mais!"
     },
     {
       "title": "Tipos de conteúdo suportados",
       "type": "text",
       "url": "#",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "abstract": "Descubra aqui quais são os tipos de conteúdo que você consegue enviar através do BLiP e entenda como eles se comportam no canal.",
       "text": "Ver mais!"
     },
     {
-      "title": "Como publicar seu Chatbot no Workplace",
+      "title": "Como publicar seu Chatbot",
       "type": "text",
       "url": "/docs/channels/workplace/workplace-publicando-chatbot-no-workplace/",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },
     {
       "title": "Como interagir com os usuários",
       "type": "text",
       "url": "#",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "abstract": "Encontre todas as maneiras oferecidas pelo canal para que os usuários consigam iniciar e manter uma conversa com seu bot.",
       "text": "Ver mais!"
     },
     {
-      "title": "Acessando outras funcionalidades do canal através da API do BLiP",
+      "title": "Acessando outros recursos",
       "type": "text",
       "url": "#",
-      "abstract": "Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "abstract": "Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
       "text": "Ver mais!"
-    }
+    },
   ]
 };
 //BLiP Icon for SVGs
