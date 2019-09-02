@@ -21,7 +21,7 @@ const data = {
      {  
         "title":"Arquitetura do canal no BLiP",
         "type": "text",
-        "url": "#",
+        "url": "/docs/channels/whatsapp/arquitetura-do-whatsapp",
         "abstract":"Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
         "text":"Ver mais!"
      },
