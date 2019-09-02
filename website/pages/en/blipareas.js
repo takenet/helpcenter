@@ -7,14 +7,16 @@ const data = {
   "img": "/img/illustrations/ilustracao-sessao.svg",
   "from": "BLiP Help Center >",
   "here": "Áreas do BLiP",
-  "intro": "Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+  "intro": `O BLiP é uma plataforma que ajuda a melhorar a comunicação entre clientes e organizações através da construção, gestão e evolução de aplicações conversacionais. Por meio de integrações em diferentes APIs e canais de mensageria, o BLiP facilita o desenvolvimento do contato das empresas de forma inteligente e otimizado. 
+  
+  Para que seja possível entregar valor em cada uma das etapas do projeto de uma aplicação conversacional, são necessárias diversas ferramentas e integrações. Pensando nisso, o BLiP está organizado de forma modular. Selecione uma das áreas abaixo e veja como o BLiP pode te ajudar.`,
   "cards": [
     {
       "title": "Atendimento Humano",
       "url": "/ai",
       "icon": "operator",
       "color": "sea",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "Veja como um ser humano tem um papel essencial na entrega da melhor experiência  possível durante um atendimento. Combine a automação e escalabilidade dos seus bots à capacidade única de um ser humano na resolução de tarefas específicas e complexas.",
       "text": "Aprenda mais!"
     },
     {
@@ -22,7 +24,7 @@ const data = {
       "url": "/analytics",
       "icon": "chart-line",
       "color": "watermelon",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "Analise os dados gerados em seu contato inteligente para entender o comportamento de seus clientes e definir metas para uma constante evolução.",
       "text": "Aprenda mais!"
     },
     {
@@ -30,7 +32,7 @@ const data = {
       "url": "/builder",
       "icon": "robot",
       "color": "blip",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "A plataforma BLiP possibilita a construção de bots via código (SDK ou API) e também de forma visual através do Builder. Para entender todos os detalhes de como funciona a ferramenta de construção de fluxos do BLiP clique aqui.",
       "text": "Aprenda mais!"
     },
     {
@@ -38,7 +40,7 @@ const data = {
       "url": "/channels",
       "icon": "sms-icon",
       "color": "attention",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "O BLiP está conectado a vários canais de mensageria de forma nativa. Disponibilize sua aplicação em todos os canais que achar conveniente com poucos cliques. Para descobrir como publicar seu contato inteligente em um dos canais suportados pelo BLiP clique aqui.",
       "text": "Aprenda mais!"
     },
 
@@ -47,7 +49,7 @@ const data = {
       "url": "/growth",
       "icon": "publish-bot",
       "color": "refresh",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "Construa estratégias para reter e engajar seus usuários em diversos canais por meio de anúncios personalizados, ferramenta de agendamento e muito mais.",
       "text": "Aprenda mais!"
     },
     {
@@ -55,7 +57,7 @@ const data = {
       "url": "/integrations",
       "icon": "integration-solid",
       "color": "success",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "Além dos diversos canais de mensageria, o BLiP está conectado a dezenas de ferramentas interessantes para quem precisa construir um bot. Clique nesta opção para entender melhor quais são e como funcionam cada uma dessas integrações.",
       "text": "Aprenda mais!"
     },
     {
@@ -63,7 +65,7 @@ const data = {
       "url": "/ai",
       "icon": "ia",
       "color": "suit",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "Aprenda como evoluir um chatbot utilizando ferramentas de Inteligência Artificial, como NLP - Natural Language Processing (Processamento de Linguagem Natural), para otimizar o reconhecimento dos assuntos abordados entre os seus clientes e o contato de uma organização.",
       "text": "Aprenda mais!"
     }
 
@@ -171,7 +173,7 @@ class ScriptBanners extends React.Component {
         const banners = {
           "https://forum.blip.ai/": "/img/banners/Banner-forum.jpg",
           "https://ideas.blip.ai/": "/img/banners/Banner-ideas.jpg",
-          "/lgpd": "/img/banners/Banner-politicas.jpg",
+          "/security": "/img/banners/Banner-politicas.jpg",
           "/beta": "/img/banners/Banner-beta.jpg",
           "http://community.blip.ai": "/img/banners/Banner-communityfb.jpg",
         }

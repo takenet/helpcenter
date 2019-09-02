@@ -145,7 +145,7 @@ class ScriptBanners extends React.Component {
         const banners = {
           "https://forum.blip.ai/": "/img/banners/Banner-forum.jpg",
           "https://ideas.blip.ai/": "/img/banners/Banner-ideas.jpg",
-          "/lgpd": "/img/banners/Banner-politicas.jpg",
+          "/security": "/img/banners/Banner-politicas.jpg",
           "/beta": "/img/banners/Banner-beta.jpg",
           "http://community.blip.ai": "/img/banners/Banner-communityfb.jpg",
         }

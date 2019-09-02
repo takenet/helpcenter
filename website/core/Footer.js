@@ -45,8 +45,8 @@ class Footer extends React.Component {
                   <a href="/changelog" className="link-footer">Changelogs</a>
                   <a href="/faq" className="link-footer">Faq</a>
                   <a href="https://github.com/takenet" target="_blank" className="link-footer">Github</a>
-                  {/* <a href="#" className="link-footer">Status</a> */}
-              </div>  
+                  <a href="https://status.blip.ai" target="_blank" className="link-footer">Status</a>
+              </div>
 
               <div className="content-links">
                   <p className="title">Cursos</p>
@@ -71,7 +71,7 @@ class Footer extends React.Component {
                   <a href="#" className="link-footer">Legal</a>
                   <a href="#" className="link-footer">Políticas de Cookies</a>
                   <a href="#" className="link-footer">Políticas de Privacidade</a>
-                  <a href="#" className="link-footer">Programa de Privacidade e Proteção de Dados</a>
+                  <a href="#" className="link-footer">Privacidade de Dados</a>
                   <a href="#" className="link-footer">Termos de Uso</a>
               </div>
 

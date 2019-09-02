@@ -3,18 +3,18 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = {
     "title": "Recursos",
-    "subtitle": "Entenda como funciona o BLiP",
+    "subtitle": "Documentações e atualizações",
     "img": "/img/illustrations/ilustracao-sessao.svg",
     "from": "BLiP Help Center >",
     "here": "Recursos",
-    "intro": "Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+    "intro": "Tenha acesso as últimas atualizações, documentação e dúvidas frequentes.",
     "cards": [
         {
             "title": "API Reference",
             "url": "https://docs.blip.ai/",
             "icon": "jason-file",
             "color": "bluejeans",
-            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+            "abstract": "Encontre detalhes técnicos de forma objetiva, com foco em desenvolvedores, para melhor utilizar a API disponibilizada pelo BLiP.",
             "text": "Aprenda mais!"
         },
         {
@@ -22,25 +22,33 @@ const data = {
             "url": "/changelog",
             "icon": "restore",
             "color": "blip",
-            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
-            "text": "Aprenda mais!"
+            "abstract": "Fique por dentro de todas as atualizações e melhorias feitas no BLiP!",
+            "text": "Veja as novidades!"
         },
         {
             "title": "FAQ",
             "url": "/faq",
             "icon": "faq-outline",
             "color": "attention",
-            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+            "abstract": "Veja as perguntas frequentes e tire suas dúvidas rapidamente.",
             "text": "Aprenda mais!"
         },
         {
             "title": "Github",
-            "url": "/https://github.com/takenet",
+            "url": "https://github.com/takenet",
             "icon": "git-hub-logo",
             "color": "watermelon",
-            "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
-            "text": "Aprenda mais!"
-        }
+            "abstract": "Contribua para o crescimento e melhoria do nosso código, por meio do nosso Github.",
+            "text": "Contribue!"
+        },
+        {
+          "title": "Status",
+          "url": "https://status.blip.ai",
+          "icon": "jason-file",
+          "color": "bluejeans",
+          "abstract": "Avalie em tempo real a disponibilidade de todos os serviços da plataforma através da página de status",
+          "text": "Acompanhe!"
+      }
     ]
 };
 
@@ -145,7 +153,7 @@ class ScriptBanners extends React.Component {
         const banners = {
           "https://forum.blip.ai/": "/img/banners/Banner-forum.jpg",
           "https://ideas.blip.ai/": "/img/banners/Banner-ideas.jpg",
-          "/lgpd": "/img/banners/Banner-politicas.jpg",
+          "/security": "/img/banners/Banner-politicas.jpg",
           "/beta": "/img/banners/Banner-beta.jpg",
           "http://community.blip.ai": "/img/banners/Banner-communityfb.jpg",
         }
