@@ -1,5 +1,5 @@
 ---
-id: desk-visao-geral-desk
+id: visao-geral-desk
 title: Visão geral do BLiP Desk
 sidebar_label: Visão geral do BLiP Desk
 ---

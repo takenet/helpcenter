@@ -1,5 +1,5 @@
 ---
-id: desk-utilizar-live-agent-salesForce-atendimento-humano
+id: utilizar-live-agent-salesForce-atendimento-humano
 title: Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?
 sidebar_label: Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?
 ---

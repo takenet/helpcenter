@@ -99,18 +99,18 @@
       }
     ],
     "Atendimento Humano": [
-      "helpdesk/desk-descricao-metricas-desk",
-      "helpdesk/desk-visao-geral-desk",
-      "helpdesk/desk-como-realizar-um-atendimento-atraves-do-blip-desk",
-      "helpdesk/desk-como-filtrar-ticket-id",
-      "helpdesk/desk-utilizando-variav-respostas",
-      "helpdesk/desk-como-definir-regras-atendimento",
-      "helpdesk/desk-gerenciamento-equipes",
-      "helpdesk/desk-como-ativar-blip-desk-canal",
-      "helpdesk/desk-habilitando-uso-emoji-desk",
-      "helpdesk/desk-configurar-alertas-inatividade-clientes-blip-desk",
-      "helpdesk/desk-definindo-alerta-tempo-resposta-atendente",
-      "helpdesk/desk-utilizar-live-agent-salesForce-atendimento-humano"
+      "helpdesk/descricao-metricas-desk",
+      "helpdesk/visao-geral-desk",
+      "helpdesk/como-realizar-um-atendimento-atraves-do-blip-desk",
+      "helpdesk/como-filtrar-ticket-id",
+      "helpdesk/utilizando-variav-respostas",
+      "helpdesk/como-definir-regras-atendimento",
+      "helpdesk/gerenciamento-equipes",
+      "helpdesk/como-ativar-blip-desk-canal",
+      "helpdesk/habilitando-uso-emoji-desk",
+      "helpdesk/configurar-alertas-inatividade-clientes-blip-desk",
+      "helpdesk/definindo-alerta-tempo-resposta-atendente",
+      "helpdesk/utilizar-live-agent-salesForce-atendimento-humano"
     ],
     "Gestão": [
       "management/como-encontrar-id-usuario",

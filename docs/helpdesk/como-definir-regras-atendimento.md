@@ -1,5 +1,5 @@
 ---
-id: desk-como-definir-regras-atendimento
+id: como-definir-regras-atendimento
 title: Como definir regras de atendimento no BLiP Desk
 sidebar_label: Como definir regras de atendimento no BLiP Desk
 ---

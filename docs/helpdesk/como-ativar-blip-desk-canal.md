@@ -1,5 +1,5 @@
 ---
-id: desk-como-ativar-blip-desk-canal
+id: como-ativar-blip-desk-canal
 title: Como ativar o BLiP Desk como um canal de atendimento
 sidebar_label: Como ativar o BLiP Desk como um canal de atendimento
 ---
