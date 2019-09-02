@@ -1,5 +1,5 @@
 ---
-id: general-central-notificacoes
+id: central-notificacoes
 title: Central de Notificações
 sidebar_label: Central de Notificações
 ---

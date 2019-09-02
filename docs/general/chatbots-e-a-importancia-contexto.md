@@ -1,5 +1,5 @@
 ---
-id: general-chatbots-e-a-importancia-contexto
+id: chatbots-e-a-importancia-contexto
 title: Chatbots e a importância do contexto
 sidebar_label: Chatbots e a importância do contexto
 ---

@@ -297,25 +297,21 @@
         "title": "Enviar notificações WhatsApp via API do BLiP",
         "sidebar_label": "Enviar notificações WhatsApp via API do BLiP"
       },
-      "channels/workplace/workplace-o-que-e-workplace": {
+      "channels/workplace/o-que-e-workplace": {
         "title": "O que é Workplace?",
         "sidebar_label": "O que é o Workplace?"
       },
-      "channels/workplace/workplace-publicando-chatbot-no-workplace": {
+      "channels/workplace/publicando-chatbot-no-workplace": {
         "title": "Publicando seu chatbot no Workplace",
         "sidebar_label": "Publicando seu chatbot no Workplace"
       },
-      "general/general-central-notificacoes": {
+      "general/central-notificacoes": {
         "title": "Central de Notificações",
         "sidebar_label": "Central de Notificações"
       },
-      "general/general-chatbots-e-a-importancia-contexto": {
+      "general/chatbots-e-a-importancia-contexto": {
         "title": "Chatbots e a importância do contexto",
         "sidebar_label": "Chatbots e a importância do contexto"
-      },
-      "general/general-politica-de-violacao-mensagens": {
-        "title": "Política de violação de mensagens ativas do BLiP",
-        "sidebar_label": "Política de violação de mensagens ativas do BLiP"
       },
       "general/level-up/level-up-0-lancamento-oficial-do-blip": {
         "title": "LevelUp 0 - Lançamento oficial do BLiP",
@@ -372,6 +368,10 @@
       "general/level-up/level-up-9-marcos-de-2018": {
         "title": "LevelUp 9 - Marcos de 2018",
         "sidebar_label": "LevelUp 9 - Marcos de 2018"
+      },
+      "general/politica-de-violacao-mensagens": {
+        "title": "Política de violação de mensagens ativas do BLiP",
+        "sidebar_label": "Política de violação de mensagens ativas do BLiP"
       },
       "growth/growth-como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads": {
         "title": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)",

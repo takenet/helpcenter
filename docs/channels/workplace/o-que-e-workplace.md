@@ -1,5 +1,5 @@
 ---
-id: workplace-o-que-e-workplace
+id: o-que-e-workplace
 title: O que é Workplace?
 sidebar_label: O que é o Workplace?
 ---

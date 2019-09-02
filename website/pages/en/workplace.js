@@ -41,7 +41,7 @@ const data = {
     {
       "title": "Como publicar seu Chatbot",
       "type": "text",
-      "url": "/docs/channels/workplace/workplace-publicando-chatbot-no-workplace/",
+      "url": "/docs/channels/workplace/publicando-chatbot-no-workplace/",
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },

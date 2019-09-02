@@ -1,5 +1,5 @@
 ---
-id: general-politica-de-violacao-mensagens
+id: politica-de-violacao-mensagens
 title: Política de violação de mensagens ativas do BLiP
 sidebar_label: Política de violação de mensagens ativas do BLiP
 ---

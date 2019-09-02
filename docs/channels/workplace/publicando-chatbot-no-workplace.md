@@ -1,10 +1,10 @@
 ---
-id: workplace-publicando-chatbot-no-workplace
+id: publicando-chatbot-no-workplace
 title: Publicando seu chatbot no Workplace
 sidebar_label: Publicando seu chatbot no Workplace
 ---
 
-Para publicar um bot no [Workplace](/docs/channels/workplace/workplace-o-que-e-workplace) da sua empresa acesse o portal do BLiP, escolha o bot desejado, clique em *Canais > Workplace*, no menu lateral direto, e clicar na chave *Disponível no canal*.
+Para publicar um bot no [Workplace](/docs/channels/workplace/o-que-e-workplace) da sua empresa acesse o portal do BLiP, escolha o bot desejado, clique em *Canais > Workplace*, no menu lateral direto, e clicar na chave *Disponível no canal*.
 
 Siga as três instruções abaixo para coletar todas as informações necessárias no processo de publicação do seu bot neste canal.
 

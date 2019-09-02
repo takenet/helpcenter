@@ -45,8 +45,8 @@
         "label": "Workplace",
         "ids":
           [
-            "channels/workplace/workplace-o-que-e-workplace",
-            "channels/workplace/workplace-publicando-chatbot-no-workplace"
+            "channels/workplace/o-que-e-workplace",
+            "channels/workplace/publicando-chatbot-no-workplace"
           ]
       }
     ],
@@ -190,9 +190,9 @@
       "api-sdks/api-sdks-texto-rotativo-spintax"
     ],
     "Geral" : [
-      "general/general-central-notificacoes",
-      "general/general-politica-de-violacao-mensagens",
-      "general/general-chatbots-e-a-importancia-contexto",
+      "general/central-notificacoes",
+      "general/politica-de-violacao-mensagens",
+      "general/chatbots-e-a-importancia-contexto",
       {
         "type": "subcategory",
         "label": "Level Up",
