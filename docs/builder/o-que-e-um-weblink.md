@@ -1,7 +1,7 @@
 ---
 id: o-que-e-um-weblink
-title: [Builder] O que é um Weblink?
-sidebar_label: [Builder] O que é um Weblink?
+title: O que é um Weblink?
+sidebar_label: O que é um Weblink?
 ---
 O tipo de conteúdo **weblink** permite que o bot envie para o cliente um link de qualquer página pública na internet. Esse tipo de conteúdo é muito útil para facilitar o acesso dos usuários, de forma simples, à informações disponíveis em sites e blogs.
 

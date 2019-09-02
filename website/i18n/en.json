@@ -190,24 +190,24 @@
         "sidebar_label": "Importando o fluxo de um bot no Builder"
       },
       "builder/o-que-e-um-bloco-de-atendimento": {
-        "title": "[Builder] O que é um bloco de atendimento",
-        "sidebar_label": "[Builder] O que é um bloco de atendimento"
+        "title": "O que é um bloco de atendimento",
+        "sidebar_label": "O que é um bloco de atendimento"
       },
       "builder/o-que-e-um-bloco-de-conteudo": {
-        "title": "[Builder] O que é um bloco de contéudo",
-        "sidebar_label": "[Builder] O que é um bloco de conteúdo"
+        "title": "O que é um bloco de contéudo",
+        "sidebar_label": "O que é um bloco de conteúdo"
       },
       "builder/o-que-e-um-weblink": {
-        "title": "[Builder] O que é um Weblink?",
-        "sidebar_label": "[Builder] O que é um Weblink?"
+        "title": "O que é um Weblink?",
+        "sidebar_label": "O que é um Weblink?"
       },
       "builder/o-que-sao-blocos-de-controle": {
-        "title": "[Builder] O que são blocos de controle (Início e Exceção)",
-        "sidebar_label": "[Builder] O que são blocos de controle (Início e Exceção)"
+        "title": "O que são blocos de controle (Início e Exceção)",
+        "sidebar_label": "O que são blocos de controle (Início e Exceção)"
       },
       "builder/o-que-sao-listas-de-distribuicao": {
-        "title": "[Builder] O que são listas de distribuição",
-        "sidebar_label": "[Builder] O que são listas de distribuição"
+        "title": "O que são listas de distribuição",
+        "sidebar_label": "O que são listas de distribuição"
       },
       "builder/proporcao-de-exibicao-de-imagens": {
         "title": "Proporção de exibição de imagens (Aspect Ratio)",
@@ -222,24 +222,24 @@
         "sidebar_label": "Verificar se existe atendente disponível no Builder"
       },
       "builder/visao-geral-das-acoes": {
-        "title": "[Builder] Visão geral das ações",
-        "sidebar_label": "[Builder] Visão geral das ações"
+        "title": "Visão geral das ações",
+        "sidebar_label": "Visão geral das ações"
       },
       "builder/visao-geral-das-condicoes-de-saida": {
-        "title": "[Builder] Visão geral das condições de saída",
-        "sidebar_label": "[Builder] Visão geral das condições de saída"
+        "title": "Visão geral das condições de saída",
+        "sidebar_label": "Visão geral das condições de saída"
       },
       "builder/visao-geral-do-builder": {
         "title": "Visão geral do Builder",
         "sidebar_label": "Visão geral do Builder"
       },
       "builder/visao-geral-dos-tipos-de-conteudo": {
-        "title": "[Builder] Visão geral dos tipos de conteúdo",
-        "sidebar_label": "[Builder] Visão geral dos tipos de conteúdo"
+        "title": "Visão geral dos tipos de conteúdo",
+        "sidebar_label": "Visão geral dos tipos de conteúdo"
       },
       "builder/visao-geral-variaveis": {
-        "title": "[Builder] Visão geral das variáveis",
-        "sidebar_label": "[Builder] Visão geral das variáveis"
+        "title": "Visão geral das variáveis",
+        "sidebar_label": "Visão geral das variáveis"
       },
       "channels/blip-chat/chat-adicionando-push-notification-blip-chat-android": {
         "title": "Adicionando push notification no BLiP Chat Android",

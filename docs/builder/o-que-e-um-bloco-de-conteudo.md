@@ -1,7 +1,7 @@
 ---
 id: o-que-e-um-bloco-de-conteudo
-title: [Builder] O que é um bloco de contéudo
-sidebar_label: [Builder] O que é um bloco de conteúdo
+title: O que é um bloco de contéudo
+sidebar_label: O que é um bloco de conteúdo
 ---
 Além de representar os possíveis estados de um cliente no fluxo da conversa os blocos de conteúdo são responsáveis por outras três funções: **envio (e recebimento) de conteúdos, escolha de condições de saída** e a **execução de ações**. Essas funções estão organizadas através de abas na tela de edição de um bloco, conforme exibido pela figura abaixo:
 

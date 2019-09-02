@@ -1,7 +1,7 @@
 ---
 id: visao-geral-dos-tipos-de-conteudo
-title: [Builder] Visão geral dos tipos de conteúdo
-sidebar_label: [Builder] Visão geral dos tipos de conteúdo
+title: Visão geral dos tipos de conteúdo
+sidebar_label: Visão geral dos tipos de conteúdo
 ---
 Dentro de qualquer **bloco de conteúdo**, é possível definir quais as mensagens serão enviadas do bot para o cliente. O BLiP suporta qualquer tipo de conteúdo disponível nos canais conectados à plataforma.
 

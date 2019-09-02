@@ -1,7 +1,7 @@
 ---
 id: o-que-sao-blocos-de-controle
-title: [Builder] O que são blocos de controle (Início e Exceção)
-sidebar_label: [Builder] O que são blocos de controle (Início e Exceção)
+title: O que são blocos de controle (Início e Exceção)
+sidebar_label: O que são blocos de controle (Início e Exceção)
 ---
 Os blocos de controle representam estados específicos no fluxo de conversa de um bot. Os dois blocos de controle marcam o **Início** da conversa entre o cliente e o bot (antes da primeira interação) e qualquer **Exceção** (ou problema) não tratada pelo fluxo, respectivamente.
 

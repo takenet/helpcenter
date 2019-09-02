@@ -1,7 +1,7 @@
 ---
 id: visao-geral-variaveis
-title: [Builder] Visão geral das variáveis
-sidebar_label: [Builder] Visão geral das variáveis
+title: Visão geral das variáveis
+sidebar_label: Visão geral das variáveis
 ---
 
 Durante a construção da sua aplicação no Builder, pode ser necessário armazenar valores em variáveis. Isso é indispensável para a construção de fluxos condicionais, ou para simplesmente armazenar/recuperar valores ao longo da interação do usuário.

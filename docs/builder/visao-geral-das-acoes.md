@@ -1,7 +1,7 @@
 ---
 id: visao-geral-das-acoes
-title: [Builder] Visão geral das ações
-sidebar_label: [Builder] Visão geral das ações
+title: Visão geral das ações
+sidebar_label: Visão geral das ações
 ---
 
 Uma das funções de um bloco (ou estado) é executar ações de entrada e saída. Uma ação representa uma tarefa que deve ser executada antes do envio dos conteúdos de um bloco (**ação de entrada**), ou imediatamente após o envio dos conteúdos (**ação de saída**).
