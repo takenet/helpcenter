@@ -1,5 +1,5 @@
 ---
-id: whatsapp-enviar-notificacao-whatsapp-blip-api
+id: enviar-notificacao-whatsapp-blip-api
 title: Enviar notificações WhatsApp via API do BLiP
 sidebar_label: Enviar notificações WhatsApp via API do BLiP
 ---

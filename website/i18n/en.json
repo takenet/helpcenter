@@ -289,11 +289,11 @@
         "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
         "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
       },
-      "channels/whatsapp/whatsapp-criando-solucao-atendimento-humano-whatsapp": {
+      "channels/whatsapp/criando-solucao-atendimento-humano-whatsapp": {
         "title": "Criando uma solução de atendimento humano no WhatsApp",
         "sidebar_label": "Criando uma solução de atendimento humano no WhatsApp"
       },
-      "channels/whatsapp/whatsapp-enviar-notificacao-whatsapp-blip-api": {
+      "channels/whatsapp/enviar-notificacao-whatsapp-blip-api": {
         "title": "Enviar notificações WhatsApp via API do BLiP",
         "sidebar_label": "Enviar notificações WhatsApp via API do BLiP"
       },
