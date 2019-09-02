@@ -1,5 +1,5 @@
 ---
-id: chat-como-adicionar-bot-em-app-android-utilizando-blip
+id: como-adicionar-bot-em-app-android-utilizando-blip
 title: Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?
 sidebar_label: Como adicionar um bot em um aplicativo Android utilizando o BLiP Chat?
 ---

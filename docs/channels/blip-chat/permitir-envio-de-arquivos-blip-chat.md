@@ -1,5 +1,5 @@
 ---
-id: chat-permitir-envio-de-arquivos-blip-chat
+id: permitir-envio-de-arquivos-blip-chat
 title: Permitir envio de arquivos no BLiP Chat
 sidebar_label: Permitir envio de arquivos no BLiP Chat
 ---

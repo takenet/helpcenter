@@ -10,6 +10,6 @@ Em abril, para o segundo **LevelUp** da plataforma em 2018, lançamos a nova ver
 
 Outros links importantes para quem quer saber mais sobre o BLiP Chat:
 
-* [**O que é o BLiP Chat?**](/docs/channels/blip-chat/chat-o-que-e-blip-chat)
-* [**Customizações disponíveis no BLiP Chat**](/docs/channels/blip-chat/chat-customizacoes-disponiveis-blip-chat)
-* [**Adicionando push notification no BLiP Chat Android**](/docs/channels/blip-chat/chat-adicionando-push-notification-blip-chat-android)
+* [**O que é o BLiP Chat?**](/docs/channels/blip-chat/o-que-e-blip-chat)
+* [**Customizações disponíveis no BLiP Chat**](/docs/channels/blip-chat/customizacoes-disponiveis-blip-chat)
+* [**Adicionando push notification no BLiP Chat Android**](/docs/channels/blip-chat/adicionando-push-notification-blip-chat-android)

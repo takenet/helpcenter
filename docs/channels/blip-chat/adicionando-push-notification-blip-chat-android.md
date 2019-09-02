@@ -1,5 +1,5 @@
 ---
-id: chat-adicionando-push-notification-blip-chat-android
+id: adicionando-push-notification-blip-chat-android
 title: Adicionando push notification no BLiP Chat Android
 sidebar_label: Adicionando push notification no BLiP Chat Android
 ---

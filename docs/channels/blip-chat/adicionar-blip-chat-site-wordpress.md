@@ -1,5 +1,5 @@
 ---
-id: chat-adicionar-blip-chat-site-wordpress
+id: adicionar-blip-chat-site-wordpress
 title: Adicionar o BLiP Chat em um site Wordpress
 sidebar_label: Adicionar o BLiP Chat em um site Wordpress
 ---

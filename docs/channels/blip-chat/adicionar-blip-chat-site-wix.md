@@ -1,5 +1,5 @@
 ---
-id: chat-adicionar-blip-chat-site-wix
+id: adicionar-blip-chat-site-wix
 title: Adicionar o BLiP Chat em um site Wix
 sidebar_label: Adicionar o BLiP Chat em um site Wix
 ---

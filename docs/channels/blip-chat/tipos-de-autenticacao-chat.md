@@ -1,5 +1,5 @@
 ---
-id: chat-tipos-de-autenticacao-chat
+id: tipos-de-autenticacao-chat
 title: Tipos de autenticação dos usuários no BLiP Chat
 sidebar_label: Tipos de autenticação dos usuários no BLiP Chat
 ---

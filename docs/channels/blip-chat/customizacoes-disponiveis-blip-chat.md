@@ -1,5 +1,5 @@
 ---
-id: chat-customizacoes-disponiveis-blip-chat
+id: customizacoes-disponiveis-blip-chat
 title: Customizações disponíveis no BLiP Chat
 sidebar_label: Customizações disponíveis no BLiP Chat
 ---

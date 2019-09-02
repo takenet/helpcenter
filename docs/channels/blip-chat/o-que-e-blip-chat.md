@@ -1,5 +1,5 @@
 ---
-id: chat-o-que-e-blip-chat
+id: o-que-e-blip-chat
 title: O que é o BLiP Chat?
 sidebar_label: O que é o BLiP Chat?
 ---
