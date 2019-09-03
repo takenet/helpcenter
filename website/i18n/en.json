@@ -312,6 +312,18 @@
         "title": "Visão geral do canal Business Chat",
         "sidebar_label": "Visão geral do canal Business Chat"
       },
+      "channels/google-assistant/enviando-notificacao-google-assistant": {
+        "title": "Enviando notificações com o Google Assistant",
+        "sidebar_label": "Enviando notificações com o Google Assistant"
+      },
+      "channels/google-assistant/funcionalidades-google-assistant": {
+        "title": "Funcionalidades do Google Assistant",
+        "sidebar_label": "Funcionalidades do Google Assistant"
+      },
+      "channels/google-assistant/publicando-bot-google-assistant": {
+        "title": "Como publicar seu bot no Google Assistant",
+        "sidebar_label": "Como publicar seu bot no Google Assistant"
+      },
       "channels/google-assistant/visao-geral-google-assistant": {
         "title": "Visão geral do Google Assistant",
         "sidebar_label": "Visão geral do Google Assistant"
