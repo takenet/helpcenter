@@ -13,35 +13,35 @@ const data = {
     {
       "title": "Visão geral do canal",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/business-chat/visao-geral-business-chat",
       "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
       "text": "Ver mais!"
     },
     {
       "title": "Arquitetura do canal no BLiP",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/business-chat/arquitetura-business-chat",
       "abstract": "Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
       "text": "Ver mais!"
     },
     {
       "title": "Funcionalidades do canal",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/business-chat/funcionalidades-business-chat",
       "abstract": "Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text": "Ver mais!"
     },
     {
       "title": "Tipos de conteúdo suportados",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/business-chat/tipos-conteudo-business-chat",
       "abstract": "Descubra aqui quais são os tipos de conteúdo que você consegue enviar através do BLiP e entenda como eles se comportam no canal.",
       "text": "Ver mais!"
     },
     {
       "title": "Como publicar seu Chatbot no iMessage",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/business-chat/publicando-bot-no-business-chat",
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },

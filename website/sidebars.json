@@ -7,6 +7,18 @@
     "Canais": [
       {
         "type": "subcategory",
+        "label": "Apple Business Chat",
+        "ids":
+          [
+            "channels/business-chat/visao-geral-business-chat",
+            "channels/business-chat/arquitetura-business-chat",
+            "channels/business-chat/tipos-conteudo-business-chat", 
+            "channels/business-chat/funcionalidades-business-chat",
+            "channels/business-chat/publicando-bot-no-business-chat"
+          ]
+      },
+      {
+        "type": "subcategory",
         "label": "BLiP Chat",
         "ids":
           [
@@ -32,6 +44,9 @@
             "channels/messenger/arquitetura-messenger",
             "channels/messenger/funcionalidades-messenger",
             "channels/messenger/tipos-conteudo-messenger",
+            "channels/messenger/publicando-bot-no-messenger",
+            "channels/messenger/como-interagir-messenger",
+            "channels/messenger/outros-recursos-messenger",
             "channels/messenger/como-configurar-sua-propria-aplicacao-facebook"
           ]
       },

@@ -41,21 +41,21 @@ const data = {
     {
       "title": "Como publicar seu Chatbot no Messenger",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/messenger/publicando-bot-no-messenger",
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },
     {
       "title": "Como interagir com os usuários",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/messenger/como-interagir-messenger",
       "abstract": "Encontre todas as maneiras oferecidas pelo canal para que os usuários consigam iniciar e manter uma conversa com seu bot.",
       "text": "Ver mais!"
     },
     {
       "title": "Acessando outros recursos",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/messenger/outros-recursos-messenger",
       "abstract": "Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
       "text": "Ver mais!"
     },

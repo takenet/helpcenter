@@ -20,10 +20,6 @@ Para tornar a comunicação mais dinâmica, é possível formatar o texto de aco
 | **Tachado** | ![a](/img/channels/messenger/tipos-conteudo-messenger-table-1.png) | **\~Texto\~** | Digite um til antes e depois do texto |
 | **Monospace** | ![a](/img/channels/messenger/tipos-conteudo-messenger-table-1.png) | **\`Texto\`** | Digite uma crase antes e depois do texto |
 
-### Menu Persistente
-Através dele é possível configurar um Menu (e submenus) composto por botões de texto ou links. Ao selecionar um destes botões o usuário consegue enviar textos para o bot, ou acessar links externos. Mais informações: Adicionando um menu persistente no Messenger
-
-![Conteúdo tipo menu persistente](/img/channels/messenger/tipos-conteudo-messenger-2.jpg)<br>
 
 ### Documentos, Imagens, Vídeo e Áudio
 Os arquivos podem ser enviados de através da URL de um arquivo já existente.

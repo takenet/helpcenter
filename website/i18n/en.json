@@ -285,6 +285,25 @@
         "title": "Tipos de autenticação dos usuários no BLiP Chat",
         "sidebar_label": "Tipos de autenticação dos usuários no BLiP Chat"
       },
+      "channels/business-chat/arquitetura-business-chat": {
+        "title": "Arquitetura do Business Chat",
+        "sidebar_label": "Arquitetura do Business Chat"
+      },
+      "channels/business-chat/funcionalidades-business-chat": {
+        "title": "Funcionalidades do canal Business Chat",
+        "sidebar_label": "Funcionalidades do canal Business Chat"
+      },
+      "channels/business-chat/publicando-bot-no-business-chat": {
+        "title": "Como publicar seu Chatbot no Business Chat"
+      },
+      "channels/business-chat/tipos-conteudo-business-chat": {
+        "title": "Tipos de conteúdo suportados pelo Business Chat",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Business Chat"
+      },
+      "channels/business-chat/visao-geral-business-chat": {
+        "title": "Visão geral do canal Business Chat",
+        "sidebar_label": "Visão geral do canal Business Chat"
+      },
       "channels/messenger/arquitetura-messenger": {
         "title": "Arquitetura do canal do Messenger",
         "sidebar_label": "Arquitetura do canal do Messenger"
@@ -293,9 +312,21 @@
         "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
         "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
       },
+      "channels/messenger/como-interagir-messenger": {
+        "title": "Como interagir com os usuários através do Messenger",
+        "sidebar_label": "Como interagir com os usuários através do Messenger"
+      },
       "channels/messenger/funcionalidades-messenger": {
         "title": "Funcionalidades do canal Messenger",
         "sidebar_label": "Funcionalidades do canal Messenger"
+      },
+      "channels/messenger/outros-recursos-messenger": {
+        "title": "Acessando outros recursos do Messenger",
+        "sidebar_label": "Acessando outros recursos do Messenger"
+      },
+      "channels/messenger/publicando-bot-no-messenger": {
+        "title": "Como publicar seu Chatbot no Messenger",
+        "sidebar_label": "Como publicar seu Chatbot no Messenger"
       },
       "channels/messenger/tipos-conteudo-messenger": {
         "title": "Tipos de conteúdo suportados pelo Messenger",
