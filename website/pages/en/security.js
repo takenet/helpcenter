@@ -3,18 +3,18 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = {
   "title": "Políticas de segurança",
-  "subtitle": "Conheça mais sobre o BLiP",
+  "subtitle": "Segurança e privacidade são premissas para o desenvolvimento do BLiP",
   "img": "/img/illustrations/ilustracao-sessao.svg",
   "from": "BLiP Help Center >",
   "here": "Áreas do BLiP",
-  "intro": "Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+  "intro": "Nesta página estão organizados os principais conteúdos relacionados às Políticas de Segurança e comprometimentos legais da plataforma BLiP com seus clientes e parceiros. Para questões legais gerais, dúvidas sobre privacidade e proteção de dados, por favor, entre em contato conosco através do e-mail legal@blip.ai.",
   "cards": [
     {
       "title": "Acordo de Processamento de Dados (DPA)",
       "url": "/",
       "icon": "integration-solid",
       "color": "watermelon",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "TBD",
       "text": "Aprenda mais!"
     },
     {
@@ -22,7 +22,7 @@ const data = {
       "url": "/",
       "icon": "folder-solid",
       "color": "bluejeans",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "TBD",
       "text": "Aprenda mais!"
     },
     {
@@ -30,7 +30,7 @@ const data = {
       "url": "/",
       "icon": "txt-file",
       "color": "blip",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "TBD",
       "text": "Aprenda mais!"
     },
     {
@@ -38,7 +38,7 @@ const data = {
       "url": "/",
       "icon": "cookie",
       "color": "attention",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "TBD",
       "text": "Aprenda mais!"
     },
      
@@ -47,7 +47,7 @@ const data = {
       "url": "/",
       "icon": "lock-outline", 
       "color": "success",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "TBD",
       "text": "Aprenda mais!"
     },
     {
@@ -55,7 +55,7 @@ const data = {
       "url": "/",
       "icon": "user-none", 
       "color": "suit",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "TBD",
       "text": "Aprenda mais!"
     },
     {
@@ -63,7 +63,7 @@ const data = {
       "url": "/",
       "icon": "data-security", 
       "color": "sea",
-      "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+      "abstract": "TBD",
       "text": "Aprenda mais!"
     },
     {
@@ -71,7 +71,7 @@ const data = {
         "url": "/ai",
         "icon": "attention-outline", 
         "color": "refresh",
-        "abstract": "Construa algo que seja top. O inconformismo é o combustível da alta performance. Walk the f*ing talk. Desafie-se. É você quem decide se o seu dia vai ser incrível ou não.",
+        "abstract": "TBD",
         "text": "Aprenda mais!"
       }
    
