@@ -297,6 +297,10 @@
         "title": "Funcionalidades do canal Business Chat",
         "sidebar_label": "Funcionalidades do canal Business Chat"
       },
+      "channels/business-chat/outros-recursos-business-chat": {
+        "title": "Acessando outros recursos do Business Chat",
+        "sidebar_label": "Acessando outros recursos do Business Chat"
+      },
       "channels/business-chat/publicando-bot-no-business-chat": {
         "title": "Como publicar seu Chatbot no Business Chat"
       },

@@ -55,7 +55,7 @@ const data = {
     {
       "title": "Acessando outros recursos",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/business-chat/outros-recursos-business-chat",
       "abstract": "Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
       "text": "Ver mais!"
     },
