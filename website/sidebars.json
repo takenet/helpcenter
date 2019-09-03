@@ -10,7 +10,8 @@
         "label": "Apple Business Chat",
         "ids":
           [
-            "channels/business-chat/visao-geral-business-chat"
+            "channels/business-chat/visao-geral-business-chat",
+            "channels/business-chat/arquitetura-business-chat"
           ]
       },
       {
