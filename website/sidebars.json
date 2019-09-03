@@ -32,6 +32,7 @@
             "channels/messenger/arquitetura-messenger",
             "channels/messenger/funcionalidades-messenger",
             "channels/messenger/tipos-conteudo-messenger",
+            "channels/messenger/publicando-bot-no-messenger",
             "channels/messenger/como-configurar-sua-propria-aplicacao-facebook"
           ]
       },

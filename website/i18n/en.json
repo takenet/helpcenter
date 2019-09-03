@@ -297,6 +297,10 @@
         "title": "Funcionalidades do canal Messenger",
         "sidebar_label": "Funcionalidades do canal Messenger"
       },
+      "channels/messenger/publicando-bot-no-messenger": {
+        "title": "Como publicar seu Chatbot no Messenger",
+        "sidebar_label": "Como publicar seu Chatbot no Messenger"
+      },
       "channels/messenger/tipos-conteudo-messenger": {
         "title": "Tipos de conteúdo suportados pelo Messenger",
         "sidebar_label": "Tipos de conteúdo suportados pelo Messenger"
