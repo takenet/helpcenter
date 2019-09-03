@@ -110,7 +110,7 @@ class BusinessChat extends React.Component {
             <p className="here">{data.here}</p>
           </div>
           <div className="info">
-            <p className="intro">O Apple Business Chat é uma nova maneira de se comunicar com empresas usando o iMessages em dispositivos Apple.
+            <p className="intro">O Apple Business Chat é uma nova maneira de se comunicar com empresas usando o app Messages (Mensagens em português) para dispositivos Apple.
                     Inicie um bate-papo para obter respostas para suas perguntas, agendar horários, resolver problemas, fazer compras e muito mais.</p>
             <p className="intro">Esta categoria apresenta vários artigos sobre como integrar o canal do Apple Business Chat ao BLiP.
               Com eles será possível entender como funciona o canal, suas funcionalidades,

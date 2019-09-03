@@ -3,7 +3,7 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
   "title":"Retenção e Engajamento",
-  "subtitle":"Tire o máximo de proveito utilizando o Growth",
+  "subtitle":"Veja como melhorar a qualidade, retenção e engajamento dos usuários em seu contato inteligente",
   "img":"/img/illustrations/ilustracao-categorias.svg",
   "from":"BLiP Help Center >",
   "session": "Áreas do BLiP",
@@ -12,40 +12,26 @@ const data = {
   "intro":"Construa estratégias para reter e engajar seus usuários em diversos canais por meio de anúncios personalizados, ferramenta de agendamento e muito mais. Veja nos conteúdos abaixo como o BLiP pode te ajudar nesse desafio 😉",
   "cards":[  
      {  
-        "title":"Integração com a ferramenta de Analytics 1",
+        "title":"Criando uma campanha de anúncio (Facebook Ads) para o seu bot",
         "type": "text",
-        "url": "#", 
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+        "url": "/docs/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot", 
+        "abstract":"Aprenda como criar e gerenciar campanhas do Facebook sem sair do portal do BLiP.",
         "text":"Ver mais!"
      },
      {  
-      "title":"Integração com a ferramenta de Analytics 1",
-      "type": "video",
-      "url": "#", 
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+      "title":"Como analisar os resultados de sua campanha de anúncio (Facebook Ads)",
+      "type": "text",
+      "url": "/docs/growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads", 
+      "abstract":"Neste artigo, você aprenderá como analisar o impacto das campanhas geradas no Facebook com alguns cliques.",
       "text":"Ver mais!"
    },
    {  
-    "title":"Integração com a ferramenta de Analytics 1",
+    "title":"Obtendo o número de usuários afetados por um broadcast",
     "type": "text",
-    "url": "#", 
-    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
+    "url": "/docs/growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast", 
+    "abstract":"Uma tarefa corriqueira para quem dispara mensagens em massa é avaliar o impacto gerado com o envio. Este artigo demonstra como realizar essa análise.",
     "text":"Ver mais!"
-    },
-    {  
-      "title":"Integração com a ferramenta de Analytics 1",
-      "type": "text",
-      "url": "#", 
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
-    },
-    {  
-    "title":"Integração com a ferramenta de Analytics 1",
-    "type": "text",
-    "url": "#", 
-    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-    "text":"Ver mais!"
-    },
+    }
   ]
 };
 //BLiP Icon for SVGs

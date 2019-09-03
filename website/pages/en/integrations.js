@@ -70,7 +70,7 @@ const data = {
      {  
       "title":"Google Adlingo",
       "icon": "/img/illustrations/adlingo-logo.svg",
-      "url": "#", 
+      "url": "http://blip.ai/webinar-adlingo/?utm_campaign=HelpCenter", 
       "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
       "text":"Aprenda mais!"
    }
