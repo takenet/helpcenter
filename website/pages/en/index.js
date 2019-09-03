@@ -419,7 +419,7 @@ class Index extends React.Component {
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
               <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp">WhatsApp </a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googlercs">Apple Business Chat</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/businesschat">Apple Business Chat</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/messenger">Messenger </a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/blipchat">BLiP Chat </a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googleassistant">Google Assistant</a></li>

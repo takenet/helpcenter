@@ -301,6 +301,10 @@
         "title": "Funcionalidades do canal Messenger",
         "sidebar_label": "Funcionalidades do canal Messenger"
       },
+      "channels/messenger/outros-recursos-messenger": {
+        "title": "Acessando outros recursos do Messenger",
+        "sidebar_label": "Acessando outros recursos do Messenger"
+      },
       "channels/messenger/publicando-bot-no-messenger": {
         "title": "Como publicar seu Chatbot no Messenger",
         "sidebar_label": "Como publicar seu Chatbot no Messenger"
