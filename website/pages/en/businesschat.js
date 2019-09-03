@@ -34,7 +34,7 @@ const data = {
     {
       "title": "Tipos de conteúdo suportados",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/business-chat/tipos-conteudo-business-chat",
       "abstract": "Descubra aqui quais são os tipos de conteúdo que você consegue enviar através do BLiP e entenda como eles se comportam no canal.",
       "text": "Ver mais!"
     },

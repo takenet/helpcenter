@@ -293,6 +293,10 @@
         "title": "Funcionalidades do canal Business Chat",
         "sidebar_label": "Funcionalidades do canal Business Chat"
       },
+      "channels/business-chat/tipos-conteudo-business-chat": {
+        "title": "Tipos de conteúdo suportados pelo Business Chat",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Business Chat"
+      },
       "channels/business-chat/visao-geral-business-chat": {
         "title": "Visão geral do canal Business Chat",
         "sidebar_label": "Visão geral do canal Business Chat"
