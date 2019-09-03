@@ -312,6 +312,10 @@
         "title": "Visão geral do canal Business Chat",
         "sidebar_label": "Visão geral do canal Business Chat"
       },
+      "channels/google-assistant/enviando-notificacao-google-assistant": {
+        "title": "Enviando notificações com o Google Assistant",
+        "sidebar_label": "Enviando notificações com o Google Assistant"
+      },
       "channels/google-assistant/funcionalidades-google-assistant": {
         "title": "Funcionalidades do Google Assistant",
         "sidebar_label": "Funcionalidades do Google Assistant"
@@ -513,8 +517,8 @@
         "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
       },
       "helpdesk/utilizar-live-agent-salesForce-atendimento-humano": {
-        "title": "Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?",
-        "sidebar_label": "Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?"
+        "title": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?",
+        "sidebar_label": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?"
       },
       "helpdesk/visao-geral-desk": {
         "title": "Visão geral do BLiP Desk",
