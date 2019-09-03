@@ -41,7 +41,7 @@ const data = {
     {
       "title": "Como publicar seu Chatbot no iMessage",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/business-chat/publicando-bot-no-business-chat",
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },

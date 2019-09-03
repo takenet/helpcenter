@@ -13,7 +13,8 @@
             "channels/business-chat/visao-geral-business-chat",
             "channels/business-chat/arquitetura-business-chat",
             "channels/business-chat/tipos-conteudo-business-chat", 
-            "channels/business-chat/funcionalidades-business-chat"
+            "channels/business-chat/funcionalidades-business-chat",
+            "channels/business-chat/publicando-bot-no-business-chat"
           ]
       },
       {
