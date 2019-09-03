@@ -312,6 +312,10 @@
         "title": "Visão geral do canal Business Chat",
         "sidebar_label": "Visão geral do canal Business Chat"
       },
+      "channels/google-assistant/visao-geral-google-assistant": {
+        "title": "Visão geral do Google Assistant",
+        "sidebar_label": "Visão geral do Google Assistant"
+      },
       "channels/messenger/arquitetura-messenger": {
         "title": "Arquitetura do canal do Messenger",
         "sidebar_label": "Arquitetura do canal do Messenger"

@@ -39,6 +39,14 @@
       },
       {
         "type": "subcategory",
+        "label": "Google Assistant",
+        "ids":
+          [
+            "channels/google-assistant/visao-geral-google-assistant"
+          ]
+      },
+      {
+        "type": "subcategory",
         "label": "Messenger",
         "ids":
           [
