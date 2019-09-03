@@ -3,7 +3,7 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = {
   "title": "Áreas do BLiP",
-  "subtitle": "Conheça mais sobre o BLiP",
+  "subtitle": "Conheça mais sobre cada um dos módulos do BLiP",
   "img": "/img/illustrations/ilustracao-sessao.svg",
   "from": "BLiP Help Center >",
   "here": "Áreas do BLiP",

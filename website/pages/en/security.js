@@ -38,7 +38,7 @@ const data = {
       "url": "/",
       "icon": "cookie",
       "color": "attention",
-      "abstract": "TBD",
+      "abstract": "O BLiP utiliza cookies para armazenamento de dados com algumas finalidades. Para saber mais acesse nossa Política de Uso de Cookies.",
       "text": "Aprenda mais!"
     },
      
@@ -47,7 +47,7 @@ const data = {
       "url": "/",
       "icon": "lock-outline", 
       "color": "success",
-      "abstract": "TBD",
+      "abstract": "Entendemos‌ quão grande é a confiança de nossos usuários e clientes ao compartilhar conosco seus dados, portanto, nossa Política de Privacidade busca descrever de forma clara e objetiva o tratamento dos dados realizados durante a utilização da plataforma BLiP.",
       "text": "Aprenda mais!"
     },
     {
@@ -68,10 +68,10 @@ const data = {
     },
     {
         "title": "Termos de Uso",
-        "url": "/ai",
+        "url": "https://portal.blip.ai/terms",
         "icon": "attention-outline", 
         "color": "refresh",
-        "abstract": "TBD",
+        "abstract": "É muito importante saber os Termos de Uso de qualquer serviço utilizado. Clique neste link para entender no detalhe o Termo de Uso da plataforma BLiP.",
         "text": "Aprenda mais!"
       }
    
