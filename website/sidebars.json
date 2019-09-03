@@ -42,7 +42,8 @@
         "label": "Google Assistant",
         "ids":
           [
-            "channels/google-assistant/visao-geral-google-assistant"
+            "channels/google-assistant/visao-geral-google-assistant",
+            "channels/google-assistant/publicando-bot-google-assistant"
           ]
       },
       {
