@@ -115,3 +115,5 @@ gactions init
 
 * **15º Passo:** Pronto! Para testar seu bot pelo simulador do Actions Console, vá em *“Actions”* e clique no botão **“TEST”**, para que a última versão do arquivo `action.json` seja a usada na simulação.
 *  **a)** Inicie a conversa pela mensagem sugerida pelo simulador, pois foi a única definida no `action.json` e serve apenas para iniciar a conversa. Uma vez que a conversa foi iniciada, qualquer mensagem do usuário cairá direto no bot.
+
+![](/img/channels/google-assistant/publicando-bot-google-assistant-6.png)<br>
