@@ -16,9 +16,9 @@ Para tornar a comunicação mais dinâmica, é possível formatar o texto de aco
 | Formato | Parece com | Exemplo | Instruções |
 |-----------|------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Itálico** | ![a](/img/channels/messenger/tipos-conteudo-messenger-table-1.png) | **\_Texto\_** | Digite um sublinhado antes e depois do texto |
-| **Negrito** | ![a](/img/channels/messenger/tipos-conteudo-messenger-table-1.png) | **\*Texto\*** | Digite um asterisco antes e depois do texto |
-| **Tachado** | ![a](/img/channels/messenger/tipos-conteudo-messenger-table-1.png) | **\~Texto\~** | Digite um til antes e depois do texto |
-| **Monospace** | ![a](/img/channels/messenger/tipos-conteudo-messenger-table-1.png) | **\`Texto\`** | Digite uma crase antes e depois do texto |
+| **Negrito** | ![a](/img/channels/messenger/tipos-conteudo-messenger-table-2.png) | **\*Texto\*** | Digite um asterisco antes e depois do texto |
+| **Tachado** | ![a](/img/channels/messenger/tipos-conteudo-messenger-table-3.png) | **\~Texto\~** | Digite um til antes e depois do texto |
+| **Monospace** | ![a](/img/channels/messenger/tipos-conteudo-messenger-table-4.png) | **\`Texto\`** | Digite uma crase antes e depois do texto |
 
 
 ### Documentos, Imagens, Vídeo e Áudio
@@ -28,7 +28,7 @@ Tipos permitidos: áudio, vídeo, imagens e documentos. Mais informações: http
 ### Quick-reply
 O tipo de conteúdo quick-reply permite que você apresente um conjunto predefinido de opções ao destinatário da mensagem, que aparecem com destaque logo acima da caixa de inserção de texto. Quando um usuário seleciona uma dessas opções, o conjunto é substituído por uma única mensagem de texto contendo essa mensagem selecionada. Mais informações: https://docs.blip.ai/#quick-replies
 
-![Conteúdo tipo menu quick-reply](/img/channels/messenger/tipos-conteudo-messenger-3.png)<br>
+![Conteúdo tipo menu quick-reply](/img/channels/messenger/tipos-conteudo-messenger-2.png)<br>
 
 ### Digitando
 Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. Para mais informações, acesse: https://docs.blip.ai/#chat-state

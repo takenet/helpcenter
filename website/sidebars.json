@@ -14,7 +14,9 @@
             "channels/business-chat/arquitetura-business-chat",
             "channels/business-chat/tipos-conteudo-business-chat", 
             "channels/business-chat/funcionalidades-business-chat",
-            "channels/business-chat/publicando-bot-no-business-chat"
+            "channels/business-chat/publicando-bot-no-business-chat",
+            "channels/business-chat/como-interagir-business-chat",
+            "channels/business-chat/outros-recursos-business-chat"
           ]
       },
       {
@@ -33,6 +35,14 @@
             "channels/blip-chat/como-adicionar-bot-em-app-android-utilizando-blip",
             "channels/blip-chat/adicionando-push-notification-blip-chat-android",
             "channels/blip-chat/como-adicionar-bot-em-app-ios-utilizando-blip"
+          ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Google Assistant",
+        "ids":
+          [
+            "channels/google-assistant/visao-geral-google-assistant"
           ]
       },
       {
