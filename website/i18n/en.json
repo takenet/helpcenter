@@ -289,6 +289,10 @@
         "title": "Arquitetura do Business Chat",
         "sidebar_label": "Arquitetura do Business Chat"
       },
+      "channels/business-chat/como-interagir-business-chat": {
+        "title": "Como interagir com os usuários através do Business Chat",
+        "sidebar_label": "Como interagir com os usuários através do Business Chat"
+      },
       "channels/business-chat/funcionalidades-business-chat": {
         "title": "Funcionalidades do canal Business Chat",
         "sidebar_label": "Funcionalidades do canal Business Chat"
