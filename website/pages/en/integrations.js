@@ -9,7 +9,7 @@ const data = {
   "session": "Áreas do BLiP",
   "session_url": "/blipareas", 
   "here":"Integrações",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+  "intro":"Além dos diversos canais de mensageria, o BLiP está conectado a uma série de outras ferramentas interessantes para quem precisa construir um bot. Siga os conteúdos abaixo para entender melhor quais são e como funcionam cada uma dessas integrações.",
   "cards":[  
      {  
         "title":"Botanalytics",
