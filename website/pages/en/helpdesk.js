@@ -9,7 +9,7 @@ const data = {
   "session": "Áreas do BLiP",
   "session_url": "/blipareas", 
   "here":"Atendimento Humano",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+  "intro":"Veja como um ser humano tem um papel essencial na entrega da melhor experiência  possível durante um atendimento. Combine a automação e escalabilidade dos seus bots à capacidade única de um ser humano na resolução de tarefas específicas e complexas.",
   "cards":[  
      {  
         "title":"Integração com a ferramenta de Analytics 1",

@@ -86,7 +86,7 @@
     "Inteligência Artificial": [
       {
         "type": "subcategory",
-        "label": "Programação Neurolinguística (NLP)",
+        "label": "PLN - Processamento de Linguagem Natural",
         "ids":
           [
             "ai/nlp/conceitos-basicos-nlp-e-ai", 

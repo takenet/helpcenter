@@ -66,53 +66,39 @@ class Beta extends React.Component {
                     <div className="beta-contents">
                         <p className="title">Porque ser um usuário beta?</p>
                         <div className="content">
-                            <p className="text">O usuário beta, lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Cras elementum purus eget magna iaculis condimentum sed a ipsum.
-                                Ut tincidunt sed libero tempor suscipit. Quisque quis venenatis dolor.
-                                Quisque ut magna suscipit, dapibus mauris id, iaculis dolor.
-                                Nunc efficitur, turpis consequat feugiat interdum,
-                                lacus dui facilisis velit, et ultricies dui velit ut libero.</p>
+                            <p className="text">As novas funcionalidades do BLiP são disponibilizadas de forma controlada, para grupos de usuários específicos.
+                            Esse processo ajuda a equipe que desenvolve a plataforma a validar algumas hipóteses e 
+                            coletar feedbacks, antes mesmo da funcionalidade estar disponível para todos os clientes.
+                            </p>
 
-                            <p className="text">O usuário beta, lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Cras elementum purus eget magna iaculis condimentum sed a ipsum.
-                            Ut tincidunt sed libero tempor suscipit. Quisque quis venenatis dolor.
-                            Quisque ut magna suscipit, dapibus mauris id, iaculis dolor.
-                            Nunc efficitur, turpis consequat feugiat interdum,
-                            lacus dui facilisis velit, et ultricies dui velit ut libero.</p>
+                            <p className="text">Os usuários beta tem acesso as funcionalidades que <b>ainda estão em fase de avaliação</b>. Essa é uma excelente 
+                            oportunidade para usuários <i>early adopters</i> que gostam de se aventurar e testar tudo o que há de mais novo no mundo de bots.
+                            </p>
+
+                            
+                            <p className="text">
+                                <b>O programa BLiP Beta não é indicado para contas de usuários que possuem bots em produção</b>. 
+                                Caso esse seja o seu caso, crie um conta de testes e utilize-a como Beta.
+                            </p>
                         </div>
 
-                        <p className="title">Como dar feedback sobre novas funcionalidades:</p>
+                        <p className="title">Como dar feedback sobre novas funcionalidades?</p>
                         <div className="content">
-                            <p className="text">O usuário beta, lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Cras elementum purus eget magna iaculis condimentum sed a ipsum.
-                                Ut tincidunt sed libero tempor suscipit. Quisque quis venenatis dolor.
-                                Quisque ut magna suscipit, dapibus mauris id, iaculis dolor.
-                                Nunc efficitur, turpis consequat feugiat interdum,
-                                lacus dui facilisis velit, et ultricies dui velit ut libero.</p>
+                            <p className="text">O processo de feedbacks para as funcionalidades disponibilizadas para os <b>usuários Beta</b> acontece através 
+                             de contatos por email e também através do <a href="https://ideas.blip.ai" target="blank">BLiP Ideas</a> - portal de sugestões de novas funcionalidades da plataforma.</p>
 
-                            <p className="text">O usuário beta, lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Cras elementum purus eget magna iaculis condimentum sed a ipsum.
-                            Ut tincidunt sed libero tempor suscipit. Quisque quis venenatis dolor.
-                            Quisque ut magna suscipit, dapibus mauris id, iaculis dolor.
-                            Nunc efficitur, turpis consequat feugiat interdum,
-                            lacus dui facilisis velit, et ultricies dui velit ut libero.</p>
+                            <p className="text">Outra forma de ajudar é reportar qualquer suspeita de problema através do <a href="https://forum.blip.ai" target="blank">Fórum do BLiP</a>. 
+                            Neste caso, abra um ticket no fórum, relatando o problema encontrado</p>
                         </div>
 
                         <p className="title">Ajude-nos a evoluir!</p>
                         <div className="content">
-                            <p className="text">O usuário beta, lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Cras elementum purus eget magna iaculis condimentum sed a ipsum.
-                                Ut tincidunt sed libero tempor suscipit. Quisque quis venenatis dolor.
-                                Quisque ut magna suscipit, dapibus mauris id, iaculis dolor.
-                                Nunc efficitur, turpis consequat feugiat interdum,
-                                lacus dui facilisis velit, et ultricies dui velit ut libero.</p>
+                            <p className="text">Os usuários beta tem um papel fundamental no processo de construção da plataforma.
+                            Através dos testes, avaliações e feedbacks, eles ajudam a equipe do BLiP no lançamento de funcionalidades cada vez mais aderentes ao
+                            problemas das empresas no momento de construir uma aplicação conversacional.</p>
 
-                            <p className="text">O usuário beta, lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Cras elementum purus eget magna iaculis condimentum sed a ipsum.
-                            Ut tincidunt sed libero tempor suscipit. Quisque quis venenatis dolor.
-                            Quisque ut magna suscipit, dapibus mauris id, iaculis dolor.
-                            Nunc efficitur, turpis consequat feugiat interdum,
-                            lacus dui facilisis velit, et ultricies dui velit ut libero.</p>
+                            <p className="text">Para se tornar um usuário beta insira seu email na seção superior desta página e clique no botão <b>Quero ser beta!</b>.
+                            <b></b></p>
                         </div>
 
                     </div>
