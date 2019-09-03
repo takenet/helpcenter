@@ -7,6 +7,14 @@
     "Canais": [
       {
         "type": "subcategory",
+        "label": "Apple Business Chat",
+        "ids":
+          [
+            "channels/business-chat/visao-geral-business-chat"
+          ]
+      },
+      {
+        "type": "subcategory",
         "label": "BLiP Chat",
         "ids":
           [

@@ -285,6 +285,10 @@
         "title": "Tipos de autenticação dos usuários no BLiP Chat",
         "sidebar_label": "Tipos de autenticação dos usuários no BLiP Chat"
       },
+      "channels/business-chat/visao-geral-business-chat": {
+        "title": "Visão geral do canal Business Chat",
+        "sidebar_label": "Visão geral do canal Business Chat"
+      },
       "channels/messenger/arquitetura-messenger": {
         "title": "Arquitetura do canal do Messenger",
         "sidebar_label": "Arquitetura do canal do Messenger"

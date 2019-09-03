@@ -13,7 +13,7 @@ const data = {
     {
       "title": "Visão geral do canal",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/business-chat/visao-geral-business-chat",
       "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
       "text": "Ver mais!"
     },
