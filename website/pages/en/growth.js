@@ -9,7 +9,7 @@ const data = {
   "session": "Áreas do BLiP",
   "session_url": "/blipareas", 
   "here":"Retenção e Engajamento",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+  "intro":"Construa estratégias para reter e engajar seus usuários em diversos canais por meio de anúncios personalizados, ferramenta de agendamento e muito mais. Veja nos conteúdos abaixo como o BLiP pode te ajudar nesse desafio 😉",
   "cards":[  
      {  
         "title":"Integração com a ferramenta de Analytics 1",

@@ -1,58 +1,100 @@
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
-const data = { 
-  "title":"Atendimento Humano",
-  "subtitle":"Melhore o seu relacionamento com clientes através do atendimento humano!",
-  "img":"/img/illustrations/ilustracao-categorias.svg",
-  "from":"BLiP Help Center >",
+const data = {
+  "title": "Atendimento Humano",
+  "subtitle": "Melhore o seu relacionamento com clientes através do atendimento humano!",
+  "img": "/img/illustrations/ilustracao-categorias.svg",
+  "from": "BLiP Help Center >",
   "session": "Áreas do BLiP",
-  "session_url": "/blipareas", 
-  "here":"Atendimento Humano",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
-  "cards":[  
-     {  
-        "title":"Integração com a ferramenta de Analytics 1",
-        "type": "video",
-        "url": "#", 
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"Ver mais!"
-     },
-     {  
-        "title":"Integração com a ferramenta de Analytics 2",
-        "type": "video",
-        "url": "#",
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"Ver mais!"
-     },
-     {  
-      "title":"Integração com a ferramenta de Analytics 3",
+  "session_url": "/blipareas",
+  "here": "Atendimento Humano",
+  "intro": "Veja como um ser humano tem um papel essencial na entrega da melhor experiência  possível durante um atendimento. Combine a automação e escalabilidade dos seus bots à capacidade única de um ser humano na resolução de tarefas específicas e complexas.",
+  "cards": [
+    {
+      "title": "Visão geral do BLiP Desk",
       "type": "text",
-      "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
+      "url": "/docs/helpdesk/visao-geral-desk",
+      "abstract": "BLiP Desk? Quem é, onde vive, como se alimenta 🤔? Neste artigo você aprenderá o que é, pra quê serve e quais são os principais relacionados a ferramenta de atendimento humano do BLiP",
+      "text": "Ver mais!"
     },
-    {  
-      "title":"Integração com a ferramenta de Analytics 4",
+    {
+      "title": "Como ativar o BLiP Desk como um canal de atendimento",
       "type": "text",
-      "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
+      "url": "/docs/helpdesk/como-ativar-blip-desk-canal",
+      "abstract": "Veja neste artigo como ativar o BLiP Desk como a ferramenta de atendimento humano em seu contato inteligente.",
+      "text": "Ver mais!"
     },
-    {  
-      "title":"Integração com a ferramenta de Analytics 5",
+    {
+      "title": "Como realizar um atendimento através do BLiP Desk",
       "type": "text",
-      "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
-   },
-   {  
-    "title":"Integração com a ferramenta de Analytics 6",
-    "type": "video",
-    "url": "#",
-    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-    "text":"Ver mais!"
-  }
+      "url": "/docs/helpdesk/como-realizar-um-atendimento-atraves-do-blip-desk",
+      "abstract": "Saiba todos os passas necessários para realizar seu primeiro atendimento humano através do BLiP Desk",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
+      "type": "text",
+      "url": "/docs/helpdesk/utilizando-variav-respostas",
+      "abstract": "Melhore a performance das equipes de atendimento definindo respostas prontas de forma customizada!",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Gerenciando equipes de atendimento no BLiP Desk",
+      "type": "text",
+      "url": "/docs/helpdesk/gerenciamento-equipes",
+      "abstract": "Defina equipes e organize os atendentes de forma rápida e simples.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Como definir regras de atendimento no BLiP Desk",
+      "type": "text",
+      "url": "/docs/helpdesk/como-definir-regras-atendimento",
+      "abstract": "Algumas empresas possuem diferentes equipes de atendimentos para tratar diferentes assuntos. Use as regras de atendimento para definir qual equipe realizará quais atendimentos.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Habilitando o uso de emoji para o Desk",
+      "type": "text",
+      "url": "/docs/helpdesk/habilitando-uso-emoji-desk",
+      "abstract": "❤️😍😊🤔😜⚽🏆🎫🎖️",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Descrição das métricas do BLiP Desk",
+      "type": "text",
+      "url": "/docs/helpdesk/descricao-metricas-desk",
+      "abstract": "O módulo de atendimento do BLiP exibe métricas em tempo real e por período. Este artigo explica o conceito associado a cada uma dessas métricas",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Como filtrar um ticket por ID?",
+      "type": "text",
+      "url": "/docs/helpdesk/como-filtrar-ticket-id",
+      "abstract": "Precisa dar uma espiada em algum atendimento específico? Basta filtrar o ticket por ID. Saiba como neste artigo.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Como configurar alertas de inatividade dos clientes no BLiP Desk",
+      "type": "text",
+      "url": "/docs/helpdesk/configurar-alertas-inatividade-clientes-blip-desk",
+      "abstract": "Melhore a experiência dos atendentes que trabalham no BLiP Desk através de alertas de inatividade dos clientes.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk",
+      "type": "text",
+      "url": "/docs/helpdesk/definindo-alerta-tempo-resposta-atendente",
+      "abstract": "Para reduzir o tempo de espera dos usuários atendidos por algum ser humano no Desk, ative um alerta de tempo de resposta para os atendentes.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano",
+      "type": "text",
+      "url": "/docs/helpdesk/utilizar-live-agent-salesForce-atendimento-humano",
+      "abstract": "Já utiliza a ferramenta LiveAgent (by SalesForce) para realizar os atendimentos? Veja como configurá-la como uma ferramenta de atendimento humano no BLiP.",
+      "text": "Ver mais!"
+    }  
   ]
 };
 //BLiP Icon for SVGs
@@ -66,78 +108,78 @@ class BlipIcon extends React.Component {
       className={className}
       width="1em" height="1em"
     >
-      <use xlinkHref={`${defs}#${this.props.name}`}/>
+      <use xlinkHref={`${defs}#${this.props.name}`} />
     </svg>
     );
   }
 }
 
 
-class Desk extends React.Component{
-    constructor(props){
-      super(props);
-    }
+class Desk extends React.Component {
+  constructor(props) {
+    super(props);
+  }
 
-    render(){
-        return(
-           
-            <div>
+  render() {
+    return (
 
-            {/* Topo */}
-            <div>
-                <div className="pages-top-category">
-                  <div className="main-category">
-                    <p className="title-category">{data.title}</p>
-                    <p className="subtitle-category">{data.subtitle}</p>
-                  </div>
-                  <div className="image-category">
-                    <img className="img" src={data.img} />
-                  </div>
-                </div>
-              </div>
+      <div>
 
-              {/* Conteudo */}
-              <div className="pages-content">
-                <div className="navigation">
-                  <p className="from">{data.from}</p>
-                  <p className="from"><a className="link-from" href={data.session_url}>{data.session}</a> ></p>
-                  <p className="here">{data.here}</p>
-                </div>
-                <div className="info">
-                  <p className="intro">{data.intro}</p>
-                </div>
-
-
-                {/* Cards */}
-                <div className="cards">
-                  {data.cards.map((c, index) => ( 
-                  <a href={c.url} className="card" key={index}>
-                   
-                      { c.type === "video" ? 
-                      <div className="title-with-icon">
-                        <BlipIcon name="tutorials" className="bp-fs-3 bp-fill-watermelon"></BlipIcon>
-                        <p className="title-video">{c.title}</p>
-                      </div>
-                      :
-                      <div className="title-with-icon">
-                        <BlipIcon name="txt-file" className="bp-fs-3 bp-fill-sea"></BlipIcon>
-                        <p className="title">{c.title}</p>
-                      </div>
-                      }
-                   
-                    <p className="abstract">{c.abstract}</p>
-                    <div className="seeMore">
-                      <p className="text">{c.text}</p>
-                      <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                    </div>
-                  </a>
-                  ))}
-
-                </div>
-              </div>
+        {/* Topo */}
+        <div>
+          <div className="pages-top-category">
+            <div className="main-category">
+              <p className="title-category">{data.title}</p>
+              <p className="subtitle-category">{data.subtitle}</p>
+            </div>
+            <div className="image-category">
+              <img className="img" src={data.img} />
+            </div>
           </div>
-        );
-    }
+        </div>
+
+        {/* Conteudo */}
+        <div className="pages-content">
+          <div className="navigation">
+            <p className="from">{data.from}</p>
+            <p className="from"><a className="link-from" href={data.session_url}>{data.session}</a> ></p>
+            <p className="here">{data.here}</p>
+          </div>
+          <div className="info">
+            <p className="intro">{data.intro}</p>
+          </div>
+
+
+          {/* Cards */}
+          <div className="cards">
+            {data.cards.map((c, index) => (
+              <a href={c.url} className="card" key={index}>
+
+                {c.type === "video" ?
+                  <div className="title-with-icon">
+                    <BlipIcon name="tutorials" className="bp-fs-3 bp-fill-watermelon"></BlipIcon>
+                    <p className="title-video">{c.title}</p>
+                  </div>
+                  :
+                  <div className="title-with-icon">
+                    <BlipIcon name="txt-file" className="bp-fs-3 bp-fill-sea"></BlipIcon>
+                    <p className="title">{c.title}</p>
+                  </div>
+                }
+
+                <p className="abstract">{c.abstract}</p>
+                <div className="seeMore">
+                  <p className="text">{c.text}</p>
+                  <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                </div>
+              </a>
+            ))}
+
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 Desk.title = 'Utilizando o BLiP Desk';

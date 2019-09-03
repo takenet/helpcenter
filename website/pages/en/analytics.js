@@ -9,7 +9,7 @@ const data = {
   "session": "Áreas do BLiP",
   "session_url": "/blipareas", 
   "here":"Métricas e Analytics",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+  "intro":"Analise os dados gerados em seu contato inteligente para entender o comportamento de seus clientes e definir metas para uma constante evolução.",
   "cards":[  
      {  
         "title":"Integração com a ferramenta de Analytics 1",
@@ -133,5 +133,5 @@ class Analytics extends React.Component{
     }
 }
 
-Analytics.title = 'Growth';
+Analytics.title = 'Analytics';
 module.exports = Analytics; 

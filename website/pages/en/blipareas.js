@@ -13,7 +13,7 @@ const data = {
   "cards": [
     {
       "title": "Atendimento Humano",
-      "url": "/ai",
+      "url": "/helpdesk",
       "icon": "operator",
       "color": "sea",
       "abstract": "Veja como um ser humano tem um papel essencial na entrega da melhor experiência  possível durante um atendimento. Combine a automação e escalabilidade dos seus bots à capacidade única de um ser humano na resolução de tarefas específicas e complexas.",

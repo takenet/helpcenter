@@ -9,7 +9,7 @@ const data = {
   "session": "Áreas do BLiP",
   "session_url": "/blipareas", 
   "here": "Canais",
-  "intro": "Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+  "intro": "O BLiP está conectado a vários canais de mensageria de forma nativa. Por isso, é possível disponibilizar sua aplicação em todos os canais que achar conveniente com poucos cliques. Para saber como publicar seu contato inteligente em uma das aplicações suportadas pelo BLiP escolha uma das opções abaixo.",
   "cards": [
     {
       "title": "Apple Business Chat iMessage",

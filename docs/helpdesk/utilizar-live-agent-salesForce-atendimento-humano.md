@@ -1,7 +1,7 @@
 ---
 id: utilizar-live-agent-salesForce-atendimento-humano
-title: Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?
-sidebar_label: Integração SalesForce Live Agent - Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?
+title: Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?
+sidebar_label: Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?
 ---
 
 Para utilizar a ferramenta **Live Agent** do **SalesForce** durante o processo de atendimento humano é preciso ter uma conta SalesForce e realizar algumas configurações dentro do BLiP.
