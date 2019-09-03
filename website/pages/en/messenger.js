@@ -48,7 +48,7 @@ const data = {
     {
       "title": "Como interagir com os usuários",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/messenger/como-interagir-messenger",
       "abstract": "Encontre todas as maneiras oferecidas pelo canal para que os usuários consigam iniciar e manter uma conversa com seu bot.",
       "text": "Ver mais!"
     },
