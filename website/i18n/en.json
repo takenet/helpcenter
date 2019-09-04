@@ -388,6 +388,10 @@
         "title": "Funcionalidades do canal Infobip",
         "sidebar_label": "Funcionalidades do canal Infobip"
       },
+      "channels/infobip/tipos-conteudo-infobip": {
+        "title": "Tipos de conteúdo suportados pelo Infobip",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Infobip"
+      },
       "channels/infobip/visao-geral-infobip": {
         "title": "Visão geral do canal Infobip",
         "sidebar_label": "Visão gera do canal Infobip"
