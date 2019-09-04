@@ -43,7 +43,8 @@
         "ids":
           [
             "channels/email/visao-geral-email",
-            "channels/email/arquitetura-email"
+            "channels/email/arquitetura-email",
+            "channels/email/funcionalidades-email"
             
           ]
       },
