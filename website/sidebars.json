@@ -39,6 +39,16 @@
       },
       {
         "type": "subcategory",
+        "label": "Email",
+        "ids":
+          [
+            "channels/email/visao-geral-email",
+            "channels/email/arquitetura-email"
+            
+          ]
+      },
+      {
+        "type": "subcategory",
         "label": "Google Assistant",
         "ids":
           [
@@ -58,7 +68,8 @@
             "channels/google-rcs/funcionalidades-google-rcs",
             "channels/google-rcs/tipos-conteudo-google-rcs",
             "channels/google-rcs/publicando-bot-google-rcs",
-            "channels/google-rcs/como-interagir-google-rcs"
+            "channels/google-rcs/como-interagir-google-rcs",
+            "channels/google-rcs/outros-recursos-google-rcs"
           ]
       },
       {
