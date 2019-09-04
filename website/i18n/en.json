@@ -336,6 +336,10 @@
         "title": "Funcionalidades do Google RCS",
         "sidebar_label": "Funcionalidades do Google RCS"
       },
+      "channels/google-rcs/publicando-bot-google-rcs": {
+        "title": "Como publicar seu Chatbot no Google RCS",
+        "sidebar_label": "Como publicar seu Chatbot no Google RCS"
+      },
       "channels/google-rcs/tipos-conteudo-google-rcs": {
         "title": "Tipos de conteúdo suportados pelo Google RCS",
         "sidebar_label": "Tipos de conteúdo suportados pelo Google RCS"

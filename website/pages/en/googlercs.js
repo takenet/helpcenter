@@ -41,7 +41,7 @@ const data = {
     {
       "title": "Como publicar seu Chatbot no Google RCS",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/google-rcs/publicando-bot-google-rcs",
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },
