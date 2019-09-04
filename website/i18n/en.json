@@ -320,6 +320,10 @@
         "title": "Funcionalidades do canal Email",
         "sidebar_label": "Funcionalidades do canal Email"
       },
+      "channels/email/tipos-conteudo-email": {
+        "title": "Tipos de conteúdo suportados pelo Email",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Email"
+      },
       "channels/email/visao-geral-email": {
         "title": "Visão geral do canal Email",
         "sidebar_label": "Visão geral do canal Email"
