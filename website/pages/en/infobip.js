@@ -27,7 +27,7 @@ const data = {
     {
       "title": "Funcionalidades do canal",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/infobip/funcionalidades-infobip",
       "abstract": "Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text": "Ver mais!"
     },

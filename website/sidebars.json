@@ -82,7 +82,8 @@
         "ids":
           [
             "channels/infobip/visao-geral-infobip",
-            "channels/infobip/arquitetura-infobip"
+            "channels/infobip/arquitetura-infobip",
+            "channels/infobip/funcionalidades-infobip"
           ]
       },
       {
