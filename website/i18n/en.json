@@ -332,6 +332,10 @@
         "title": "Visão geral do Google Assistant",
         "sidebar_label": "Visão geral do Google Assistant"
       },
+      "channels/google-rcs/como-interagir-google-rcs": {
+        "title": "Como interagir com os usuários através do Google RCS",
+        "sidebar_label": "Como interagir com os usuários através do Google RCS"
+      },
       "channels/google-rcs/funcionalidades-google-rcs": {
         "title": "Funcionalidades do Google RCS",
         "sidebar_label": "Funcionalidades do Google RCS"
