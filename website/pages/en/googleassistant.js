@@ -17,13 +17,13 @@ const data = {
       "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
       "text": "Ver mais!"
     },
-    {
+    /* {
       "title": "Arquitetura do canal no BLiP",
       "type": "text",
       "url": "#",
       "abstract": "Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
       "text": "Ver mais!"
-    },
+    }, */
     {
       "title": "Funcionalidades do canal",
       "type": "text",
@@ -45,7 +45,7 @@ const data = {
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },
-    {
+    /* {
       "title": "Como interagir com os usuários",
       "type": "text",
       "url": "#",
@@ -58,7 +58,7 @@ const data = {
       "url": "#",
       "abstract": "Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
       "text": "Ver mais!"
-    },
+    }, */
   ]
 };
 //BLiP Icon for SVGs
