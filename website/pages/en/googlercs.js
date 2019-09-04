@@ -55,7 +55,7 @@ const data = {
     {
       "title": "Acessando outros recursos",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/google-rcs/outros-recursos-google-rcs",
       "abstract": "Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
       "text": "Ver mais!"
     },
