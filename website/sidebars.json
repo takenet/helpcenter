@@ -54,7 +54,9 @@
         "label": "Google RCS",
         "ids":
           [
-            "channels/google-rcs/visao-geral-google-rcs"
+            "channels/google-rcs/visao-geral-google-rcs",
+            "channels/google-rcs/funcionalidades-google-rcs",
+            "channels/google-rcs/tipos-conteudo-google-rcs"
           ]
       },
       {

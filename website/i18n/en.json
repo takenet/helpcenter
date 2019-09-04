@@ -332,6 +332,18 @@
         "title": "Visão geral do Google Assistant",
         "sidebar_label": "Visão geral do Google Assistant"
       },
+      "channels/google-rcs/funcionalidades-google-rcs": {
+        "title": "Funcionalidades do Google RCS",
+        "sidebar_label": "Funcionalidades do Google RCS"
+      },
+      "channels/google-rcs/tipos-conteudo-google-rcs": {
+        "title": "Tipos de conteúdo suportados pelo Google RCS",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Google RCS"
+      },
+      "channels/google-rcs/visao-geral-google-rcs": {
+        "title": "Visão geral do Google RCS",
+        "sidebar_label": "Visão geral do Google RCS"
+      },
       "channels/messenger/arquitetura-messenger": {
         "title": "Arquitetura do canal do Messenger",
         "sidebar_label": "Arquitetura do canal do Messenger"

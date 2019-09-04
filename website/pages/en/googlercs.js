@@ -17,24 +17,24 @@ const data = {
       "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
       "text": "Ver mais!"
     },
-    {
+    /* {
       "title": "Arquitetura do canal no BLiP",
       "type": "text",
       "url": "#",
       "abstract": "Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
       "text": "Ver mais!"
-    },
+    }, */
     {
       "title": "Funcionalidades do canal",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/google-rcs/funcionalidades-google-rcs",
       "abstract": "Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text": "Ver mais!"
     },
     {
       "title": "Tipos de conteúdo suportados",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/google-rcs/tipos-conteudo-google-rcs",
       "abstract": "Descubra aqui quais são os tipos de conteúdo que você consegue enviar através do BLiP e entenda como eles se comportam no canal.",
       "text": "Ver mais!"
     },
