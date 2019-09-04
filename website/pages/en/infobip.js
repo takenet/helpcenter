@@ -41,11 +41,11 @@ const data = {
     {
       "title": "Como publicar seu Chatbot",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/infobip/publicando-bot-infobip",
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },
-    {
+    /* {
       "title": "Como interagir com os usuários",
       "type": "text",
       "url": "#",
@@ -58,7 +58,7 @@ const data = {
       "url": "#",
       "abstract": "Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
       "text": "Ver mais!"
-    },
+    }, */
   ]
 };
 //BLiP Icon for SVGs

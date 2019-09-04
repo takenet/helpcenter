@@ -388,6 +388,10 @@
         "title": "Funcionalidades do canal Infobip",
         "sidebar_label": "Funcionalidades do canal Infobip"
       },
+      "channels/infobip/publicando-bot-infobip": {
+        "title": "Como publicar seu Chatbot no Infobip",
+        "sidebar_label": "Como publicar seu Chatbot no Infobip"
+      },
       "channels/infobip/tipos-conteudo-infobip": {
         "title": "Tipos de conteúdo suportados pelo Infobip",
         "sidebar_label": "Tipos de conteúdo suportados pelo Infobip"
