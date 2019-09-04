@@ -44,8 +44,8 @@ const data = {
         {
           "title": "Status",
           "url": "https://status.blip.ai",
-          "icon": "jason-file",
-          "color": "bluejeans",
+          "icon": "status",
+          "color": "suit",
           "abstract": "Avalie em tempo real a disponibilidade de todos os serviços da plataforma através da página de status",
           "text": "Acompanhe!"
       }
