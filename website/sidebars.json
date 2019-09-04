@@ -39,6 +39,16 @@
       },
       {
         "type": "subcategory",
+        "label": "Email",
+        "ids":
+          [
+            "channels/email/visao-geral-email",
+            "channels/email/arquitetura-email"
+            
+          ]
+      },
+      {
+        "type": "subcategory",
         "label": "Google Assistant",
         "ids":
           [

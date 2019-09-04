@@ -312,6 +312,14 @@
         "title": "Visão geral do canal Business Chat",
         "sidebar_label": "Visão geral do canal Business Chat"
       },
+      "channels/email/arquitetura-email": {
+        "title": "Arquitetura do canal de Email",
+        "sidebar_label": "Arquitetura do canal de Email"
+      },
+      "channels/email/visao-geral-email": {
+        "title": "Visão geral do canal Email",
+        "sidebar_label": "Visão geral do canal Email"
+      },
       "channels/google-assistant/enviando-notificacao-google-assistant": {
         "title": "Enviando notificações com o Google Assistant",
         "sidebar_label": "Enviando notificações com o Google Assistant"
