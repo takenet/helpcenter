@@ -48,17 +48,17 @@ const data = {
   {  
    "title":"Como interagir com os usuários",
    "type": "text",
-   "url": "#",
+   "url": "/docs/channels/email/como-interagir-email",
    "abstract":"Encontre todas as maneiras oferecidas pelo canal para que os usuários consigam iniciar e manter uma conversa com seu bot.",
    "text":"Ver mais!"
  }, 
- {  
+ /* {  
    "title":"Acessando outros recursos",
    "type": "text",
    "url": "#",
    "abstract":"Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
    "text":"Ver mais!"
- }, 
+ },  */
  ]
 };
 //BLiP Icon for SVGs

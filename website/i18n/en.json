@@ -316,6 +316,10 @@
         "title": "Arquitetura do canal de Email",
         "sidebar_label": "Arquitetura do canal de Email"
       },
+      "channels/email/como-interagir-email": {
+        "title": "Como interagir com os usuários através do email",
+        "sidebar_label": "Como interagir com os usuários através do email"
+      },
       "channels/email/funcionalidades-email": {
         "title": "Funcionalidades do canal Email",
         "sidebar_label": "Funcionalidades do canal Email"
