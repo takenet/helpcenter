@@ -27,7 +27,7 @@ const data = {
     {
       "title": "Funcionalidades do canal",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/google-assistant/funcionalidades-google-assistant",
       "abstract": "Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text": "Ver mais!"
     },

@@ -12,8 +12,8 @@
           [
             "channels/business-chat/visao-geral-business-chat",
             "channels/business-chat/arquitetura-business-chat",
-            "channels/business-chat/tipos-conteudo-business-chat", 
             "channels/business-chat/funcionalidades-business-chat",
+            "channels/business-chat/tipos-conteudo-business-chat", 
             "channels/business-chat/publicando-bot-no-business-chat",
             "channels/business-chat/como-interagir-business-chat",
             "channels/business-chat/outros-recursos-business-chat"
@@ -43,6 +43,7 @@
         "ids":
           [
             "channels/google-assistant/visao-geral-google-assistant",
+            "channels/google-assistant/funcionalidades-google-assistant",
             "channels/google-assistant/tipos-conteudo-google-assistant",
             "channels/google-assistant/publicando-bot-google-assistant",
             "channels/google-assistant/enviando-notificacao-google-assistant"
