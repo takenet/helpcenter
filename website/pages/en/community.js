@@ -23,7 +23,7 @@ const data = {
             "url": "https://ideas.blip.ai/",
             "icon": "blip-ideas",
             "color": "attention",
-            "abstract": "Nos ajude a melhorar a plataforma! As ideias mais votadas, depois de analisadas podem entrar em nosso backlog.",
+            "abstract": "Nos ajude a melhorar a plataforma! As ideias mais votadas, depois de analisadas, podem entrar em nosso backlog.",
             "text": "Aprenda mais!",
             "class": "seeMore-session"
         },

@@ -38,7 +38,7 @@ const data = {
             "url": "https://github.com/takenet",
             "icon": "git-hub-logo",
             "color": "watermelon",
-            "abstract": "Contribua para o crescimento e melhoria do nosso código, por meio do nosso Github.",
+            "abstract": "Contribua para o crescimento e melhoria do código do BLiP. Veja os principais repositórios em nosso Github.",
             "text": "Contribue!"
         },
         {

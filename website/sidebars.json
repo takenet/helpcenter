@@ -91,24 +91,24 @@
       "builder/visao-geral-do-builder",
       "builder/o-que-sao-blocos-de-controle", 
       "builder/o-que-e-um-bloco-de-conteudo", 
+      "builder/o-que-e-um-bloco-de-atendimento",
       "builder/visao-geral-dos-tipos-de-conteudo",
       "builder/visao-geral-variaveis",
       "builder/visao-geral-das-condicoes-de-saida",
       "builder/visao-geral-das-acoes",
-      "builder/o-que-e-um-bloco-de-atendimento",
+      "builder/como-utilizar-debug-builder",
+      "builder/definindo-acoes-globais", 
+      "builder/criando-acoes-condicionais",
+      "builder/importando-o-fluxo-de-um-bot-no-builder",
       "builder/o-que-e-um-weblink", 
       "builder/o-que-sao-listas-de-distribuicao",
       "builder/salvando-informacoes-de-um-usuario",
-      "builder/importando-o-fluxo-de-um-bot-no-builder",
-      "builder/como-utilizar-debug-builder",
       "builder/criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat",
       "builder/verificar-se-existe-atendente-disponível-no-builder",
       "builder/enviando-email-pelo-bot-atraves-do-builder",
       "builder/proporcao-de-exibicao-de-imagens",
       "builder/acao-processar-comando",
       "builder/expirando-sessao-usuarios-builder",
-      "builder/definindo-acoes-globais", 
-      "builder/criando-acoes-condicionais",
       "builder/como-definir-um-tempo-limite-para-acoes-do-builder"
     ],
     "Inteligência Artificial": [
@@ -156,16 +156,16 @@
       "management/transcricao-conversas-contatos"
     ],
     "Métricas e Analytics": [
+      "analytics/descricao-metricas-blip",
+      "analytics/entendendo-diferentes-tipos-msg",
+      "analytics/o-que-sao-usuarios-unicos",
       "analytics/integracao-ferramentas-analytics",
       {
         "type": "subcategory",
         "label": "BLiP Analytics",
         "ids":
           [
-            "analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado",
-            "analytics/blip-analytics/entendendo-diferentes-tipos-msg",
-            "analytics/blip-analytics/descricao-metricas-blip",
-            "analytics/blip-analytics/o-que-sao-usuarios-unicos"
+            "analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado"
           ]
       },
       {
@@ -181,8 +181,8 @@
         "label": "Chatbase",
         "ids":
           [
-            "analytics/chatbase/tratando-eventos-not-handled-sessionFlow-chatbase",
-            "analytics/chatbase/como-enviar-dados-chatbase"
+            "analytics/chatbase/como-enviar-dados-chatbase",
+            "analytics/chatbase/tratando-eventos-not-handled-sessionFlow-chatbase"
           ]
       },
       {

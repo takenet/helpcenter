@@ -65,18 +65,6 @@
         "title": "Criando gráficos em um relatório customizado",
         "sidebar_label": "Criando gráficos em um relatório customizado"
       },
-      "analytics/blip-analytics/descricao-metricas-blip": {
-        "title": "Descrição das métricas geradas pelo BLiP",
-        "sidebar_label": "Descrição das métricas geradas pelo BLiP"
-      },
-      "analytics/blip-analytics/entendendo-diferentes-tipos-msg": {
-        "title": "Entendendo os diferentes tipos de mensagem do BLiP",
-        "sidebar_label": "Entendendo os diferentes tipos de mensagem do BLiP"
-      },
-      "analytics/blip-analytics/o-que-sao-usuarios-unicos": {
-        "title": "O que são usuários únicos do BLiP",
-        "sidebar_label": "O que são usuários únicos do BLiP"
-      },
       "analytics/botanalytics/como-enviar-dados-botanalytics": {
         "title": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?",
         "sidebar_label": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?"
@@ -93,9 +81,21 @@
         "title": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?",
         "sidebar_label": "Integração Dashbot - Como enviar dados de um bot para o Dashbot?"
       },
+      "analytics/descricao-metricas-blip": {
+        "title": "Descrição das métricas geradas pelo BLiP",
+        "sidebar_label": "Descrição das métricas geradas pelo BLiP"
+      },
+      "analytics/entendendo-diferentes-tipos-msg": {
+        "title": "Entendendo os diferentes tipos de mensagem do BLiP",
+        "sidebar_label": "Entendendo os diferentes tipos de mensagem do BLiP"
+      },
       "analytics/integracao-ferramentas-analytics": {
         "title": "Integração com ferramentas de analytics",
         "sidebar_label": "Integração com ferramentas de analytics"
+      },
+      "analytics/o-que-sao-usuarios-unicos": {
+        "title": "O que são usuários únicos do BLiP",
+        "sidebar_label": "O que são usuários únicos do BLiP"
       },
       "analytics/webhook/enviando-dados-atraves-webhook": {
         "title": "Enviando dados do seu bot através de Webhooks",
