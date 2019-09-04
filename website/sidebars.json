@@ -78,6 +78,15 @@
       },
       {
         "type": "subcategory",
+        "label": "Infobip",
+        "ids":
+          [
+            "channels/infobip/visao-geral-infobip",
+            "channels/infobip/arquitetura-infobip"
+          ]
+      },
+      {
+        "type": "subcategory",
         "label": "Messenger",
         "ids":
           [

@@ -13,14 +13,14 @@ const data = {
     {
       "title": "Visão geral do canal",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/infobip/visao-geral-infobip",
       "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
       "text": "Ver mais!"
     },
     {
       "title": "Arquitetura do canal no BLiP",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/infobip/arquitetura-infobip",
       "abstract": "Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
       "text": "Ver mais!"
     },

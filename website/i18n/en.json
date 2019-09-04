@@ -380,6 +380,14 @@
         "title": "Visão geral do Google RCS",
         "sidebar_label": "Visão geral do Google RCS"
       },
+      "channels/infobip/arquitetura-infobip": {
+        "title": "Arquitetura do canal Infobip",
+        "sidebar_label": "Arquitetura do canal Infobip"
+      },
+      "channels/infobip/visao-geral-infobip": {
+        "title": "Visão geral do canal Infobip",
+        "sidebar_label": "Visão gera do canal Infobip"
+      },
       "channels/messenger/arquitetura-messenger": {
         "title": "Arquitetura do canal do Messenger",
         "sidebar_label": "Arquitetura do canal do Messenger"
