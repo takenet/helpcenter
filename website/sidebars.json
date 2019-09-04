@@ -45,7 +45,8 @@
             "channels/email/visao-geral-email",
             "channels/email/arquitetura-email",
             "channels/email/funcionalidades-email",
-            "channels/email/tipos-conteudo-email"
+            "channels/email/tipos-conteudo-email",
+            "channels/email/publicando-bot-email"
             
           ]
       },

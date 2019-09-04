@@ -41,7 +41,7 @@ const data = {
    {  
      "title":"Como publicar seu Chatbot no email",
      "type": "text",
-     "url": "#",
+     "url": "/docs/channels/email/publicando-bot-email",
      "abstract":"Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
      "text":"Ver mais!"
   },
