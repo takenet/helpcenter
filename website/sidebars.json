@@ -51,6 +51,14 @@
       },
       {
         "type": "subcategory",
+        "label": "Google RCS",
+        "ids":
+          [
+            "channels/google-rcs/visao-geral-google-rcs"
+          ]
+      },
+      {
+        "type": "subcategory",
         "label": "Messenger",
         "ids":
           [
