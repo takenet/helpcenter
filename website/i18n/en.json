@@ -17,6 +17,10 @@
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
       },
+      "ai/nlp/como-configurar-luis": {
+        "title": "Como configurar LUIS como um provedor de Inteligência Artificial",
+        "sidebar_label": "Como configurar LUIS como um provedor de Inteligência Artificial"
+      },
       "ai/nlp/como-configurar-watson": {
         "title": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial"
