@@ -464,6 +464,10 @@
         "title": "Visão geral do canal WhatsApp",
         "sidebar_label": "Visão geral do canal WhatsApp"
       },
+      "channels/workplace/como-interagir-workplace": {
+        "title": "Como interagir com os usuários através do Workplace",
+        "sidebar_label": "Como interagir com os usuários através do Workplace"
+      },
       "channels/workplace/funcionalidades-workplace": {
         "title": "Funcionalidades do canal Workplace",
         "sidebar_label": "Funcionalidades do canal Workplace"
@@ -472,9 +476,17 @@
         "title": "O que é Workplace?",
         "sidebar_label": "O que é o Workplace?"
       },
+      "channels/workplace/outros-recursos-workplace": {
+        "title": "Acessando outros recursos do Workplace",
+        "sidebar_label": "Acessando outros recursos do Workplace"
+      },
       "channels/workplace/publicando-chatbot-no-workplace": {
         "title": "Publicando seu chatbot no Workplace",
         "sidebar_label": "Publicando seu chatbot no Workplace"
+      },
+      "channels/workplace/tipos-conteudo-workplace": {
+        "title": "Tipos de conteúdo suportados pelo Workplace",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Workplace"
       },
       "channels/workplace/visao-geral-workplace": {
         "title": "Visão geral do canal Workplace",
