@@ -281,6 +281,10 @@
         "title": "Permitir envio de arquivos no BLiP Chat",
         "sidebar_label": "Permitir envio de arquivos no BLiP Chat"
       },
+      "channels/blip-chat/tipos-conteudo-chat": {
+        "title": "Tipos de conteúdo suportados pelo BLiP Chat",
+        "sidebar_label": "Tipos de conteúdo suportados pelo BLiP Chat"
+      },
       "channels/blip-chat/tipos-de-autenticacao-chat": {
         "title": "Tipos de autenticação dos usuários no BLiP Chat",
         "sidebar_label": "Tipos de autenticação dos usuários no BLiP Chat"
