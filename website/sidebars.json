@@ -110,7 +110,8 @@
         "ids":
           [
             "channels/messenger/visao-geral-skype",
-            "channels/skype/arquitetura-skype"
+            "channels/skype/arquitetura-skype",
+            "channels/skype/funcionalidades-skype"
           ]
       },
       {
