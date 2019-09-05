@@ -452,6 +452,10 @@
         "title": "Como publicar seu Chatbot no Skype",
         "sidebar_label": "Como publicar seu Chatbot no Skype"
       },
+      "channels/skype/tipos-conteudo-skype": {
+        "title": "Tipos de conteúdo suportados pelo Skype",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Skype"
+      },
       "channels/skype/visao-geral-skype": {
         "title": "Visão geral do canal Skype",
         "sidebar_label": "Visão geral do canal Skype"
