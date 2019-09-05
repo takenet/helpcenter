@@ -12,4 +12,4 @@ Após passar por essa arquitetura, as mensagens do seu cliente são enviadas par
 
 Para entender melhor sobre o Bot Framework Service e sua arquitetura, [acesse a documentação oficial](https://docs.microsoft.com/pt-br/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0&tabs=csharp).
 
-\* **Observação:** Todos os usuários do BLiP podem integrar seu chatbot ao Skype.*
+\* **Observação:** Todos os usuários do BLiP podem integrar seu chatbot ao Skype.
