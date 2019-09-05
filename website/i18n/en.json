@@ -440,6 +440,10 @@
         "title": "Arquitetura do Skype",
         "sidebar_label": "Arquitetura do Skype"
       },
+      "channels/skype/como-interagir-skype": {
+        "title": "Como interagir com os usuários através do Skype",
+        "sidebar_label": "Como interagir com os usuários através do Skype"
+      },
       "channels/skype/funcionalidades-skype": {
         "title": "Funcionalidades do canal Skype",
         "sidebar_label": "Funcionalidades do canal Skype"
