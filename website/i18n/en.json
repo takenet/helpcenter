@@ -440,6 +440,14 @@
         "title": "Arquitetura do Skype",
         "sidebar_label": "Arquitetura do Skype"
       },
+      "channels/skype/funcionalidades-skype": {
+        "title": "Funcionalidades do canal Skype",
+        "sidebar_label": "Funcionalidades do canal Skype"
+      },
+      "channels/skype/publicando-bot-skype": {
+        "title": "Como publicar seu Chatbot no Skype",
+        "sidebar_label": "Como publicar seu Chatbot no Skype"
+      },
       "channels/skype/visao-geral-skype": {
         "title": "Visão geral do canal Skype",
         "sidebar_label": "Visão geral do canal Skype"
