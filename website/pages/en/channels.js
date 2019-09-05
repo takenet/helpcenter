@@ -15,56 +15,56 @@ const data = {
       "title": "Apple Business Chat iMessage",
       "icon": "/img/illustrations/business-chat-logo.svg",
       "url": "/businesschat",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract": "Fale com clientes utilizando o iMessage, app de mensagens oficial da Apple.",
       "text": "Aprenda mais!"
     },
     {
       "title": "BLiP Chat",
       "icon": "/img/illustrations/blipchat-logo.svg",
       "url": "/blipchat",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract": "Fale com seus clientes utilizando o BLiP Chat, o canal oficial do BLiP.",
       "text": "Aprenda mais!"
     },
     {
       "title": "Email",
       "icon": "/img/illustrations/mailgun-logo.svg",
       "url": "/email",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract": "Melhore o relacionamento com o seu cliente através do envio de e-mails!",
       "text": "Aprenda mais!"
     },
     {
       "title": "Google Assistant",
       "icon": "/img/illustrations/google-assistant-logo.svg",
       "url": "/googleassistant",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract": "Utilize o assistente virtual da Google para interagir com seus clientes.",
       "text": "Aprenda mais!"
     },
     {
       "title": "Google RCS",
       "icon": "/img/illustrations/google-rcs-logo.svg",
       "url": "/googlercs",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract": "Conecte-se com clientes através do aplicativo nativo de mensagens do Android.",
       "text": "Aprenda mais!"
     },
     {
       "title": "Infobip",
       "icon": "/img/illustrations/infobip-logo.svg",
       "url": "/infobip",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract": "Envie mensagens de SMS através do Infobip e conecte-se com seus clientes.",
       "text": "Aprenda mais!"
     },
     {
       "title": "Messenger",
       "icon": "/img/illustrations/messenger-logo.svg",
       "url": "/messenger",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract": "Fale com clientes utilizando o app de mensagens da maior rede social do mundo.",
       "text": "Aprenda mais!"
     },
     {
       "title": "Skype",
       "icon": "/img/illustrations/skype-logo.svg",
       "url": "/skype",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract": "Conecte seu bot no clássico canal de mensagens da Microsoft.",
       "text": "Aprenda mais!"
     },
     /* {
@@ -78,21 +78,21 @@ const data = {
       "title": "Telegram",
       "icon": "/img/illustrations/telegram-logo.svg",
       "url": "/telegram",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract": "Publique seu bot no serviço de mensagens instantâneas baseado na nuvem.",
       "text": "Aprenda mais!"
     },
     {
       "title": "WhastsApp",
       "icon": "/img/illustrations/whatsapp-logo.svg",
       "url": "/whatsapp",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract": "Utilize o maior mensageiro do mundo para falar com seus clientes.",
       "text": "Aprenda mais!"
     },
     {
       "title": "Workplace",
       "icon": "/img/illustrations/workplace-logo.svg",
       "url": "/workplace",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract": "Fale com seus colaboradores através da versão corporativa do Facebook.",
       "text": "Aprenda mais!"
     },
   ]
