@@ -436,6 +436,14 @@
         "title": "Visão geral do Messenger",
         "sidebar_label": "Visão geral do Messenger"
       },
+      "channels/skype/arquitetura-skype": {
+        "title": "Arquitetura do Skype",
+        "sidebar_label": "Arquitetura do Skype"
+      },
+      "channels/skype/visao-geral-skype": {
+        "title": "Visão geral do canal Skype",
+        "sidebar_label": "Visão geral do canal Skype"
+      },
       "channels/whatsapp/arquitetura-do-whatsapp": {
         "title": "Arquitetura do canal WhatsApp",
         "sidebar_label": "Arquitetura do canal WhatsApp"

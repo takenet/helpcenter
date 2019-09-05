@@ -109,7 +109,8 @@
         "label": "Skype",
         "ids":
           [
-            "channels/messenger/visao-geral-skype"
+            "channels/messenger/visao-geral-skype",
+            "channels/skype/arquitetura-skype"
           ]
       },
       {
