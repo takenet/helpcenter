@@ -464,6 +464,10 @@
         "title": "Visão geral do canal WhatsApp",
         "sidebar_label": "Visão geral do canal WhatsApp"
       },
+      "channels/workplace/funcionalidades-workplace": {
+        "title": "Funcionalidades do canal Workplace",
+        "sidebar_label": "Funcionalidades do canal Workplace"
+      },
       "channels/workplace/o-que-e-workplace": {
         "title": "O que é Workplace?",
         "sidebar_label": "O que é o Workplace?"
@@ -471,6 +475,10 @@
       "channels/workplace/publicando-chatbot-no-workplace": {
         "title": "Publicando seu chatbot no Workplace",
         "sidebar_label": "Publicando seu chatbot no Workplace"
+      },
+      "channels/workplace/visao-geral-workplace": {
+        "title": "Visão geral do canal Workplace",
+        "sidebar_label": "Visão geral do canal Workplace"
       },
       "general/central-notificacoes": {
         "title": "Central de Notificações",

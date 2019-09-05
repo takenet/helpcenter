@@ -125,6 +125,8 @@
           [
             "channels/workplace/o-que-e-workplace",
             "channels/workplace/visao-geral-workplace",
+            "channels/workplace/funcionalidades-workplace",
+            "channels/workplace/tipos-conteudo-workplace",
             "channels/workplace/publicando-chatbot-no-workplace"
           ]
       }
