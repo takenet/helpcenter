@@ -45,14 +45,14 @@ const data = {
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },
-    /* {
+     {
       "title": "Como interagir com os usuários",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/infobip/como-interagir-infobip",
       "abstract": "Encontre todas as maneiras oferecidas pelo canal para que os usuários consigam iniciar e manter uma conversa com seu bot.",
       "text": "Ver mais!"
     },
-    {
+    /*{
       "title": "Acessando outros recursos",
       "type": "text",
       "url": "#",
