@@ -106,6 +106,14 @@
       },
       {
         "type": "subcategory",
+        "label": "Skype",
+        "ids":
+          [
+            "channels/messenger/visao-geral-skype"
+          ]
+      },
+      {
+        "type": "subcategory",
         "label": "WhatsApp",
         "ids":
           [
