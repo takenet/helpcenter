@@ -384,6 +384,10 @@
         "title": "Arquitetura do canal Infobip",
         "sidebar_label": "Arquitetura do canal Infobip"
       },
+      "channels/infobip/como-interagir-infobip": {
+        "title": "Como interagir com os usuários através do Infobip",
+        "sidebar_label": "Como interagir com os usuários através do Infobip"
+      },
       "channels/infobip/funcionalidades-infobip": {
         "title": "Funcionalidades do canal Infobip",
         "sidebar_label": "Funcionalidades do canal Infobip"

@@ -85,7 +85,8 @@
             "channels/infobip/arquitetura-infobip",
             "channels/infobip/funcionalidades-infobip",
             "channels/infobip/tipos-conteudo-infobip",
-            "channels/infobip/publicando-bot-infobip"
+            "channels/infobip/publicando-bot-infobip",
+            "channels/infobip/como-interagir-infobip"
           ]
       },
       {
@@ -123,6 +124,7 @@
         "ids":
           [
             "channels/workplace/o-que-e-workplace",
+            "channels/workplace/visao-geral-workplace",
             "channels/workplace/publicando-chatbot-no-workplace"
           ]
       }
