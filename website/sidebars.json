@@ -110,12 +110,24 @@
         "label": "Skype",
         "ids":
           [
-            "channels/messenger/visao-geral-skype",
+            "channels/skype/visao-geral-skype",
             "channels/skype/arquitetura-skype",
             "channels/skype/funcionalidades-skype",
             "channels/skype/tipos-conteudo-skype",
             "channels/skype/publicando-bot-skype",
             "channels/skype/como-interagir-skype"
+          ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Telegram",
+        "ids":
+          [
+            "channels/telegram/visao-geral-do-telegram",
+            "channels/telegram/arquitetura-do-telegram",
+            "channels/telegram/tipos-conteudo-telegram",
+            "channels/telegram/publicando-bot-no-telegram",
+            "channels/telegram/como-interagir-telegram"
           ]
       },
       {

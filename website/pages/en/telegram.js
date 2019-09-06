@@ -14,56 +14,43 @@ const data = {
   Esta categoria apresenta vários artigos sobre a integração entre o BLiP e o canal Telegram. Nestes artigos você aprenderá como funciona este canal, quais seus principais benefícios e como criar sua primeira experiência integrando o seu contato inteligente à Telegram Bot API.
   
   Caso nunca tenha trabalhado com este canal, clique no primeiro link abaixo.`,
+
   "cards": [
     {
       "title": "Visão geral do canal",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/telegram/visao-geral-do-telegram",
       "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
       "text": "Ver mais!"
     },
     {
       "title": "Arquitetura do canal no BLiP",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/telegram/arquitetura-do-telegram",
       "abstract": "Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
-      "text": "Ver mais!"
-    },
-    {
-      "title": "Funcionalidades do canal",
-      "type": "text",
-      "url": "#",
-      "abstract": "Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text": "Ver mais!"
     },
     {
       "title": "Tipos de conteúdo suportados",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/telegram/tipos-conteudo-telegram",
       "abstract": "Descubra aqui quais são os tipos de conteúdo que você consegue enviar através do BLiP e entenda como eles se comportam no canal.",
       "text": "Ver mais!"
     },
     {
       "title": "Como publicar seu Chatbot",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/telegram/publicando-bot-no-telegram",
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },
     {
       "title": "Como interagir com os usuários",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/telegram/como-interagir-telegram",
       "abstract": "Encontre todas as maneiras oferecidas pelo canal para que os usuários consigam iniciar e manter uma conversa com seu bot.",
       "text": "Ver mais!"
-    },
-    {
-      "title": "Acessando outros recursos",
-      "type": "text",
-      "url": "#",
-      "abstract": "Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
-      "text": "Ver mais!"
-    },
+    }
   ]
 };
 //BLiP Icon for SVGs

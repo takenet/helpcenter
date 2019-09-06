@@ -468,6 +468,18 @@
         "title": "Visão geral do canal Skype",
         "sidebar_label": "Visão geral do canal Skype"
       },
+      "channels/telegram/arquitetura-do-telegram": {
+        "title": "Arquitetura do canal Telegram",
+        "sidebar_label": "Arquitetura do canal Telegram"
+      },
+      "channels/telegram/tipos-conteudo-telegram": {
+        "title": "Conteúdos disponíveis no canal Telegram",
+        "sidebar_label": "Conteúdos disponíveis no canal Telegram"
+      },
+      "channels/telegram/visao-geral-do-telegram": {
+        "title": "Visão geral do canal Telegram",
+        "sidebar_label": "Visão geral do canal Telegram"
+      },
       "channels/whatsapp/arquitetura-do-whatsapp": {
         "title": "Arquitetura do canal WhatsApp",
         "sidebar_label": "Arquitetura do canal WhatsApp"
