@@ -472,6 +472,14 @@
         "title": "Arquitetura do canal Telegram",
         "sidebar_label": "Arquitetura do canal Telegram"
       },
+      "channels/telegram/como-interagir-telegram": {
+        "title": "Como interagir com os usuários através do Telegram",
+        "sidebar_label": "Como interagir com os usuários através do Telegram"
+      },
+      "channels/telegram/publicando-bot-no-telegram": {
+        "title": "Publicando seu bot no canal Telegram",
+        "sidebar_label": "Publicando seu bot no canal Telegram"
+      },
       "channels/telegram/tipos-conteudo-telegram": {
         "title": "Conteúdos disponíveis no canal Telegram",
         "sidebar_label": "Conteúdos disponíveis no canal Telegram"

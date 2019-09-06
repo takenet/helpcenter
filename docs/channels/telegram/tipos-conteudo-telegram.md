@@ -55,7 +55,7 @@ Para mais informações sobre o tratamento de imagens do Telegram, [acesse a doc
 
 Para aprimorar seu contato, é possível enviar vídeos compartilhando uma URL que contenha um arquivo. Para saber mais como o Telegram comporta vídeos em seu canal, acesse a [documentação oficial](https://core.telegram.org/bots/api#inputmediavideo).
 
-![Arquivos: videos](/img/channels/telegram/funcionalidades-video.jpg)
+![Arquivos: videos](/img/channels/telegram/funcionalidades-telegram-video.jpg)
 
 ## Enviar localização
 
