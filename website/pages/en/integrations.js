@@ -9,69 +9,69 @@ const data = {
   "session": "Áreas do BLiP",
   "session_url": "/blipareas", 
   "here":"Integrações",
-  "intro":"Além dos diversos canais de mensageria, o BLiP está conectado a uma série de outras ferramentas interessantes para quem precisa construir um bot. Siga os conteúdos abaixo para entender melhor quais são e como funcionam cada uma dessas integrações.",
+  "intro":"Além dos diversos canais de mensageria, o BLiP está conectado a uma série de outras ferramentas interessantes para quem precisa construir um bot. Siga os conteúdos abaixo para entender melhor como funcionam essas integrações.",
   "cards":[  
      {  
         "title":"Botanalytics",
         "icon": "/img/illustrations/botanalytics-logo.svg",
         "url": "/analytics", 
-        "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+        "abstract":"Analise e otimize seu bot com esta ferramenta especializada em análise de dados para chatbots.",
         "text":"Aprenda mais!"
      },
      {  
         "title":"Chatbase",
         "icon": "/img/illustrations/chatbase-logo.svg",
         "url": "/analytics", 
-        "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+        "abstract":"Analise e otimize seu bot com esta ferramenta da Google especializada em análise de dados para chatbots.",
         "text":"Aprenda mais!"
      },
      {  
         "title":"Dashbot",
         "icon": "/img/illustrations/dashbot-logo.svg",
         "url": "/analytics", 
-        "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+        "abstract":"Analise e otimize seu bot com esta ferramenta especializada em análise de dados para chatbots.",
         "text":"Aprenda mais!"
      },
      {  
         "title":"DialogFlow",
         "icon": "/img/illustrations/dialogflow-logo.svg",
         "url": "/ai", 
-        "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+        "abstract":"Utilize o Dialogflow, ferramenta do Google para processamento de linguagem natural.",
         "text":"Aprenda mais!"
      },
      {  
         "title":"IBM Watson",
         "icon": "/img/illustrations/watson-logo.png",
         "url": "/ai", 
-        "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+        "abstract":"Utilize o Watson, ferramenta da IBM para processamento de linguagem natural.",
         "text":"Aprenda mais!"
      },
      {  
         "title":"Microsoft Luis",
         "icon": "/img/illustrations/luis-logo.svg",
         "url": "/ai", 
-        "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+        "abstract":"Utilize o Luis, ferramenta da Microsoft para processamento de linguagem natural.",
         "text":"Aprenda mais!"
      },
      {  
         "title":"RDStation",
         "icon": "/img/illustrations/rd-logo.svg",
         "url": "/analytics", 
-        "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+        "abstract":"Envie os dados do seu chatbot para sua conta RDStation.",
         "text":"Aprenda mais!"
      },
      {  
         "title":"Webhook",
         "icon": "/img/illustrations/webhooks-logo.svg",
         "url": "/analytics", 
-        "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+        "abstract":"Envie os dados do seu chatbot para sua aplicação através de Webhooks.",
         "text":"Aprenda mais!"
      },
      {  
       "title":"Google Adlingo",
       "icon": "/img/illustrations/adlingo-logo.svg",
       "url": "http://blip.ai/webinar-adlingo/?utm_campaign=HelpCenter", 
-      "abstract":"Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
+      "abstract":"Crie conexões em tempo real utilizando anúncios display com o Adlingo.",
       "text":"Aprenda mais!"
    }
   ]
