@@ -9,6 +9,11 @@ const data = {
   "session": "Canais",
   "session_url": "/channels",
   "here":"Telegram no BLiP",
+  "intro": `O Telegram é um aplicativo de mensagens feito em nuvem com o objetivo de promover rapidez e segurança. Este canal está disponível para smartphones, tablets, computadores e aplicação Web. Além de enviar mensagens de texto, também permite a troca de arquivos de diferentes tipos.
+
+  Esta categoria apresenta vários artigos sobre a integração entre o BLiP e o canal Telegram. Nestes artigos você aprenderá como funciona este canal, quais seus principais benefícios e como criar sua primeira experiência integrando o seu contato inteligente à Telegram Bot API.
+  
+  Caso nunca tenha trabalhado com este canal, clique no primeiro link abaixo.`,
   "cards": [
     {
       "title": "Visão geral do canal",
