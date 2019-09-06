@@ -17,6 +17,10 @@
         "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o DialogFlow como um provedor de Inteligência Artificial"
       },
+      "ai/nlp/como-configurar-luis": {
+        "title": "Como configurar LUIS como um provedor de Inteligência Artificial",
+        "sidebar_label": "Como configurar LUIS como um provedor de Inteligência Artificial"
+      },
       "ai/nlp/como-configurar-watson": {
         "title": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial",
         "sidebar_label": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial"
@@ -281,6 +285,10 @@
         "title": "Permitir envio de arquivos no BLiP Chat",
         "sidebar_label": "Permitir envio de arquivos no BLiP Chat"
       },
+      "channels/blip-chat/tipos-conteudo-chat": {
+        "title": "Tipos de conteúdo suportados pelo BLiP Chat",
+        "sidebar_label": "Tipos de conteúdo suportados pelo BLiP Chat"
+      },
       "channels/blip-chat/tipos-de-autenticacao-chat": {
         "title": "Tipos de autenticação dos usuários no BLiP Chat",
         "sidebar_label": "Tipos de autenticação dos usuários no BLiP Chat"
@@ -315,6 +323,22 @@
       "channels/email/arquitetura-email": {
         "title": "Arquitetura do canal de Email",
         "sidebar_label": "Arquitetura do canal de Email"
+      },
+      "channels/email/como-interagir-email": {
+        "title": "Como interagir com os usuários através do email",
+        "sidebar_label": "Como interagir com os usuários através do email"
+      },
+      "channels/email/funcionalidades-email": {
+        "title": "Funcionalidades do canal Email",
+        "sidebar_label": "Funcionalidades do canal Email"
+      },
+      "channels/email/publicando-bot-email": {
+        "title": "Como publicar seu Chatbot no email",
+        "sidebar_label": "Como publicar seu Chatbot no email"
+      },
+      "channels/email/tipos-conteudo-email": {
+        "title": "Tipos de conteúdo suportados pelo Email",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Email"
       },
       "channels/email/visao-geral-email": {
         "title": "Visão geral do canal Email",
@@ -364,6 +388,30 @@
         "title": "Visão geral do Google RCS",
         "sidebar_label": "Visão geral do Google RCS"
       },
+      "channels/infobip/arquitetura-infobip": {
+        "title": "Arquitetura do canal Infobip",
+        "sidebar_label": "Arquitetura do canal Infobip"
+      },
+      "channels/infobip/como-interagir-infobip": {
+        "title": "Como interagir com os usuários através do Infobip",
+        "sidebar_label": "Como interagir com os usuários através do Infobip"
+      },
+      "channels/infobip/funcionalidades-infobip": {
+        "title": "Funcionalidades do canal Infobip",
+        "sidebar_label": "Funcionalidades do canal Infobip"
+      },
+      "channels/infobip/publicando-bot-infobip": {
+        "title": "Como publicar seu Chatbot no Infobip",
+        "sidebar_label": "Como publicar seu Chatbot no Infobip"
+      },
+      "channels/infobip/tipos-conteudo-infobip": {
+        "title": "Tipos de conteúdo suportados pelo Infobip",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Infobip"
+      },
+      "channels/infobip/visao-geral-infobip": {
+        "title": "Visão geral do canal Infobip",
+        "sidebar_label": "Visão gera do canal Infobip"
+      },
       "channels/messenger/arquitetura-messenger": {
         "title": "Arquitetura do canal do Messenger",
         "sidebar_label": "Arquitetura do canal do Messenger"
@@ -396,6 +444,30 @@
         "title": "Visão geral do Messenger",
         "sidebar_label": "Visão geral do Messenger"
       },
+      "channels/skype/arquitetura-skype": {
+        "title": "Arquitetura do Skype",
+        "sidebar_label": "Arquitetura do Skype"
+      },
+      "channels/skype/como-interagir-skype": {
+        "title": "Como interagir com os usuários através do Skype",
+        "sidebar_label": "Como interagir com os usuários através do Skype"
+      },
+      "channels/skype/funcionalidades-skype": {
+        "title": "Funcionalidades do canal Skype",
+        "sidebar_label": "Funcionalidades do canal Skype"
+      },
+      "channels/skype/publicando-bot-skype": {
+        "title": "Como publicar seu Chatbot no Skype",
+        "sidebar_label": "Como publicar seu Chatbot no Skype"
+      },
+      "channels/skype/tipos-conteudo-skype": {
+        "title": "Tipos de conteúdo suportados pelo Skype",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Skype"
+      },
+      "channels/skype/visao-geral-skype": {
+        "title": "Visão geral do canal Skype",
+        "sidebar_label": "Visão geral do canal Skype"
+      },
       "channels/whatsapp/arquitetura-do-whatsapp": {
         "title": "Arquitetura do canal WhatsApp",
         "sidebar_label": "Arquitetura do canal WhatsApp"
@@ -424,13 +496,33 @@
         "title": "Visão geral do canal WhatsApp",
         "sidebar_label": "Visão geral do canal WhatsApp"
       },
+      "channels/workplace/como-interagir-workplace": {
+        "title": "Como interagir com os usuários através do Workplace",
+        "sidebar_label": "Como interagir com os usuários através do Workplace"
+      },
+      "channels/workplace/funcionalidades-workplace": {
+        "title": "Funcionalidades do canal Workplace",
+        "sidebar_label": "Funcionalidades do canal Workplace"
+      },
       "channels/workplace/o-que-e-workplace": {
         "title": "O que é Workplace?",
         "sidebar_label": "O que é o Workplace?"
       },
+      "channels/workplace/outros-recursos-workplace": {
+        "title": "Acessando outros recursos do Workplace",
+        "sidebar_label": "Acessando outros recursos do Workplace"
+      },
       "channels/workplace/publicando-chatbot-no-workplace": {
         "title": "Publicando seu chatbot no Workplace",
         "sidebar_label": "Publicando seu chatbot no Workplace"
+      },
+      "channels/workplace/tipos-conteudo-workplace": {
+        "title": "Tipos de conteúdo suportados pelo Workplace",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Workplace"
+      },
+      "channels/workplace/visao-geral-workplace": {
+        "title": "Visão geral do canal Workplace",
+        "sidebar_label": "Visão geral do canal Workplace"
       },
       "general/central-notificacoes": {
         "title": "Central de Notificações",

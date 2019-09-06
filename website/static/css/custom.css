@@ -74,7 +74,7 @@
     font-weight: normal !important;
     color: #ffffff;
     margin-top: 30px;
-    margin-bottom: 100px !important;
+    padding-bottom: 100px !important;
     font-size: 1.25rem;
     line-height: 200%;
     text-align: center;
@@ -766,7 +766,7 @@
 
   .flexbox-container .card-home-main:hover {
     transition: max-height .5s ease;
-    max-height: 290px !important;
+    max-height: 265px !important;
   }
 
   .flexbox-container .card-home-main:hover > .card-info .card-icon {
@@ -9454,7 +9454,7 @@ ol {
   font-weight: bold;
   color: #ffffff;
   margin-top: 20px;
-  margin-bottom: 200px;
+  padding-bottom: 200px;
   font-size: 1.25rem;
   line-height: 200%;
   text-align: center;

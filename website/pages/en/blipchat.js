@@ -9,50 +9,50 @@ const data = {
   "session": "Canais ",
   "session_url": "/channels",
   "here":"BLiP Chat",
-  "intro":"Com a abertura da API oficial do WhatsApp (início de Agosto de 2018), tornou-se possível utilizar este canal para melhorar a comunicação entre clientes e empresas. Uma das soluções possíveis, neste cenário, é utilizar o BLiP para organizar e escalar o atendimento humano de uma empresa.",
+  "intro":"Assim como o Facebook Messenger, Telegram e outras aplicações de mensagens, o BLiP também possui o seu próprio canal: o BLiP Chat. Ele é mais uma das várias interfaces possíveis para que usuários consigam conversar com o seu bot.",
   "cards":[  
-     {  
-        "title":"Integração com a ferramenta de Analytics 1",
-        "type": "video",
-        "url": "#", 
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"Ver mais!"
-     },
-     {  
-        "title":"Integração com a ferramenta de Analytics 2",
-        "type": "video",
-        "url": "#",
-        "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-        "text":"Ver mais!"
-     },
-     {  
-      "title":"Integração com a ferramenta de Analytics 3",
+    {
+      "title": "Visão geral do canal",
       "type": "text",
-      "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
+      "url": "/docs/channels/blip-chat/o-que-e-blip-chat",
+      "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
+      "text": "Ver mais!"
     },
-    {  
-      "title":"Integração com a ferramenta de Analytics 4",
+    {
+      "title": "Customizações disponíveis no BLiP Chat",
       "type": "text",
-      "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
+      "url": "/docs/channels/blip-chat/customizacoes-disponiveis-blip-chat",
+      "abstract": "Veja como customizar a interface do chat, deixando ele com a cara do seu negócio.",
+      "text": "Ver mais!"
     },
-    {  
-      "title":"Integração com a ferramenta de Analytics 5",
+    {
+      "title": "Tipos de conteúdo suportados",
       "type": "text",
-      "url": "#",
-      "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-      "text":"Ver mais!"
-   },
-   {  
-    "title":"Integração com a ferramenta de Analytics 6",
-    "type": "video",
-    "url": "#",
-    "abstract":"Se você já criou algum chatbot, provavelmente já precisou de várias ferramentas auxiliares. Agendar o envio de alguma mensagem, salvar...",
-    "text":"Ver mais!"
-  }
+      "url": "/docs/channels/blip-chat/tipos-conteudo-chat",
+      "abstract": "Descubra aqui quais são os tipos de conteúdo que você consegue enviar através do BLiP e entenda como eles se comportam no canal.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Como adicionar BLiP Chat em um site",
+      "type": "text",
+      "url": "/docs/channels/blip-chat/adicionar-bot-site-blip-chat",
+      "abstract": "Descubra como integrar seu bot a uma página da web, permitindo a interação com clientes diretamente de seu site.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Permitir envio de arquivos no BLiP Chat",
+      "type": "text",
+      "url": "/docs/channels/blip-chat/permitir-envio-de-arquivos-blip-chat",
+      "abstract": "Aprenda como habilitar a funcionalidade que permite que seus clientes enviem arquivos diretamente no seu  BLiP Chat.",
+      "text": "Ver mais!"
+    },
+    {
+      "title": "Acessando outros recursos",
+      "type": "text",
+      "url": "https://docs.blip.ai/",
+      "abstract": "Acesse conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
+      "text": "Ir para documentação!"
+    },
   ]
 };
 //BLiP Icon for SVGs

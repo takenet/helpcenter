@@ -25,6 +25,7 @@
         "ids":
           [
             "channels/blip-chat/o-que-e-blip-chat",
+            "channels/blip-chat/tipos-conteudo-chat",
             "channels/blip-chat/customizacoes-disponiveis-blip-chat",
             "channels/blip-chat/tipos-de-autenticacao-chat",
             "channels/blip-chat/adicionar-blip-chat-site-wix",
@@ -43,7 +44,11 @@
         "ids":
           [
             "channels/email/visao-geral-email",
-            "channels/email/arquitetura-email"
+            "channels/email/arquitetura-email",
+            "channels/email/funcionalidades-email",
+            "channels/email/tipos-conteudo-email",
+            "channels/email/publicando-bot-email",
+            "channels/email/como-interagir-email"
             
           ]
       },
@@ -74,6 +79,19 @@
       },
       {
         "type": "subcategory",
+        "label": "Infobip",
+        "ids":
+          [
+            "channels/infobip/visao-geral-infobip",
+            "channels/infobip/arquitetura-infobip",
+            "channels/infobip/funcionalidades-infobip",
+            "channels/infobip/tipos-conteudo-infobip",
+            "channels/infobip/publicando-bot-infobip",
+            "channels/infobip/como-interagir-infobip"
+          ]
+      },
+      {
+        "type": "subcategory",
         "label": "Messenger",
         "ids":
           [
@@ -85,6 +103,19 @@
             "channels/messenger/como-interagir-messenger",
             "channels/messenger/outros-recursos-messenger",
             "channels/messenger/como-configurar-sua-propria-aplicacao-facebook"
+          ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Skype",
+        "ids":
+          [
+            "channels/messenger/visao-geral-skype",
+            "channels/skype/arquitetura-skype",
+            "channels/skype/funcionalidades-skype",
+            "channels/skype/tipos-conteudo-skype",
+            "channels/skype/publicando-bot-skype",
+            "channels/skype/como-interagir-skype"
           ]
       },
       {
@@ -107,7 +138,12 @@
         "ids":
           [
             "channels/workplace/o-que-e-workplace",
-            "channels/workplace/publicando-chatbot-no-workplace"
+            "channels/workplace/visao-geral-workplace",
+            "channels/workplace/funcionalidades-workplace",
+            "channels/workplace/tipos-conteudo-workplace",
+            "channels/workplace/publicando-chatbot-no-workplace",
+            "channels/workplace/como-interagir-workplace",
+            "channels/workplace/outros-recursos-workplace"
           ]
       }
     ],
@@ -147,6 +183,7 @@
             "ai/nlp/o-que-e-entidade",
             "ai/nlp/como-configurar-dialogflow",
             "ai/nlp/como-configurar-watson",
+            "ai/nlp/como-configurar-luis",
             "ai/nlp/como-criar-uma-intencao",
             "ai/nlp/como-criar-uma-entidade",
             "ai/nlp/treinando-publicando-modelo-de-ia",

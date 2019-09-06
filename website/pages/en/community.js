@@ -44,7 +44,16 @@ const data = {
             "abstract": "Não encontrou o que procurava em nosso help center? Participe do nosso fórum.",
             "text": "Aprenda mais!",
             "class": "seeMore-session-small"
-        }
+        },
+        {
+          "title": "Comunidade no Facebook",
+          "url": "http://community.blip.ai/",
+          "icon": "like-outline",
+          "color": "refresh",
+          "abstract": "Conecte-se com outros usuários do BLiP em nossa comunidade do Facebook.",
+          "text": "Aprenda mais!",
+          "class": "seeMore-session-small"
+      }
     ]
 };
 
