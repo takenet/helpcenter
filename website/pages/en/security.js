@@ -9,7 +9,7 @@ const data = {
   "here": "Áreas do BLiP",
   "intro": "Nesta página estão organizados os principais conteúdos relacionados às Políticas de Segurança e comprometimentos legais da plataforma BLiP com seus clientes e parceiros. Para questões legais gerais, dúvidas sobre privacidade e proteção de dados, por favor, entre em contato conosco através do e-mail legal@blip.ai.",
   "cards": [
-    {
+   /*  {
       "title": "Acordo de Processamento de Dados (DPA)",
       "url": "/",
       "icon": "integration-solid",
@@ -32,7 +32,7 @@ const data = {
       "color": "blip",
       "abstract": "TBD",
       "text": "Aprenda mais!"
-    },
+    }, */
     {
       "title": "Política de Cookies",
       "url": "/",
@@ -50,7 +50,7 @@ const data = {
       "abstract": "Entendemos‌ quão grande é a confiança de nossos usuários e clientes ao compartilhar conosco seus dados, portanto, nossa Política de Privacidade busca descrever de forma clara e objetiva o tratamento dos dados realizados durante a utilização da plataforma BLiP.",
       "text": "Aprenda mais!"
     },
-    {
+    /* {
       "title": "Políticas de Propriedade Intelectual",
       "url": "/",
       "icon": "user-none", 
@@ -65,10 +65,10 @@ const data = {
       "color": "sea",
       "abstract": "TBD",
       "text": "Aprenda mais!"
-    },
+    }, */
     {
         "title": "Termos de Uso",
-        "url": "https://portal.blip.ai/terms",
+        "url": "/docs/security/terms",
         "icon": "attention-outline", 
         "color": "refresh",
         "abstract": "É muito importante saber os Termos de Uso de qualquer serviço utilizado. Clique neste link para entender no detalhe o Termo de Uso da plataforma BLiP.",

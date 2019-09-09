@@ -707,6 +707,10 @@
       "router/hierarquia-bots-subbots": {
         "title": "Hierarquia (ou arquitetura) de bots e subbots",
         "sidebar_label": "Hierarquia (ou arquitetura) de bots e subbots"
+      },
+      "security/terms": {
+        "title": "Termos de uso e privacidade do BLiP",
+        "sidebar_label": "Termos de uso e privacidade do BLiP"
       }
     },
     "links": {
@@ -728,7 +732,8 @@
       "Retenção e Engajamento": "Retenção e Engajamento",
       "Router": "Router",
       "API e SDKs": "API e SDKs",
-      "Geral": "Geral"
+      "Geral": "Geral",
+      "Políticas": "Políticas"
     }
   },
   "pages-strings": {
