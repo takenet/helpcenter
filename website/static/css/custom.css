@@ -766,7 +766,7 @@
 
   .flexbox-container .card-home-main:hover {
     transition: max-height .5s ease;
-    max-height: 265px !important;
+    max-height: 280px !important;
   }
 
   .flexbox-container .card-home-main:hover > .card-info .card-icon {
@@ -9527,7 +9527,7 @@ ol {
 }
 
 .card-home-main .card-info {
-  min-height: 250px;
+  min-height: fit-content;
   max-width: 100% !important;
   padding-top: 0%;
 }
