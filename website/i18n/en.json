@@ -712,6 +712,10 @@
         "title": "Política de Uso de Cookies",
         "sidebar_label": "Política de Uso de Cookies"
       },
+      "security/privacy": {
+        "title": "Política de Privacidade",
+        "sidebar_label": "Política de Privacidade"
+      },
       "security/terms": {
         "title": "Termos de uso e privacidade do BLiP",
         "sidebar_label": "Termos de uso e privacidade do BLiP"

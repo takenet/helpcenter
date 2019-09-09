@@ -44,7 +44,7 @@ const data = {
      
     {
       "title": "Políticas de Privacidade",
-      "url": "/",
+      "url": "/docs/security/privacy",
       "icon": "lock-outline", 
       "color": "success",
       "abstract": "Entendemos‌ quão grande é a confiança de nossos usuários e clientes ao compartilhar conosco seus dados, portanto, nossa Política de Privacidade busca descrever de forma clara e objetiva o tratamento dos dados realizados durante a utilização da plataforma BLiP.",

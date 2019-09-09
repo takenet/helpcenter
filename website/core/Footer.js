@@ -70,7 +70,7 @@ class Footer extends React.Component {
                   <a href="#" className="link-footer">Governança de Dados</a>
                   <a href="#" className="link-footer">Legal</a> */}
                   <a href="/docs/security/cookies" className="link-footer">Políticas de Cookies</a>
-                  <a href="#" className="link-footer">Políticas de Privacidade</a>
+                  <a href="/docs/security/privacy" className="link-footer">Políticas de Privacidade</a>
                  {/*  <a href="#" className="link-footer">Privacidade de Dados</a> */}
                   <a href="/docs/security/terms" className="link-footer">Termos de Uso</a>
               </div>

@@ -327,6 +327,7 @@
     ], 
     "Políticas" : [
       "security/cookies",
+      "security/privacy",
       "security/terms"
       
     ]
