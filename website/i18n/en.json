@@ -708,6 +708,10 @@
         "title": "Hierarquia (ou arquitetura) de bots e subbots",
         "sidebar_label": "Hierarquia (ou arquitetura) de bots e subbots"
       },
+      "security/cookies": {
+        "title": "Política de Uso de Cookies",
+        "sidebar_label": "Política de Uso de Cookies"
+      },
       "security/terms": {
         "title": "Termos de uso e privacidade do BLiP",
         "sidebar_label": "Termos de uso e privacidade do BLiP"

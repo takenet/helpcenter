@@ -35,7 +35,7 @@ const data = {
     }, */
     {
       "title": "Política de Cookies",
-      "url": "/",
+      "url": "/docs/security/cookies",
       "icon": "cookie",
       "color": "attention",
       "abstract": "O BLiP utiliza cookies para armazenamento de dados com algumas finalidades. Para saber mais acesse nossa Política de Uso de Cookies.",
