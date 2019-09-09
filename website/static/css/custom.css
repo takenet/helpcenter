@@ -9945,7 +9945,6 @@ ol {
   box-sizing: border-box;
   border-radius: 8px;
   width: 27%;
-  min-width: 349px; 
   height: 50%;
   min-height: 209px;
   transition: transform 0.4s ease;
