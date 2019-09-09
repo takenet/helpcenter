@@ -1,5 +1,5 @@
 ---
-id: router-criando-bot-com-3-subbots
+id: criando-bot-com-3-subbots
 title: Criando um bot router com 3 subbots
 sidebar_label: Criando um bot router com 3 subbots
 ---
