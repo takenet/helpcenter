@@ -324,6 +324,12 @@
             "general/level-up/level-up-13-blip-ideas"
           ]
       }
+    ], 
+    "Políticas" : [
+      "security/cookies",
+      "security/privacy",
+      "security/terms"
+      
     ]
   }
 }

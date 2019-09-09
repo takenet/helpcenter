@@ -58,7 +58,7 @@ class HomeSplash extends React.Component {
               <div className="card-title">
                 <p>Introdução à plataforma</p>
               </div>
-              <p className="card-text">Começou a usar o BLiP agora? Preparamos este conteúdo exclusivamente para ajudar nos seus primeiros passos.</p>
+              <p className="card-text">Começou a usar o BLiP agora? Preparamos este conteúdo para ajudar nos seus primeiros passos.</p>
               <div className="card-icon">
                 <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon>
               </div>
@@ -237,7 +237,7 @@ class Index extends React.Component {
 
           <div className="div-see-more">
 
-            <a role="button" href="/articles" className="bp-btn bp-btn--bot btn--recent-accessed" >Veja outros artigos!</a>
+            <a role="button" href="/docs/introduction/visao-geral-da-plataforma" className="bp-btn bp-btn--bot btn--recent-accessed" >Veja outros artigos!</a>
             <hr className="bp-divider-h bp-divider--see-more"></hr>
 
           </div>
