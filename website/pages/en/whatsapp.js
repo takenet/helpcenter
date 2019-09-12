@@ -32,13 +32,13 @@ const data = {
       "abstract":"Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text":"Ver mais!"
     },
-    {  
+    /* {  
       "title":"Tipos de conteúdo suportados",
       "type": "text",
       "url": "#",
       "abstract":"Descubra aqui quais são os tipos de conteúdo que você consegue enviar através do BLiP e entenda como eles se comportam no canal.",
       "text":"Ver mais!"
-    },
+    }, */
     {  
       "title":"Como publicar seu Chatbot no WhatsApp",
       "type": "text",
@@ -53,13 +53,13 @@ const data = {
     "abstract":"Encontre todas as maneiras oferecidas pelo canal para que os usuários consigam iniciar e manter uma conversa com seu bot.",
     "text":"Ver mais!"
   }, 
-  {  
+  /* {  
     "title":"Acessando outros recursos",
     "type": "text",
     "url": "#",
     "abstract":"Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
     "text":"Ver mais!"
-  }, 
+  },  */
   ]
 };
 //BLiP Icon for SVGs
