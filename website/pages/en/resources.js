@@ -15,7 +15,8 @@ const data = {
             "icon": "jason-file",
             "color": "bluejeans",
             "abstract": "Encontre detalhes técnicos de forma objetiva, com foco em desenvolvedores, para melhor utilizar a API disponibilizada pelo BLiP.",
-            "text": "Aprenda mais!"
+            "text": "Aprenda mais!",
+            "class": "seeMore-session-small"
         },
         {
             "title": "Changelogs",
@@ -23,7 +24,8 @@ const data = {
             "icon": "restore",
             "color": "blip",
             "abstract": "Fique por dentro de todas as atualizações e melhorias feitas no BLiP!",
-            "text": "Veja as novidades!"
+            "text": "Veja as novidades!",
+            "class": "seeMore-session-small"
         },
         {
             "title": "FAQ",
@@ -31,7 +33,8 @@ const data = {
             "icon": "faq-outline",
             "color": "attention",
             "abstract": "Veja as perguntas frequentes e tire suas dúvidas rapidamente.",
-            "text": "Aprenda mais!"
+            "text": "Aprenda mais!",
+            "class": "seeMore-session-small"
         },
         {
             "title": "Github",
@@ -39,7 +42,8 @@ const data = {
             "icon": "git-hub-logo",
             "color": "watermelon",
             "abstract": "Contribua para o crescimento e melhoria do código do BLiP. Veja os principais repositórios em nosso Github.",
-            "text": "Contribue!"
+            "text": "Contribue!",
+            "class": "seeMore-session-small"
         },
         {
           "title": "Status",
@@ -47,7 +51,8 @@ const data = {
           "icon": "status",
           "color": "suit",
           "abstract": "Avalie em tempo real a disponibilidade de todos os serviços da plataforma através da página de status",
-          "text": "Acompanhe!"
+          "text": "Acompanhe!",
+          "class": "seeMore-session-small"
       }
     ]
 };
@@ -121,7 +126,7 @@ class Resources extends React.Component {
                     </div>
   
                     <p className="abstract-session">{c.abstract}</p>
-                    <div className="seeMore-session">
+                    <div className={c.class}>
                       <p className="text-session">{c.text}</p>
                       <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4 bp-fill-bot"></BlipIcon>
                     </div>
