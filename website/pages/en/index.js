@@ -513,13 +513,13 @@ class Index extends React.Component {
             <input id="check8-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">DPA</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Governança de Dados</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Legal</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Políticas de Cookies</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Políticas de Privacidade</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Programa de Privacidade e Proteção de Dados</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Termos de Uso</a></li>
+                {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">DPA</a></li> */}
+                {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Governança de Dados</a></li> */}
+                {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Legal</a></li> */}
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/docs/security/cookies">Políticas de Cookies</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/docs/security/privacy">Políticas de Privacidade</a></li>
+                {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Programa de Privacidade e Proteção de Dados</a></li> */}
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/docs/security/terms">Termos de Uso</a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
