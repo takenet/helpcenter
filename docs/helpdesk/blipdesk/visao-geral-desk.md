@@ -69,3 +69,23 @@ Este é um conceito usado no cálculo de algumas métricas do BLiP Desk. Intera�
 Para ilustrar, imagine um ticket que contenha uma sequência de 2 mensagens do cliente, 3 do atendente e 5 do cliente (10 mensagens no total). Tal ticket possui apenas 1 interação: as 2 primeiras mensagens, que foram do cliente, completam uma interação com as 3 mensagens do atendente. Já as 5 últimas mensagens do cliente estão à espera da resposta do agente, por isso não configuram uma interação ainda.
 
 Agora que você já sabe os principais conceitos relacionados a ferramenta de **atendimento** do BLiP, adicione essa funcionalidade em seu contato inteligente. [Clique aqui para saber como ativar o BLiP Desk](https://help.blip.ai/hc/pt-br/articles/360001215251-Como-ativar-o-BLiP-Desk-como-um-canal-de-atendimento).
+
+## Tag 
+
+Tags são uma forma de categorizar um atendimento finalizado. Elas podem ser adicionadas durante ou ao finalizar um ticket.
+
+## Comentários
+
+Comentários podem ser escritos por atendentes e referem-se ao cliente. Comentários podem ser apenas lidos por atendentes que estejam atendendo o cliente em questão.
+
+## Histórico
+
+O histórico mostra todos os tickets atendidos para o cliente em questão.
+
+## Finalizar (ou encerrar) um ticket
+
+Encerra a instância de um ticket, adicionando a ele todas as tags marcadas. A diferença entre finalizar e encerrar é apenas simbólica: finalizar é quando o atendente fecha um ticket ativamente; encerrar é quando ele o fecha após o ticket ser cancelado pelo cliente.
+
+## Transferir um ticket
+
+Finaliza o ticket atual, adicionando nele todas as tags, e cria um novo ticket, associado a este, que é encaminhado à equipe escolhida. Este novo ticket não recebe as tags do ticket transferido.
