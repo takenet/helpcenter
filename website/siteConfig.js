@@ -113,7 +113,7 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/takenet/helpcenter',
-  gaTrackingId: 'UA-79317370-14',
+  gaTrackingId: 'UA-79317370-11',
 };
 
 module.exports = siteConfig;

@@ -624,6 +624,10 @@
         "title": "Obtendo o número de usuários afetados por um broadcast",
         "sidebar_label": "Obtendo o número de usuários afetados por um broadcast"
       },
+      "helpdesk/blipdesk/alertas-agente-desk": {
+        "title": "Descrição dos sinais de alerta para agentes do BLiP Desk",
+        "sidebar_label": "Descrição dos sinais de alerta para agentes do BLiP Desk"
+      },
       "helpdesk/blipdesk/como-ativar-blip-desk-canal": {
         "title": "Como ativar o BLiP Desk como um canal de atendimento",
         "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
@@ -651,6 +655,10 @@
       "helpdesk/blipdesk/descricao-metricas-desk": {
         "title": "Descrição das métricas do BLiP Desk",
         "sidebar_label": "Descrição das métricas do BLiP Desk"
+      },
+      "helpdesk/blipdesk/diferentes-status-agente-desk": {
+        "title": "Descrição dos status de agente no BLiP Desk",
+        "sidebar_label": "Descrição dos status de agente no BLiP Desk"
       },
       "helpdesk/blipdesk/gerenciamento-equipes": {
         "title": "Gerenciando equipes de atendimento no BLiP Desk",

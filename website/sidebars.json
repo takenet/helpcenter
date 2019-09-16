@@ -209,7 +209,9 @@
           "helpdesk/blipdesk/descricao-metricas-desk",
           "helpdesk/blipdesk/como-filtrar-ticket-id",
           "helpdesk/blipdesk/configurar-alertas-inatividade-clientes-blip-desk",
-          "helpdesk/blipdesk/definindo-alerta-tempo-resposta-atendente"
+          "helpdesk/blipdesk/definindo-alerta-tempo-resposta-atendente",
+          "helpdesk/blipdesk/diferentes-status-agente-desk",
+          "helpdesk/blipdesk/alertas-agente-desk"
         ]
       },
       {
