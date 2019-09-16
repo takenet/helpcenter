@@ -166,7 +166,7 @@ class Faq extends React.Component {
               </div>
               <div className="faq-links">
                 <a href="/blipareas" className="faq-links-link">O que posso resolver com o BLiP? </a>
-                <a href="/docs/helpdesk/visao-geral-desk/" className="faq-links-link">Da pra fazer atendimento humano? </a>
+                <a href="/docs/helpdesk/blipdesk/visao-geral-desk/" className="faq-links-link">Da pra fazer atendimento humano? </a>
                 <a href="#" className="faq-links-link">Preciso vender mais, o BLiP ajuda?</a>
                 <a href="/channels" className="faq-links-link">Da pra usar o BLiP como um broker multicanal? </a>
                 <a href="/docs/router/hierarquia-bots-subbots/" className="faq-links-link">Como orquestrar diferentes iniciativas de bots na minha empresa? </a>
