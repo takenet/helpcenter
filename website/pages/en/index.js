@@ -183,7 +183,7 @@ class Index extends React.Component {
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/como-realizar-um-atendimento-atraves-do-blip-desk/">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-realizar-um-atendimento-atraves-do-blip-desk/">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
                     Como realizar um atendimento através do BLiP Desk
                   </a>

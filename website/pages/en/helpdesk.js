@@ -14,84 +14,84 @@ const data = {
     {
       "title": "Visão geral do BLiP Desk",
       "type": "text",
-      "url": "/docs/helpdesk/visao-geral-desk",
+      "url": "/docs/helpdesk/blipdesk/visao-geral-desk",
       "abstract": "BLiP Desk? Quem é, onde vive, como se alimenta 🤔? Neste artigo você aprenderá o que é, pra quê serve e quais são os principais relacionados a ferramenta de atendimento humano do BLiP",
       "text": "Ver mais!"
     },
     {
       "title": "Como ativar o BLiP Desk como um canal de atendimento",
       "type": "text",
-      "url": "/docs/helpdesk/como-ativar-blip-desk-canal",
+      "url": "/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal",
       "abstract": "Veja neste artigo como ativar o BLiP Desk como a ferramenta de atendimento humano em seu contato inteligente.",
       "text": "Ver mais!"
     },
     {
       "title": "Como realizar um atendimento através do BLiP Desk",
       "type": "text",
-      "url": "/docs/helpdesk/como-realizar-um-atendimento-atraves-do-blip-desk",
+      "url": "/docs/helpdesk/blipdesk/como-realizar-um-atendimento-atraves-do-blip-desk",
       "abstract": "Saiba todos os passas necessários para realizar seu primeiro atendimento humano através do BLiP Desk",
       "text": "Ver mais!"
     },
     {
       "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
       "type": "text",
-      "url": "/docs/helpdesk/utilizando-variav-respostas",
+      "url": "/docs/helpdesk/blipdesk/utilizando-variav-respostas",
       "abstract": "Melhore a performance das equipes de atendimento definindo respostas prontas de forma customizada!",
       "text": "Ver mais!"
     },
     {
       "title": "Gerenciando equipes de atendimento no BLiP Desk",
       "type": "text",
-      "url": "/docs/helpdesk/gerenciamento-equipes",
+      "url": "/docs/helpdesk/blipdesk/gerenciamento-equipes",
       "abstract": "Defina equipes e organize os atendentes de forma rápida e simples.",
       "text": "Ver mais!"
     },
     {
       "title": "Como definir regras de atendimento no BLiP Desk",
       "type": "text",
-      "url": "/docs/helpdesk/como-definir-regras-atendimento",
+      "url": "/docs/helpdesk/blipdesk/como-definir-regras-atendimento",
       "abstract": "Algumas empresas possuem diferentes equipes de atendimentos para tratar diferentes assuntos. Use as regras de atendimento para definir qual equipe realizará quais atendimentos.",
       "text": "Ver mais!"
     },
     {
       "title": "Habilitando o uso de emoji para o Desk",
       "type": "text",
-      "url": "/docs/helpdesk/habilitando-uso-emoji-desk",
+      "url": "/docs/helpdesk/blipdesk/habilitando-uso-emoji-desk",
       "abstract": "❤️😍😊🤔😜⚽🏆🎫🎖️",
       "text": "Ver mais!"
     },
     {
       "title": "Descrição das métricas do BLiP Desk",
       "type": "text",
-      "url": "/docs/helpdesk/descricao-metricas-desk",
+      "url": "/docs/helpdesk/blipdesk/descricao-metricas-desk",
       "abstract": "O módulo de atendimento do BLiP exibe métricas em tempo real e por período. Este artigo explica o conceito associado a cada uma dessas métricas",
       "text": "Ver mais!"
     },
     {
       "title": "Como filtrar um ticket por ID?",
       "type": "text",
-      "url": "/docs/helpdesk/como-filtrar-ticket-id",
+      "url": "/docs/helpdesk/blipdesk/como-filtrar-ticket-id",
       "abstract": "Precisa dar uma espiada em algum atendimento específico? Basta filtrar o ticket por ID. Saiba como neste artigo.",
       "text": "Ver mais!"
     },
     {
       "title": "Como configurar alertas de inatividade dos clientes no BLiP Desk",
       "type": "text",
-      "url": "/docs/helpdesk/configurar-alertas-inatividade-clientes-blip-desk",
+      "url": "/docs/helpdesk/blipdesk/configurar-alertas-inatividade-clientes-blip-desk",
       "abstract": "Melhore a experiência dos atendentes que trabalham no BLiP Desk através de alertas de inatividade dos clientes.",
       "text": "Ver mais!"
     },
     {
       "title": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk",
       "type": "text",
-      "url": "/docs/helpdesk/definindo-alerta-tempo-resposta-atendente",
+      "url": "/docs/helpdesk/blipdesk/definindo-alerta-tempo-resposta-atendente",
       "abstract": "Para reduzir o tempo de espera dos usuários atendidos por algum ser humano no Desk, ative um alerta de tempo de resposta para os atendentes.",
       "text": "Ver mais!"
     },
     {
       "title": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano",
       "type": "text",
-      "url": "/docs/helpdesk/utilizar-live-agent-salesForce-atendimento-humano",
+      "url": "/docs/helpdesk/liveagent/utilizar-live-agent-salesForce-atendimento-humano",
       "abstract": "Já utiliza a ferramenta LiveAgent (by SalesForce) para realizar os atendimentos? Veja como configurá-la como uma ferramenta de atendimento humano no BLiP.",
       "text": "Ver mais!"
     }  

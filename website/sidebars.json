@@ -8,171 +8,159 @@
       {
         "type": "subcategory",
         "label": "Apple Business Chat",
-        "ids":
-          [
-            "channels/business-chat/visao-geral-business-chat",
-            "channels/business-chat/arquitetura-business-chat",
-            "channels/business-chat/funcionalidades-business-chat",
-            "channels/business-chat/tipos-conteudo-business-chat", 
-            "channels/business-chat/publicando-bot-no-business-chat",
-            "channels/business-chat/como-interagir-business-chat",
-            "channels/business-chat/outros-recursos-business-chat"
-          ]
+        "ids": [
+          "channels/business-chat/visao-geral-business-chat",
+          "channels/business-chat/arquitetura-business-chat",
+          "channels/business-chat/funcionalidades-business-chat",
+          "channels/business-chat/tipos-conteudo-business-chat",
+          "channels/business-chat/publicando-bot-no-business-chat",
+          "channels/business-chat/como-interagir-business-chat",
+          "channels/business-chat/outros-recursos-business-chat"
+        ]
       },
       {
         "type": "subcategory",
         "label": "BLiP Chat",
-        "ids":
-          [
-            "channels/blip-chat/o-que-e-blip-chat",
-            "channels/blip-chat/tipos-conteudo-chat",
-            "channels/blip-chat/customizacoes-disponiveis-blip-chat",
-            "channels/blip-chat/tipos-de-autenticacao-chat",
-            "channels/blip-chat/adicionar-blip-chat-site-wix",
-            "channels/blip-chat/adicionar-blip-chat-site-wordpress",
-            "channels/blip-chat/adicionar-bot-site-blip-chat",
-            "channels/blip-chat/permitir-envio-de-arquivos-blip-chat",
-            "channels/blip-chat/customizando-o-blip-chat-widget-com-css",
-            "channels/blip-chat/como-adicionar-bot-em-app-android-utilizando-blip",
-            "channels/blip-chat/adicionando-push-notification-blip-chat-android",
-            "channels/blip-chat/como-adicionar-bot-em-app-ios-utilizando-blip"
-          ]
+        "ids": [
+          "channels/blip-chat/o-que-e-blip-chat",
+          "channels/blip-chat/tipos-conteudo-chat",
+          "channels/blip-chat/customizacoes-disponiveis-blip-chat",
+          "channels/blip-chat/tipos-de-autenticacao-chat",
+          "channels/blip-chat/adicionar-blip-chat-site-wix",
+          "channels/blip-chat/adicionar-blip-chat-site-wordpress",
+          "channels/blip-chat/adicionar-bot-site-blip-chat",
+          "channels/blip-chat/permitir-envio-de-arquivos-blip-chat",
+          "channels/blip-chat/customizando-o-blip-chat-widget-com-css",
+          "channels/blip-chat/como-adicionar-bot-em-app-android-utilizando-blip",
+          "channels/blip-chat/adicionando-push-notification-blip-chat-android",
+          "channels/blip-chat/como-adicionar-bot-em-app-ios-utilizando-blip"
+        ]
       },
       {
         "type": "subcategory",
         "label": "Email",
-        "ids":
-          [
-            "channels/email/visao-geral-email",
-            "channels/email/arquitetura-email",
-            "channels/email/funcionalidades-email",
-            "channels/email/tipos-conteudo-email",
-            "channels/email/publicando-bot-email",
-            "channels/email/como-interagir-email"
-            
-          ]
+        "ids": [
+          "channels/email/visao-geral-email",
+          "channels/email/arquitetura-email",
+          "channels/email/funcionalidades-email",
+          "channels/email/tipos-conteudo-email",
+          "channels/email/publicando-bot-email",
+          "channels/email/como-interagir-email"
+        ]
       },
       {
         "type": "subcategory",
         "label": "Google Assistant",
-        "ids":
-          [
-            "channels/google-assistant/visao-geral-google-assistant",
-            "channels/google-assistant/funcionalidades-google-assistant",
-            "channels/google-assistant/tipos-conteudo-google-assistant",
-            "channels/google-assistant/publicando-bot-google-assistant",
-            "channels/google-assistant/enviando-notificacao-google-assistant"
-          ]
+        "ids": [
+          "channels/google-assistant/visao-geral-google-assistant",
+          "channels/google-assistant/funcionalidades-google-assistant",
+          "channels/google-assistant/tipos-conteudo-google-assistant",
+          "channels/google-assistant/publicando-bot-google-assistant",
+          "channels/google-assistant/enviando-notificacao-google-assistant"
+        ]
       },
       {
         "type": "subcategory",
         "label": "Google RCS",
-        "ids":
-          [
-            "channels/google-rcs/visao-geral-google-rcs",
-            "channels/google-rcs/funcionalidades-google-rcs",
-            "channels/google-rcs/tipos-conteudo-google-rcs",
-            "channels/google-rcs/publicando-bot-google-rcs",
-            "channels/google-rcs/como-interagir-google-rcs",
-            "channels/google-rcs/outros-recursos-google-rcs"
-          ]
+        "ids": [
+          "channels/google-rcs/visao-geral-google-rcs",
+          "channels/google-rcs/funcionalidades-google-rcs",
+          "channels/google-rcs/tipos-conteudo-google-rcs",
+          "channels/google-rcs/publicando-bot-google-rcs",
+          "channels/google-rcs/como-interagir-google-rcs",
+          "channels/google-rcs/outros-recursos-google-rcs"
+        ]
       },
       {
         "type": "subcategory",
         "label": "Infobip",
-        "ids":
-          [
-            "channels/infobip/visao-geral-infobip",
-            "channels/infobip/arquitetura-infobip",
-            "channels/infobip/funcionalidades-infobip",
-            "channels/infobip/tipos-conteudo-infobip",
-            "channels/infobip/publicando-bot-infobip",
-            "channels/infobip/como-interagir-infobip"
-          ]
+        "ids": [
+          "channels/infobip/visao-geral-infobip",
+          "channels/infobip/arquitetura-infobip",
+          "channels/infobip/funcionalidades-infobip",
+          "channels/infobip/tipos-conteudo-infobip",
+          "channels/infobip/publicando-bot-infobip",
+          "channels/infobip/como-interagir-infobip"
+        ]
       },
       {
         "type": "subcategory",
         "label": "Messenger",
-        "ids":
-          [
-            "channels/messenger/visao-geral-messenger",
-            "channels/messenger/arquitetura-messenger",
-            "channels/messenger/funcionalidades-messenger",
-            "channels/messenger/tipos-conteudo-messenger",
-            "channels/messenger/publicando-bot-no-messenger",
-            "channels/messenger/como-interagir-messenger",
-            "channels/messenger/outros-recursos-messenger",
-            "channels/messenger/como-configurar-sua-propria-aplicacao-facebook"
-          ]
+        "ids": [
+          "channels/messenger/visao-geral-messenger",
+          "channels/messenger/arquitetura-messenger",
+          "channels/messenger/funcionalidades-messenger",
+          "channels/messenger/tipos-conteudo-messenger",
+          "channels/messenger/publicando-bot-no-messenger",
+          "channels/messenger/como-interagir-messenger",
+          "channels/messenger/outros-recursos-messenger",
+          "channels/messenger/como-configurar-sua-propria-aplicacao-facebook"
+        ]
       },
       {
         "type": "subcategory",
         "label": "Skype",
-        "ids":
-          [
-            "channels/skype/visao-geral-skype",
-            "channels/skype/arquitetura-skype",
-            "channels/skype/funcionalidades-skype",
-            "channels/skype/tipos-conteudo-skype",
-            "channels/skype/publicando-bot-skype",
-            "channels/skype/como-interagir-skype"
-          ]
+        "ids": [
+          "channels/skype/visao-geral-skype",
+          "channels/skype/arquitetura-skype",
+          "channels/skype/funcionalidades-skype",
+          "channels/skype/tipos-conteudo-skype",
+          "channels/skype/publicando-bot-skype",
+          "channels/skype/como-interagir-skype"
+        ]
       },
       {
         "type": "subcategory",
         "label": "Telegram",
-        "ids":
-          [
-            "channels/telegram/visao-geral-do-telegram",
-            "channels/telegram/arquitetura-do-telegram",
-            "channels/telegram/tipos-conteudo-telegram",
-            "channels/telegram/publicando-bot-no-telegram",
-            "channels/telegram/como-interagir-telegram"
-          ]
+        "ids": [
+          "channels/telegram/visao-geral-do-telegram",
+          "channels/telegram/arquitetura-do-telegram",
+          "channels/telegram/tipos-conteudo-telegram",
+          "channels/telegram/publicando-bot-no-telegram",
+          "channels/telegram/como-interagir-telegram"
+        ]
       },
       {
         "type": "subcategory",
         "label": "WhatsApp",
-        "ids":
-          [
-            "channels/whatsapp/visao-geral-do-whatsapp",
-            "channels/whatsapp/arquitetura-do-whatsapp",
-            "channels/whatsapp/funcionalidades-do-whatsapp",
-            "channels/whatsapp/publicando-bot-no-whatsapp",
-            "channels/whatsapp/como-interagir-whatsapp",
-            "channels/whatsapp/criando-solucao-atendimento-humano-whatsapp",
-            "channels/whatsapp/enviar-notificacao-whatsapp-blip-api"
-          ]
+        "ids": [
+          "channels/whatsapp/visao-geral-do-whatsapp",
+          "channels/whatsapp/arquitetura-do-whatsapp",
+          "channels/whatsapp/funcionalidades-do-whatsapp",
+          "channels/whatsapp/publicando-bot-no-whatsapp",
+          "channels/whatsapp/como-interagir-whatsapp",
+          "channels/whatsapp/criando-solucao-atendimento-humano-whatsapp",
+          "channels/whatsapp/enviar-notificacao-whatsapp-blip-api"
+        ]
       },
       {
         "type": "subcategory",
         "label": "Workplace",
-        "ids":
-          [
-            "channels/workplace/o-que-e-workplace",
-            "channels/workplace/visao-geral-workplace",
-            "channels/workplace/funcionalidades-workplace",
-            "channels/workplace/tipos-conteudo-workplace",
-            "channels/workplace/publicando-chatbot-no-workplace",
-            "channels/workplace/como-interagir-workplace",
-            "channels/workplace/outros-recursos-workplace"
-          ]
+        "ids": [
+          "channels/workplace/o-que-e-workplace",
+          "channels/workplace/visao-geral-workplace",
+          "channels/workplace/funcionalidades-workplace",
+          "channels/workplace/tipos-conteudo-workplace",
+          "channels/workplace/publicando-chatbot-no-workplace",
+          "channels/workplace/como-interagir-workplace",
+          "channels/workplace/outros-recursos-workplace"
+        ]
       }
     ],
     "Builder": [
       "builder/visao-geral-do-builder",
-      "builder/o-que-sao-blocos-de-controle", 
-      "builder/o-que-e-um-bloco-de-conteudo", 
+      "builder/o-que-sao-blocos-de-controle",
+      "builder/o-que-e-um-bloco-de-conteudo",
       "builder/o-que-e-um-bloco-de-atendimento",
       "builder/visao-geral-dos-tipos-de-conteudo",
       "builder/visao-geral-variaveis",
       "builder/visao-geral-das-condicoes-de-saida",
       "builder/visao-geral-das-acoes",
       "builder/como-utilizar-debug-builder",
-      "builder/definindo-acoes-globais", 
+      "builder/definindo-acoes-globais",
       "builder/criando-acoes-condicionais",
       "builder/importando-o-fluxo-de-um-bot-no-builder",
-      "builder/o-que-e-um-weblink", 
+      "builder/o-que-e-um-weblink",
       "builder/o-que-sao-listas-de-distribuicao",
       "builder/salvando-informacoes-de-um-usuario",
       "builder/criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat",
@@ -187,44 +175,55 @@
       {
         "type": "subcategory",
         "label": "PLN - Processamento de Linguagem Natural",
-        "ids":
-          [
-            "ai/nlp/conceitos-basicos-nlp-e-ai",
-            "ai/nlp/importancia-de-ia-nlp-chatbots",
-            "ai/nlp/o-que-e-intencao",
-            "ai/nlp/o-que-e-entidade",
-            "ai/nlp/como-configurar-dialogflow",
-            "ai/nlp/como-configurar-watson",
-            "ai/nlp/como-configurar-luis",
-            "ai/nlp/como-criar-uma-intencao",
-            "ai/nlp/como-criar-uma-entidade",
-            "ai/nlp/treinando-publicando-modelo-de-ia",
-            "ai/nlp/como-testar-modelo-nlp",
-            "ai/nlp/boas-praticas-para-criar-um-bom-modelo-nlp",            
-            "ai/nlp/importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip", 
-            "ai/nlp/como-exportar-base-conhecimento",
-            "ai/nlp/como-aprimorar-meu-modelo-de-inteligencia-artificial"
-          ]
+        "ids": [
+          "ai/nlp/conceitos-basicos-nlp-e-ai",
+          "ai/nlp/importancia-de-ia-nlp-chatbots",
+          "ai/nlp/o-que-e-intencao",
+          "ai/nlp/o-que-e-entidade",
+          "ai/nlp/como-configurar-dialogflow",
+          "ai/nlp/como-configurar-watson",
+          "ai/nlp/como-configurar-luis",
+          "ai/nlp/como-criar-uma-intencao",
+          "ai/nlp/como-criar-uma-entidade",
+          "ai/nlp/treinando-publicando-modelo-de-ia",
+          "ai/nlp/como-testar-modelo-nlp",
+          "ai/nlp/boas-praticas-para-criar-um-bom-modelo-nlp",
+          "ai/nlp/importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip",
+          "ai/nlp/como-exportar-base-conhecimento",
+          "ai/nlp/como-aprimorar-meu-modelo-de-inteligencia-artificial"
+        ]
       }
     ],
     "Atendimento Humano": [
-      "helpdesk/visao-geral-desk",
-      "helpdesk/como-ativar-blip-desk-canal",
-      "helpdesk/como-realizar-um-atendimento-atraves-do-blip-desk",
-      "helpdesk/utilizando-variav-respostas",
-      "helpdesk/gerenciamento-equipes",
-      "helpdesk/como-definir-regras-atendimento",
-      "helpdesk/habilitando-uso-emoji-desk",
-      "helpdesk/descricao-metricas-desk",
-      "helpdesk/como-filtrar-ticket-id",
-      "helpdesk/configurar-alertas-inatividade-clientes-blip-desk",
-      "helpdesk/definindo-alerta-tempo-resposta-atendente",
-      "helpdesk/utilizar-live-agent-salesForce-atendimento-humano"
+      {
+        "type": "subcategory",
+        "label": "BLiP Desk",
+        "ids": [
+          "helpdesk/blipdesk/visao-geral-desk",
+          "helpdesk/blipdesk/como-ativar-blip-desk-canal",
+          "helpdesk/blipdesk/como-realizar-um-atendimento-atraves-do-blip-desk",
+          "helpdesk/blipdesk/utilizando-variav-respostas",
+          "helpdesk/blipdesk/gerenciamento-equipes",
+          "helpdesk/blipdesk/como-definir-regras-atendimento",
+          "helpdesk/blipdesk/habilitando-uso-emoji-desk",
+          "helpdesk/blipdesk/descricao-metricas-desk",
+          "helpdesk/blipdesk/como-filtrar-ticket-id",
+          "helpdesk/blipdesk/configurar-alertas-inatividade-clientes-blip-desk",
+          "helpdesk/blipdesk/definindo-alerta-tempo-resposta-atendente"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Live Agent - SalesForce",
+        "ids": [
+          "helpdesk/liveagent/utilizar-live-agent-salesForce-atendimento-humano"
+        ]
+      }
     ],
     "Gestão": [
       "management/como-encontrar-id-usuario",
       "management/como-marcar-contato-como-teste",
-      "management/configuracoes-avancadas-bot", 
+      "management/configuracoes-avancadas-bot",
       "management/gerenciando-permissoes-acesso-equipe",
       "management/transcricao-conversas-contatos"
     ],
@@ -236,43 +235,38 @@
       {
         "type": "subcategory",
         "label": "BLiP Analytics",
-        "ids":
-          [
-            "analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado"
-          ]
+        "ids": [
+          "analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado"
+        ]
       },
       {
         "type": "subcategory",
         "label": "BotAnalytics",
-        "ids":
-          [
-            "analytics/botanalytics/como-enviar-dados-botanalytics"
-          ]
+        "ids": [
+          "analytics/botanalytics/como-enviar-dados-botanalytics"
+        ]
       },
       {
         "type": "subcategory",
         "label": "Chatbase",
-        "ids":
-          [
-            "analytics/chatbase/como-enviar-dados-chatbase",
-            "analytics/chatbase/tratando-eventos-not-handled-sessionFlow-chatbase"
-          ]
+        "ids": [
+          "analytics/chatbase/como-enviar-dados-chatbase",
+          "analytics/chatbase/tratando-eventos-not-handled-sessionFlow-chatbase"
+        ]
       },
       {
         "type": "subcategory",
         "label": "Dashbot",
-        "ids":
-          [
-            "analytics/dashbot/como-enviar-dados-dashbot"
-          ]
+        "ids": [
+          "analytics/dashbot/como-enviar-dados-dashbot"
+        ]
       },
       {
         "type": "subcategory",
         "label": "Webhook",
-        "ids":
-          [
-            "analytics/webhook/enviando-dados-atraves-webhook"
-          ]
+        "ids": [
+          "analytics/webhook/enviando-dados-atraves-webhook"
+        ]
       }
     ],
     "Retenção e Engajamento": [
@@ -299,37 +293,35 @@
       "api-sdks/event-track-sdk-csharp",
       "api-sdks/texto-rotativo-spintax"
     ],
-    "Geral" : [
+    "Geral": [
       "general/central-notificacoes",
       "general/politica-de-violacao-mensagens",
       "general/chatbots-e-a-importancia-contexto",
       {
         "type": "subcategory",
         "label": "Level Up",
-        "ids": 
-          [
-            "general/level-up/level-up-0-lancamento-oficial-do-blip",
-            "general/level-up/level-up-1-blip-desk",
-            "general/level-up/level-up-2-blip-chat",
-            "general/level-up/level-up-3-checklist-de-ia",
-            "general/level-up/level-up-4-blip-desk-2",
-            "general/level-up/level-up-5-whatsapp",
-            "general/level-up/level-up-6-templates-tags-e-biblioteca-de-variaveis",
-            "general/level-up/level-up-7-dialogflow",
-            "general/level-up/level-up-8-blip-growth",
-            "general/level-up/level-up-9-marcos-de-2018",
-            "general/level-up/level-up-10-ferramenta-de-debug",
-            "general/level-up/level-up-11-comemoracao-de-um-ano-mais-caso-mundiale",
-            "general/level-up/level-up-12-botanalytics",
-            "general/level-up/level-up-13-blip-ideas"
-          ]
+        "ids": [
+          "general/level-up/level-up-0-lancamento-oficial-do-blip",
+          "general/level-up/level-up-1-blip-desk",
+          "general/level-up/level-up-2-blip-chat",
+          "general/level-up/level-up-3-checklist-de-ia",
+          "general/level-up/level-up-4-blip-desk-2",
+          "general/level-up/level-up-5-whatsapp",
+          "general/level-up/level-up-6-templates-tags-e-biblioteca-de-variaveis",
+          "general/level-up/level-up-7-dialogflow",
+          "general/level-up/level-up-8-blip-growth",
+          "general/level-up/level-up-9-marcos-de-2018",
+          "general/level-up/level-up-10-ferramenta-de-debug",
+          "general/level-up/level-up-11-comemoracao-de-um-ano-mais-caso-mundiale",
+          "general/level-up/level-up-12-botanalytics",
+          "general/level-up/level-up-13-blip-ideas"
+        ]
       }
-    ], 
-    "Políticas" : [
+    ],
+    "Políticas": [
       "security/cookies",
       "security/privacy",
       "security/terms"
-      
     ]
   }
 }

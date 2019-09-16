@@ -624,53 +624,53 @@
         "title": "Obtendo o número de usuários afetados por um broadcast",
         "sidebar_label": "Obtendo o número de usuários afetados por um broadcast"
       },
-      "helpdesk/como-ativar-blip-desk-canal": {
+      "helpdesk/blipdesk/como-ativar-blip-desk-canal": {
         "title": "Como ativar o BLiP Desk como um canal de atendimento",
         "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
       },
-      "helpdesk/como-definir-regras-atendimento": {
+      "helpdesk/blipdesk/como-definir-regras-atendimento": {
         "title": "Como definir regras de atendimento no BLiP Desk",
         "sidebar_label": "Como definir regras de atendimento no BLiP Desk"
       },
-      "helpdesk/como-filtrar-ticket-id": {
+      "helpdesk/blipdesk/como-filtrar-ticket-id": {
         "title": "Como filtrar um ticket por ID?",
         "sidebar_label": "Como filtrar um ticket por ID?"
       },
-      "helpdesk/como-realizar-um-atendimento-atraves-do-blip-desk": {
+      "helpdesk/blipdesk/como-realizar-um-atendimento-atraves-do-blip-desk": {
         "title": "Como realizar um atendimento através do BLiP Desk",
         "sidebar_label": "Como realizar um atendimento através do BLiP Desk"
       },
-      "helpdesk/configurar-alertas-inatividade-clientes-blip-desk": {
+      "helpdesk/blipdesk/configurar-alertas-inatividade-clientes-blip-desk": {
         "title": "Como configurar alertas de inatividade dos clientes no BLiP Desk",
         "sidebar_label": "Como configurar alertas de inatividade dos clientes no BLiP Desk"
       },
-      "helpdesk/definindo-alerta-tempo-resposta-atendente": {
+      "helpdesk/blipdesk/definindo-alerta-tempo-resposta-atendente": {
         "title": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk",
         "sidebar_label": "Definindo alerta para tempo de resposta de um atendente no BLiP Desk"
       },
-      "helpdesk/descricao-metricas-desk": {
+      "helpdesk/blipdesk/descricao-metricas-desk": {
         "title": "Descrição das métricas do BLiP Desk",
         "sidebar_label": "Descrição das métricas do BLiP Desk"
       },
-      "helpdesk/gerenciamento-equipes": {
+      "helpdesk/blipdesk/gerenciamento-equipes": {
         "title": "Gerenciando equipes de atendimento no BLiP Desk",
         "sidebar_label": "Gerenciado equipes de atendimento no BLiP Desk"
       },
-      "helpdesk/habilitando-uso-emoji-desk": {
+      "helpdesk/blipdesk/habilitando-uso-emoji-desk": {
         "title": "Habilitando o uso de emoji para o Desk",
         "sidebar_label": "Habilitando o uso de emoji para o Desk"
       },
-      "helpdesk/utilizando-variav-respostas": {
+      "helpdesk/blipdesk/utilizando-variav-respostas": {
         "title": "Utilizando variáveis nas respostas prontas do BLiP Desk",
         "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
       },
-      "helpdesk/utilizar-live-agent-salesForce-atendimento-humano": {
-        "title": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?",
-        "sidebar_label": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?"
-      },
-      "helpdesk/visao-geral-desk": {
+      "helpdesk/blipdesk/visao-geral-desk": {
         "title": "Visão geral do BLiP Desk",
         "sidebar_label": "Visão geral do BLiP Desk"
+      },
+      "helpdesk/liveagent/utilizar-live-agent-salesForce-atendimento-humano": {
+        "title": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?",
+        "sidebar_label": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?"
       },
       "introduction/como-criar-um-bot-com-builder": {
         "title": "Como criar um bot com o Builder do BLiP",
