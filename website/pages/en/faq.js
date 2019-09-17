@@ -141,7 +141,7 @@ class Faq extends React.Component {
                 <a href="https://docs.blip.ai" className="faq-links-link">Qual o link para a API Reference (docs)? </a>
                 <a href="/changelog" className="faq-links-link">Como acompanhar os últimos lançamentos do BLiP? </a>
                 <a href="https://github.com/takenet" className="faq-links-link">Posso contribuir com a plataforma?</a>
-                <a href="https://status.blip.ai/" className="faq-links-link">Acho que o BLiP caiu 😬, como ver o status? </a>
+                {/* <a href="https://status.blip.ai/" className="faq-links-link">Acho que o BLiP caiu 😬, como ver o status? </a> */}
                 <a href="https://github.com/takenet" className="faq-links-link">Gosto de código, tem algum exemplo ai? </a>
               </div>
             </div>

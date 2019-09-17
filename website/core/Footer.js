@@ -42,10 +42,10 @@ class Footer extends React.Component {
               <div className="content-links">
                 <p className="title">Recursos</p>
                   <a href="https://docs.blip.ai/" target="_blank" className="link-footer">API Reference</a>
-                  <a href="/changelog" className="link-footer">Changelogs</a>
+                  {/* <a href="/changelog" className="link-footer">Changelogs</a> */}
                   <a href="/faq" className="link-footer">Faq</a>
                   <a href="https://github.com/takenet" target="_blank" className="link-footer">Github</a>
-                  <a href="https://status.blip.ai" target="_blank" className="link-footer">Status</a>
+                  {/* <a href="https://status.blip.ai" target="_blank" className="link-footer">Status</a> */}
               </div>
 
               <div className="content-links">
