@@ -18,15 +18,15 @@ const data = {
             "text": "Aprenda mais!",
             "class": "seeMore-session-small"
         },
-        {
-            "title": "Changelogs",
-            "url": "/changelog",
-            "icon": "restore",
-            "color": "blip",
-            "abstract": "Fique por dentro de todas as atualizações e melhorias feitas no BLiP!",
-            "text": "Veja as novidades!",
-            "class": "seeMore-session-small"
-        },
+        // {
+        //     "title": "Changelogs",
+        //     "url": "/changelog",
+        //     "icon": "restore",
+        //     "color": "blip",
+        //     "abstract": "Fique por dentro de todas as atualizações e melhorias feitas no BLiP!",
+        //     "text": "Veja as novidades!",
+        //     "class": "seeMore-session-small"
+        // },
         {
             "title": "FAQ",
             "url": "/faq",
@@ -45,15 +45,15 @@ const data = {
             "text": "Contribue!",
             "class": "seeMore-session-small"
         },
-        {
-          "title": "Status",
-          "url": "https://status.blip.ai",
-          "icon": "status",
-          "color": "suit",
-          "abstract": "Avalie em tempo real a disponibilidade de todos os serviços da plataforma através da página de status",
-          "text": "Acompanhe!",
-          "class": "seeMore-session-small"
-      }
+      //   {
+      //     "title": "Status",
+      //     "url": "https://status.blip.ai",
+      //     "icon": "status",
+      //     "color": "suit",
+      //     "abstract": "Avalie em tempo real a disponibilidade de todos os serviços da plataforma através da página de status",
+      //     "text": "Acompanhe!",
+      //     "class": "seeMore-session-small"
+      // }
     ]
 };
 
