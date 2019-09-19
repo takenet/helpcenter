@@ -24,9 +24,6 @@ const React = require("react");
 function redirectURL(path) {
   console.log(path);
   const REDIRECT = {
-    "hc": "/docs/introduction/visao-geral-da-plataforma",
-    "hc/pt-br": "/docs/introduction/visao-geral-da-plataforma",
-    "hc/pt-br#": "/docs/introduction/visao-geral-da-plataforma",
     "hc/pt-br/categories/360000064412-Pr%C3%A1tica": "/docs/introduction/visao-geral-da-plataforma",
     "hc/pt-br/categories/360000024012-Geral": "/docs/introduction/visao-geral-da-plataforma",
     "hc/pt-br/categories/360000064372-Conceitos": "/docs/introduction/visao-geral-da-plataforma",
@@ -148,6 +145,7 @@ function redirectURL(path) {
     "hc/pt-br/articles/360020501031": "/docs/analytics/botanalytics/como-enviar-dados-botanalytics",
     "hc/pt-br/articles/360020239532": "/docs/analytics/dashbot/como-enviar-dados-dashbot",
     "hc/pt-br/articles/360008821172-Criando-um-bot-router-com-3-subbots": "/docs/router/criando-bot-com-3-subbots"
+    "hc": "/docs/introduction/visao-geral-da-plataforma",    
   };
   var OLD_PATH_LIST = Object.keys(REDIRECT);
   for (var i = 0; i < OLD_PATH_LIST.length; i++) {
