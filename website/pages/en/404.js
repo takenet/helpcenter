@@ -145,7 +145,7 @@ function redirectURL(path) {
     "hc/pt-br/articles/360020501031": "/docs/analytics/botanalytics/como-enviar-dados-botanalytics",
     "hc/pt-br/articles/360020239532": "/docs/analytics/dashbot/como-enviar-dados-dashbot",
     "hc/pt-br/articles/360008821172-Criando-um-bot-router-com-3-subbots": "/docs/router/criando-bot-com-3-subbots"
-    "hc": "/docs/introduction/visao-geral-da-plataforma",    
+    "hc": "/",    
   };
   var OLD_PATH_LIST = Object.keys(REDIRECT);
   for (var i = 0; i < OLD_PATH_LIST.length; i++) {
