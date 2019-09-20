@@ -10,7 +10,7 @@ Apesar disso, em alguns contextos específicos, essas ferramentas podem ser inca
 
 O BLiP Desk é a ferramenta do BLiP que permite que um bot redirecione (transborde) a conversa de um usuário para um atendente humano. Esse redirecionamento acontece de forma transparente para o cliente, ou seja, ele tem a sensação de ainda conversar com o bot, mas é um atendente quem está respondendo. 
 
-Veja abaixo as principais funcionalidades do BLiP Desk.
+Veja abaixo as principais funcionalidades do BLiP Desk. **Note que a apresentação possui regiões "clicáveis", o que facilita encontrar artigos relevantes sobre cada tema.**
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR_ec8f0foelg0Da6FpgXqEcb8ABBEJMXGIc2KG93S8Cl2Bz5H4YNEsOw4bq7bCKiE4JxEAP3OD9bJ-/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>  
 
