@@ -42,7 +42,6 @@ class Beta extends React.Component {
     render() {
         return (
             <div>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
                 <div>
                     <div className="be-beta">
                         <div className="formulario-beta">

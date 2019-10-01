@@ -9676,6 +9676,12 @@ ol {
   background-color: #25a9b9;
 }
 
+.button-beta:disabled{
+  cursor: default;
+  background-color: #c9dfe4;
+  color: #fff;
+  border-width: 0;
+}
 
 .div-aprenda-main {
   display: flex;
