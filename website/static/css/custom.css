@@ -59,7 +59,7 @@
     width: 100%;
     height: 100%;
     left: 100%;
-    margin-top: -46px;
+    margin-top: -54px;
     background: linear-gradient(
       192deg,
       #3d4554 -10.36%,
@@ -565,6 +565,7 @@
 
   .div-beta-main {
     flex-direction: column !important;
+    margin-bottom: -37px !important;
   }
   
   .div-beta-main .info {
@@ -590,7 +591,6 @@
     width: 100%; 
     margin-left: 0 !important;
     margin-top: 5% !important;
-    
   }
 
   
