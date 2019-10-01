@@ -42,21 +42,19 @@ class Beta extends React.Component {
     render() {
         return (
             <div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
                 <div>
                     <div className="be-beta">
                         <div className="formulario-beta">
                             <p className="title">Seja usuário beta!</p>
                             <p className="subtitle">Utilize novas funcionalidades do BLiP antes de serem implementadas</p>
-                            <form id="form-beta" name="form-beta">
                                 <input type="email"
                                     id="emailForm"
                                     name="emailForm"
-                                    required
                                     className="form-input-email-page"
                                     placeholder="Digite o seu e-mail">
                                 </input>
-                                <button id="Bsubmit" disabled className="button-beta-page">Quero ser beta!</button>
-                            </form>
+                                <button id="Bsubmit" disabled={true} className="button-beta-page">Quero ser beta!</button>
                         </div>
                         <div className="illustration-beta">
                             <img src="/img/illustrations/Beta-1.svg" className="beta-img"></img>
@@ -67,27 +65,27 @@ class Beta extends React.Component {
                         <p className="title">Porque ser um usuário beta?</p>
                         <div className="content">
                             <p className="text">As novas funcionalidades do BLiP são disponibilizadas de forma controlada, para grupos de usuários específicos.
-                            Esse processo ajuda a equipe que desenvolve a plataforma a validar algumas hipóteses e 
+                            Esse processo ajuda a equipe que desenvolve a plataforma a validar algumas hipóteses e
                             coletar feedbacks, antes mesmo da funcionalidade estar disponível para todos os clientes.
                             </p>
 
-                            <p className="text">Os usuários beta tem acesso as funcionalidades que <b>ainda estão em fase de avaliação</b>. Essa é uma excelente 
+                            <p className="text">Os usuários beta tem acesso as funcionalidades que <b>ainda estão em fase de avaliação</b>. Essa é uma excelente
                             oportunidade para usuários <i>early adopters</i> que gostam de se aventurar e testar tudo o que há de mais novo no mundo de bots.
                             </p>
 
-                            
+
                             <p className="text">
-                                <b>O programa BLiP Beta não é indicado para contas de usuários que possuem bots em produção</b>. 
+                                <b>O programa BLiP Beta não é indicado para contas de usuários que possuem bots em produção</b>.
                                 Caso esse seja o seu caso, crie um conta de testes e utilize-a como Beta.
                             </p>
                         </div>
 
                         <p className="title">Como dar feedback sobre novas funcionalidades?</p>
                         <div className="content">
-                            <p className="text">O processo de feedbacks para as funcionalidades disponibilizadas para os <b>usuários Beta</b> acontece através 
+                            <p className="text">O processo de feedbacks para as funcionalidades disponibilizadas para os <b>usuários Beta</b> acontece através
                              de contatos por email e também através do <a href="https://ideas.blip.ai" target="blank">BLiP Ideas</a> - portal de sugestões de novas funcionalidades da plataforma.</p>
 
-                            <p className="text">Outra forma de ajudar é reportar qualquer suspeita de problema através do <a href="https://forum.blip.ai" target="blank">Fórum do BLiP</a>. 
+                            <p className="text">Outra forma de ajudar é reportar qualquer suspeita de problema através do <a href="https://forum.blip.ai" target="blank">Fórum do BLiP</a>.
                             Neste caso, abra um ticket no fórum, relatando o problema encontrado</p>
                         </div>
 
@@ -130,44 +128,42 @@ class ScriptForm extends React.Component {
             <script
                 dangerouslySetInnerHTML={{
                     __html: `
-                        var btn = document.getElementById("Bsubmit"),
-                        emailF =  btn.form.emailForm.value;
+                        var btn = document.getElementById("Bsubmit");
+                        emailF =  document.getElementById("emailForm");
                         var modal = document.getElementById("myModal");
                         var span = document.getElementsByClassName("close-beta")[0];
-                        var eForm = btn.form.emailForm;
-            
         
                         btn.onclick = function() {
                         var data = JSON.stringify({
-                            "Email": btn.form.emailForm.value
-                          });
-                          
-                          var xhr = new XMLHttpRequest();
-                          xhr.withCredentials = true;
-                          
-                          xhr.addEventListener("readystatechange", function () {
-                            if (this.readyState === 4) {
+                            "Email": emailF.value
+                        });
+                           axios.post('https://helpcenter-api.azurewebsites.net/api/betauser', {
+                                "Email": emailF.value
+                            }, {
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'Access-Control-Allow-Origin' : '*',
+                                'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+                                'X-Requested-With': 'XMLHttpRequest'
                             }
-                          });
-                          xhr.open("POST", "https://helpcenter-api.azurewebsites.net/api/betauser");
-                          xhr.setRequestHeader("Content-Type", "application/json");
-                          xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
-                          xhr.send(data);
-                          modal.style.display = "block";
-                          event.preventDefault();
- 
-                        }
+                            })
+                            .then(function (response) {
+                                modal.style.display = "block";
+                            });
+                            
+                        };
 
                         span.onclick = function() {
                             modal.style.display = "none";
-                        }
+                        }; 
+                        
 
                     document.getElementById("emailForm").addEventListener("keyup", function() {
                         var nameInput = document.getElementById('emailForm').value;
                         if (nameInput != "") {
                             document.getElementById('Bsubmit').removeAttribute("disabled");
                         } else {
-                            document.getElementById('Bsumit').setAttribute("disabled", null);
+                            document.getElementById('Bsubmit').setAttribute("disabled", null);
                         }
                     });
 
