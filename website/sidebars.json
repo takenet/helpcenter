@@ -278,8 +278,8 @@
       "growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast"
     ],
     "Router": [
-      "router/criando-bot-com-3-subbots",
-      "router/hierarquia-bots-subbots"
+      "router/hierarquia-bots-subbots",
+      "router/criando-bot-com-3-subbots"
     ],
     "API e SDKs": [
       "api-sdks/utilizando-textc-construir-conversa",
