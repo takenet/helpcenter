@@ -59,7 +59,7 @@
     width: 100%;
     height: 100%;
     left: 100%;
-    margin-top: -46px;
+    margin-top: -54px;
     background: linear-gradient(
       192deg,
       #3d4554 -10.36%,
@@ -428,7 +428,6 @@
 
   .formulario-beta .form-input-email-page {
     margin-top: 3%;
-    width: 90% !important;
   }
 
   .beta-contents {
@@ -566,6 +565,7 @@
 
   .div-beta-main {
     flex-direction: column !important;
+    margin-bottom: -37px !important;
   }
   
   .div-beta-main .info {
@@ -591,7 +591,6 @@
     width: 100%; 
     margin-left: 0 !important;
     margin-top: 5% !important;
-    
   }
 
   
@@ -9677,6 +9676,12 @@ ol {
   background-color: #25a9b9;
 }
 
+.button-beta:disabled{
+  cursor: default;
+  background-color: #c9dfe4;
+  color: #fff;
+  border-width: 0;
+}
 
 .div-aprenda-main {
   display: flex;
@@ -10138,7 +10143,7 @@ a.link-footer:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 36%;
+  width: 50%;
 }
 
 .formulario-beta .title {
@@ -10181,7 +10186,7 @@ a.link-footer:hover {
   background-repeat: no-repeat;
   background-color: #ffffff;
   padding: 18px 20px 20px 40px;
-  width: 78%;
+  width: 314px;
   outline: none;
   display: block;
 }
@@ -10190,7 +10195,8 @@ a.link-footer:hover {
   box-sizing: border-box;
   display: inline-block;
   cursor: pointer;
-  min-width: 6rem;
+  min-width: 3rem;
+  width: 314px;
   height: 3.2rem;
   line-height: 1.25rem;
   margin-top: 3%;
@@ -10210,6 +10216,13 @@ a.link-footer:hover {
 
 .button-beta-page:hover {
   background-color: #25a9b9;
+}
+
+.button-beta-page:disabled{
+  cursor: default;
+  background-color: #c9dfe4;
+  color: #fff;
+  border-width: 0;
 }
 
 .beta-contents {

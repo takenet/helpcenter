@@ -262,30 +262,30 @@ class Index extends React.Component {
               <div className="hidden-content">
                 <ul className="ul-recent-accessed">
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/ai/nlp/como-configurar-luis/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Facilitando a criação de seu chatbot através das extensões
+                      Como configurar o Luis como um provedor de Inteligência Artificial
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/whatsapp/arquitetura-do-whatsapp/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Conceitos básicos para utilizar NLP e IA em chatbots
+                      Arquitetura do canal WhatsApp
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/messenger/tipos-conteudo-messenger/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      O que é o BLiP Chat?
+                      Tipos de conteúdo suportados pelo Messenger
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-realizar-um-atendimento-atraves-do-blip-desk/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      O que é o Workplace?
+                      Como realizar um atendimento através do BLiP Desk
                     </a>
                   </li>
                 </ul>
@@ -310,30 +310,30 @@ class Index extends React.Component {
               <div className="hidden-content">
                 <ul className="ul-recent-accessed">
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/introduction/como-criar-um-bot-com-builder/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Facilitando a criação de seu chatbot através das extensões
+                      Como criar um bot com o Builder do BLiP
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/ai/nlp/como-configurar-dialogflow/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Conceitos básicos para utilizar NLP e IA em chatbots
+                      Como configurar o DialogFlow como um provedor de Inteligência Artificial
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/visao-geral-do-builder/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      O que é o BLiP Chat?
+                      Visão geral do Builder
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/concepts/ai/ai-conceitos-basicos-nlp-e-ai" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="docs/channels/whatsapp/enviar-notificacao-whatsapp-blip-api/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      O que é o Workplace?
+                      Enviar notificações WhatsApp via API do BLiP
                     </a>
                   </li>
                 </ul>
@@ -542,7 +542,7 @@ class Index extends React.Component {
             </div>
 
             <div className="div-form-beta">
-              <form id="form-beta" name="form-beta">
+              <div id="form-beta" name="form-beta">
                 <input type="email"
                   id="emailForm"
                   name="emailForm"
@@ -550,8 +550,8 @@ class Index extends React.Component {
                   className="form-input-email"
                   placeholder="Digite o seu e-mail">
                 </input>
-                <button id="Bsubmit" disabled className="button-beta">Quero ser beta!</button>
-              </form>
+                <button id="Bsubmit" disabled={true} className="button-beta">Quero ser beta!</button>
+              </div>
             </div>
 
             <div id="myModal" className="modal-beta">
@@ -581,48 +581,46 @@ class Index extends React.Component {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-                            var btn = document.getElementById("Bsubmit"),
-                            emailF =  btn.form.emailForm.value;
-                            var modal = document.getElementById("myModal");
-                            var span = document.getElementsByClassName("close-beta")[0];
-                            var eForm = btn.form.emailForm;
-                
-            
-                            btn.onclick = function() {
-                            var data = JSON.stringify({
-                                "Email": btn.form.emailForm.value
-                              });
-                              
-                              var xhr = new XMLHttpRequest();
-                              xhr.withCredentials = true;
-                              
-                              xhr.addEventListener("readystatechange", function () {
-                                if (this.readyState === 4) {
-                                }
-                              });
-                              xhr.open("POST", "https://helpcenter-api.azurewebsites.net/api/betauser");
-                              xhr.setRequestHeader("Content-Type", "application/json");
-                              xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
-                              xhr.send(data);
-                              modal.style.display = "block";
-                              event.preventDefault();
-     
-                            }
-    
-                            span.onclick = function() {
-                                modal.style.display = "none";
-                            }
-    
-                        document.getElementById("emailForm").addEventListener("keyup", function() {
-                            var nameInput = document.getElementById('emailForm').value;
-                            if (nameInput != "") {
-                                document.getElementById('Bsubmit').removeAttribute("disabled");
-                            } else {
-                                document.getElementById('Bsumit').setAttribute("disabled", null);
-                            }
+                        var btn = document.getElementById("Bsubmit");
+                        emailF =  document.getElementById("emailForm");
+                        var modal = document.getElementById("myModal");
+                        var span = document.getElementsByClassName("close-beta")[0];
+        
+                        btn.onclick = function() {
+                        var data = JSON.stringify({
+                            "Email": emailF.value
                         });
-    
-                    `
+                           axios.post('https://helpcenter-api.azurewebsites.net/api/betauser', {
+                                "Email": emailF.value
+                            }, {
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'Access-Control-Allow-Origin' : '*',
+                                'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+                                'X-Requested-With': 'XMLHttpRequest'
+                            }
+                            })
+                            .then(function (response) {
+                                modal.style.display = "block";
+                            });
+                            
+                        };
+
+                        span.onclick = function() {
+                            modal.style.display = "none";
+                        }; 
+                        
+
+                    document.getElementById("emailForm").addEventListener("keyup", function() {
+                        var nameInput = document.getElementById('emailForm').value;
+                        if (nameInput != "") {
+                            document.getElementById('Bsubmit').removeAttribute("disabled");
+                        } else {
+                            document.getElementById('Bsubmit').setAttribute("disabled", null);
+                        }
+                    });
+
+                `
             }}
           />
         );

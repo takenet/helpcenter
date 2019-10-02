@@ -46,14 +46,14 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'introduction/visao-geral-da-plataforma', label: 'Artigos'},
-    {page: 'blipareas', label: 'Áreas do BLiP'},
-    {page: 'resources', label: 'Recursos'},
-    {page: 'courses', label: 'Cursos'},
-    {page: 'community', label: 'Comunidade'},
-    {page: 'security', label: 'Políticas'},
-    {languages: true},
-    {search: true}
+    { doc: 'introduction/visao-geral-da-plataforma', label: 'Artigos' },
+    { page: 'blipareas', label: 'Áreas do BLiP' },
+    { page: 'resources', label: 'Recursos' },
+    { page: 'courses', label: 'Cursos' },
+    { page: 'community', label: 'Comunidade' },
+    { page: 'security', label: 'Políticas' },
+    { languages: true },
+    { search: true }
   ],
 
   // If you have users set above, you add it here:
@@ -93,7 +93,10 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js'
+  ],
 
   // On page navigation for the current documentation page.
   //onPageNav: 'separate',
