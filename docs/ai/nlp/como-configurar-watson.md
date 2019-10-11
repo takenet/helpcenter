@@ -31,8 +31,9 @@ Antes de começar, certifique-se de já ter criado sua conta no Watson através 
 
 ![Informando credenciais no blip](/img/ai/nlp/nlp-como-configurar-watson-5.png)<br>
 
-7) **Pronto, seu provedor de NLP já está configurado**. Para saber mais sobre como utilizar o módulo de Inteligência Artificial do BLiP [clique aqui](https://help.blip.ai/hc/pt-br/articles/360004134312-LevelUp-3-Checklist-de-IA).<br><br><br><br>
+7) **Pronto, seu provedor de NLP já está configurado**. Para saber mais sobre como utilizar o módulo de Inteligência Artificial do BLiP [clique aqui](https://help.blip.ai/hc/pt-br/articles/360004134312-LevelUp-3-Checklist-de-IA).<br><br><br>
 
-*Obs.: Caso seu serviço Watson Assistant possua o modo de autenticação antigo (credenciais com username e password), utilize seção AUTENTICAÇÃO POR USUÁRIO E SENHA (MODELO ANTIGO DE AUTENTICAÇÃO), na aba de configuração no portal do BLiP, conforme imagem abaixo.*
+## Atenção!
+Caso o seu bot esteja utilizando a configuração por usuário e senha será necessário mudar para a configuração via chave e url. **No dia 30 de outubro a IBM Watson encerrará o suporte para configuração por usuário e senha**, sendo necessário que todos os bots que a utilizam façam a mudança.
 
-![Opção de autenticação watson no BLiP](/img/ai/nlp/nlp-como-configurar-watson-6.png)
+Para migrar seu bot para a configuração atualizada é preciso seguir todo o processo descrito neste artigo, inclusive o de criação de um novo serviço da IBM Watson. Munido da chave e url do novo serviço, configure seu bot e o treine novamente. Após esse processo seu bot estará atualizado.
