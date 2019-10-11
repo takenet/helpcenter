@@ -22,7 +22,7 @@ A conversa com seu bot começa quando o usuário toca no botão “Começar”.
 ![Webview do canal Messenger](/img/channels/messenger/funcionalidades-messenger-2.png)<br>
 
 ### Meios de interação
-A plataforma do Messenger oferece diversas maneiras de permitir que o usuário encontre e entre em contato com o bot de uma empresa, desde widgets em páginas web até anúncios no Facebook. Para saber mais sobre essa funcionalidade, [acesse este artigo](como-interagir-messenger).
+A plataforma do Messenger oferece diversas maneiras de permitir que o usuário encontre e entre em contato com o bot de uma empresa, desde widgets em páginas web até anúncios no Facebook. Para saber mais sobre essa funcionalidade, [acesse este artigo](https://help.blip.ai/docs/channels/messenger/como-interagir-messenger/).
 
 ### Dados de usuários
 Bots publicados neste canal pelo BLiP conseguem acessar diretamente alguns dados pessoais, como nome e e-mail, por exemplo. Esses dados são fornecidos automaticamente pelo Messenger, baseados naquilo que o usuário informou em sua conta pessoal.
