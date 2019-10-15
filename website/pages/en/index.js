@@ -48,7 +48,7 @@ class HomeSplash extends React.Component {
           </div>
         </div>
         <div className="flexbox-container">
-          <a href="/introduction" className="nonClickable"><div className="card-home-main" id="card1">
+          <a href="/docs/introduction/visao-geral-da-plataforma" className="nonClickable"><div className="card-home-main" id="card1">
             <div className="card-img">
               <div className="section-icon-circle-card section-icon-circle-card--bot">
                 <img src="img/illustrations/Estrela-1.svg" />
@@ -67,7 +67,7 @@ class HomeSplash extends React.Component {
             </div>
           </div></a>
 
-          <a href="/exploring" className="nonClickable"><div className="card-home-main" id="card2">
+          <a href="/blipareas" className="nonClickable"><div className="card-home-main" id="card2">
             <div className="card-img">
               <div className="section-icon-circle-card section-icon-circle-card--watermelon">
                 <img src="img/illustrations/Estrela-2.svg" />
@@ -86,24 +86,26 @@ class HomeSplash extends React.Component {
             </div>
           </div></a>
 
-          <a href="/dominating" className="nonClickable"><div className="card-home-main" id="card3">
-            <div className="card-img">
-              <div className="section-icon-circle-card section-icon-circle-card--warning">
-                <img src="img/illustrations/Estrela-3.svg" />
+          <a href="https://docs.blip.ai" className="nonClickable">
+            <div className="card-home-main" id="card3">
+              <div className="card-img">
+                <div className="section-icon-circle-card section-icon-circle-card--warning">
+                  <img src="img/illustrations/Estrela-3.svg" />
+                </div>
+              </div>
+              <div className="card-info">
+                <div className="card-title">
+                  <p>Dominando o BLiP</p>
+                </div>
+                <div className="card-icon">
+                  <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon>
+                </div>
+                <p className="card-text">Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
+                <a target="blank" href="https://docs.blip.ai" className="card-button">Começar aqui</a>
+                <p className="card-text-mobile">Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
               </div>
             </div>
-            <div className="card-info">
-              <div className="card-title">
-                <p>Dominando o BLiP</p>
-              </div>
-              <div className="card-icon">
-                <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon>
-              </div>
-              <p className="card-text">Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
-              <a target="blank" href="https://docs.blip.ai" className="card-button">Começar aqui</a>
-              <p className="card-text-mobile">Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
-            </div>
-          </div></a>
+          </a>
 
         </div>
       </div>
@@ -418,7 +420,7 @@ class Index extends React.Component {
             <input id="check2-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
-              <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp">WhatsApp </a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp">WhatsApp </a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/businesschat">Apple Business Chat</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/messenger">Messenger </a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/blipchat">BLiP Chat </a></li>
@@ -537,8 +539,8 @@ class Index extends React.Component {
           <div className="div-beta-main">
 
             <div className="info">
-                <p className="title"> Torne-se um usuário beta! </p>
-                <p className="text"> Ao se tornar um usuário beta você será um dos primeiros a testar as novas feautres que serão lançadas</p>
+              <p className="title"> Torne-se um usuário beta! </p>
+              <p className="text"> Ao se tornar um usuário beta você será um dos primeiros a testar as novas feautres que serão lançadas</p>
             </div>
 
             <div className="div-form-beta">
@@ -555,19 +557,19 @@ class Index extends React.Component {
             </div>
 
             <div id="myModal" className="modal-beta">
-                    <div className="modal-beta-content">
-                        <div className="modal-beta-header">
-                            <BlipIcon name="checkball-outline" className="bp-fs-1 bp-fill-white"></BlipIcon>
-                            <p className="modal-beta-title">Parabéns, você agora é um beta!</p>
-                        </div>
-                        <div className="modal-beta-body">
-                            <p className="modal-beta-text">Em alguns instantes você vai receber um e-mail com mais informações</p>
-                            <button className="close-beta" > Ok</button>
-                        </div>
-                    </div>
+              <div className="modal-beta-content">
+                <div className="modal-beta-header">
+                  <BlipIcon name="checkball-outline" className="bp-fs-1 bp-fill-white"></BlipIcon>
+                  <p className="modal-beta-title">Parabéns, você agora é um beta!</p>
                 </div>
+                <div className="modal-beta-body">
+                  <p className="modal-beta-text">Em alguns instantes você vai receber um e-mail com mais informações</p>
+                  <button className="close-beta" > Ok</button>
+                </div>
+              </div>
+            </div>
 
-          <ScriptForm />
+            <ScriptForm />
 
           </div>
 
