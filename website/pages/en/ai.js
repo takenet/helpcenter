@@ -40,6 +40,13 @@ const data = {
       "text": "Ver mais!"
     },
     {
+      "title": "Boas Práticas para criação de exemplos em bases de conhecimento",
+      "type": "text",
+      "url": "/docs/ai/nlp/boas-praticas-exemplos-base-conhecimento",
+      "abstract": "Veja neste artigo o que é uma entidade e quando você deve utilizá-las.",
+      "text": "Ver mais!"
+    },
+    {
       "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
       "type": "text",
       "url": "/docs/ai/nlp/como-configurar-dialogflow",

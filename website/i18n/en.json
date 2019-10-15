@@ -5,6 +5,10 @@
     "previous": "Previous",
     "tagline": "BLiP | Help Center",
     "docs": {
+      "ai/nlp/boas-praticas-exemplos-base-conhecimento": {
+        "title": "Boas Práticas para criação de exemplos em bases de conhecimento",
+        "sidebar_label": "Boas Práticas para criação de exemplos em bases de conhecimento"
+      },
       "ai/nlp/boas-praticas-para-criar-um-bom-modelo-nlp": {
         "title": "Boas práticas para criar um bom modelo de NLP",
         "sidebar_label": "Boas práticas para criar um bom modelo de NLP"
