@@ -65,6 +65,10 @@
         "title": "Treinando e publicando seu modelo de inteligência artificial",
         "sidebar_label": "Treinando e publicando seu modelo de inteligência artificial"
       },
+      "ai/nlp/utilizando-arquivos-teste-analise-modelo-ia": {
+        "title": "Utilizando arquivos de teste para análise do modelo de IA",
+        "sidebar_label": "Utilizando arquivos de teste para análise do modelo de IA"
+      },
       "analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado": {
         "title": "Criando gráficos em um relatório customizado",
         "sidebar_label": "Criando gráficos em um relatório customizado"

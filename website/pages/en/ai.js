@@ -102,6 +102,13 @@ const data = {
       "abstract": "Depois de configurar um provedor, criar, treinar, testar e publicar um modelo, é hora de aprimorá-lo 😃🏆",
       "text": "Ver mais!"
     },
+    {
+      "title": "Utilizando arquivos de teste para análise do modelo de IA",
+      "type": "text",
+      "url": "/docs/ai/nlp/utilizando-arquivos-teste-analise-modelo-ia",
+      "abstract": "Aprenda a criar e utilizar arquivos de teste para a análise do seu modelo NLP",
+      "text": "Ver mais!"
+    }
     
   ]
 };
