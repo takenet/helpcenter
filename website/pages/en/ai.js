@@ -40,6 +40,13 @@ const data = {
       "text": "Ver mais!"
     },
     {
+      "title": "Boas Práticas para criação de exemplos em bases de conhecimento",
+      "type": "text",
+      "url": "/docs/ai/nlp/boas-praticas-exemplos-base-conhecimento",
+      "abstract": "Veja boas práticas e dicas de como criar seu conjunto de intenções da melhor maneira possível.",
+      "text": "Ver mais!"
+    },
+    {
       "title": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
       "type": "text",
       "url": "/docs/ai/nlp/como-configurar-dialogflow",
@@ -102,6 +109,13 @@ const data = {
       "abstract": "Depois de configurar um provedor, criar, treinar, testar e publicar um modelo, é hora de aprimorá-lo 😃🏆",
       "text": "Ver mais!"
     },
+    {
+      "title": "Utilizando arquivos de teste para análise do modelo de IA",
+      "type": "text",
+      "url": "/docs/ai/nlp/utilizando-arquivos-teste-analise-modelo-ia",
+      "abstract": "Aprenda a criar e utilizar arquivos de teste para a análise do seu modelo NLP",
+      "text": "Ver mais!"
+    }
     
   ]
 };

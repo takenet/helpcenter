@@ -5,6 +5,10 @@
     "previous": "Previous",
     "tagline": "BLiP | Help Center",
     "docs": {
+      "ai/nlp/boas-praticas-exemplos-base-conhecimento": {
+        "title": "Boas Práticas para criação de exemplos em bases de conhecimento",
+        "sidebar_label": "Boas Práticas para criação de exemplos em bases de conhecimento"
+      },
       "ai/nlp/boas-praticas-para-criar-um-bom-modelo-nlp": {
         "title": "Boas práticas para criar um bom modelo de NLP",
         "sidebar_label": "Boas práticas para criar um bom modelo de NLP"
@@ -64,6 +68,10 @@
       "ai/nlp/treinando-publicando-modelo-de-ia": {
         "title": "Treinando e publicando seu modelo de inteligência artificial",
         "sidebar_label": "Treinando e publicando seu modelo de inteligência artificial"
+      },
+      "ai/nlp/utilizando-arquivos-teste-analise-modelo-ia": {
+        "title": "Utilizando arquivos de teste para análise do modelo de IA",
+        "sidebar_label": "Utilizando arquivos de teste para análise do modelo de IA"
       },
       "analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado": {
         "title": "Criando gráficos em um relatório customizado",

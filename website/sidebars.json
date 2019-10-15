@@ -180,6 +180,7 @@
           "ai/nlp/importancia-de-ia-nlp-chatbots",
           "ai/nlp/o-que-e-intencao",
           "ai/nlp/o-que-e-entidade",
+          "ai/nlp/boas-praticas-exemplos-base-conhecimento",
           "ai/nlp/como-configurar-dialogflow",
           "ai/nlp/como-configurar-watson",
           "ai/nlp/como-configurar-luis",
@@ -190,7 +191,8 @@
           "ai/nlp/boas-praticas-para-criar-um-bom-modelo-nlp",
           "ai/nlp/importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip",
           "ai/nlp/como-exportar-base-conhecimento",
-          "ai/nlp/como-aprimorar-meu-modelo-de-inteligencia-artificial"
+          "ai/nlp/como-aprimorar-meu-modelo-de-inteligencia-artificial",
+          "ai/nlp/utilizando-arquivos-teste-analise-modelo-ia"
         ]
       }
     ],
