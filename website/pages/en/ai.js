@@ -43,7 +43,7 @@ const data = {
       "title": "Boas Práticas para criação de exemplos em bases de conhecimento",
       "type": "text",
       "url": "/docs/ai/nlp/boas-praticas-exemplos-base-conhecimento",
-      "abstract": "Veja neste artigo o que é uma entidade e quando você deve utilizá-las.",
+      "abstract": "Veja boas práticas e dicas de como criar seu conjunto de intenções da melhor maneira possível.",
       "text": "Ver mais!"
     },
     {
