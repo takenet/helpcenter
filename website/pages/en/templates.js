@@ -37,7 +37,7 @@ class Template extends React.Component {
                             <p className="subtitle-templates">Modelos criados pela comunidade para facilitar a criação e implementação de chatbots em sua empresa!</p>
                         </div>
                         <div className="image-templates">
-                            <img className="img" src="/img/illustrations/watson-logo.png" />
+                            <img className="img" src="/img/illustrations/ilustracao-templates.svg" />
                         </div>
                     </div>
                 </div>
