@@ -27,7 +27,7 @@ class Template extends React.Component {
     render() {
         return (
 
-            <div>
+            <div className="templates-page">
 
                 {/* Topo */}
                 <div>
@@ -73,7 +73,7 @@ class Template extends React.Component {
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
                                 <div className="seeMore-card-templates">
-                                    <p className="text">Ver detalhes</p>
+                                    <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ class Template extends React.Component {
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
                                 <div className="seeMore-card-templates">
-                                    <p className="text">Ver detalhes</p>
+                                    <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@ class Template extends React.Component {
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
                                 <div className="seeMore-card-templates">
-                                    <p className="text">Ver detalhes</p>
+                                    <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@ class Template extends React.Component {
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
                                 <div className="seeMore-card-templates">
-                                    <p className="text">Ver detalhes</p>
+                                    <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                 </div>
                             </div>
@@ -128,7 +128,7 @@ class Template extends React.Component {
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
                                 <div className="seeMore-card-templates">
-                                    <p className="text">Ver detalhes</p>
+                                    <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@ class Template extends React.Component {
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
                                 <div className="seeMore-card-templates">
-                                    <p className="text">Ver detalhes</p>
+                                    <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                 </div>
                             </div>
