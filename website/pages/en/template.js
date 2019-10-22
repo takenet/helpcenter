@@ -120,7 +120,7 @@ class Detail extends React.Component {
                     <div className="tabs-area">
                         <div className="tab">
                             <button id="TabDetails" className="tablinks-active">Detalhes</button>
-                            <button id="TabInstall" className="tablinks">Como instalar?</button>
+                            <button id="TabInstall" className="tablinks">Instalação</button>
                             <button id="TabSupport" className="tablinks">Suporte</button>
                         </div>
 
