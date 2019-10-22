@@ -721,6 +721,194 @@
     line-height: 100%;
     color: #607b99;
   }
+
+  .pages-top-templates {
+    margin-top: -20px !important;
+    min-height: 193px !important;
+  }
+  
+  .pages-top-templates .main-templates {
+    padding-left: 20px !important;
+    padding-top: 52px !important;
+    padding-bottom: 59px !important;
+  }
+  
+  .image-templates .img {
+    width: 158px !important;
+    margin-left: 2% !important;
+  }
+  
+  .main-templates .title-templates {
+    font-size: 32px !important;
+    line-height: 120% !important;
+  }
+  
+  .main-templates .subtitle-templates {
+    display: none !important;
+  }
+  
+  .pages-content-templates{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+
+  .info-templates .intro-templates {
+    line-height: 22px !important;
+    width: 100% !important;
+  }
+  
+  .pages-content-templates .navigation {
+    display: none !important;
+  }
+  
+  .pages-content-templates .cards-templates {
+    flex-direction: column !important;
+  }
+  
+  .cards-templates .card-templates {
+    width: 290px !important;
+    max-width: 90% !important;
+    height: 209px;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .banner-templates-section {
+    height: 170px !important;
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  
+  .banner-content {
+    flex-direction: column !important;
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+    padding-left: 16px !important;
+  }
+  
+  .banner-text {
+    margin-right: 0 px !important;    
+  }
+  
+  .banner-button {
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    width: 128px;
+    min-width: 128px;
+    height: 35px;
+    line-height: 1.25rem;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    font-weight: normal;
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2cc3d5;
+    border: 1px solid #2cc3d5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: -1%;
+  }
+  
+  .banner-button:hover {
+    background-color: #25a9b9;
+  }
+  
+  .cards-templates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .cards-templates .card-templates {
+    background: #ffffff;
+    border: 1px solid rgba(96, 123, 153, 0.15);
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 22%;
+    height: 338px;
+    min-height: 338px;
+    transition: transform 0.4s ease;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    padding: 0;
+    text-overflow: ellipsis;
+  }
+  
+  .cards-templates .card-templates:nth-child(1) {
+    margin-left: 0%;
+  }
+  
+  .cards-templates .card-templates:nth-child(4n - 3) {
+    margin-left: 0%;
+  }
+  
+  .text-card-templates {
+    padding-left: 13px;
+    padding-top: 13px;
+  }
+  
+  .title-card-templates {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #52636c;
+    margin-bottom: 8px;
+  }
+  
+  .creator-card-templates {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    color: #8ca0b3;
+    margin-bottom: 24px;
+  }
+  
+  .category-card-templates {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 60px;
+    height: 23px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    color: #ffffff;
+    background-color: #2cc3d5;
+    border: 1px solid #2cc3d5;
+    box-sizing: border-box;
+    border-radius: 100px;
+    pointer-events: none;
+    margin-bottom: 12px;
+  }
+  
+  .seeMore-card-templates {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .seeMore-card-templates .text-seeMore {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.25rem;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #2cc3d5;
+    margin-top: -1%;
+    margin-right: 2%;
+  }
 }
 
 @media only screen and (min-device-width: 737px) {
@@ -11602,7 +11790,6 @@ a.link-from {
   margin-top: 10px;
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 65%;
   position: relative;
@@ -11614,7 +11801,6 @@ a.link-from {
   flex-direction: row;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: block;
 }
@@ -11634,36 +11820,7 @@ a.link-from {
   display: none;
 }
 
-/* Next & previous buttons */
-#prev,
-#next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.2);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
 
-/* Position the "next button" to the right */
-#next {
-  right: 3%;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-#prev:hover,
-#next:hover {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-/* The dots/bullets/indicators */
 .dots {
   width: 100%;
   margin-top: 3%;
@@ -11688,7 +11845,7 @@ a.link-from {
   background-color: #2cc3d5;
 }
 
-/* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -11727,14 +11884,14 @@ a.link-from {
   max-width: 80%;
 }
 
-/* Style the tab */
+
 .tab {
   overflow: hidden;
   border-bottom: 1px solid #d2dfe6;
   width: 125%;
 }
 
-/* Style the buttons that are used to open the tab content */
+
 .tablinks {
   background-color: Transparent;
   background-repeat: no-repeat;
@@ -11751,12 +11908,12 @@ a.link-from {
   margin-right: 40px;
 }
 
-/* Change background color of buttons on hover */
+
 .tablinks:hover {
   border-bottom: 5px solid #2cc3d5;
 }
 
-/* Create an active/current tablink class */
+
 .tablinks-active {
   background-color: Transparent;
   background-repeat: no-repeat;
@@ -11774,7 +11931,7 @@ a.link-from {
   margin-right: 40px;
 }
 
-/* Style the tab content */
+
 .tabcontent {
   padding-top: 30px;
   display: none;
