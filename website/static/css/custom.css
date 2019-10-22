@@ -11730,6 +11730,8 @@ a.link-from {
 /* Style the tab */
 .tab {
   overflow: hidden;
+  border-bottom: 1px solid #d2dfe6;
+  width: 125%;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -11746,12 +11748,12 @@ a.link-from {
   font-size: 20px;
   line-height: 100%;
   color: #52636c;
-  transition: 0.3s;
+  margin-right: 40px;
 }
 
 /* Change background color of buttons on hover */
 .tablinks:hover {
-  border-bottom: 4px solid #2CC3D5;
+  border-bottom: 5px solid #2cc3d5;
 }
 
 /* Create an active/current tablink class */
@@ -11768,7 +11770,8 @@ a.link-from {
   font-size: 20px;
   line-height: 100%;
   color: #52636c;
-  border-bottom: 4px solid #2CC3D5;
+  border-bottom: 5px solid #2cc3d5;
+  margin-right: 40px;
 }
 
 /* Style the tab content */
@@ -11824,7 +11827,7 @@ a.link-from {
 }
 
 .td-details {
-  text-align: center;
+  text-align: left;
   background: #f5f8f9;
   width: 287px;
   font-family: Nunito Sans;
@@ -11832,4 +11835,200 @@ a.link-from {
   font-weight: bold;
   font-size: 14px;
   line-height: 22px;
+  padding-left: 20px;
+}
+
+.td-details-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.bp-fs-3-details {
+  flex-shrink: 0;
+  font-size: 1.5rem;
+  margin-right: 5%;
+}
+
+.buttons-details {
+  margin-top: 48px;
+  margin-bottom: 169px;
+}
+
+.button-details-download {
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+  min-width: 123px;
+  min-height: 2.2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #2cc3d5;
+  border: 1px solid #2cc3d5;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button-details-download:hover {
+  background-color: #25a9b9;
+}
+
+.button-content-download {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.875rem;
+  font-weight: normal;
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.icon-button-download {
+  flex-shrink: 0;
+  font-size: 1.5rem;
+  fill: #ffffff;
+  margin: auto;
+  margin-right: 5px;
+}
+
+.text-button-download {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 150%;
+  color: #ffffff;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.button-details-see {
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+  min-width: 123px;
+  min-height: 2.2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 1px solid #2cc3d5;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+.button-content-see {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.875rem;
+  font-weight: normal;
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.icon-button-see {
+  flex-shrink: 0;
+  font-size: 1.5rem;
+  fill: #2CC3D5;
+  margin: auto;
+  margin-right: 5px;
+}
+
+.text-button-see {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #2cc3d5;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.img-active {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.modalBot {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  padding-bottom: 50px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content-bot {
+  margin: auto;
+  display: block;
+  width: 400px;
+  height: 559px;
+  background-color: white;
+}
+
+.modal-content-bot {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+.iframe-bot{
+  width: 100%;
+  height: 100%;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+.closeBot {
+  position: absolute;
+  color: gray;
+  margin-left: 365px;
+  margin-top: -1%;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 0;
+}
+
+.closeBot:hover,
+.closeBot:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }

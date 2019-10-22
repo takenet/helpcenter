@@ -51,7 +51,26 @@ class Detail extends React.Component {
                             <p className="subtitle-details">Genialidade é fruto de muito hardwork. Você tá realmente obcecado pelos seus sonhos?
                                 Construa algo que seja top. Viva em busca da masterização e do profissionalismo, every f*ing day.
                                 O inconformismo é o combustível da alta performance. A vida acontece de você e não pra você. Walk the f*ing talk.</p>
+                            <div className="buttons-details">
+                                <a href="/img/illustrations/carousel-1.svg"
+                                download="blipTest" target="blank"><button className="button-details-download">
+                                    <div className="button-content-download">
+                                        <BlipIcon name="download" className="icon-button-download"></BlipIcon>
+                                        <p className="text-button-download">Download</p>
+                                    </div>
+                                </button></a>
+
+                                <button className="button-details-see">
+                                    <div className="button-content-see">
+                                        <BlipIcon name="open-eye" className="icon-button-see"></BlipIcon>
+                                        <p className="text-button-see">Visualizar</p>
+                                    </div>
+                                </button>
+
+                            </div>
+
                         </div>
+
                         <div className="slideshow-container">
                             <div className="carousel">
                                 <div className="mySlides fade">
@@ -74,19 +93,26 @@ class Detail extends React.Component {
                                     <img className="img-disabled" src="/img/illustrations/carousel-2.svg" ></img>
                                 </div>
 
-                                <a id="prev" className="arrow-carousel">&#10094;</a>
-                                <a id="next" className="arrow-carousel">&#10095;</a>
                             </div>
                             <div className="dots">
-                                <span className="dot"></span>
-                                <span className="dot"></span>
-                                <span className="dot"></span>
+                                <span id="0" className="dot"></span>
+                                <span id="1"className="dot"></span>
+                                <span id="2"className="dot"></span>
+                                <span id="3" className="dot"></span>
+                                <span id="4" className="dot"></span>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
+
+                 {/* Modal bot */}
+                 <div id="modalBot" class="modalBot">
+                        <div class="modal-content-bot">
+                            <span class="closeBot">&times;</span>
+                            <iframe className="iframe-bot" src="https://chat.blip.ai/?appKey=ZGVtb2JvdDQ6NzQxYjc5YzktMmNjYS00ZGRjLThlODQtZWIwYmRlODkyNmU3"></iframe>
+                        </div>
+                </div>    
+                   
 
                 {/* Conteudo */}
                 <div className="page-content-details">
@@ -124,13 +150,55 @@ class Detail extends React.Component {
                         </div>
 
                         <div id="Install" className="tabcontent">
-                            <h3>Install</h3>
-                            <p>Details is the capital of France.</p>
+                            <p className="content-title">Como instalar?</p>
+                            <p className="content-text"> Do mesmo modo, a valorização de fatores subjetivos nos obriga à análise das condições epistemológicas e cognitivas
+                                exigidas. Por outro lado, o desafiador cenário globalizado cumpre um papel essencial na formulação das considerações
+                                acima? Nada se pode dizer, pois sobre o que não se pode falar, deve-se calar. Assim mesmo, a estrutura atual da ideação
+                                semântica exige a precisão e a definição dos prospectos condicionalizantes e necessários a todo juízo empírico.
+                                Antes de mais nada, a inter-independência da objetivação e subjetivação auxilia a preparação e a composição das
+                                posturas dos filósofos divergentes com relação às atribuições conceituais. Se a própria desterritorialização relativa
+                                se projeta sobre a indeterminação contínua de distintas formas de fenômeno unificou os a priori sensíveis e
+                                intelectuais numa determinação recíproca das novas teorias propostas.</p>
+
+                            <p className="content-text">Finalmente, por trás dessa questão do sujeito e da realidade a consolidação das estruturas psico-lógicas assume importantes posições no
+                                estabelecimento da natureza não-filosófica dos conceitos. Acima de tudo, o conceito de diáthesis e os princípios fundamentais de rhytmos e
+                                arrythmiston permite um conhecimento geral de todo ser, sensível ou não sensível, da determinação do Ser enquanto Ser. Como Deleuze
+                                eloquentemente mostrou, o início da atividade geral de formação de conceitos é condição necessária dos paradigmas filosóficos.
+                                Um teórico da redundância negaria que a teoria de Fliess obstaculiza a apreciação da importância dos relacionamentos verticais
+                                entre as hierarquias conceituais. Neste momento o leitor deve reconhecer que acabei de demolir as bases da metafísica de Heidegger,
+                                pois o Übermensch de Nietzsche, ou seja, o Super-Homem, nos arrasta ao labirinto de sofismas obscuros do processo de comunicação
+                                como um todo.</p>
+
+                            <p className="content-text">No entanto, não podemos esquecer que o fenômeno da Internet obstaculiza a admissão de uma ontologia das ciências discursivas.
+                                Poderia ser sugerido, entretanto, que a hegemonia do ambiente político resultou no abandono das relações entre o conteúdo proposicional
+                                e o figurado. Segundo Heidegger, o plano de imanência pré-filosófico ainda não demonstrou convincentemente como vai participar na
+                                mudança das múltiplas direções do ponto de transcendência do sentido enunciativo.</p>
                         </div>
 
                         <div id="Support" className="tabcontent">
-                            <h3>Support</h3>
-                            <p>Support is the capital of Japan.</p>
+                            <p className="content-title">Suporte</p>
+                            <p className="content-text"> Do mesmo modo, a valorização de fatores subjetivos nos obriga à análise das condições epistemológicas e cognitivas
+                                exigidas. Por outro lado, o desafiador cenário globalizado cumpre um papel essencial na formulação das considerações
+                                acima? Nada se pode dizer, pois sobre o que não se pode falar, deve-se calar. Assim mesmo, a estrutura atual da ideação
+                                semântica exige a precisão e a definição dos prospectos condicionalizantes e necessários a todo juízo empírico.
+                                Antes de mais nada, a inter-independência da objetivação e subjetivação auxilia a preparação e a composição das
+                                posturas dos filósofos divergentes com relação às atribuições conceituais. Se a própria desterritorialização relativa
+                                se projeta sobre a indeterminação contínua de distintas formas de fenômeno unificou os a priori sensíveis e
+                                intelectuais numa determinação recíproca das novas teorias propostas.</p>
+
+                            <p className="content-text">Finalmente, por trás dessa questão do sujeito e da realidade a consolidação das estruturas psico-lógicas assume importantes posições no
+                                estabelecimento da natureza não-filosófica dos conceitos. Acima de tudo, o conceito de diáthesis e os princípios fundamentais de rhytmos e
+                                arrythmiston permite um conhecimento geral de todo ser, sensível ou não sensível, da determinação do Ser enquanto Ser. Como Deleuze
+                                eloquentemente mostrou, o início da atividade geral de formação de conceitos é condição necessária dos paradigmas filosóficos.
+                                Um teórico da redundância negaria que a teoria de Fliess obstaculiza a apreciação da importância dos relacionamentos verticais
+                                entre as hierarquias conceituais. Neste momento o leitor deve reconhecer que acabei de demolir as bases da metafísica de Heidegger,
+                                pois o Übermensch de Nietzsche, ou seja, o Super-Homem, nos arrasta ao labirinto de sofismas obscuros do processo de comunicação
+                                como um todo.</p>
+
+                            <p className="content-text">No entanto, não podemos esquecer que o fenômeno da Internet obstaculiza a admissão de uma ontologia das ciências discursivas.
+                                Poderia ser sugerido, entretanto, que a hegemonia do ambiente político resultou no abandono das relações entre o conteúdo proposicional
+                                e o figurado. Segundo Heidegger, o plano de imanência pré-filosófico ainda não demonstrou convincentemente como vai participar na
+                                mudança das múltiplas direções do ponto de transcendência do sentido enunciativo.</p>
                         </div>
                     </div>
 
@@ -138,34 +206,84 @@ class Detail extends React.Component {
                         <p className="content-title">Funcionalidades</p>
                         <table>
                             <tr className="tr-details">
-                                <td className="td-details">Funcionalidade 1</td>
+                                <td className="td-details">
+                                    <div className="td-details-content">
+                                        <BlipIcon name="true" className="bp-fs-3-details"></BlipIcon>
+                                        Funcionalidade 1
+                                    </div>
+                                </td>
                             </tr>
                             <tr className="tr-details">
-                                <td className="td-details">Funcionalidade 1</td>
+                                <td className="td-details">
+                                    <div className="td-details-content">
+                                        <BlipIcon name="true" className="bp-fs-3-details"></BlipIcon>
+                                        Funcionalidade 1
+                                    </div>
+                                </td>
                             </tr>
                             <tr className="tr-details">
-                                <td className="td-details">Funcionalidade 1</td>
+                                <td className="td-details">
+                                    <div className="td-details-content">
+                                        <BlipIcon name="true" className="bp-fs-3-details"></BlipIcon>
+                                        Funcionalidade 1
+                                    </div>
+                                </td>
                             </tr>
                             <tr className="tr-details">
-                                <td className="td-details">Funcionalidade 1</td>
+                                <td className="td-details">
+                                    <div className="td-details-content">
+                                        <BlipIcon name="true" className="bp-fs-3-details"></BlipIcon>
+                                        Funcionalidade 1
+                                    </div>
+                                </td>
                             </tr>
                             <tr className="tr-details">
-                                <td className="td-details">Funcionalidade 1</td>
+                                <td className="td-details">
+                                    <div className="td-details-content">
+                                        <BlipIcon name="true" className="bp-fs-3-details"></BlipIcon>
+                                        Funcionalidade 1
+                                    </div>
+                                </td>
                             </tr>
                             <tr className="tr-details">
-                                <td className="td-details">Funcionalidade 1</td>
+                                <td className="td-details">
+                                    <div className="td-details-content">
+                                        <BlipIcon name="true" className="bp-fs-3-details"></BlipIcon>
+                                        Funcionalidade 1
+                                    </div>
+                                </td>
                             </tr>
                             <tr className="tr-details">
-                                <td className="td-details">Funcionalidade 1</td>
+                                <td className="td-details">
+                                    <div className="td-details-content">
+                                        <BlipIcon name="true" className="bp-fs-3-details"></BlipIcon>
+                                        Funcionalidade 1
+                                    </div>
+                                </td>
                             </tr>
                             <tr className="tr-details">
-                                <td className="td-details">Funcionalidade 1</td>
+                                <td className="td-details">
+                                    <div className="td-details-content">
+                                        <BlipIcon name="true" className="bp-fs-3-details"></BlipIcon>
+                                        Funcionalidade 1
+                                    </div>
+                                </td>
                             </tr>
                             <tr className="tr-details">
-                                <td className="td-details">Funcionalidade 1</td>
+                                <td className="td-details">
+                                    <div className="td-details-content">
+                                        <BlipIcon name="true" className="bp-fs-3-details"></BlipIcon>
+                                        Funcionalidade 1
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
-                                <td className="td-details">Funcionalidade 1</td>
+                                <td className="td-details">
+                                    <div className="td-details-content">
+                                        <BlipIcon name="true" className="bp-fs-3-details"></BlipIcon>
+                                        Funcionalidade 1
+                                    </div>
+                                </td>
                             </tr>
                         </table>
                     </div>
@@ -174,6 +292,7 @@ class Detail extends React.Component {
                 </div>
                 <ScriptCarousel></ScriptCarousel>
                 <ScriptTabs></ScriptTabs>
+                <ScriptModalBot></ScriptModalBot>
             </div>
         );
     }
@@ -185,45 +304,53 @@ class ScriptCarousel extends React.Component {
             <script
                 dangerouslySetInnerHTML={{
                     __html: `
-                    var clickNext = 0;
-                    var clickPrev = 0;
+                    var init = true;
                     var slideIndex = 1;
-                    var arrows = document.getElementsByClassName("arrow-carousel");
                     var dots = document.getElementsByClassName("dot");
+                    
                     showSlides(slideIndex);
 
-                    arrows[0].onclick = function(){
-                        clickPrev ++;
-                        showSlides(slideIndex += -1);
+                    for (var j = 0; j < dots.length; j++){
+                       dots[j].addEventListener('click',
+                            function(){
+                                showSlides(parseInt(this.id));
+                            }, false);
                     }
-
-                    arrows[1].onclick = function(){
-                        clickNext ++;
-                        showSlides(slideIndex += 1);
-                    }
-                   
+       
                     function showSlides(n) {
                         var i;
                         var slides = document.getElementsByClassName("mySlides");
-                        if (n >= slides.length) {
-                            slideIndex = 0
-                        }
-                        if (n < 0){
-                            slideIndex = slides.length-1;
-                        }
-                        
+                        slideIndex = n;
+                                            
                         for (i = 0; i < slides.length; i++) {
-                            if (! slides[i].getElementsByTagName('img')[0].className == "img-disabled")
-                            slides[i].getElementsByTagName('img')[0].className = "img-inactive";
+                            slides[i].getElementsByTagName('img')[0].className = "img-disabled";
+                            
                         }
+                            
                         for (i = 0; i < dots.length; i++) {
                             dots[i].className = dots[i].className.replace(" active", "");
                         }
-                        slides[slideIndex].getElementsByTagName('img')[0].className = "img-active";
-                        dots[slideIndex].className += " active";
-                        slides[slideIndex-1].getElementsByTagName('img')[0].className = "img-disabled";
-                        slides[slideIndex+1].getElementsByTagName('img')[0].className = "img-inactive";
-                    }
+                        if (init == true){
+                            slides[slideIndex-1].getElementsByTagName('img')[0].className = "img-inactive";
+                            slides[slideIndex].getElementsByTagName('img')[0].className = "img-active";
+                            slides[slideIndex+1].getElementsByTagName('img')[0].className = "img-inactive";
+                            dots[slideIndex].className += " active";
+                            init = false;
+                            
+                        }
+                        else if (init != true){
+                            dots[slideIndex].className += " active";
+                            slides[slideIndex].getElementsByTagName('img')[0].className = "img-active";
+                           
+                            if (slides[slideIndex-1]){
+                                slides[slideIndex-1].getElementsByTagName('img')[0].className = "img-inactive";
+                            }
+                            if (slides[slideIndex+1]){
+                                slides[slideIndex+1].getElementsByTagName('img')[0].className = "img-inactive";
+                            }
+                           
+                        }
+                    }                 
 
                 `
                 }}
@@ -239,6 +366,7 @@ class ScriptTabs extends React.Component {
                 dangerouslySetInnerHTML={{
                     __html: `
                     var tabDetails = document.getElementById("TabDetails");
+                    tabDetails.disabled = true;
                     document.getElementById("Details").style.display = "block";
                     var tabInstall = document.getElementById("TabInstall");
                     var tabSupport = document.getElementById("TabSupport");
@@ -257,6 +385,11 @@ class ScriptTabs extends React.Component {
 
                         document.getElementById("Details").style.display = "block";
                         tabDetails.className += "-active";
+                        tabDetails.disabled = true;
+                        tabInstall.disabled = false;
+                        tabInstall.className = "tablinks";
+                        tabSupport.disabled = false;
+                        tabSupport.className = "tablinks";
                     }
 
                     tabInstall.onclick = function() {
@@ -273,6 +406,11 @@ class ScriptTabs extends React.Component {
 
                         document.getElementById("Install").style.display = "block";
                         tabInstall.className += "-active";
+                        tabInstall.disabled = true;
+                        tabDetails.disabled = false;
+                        tabDetails.className = "tablinks";
+                        tabSupport.disabled = false;
+                        tabSupport.className = "tablinks";
                     }
 
                     tabSupport.onclick = function() {
@@ -289,6 +427,41 @@ class ScriptTabs extends React.Component {
 
                         document.getElementById("Support").style.display = "block";
                         tabSupport.className += "-active";
+                        tabSupport.disabled = true;
+                        tabDetails.disabled = false;
+                        tabDetails.className = "tablinks";
+                        tabInstall.disabled = false;
+                        tabInstall.className = "tablinks";
+                    }
+
+                `
+                }}
+            />
+        );
+    }
+}
+
+class ScriptModalBot extends React.Component {
+    render() {
+        return (
+            <script
+                dangerouslySetInnerHTML={{
+                    __html: `
+                    var modalBot = document.getElementById("modalBot");
+                    var btn = document.getElementsByClassName('button-details-see')[0];
+                    var span = document.getElementsByClassName('closeBot')[0];
+                    btn.onclick = function(){
+                        modalBot.style.display = "block";
+                    }
+
+                    span.onclick = function() { 
+                        modalBot.style.display = "none";
+                    }
+
+                    window.onclick = function(event) {
+                        if (event.target == modalBot) {
+                            modalBot.style.display = "none";
+                        }
                     }
 
                 `
