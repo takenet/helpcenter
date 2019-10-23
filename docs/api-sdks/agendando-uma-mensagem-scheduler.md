@@ -8,7 +8,7 @@ Ao criar um chatbot de lembretes, é imprescindível a funcionalidade de agendam
 
 Lembrar-me de tomar remédio em 10 minutos
 
-Neste caso, seu chatbot precisa enteder o contexto da conversa, extrair as infromações de comando e finalmente agendar uma mensagem para os próximos 10 minutos. Para entender o contexto e extrair as inforamações necessárias você pode utilizar o [TextC](https://github.com/takenet/textc-csharp) por exemplo. Os artigos[ Chatbots e a importância do contexto](https://help.blip.ai/hc/pt-br/articles/360000664031) e [Construindo um chatbot assistente virtual utilizando o Textc](https://help.blip.ai/hc/pt-br/articles/360000648192) explicam como utilizar essa ferramenta, na difícil e importante tarefa de entender o contexto de uma conversa.
+Neste caso, seu chatbot precisa enteder o contexto da conversa, extrair as infromações de comando e finalmente agendar uma mensagem para os próximos 10 minutos.
 
 Neste artigo, Vamos nos preocupar apenas com o agendamento da mensagem.
 

@@ -284,7 +284,6 @@
       "router/criando-bot-com-3-subbots"
     ],
     "API e SDKs": [
-      "api-sdks/utilizando-textc-construir-conversa",
       "api-sdks/facilitando-criacao-do-chatbot-atraves-extensoes",
       "api-sdks/construcao-bot-atraves-api-sdk",
       "api-sdks/como-encontrar-a-api-key-do-meu-bot",
