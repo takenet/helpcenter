@@ -53,6 +53,13 @@ const data = {
       "abstract": "Acesse conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
       "text": "Ir para documentação!"
     },
+    {  
+      "title":"Veja outros artigos",
+      "type": "video",
+      "url": "/docs/channels/blip-chat/tipos-de-autenticacao-chat",
+      "abstract":"Não encontrou o que procurava por aqui? Dê uma olhada nestes outros artigos",
+      "text":"Ver mais!"
+    }, 
   ]
 };
 //BLiP Icon for SVGs

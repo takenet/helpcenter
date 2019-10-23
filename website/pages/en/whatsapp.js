@@ -60,6 +60,13 @@ const data = {
     "abstract":"Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
     "text":"Ver mais!"
   },  */
+  {  
+    "title":"Veja outros artigos",
+    "type": "video",
+    "url": "/docs/channels/whatsapp/criando-solucao-atendimento-humano-whatsapp",
+    "abstract":"Não encontrou o que procurava por aqui? Dê uma olhada nestes outros artigos",
+    "text":"Ver mais!"
+  }, 
   ]
 };
 //BLiP Icon for SVGs
