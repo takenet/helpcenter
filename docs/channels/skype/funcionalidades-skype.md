@@ -22,4 +22,4 @@ Envie arquivos para o seu cliente como documentos em pdf, áudios, vídeos e ima
 Caso queira convidar seu cliente para visitar seu estabelecimento, compartilhe também sua localização através de um link do Google Maps.
 
 
-Para mais informações sobre os tipos de conteúdos suportados neste canal, [acesse o artigo especializado aqui](tipos-conteudo-skype).
+Para mais informações sobre os tipos de conteúdos suportados neste canal, [acesse o artigo especializado aqui](/docs/channels/skype/tipos-conteudo-skype).

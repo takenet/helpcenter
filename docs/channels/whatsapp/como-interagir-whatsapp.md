@@ -12,7 +12,7 @@ Qualquer usuário que possuir o contato do seu bot salvo na agenda poderá inici
 ### Envio de notificações (Message templates)
 O canal WhatsApp é um dos poucos canais que permite que os bots entrem em contato com os clientes, de forma ativa, mesmo que eles nunca tenham interagido com o contato da empresa. **Apesar disso, lembre-se de seguir as políticas de Opt-in definidas pelo canal**.
 
-Para saber mais sobre o envio de notificações clique [neste link](enviar-notificacao-whatsapp-blip-api).
+Para saber mais sobre o envio de notificações clique [neste link](/docs/channels/whatsapp/enviar-notificacao-whatsapp-blip-api).
 
 ### Anúncios de Clique para o WhatsApp
 É possível usar anúncios de clique para o WhatsApp para iniciar conversas em escala, aproveitando o direcionamento do Facebook para encontrar clientes relevantes para suas empresas.

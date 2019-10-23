@@ -11,7 +11,7 @@ O BLiP é uma plataforma que permite a construção, gestão e evolução de cha
 
 Entendemos o quão grande é a confiança de nossos usuários e clientes ao compartilhar conosco seus dados, portanto, esta Política de Privacidade busca descrever de forma clara e objetiva o tratamento dos dados realizado durante a utilização da plataforma BLiP.
 
-Esta política se aplica aos usuários dos serviços da plataforma BLiP em qualquer lugar do mundo, aplicando-se especificamente aos usuários diretos, ou seja, usuários que se cadastram na plataforma BLiP. Recomendamos que todo este documento seja lido, bem como os nossos [Termos de Uso](terms).
+Esta política se aplica aos usuários dos serviços da plataforma BLiP em qualquer lugar do mundo, aplicando-se especificamente aos usuários diretos, ou seja, usuários que se cadastram na plataforma BLiP. Recomendamos que todo este documento seja lido, bem como os nossos [Termos de Uso](/docs/security/terms).
 
 ### Informações que coletamos
 

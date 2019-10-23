@@ -13,7 +13,7 @@ Para realizar um atendimento através do BLiP Desk, existem alguns **pré-requis
 
 Verificados todos os pré-requisitos acima, qualquer atendente, cadastrado como membro das equipes de atendimento, estará apto a iniciar os atendimentos. Para tanto, são necessárias as seguintes atividades:
 
-## 1. O atendente deve estar logado na ferramenta [BLiP Desk](desk.blip.ai)
+## 1. O atendente deve estar logado na ferramenta [BLiP Desk](https://desk.blip.ai)
 
 ![Login na ferramenta](/img/helpdesk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-1.png)
 

@@ -16,9 +16,12 @@ Após acessar um bot criado através do Builder, selecione a **opção de teste*
 
 Após clicar na opção de Debug o BLiP abrirá uma nova janela com todos os recursos necessários para analisar o funcionamento da sua aplicação. O Debug é formado por 3 grandes áreas: **console**, **variáveis** e **tela de testes**.
 
-**1. Console** - Seção responsável por exibir todo o percurso executado pelo usuário de teste ao longo do fluxo da conversa. 
+**1. Console** - Seção responsável por exibir todo o percurso executado pelo usuário de teste ao longo do fluxo da conversa.
+
 **2. Variáveis** - Seção que apresenta o valor corrente de todas as variáveis do usuário de teste no debug.
+
 **3. Tela de testes** - Seção que representa a interface de conversa para o usuário de teste do Debug.
+
 
 ![exmplo de debug](/img/builder/builder-como-utilizar-debug-builder-2.png)<br><br>
 
