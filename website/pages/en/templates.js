@@ -72,10 +72,10 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Petshop</button>
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <div className="seeMore-card-templates">
+                                <a href="/template?Id=1"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div>
+                                </div></a>
                             </div>
                         </div>
 
@@ -85,10 +85,10 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Petshop</button>
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <div className="seeMore-card-templates">
+                                <a href="/template?Id=2"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div>
+                                </div></a>
                             </div>
                         </div>
 
@@ -99,10 +99,10 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Petshop</button>
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <div className="seeMore-card-templates">
+                                <a href="/template?Id=3"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div>
+                                </div></a>
                             </div>
                         </div>
 
@@ -113,10 +113,10 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Petshop</button>
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <div className="seeMore-card-templates">
+                                <a href="/template?Id=4"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div>
+                                </div></a>
                             </div>
                         </div>
 
@@ -127,10 +127,10 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Petshop</button>
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <div className="seeMore-card-templates">
+                                <a href="/template?Id=5"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div>
+                                </div></a>
                             </div>
                         </div>
 
@@ -141,10 +141,10 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Petshop</button>
                                 <p className="title-card-templates">Titulo do template aqui!</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <div className="seeMore-card-templates">
+                                <a href="/template?Id=6"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div>
+                                </div></a>
                             </div>
                         </div>
 
