@@ -11630,6 +11630,7 @@ a.link-from {
   box-sizing: border-box;
   display: inline-block;
   width: 60px;
+  min-width: fit-content;
   height: 23px;
   overflow: hidden;
   white-space: nowrap;
@@ -11696,6 +11697,7 @@ a.link-from {
   box-sizing: border-box;
   display: inline-block;
   width: 60px;
+  min-width: fit-content;
   height: 23px;
   overflow: hidden;
   white-space: nowrap;
@@ -11718,6 +11720,7 @@ a.link-from {
   box-sizing: border-box;
   display: inline-block;
   width: 60px;
+  min-width: fit-content;
   height: 23px;
   overflow: hidden;
   white-space: nowrap;
