@@ -11959,26 +11959,33 @@ a.link-from {
   margin-bottom: 232px;
 }
 
-.tr-details td {
+.table-func{
   width: 100%;
+}
+
+
+.tr-details td {
+  width: 900px;
+  max-width: 100%;
   border-bottom: 1px solid #d2dfe6;
 }
 
 .td-details {
   text-align: left;
   background: #f5f8f9;
-  width: 287px;
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 22px;
   padding-left: 20px;
+  width: 100%;
 }
 
 .td-details-content {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .bp-fs-3-details {
