@@ -45,6 +45,15 @@ const data = {
             "text": "Contribue!",
             "class": "seeMore-session-small"
         },
+        {
+          "title": "Modelos de Chatbot",
+          "url": "/templates",
+          "icon": "robot",
+          "color": "sea",
+          "abstract": "Faça o download gratuito de modelos de fluxos conversacionais e os implemente em sua conta do BLiP",
+          "text": "Veja mais!",
+          "class": "seeMore-session-small"
+      },
       //   {
       //     "title": "Status",
       //     "url": "https://status.blip.ai",
