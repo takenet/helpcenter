@@ -771,6 +771,10 @@
     margin: auto !important;
     margin-bottom: 20px !important;
   }
+
+  .thumb-image{
+    width: 100% !important;
+  }
   
   .banner-templates-section {
     height: 170px !important;
@@ -11507,6 +11511,18 @@ a.link-from {
   padding-top: 2%;
 }
 
+.thumb-card-templates{
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.thumb-image{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 .banner-templates-section {
   width: 100%;
   height: 104px;
@@ -11790,10 +11806,11 @@ a.link-from {
 
 .img-active {
   margin-right: 25px;
+  height: 100%;
 }
 
 .img-inactive {
-  height: 100%;
+  height: calc(100% - 25px);
   width: 90%;
   margin: auto;
   opacity: 0.5;
@@ -11958,7 +11975,7 @@ a.link-from {
 }
 
 .func-table {
-  padding-top: 4%;
+  padding-top: 50px;
   margin-bottom: 232px;
 }
 
@@ -12007,6 +12024,7 @@ a.link-from {
   display: inline-block;
   cursor: pointer;
   max-width: 45%;
+  min-width: fit-content;
   min-height: 2.2rem;
   overflow: hidden;
   white-space: nowrap;
@@ -12015,6 +12033,7 @@ a.link-from {
   box-sizing: border-box;
   border-radius: 8px;
   margin-right: 8px;
+  margin-bottom: 10px;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 20px;
@@ -12063,6 +12082,7 @@ a.link-from {
   display: inline-block;
   cursor: pointer;
   max-width: 45%;
+  min-width: fit-content;
   min-height: 2.2rem;
   overflow: hidden;
   white-space: nowrap;

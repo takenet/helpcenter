@@ -67,12 +67,14 @@ class Template extends React.Component {
                     {/* Cards */}
                     <div className="cards-templates">
                         <div className="card-templates">
-                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/template-1.svg"></img>
+                            <div className="thumb-card-templates">
+                                <img className="thumb-image" src="/img/illustrations/thumbs-templates/petshop-agendamento.jpg"></img>
+                            </div>
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Petshop - Agendamento</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=petshop_agendamento"><div className="seeMore-card-templates">
+                                <a href="/template?Id=Petshop_agendamento"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                 </div></a>
@@ -80,68 +82,25 @@ class Template extends React.Component {
                         </div>
 
                         <div className="card-templates">
-                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/template-2.svg"></img>
+                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/programacao-evento.jpg"></img>
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Entretenimento</button>
                                 <p className="title-card-templates">Programação de Evento</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=programacao_evento"><div className="seeMore-card-templates">
+                                <a href="/template?Id=Programacao_evento"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                 </div></a>
                             </div>
                         </div>
 
-
                         <div className="card-templates">
-                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/template-3.svg"></img>
+                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/concessionaria-carros.jpg"></img>
                             <div className="text-card-templates">
-                                <button className="category-card-templates">Petshop</button>
-                                <p className="title-card-templates">Titulo do template aqui!</p>
+                                <button className="category-card-templates">Verejo</button>
+                                <p className="title-card-templates">Concessionária de Carros</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=3"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
-                            </div>
-                        </div>
-
-
-                        <div className="card-templates">
-                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/template-4.svg"></img>
-                            <div className="text-card-templates">
-                                <button className="category-card-templates">Petshop</button>
-                                <p className="title-card-templates">Titulo do template aqui!</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=4"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
-                            </div>
-                        </div>
-
-
-                        <div className="card-templates">
-                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/template-5.svg"></img>
-                            <div className="text-card-templates">
-                                <button className="category-card-templates">Petshop</button>
-                                <p className="title-card-templates">Titulo do template aqui!</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=5"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
-                            </div>
-                        </div>
-
-
-                        <div className="card-templates">
-                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/template-6.svg"></img>
-                            <div className="text-card-templates">
-                                <button className="category-card-templates">Petshop</button>
-                                <p className="title-card-templates">Titulo do template aqui!</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=6"><div className="seeMore-card-templates">
+                                <a href="/template?Id=Concessionaria_carros"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                 </div></a>

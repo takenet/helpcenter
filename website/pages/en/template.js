@@ -306,7 +306,6 @@ class ScriptDynamically extends React.Component {
                     __html: `
                     const urlParams = new URLSearchParams(window.location.search);
                     const myParam = urlParams.get('Id');
-                    console.log(myParam);
 
                     var data = {
                     "templates": [
@@ -326,20 +325,20 @@ class ScriptDynamically extends React.Component {
                             "subcategory": "Petshop"
                             }
                         ],
-                        "download_uri": "/templates/1/petShop_template.json",
+                        "download_uri": "/templates/petshop-agendamento/petShop_template.json",
                         "link_bot": "aGFwcHlwYXdzcGV0c2hvcGJydW5vOmRhMzYxM2NmLTJkMjUtNGM3ZS04MWUyLTM4NzM3NmE1OWM2MA==",
                         "images": [
                             {
-                            "url": "/templates/1/Exemplo01.png"
+                            "url": "/templates/petshop-agendamento/Exemplo01.png"
                             },
                             {
-                            "url": "/templates/1/Exemplo02.png"
+                            "url": "/templates/petshop-agendamento/Exemplo02.png"
                             },
                             {
-                            "url": "/templates/1/Exemplo03.png"
+                            "url": "/templates/petshop-agendamento/Exemplo03.png"
                             },
                             {
-                            "url": "/templates/1/Exemplo04.png"
+                            "url": "/templates/petshop-agendamento/Exemplo04.png"
                             }
                         ],
                         "tabs": {
@@ -387,14 +386,14 @@ class ScriptDynamically extends React.Component {
                                     <li class="content-list-text">Nessa conta, crie um Agenda no <a href="https://calendar.google.com/">Google Calendar</a>, e pegue o seu ID \\
                                         <ul> \\
                                             <li>Acesse a agenda, clique em <b>Opções</b></li> \\
-                                            <img src="/templates/1/calendar_config.png"></img> \\
+                                            <img src="/templates/petshop-agendamento/calendar_config.png"></img> \\
                                             <li>Procure pelo <b>Id da Agenda</b> e copie-o </li> \\
                                         </ul> \\
                                     </li> \\
                                     <li class="content-list-text" >No bot, crie uma variável de configuração chamada <b>calendarId</b> e coloque como valor o Id da Agenda que você acabou de copiar. </li>\\
                                     <li class="content-list-text">Crie um projeto no <a href="https://console.cloud.google.com/">Google Cloud Platform</a></li>\\
                                     <li class="content-list-text">Com o projeto criado, acesse a área <b>APIs e Serviços</b> e clique em <b>Credenciais</b>. </li>\\
-                                    <img src="/templates/1/credenciais.png"></img>\\
+                                    <img src="/templates/petshop-agendamento/credenciais.png"></img>\\
                                     <li class="content-list-text">Selecione "Criar credenciais" e crie uma <b>Chave de Api</b>. Copie o valor informado.</li>\\
                                     <li class="content-list-text">Crie uma variável de configuração chamada <b>apiKey</b> e coloque o valor copiado no passo 8.</li>\\
                                     <li class="content-list-text">Selecione "Criar credenciais" novamente, desta vez optando por criar um Id do cliente Oauth\\
@@ -434,7 +433,7 @@ class ScriptDynamically extends React.Component {
                                             <li><b>openHour</b> informando a hora que seu petshop abre (apenas a hora, no formato HH)</li>\\
                                             <li><b>closeHour</b> informando a hora que seu petshop fecha.</li>\\
                                         </ul>\\
-                                    <img src="/templates/1/variaveis_config.png"></img>\\
+                                    <img src="/templates/petshop-agendamento/variaveis_config.png"></img>\\
                                 </ol>',
 
                             "support": '<p class="content-title">Suporte</p> \\
@@ -469,14 +468,200 @@ class ScriptDynamically extends React.Component {
                             "func": "✓ Script Javascript"
                             }
                         ]
+                        },
+                        {
+                        "id": "Programacao_evento",
+                        "title": "Programação de Evento",
+                        "creator": "Criado por BLiP",
+                        "subtitle": "Esse chatbot foi feito para ajudar Comunidades e Empresas a divulgarem e oferecem suporte e informações sobre um determinado \\
+                                evento em um bot preparado para funcionar com a maioria dos canais, incluindo o WhatsApp",
+                        "categories": [
+                            {
+                            "category": "Entrenimento"
+                            },
+                            {
+                            "subcategory": "Evento"
+                            },
+                            {
+                            "subcategory": "Informativo"
+                            }
+                        ],
+                        "download_uri": "/templates/programacao-evento/event_template.json",
+                        "link_bot": "ZXZlbnRvdGVtcGxhdGVicnVubzo3ZjBiMTY1Ny0xYzVjLTRmMmQtYjkxYS05ZmJjNDE3ZjlmN2Q=",
+                        "images": [
+                            {
+                            "url": "/templates/programacao-evento/Exemplo02.png"
+                            },
+                            {
+                            "url": "/templates/programacao-evento/Exemplo03.png"
+                            },
+                            {
+                            "url": "/templates/programacao-evento/Exemplo05.png"
+                            },
+                            {
+                            "url": "/templates/programacao-evento/Exemplo04.png"
+                            },
+                            
+                        ],
+                        "tabs": {
+                            "details": '<p class="content-title">Compatível com:</p> \\
+                            <div class="compatible-channels"> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                            </div> \\
+                            <p class="content-text">Esse chatbot foi feito para ajudar Comunidades e Empresas a divulgarem e oferecem suporte e informações \\
+                                sobre um determinado evento\\
+                                em um bot preparado para funcionar com a maioria dos canais, incluindo o WhatsApp\\
+                            \\
+                            <p class="content-title">O que pode ser feito?</p> \\
+                            <ul> \\
+                                <li class="content-list-text">Exibir seus contatos</li> \\
+                                <li class="content-list-text">Atendimento humano</li> \\
+                                <li class="content-list-text">Fornecer ao usuário informações sobre o evento</li> \\
+                                <li class="content-list-text">Enviar imagens e documentos referentes ao evento.</li> \\
+                            </ul>',  
+
+
+                            "install": '<p class="content-title">Como instalar?</p>\\
+                            <ul>\\
+                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                            </ul>\\
+                    <p class="content-text"><i>Obs.: Os blocos representados com o emoji ✅ são destinados exclusivamente ao canal WhatsApp.\\
+                         Usuários que vem deste canal são automaticamente direcionados para esses blocos.',
+
+                            "support": '<p class="content-title">Suporte</p> \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                                e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                \\
+                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                        },
+                        "table": [
+                            {
+                            "func": "✓ Multicanal"
+                            },
+                            {
+                            "func": "✓ Carrossel"
+                            },
+                            {
+                            "func": "✓ Menu"
+                            },
+                            {
+                            "func": "✓ Imagens"
+                            },
+                            {
+                            "func": "✓ Formatação de texto"
+                            },
+                            {
+                            "func": "✓ Atendimento Humano"
+                            },
+                            {
+                            "func": "✓ Emojis"
+                            }
+                        ]
+                        },
+                        {
+                        "id": "Concessionaria_carros",
+                        "title": "Concessionaria de carros",
+                        "creator": "Criado por BLiP",
+                        "subtitle": "Esse chatbot foi feito para ajudar Concessionárias de Carros a divulgarem e oferecem informações sobre seus produtos, \\
+                            obter dados dos clientes e oferecer atendimento humano em um bot preparado para funcionar com a maioria dos canais\\
+                             incluindo o WhatsApp.",
+                        "categories": [
+                            {
+                            "category": "Varejo"
+                            },
+                            {
+                            "subcategory": "Prospecção"
+                            },
+                            {
+                            "subcategory": "Multicanal"
+                            }
+                        ],
+                        "download_uri": "/templates/concessionaria-carros/concessionaria_template.json",
+                        "link_bot": "Y29uY2Vzc2lvbnRlbXBsYXRlYnJ1bm86YmFhNmYzMjktMTMxMy00ZmUyLTlhNTktMjMyYTc1NGUyNTg1",
+                        "images": [
+                            {
+                            "url": "/templates/concessionaria-carros/Exemplo01.png"
+                            },
+                            {
+                            "url": "/templates/concessionaria-carros/Exemplo04.png"
+                            },
+                            {
+                            "url": "/templates/concessionaria-carros/Exemplo02.png"
+                            },
+                            {
+                            "url": "/templates/concessionaria-carros/Exemplo03.png"
+                            },
+                            
+                            {
+                            "url": "/templates/concessionaria-carros/Exemplo05.png"
+                            },
+                            
+                        ],
+                        "tabs": {
+                            "details": '<p class="content-title">Compatível com:</p> \\
+                            <div class="compatible-channels"> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                            </div> \\
+                            <p class="content-text">Esse chatbot foi feito para ajudar Concessionárias de Carros a divulgarem e oferecem informações sobre seus produtos, \\
+                                obter dados dos clientes e oferecer atendimento humano em um bot preparado para funcionar com a maioria dos canais, \\
+                                incluindo o WhatsApp.\\
+                            \\
+                            <p class="content-title">O que pode ser feito?</p> \\
+                            <ul> \\
+                                <li class="content-list-text">Exibir seus produtos</li> \\
+                                <li class="content-list-text">Prover informações sobre os produtos</li> \\
+                                <li class="content-list-text">Salvar dados dos contatos</li> \\
+                                <li class="content-list-text">Atendimento humano.</li> \\
+                            </ul>',  
+
+
+                            "install": '<p class="content-title">Como instalar?</p>\\
+                            <ul>\\
+                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                <li class="content-list-text">Faça as modificações conforme sua necessidade.</li>\\
+                            </ul>',
+
+                            "support": '<p class="content-title">Suporte</p> \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                                e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                \\
+                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                        },
+                        "table": [
+                            {
+                            "func": "✓ Multicanal"
+                            },
+                            {
+                            "func": "✓ Imagens"
+                            },
+                            {
+                            "func": "✓ Formatação de texto"
+                            },
+                            {
+                            "func": "✓ Atendimento Humano"
+                            },
+                            {
+                            "func": "✓ Salvar contatos"
+                            }
+                        ]
                         }
                     ]
                     };
                     var template;
-                    for(key in data){
-                        if(key.indexOf("myParam")){
-                            template = data[key][0];
-                            console.log(template);
+                    for(var k = 0; k < data.templates.length; k++){
+                        if(data.templates[k].id == myParam){
+                            template = data.templates[k];
+                            break;
                         }
                     }
 
@@ -485,15 +670,15 @@ class ScriptDynamically extends React.Component {
                         
                         template.categories.forEach(function (category, index) {
                                 if (Object.keys(category).toString() == "category"){
-                                var element = document.createElement("button");
-                                element.setAttribute("class", "category-details");
-                                element.innerHTML = Object.values(category).toString();
-                                categories_details.appendChild(element);
+                                    var element = document.createElement("button");
+                                    element.setAttribute("class", "category-details");
+                                    element.innerHTML = Object.values(category).toString();
+                                    categories_details.appendChild(element);
                                 }else{
-                                var element = document.createElement("button");
-                                element.setAttribute("class", "subcategory-details");
-                                element.innerHTML = Object.values(category).toString();
-                                categories_details.appendChild(element);
+                                    var element = document.createElement("button");
+                                    element.setAttribute("class", "subcategory-details");
+                                    element.innerHTML = Object.values(category).toString();
+                                    categories_details.appendChild(element);
                                 }
                             });
                         
@@ -551,7 +736,7 @@ class ScriptDynamically extends React.Component {
                         details.innerHTML = template.tabs.details;
                             var a = document.createElement("a");
                             a.setAttribute("class", "docs-prev button");
-                            Object.assign(a.style, {"margin-top": "87px", "margin-bottom": "80px", "text-align": "center", "height": "38px" ,"width": "30%", "border-radius": "8px"});
+                            Object.assign(a.style, {"margin-top": "87px", "margin-bottom": "80px", "text-align": "center", "height": "38px" ,"width": "30%", "min-width": "fit-content", "border-radius": "8px"});
                             a.href = "/templates";
                                 var span = document.createElement("span");
                                 span.setAttribute("class", "function-name-prevnext");
@@ -565,7 +750,7 @@ class ScriptDynamically extends React.Component {
                         install.innerHTML = template.tabs.install;
                         var b = document.createElement("a");
                             b.setAttribute("class", "docs-prev button");
-                            Object.assign(b.style, {"margin-top": "87px", "margin-bottom": "80px", "text-align": "center", "height": "38px" ,"width": "30%", "border-radius": "8px"});
+                            Object.assign(b.style, {"margin-top": "87px", "margin-bottom": "80px", "text-align": "center", "height": "38px" ,"width": "30%", "min-width": "fit-content", "border-radius": "8px"});
                             b.href = "/templates";
                                 var span = document.createElement("span");
                                 span.setAttribute("class", "function-name-prevnext");
@@ -578,7 +763,7 @@ class ScriptDynamically extends React.Component {
                         support.innerHTML = template.tabs.support;
                         var c = document.createElement("a");
                             c.setAttribute("class", "docs-prev button");
-                            Object.assign(c.style, {"margin-top": "87px", "margin-bottom": "80px", "text-align": "center", "height": "38px" ,"width": "30%", "border-radius": "8px"});
+                            Object.assign(c.style, {"margin-top": "87px", "margin-bottom": "80px", "text-align": "center", "height": "38px" ,"width": "30%", "min-width": "fit-content","border-radius": "8px"});
                             c.href = "/templates";
                                 var span = document.createElement("span");
                                 span.setAttribute("class", "function-name-prevnext");
@@ -592,8 +777,6 @@ class ScriptDynamically extends React.Component {
                         window.location.href = "/templates";
                     }
                     
-                    var iframe = document.getElementsByClassName("iframe-bot")[0];
-                    console.log(iframe);
                     
                     new BlipChat()
                         .withAppKey(template.link_bot)
