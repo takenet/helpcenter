@@ -562,6 +562,98 @@ class ScriptDynamically extends React.Component {
                             "func": "✓ Emojis"
                             }
                         ]
+                        },
+                        {
+                        "id": "Concessionaria_carros",
+                        "title": "Concessionaria de carros",
+                        "creator": "Criado por BLiP",
+                        "subtitle": "Esse chatbot foi feito para ajudar Concessionárias de Carros a divulgarem e oferecem informações sobre seus produtos, \\
+                            obter dados dos clientes e oferecer atendimento humano em um bot preparado para funcionar com a maioria dos canais\\
+                             incluindo o WhatsApp.",
+                        "categories": [
+                            {
+                            "category": "Varejo"
+                            },
+                            {
+                            "subcategory": "Prospecção"
+                            },
+                            {
+                            "subcategory": "Multicanal"
+                            }
+                        ],
+                        "download_uri": "/templates/concessionaria-carros/concessionaria_template.json",
+                        "link_bot": "Y29uY2Vzc2lvbnRlbXBsYXRlYnJ1bm86YmFhNmYzMjktMTMxMy00ZmUyLTlhNTktMjMyYTc1NGUyNTg1",
+                        "images": [
+                            {
+                            "url": "/templates/concessionaria-carros/Exemplo01.png"
+                            },
+                            {
+                            "url": "/templates/concessionaria-carros/Exemplo04.png"
+                            },
+                            {
+                            "url": "/templates/concessionaria-carros/Exemplo02.png"
+                            },
+                            {
+                            "url": "/templates/concessionaria-carros/Exemplo03.png"
+                            },
+                            
+                            {
+                            "url": "/templates/concessionaria-carros/Exemplo05.png"
+                            },
+                            
+                        ],
+                        "tabs": {
+                            "details": '<p class="content-title">Compatível com:</p> \\
+                            <div class="compatible-channels"> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                            </div> \\
+                            <p class="content-text">Esse chatbot foi feito para ajudar Concessionárias de Carros a divulgarem e oferecem informações sobre seus produtos, \\
+                                obter dados dos clientes e oferecer atendimento humano em um bot preparado para funcionar com a maioria dos canais, \\
+                                incluindo o WhatsApp.\\
+                            \\
+                            <p class="content-title">O que pode ser feito?</p> \\
+                            <ul> \\
+                                <li class="content-list-text">Exibir seus produtos</li> \\
+                                <li class="content-list-text">Prover informações sobre os produtos</li> \\
+                                <li class="content-list-text">Salvar dados dos contatos</li> \\
+                                <li class="content-list-text">Atendimento humano.</li> \\
+                            </ul>',  
+
+
+                            "install": '<p class="content-title">Como instalar?</p>\\
+                            <ul>\\
+                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                <li class="content-list-text">Faça as modificações conforme sua necessidade.</li>\\
+                            </ul>',
+
+                            "support": '<p class="content-title">Suporte</p> \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                                e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                \\
+                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                        },
+                        "table": [
+                            {
+                            "func": "✓ Multicanal"
+                            },
+                            {
+                            "func": "✓ Imagens"
+                            },
+                            {
+                            "func": "✓ Formatação de texto"
+                            },
+                            {
+                            "func": "✓ Atendimento Humano"
+                            },
+                            {
+                            "func": "✓ Salvar contatos"
+                            }
+                        ]
                         }
                     ]
                     };
