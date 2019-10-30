@@ -182,6 +182,7 @@ class ScriptBanners extends React.Component {
           "/security": "/img/banners/Banner-politicas.jpg",
           "/beta": "/img/banners/Banner-beta.jpg",
           "http://community.blip.ai": "/img/banners/Banner-communityfb.jpg",
+          "/templates": "/img/banners/Banner-Modelos.png",
         }
         const chaves = Object.keys(banners);
         var randomKey = chaves[parseInt(Math.random() * chaves.length)];
