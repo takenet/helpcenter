@@ -9,9 +9,9 @@
     "rename-version": "docusaurus-rename-version"
   },
   "devDependencies": {
-    "docusaurus": "^1.11.0"
+    "docusaurus": "^1.14.0"
   },
   "dependencies": {
-    "blip-toolkit": "^4.12.1"
+    "blip-toolkit": "^4.13.1"
   }
 }
