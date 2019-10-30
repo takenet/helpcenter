@@ -95,7 +95,8 @@ const siteConfig = {
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [
     'https://buttons.github.io/buttons.js',
-    'https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js'
+    'https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js',
+    'https://unpkg.com/blip-chat-widget'
   ],
 
   // On page navigation for the current documentation page.

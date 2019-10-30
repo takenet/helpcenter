@@ -69,10 +69,10 @@ class Template extends React.Component {
                         <div className="card-templates">
                             <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/template-1.svg"></img>
                             <div className="text-card-templates">
-                                <button className="category-card-templates">Petshop</button>
-                                <p className="title-card-templates">Titulo do template aqui!</p>
+                                <button className="category-card-templates">Serviços</button>
+                                <p className="title-card-templates">Petshop - Agendamento</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=1"><div className="seeMore-card-templates">
+                                <a href="/template?Id=petshop_agendamento"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                 </div></a>
@@ -82,10 +82,10 @@ class Template extends React.Component {
                         <div className="card-templates">
                             <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/template-2.svg"></img>
                             <div className="text-card-templates">
-                                <button className="category-card-templates">Petshop</button>
-                                <p className="title-card-templates">Titulo do template aqui!</p>
+                                <button className="category-card-templates">Entretenimento</button>
+                                <p className="title-card-templates">Programação de Evento</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=2"><div className="seeMore-card-templates">
+                                <a href="/template?Id=programacao_evento"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                 </div></a>

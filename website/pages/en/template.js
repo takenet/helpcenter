@@ -41,7 +41,7 @@ class Detail extends React.Component {
                             <p className="subtitle-details"> </p>
                             <div className="buttons-details">
                                 <a id="download" href="#"
-                                    download="blipTest" target="blank"><button className="button-details-download">
+                                    download target="blank"><button className="button-details-download">
                                         <div className="button-content-download">
                                             <BlipIcon name="download" className="icon-button-download"></BlipIcon>
                                             <p className="text-button-download">Download</p>
@@ -72,10 +72,10 @@ class Detail extends React.Component {
                 </div>
 
                 {/* Modal bot */}
-                <div id="modalBot" class="modalBot">
-                    <div class="modal-content-bot">
-                        <span class="closeBot">&times;</span>
-                        <iframe className="iframe-bot" src="#"></iframe>
+                <div id="modalBot" className="modalBot">
+                    <div className="modal-content-bot">
+                        <span className="closeBot">&times;</span>
+                        <div className="iframe-bot" id="iframe"></div>
                     </div>
                 </div>
 
@@ -311,69 +311,64 @@ class ScriptDynamically extends React.Component {
                     var data = {
                     "templates": [
                         {
-                        "id": "1",
-                        "title": "Título do Template 1",
+                        "id": "Petshop_agendamento",
+                        "title": "Petshop - Agendamento",
                         "creator": "Criado por BLiP",
-                        "subtitle": "Genialidade é fruto de muito hardwork. Você tá realmente obcecado pelos seus sonhos? Construa algo que seja top. Viva em busca da masterização e do profissionalismo, every f*ing day. O inconformismo é o combustível da alta performance. A vida acontece de você e não pra você. Walk the f*ing talk.",
+                        "subtitle": "Esse chatbot foi feito para ajudar Petshops a oferecerem seus serviços e uma maneira de agendá-los, integrando automaticamente com o Google Calendar.",
                         "categories": [
                             {
-                            "category": "Petshop"
+                            "category": "Serviços"
                             },
                             {
-                            "subcategory": "Categporia"
+                            "subcategory": "Agendamento"
                             },
                             {
-                            "subcategory": "Categporia"
-                            },
-                            {
-                            "subcategory": "Categporia"
-                            },
-                            {
-                            "subcategory": "Categporia"
-                            },
-                            {
-                            "subcategory": "Categporia"
+                            "subcategory": "Petshop"
                             }
                         ],
-                        "download_uri": "/img/illustrations/carousel-1.svg",
-                        "link_bot": "https://chat.blip.ai/?appKey=ZGVtb2JvdDQ6NzQxYjc5YzktMmNjYS00ZGRjLThlODQtZWIwYmRlODkyNmU3",
+                        "download_uri": "/templates/1/petShop_template.json",
+                        "link_bot": "aGFwcHlwYXdzcGV0c2hvcGJydW5vOmRhMzYxM2NmLTJkMjUtNGM3ZS04MWUyLTM4NzM3NmE1OWM2MA==",
                         "images": [
                             {
-                            "url": "/img/illustrations/carousel-1.svg"
+                            "url": "/templates/1/Exemplo01.png"
                             },
                             {
-                            "url": "/img/illustrations/carousel-2.svg"
+                            "url": "/templates/1/Exemplo02.png"
                             },
                             {
-                            "url": "/img/illustrations/carousel-3.svg"
+                            "url": "/templates/1/Exemplo03.png"
                             },
                             {
-                            "url": "/img/illustrations/carousel-1.svg"
-                            },
-                            {
-                            "url": "/img/illustrations/carousel-1.svg"
-                            },
-                            {
-                            "url": "/img/illustrations/carousel-3.svg"
+                            "url": "/templates/1/Exemplo04.png"
                             }
                         ],
                         "tabs": {
                             "details": '<p class="content-title">Compatível com:</p> \\
                             <div class="compatible-channels"> \\
-                                <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
                                 <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
                                 <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
                             </div> \\
-                            <p class="content-text">Chatbot Agency is designed for chatbot agency to support your customers to build chatbots successfully. \\
-                                This chatbot provides chatbot features, benefits, use cases to help your customers design a chatbot and apply chatbots to \\
-                            boost sales to a higher level.</p> \\
+                            <p class="content-text">Esse chatbot foi feito para ajudar Petshops a oferecerem seus serviços e uma maneira de agendá-los, \\
+                                integrando automaticamente com o Google Calendar.</p> \\
+                            \\
+                            <p class="content-title">O que pode ser feito?</p> \\
                             <ul> \\
-                                <li class="content-list-text">Collect the customer inquiries</li> \\
-                                <li class="content-list-text">Work 24/7/365 and deliver leads into your inbox each day</li> \\
-                                <li class="content-list-text">Provide chatbot information and use cases</li> \\
-                                <li class="content-list-text">Help the customers build chatbot successfully</li> \\
-                                <li class="content-list-text">Improve your business branding & engagement</li> \\
+                                <li class="content-list-text">Exibir seus serviços</li> \\
+                                <li class="content-list-text">Prover informações sobre o Petshop</li> \\
+                                <li class="content-list-text">Fornecer ao cliente opção de marcar um horário em sua agenda automaticamente,\\
+                                    de acordo com seus horários livres.</li> \\
+                                <li class="content-list-text">Coletar informações do cliente.</li> \\
                             </ul> \\
+                                \\
+                            <p class="content-title">Pré Requisitos</p> \\
+                            <ul> \\
+                                <li class="content-list-text">Uma conta do Google</li> \\
+                                <li class="content-list-text">Uma agenda no Google Calendar</li> \\
+                                <li class="content-list-text">Um projeto no Google Cloud Platform</li> \\
+                                <li class="content-list-text">Dar permissão para que o bot acesse, edite e escreva em sua agenda.</li> \\
+                            </ul> \\
+                                \\
                             <p class="content-text">Viva em busca da masterização e do profissionalismo, every f*ing day. \\
                                 É você quem decide se o seu dia vai ser incrível ou não.  Você nunca vai estar pronto então comece agora. \\
                                 Quebre padrões e atinja a alta performance em todas as áreas da sua vida. Pra chegar ao next level você precisa de \\
@@ -381,90 +376,110 @@ class ScriptDynamically extends React.Component {
                             pelos seus sonhos? Never f*ing give up. Você nunca vai estar pronto então comece agora.</p>',  
 
 
-                            "install": '<p class="content-title">Como instalar?</p> \\
-                            <p class="content-text"> Do mesmo modo, a valorização de fatores subjetivos nos obriga à análise das condições epistemológicas e cognitivas \\
-                                exigidas. Por outro lado, o desafiador cenário globalizado cumpre um papel essencial na formulação das considerações \\
-                                acima? Nada se pode dizer, pois sobre o que não se pode falar, deve-se calar. Assim mesmo, a estrutura atual da ideação \\
-                                semântica exige a precisão e a definição dos prospectos condicionalizantes e necessários a todo juízo empírico. \\
-                                Antes de mais nada, a inter-independência da objetivação e subjetivação auxilia a preparação e a composição das \\
-                                posturas dos filósofos divergentes com relação às atribuições conceituais. Se a própria desterritorialização relativa \\
-                                se projeta sobre a indeterminação contínua de distintas formas de fenômeno unificou os a priori sensíveis e \\
-                                intelectuais numa determinação recíproca das novas teorias propostas.</p> \\
+                            "install": '<p class="content-title">Como instalar?</p>\\
+                            <p class="content-text">Para começar a utilizar o bot, é preciso configurar sua conta no Google, \\
+                                fazer a autenticação e informar para qual agenda os eventos serão enviados. </p> \\
                                 \\
-                            <p class="content-text">Finalmente, por trás dessa questão do sujeito e da realidade a consolidação das estruturas psico-lógicas assume importantes posições no \\
-                                estabelecimento da natureza não-filosófica dos conceitos. Acima de tudo, o conceito de diáthesis e os princípios fundamentais de rhytmos e \\
-                                arrythmiston permite um conhecimento geral de todo ser, sensível ou não sensível, da determinação do Ser enquanto Ser. Como Deleuze \\
-                                eloquentemente mostrou, o início da atividade geral de formação de conceitos é condição necessária dos paradigmas filosóficos. \\
-                                Um teórico da redundância negaria que a teoria de Fliess obstaculiza a apreciação da importância dos relacionamentos verticais \\
-                                entre as hierarquias conceituais. Neste momento o leitor deve reconhecer que acabei de demolir as bases da metafísica de Heidegger, \\
-                                pois o Übermensch de Nietzsche, ou seja, o Super-Homem, nos arrasta ao labirinto de sofismas obscuros do processo de comunicação \\
-                                como um todo.</p> \\
-                                \\
-                            <p class="content-text">No entanto, não podemos esquecer que o fenômeno da Internet obstaculiza a admissão de uma ontologia das ciências discursivas. \\
-                                Poderia ser sugerido, entretanto, que a hegemonia do ambiente político resultou no abandono das relações entre o conteúdo proposicional \\
-                                e o figurado. Segundo Heidegger, o plano de imanência pré-filosófico ainda não demonstrou convincentemente como vai participar na \\
-                                mudança das múltiplas direções do ponto de transcendência do sentido enunciativo.</p>',
+                                <ol> \\
+                                    <li class="content-list-text">Baixe o fluxo do bot</li> \\
+                                    <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                    <li class="content-list-text">Crie uma conta no Google</li> \\
+                                    <li class="content-list-text">Nessa conta, crie um Agenda no <a href="https://calendar.google.com/">Google Calendar</a>, e pegue o seu ID \\
+                                        <ul> \\
+                                            <li>Acesse a agenda, clique em <b>Opções</b></li> \\
+                                            <img src="/templates/1/calendar_config.png"></img> \\
+                                            <li>Procure pelo <b>Id da Agenda</b> e copie-o </li> \\
+                                        </ul> \\
+                                    </li> \\
+                                    <li class="content-list-text" >No bot, crie uma variável de configuração chamada <b>calendarId</b> e coloque como valor o Id da Agenda que você acabou de copiar. </li>\\
+                                    <li class="content-list-text">Crie um projeto no <a href="https://console.cloud.google.com/">Google Cloud Platform</a></li>\\
+                                    <li class="content-list-text">Com o projeto criado, acesse a área <b>APIs e Serviços</b> e clique em <b>Credenciais</b>. </li>\\
+                                    <img src="/templates/1/credenciais.png"></img>\\
+                                    <li class="content-list-text">Selecione "Criar credenciais" e crie uma <b>Chave de Api</b>. Copie o valor informado.</li>\\
+                                    <li class="content-list-text">Crie uma variável de configuração chamada <b>apiKey</b> e coloque o valor copiado no passo 8.</li>\\
+                                    <li class="content-list-text">Selecione "Criar credenciais" novamente, desta vez optando por criar um Id do cliente Oauth\\
+                                        <ul>\\
+                                            <li>Selecione <b>Aplicativo Web</b></li>\\
+                                            <li>Informe um nome</li>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Ao final, copie o <b>Id do cliente</b> e a <b>chave secreta do cliente</b></li>\\
+                                    <li class="content-list-text">Entre no <a href="https://developers.google.com/oauthplayground/">OAuth 2.0 Playground</a></li>\\
+                                    <li class="content-list-text">Procure por <b>Calendar API V3</b> na lista de APIs. \\
+                                            Selecione todos os escopos disponíveis para ela e clique em <b>Authorize APIs</b>  \\
+                                    </li>\\
+                                    <li class="content-list-text">Será solicitado que você faça <i>login</i> e dê permissão.</li>\\
+                                    <li class="content-list-text">Ainda no Playground, abra o menu de configurações e selecione a opção <b>Use your own OAuth credentials.</b> \\
+                                        Nos campos correspondentes, informe o <b>Id do cliente</b> e a <b>chave secreta do cliente</b>.</li>\\
+                                    <li class="content-list-text">Clique em <b>Exchange authorization code for tokens</b> para gerar os valores de <i>Refresh Token</i>.</li>\\
+                                    <li class="content-list-text">Copie os valores de <b>Refresh Token</b> e <b>Access Token</b> e salve.</li>\\
+                                    <li class="content-list-text">No seu bot, crie uma <b>Ação global de entrada</b> uma requisição HTTP.</li>\\
+                                    <li class="content-list-text">Preencha as informações conforme abaixo:</li>\\
+                                    <div style="background-color:#f6f8fa">\\
+                                        <b>Método</b>: POST<br>\\
+                                        <b>URL</b>: https://accounts.google.com/o/oauth2/token\\
+                                    </div>\\
+                                    <li class="content-list-text">O corpo da requisição deverá ser como a seguir, onde você deverá informar os valores salvos.</li>\\
+                                    <div style="background-color:#f6f8fa">\\
+                                        {<br>\\
+                                            &nbsp;&nbsp;&nbsp;&nbsp;"client_secret": "YOUR_CLIENT_SECRET"<br> \\
+                                            &nbsp;&nbsp;&nbsp;&nbsp;"grant_type": "refresh_token"<br>\\
+                                            &nbsp;&nbsp;&nbsp;&nbsp;"refresh_token": "YOUR_REFRESH_TOKEN"<br>\\
+                                            &nbsp;&nbsp;&nbsp;&nbsp;"client_id": "YOUR_CLIENT_ID"<br>\\
+                                        }<br>\\
+                                    </div>\\
+                                    <li class="content-list-text">Crie uma variável de configuração chamada <b>timeOffset</b> e informe a diferença entre seu fuso-horário e UTC-0.\\
+                                        <i>Para o horário de Brasília, informe <b>-3.</i></li>\\
+                                    <li class="content-list-text">Crie duas variáveis de configuração:\\
+                                        <ul>\\
+                                            <li><b>openHour</b> informando a hora que seu petshop abre (apenas a hora, no formato HH)</li>\\
+                                            <li><b>closeHour</b> informando a hora que seu petshop fecha.</li>\\
+                                        </ul>\\
+                                    <img src="/templates/1/variaveis_config.png"></img>\\
+                                </ol>',
 
                             "support": '<p class="content-title">Suporte</p> \\
-                            <p class="content-text"> Do mesmo modo, a valorização de fatores subjetivos nos obriga à análise das condições epistemológicas e cognitivas \\
-                                exigidas. Por outro lado, o desafiador cenário globalizado cumpre um papel essencial na formulação das considerações \\
-                                acima? Nada se pode dizer, pois sobre o que não se pode falar, deve-se calar. Assim mesmo, a estrutura atual da ideação \\
-                                semântica exige a precisão e a definição dos prospectos condicionalizantes e necessários a todo juízo empírico. \\
-                                Antes de mais nada, a inter-independência da objetivação e subjetivação auxilia a preparação e a composição das \\
-                                posturas dos filósofos divergentes com relação às atribuições conceituais. Se a própria desterritorialização relativa \\
-                                se projeta sobre a indeterminação contínua de distintas formas de fenômeno unificou os a priori sensíveis e \\
-                                intelectuais numa determinação recíproca das novas teorias propostas.</p> \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                                e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
-                            <p class="content-text">Finalmente, por trás dessa questão do sujeito e da realidade a consolidação das estruturas psico-lógicas assume importantes posições no \\
-                                estabelecimento da natureza não-filosófica dos conceitos. Acima de tudo, o conceito de diáthesis e os princípios fundamentais de rhytmos e \\
-                                arrythmiston permite um conhecimento geral de todo ser, sensível ou não sensível, da determinação do Ser enquanto Ser. Como Deleuze \\
-                                eloquentemente mostrou, o início da atividade geral de formação de conceitos é condição necessária dos paradigmas filosóficos. \\
-                                Um teórico da redundância negaria que a teoria de Fliess obstaculiza a apreciação da importância dos relacionamentos verticais \\
-                                entre as hierarquias conceituais. Neste momento o leitor deve reconhecer que acabei de demolir as bases da metafísica de Heidegger, \\
-                                pois o Übermensch de Nietzsche, ou seja, o Super-Homem, nos arrasta ao labirinto de sofismas obscuros do processo de comunicação \\
-                                como um todo.</p> \\
-                                \\
-                            <p class="content-text">No entanto, não podemos esquecer que o fenômeno da Internet obstaculiza a admissão de uma ontologia das ciências discursivas. \\
-                                Poderia ser sugerido, entretanto, que a hegemonia do ambiente político resultou no abandono das relações entre o conteúdo proposicional \\
-                                e o figurado. Segundo Heidegger, o plano de imanência pré-filosófico ainda não demonstrou convincentemente como vai participar na \\
-                                mudança das múltiplas direções do ponto de transcendência do sentido enunciativo.</p>',
+                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
                         },
                         "table": [
                             {
-                            "func": "✓ Funcionalidade 1"
+                            "func": "✓ Integração: Google Calendar"
                             },
                             {
-                            "func": "✓ Funcionalidade 2"
+                            "func": "✓ Carrossel"
                             },
                             {
-                            "func": "✓ Funcionalidade 3"
+                            "func": "✓ Menu"
                             },
                             {
-                            "func": "✓ Funcionalidade 4"
+                            "func": "✓ Conteúdo Dinâmico"
                             },
                             {
-                            "func": "✓ Funcionalidade 5"
+                            "func": "✓ Ações Globais"
                             },
                             {
-                            "func": "✓ Funcionalidade 6"
+                            "func": "✓ Variáveis de Configuração"
                             },
                             {
-                            "func": "✓ Funcionalidade 7"
+                            "func": "✓ Atendimento Humano"
                             },
                             {
-                            "func": "✓ Funcionalidade 8"
-                            },
-                            {
-                            "func": "✓ Funcionalidade 9"
-                            },
-                            {
-                            "func": "✓ Funcionalidade 10"
+                            "func": "✓ Script Javascript"
                             }
                         ]
                         }
                     ]
                     };
-                    var template = data.templates[myParam-1];
+                    var template;
+                    for(key in data){
+                        if(key.indexOf("myParam")){
+                            template = data[key][0];
+                            console.log(template);
+                        }
+                    }
+
                     if (template){
                         var categories_details = document.getElementsByClassName('categories-details')[0];
                         
@@ -536,7 +551,7 @@ class ScriptDynamically extends React.Component {
                         details.innerHTML = template.tabs.details;
                             var a = document.createElement("a");
                             a.setAttribute("class", "docs-prev button");
-                            Object.assign(a.style, {"margin-top": "87px", "text-align": "center", "height": "38px" ,"width": "30%", "border-radius": "8px"});
+                            Object.assign(a.style, {"margin-top": "87px", "margin-bottom": "80px", "text-align": "center", "height": "38px" ,"width": "30%", "border-radius": "8px"});
                             a.href = "/templates";
                                 var span = document.createElement("span");
                                 span.setAttribute("class", "function-name-prevnext");
@@ -548,16 +563,44 @@ class ScriptDynamically extends React.Component {
 
                         var install = document.getElementById("Install");
                         install.innerHTML = template.tabs.install;
+                        var b = document.createElement("a");
+                            b.setAttribute("class", "docs-prev button");
+                            Object.assign(b.style, {"margin-top": "87px", "margin-bottom": "80px", "text-align": "center", "height": "38px" ,"width": "30%", "border-radius": "8px"});
+                            b.href = "/templates";
+                                var span = document.createElement("span");
+                                span.setAttribute("class", "function-name-prevnext");
+                                span.innerHTML = "< Ver todos os templates";
+                                span.style.fontWeight = "bold";
+                            b.appendChild(span);
+                        install.appendChild(b);
 
                         var support = document.getElementById("Support");
                         support.innerHTML = template.tabs.support;
+                        var c = document.createElement("a");
+                            c.setAttribute("class", "docs-prev button");
+                            Object.assign(c.style, {"margin-top": "87px", "margin-bottom": "80px", "text-align": "center", "height": "38px" ,"width": "30%", "border-radius": "8px"});
+                            c.href = "/templates";
+                                var span = document.createElement("span");
+                                span.setAttribute("class", "function-name-prevnext");
+                                span.innerHTML = "< Ver todos os templates";
+                                span.style.fontWeight = "bold";
+                            c.appendChild(span);
+                        support.appendChild(c);
                     }
                     else{
                         alert("404: PÁGINA NÃO ENCONTRADA!"); 
                         window.location.href = "/templates";
                     }
                     
-
+                    var iframe = document.getElementsByClassName("iframe-bot")[0];
+                    console.log(iframe);
+                    
+                    new BlipChat()
+                        .withAppKey(template.link_bot)
+                        .withButton({"color":"#2CC3D5","icon":""})
+                        .withTarget("iframe")
+                        .build();
+                    
                     
                 `
                 }}
