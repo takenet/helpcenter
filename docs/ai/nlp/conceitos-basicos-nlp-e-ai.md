@@ -49,24 +49,11 @@ Toda intenção possui 2 partes:
 
 	- **Exemplos ou Perguntas**: São os textos que efetivamente serão enviados para o provedor de NLP para treinamento do modelo de NLP.
 
-# Confiança
-
-Confiança ou Confiabilidade é grau de certeza do provedor de NLP ao categorizar um texto. Varia entre 0 e 1 e quanto mais perto de 1, maior a certeza do provedor de NLP
-
-**Confiança Mínima** (valores arbitrários)
-
-- IA em **desenvolvimento** 0.5 ou 50%
-
- - IA em **entregue** e em evolução 0.75 ou 75%
-
- - IA **madura ou crítica** 0.9 ou 90%
-
 # Exemplos ou Perguntas
 
 É o principal insumo do provedor de NLP e é delas que saem os modelos de NLP.
 
 *Exemplos = Perguntas.*
-
 
 
 **Regras:**
@@ -96,27 +83,31 @@ Exemplos:
  - Abertura de sinistro em caso de acidente.
 ```
 
+# Confiança
+
+Confiança ou Confiabilidade é grau de certeza do provedor de NLP ao categorizar um texto. Varia entre 0 e 1 e quanto mais perto de 1, maior a certeza do provedor de NLP. O valor padrão utilizado é 60%. Em casos mais específicos, onde a tolerância à Falsos Positivos é muito crítica, aumenta-se então esse valor para 75%, 80%, mas são casos extremamente raros.
+
+**Confiança Mínima** (valores arbitrários)
+
+- IA em **desenvolvimento** 0.5 ou 50%
+
+ - IA em **entregue** e em evolução 0.75 ou 75%
+
+ - IA **madura ou crítica** 0.9 ou 90%
+
+
+
 # Entidade
 
 ## Definição
 
-Entidades podem ser entendidas como pedaços do texto que completam o sentido de intenções. Em geral, as entidades do chatbot são substantivos, adjetivos, coisas, produtos e serviços que fazem parte do contexto do negócio do cliente. Além disso, podem ser também números, datas, valores monetários, porcentagens, pessoas e localizações.
+Entidades podem ser entendidas como pedaços do texto que completam o sentido de intenções/categorias encontradas pelo provedor de NLP e são a saída *secundária* dele. Em geral, as entidades do chatbot são substantivos, adjetivos, coisas, produtos e serviços que fazem parte do contexto do negócio do cliente. Além disso, podem ser também números, datas, valores monetários, porcentagens, pessoas e localizações.
 
-Entidades são informações que são como variáveis das intenções: elas representam o objeto das mesmas.
+Para a criação de entidades, observa-se alguns tópicos:
 
- - Substantivos
-
- - Adjetivos
-
-Servem para completar o sentido da intenção/categoria encontrada pelo provedor de NLP e são a saída "secundária" dele.
-
- - Coisas
-
- - Produtos
-
- - Serviços
-
- - Tipos de Coisas, Produtos e Serviços
+1. Mapear produtos, serviços e contextos do negócio.
+2. Usar nomes como se fossem categorias.
+3. Utilizar o campo de sinônimos para variações que mapeiam o jeito que o usuário escreve.
 
 ## Composição
 
@@ -179,34 +170,6 @@ Efetivamente aquilo que o cliente vê ou aquilo que entregamos para o cliente. E
 
 De forma geral, podemos dizer que conteúdos são textos, fluxos e ações. Ou seja, através do NLP, podemos entregar conteúdos para o usuário que sejam uma resposta simples de uma pergunta, um fluxo do Builder ou mesmo ações como transbordar para o atendimento humano ou fazer uma chamada de API. Respostas então, são a entrega do conteúdo.
 
-# Base de Conhecimento
-
-Nos referimos a base de conhecimento em 2 momentos:
-
- - **Momento 1 - Base de Perguntas e Respostas**
-
-	- Em geral é a base que está no cliente.
-
-	- É a base que usamos como insumo para gerar o modelo de NLP (intenções e entidades)
-
- - **Momento 2 - Base de Intenções com Exemplos, Entidades com Sinônimos e Conteúdos (Respostas)**
-
-	- É como nos referimos a base "pronta", dentro do BLiP
-
-Pensando no momento 1, existe uma base de conhecimento ideal? **Sim!** **MAS!** Dificilmente o cliente terá essa base de conhecimento pronta. Podemos atuar ensinando como fazer, mas normalmente nós acabaremos fazendo.
-
- - **Perguntas e Conteúdos (Ações, Texto e Fluxos)**
-
-	- Uma lista de perguntas mapeando para ações, textos de resposta ou mesmo fluxos do chatbot.
-
- - **Intenções, Entidades e Conteúdos (Ações, Texto e Fluxos)**
-
-	- Uma lista de intenções e entidades mapeando para ações, textos de resposta ou mesmo fluxos do chatbot.
-
-## Quando devemos receber a base de conhecimento?
-
-Em todos os chatbots que usam NLP, a base de conhecimento deve chegar o quanto antes. Em geral, ela será muito necessária no desenho do chatbot, principalmente quando os UXs entrarem no detalhe do comportamento do serviço.
-
 # Modelo de NLP
 
 Com todos os conceitos expostos, podemos definir o modelo de NLP como sendo:
@@ -240,8 +203,7 @@ Todas as vezes que **e** **apenas quando** realizamos um novo treino, criamos um
 ## Treinamento
 
 Processo de construção de um novo modelo de NLP.
-
-- Enviar a base de conhecimento para o(s) Provedor(es) de NLP.
+- E envio a base de conhecimento para o(s) Provedor(es) de NLP é feito via BLiP, por meio do botão Treinar.
 
 - Aguardar alguns minutos para finalização do treino.
 
@@ -261,8 +223,8 @@ Processo de disponibilização de um novo modelo de NLP para os clientes.
 
 ## Aprimoramento
 
-Processo de analisar o resultado da análise do modelo de NLP, propondo/sugerindo alterações (criar, remover, modificar) nos exemplos das intenções e nos valores e sinônimos das entidades.
+ Processo de analisar o resultado da classificação do modelo da análise do modelo de NLP, propondo/sugerindo alterações (criar, remover, modificar) nos exemplos das intenções e nos valores e sinônimos das entidades.
 
 ## Aprovação
 
- É um processo criado pelo BLiP em que as sugestões/propostas de aprimoramento são validadas por um especialista em modelos de NLP (analista de IA).
+É um processo criado pelo BLiP em que as sugestões/propostas de aprimoramento são validadas por um especialista em modelos de NLP (analista de IA).
