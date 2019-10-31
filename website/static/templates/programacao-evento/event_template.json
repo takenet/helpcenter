@@ -1,11 +1,11 @@
-{ 
-    "onboarding":{ 
-       "$contentActions":[ 
-          { 
-             "input":{ 
+{
+    "onboarding":{
+       "$contentActions":[
+          {
+             "input":{
                 "bypass":false,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"4ac6b64c-91d9-457f-953e-d59152fb8f0d",
                       "type":"text/plain",
                       "content":"Entrada do usuário"
@@ -21,14 +21,14 @@
              "$invalid":false
           }
        ],
-       "$conditionOutputs":[ 
-          { 
+       "$conditionOutputs":[
+          {
              "stateId":"welcome",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"matches",
-                   "values":[ 
+                   "values":[
                       ".*"
                    ],
                    "$$hashKey":"object:1143"
@@ -39,25 +39,25 @@
              "$invalid":false
           }
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"fallback",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"onboarding",
        "root":true,
-       "$position":{ 
+       "$position":{
           "top":"40px",
           "left":"147px"
        },
@@ -67,13 +67,13 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "fallback":{ 
-       "$contentActions":[ 
-          { 
-             "input":{ 
+    "fallback":{
+       "$contentActions":[
+          {
+             "input":{
                 "bypass":true,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"3ba8a645-9d1a-41a6-8a0b-2897596df8dc",
                       "type":"text/plain"
                    },
@@ -87,14 +87,14 @@
              "$invalid":false
           }
        ],
-       "$conditionOutputs":[ 
-          { 
+       "$conditionOutputs":[
+          {
              "stateId":"error",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"matches",
-                   "values":[ 
+                   "values":[
                       ".*"
                    ]
                 }
@@ -103,24 +103,24 @@
              "$invalid":false
           }
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"onboarding",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"fallback",
-       "$position":{ 
+       "$position":{
           "top":"77px",
           "left":"876px"
        },
@@ -130,24 +130,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "welcome":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "welcome":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"441a983e-5741-45ae-8e12-91f2a6fc4657",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"441a983e-5741-45ae-8e12-91f2a6fc4657",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -160,16 +160,16 @@
              "$invalid":false,
              "$$hashKey":"object:5543"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"f9aec69c-fc56-49cc-8d43-6f791dd33144",
                    "type":"text/plain",
                    "content":"Olá! \nBem-vindo(a) à Conferência Nacional de Chatbots! 🤖"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"f9aec69c-fc56-49cc-8d43-6f791dd33144",
                       "type":"text/plain",
                       "content":"Olá! \nBem-vindo(a) à Conferência Nacional de Chatbots! 🤖"
@@ -182,11 +182,11 @@
              "$invalid":false,
              "$$hashKey":"object:5544"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":true,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"a275d0bf-052f-43a1-a591-8bc77352fc88",
                       "type":"text/plain",
                       "content":"Entrada do usuário"
@@ -202,15 +202,15 @@
              "$invalid":false
           }
        ],
-       "$conditionOutputs":[ 
-          { 
+       "$conditionOutputs":[
+          {
              "stateId":"53ff3793-f62b-4ce3-ae9c-aa4116f76039",
              "$connId":"con_13",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"context",
                    "comparison":"equals",
-                   "values":[ 
+                   "values":[
                       "WhatsApp",
                       "wa.gw.msging.net"
                    ],
@@ -221,14 +221,14 @@
              "$invalid":false,
              "$$hashKey":"object:5935"
           },
-          { 
+          {
              "stateId":"3f096274-74be-4989-92b4-00f78ed3d7f7",
              "$connId":"con_18",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"context",
                    "comparison":"exists",
-                   "values":[ 
+                   "values":[
  
                    ],
                    "$$hashKey":"object:7544",
@@ -239,24 +239,24 @@
              "$$hashKey":"object:7536"
           }
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"fallback",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"welcome",
-       "$position":{ 
+       "$position":{
           "top":"201px",
           "left":"278px"
        },
@@ -266,24 +266,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "error":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "error":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"00000000-0000-0000-0000-000000000002",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"00000000-0000-0000-0000-000000000002",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -297,16 +297,16 @@
              "$$hashKey":"object:720",
              "$invalid":false
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"00000000-0000-0000-0000-000000000003",
                    "type":"text/plain",
                    "content":"Desculpe, não consegui entender!"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"00000000-0000-0000-0000-000000000003",
                       "type":"text/plain",
                       "content":"Desculpe, não consegui entender!"
@@ -320,11 +320,11 @@
              "$$hashKey":"object:721",
              "$invalid":false
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":true,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"2cbf4b07-cf9e-4f77-bbc6-5b63c20b461c",
                       "type":"text/plain",
                       "content":"Entrada do usuário"
@@ -340,27 +340,27 @@
              "$invalid":false
           }
        ],
-       "$conditionOutputs":[ 
+       "$conditionOutputs":[
  
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"onboarding",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"error",
-       "$position":{ 
+       "$position":{
           "top":"77px",
           "left":"1098px"
        },
@@ -370,24 +370,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "53ff3793-f62b-4ce3-ae9c-aa4116f76039":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "53ff3793-f62b-4ce3-ae9c-aa4116f76039":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"c84fdb13-51a6-4552-a2f9-35c18a4ebfe1",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"c84fdb13-51a6-4552-a2f9-35c18a4ebfe1",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -400,19 +400,19 @@
              "$invalid":false,
              "$$hashKey":"object:10689"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"7e65c7ae-500c-4f8b-9854-8ed0da88b75f",
                    "type":"text/plain",
-                   "content":"Sobre o que você gostaria de saber sobre a Conferência Nacional de Chatbots?\n\n*1. Informações* 📝\n*2. Programação* 🕑\n*3. Mapa do Evento* 🗺️\n*4. Contato* ☎️"
+                   "content":"Sobre o que você gostaria de saber sobre a Conferência Nacional de Chatbots?\n\n*1. Informações* 📝\n*2. Programação* 🕑\n*3. Mapa do Evento* 🗺️\n*4. Contato* ☎️\n*5. Atendimento* 👨‍💼"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"7e65c7ae-500c-4f8b-9854-8ed0da88b75f",
                       "type":"text/plain",
-                      "content":"Sobre o que você gostaria de saber sobre a Conferência Nacional de Chatbots?\n\n*1. Informações* 📝\n*2. Programação* 🕑\n*3. Mapa do Evento* 🗺️\n*4. Contato* ☎️"
+                      "content":"Sobre o que você gostaria de saber sobre a Conferência Nacional de Chatbots?\n\n*1. Informações* 📝\n*2. Programação* 🕑\n*3. Mapa do Evento* 🗺️\n*4. Contato* ☎️\n*5. Atendimento* 👨‍💼"
                    },
                    "editable":true,
                    "deletable":true,
@@ -422,11 +422,11 @@
              "$invalid":false,
              "$$hashKey":"object:10690"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":false,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"790fefbc-3b93-4d49-99bc-a090ab2975ea",
                       "type":"text/plain",
                       "textContent":"Entrada do usuário",
@@ -443,15 +443,15 @@
              "$invalid":false
           }
        ],
-       "$conditionOutputs":[ 
-          { 
+       "$conditionOutputs":[
+          {
              "stateId":"ca2412ea-1968-426a-b047-98ff1407f263",
              "$connId":"con_23",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"contains",
-                   "values":[ 
+                   "values":[
                       "1",
                       "Informações",
                       "info",
@@ -463,14 +463,14 @@
              "$$hashKey":"object:22942",
              "$invalid":false
           },
-          { 
+          {
              "stateId":"0224435b-709d-4f47-b019-abedc4785fbd",
              "$connId":"con_28",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"contains",
-                   "values":[ 
+                   "values":[
                       "3",
                       "mapa",
                       "mapa do event",
@@ -488,21 +488,20 @@
              "$invalid":false,
              "$$hashKey":"object:10122"
           },
-          { 
+          {
              "stateId":"54e04127-fae0-4dd1-b85d-f2fda982afbc",
              "$connId":"con_33",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"contains",
-                   "values":[ 
+                   "values":[
                       "4",
                       "contato",
                       "4. contato",
                       "telefone",
                       "email",
-                      "ingressos",
-                      "falar"
+                      "ingressos"
                    ],
                    "$$hashKey":"object:29133"
                 }
@@ -510,18 +509,17 @@
              "$invalid":false,
              "$$hashKey":"object:29125"
           },
-          { 
+          {
              "stateId":"6ea7b8a3-5ee3-46c9-bef3-e1b665ac6569",
              "$connId":"con_38",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"contains",
-                   "values":[ 
+                   "values":[
                       "2",
                       "2. programação",
                       "palestras",
-                      "pessoas",
                       "horários",
                       "apresentações",
                       "programação"
@@ -531,28 +529,51 @@
              ],
              "$invalid":false,
              "$$hashKey":"object:12345"
+          },
+          {
+             "stateId":"67e44fd2-42c6-4844-8952-efd6cc04288e",
+             "$connId":"con_93",
+             "conditions":[
+                {
+                   "source":"input",
+                   "comparison":"contains",
+                   "values":[
+                      "humano",
+                      "falar",
+                      "atendente",
+                      "atend",
+                      "pessoa",
+                      "atendimento",
+                      "5",
+                      "5."
+                   ],
+                   "$$hashKey":"object:5979"
+                }
+             ],
+             "$invalid":false,
+             "$$hashKey":"object:5971"
           }
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"fallback",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"53ff3793-f62b-4ce3-ae9c-aa4116f76039",
        "root":false,
        "$title":"✅ 1. Menu [WhatsApp]",
-       "$position":{ 
+       "$position":{
           "top":"254px",
           "left":"728px"
        },
@@ -561,24 +582,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "ca2412ea-1968-426a-b047-98ff1407f263":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "ca2412ea-1968-426a-b047-98ff1407f263":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"1bf9f62e-301c-4179-ae0e-3dd97cf4b223",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"1bf9f62e-301c-4179-ae0e-3dd97cf4b223",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -591,16 +612,16 @@
              "$invalid":false,
              "$$hashKey":"object:21933"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"1a023b21-a15a-4ab6-a11f-0ac3dd707b5b",
                    "type":"text/plain",
                    "content":"*Conferência Nacional de Chatbots*\n\n📍   Centro de Convenções A, São Paulo - SP\n\n⏰ 10h - 19h:30\n\n📅  Sábado, 12 de Outubro de 2019"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"1a023b21-a15a-4ab6-a11f-0ac3dd707b5b",
                       "type":"text/plain",
                       "content":"*Conferência Nacional de Chatbots*\n\n📍   Centro de Convenções A, São Paulo - SP\n\n⏰ 10h - 19h:30\n\n📅  Sábado, 12 de Outubro de 2019"
@@ -613,22 +634,22 @@
              "$invalid":false,
              "$$hashKey":"object:21934"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"648aaa50-b3ea-469e-9b32-2e545b291d6e",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"648aaa50-b3ea-469e-9b32-2e545b291d6e",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -641,16 +662,16 @@
              "$invalid":false,
              "$$hashKey":"object:26400"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"2f986254-a834-4313-b8b3-c3b25ac1eb12",
                    "type":"text/plain",
                    "content":"*Como as pessoas podem interagir com as novas tecnologias conversacionais?*\n\nA Conferência Nacional de Chatbots é um evento construído por e para uma comunidade de pessoas interessadas em bots, inteligência artificial e interfaces conversacionais.\n\nNa edição 2019 o conteúdo será focado em processos, ferramentas, metodologias e cases de sucesso.\n\nEntre uma apresentação e outra, aproveite para fazer muito networking com as pessoas mais antenadas do mercado."
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"2f986254-a834-4313-b8b3-c3b25ac1eb12",
                       "type":"text/plain",
                       "content":"*Como as pessoas podem interagir com as novas tecnologias conversacionais?*\n\nA Conferência Nacional de Chatbots é um evento construído por e para uma comunidade de pessoas interessadas em bots, inteligência artificial e interfaces conversacionais.\n\nNa edição 2019 o conteúdo será focado em processos, ferramentas, metodologias e cases de sucesso.\n\nEntre uma apresentação e outra, aproveite para fazer muito networking com as pessoas mais antenadas do mercado."
@@ -663,11 +684,11 @@
              "$invalid":false,
              "$$hashKey":"object:26401"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":true,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"ed1aef3f-8939-4f88-9aad-cc2c9f6b3df0",
                       "type":"text/plain",
                       "content":"Entrada do usuário"
@@ -683,29 +704,29 @@
              "$invalid":false
           }
        ],
-       "$conditionOutputs":[ 
+       "$conditionOutputs":[
  
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"6a36bcaf-9487-40c3-86a6-e4faa6de1702",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"ca2412ea-1968-426a-b047-98ff1407f263",
        "root":false,
        "$title":"✅ 1.1 Informações",
-       "$position":{ 
+       "$position":{
           "top":"254px",
           "left":"1094px"
        },
@@ -714,24 +735,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "3f096274-74be-4989-92b4-00f78ed3d7f7":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "3f096274-74be-4989-92b4-00f78ed3d7f7":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"197c67e1-09fd-419e-8c9c-52abc7b76c95",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"197c67e1-09fd-419e-8c9c-52abc7b76c95",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -744,78 +765,92 @@
              "$invalid":false,
              "$$hashKey":"object:11067"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"7750547b-f0bf-456a-a6d4-4b2c1fe3f56d",
                    "type":"application/vnd.lime.select+json",
-                   "content":{ 
+                   "content":{
                       "text":"Sobre o que você gostaria de saber sobre a Conferência Nacional de Chatbots?",
-                      "options":[ 
-                         { 
+                      "options":[
+                         {
                             "text":"Informações 📝",
                             "previewText":"Informações 📝",
                             "value":null,
                             "index":0,
                             "type":null
                          },
-                         { 
+                         {
                             "text":"Programação 🕑",
                             "previewText":"Programação 🕑",
                             "value":null,
                             "index":1,
                             "type":null
                          },
-                         { 
+                         {
                             "text":"Mapa do Evento 🗺️",
                             "previewText":"Mapa do Evento 🗺️",
                             "value":null,
                             "index":2,
                             "type":null
                          },
-                         { 
+                         {
                             "index":3,
                             "text":"Contato ☎️",
                             "previewText":"Contato ☎️",
+                            "type":null,
+                            "value":null
+                         },
+                         {
+                            "index":-1,
+                            "text":"Atendimento 👨‍💼",
+                            "previewText":"Atendimento 👨‍💼",
                             "type":null,
                             "value":null
                          }
                       ]
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"7750547b-f0bf-456a-a6d4-4b2c1fe3f56d",
                       "type":"application/vnd.lime.select+json",
-                      "content":{ 
+                      "content":{
                          "text":"Sobre o que você gostaria de saber sobre a Conferência Nacional de Chatbots?",
-                         "options":[ 
-                            { 
+                         "options":[
+                            {
                                "text":"Informações 📝",
                                "previewText":"Informações 📝",
                                "value":null,
                                "index":0,
                                "type":null
                             },
-                            { 
+                            {
                                "text":"Programação 🕑",
                                "previewText":"Programação 🕑",
                                "value":null,
                                "index":1,
                                "type":null
                             },
-                            { 
+                            {
                                "text":"Mapa do Evento 🗺️",
                                "previewText":"Mapa do Evento 🗺️",
                                "value":null,
                                "index":2,
                                "type":null
                             },
-                            { 
+                            {
                                "index":3,
                                "text":"Contato ☎️",
                                "previewText":"Contato ☎️",
+                               "type":null,
+                               "value":null
+                            },
+                            {
+                               "index":-1,
+                               "text":"Atendimento 👨‍💼",
+                               "previewText":"Atendimento 👨‍💼",
                                "type":null,
                                "value":null
                             }
@@ -830,11 +865,11 @@
              "$invalid":false,
              "$$hashKey":"object:11068"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":false,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"c09657fc-b7db-461e-b15a-6a7c59f8f8c3",
                       "type":"text/plain",
                       "textContent":"Entrada do usuário",
@@ -851,15 +886,15 @@
              "$invalid":false
           }
        ],
-       "$conditionOutputs":[ 
-          { 
+       "$conditionOutputs":[
+          {
              "stateId":"37283dab-4289-43fe-93b2-064a3b45a4fc",
              "$connId":"con_43",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"contains",
-                   "values":[ 
+                   "values":[
                       "1",
                       "Informações",
                       "1. Informações",
@@ -871,14 +906,14 @@
              "$$hashKey":"object:25329",
              "$invalid":false
           },
-          { 
+          {
              "stateId":"40d8f87d-83c8-4b56-ae2c-f2170f24d1f1",
              "$connId":"con_48",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"contains",
-                   "values":[ 
+                   "values":[
                       "3",
                       "Mapa do Evento",
                       "mapa",
@@ -894,14 +929,14 @@
              "$invalid":false,
              "$$hashKey":"object:5501"
           },
-          { 
+          {
              "stateId":"1e3f50bd-e2a9-4368-b1ba-95e5e564c493",
              "$connId":"con_53",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"contains",
-                   "values":[ 
+                   "values":[
                       "Programação",
                       "palestras",
                       "pessoas",
@@ -914,14 +949,14 @@
              "$invalid":false,
              "$$hashKey":"object:19743"
           },
-          { 
+          {
              "stateId":"56cc1c43-0aa4-4da0-9f89-c1551b574da1",
              "$connId":"con_58",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"contains",
-                   "values":[ 
+                   "values":[
                       "Contato",
                       "telefone",
                       "email",
@@ -935,31 +970,49 @@
              ],
              "$invalid":false,
              "$$hashKey":"object:25345"
+          },
+          {
+             "stateId":"67e44fd2-42c6-4844-8952-efd6cc04288e",
+             "$connId":"con_88",
+             "conditions":[
+                {
+                   "source":"input",
+                   "comparison":"equals",
+                   "values":[
+                      "Atendimento 👨‍💼",
+                      "humano"
+                   ],
+                   "$$hashKey":"object:5172"
+                }
+             ],
+             "$invalid":false,
+             "$$hashKey":"object:5164"
           }
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
           "Informações 📝",
           "Programação 🕑",
           "Mapa do Evento 🗺️",
-          "Contato ☎️"
+          "Contato ☎️",
+          "Atendimento 👨‍💼"
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"fallback",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"3f096274-74be-4989-92b4-00f78ed3d7f7",
        "root":false,
        "$title":"💬 1. Menu [Outros]",
-       "$position":{ 
+       "$position":{
           "top":"315px",
           "left":"277px"
        },
@@ -968,24 +1021,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "37283dab-4289-43fe-93b2-064a3b45a4fc":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "37283dab-4289-43fe-93b2-064a3b45a4fc":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"1bf9f62e-301c-4179-ae0e-3dd97cf4b223",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"1bf9f62e-301c-4179-ae0e-3dd97cf4b223",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -998,16 +1051,16 @@
              "$invalid":false,
              "$$hashKey":"object:24363"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"1a023b21-a15a-4ab6-a11f-0ac3dd707b5b",
                    "type":"text/plain",
                    "content":"<b>Conferência Nacional de Chatbots</b>\n\n📍   Centro de Convenções A, São Paulo - SP\n\n⏰ 10h - 19h:30\n\n📅  Sábado, 12 de Fevereiro de 2022"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"1a023b21-a15a-4ab6-a11f-0ac3dd707b5b",
                       "type":"text/plain",
                       "content":"<b>Conferência Nacional de Chatbots</b>\n\n📍   Centro de Convenções A, São Paulo - SP\n\n⏰ 10h - 19h:30\n\n📅  Sábado, 12 de Fevereiro de 2022"
@@ -1020,22 +1073,22 @@
              "$invalid":false,
              "$$hashKey":"object:24364"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"2e2d0cb9-a1e5-4950-8984-44f0a1f0e2ad",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"2e2d0cb9-a1e5-4950-8984-44f0a1f0e2ad",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -1048,16 +1101,16 @@
              "$invalid":false,
              "$$hashKey":"object:35030"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"09fe170f-6f22-4c40-8187-83fa4d5024bc",
                    "type":"text/plain",
                    "content":"<b>Como as pessoas podem interagir com as novas tecnologias conversacionais?</b>\n\nA Conferência Nacional de Chatbots é um evento construído por e para uma comunidade de pessoas interessadas em bots, inteligência artificial e interfaces conversacionais.\n\nNa edição 2019 o conteúdo será focado em processos, ferramentas, metodologias e cases de sucesso.\n\nEntre uma apresentação e outra, aproveite para fazer muito networking com as pessoas mais antenadas do mercado."
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"09fe170f-6f22-4c40-8187-83fa4d5024bc",
                       "type":"text/plain",
                       "content":"<b>Como as pessoas podem interagir com as novas tecnologias conversacionais?</b>\n\nA Conferência Nacional de Chatbots é um evento construído por e para uma comunidade de pessoas interessadas em bots, inteligência artificial e interfaces conversacionais.\n\nNa edição 2019 o conteúdo será focado em processos, ferramentas, metodologias e cases de sucesso.\n\nEntre uma apresentação e outra, aproveite para fazer muito networking com as pessoas mais antenadas do mercado."
@@ -1070,11 +1123,11 @@
              "$invalid":false,
              "$$hashKey":"object:35031"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":true,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"df7b6ca0-b88c-4eb2-95cc-35295d1de88f",
                       "type":"text/plain",
                       "content":"Entrada do usuário"
@@ -1090,29 +1143,29 @@
              "$$hashKey":"object:24365"
           }
        ],
-       "$conditionOutputs":[ 
+       "$conditionOutputs":[
  
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"b4f31926-311d-489e-92eb-423fdaeb4e12",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"37283dab-4289-43fe-93b2-064a3b45a4fc",
        "root":false,
        "$title":"💬 1.1 Informações",
-       "$position":{ 
+       "$position":{
           "top":"451px",
           "left":"16px"
        },
@@ -1121,24 +1174,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "b4f31926-311d-489e-92eb-423fdaeb4e12":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "b4f31926-311d-489e-92eb-423fdaeb4e12":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"38b886ff-b188-472d-b336-ef219bb17d27",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":"6000"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"38b886ff-b188-472d-b336-ef219bb17d27",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":"6000"
                       }
@@ -1151,24 +1204,24 @@
              "$invalid":false,
              "$$hashKey":"object:41771"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"5a614566-939f-44b3-9b82-ff5d1c4a2374",
                    "type":"application/vnd.lime.select+json",
-                   "content":{ 
+                   "content":{
                       "text":"Gostaria de saber mais alguma coisa? 🙋",
                       "scope":"immediate",
-                      "options":[ 
-                         { 
+                      "options":[
+                         {
                             "text":"Sim",
                             "previewText":"Sim",
                             "value":null,
                             "index":0,
                             "type":null
                          },
-                         { 
+                         {
                             "text":"Não",
                             "previewText":"Não",
                             "value":null,
@@ -1178,22 +1231,22 @@
                       ]
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"5a614566-939f-44b3-9b82-ff5d1c4a2374",
                       "type":"application/vnd.lime.select+json",
-                      "content":{ 
+                      "content":{
                          "text":"Gostaria de saber mais alguma coisa? 🙋",
                          "scope":"immediate",
-                         "options":[ 
-                            { 
+                         "options":[
+                            {
                                "text":"Sim",
                                "previewText":"Sim",
                                "value":null,
                                "index":0,
                                "type":null
                             },
-                            { 
+                            {
                                "text":"Não",
                                "previewText":"Não",
                                "value":null,
@@ -1211,11 +1264,11 @@
              "$invalid":false,
              "$$hashKey":"object:41772"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":false,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"ecf35cf2-5405-401b-ad57-475d37826e2f",
                       "type":"text/plain",
                       "textContent":"Entrada do usuário",
@@ -1232,15 +1285,15 @@
              "$invalid":false
           }
        ],
-       "$conditionOutputs":[ 
-          { 
+       "$conditionOutputs":[
+          {
              "stateId":"3f096274-74be-4989-92b4-00f78ed3d7f7",
              "$connId":"con_63",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"equals",
-                   "values":[ 
+                   "values":[
                       "Sim"
                    ],
                    "$$hashKey":"object:41800"
@@ -1249,14 +1302,14 @@
              "$invalid":false,
              "$$hashKey":"object:41791"
           },
-          { 
+          {
              "stateId":"b1a73514-3106-4919-95f0-44e6131ac022",
              "$connId":"con_68",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"equals",
-                   "values":[ 
+                   "values":[
                       "Não"
                    ],
                    "$$hashKey":"object:41865"
@@ -1266,27 +1319,27 @@
              "$$hashKey":"object:41857"
           }
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
           "Sim",
           "Não"
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"fallback",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"b4f31926-311d-489e-92eb-423fdaeb4e12",
        "root":false,
        "$title":"💬  2. Voltar ao menu",
-       "$position":{ 
+       "$position":{
           "top":"569px",
           "left":"260px"
        },
@@ -1295,24 +1348,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "b1a73514-3106-4919-95f0-44e6131ac022":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "b1a73514-3106-4919-95f0-44e6131ac022":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"8902ccee-40e2-4500-8569-2ae76bf0ad86",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"8902ccee-40e2-4500-8569-2ae76bf0ad86",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -1325,16 +1378,16 @@
              "$invalid":false,
              "$$hashKey":"object:49477"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"dba6b1bc-6a75-4358-a087-d9a2964faff1",
                    "type":"text/plain",
                    "content":"Obrigado por se interessar pela Conferência Nacional de Chatbots!\n\nAté a próxima!  👋"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"dba6b1bc-6a75-4358-a087-d9a2964faff1",
                       "type":"text/plain",
                       "content":"Obrigado por se interessar pela Conferência Nacional de Chatbots!\n\nAté a próxima!  👋"
@@ -1347,11 +1400,11 @@
              "$invalid":false,
              "$$hashKey":"object:49478"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":false,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"42625716-c4dd-4074-992a-27e51a4588a4",
                       "type":"text/plain",
                       "textContent":"Entrada do usuário",
@@ -1368,29 +1421,29 @@
              "$$hashKey":"object:49161"
           }
        ],
-       "$conditionOutputs":[ 
+       "$conditionOutputs":[
  
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"welcome",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"b1a73514-3106-4919-95f0-44e6131ac022",
        "root":false,
        "$title":"👋 Obrigado",
-       "$position":{ 
+       "$position":{
           "top":"621px",
           "left":"643px"
        },
@@ -1399,24 +1452,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "6a36bcaf-9487-40c3-86a6-e4faa6de1702":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "6a36bcaf-9487-40c3-86a6-e4faa6de1702":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"4d1531eb-886b-4568-840a-512c5dd8f7c4",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":"6000"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"4d1531eb-886b-4568-840a-512c5dd8f7c4",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":"6000"
                       }
@@ -1429,16 +1482,16 @@
              "$invalid":false,
              "$$hashKey":"object:44620"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"69ab40ae-2e3d-4019-9589-f7d9392d597c",
                    "type":"text/plain",
                    "content":"Gostaria de saber mais alguma coisa? 🙋\n\n*1. Sim*\n*2. Não*"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"69ab40ae-2e3d-4019-9589-f7d9392d597c",
                       "type":"text/plain",
                       "content":"Gostaria de saber mais alguma coisa? 🙋\n\n*1. Sim*\n*2. Não*"
@@ -1451,11 +1504,11 @@
              "$invalid":false,
              "$$hashKey":"object:44621"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":false,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"ecf35cf2-5405-401b-ad57-475d37826e2f",
                       "type":"text/plain",
                       "textContent":"Entrada do usuário",
@@ -1472,15 +1525,15 @@
              "$$hashKey":"object:44205"
           }
        ],
-       "$conditionOutputs":[ 
-          { 
+       "$conditionOutputs":[
+          {
              "stateId":"53ff3793-f62b-4ce3-ae9c-aa4116f76039",
              "$connId":"con_73",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"contains",
-                   "values":[ 
+                   "values":[
                       "Sim",
                       "1.",
                       "1",
@@ -1492,14 +1545,14 @@
              "$invalid":false,
              "$$hashKey":"object:44400"
           },
-          { 
+          {
              "stateId":"b1a73514-3106-4919-95f0-44e6131ac022",
              "$connId":"con_78",
-             "conditions":[ 
-                { 
+             "conditions":[
+                {
                    "source":"input",
                    "comparison":"equals",
-                   "values":[ 
+                   "values":[
                       "Não",
                       "2.",
                       "2",
@@ -1512,26 +1565,26 @@
              "$$hashKey":"object:44401"
           }
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"fallback",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"6a36bcaf-9487-40c3-86a6-e4faa6de1702",
        "root":false,
        "$title":"✅   2. Voltar ao menu",
-       "$position":{ 
+       "$position":{
           "top":"588px",
           "left":"1349px"
        },
@@ -1540,24 +1593,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "40d8f87d-83c8-4b56-ae2c-f2170f24d1f1":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "40d8f87d-83c8-4b56-ae2c-f2170f24d1f1":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"42cfb0bc-9e22-49b5-9d4e-e462b6098ba7",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"42cfb0bc-9e22-49b5-9d4e-e462b6098ba7",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -1570,16 +1623,16 @@
              "$invalid":false,
              "$$hashKey":"object:1428"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"807d6b23-09cc-42f1-a4f1-131408981950",
                    "type":"text/plain",
                    "content":"O evento contará com <b> 17 áreas </b>, sendo:\n\n<b> Section A </b>: Estande empresa A 👨‍💼\n<b> Section B </b>: Estande empresa B 👩‍💼\n<b> Section C </b>: Estande empresa C 👨🏾‍💼\n<b> Section D </b>: Sanitários 🚻\n<b> Section E </b>: Área de lazer 🛋️\n<b> Section F </b>: Buffet 🍽️\n<b> Section G </b>: Palco Principal 🎙️\n<b> Section H </b>: Bar 🍸\n"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"807d6b23-09cc-42f1-a4f1-131408981950",
                       "type":"text/plain",
                       "content":"O evento contará com <b> 17 áreas </b>, sendo:\n\n<b> Section A </b>: Estande empresa A 👨‍💼\n<b> Section B </b>: Estande empresa B 👩‍💼\n<b> Section C </b>: Estande empresa C 👨🏾‍💼\n<b> Section D </b>: Sanitários 🚻\n<b> Section E </b>: Área de lazer 🛋️\n<b> Section F </b>: Buffet 🍽️\n<b> Section G </b>: Palco Principal 🎙️\n<b> Section H </b>: Bar 🍸\n"
@@ -1592,16 +1645,16 @@
              "$invalid":false,
              "$$hashKey":"object:6896"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"773b02a6-ad2c-494b-97a1-f20ed34d7e51",
                    "type":"text/plain",
                    "content":"<b>Section J</b>: Área de lazer 🛋️\n<b>Section K</b>: Sanitários 🚻\n<b>Section L</b>: Estande empresa L 👩🏽‍💼\n<b>Section M</b>: Estande empresa M 👨🏽‍💼\n<b>Section N</b>: Estande empresa N 👨🏼‍💼\n<b>Section P</b>: Imprensa 📰\n<b>Section Q</b>: Praça de alimentação 🍔\n<b>Section R</b>: Praça de alimentação 🥗\n<b>Section S</b>: Praça de alimentação 🍨"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"773b02a6-ad2c-494b-97a1-f20ed34d7e51",
                       "type":"text/plain",
                       "content":"<b>Section J</b>: Área de lazer 🛋️\n<b>Section K</b>: Sanitários 🚻\n<b>Section L</b>: Estande empresa L 👩🏽‍💼\n<b>Section M</b>: Estande empresa M 👨🏽‍💼\n<b>Section N</b>: Estande empresa N 👨🏼‍💼\n<b>Section P</b>: Imprensa 📰\n<b>Section Q</b>: Praça de alimentação 🍔\n<b>Section R</b>: Praça de alimentação 🥗\n<b>Section S</b>: Praça de alimentação 🍨"
@@ -1614,16 +1667,16 @@
              "$invalid":false,
              "$$hashKey":"object:21511"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"037d199e-c0cf-421b-990c-44a447af3cd3",
                    "type":"text/plain",
                    "content":"Confira o nosso mapa"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"037d199e-c0cf-421b-990c-44a447af3cd3",
                       "type":"text/plain",
                       "content":"Confira o nosso mapa"
@@ -1636,22 +1689,22 @@
              "$invalid":false,
              "$$hashKey":"object:7303"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"012c491c-b195-4e0d-a7e3-6ceda34948d0",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"012c491c-b195-4e0d-a7e3-6ceda34948d0",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -1664,13 +1717,13 @@
              "$invalid":false,
              "$$hashKey":"object:12134"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"f5703aff-c3b8-4e3c-bf01-b9ae5820e008",
                    "type":"application/vnd.lime.media-link+json",
-                   "content":{ 
+                   "content":{
                       "title":"",
                       "text":"",
                       "type":"image/png",
@@ -1678,11 +1731,11 @@
                       "aspectRatio":"1:1"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"f5703aff-c3b8-4e3c-bf01-b9ae5820e008",
                       "type":"application/vnd.lime.media-link+json",
-                      "content":{ 
+                      "content":{
                          "title":"",
                          "text":"",
                          "type":"image/png",
@@ -1698,11 +1751,11 @@
              "$invalid":false,
              "$$hashKey":"object:1429"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":true,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"6d6447c9-1d04-49cc-9f73-ff3a415e98a2",
                       "type":"text/plain",
                       "content":"Entrada do usuário"
@@ -1718,29 +1771,29 @@
              "$invalid":false
           }
        ],
-       "$conditionOutputs":[ 
+       "$conditionOutputs":[
  
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"b4f31926-311d-489e-92eb-423fdaeb4e12",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"40d8f87d-83c8-4b56-ae2c-f2170f24d1f1",
        "root":false,
        "$title":"💬 1.3 Mapa",
-       "$position":{ 
+       "$position":{
           "top":"443px",
           "left":"476px"
        },
@@ -1749,24 +1802,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "0224435b-709d-4f47-b019-abedc4785fbd":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "0224435b-709d-4f47-b019-abedc4785fbd":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"42cfb0bc-9e22-49b5-9d4e-e462b6098ba7",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"42cfb0bc-9e22-49b5-9d4e-e462b6098ba7",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -1779,16 +1832,16 @@
              "$invalid":false,
              "$$hashKey":"object:8546"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"807d6b23-09cc-42f1-a4f1-131408981950",
                    "type":"text/plain",
                    "content":"O evento contará com *17 áreas*, sendo:\n\n*Section A*: Estande empresa A 👨‍💼\n*Section B*: Estande empresa B 👩‍💼\n*Section C*: Estande empresa C 👨🏾‍💼\n*Section D*: Sanitários 🚻\n*Section E*: Área de lazer 🛋️\n*Section F*: Buffet 🍽️\n*Section G*: Palco Principal 🎙️\n*Section H*: Bar 🍸\n"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"807d6b23-09cc-42f1-a4f1-131408981950",
                       "type":"text/plain",
                       "content":"O evento contará com *17 áreas*, sendo:\n\n*Section A*: Estande empresa A 👨‍💼\n*Section B*: Estande empresa B 👩‍💼\n*Section C*: Estande empresa C 👨🏾‍💼\n*Section D*: Sanitários 🚻\n*Section E*: Área de lazer 🛋️\n*Section F*: Buffet 🍽️\n*Section G*: Palco Principal 🎙️\n*Section H*: Bar 🍸\n"
@@ -1801,22 +1854,22 @@
              "$invalid":false,
              "$$hashKey":"object:8547"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"4def9ff8-70fb-4f24-bd9e-9eba494b7bf4",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"4def9ff8-70fb-4f24-bd9e-9eba494b7bf4",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -1829,16 +1882,16 @@
              "$invalid":false,
              "$$hashKey":"object:8548"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"b06a66b1-2388-4b1c-97f6-4a88586a0a0a",
                    "type":"text/plain",
                    "content":"*Section J*: Área de lazer 🛋️\n*Section K*: Sanitários 🚻\n*Section L*: Estande empresa L 👩🏽‍💼\n*Section M*: Estande empresa M 👨🏽‍💼\n*Section N*: Estande empresa N 👨🏼‍💼\n*Section P*: Imprensa 📰\n*Section Q*: Praça de alimentação 🍔\n*Section R*: Praça de alimentação 🥗\n*Section S*: Praça de alimentação 🍨"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"b06a66b1-2388-4b1c-97f6-4a88586a0a0a",
                       "type":"text/plain",
                       "content":"*Section J*: Área de lazer 🛋️\n*Section K*: Sanitários 🚻\n*Section L*: Estande empresa L 👩🏽‍💼\n*Section M*: Estande empresa M 👨🏽‍💼\n*Section N*: Estande empresa N 👨🏼‍💼\n*Section P*: Imprensa 📰\n*Section Q*: Praça de alimentação 🍔\n*Section R*: Praça de alimentação 🥗\n*Section S*: Praça de alimentação 🍨"
@@ -1851,22 +1904,22 @@
              "$invalid":false,
              "$$hashKey":"object:13405"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"3fc126dd-389e-47fc-83a3-dd0bbe2601bb",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"3fc126dd-389e-47fc-83a3-dd0bbe2601bb",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -1879,16 +1932,16 @@
              "$invalid":false,
              "$$hashKey":"object:8550"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"037d199e-c0cf-421b-990c-44a447af3cd3",
                    "type":"text/plain",
                    "content":"Confira o nosso mapa"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"037d199e-c0cf-421b-990c-44a447af3cd3",
                       "type":"text/plain",
                       "content":"Confira o nosso mapa"
@@ -1901,22 +1954,22 @@
              "$invalid":false,
              "$$hashKey":"object:8549"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"f61ea0e9-aee5-4fba-98d7-7ce46c9a4a26",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"f61ea0e9-aee5-4fba-98d7-7ce46c9a4a26",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -1929,13 +1982,13 @@
              "$invalid":false,
              "$$hashKey":"object:13404"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"f5703aff-c3b8-4e3c-bf01-b9ae5820e008",
                    "type":"application/vnd.lime.media-link+json",
-                   "content":{ 
+                   "content":{
                       "title":"",
                       "text":"",
                       "type":"image/png",
@@ -1943,11 +1996,11 @@
                       "aspectRatio":"1:1"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"f5703aff-c3b8-4e3c-bf01-b9ae5820e008",
                       "type":"application/vnd.lime.media-link+json",
-                      "content":{ 
+                      "content":{
                          "title":"",
                          "text":"",
                          "type":"image/png",
@@ -1963,11 +2016,11 @@
              "$invalid":false,
              "$$hashKey":"object:8551"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":true,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"6d6447c9-1d04-49cc-9f73-ff3a415e98a2",
                       "type":"text/plain",
                       "content":"Entrada do usuário"
@@ -1983,29 +2036,29 @@
              "$$hashKey":"object:8552"
           }
        ],
-       "$conditionOutputs":[ 
+       "$conditionOutputs":[
  
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"6a36bcaf-9487-40c3-86a6-e4faa6de1702",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"0224435b-709d-4f47-b019-abedc4785fbd",
        "root":false,
        "$title":"✅ 1.3 Mapa",
-       "$position":{ 
+       "$position":{
           "top":"680px",
           "left":"1092px"
        },
@@ -2014,24 +2067,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "1e3f50bd-e2a9-4368-b1ba-95e5e564c493":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "1e3f50bd-e2a9-4368-b1ba-95e5e564c493":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"e2be09cd-7358-4b40-855c-8ecb1f165fca",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"e2be09cd-7358-4b40-855c-8ecb1f165fca",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2044,16 +2097,16 @@
              "$invalid":false,
              "$$hashKey":"object:15288"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"eac00ecc-acb5-4719-9ed0-0c51e84aff38",
                    "type":"text/plain",
                    "content":"Confira a nossa programação para o <b> Palco principal</b>:"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"eac00ecc-acb5-4719-9ed0-0c51e84aff38",
                       "type":"text/plain",
                       "content":"Confira a nossa programação para o <b> Palco principal</b>:"
@@ -2066,22 +2119,22 @@
              "$invalid":false,
              "$$hashKey":"object:15289"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"93dbdc92-0db0-472e-be4e-21ab9124a7a9",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"93dbdc92-0db0-472e-be4e-21ab9124a7a9",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2094,19 +2147,19 @@
              "$invalid":false,
              "$$hashKey":"object:16765"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"4dc449ba-f7e1-425b-854e-994b189f513a",
                    "type":"application/vnd.lime.collection+json",
-                   "content":{ 
+                   "content":{
                       "itemType":"application/vnd.lime.document-select+json",
-                      "items":[ 
-                         { 
-                            "header":{ 
+                      "items":[
+                         {
+                            "header":{
                                "type":"application/vnd.lime.media-link+json",
-                               "value":{ 
+                               "value":{
                                   "title":"10h:30",
                                   "text":"André Morato: \"As resistências das pequenas empresas ao mundo dos chatbots\"",
                                   "type":"image/jpeg",
@@ -2114,16 +2167,16 @@
                                   "aspectRatio":"1:1"
                                }
                             },
-                            "options":[ 
+                            "options":[
  
                             ],
                             "id":0,
                             "editing":false
                          },
-                         { 
-                            "header":{ 
+                         {
+                            "header":{
                                "type":"application/vnd.lime.media-link+json",
-                               "value":{ 
+                               "value":{
                                   "title":"11h:30",
                                   "text":"Adriana Loig: \"Construindo laços entre clientes e sua empresa\"",
                                   "type":"image/jpeg",
@@ -2131,16 +2184,16 @@
                                   "aspectRatio":"1:1"
                                }
                             },
-                            "options":[ 
+                            "options":[
  
                             ],
                             "id":1,
                             "editing":false
                          },
-                         { 
-                            "header":{ 
+                         {
+                            "header":{
                                "type":"application/vnd.lime.media-link+json",
-                               "value":{ 
+                               "value":{
                                   "title":"12h:00",
                                   "text":"Camilla Pietri: \"A importância de uma boa fraseologia no contato com clientes\"",
                                   "type":"image/jpeg",
@@ -2148,7 +2201,7 @@
                                   "aspectRatio":"1:1"
                                }
                             },
-                            "options":[ 
+                            "options":[
  
                             ],
                             "editing":false,
@@ -2157,17 +2210,17 @@
                       ]
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"4dc449ba-f7e1-425b-854e-994b189f513a",
                       "type":"application/vnd.lime.collection+json",
-                      "content":{ 
+                      "content":{
                          "itemType":"application/vnd.lime.document-select+json",
-                         "items":[ 
-                            { 
-                               "header":{ 
+                         "items":[
+                            {
+                               "header":{
                                   "type":"application/vnd.lime.media-link+json",
-                                  "value":{ 
+                                  "value":{
                                      "title":"10h:30",
                                      "text":"André Morato: \"As resistências das pequenas empresas ao mundo dos chatbots\"",
                                      "type":"image/jpeg",
@@ -2175,16 +2228,16 @@
                                      "aspectRatio":"1:1"
                                   }
                                },
-                               "options":[ 
+                               "options":[
  
                                ],
                                "id":0,
                                "editing":false
                             },
-                            { 
-                               "header":{ 
+                            {
+                               "header":{
                                   "type":"application/vnd.lime.media-link+json",
-                                  "value":{ 
+                                  "value":{
                                      "title":"11h:30",
                                      "text":"Adriana Loig: \"Construindo laços entre clientes e sua empresa\"",
                                      "type":"image/jpeg",
@@ -2192,16 +2245,16 @@
                                      "aspectRatio":"1:1"
                                   }
                                },
-                               "options":[ 
+                               "options":[
  
                                ],
                                "id":1,
                                "editing":false
                             },
-                            { 
-                               "header":{ 
+                            {
+                               "header":{
                                   "type":"application/vnd.lime.media-link+json",
-                                  "value":{ 
+                                  "value":{
                                      "title":"12h:00",
                                      "text":"Camilla Pietri: \"A importância de uma boa fraseologia no contato com clientes\"",
                                      "type":"image/jpeg",
@@ -2209,7 +2262,7 @@
                                      "aspectRatio":"1:1"
                                   }
                                },
-                               "options":[ 
+                               "options":[
  
                                ],
                                "editing":false,
@@ -2226,22 +2279,22 @@
              "$invalid":false,
              "$$hashKey":"object:16766"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"6067cb4f-9470-46b2-a226-a476165869ec",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"6067cb4f-9470-46b2-a226-a476165869ec",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2254,19 +2307,19 @@
              "$invalid":false,
              "$$hashKey":"object:17566"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"2a2b1025-0cf1-45b4-a2e6-7a761bc53bed",
                    "type":"application/vnd.lime.collection+json",
-                   "content":{ 
+                   "content":{
                       "itemType":"application/vnd.lime.document-select+json",
-                      "items":[ 
-                         { 
-                            "header":{ 
+                      "items":[
+                         {
+                            "header":{
                                "type":"application/vnd.lime.media-link+json",
-                               "value":{ 
+                               "value":{
                                   "title":"15h:00",
                                   "text":"Thiago Fernandes: \"Métricas de confiança conversacional\"",
                                   "type":"image/jpeg",
@@ -2274,16 +2327,16 @@
                                   "aspectRatio":"1:1"
                                }
                             },
-                            "options":[ 
+                            "options":[
  
                             ],
                             "id":0,
                             "editing":false
                          },
-                         { 
-                            "header":{ 
+                         {
+                            "header":{
                                "type":"application/vnd.lime.media-link+json",
-                               "value":{ 
+                               "value":{
                                   "title":"16h:30",
                                   "text":"Juliana Silva: \"Contatos inteligentes e a geração do imediato\"",
                                   "type":"image/jpeg",
@@ -2291,16 +2344,16 @@
                                   "aspectRatio":"1:1"
                                }
                             },
-                            "options":[ 
+                            "options":[
  
                             ],
                             "id":1,
                             "editing":false
                          },
-                         { 
-                            "header":{ 
+                         {
+                            "header":{
                                "type":"application/vnd.lime.media-link+json",
-                               "value":{ 
+                               "value":{
                                   "title":"18h:00",
                                   "text":"Mark Powell: \"Data Lake - Vantagens e Desvantagens\"",
                                   "type":"image/jpeg",
@@ -2308,7 +2361,7 @@
                                   "aspectRatio":"1:1"
                                }
                             },
-                            "options":[ 
+                            "options":[
  
                             ],
                             "editing":false,
@@ -2317,17 +2370,17 @@
                       ]
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"2a2b1025-0cf1-45b4-a2e6-7a761bc53bed",
                       "type":"application/vnd.lime.collection+json",
-                      "content":{ 
+                      "content":{
                          "itemType":"application/vnd.lime.document-select+json",
-                         "items":[ 
-                            { 
-                               "header":{ 
+                         "items":[
+                            {
+                               "header":{
                                   "type":"application/vnd.lime.media-link+json",
-                                  "value":{ 
+                                  "value":{
                                      "title":"15h:00",
                                      "text":"Thiago Fernandes: \"Métricas de confiança conversacional\"",
                                      "type":"image/jpeg",
@@ -2335,16 +2388,16 @@
                                      "aspectRatio":"1:1"
                                   }
                                },
-                               "options":[ 
+                               "options":[
  
                                ],
                                "id":0,
                                "editing":false
                             },
-                            { 
-                               "header":{ 
+                            {
+                               "header":{
                                   "type":"application/vnd.lime.media-link+json",
-                                  "value":{ 
+                                  "value":{
                                      "title":"16h:30",
                                      "text":"Juliana Silva: \"Contatos inteligentes e a geração do imediato\"",
                                      "type":"image/jpeg",
@@ -2352,16 +2405,16 @@
                                      "aspectRatio":"1:1"
                                   }
                                },
-                               "options":[ 
+                               "options":[
  
                                ],
                                "id":1,
                                "editing":false
                             },
-                            { 
-                               "header":{ 
+                            {
+                               "header":{
                                   "type":"application/vnd.lime.media-link+json",
-                                  "value":{ 
+                                  "value":{
                                      "title":"18h:00",
                                      "text":"Mark Powell: \"Data Lake - Vantagens e Desvantagens\"",
                                      "type":"image/jpeg",
@@ -2369,7 +2422,7 @@
                                      "aspectRatio":"1:1"
                                   }
                                },
-                               "options":[ 
+                               "options":[
  
                                ],
                                "editing":false,
@@ -2386,11 +2439,11 @@
              "$invalid":false,
              "$$hashKey":"object:17567"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":true,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"c9baa20c-a676-442f-9893-4ce345e8be65",
                       "type":"text/plain",
                       "content":"Entrada do usuário"
@@ -2406,29 +2459,29 @@
              "$invalid":false
           }
        ],
-       "$conditionOutputs":[ 
+       "$conditionOutputs":[
  
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"b4f31926-311d-489e-92eb-423fdaeb4e12",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"1e3f50bd-e2a9-4368-b1ba-95e5e564c493",
        "root":false,
        "$title":"💬 1.2 Programação",
-       "$position":{ 
+       "$position":{
           "top":"441px",
           "left":"248px"
        },
@@ -2437,24 +2490,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "56cc1c43-0aa4-4da0-9f89-c1551b574da1":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "56cc1c43-0aa4-4da0-9f89-c1551b574da1":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"fd8f7b8c-34fd-4569-a10d-de67cec380ff",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"fd8f7b8c-34fd-4569-a10d-de67cec380ff",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2467,16 +2520,16 @@
              "$invalid":false,
              "$$hashKey":"object:21950"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"d56532de-8231-445d-942d-f34b8d7620d9",
                    "type":"text/plain",
                    "content":"Entre em contato com a nossa equipe"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"d56532de-8231-445d-942d-f34b8d7620d9",
                       "type":"text/plain",
                       "content":"Entre em contato com a nossa equipe"
@@ -2489,22 +2542,22 @@
              "$invalid":false,
              "$$hashKey":"object:21951"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"29636289-20d6-45de-9a64-5d3e0155d1f2",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"29636289-20d6-45de-9a64-5d3e0155d1f2",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2517,16 +2570,16 @@
              "$invalid":false,
              "$$hashKey":"object:24730"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"7b7b6f8f-dc1d-4776-83d7-4f0350263981",
                    "type":"text/plain",
                    "content":"🤝 <b>Parcerias</b>: cncb@mkt.com"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"7b7b6f8f-dc1d-4776-83d7-4f0350263981",
                       "type":"text/plain",
                       "content":"🤝 <b>Parcerias</b>: cncb@mkt.com"
@@ -2539,22 +2592,22 @@
              "$invalid":false,
              "$$hashKey":"object:24731"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"6d5aec38-dc2a-443d-8834-ba2a049b94a0",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"6d5aec38-dc2a-443d-8834-ba2a049b94a0",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2567,16 +2620,16 @@
              "$invalid":false,
              "$$hashKey":"object:22315"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"c46907a3-ddd0-4155-b9c8-3900f56617f3",
                    "type":"text/plain",
                    "content":"🤷🏻 <b>Dúvidas</b>: 0800 152 152"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"c46907a3-ddd0-4155-b9c8-3900f56617f3",
                       "type":"text/plain",
                       "content":"🤷🏻 <b>Dúvidas</b>: 0800 152 152"
@@ -2589,22 +2642,22 @@
              "$invalid":false,
              "$$hashKey":"object:22316"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"fe2eb56f-5e2d-40a2-8064-be1d8aa1c0b0",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"fe2eb56f-5e2d-40a2-8064-be1d8aa1c0b0",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2617,16 +2670,16 @@
              "$invalid":false,
              "$$hashKey":"object:22898"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"1cc21795-54ac-4048-8994-92a3ab3eb549",
                    "type":"text/plain",
                    "content":"🤦‍♂️ <b>Reclamações</b>: cncb@email.com"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"1cc21795-54ac-4048-8994-92a3ab3eb549",
                       "type":"text/plain",
                       "content":"🤦‍♂️ <b>Reclamações</b>: cncb@email.com"
@@ -2639,22 +2692,22 @@
              "$invalid":false,
              "$$hashKey":"object:22899"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"a1741e6e-4c49-41ef-a968-69b549b5dfe8",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"a1741e6e-4c49-41ef-a968-69b549b5dfe8",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2667,16 +2720,16 @@
              "$invalid":false,
              "$$hashKey":"object:23703"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"4b6ca6a7-b36d-491a-99aa-333bb82b9d70",
                    "type":"text/plain",
                    "content":"🎟️ <b>Ingressos</b>: https://www.ingre.com/cncb"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"4b6ca6a7-b36d-491a-99aa-333bb82b9d70",
                       "type":"text/plain",
                       "content":"🎟️ <b>Ingressos</b>: https://www.ingre.com/cncb"
@@ -2689,11 +2742,11 @@
              "$invalid":false,
              "$$hashKey":"object:23704"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":true,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"a3ef3292-a47f-4c8a-8a8e-10a77e917ac6",
                       "type":"text/plain",
                       "content":"Entrada do usuário"
@@ -2709,29 +2762,29 @@
              "$invalid":false
           }
        ],
-       "$conditionOutputs":[ 
+       "$conditionOutputs":[
  
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"b4f31926-311d-489e-92eb-423fdaeb4e12",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"56cc1c43-0aa4-4da0-9f89-c1551b574da1",
        "root":false,
        "$title":"💬 1.4 Contato",
-       "$position":{ 
+       "$position":{
           "top":"446px",
           "left":"693px"
        },
@@ -2740,24 +2793,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "54e04127-fae0-4dd1-b85d-f2fda982afbc":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "54e04127-fae0-4dd1-b85d-f2fda982afbc":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"fd8f7b8c-34fd-4569-a10d-de67cec380ff",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"fd8f7b8c-34fd-4569-a10d-de67cec380ff",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2770,16 +2823,16 @@
              "$invalid":false,
              "$$hashKey":"object:28174"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"d56532de-8231-445d-942d-f34b8d7620d9",
                    "type":"text/plain",
                    "content":"Entre em contato com a nossa equipe"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"d56532de-8231-445d-942d-f34b8d7620d9",
                       "type":"text/plain",
                       "content":"Entre em contato com a nossa equipe"
@@ -2792,22 +2845,22 @@
              "$invalid":false,
              "$$hashKey":"object:28175"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"29636289-20d6-45de-9a64-5d3e0155d1f2",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"29636289-20d6-45de-9a64-5d3e0155d1f2",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2820,16 +2873,16 @@
              "$invalid":false,
              "$$hashKey":"object:28176"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"7b7b6f8f-dc1d-4776-83d7-4f0350263981",
                    "type":"text/plain",
                    "content":"🤝 *Parcerias*: cncb@mkt.com"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"7b7b6f8f-dc1d-4776-83d7-4f0350263981",
                       "type":"text/plain",
                       "content":"🤝 *Parcerias*: cncb@mkt.com"
@@ -2842,22 +2895,22 @@
              "$invalid":false,
              "$$hashKey":"object:28177"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"6d5aec38-dc2a-443d-8834-ba2a049b94a0",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"6d5aec38-dc2a-443d-8834-ba2a049b94a0",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2870,16 +2923,16 @@
              "$invalid":false,
              "$$hashKey":"object:28178"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"c46907a3-ddd0-4155-b9c8-3900f56617f3",
                    "type":"text/plain",
                    "content":"🤷🏻 *Dúvidas*: 0800 152 152"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"c46907a3-ddd0-4155-b9c8-3900f56617f3",
                       "type":"text/plain",
                       "content":"🤷🏻 *Dúvidas*: 0800 152 152"
@@ -2892,22 +2945,22 @@
              "$invalid":false,
              "$$hashKey":"object:28179"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"fe2eb56f-5e2d-40a2-8064-be1d8aa1c0b0",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"fe2eb56f-5e2d-40a2-8064-be1d8aa1c0b0",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2920,16 +2973,16 @@
              "$invalid":false,
              "$$hashKey":"object:28180"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"1cc21795-54ac-4048-8994-92a3ab3eb549",
                    "type":"text/plain",
                    "content":"🤦‍♂️ *Reclamações*: cncb@email.com"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"1cc21795-54ac-4048-8994-92a3ab3eb549",
                       "type":"text/plain",
                       "content":"🤦‍♂️ *Reclamações*: cncb@email.com"
@@ -2942,22 +2995,22 @@
              "$invalid":false,
              "$$hashKey":"object:28181"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"a1741e6e-4c49-41ef-a968-69b549b5dfe8",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"a1741e6e-4c49-41ef-a968-69b549b5dfe8",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -2970,16 +3023,16 @@
              "$invalid":false,
              "$$hashKey":"object:28182"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"4b6ca6a7-b36d-491a-99aa-333bb82b9d70",
                    "type":"text/plain",
                    "content":"🎟️ *Ingressos*: https://www.ingre.com/cncb"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"4b6ca6a7-b36d-491a-99aa-333bb82b9d70",
                       "type":"text/plain",
                       "content":"🎟️ *Ingressos*: https://www.ingre.com/cncb"
@@ -2992,11 +3045,11 @@
              "$invalid":false,
              "$$hashKey":"object:28183"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":true,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"a3ef3292-a47f-4c8a-8a8e-10a77e917ac6",
                       "type":"text/plain",
                       "content":"Entrada do usuário"
@@ -3012,29 +3065,29 @@
              "$$hashKey":"object:28184"
           }
        ],
-       "$conditionOutputs":[ 
+       "$conditionOutputs":[
  
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"6a36bcaf-9487-40c3-86a6-e4faa6de1702",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"54e04127-fae0-4dd1-b85d-f2fda982afbc",
        "root":false,
        "$title":"✅ 1.4 Contato",
-       "$position":{ 
+       "$position":{
           "top":"774px",
           "left":"1094px"
        },
@@ -3043,24 +3096,24 @@
        "$invalidCustomActions":false,
        "$invalid":false
     },
-    "6ea7b8a3-5ee3-46c9-bef3-e1b665ac6569":{ 
-       "$contentActions":[ 
-          { 
-             "action":{ 
+    "6ea7b8a3-5ee3-46c9-bef3-e1b665ac6569":{
+       "$contentActions":[
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"e2be09cd-7358-4b40-855c-8ecb1f165fca",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"e2be09cd-7358-4b40-855c-8ecb1f165fca",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -3073,16 +3126,16 @@
              "$invalid":false,
              "$$hashKey":"object:2962"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"eac00ecc-acb5-4719-9ed0-0c51e84aff38",
                    "type":"text/plain",
                    "content":"Confira a nossa programação para o *Palco principal*:"
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"eac00ecc-acb5-4719-9ed0-0c51e84aff38",
                       "type":"text/plain",
                       "content":"Confira a nossa programação para o *Palco principal*:"
@@ -3095,22 +3148,22 @@
              "$invalid":false,
              "$$hashKey":"object:2963"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"f9afb589-02c4-46d5-8382-79e32d119b96",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":1000
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"f9afb589-02c4-46d5-8382-79e32d119b96",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":1000
                       }
@@ -3123,13 +3176,13 @@
              "$invalid":false,
              "$$hashKey":"object:7865"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"6f16f0e4-fda0-475e-927c-353a02f3a4d1",
                    "type":"application/vnd.lime.media-link+json",
-                   "content":{ 
+                   "content":{
                       "title":"10h:30",
                       "text":"André Morato: \"As resistências das pequenas empresas ao mundo dos chatbots\"",
                       "type":"image/jpeg",
@@ -3137,11 +3190,11 @@
                       "aspectRatio":"1:1"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"6f16f0e4-fda0-475e-927c-353a02f3a4d1",
                       "type":"application/vnd.lime.media-link+json",
-                      "content":{ 
+                      "content":{
                          "title":"10h:30",
                          "text":"André Morato: \"As resistências das pequenas empresas ao mundo dos chatbots\"",
                          "type":"image/jpeg",
@@ -3157,22 +3210,22 @@
              "$invalid":false,
              "$$hashKey":"object:4785"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"8b66e321-47d9-43b5-8325-d84335dfa9e3",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":"4000"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"8b66e321-47d9-43b5-8325-d84335dfa9e3",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":"4000"
                       }
@@ -3185,13 +3238,13 @@
              "$invalid":false,
              "$$hashKey":"object:5700"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"d2e9cf8d-59b6-4e8a-9f40-548cd6c86ea5",
                    "type":"application/vnd.lime.media-link+json",
-                   "content":{ 
+                   "content":{
                       "title":"11h:30",
                       "text":"Adriana Loig: \"Construindo laços entre clientes e sua empresa\"",
                       "type":"image/jpeg",
@@ -3199,11 +3252,11 @@
                       "aspectRatio":"1:1"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"d2e9cf8d-59b6-4e8a-9f40-548cd6c86ea5",
                       "type":"application/vnd.lime.media-link+json",
-                      "content":{ 
+                      "content":{
                          "title":"11h:30",
                          "text":"Adriana Loig: \"Construindo laços entre clientes e sua empresa\"",
                          "type":"image/jpeg",
@@ -3219,22 +3272,22 @@
              "$invalid":false,
              "$$hashKey":"object:5701"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"cf33fe81-e9d9-4914-8b6c-0338089cd490",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":"4000"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"cf33fe81-e9d9-4914-8b6c-0338089cd490",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":"4000"
                       }
@@ -3247,13 +3300,13 @@
              "$invalid":false,
              "$$hashKey":"object:6838"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"09561b17-16ea-494e-b665-c85b61d61f58",
                    "type":"application/vnd.lime.media-link+json",
-                   "content":{ 
+                   "content":{
                       "title":"12h:00",
                       "text":"Camilla Pietri: \"A importância de uma boa fraseologia no contato com clientes\"",
                       "type":"image/jpeg",
@@ -3261,11 +3314,11 @@
                       "aspectRatio":"1:1"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"09561b17-16ea-494e-b665-c85b61d61f58",
                       "type":"application/vnd.lime.media-link+json",
-                      "content":{ 
+                      "content":{
                          "title":"12h:00",
                          "text":"Camilla Pietri: \"A importância de uma boa fraseologia no contato com clientes\"",
                          "type":"image/jpeg",
@@ -3281,22 +3334,22 @@
              "$invalid":false,
              "$$hashKey":"object:6839"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"bbc26445-199f-4615-84d0-550d8778d14e",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":"4000"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"bbc26445-199f-4615-84d0-550d8778d14e",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":"4000"
                       }
@@ -3309,13 +3362,13 @@
              "$invalid":false,
              "$$hashKey":"object:8989"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"944f559a-53db-4640-8764-d02f74945907",
                    "type":"application/vnd.lime.media-link+json",
-                   "content":{ 
+                   "content":{
                       "title":"15h:00",
                       "text":"Thiago Fernandes: \"Métricas de confiança conversacional\"",
                       "type":"image/jpeg",
@@ -3323,11 +3376,11 @@
                       "aspectRatio":"1:1"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"944f559a-53db-4640-8764-d02f74945907",
                       "type":"application/vnd.lime.media-link+json",
-                      "content":{ 
+                      "content":{
                          "title":"15h:00",
                          "text":"Thiago Fernandes: \"Métricas de confiança conversacional\"",
                          "type":"image/jpeg",
@@ -3343,22 +3396,22 @@
              "$invalid":false,
              "$$hashKey":"object:8990"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"40e352a1-f7b8-4fe4-b864-5d62529279d1",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":"4000"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"40e352a1-f7b8-4fe4-b864-5d62529279d1",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":"4000"
                       }
@@ -3371,13 +3424,13 @@
              "$invalid":false,
              "$$hashKey":"object:10238"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"20599e7a-76b8-47ef-82e7-bfe08b41b83b",
                    "type":"application/vnd.lime.media-link+json",
-                   "content":{ 
+                   "content":{
                       "title":"16h:30",
                       "text":"Juliana Silva: \"Contatos inteligentes e a geração do imediato\"",
                       "type":"image/jpeg",
@@ -3385,11 +3438,11 @@
                       "aspectRatio":"1:1"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"20599e7a-76b8-47ef-82e7-bfe08b41b83b",
                       "type":"application/vnd.lime.media-link+json",
-                      "content":{ 
+                      "content":{
                          "title":"16h:30",
                          "text":"Juliana Silva: \"Contatos inteligentes e a geração do imediato\"",
                          "type":"image/jpeg",
@@ -3405,22 +3458,22 @@
              "$invalid":false,
              "$$hashKey":"object:10239"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"b53c7b1c-b8da-4cf5-8acd-04aa4437e7ec",
                    "type":"application/vnd.lime.chatstate+json",
-                   "content":{ 
+                   "content":{
                       "state":"composing",
                       "interval":"4000"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"b53c7b1c-b8da-4cf5-8acd-04aa4437e7ec",
                       "type":"application/vnd.lime.chatstate+json",
-                      "content":{ 
+                      "content":{
                          "state":"composing",
                          "interval":"4000"
                       }
@@ -3433,13 +3486,13 @@
              "$invalid":false,
              "$$hashKey":"object:11709"
           },
-          { 
-             "action":{ 
+          {
+             "action":{
                 "type":"SendMessage",
-                "settings":{ 
+                "settings":{
                    "id":"e7e67709-45c4-483d-9b08-2e05620c1341",
                    "type":"application/vnd.lime.media-link+json",
-                   "content":{ 
+                   "content":{
                       "title":"18h:00",
                       "text":"Mark Powell: \"Data Lake - Vantagens e Desvantagens\"",
                       "type":"image/jpeg",
@@ -3447,11 +3500,11 @@
                       "aspectRatio":"1:1"
                    }
                 },
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"e7e67709-45c4-483d-9b08-2e05620c1341",
                       "type":"application/vnd.lime.media-link+json",
-                      "content":{ 
+                      "content":{
                          "title":"18h:00",
                          "text":"Mark Powell: \"Data Lake - Vantagens e Desvantagens\"",
                          "type":"image/jpeg",
@@ -3467,11 +3520,11 @@
              "$invalid":false,
              "$$hashKey":"object:11710"
           },
-          { 
-             "input":{ 
+          {
+             "input":{
                 "bypass":true,
-                "$cardContent":{ 
-                   "document":{ 
+                "$cardContent":{
+                   "document":{
                       "id":"c9baa20c-a676-442f-9893-4ce345e8be65",
                       "type":"text/plain",
                       "content":"Entrada do usuário"
@@ -3487,31 +3540,427 @@
              "$$hashKey":"object:2968"
           }
        ],
-       "$conditionOutputs":[ 
+       "$conditionOutputs":[
  
        ],
-       "$enteringCustomActions":[ 
+       "$enteringCustomActions":[
  
        ],
-       "$leavingCustomActions":[ 
+       "$leavingCustomActions":[
  
        ],
-       "$inputSuggestions":[ 
+       "$inputSuggestions":[
  
        ],
-       "$defaultOutput":{ 
+       "$defaultOutput":{
           "stateId":"6a36bcaf-9487-40c3-86a6-e4faa6de1702",
           "$invalid":false
        },
-       "$tags":[ 
+       "$tags":[
  
        ],
        "id":"6ea7b8a3-5ee3-46c9-bef3-e1b665ac6569",
        "root":false,
        "$title":"✅ 1.2 Programação",
-       "$position":{ 
+       "$position":{
           "top":"573px",
           "left":"1093px"
+       },
+       "$invalidContentActions":false,
+       "$invalidOutputs":false,
+       "$invalidCustomActions":false,
+       "$invalid":false
+    },
+    "desk:4a1c59d1-362a-4200-adff-b161e708df7a":{
+       "$contentActions":[
+          {
+             "input":{
+                "bypass":false,
+                "conditions":[
+                   {
+                      "source":"context",
+                      "variable":"helpDeskHasTicket",
+                      "comparison":"equals",
+                      "values":[
+                         "true"
+                      ]
+                   }
+                ],
+                "$cardContent":{
+                   "document":{
+                      "id":"1f78c6df-2200-4626-957a-56c7f71bcbe4",
+                      "type":"text/plain",
+                      "textContent":"Entrada do usuário",
+                      "content":"Entrada do usuário"
+                   },
+                   "editable":false,
+                   "deletable":true,
+                   "position":"right",
+                   "editing":false
+                },
+                "$invalid":false
+             },
+             "$invalid":false,
+             "$$hashKey":"object:6120"
+          }
+       ],
+       "$conditionOutputs":[
+          {
+             "$isDeskOutput":true,
+             "conditions":[
+                {
+                   "source":"context",
+                   "variable":"input.type",
+                   "comparison":"equals",
+                   "values":[
+                      "application/vnd.iris.ticket+json"
+                   ]
+                },
+                {
+                   "source":"context",
+                   "variable":"input.content@status",
+                   "comparison":"equals",
+                   "values":[
+                      "ClosedAttendant"
+                   ]
+                }
+             ],
+             "$invalid":false,
+             "$$hashKey":"object:6141",
+             "stateId":"b1a73514-3106-4919-95f0-44e6131ac022",
+             "$connId":"con_118"
+          },
+          {
+             "$isDeskOutput":true,
+             "conditions":[
+                {
+                   "source":"context",
+                   "variable":"input.type",
+                   "comparison":"equals",
+                   "values":[
+                      "application/vnd.iris.ticket+json"
+                   ]
+                },
+                {
+                   "source":"context",
+                   "variable":"input.content@status",
+                   "comparison":"equals",
+                   "values":[
+                      "ClosedClient"
+                   ]
+                }
+             ],
+             "$invalid":false,
+             "$$hashKey":"object:6142",
+             "stateId":"b1a73514-3106-4919-95f0-44e6131ac022",
+             "$connId":"con_123"
+          }
+       ],
+       "$enteringCustomActions":[
+          {
+             "type":"ExecuteScript",
+             "$title":"GetEncodedContactIdentity",
+             "$invalid":false,
+             "conditions":[
+                {
+                   "source":"context",
+                   "variable":"state.previous.id",
+                   "comparison":"notEquals",
+                   "values":[
+                      "desk:4a1c59d1-362a-4200-adff-b161e708df7a"
+                   ]
+                }
+             ],
+             "settings":{
+                "function":"run",
+                "source":"function run(identity) {\n return (identity !== undefined) ? encodeURIComponent(identity) : identity;\n}",
+                "inputVariables":[
+                   "input.message.fromidentity"
+                ],
+                "outputVariable":"helpDeskEncodedFromIdentity"
+             }
+          },
+          {
+             "type":"ProcessCommand",
+             "$title":"GetOpenTicket",
+             "$invalid":false,
+             "conditions":[
+                {
+                   "source":"context",
+                   "variable":"state.previous.id",
+                   "comparison":"notEquals",
+                   "values":[
+                      "desk:4a1c59d1-362a-4200-adff-b161e708df7a"
+                   ]
+                }
+             ],
+             "settings":{
+                "from":"{{application.identifier}}@{{application.domain}}",
+                "to":"postmaster@desk.msging.net",
+                "method":"get",
+                "uri":"/tickets?$filter=customerIdentity%20eq%20%27{{helpDeskEncodedFromIdentity}}%27%20and%20%28status%20eq%20%27Open%27%20or%20status%20eq%20%27Waiting%27%20or%20status%20eq%20%27Assigned%27%29",
+                "metadata":{
+                   "server.shouldStore":true
+                },
+                "variable":"helpDeskGetOpenTicketCommandResponse"
+             }
+          },
+          {
+             "type":"ExecuteScript",
+             "$title":"TreatGetOpenTicketResponse",
+             "$invalid":false,
+             "conditions":[
+                {
+                   "source":"context",
+                   "variable":"state.previous.id",
+                   "comparison":"notEquals",
+                   "values":[
+                      "desk:4a1c59d1-362a-4200-adff-b161e708df7a"
+                   ]
+                }
+             ],
+             "settings":{
+                "function":"run",
+                "source":"function run(commandResponse) {\n    var response = JSON.parse(commandResponse)\n    var ticketExists = (response && response.resource && response.resource.items && response.resource.items.length > 0);\n  return ticketExists ? \"true\" : \"false\";\n}",
+                "inputVariables":[
+                   "helpDeskGetOpenTicketCommandResponse"
+                ],
+                "outputVariable":"helpDeskHasTicket"
+             }
+          },
+          {
+             "type":"ProcessCommand",
+             "$title":"OpenTicketIfNotFound",
+             "$invalid":false,
+             "conditions":[
+                {
+                   "source":"context",
+                   "variable":"helpDeskHasTicket",
+                   "comparison":"notEquals",
+                   "values":[
+                      "true"
+                   ]
+                }
+             ],
+             "settings":{
+                "from":"{{application.identifier}}@{{application.domain}}",
+                "to":"postmaster@desk.msging.net",
+                "method":"set",
+                "uri":"/tickets/{{helpDeskEncodedFromIdentity}}",
+                "variable":"helpDeskOpenTicketCommandResponse",
+                "type":"text/plain",
+                "resource":"{{input.content}}",
+                "metadata":{
+                   "server.shouldStore":true
+                }
+             }
+          },
+          {
+             "type":"ExecuteScript",
+             "$title":"TreatOpenTicketResponse",
+             "$invalid":false,
+             "conditions":[
+                {
+                   "source":"context",
+                   "variable":"helpDeskHasTicket",
+                   "comparison":"notEquals",
+                   "values":[
+                      "true"
+                   ]
+                }
+             ],
+             "settings":{
+                "function":"run",
+                "source":"function run(commandResponse) {\n    var response = commandResponse ? JSON.parse(commandResponse) : {}\n    var ticketExists = response && response.type === \"application/vnd.iris.ticket+json\" && response.resource \n    return ticketExists ? \"true\" : \"false\";\n}",
+                "inputVariables":[
+                   "helpDeskOpenTicketCommandResponse"
+                ],
+                "outputVariable":"helpDeskHasTicket"
+             }
+          },
+          {
+             "type":"ForwardMessageToDesk",
+             "conditions":[
+                {
+                   "source":"context",
+                   "variable":"helpDeskHasTicket",
+                   "comparison":"equals",
+                   "values":[
+                      "true"
+                   ]
+                }
+             ],
+             "settings":{
+ 
+             },
+             "$invalid":false
+          }
+       ],
+       "$leavingCustomActions":[
+          {
+             "type":"SetVariable",
+             "$title":"ResetHasTicket",
+             "$invalid":false,
+             "conditions":[
+                {
+                   "source":"context",
+                   "variable":"input.type",
+                   "comparison":"equals",
+                   "values":[
+                      "application/vnd.iris.ticket+json"
+                   ]
+                },
+                {
+                   "source":"context",
+                   "variable":"input.content@status",
+                   "comparison":"equals",
+                   "values":[
+                      "ClosedAttendant",
+                      "ClosedClient"
+                   ]
+                }
+             ],
+             "settings":{
+                "variable":"helpDeskHasTicket",
+                "value":"false",
+                "$invalid":false
+             }
+          }
+       ],
+       "$inputSuggestions":[
+ 
+       ],
+       "$defaultOutput":{
+          "stateId":"desk:4a1c59d1-362a-4200-adff-b161e708df7a",
+          "$invalid":false
+       },
+       "$tags":[
+ 
+       ],
+       "id":"desk:4a1c59d1-362a-4200-adff-b161e708df7a",
+       "root":false,
+       "$title":"Atendimento humano",
+       "$position":{
+          "top":"728px",
+          "left":"645px"
+       },
+       "$invalidContentActions":false,
+       "$invalidOutputs":false,
+       "$invalidCustomActions":false,
+       "$invalid":false
+    },
+    "67e44fd2-42c6-4844-8952-efd6cc04288e":{
+       "$contentActions":[
+          {
+             "action":{
+                "type":"SendMessage",
+                "settings":{
+                   "id":"c8f74748-a5a0-4f84-ad05-a6fac3ed60c8",
+                   "type":"application/vnd.lime.chatstate+json",
+                   "content":{
+                      "state":"composing",
+                      "interval":1000
+                   }
+                },
+                "$cardContent":{
+                   "document":{
+                      "id":"c8f74748-a5a0-4f84-ad05-a6fac3ed60c8",
+                      "type":"application/vnd.lime.chatstate+json",
+                      "content":{
+                         "state":"composing",
+                         "interval":1000
+                      }
+                   },
+                   "editable":true,
+                   "deletable":true,
+                   "position":"left"
+                }
+             },
+             "$invalid":false,
+             "$$hashKey":"object:4467"
+          },
+          {
+             "action":{
+                "type":"SendMessage",
+                "settings":{
+                   "id":"4ee30af9-562b-4e35-a439-abd16df0f4cb",
+                   "type":"text/plain",
+                   "content":"Por favor, aguarde uns instantes. Em breve você será atendido por um dos nossos atendentes humanos."
+                },
+                "$cardContent":{
+                   "document":{
+                      "id":"4ee30af9-562b-4e35-a439-abd16df0f4cb",
+                      "type":"text/plain",
+                      "content":"Por favor, aguarde uns instantes. Em breve você será atendido por um dos nossos atendentes humanos."
+                   },
+                   "editable":true,
+                   "deletable":true,
+                   "position":"left"
+                }
+             },
+             "$invalid":false,
+             "$$hashKey":"object:4468"
+          },
+          {
+             "input":{
+                "bypass":true,
+                "$cardContent":{
+                   "document":{
+                      "id":"5f3d6cc5-2b5d-495c-b43e-8089d3f02f4a",
+                      "type":"text/plain",
+                      "content":"Entrada do usuário"
+                   },
+                   "editable":false,
+                   "deletable":true,
+                   "position":"right",
+                   "editing":false
+                },
+                "$invalid":false
+             },
+             "$$hashKey":"object:4151",
+             "$invalid":false
+          }
+       ],
+       "$conditionOutputs":[
+          {
+             "stateId":"desk:4a1c59d1-362a-4200-adff-b161e708df7a",
+             "$connId":"con_83",
+             "conditions":[
+                {
+                   "source":"input",
+                   "comparison":"exists",
+                   "values":[
+ 
+                   ],
+                   "$$hashKey":"object:4499"
+                }
+             ],
+             "$invalid":false,
+             "$$hashKey":"object:4490"
+          }
+       ],
+       "$enteringCustomActions":[
+ 
+       ],
+       "$leavingCustomActions":[
+ 
+       ],
+       "$inputSuggestions":[
+ 
+       ],
+       "$defaultOutput":{
+          "stateId":"fallback",
+          "$invalid":false
+       },
+       "$tags":[
+ 
+       ],
+       "id":"67e44fd2-42c6-4844-8952-efd6cc04288e",
+       "root":false,
+       "$title":"👨‍💼 Prepara para atendimento",
+       "$position":{
+          "top":"728px",
+          "left":"407px"
        },
        "$invalidContentActions":false,
        "$invalidOutputs":false,
