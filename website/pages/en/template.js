@@ -654,6 +654,107 @@ class ScriptDynamically extends React.Component {
                             "func": "✓ Salvar contatos"
                             }
                         ]
+                        },
+                        {
+                        "id": "Imobiliaria",
+                        "title": "Imobiliária",
+                        "creator": "Criado por BLiP",
+                        "subtitle": "Esse chatbot foi feito para coletar informações sobre clientes que querem comprar ou alugar um imóvel e \\
+                            transferí-los para um atendimento humano, em uma interface compatível com a maioria dos canais, incluindo o WhatsApp.",
+                        "categories": [
+                            {
+                            "category": "Serviços"
+                            },
+                            {
+                            "subcategory": "Prospecção"
+                            },
+                            {
+                            "subcategory": "Multicanal"
+                            }
+                        ],
+                        "download_uri": "/templates/imobiliaria/imobiliaria_template.json",
+                        "link_bot": "aW1vYmlsaWFyaWF0ZW1wbGF0ZWJydW5vOjQ5NTgzYzMyLTFkMjYtNDc0My1hZjI3LWViNDg5YmFjNzEwZg==",
+                        "images": [
+                            {
+                            "url": "/templates/imobiliaria/Exemplo02.png"
+                            },
+                            {
+                            "url": "/templates/imobiliaria/Exemplo01.png"
+                            },
+                            {
+                            "url": "/templates/imobiliaria/Exemplo03.png"
+                            },
+                            {
+                            "url": "/templates/imobiliaria/Exemplo04.png"
+                            },
+                        ],
+                        "tabs": {
+                            "details": '<p class="content-title">Compatível com:</p> \\
+                            <div class="compatible-channels"> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                            </div> \\
+                            <p class="content-text">Esse chatbot foi feito para coletar informações sobre clientes que querem comprar ou alugar um imóvel e \\
+                            transferí-los para um atendimento humano, em uma interface compatível com a maioria dos canais, incluindo o WhatsApp.\\
+                            \\
+                            <p class="content-title">O que pode ser feito?</p> \\
+                            <ul> \\
+                                <li class="content-list-text">Coletar informações do cliente</li> \\
+                                <li class="content-list-text">Salvar dados dos contatos</li> \\
+                                <li class="content-list-text">Atendimento humano.</li> \\
+                                <li class="content-list-text">Definir horários de atendimento.</li> \\
+                            </ul>',  
+
+
+                            "install": '<p class="content-title">Como instalar?</p>\\
+                            <ul>\\
+                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                <li class="content-list-text">Defina os horários de atendimento nas variáveis de configuração.</li>\\
+                                <ul> \\
+                                    <li class="content-list-text">Horário de início do atendimento: <b>startDate (ex.: 09:00)</b></li>\\
+                                    <li class="content-list-text">Horário de término do atendimento: <b>endDate (ex.: 18:00)</b></li>\\
+                                    <li class="content-list-text">Dias de atendimento: <b>workDays (ex.: 1,2,3,4,5)</b></li>\\
+                                    <ul>\\
+                                        <li class="content-list-text">Onde cada número representa um dia da semana</li>\\
+                                        <li class="content-list-text">0 para Domingo, 1 para Segunda etc</li>\\
+                                    </ul>\\
+                                </ul>\\
+                                <li class="content-list-text">O seu fuso-horário em relação ao UTC: <b>dateTimeOffset (ex.: -3)</b></li><br>\\
+                                <img src="/templates/imobiliaria/variaveis-config.png"></img><br>\\
+                                <li class="content-list-text">Conecte seu canal de atendimento humano (ex.: BLiP Desk)</li>\\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
+                                    </ul>\\
+                                \\
+                            </ul>',
+
+                            "support": '<p class="content-title">Suporte</p> \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                                e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                \\
+                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                        },
+                        "table": [
+                            {
+                            "func": "✓ Multicanal"
+                            },
+                            {
+                            "func": "✓ Atendimento Humano"
+                            },
+                            {
+                            "func": "✓ Horários de atendimento"
+                            },
+                            {
+                            "func": "✓ Emojis"
+                            },
+                            {
+                            "func": "✓ Salvar contatos"
+                            }
+                        ]
                         }
                     ]
                     };
