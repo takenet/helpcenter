@@ -366,13 +366,7 @@ class ScriptDynamically extends React.Component {
                                 <li class="content-list-text">Uma agenda no Google Calendar</li> \\
                                 <li class="content-list-text">Um projeto no Google Cloud Platform</li> \\
                                 <li class="content-list-text">Dar permissão para que o bot acesse, edite e escreva em sua agenda.</li> \\
-                            </ul> \\
-                                \\
-                            <p class="content-text">Viva em busca da masterização e do profissionalismo, every f*ing day. \\
-                                É você quem decide se o seu dia vai ser incrível ou não.  Você nunca vai estar pronto então comece agora. \\
-                                Quebre padrões e atinja a alta performance em todas as áreas da sua vida. Pra chegar ao next level você precisa de \\
-                                comprometimento e muito hardwork. Você tá realmente obcecado pelos seus sonhos?  Você tá realmente obcecado \\
-                            pelos seus sonhos? Never f*ing give up. Você nunca vai estar pronto então comece agora.</p>',  
+                            </ul>',  
 
 
                             "install": '<p class="content-title">Como instalar?</p>\\
