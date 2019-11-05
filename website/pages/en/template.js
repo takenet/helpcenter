@@ -635,9 +635,12 @@ class ScriptDynamically extends React.Component {
                                 <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
                                     <ul>\\
                                     <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                </ul>\\
+                                    </ul>\\
                                 <li class="content-list-text">Faça as modificações conforme sua necessidade.</li>\\
-                            </ul>',
+                                <li class="content-list-text">Conecte seu canal de atendimento humano (ex.: BLiP Desk)</li>\\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
+                                    </ul>',
 
                             "support": '<p class="content-title">Suporte</p> \\
                             <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
