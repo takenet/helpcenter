@@ -839,6 +839,106 @@ class ScriptDynamically extends React.Component {
                             "func": "✓ Emojis"
                             }
                         ]
+                        },
+                        {
+                        "id": "Geracao_leads",
+                        "title": "Geração de Leads",
+                        "creator": "Criado por BLiP",
+                        "subtitle": "Esse chatbot foi feito para coletar informações sobre leads, como nome, telefone, email e nível de interesse, \\
+                            e enviá-las para sua conta no Hubspot. Além disso, há a oportunidade de atendimento humano e uma interface \\
+                            compatível com todos os canais.",
+                        "categories": [
+                            {
+                            "category": "Marketing"
+                            },
+                            {
+                            "subcategory": "Prospecção"
+                            },
+                            {
+                            "subcategory": "Integrações"
+                            }
+                        ],
+                        "download_uri": "/templates/geracao-leads/getLeads_template.json",
+                        "link_bot": "cHJvc3BlY2Nhb2RlbGVhZHM6NjAxZmNhNzQtZWExZi00N2MzLTg2Y2QtYTFhOWNkZTM2M2Mx",
+                        "images": [
+                            {
+                            "url": "/templates/geracao-leads/Exemplo01.png"
+                            },
+                            {
+                            "url": "/templates/geracao-leads/Exemplo02.png"
+                            },
+                            {
+                            "url": "/templates/geracao-leads/Exemplo03.png"
+                            },
+                        ],
+                        "tabs": {
+                            "details": '<p class="content-title">Compatível com:</p> \\
+                            <div class="compatible-channels"> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/skype-logo.svg"></img> \\
+                            </div> \\
+                            <p class="content-text">Esse chatbot foi feito para coletar informações sobre leads, como nome, telefone, email e nível de interesse, \\
+                            e enviá-las para sua conta no Hubspot. Além disso, há a oportunidade de atendimento humano e uma interface \\
+                            compatível com todos os canais.\\
+                            \\
+                            <p class="content-title">O que pode ser feito?</p> \\
+                            <ul> \\
+                                <li class="content-list-text">Exibir seus serviços</li> \\
+                                <li class="content-list-text">Prospectar seus clientes</li> \\
+                                <li class="content-list-text">Integração com o Hubspot</li> \\
+                                <li class="content-list-text">Atendimento humano</li> \\
+                            </ul>\\
+                            \\
+                            <p class="content-title">Pré requisitos:</p>\\
+                            <ul>\\
+                                <li class="content-list-text">Uma conta no <a href="https://www.hubspot.com/">Hubspot</a></li>\\
+                                <li class="content-list-text">Uma API Key no Hubspot.</li>\\
+                            </ul>',  
+
+                            "install": '<p class="content-title">Como instalar?</p>\\
+                            \\
+                            <ul>\\
+                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                <li class="content-list-text">Acesse sua conta no <a href="https://www.hubspot.com/">Hubspot.</a></li>\\
+                                <li class="content-list-text">Copie sua API Key</li>\\
+                                <ul>\\
+                                    <li class="content-list-text">Dentro no Hubspot, acesse <b>Configurações > Integrações > Chave de API</b> e copie (ou crie) a sua chave.</li>\\
+                                </ul>\\
+                                <li class="content-list-text">Insira sua API Key no seu bot, através da variável de configuração: <b>HApiKey</b></li>\\
+                                <li class="content-list-text">Conecte-se a um canal de atendimento humano (Ex.: BLiP Desk)</li>\\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
+                                    </ul>\\
+                            </ul>',
+
+                            "support": '<p class="content-title">Suporte</p> \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                                e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                \\
+                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                        },
+                        "table": [
+                            {
+                            "func": "✓ Integração: HubSpot"
+                            },
+                            {
+                            "func": "✓ Multicanal"
+                            },
+                            {
+                            "func": "✓ Requisições HTTP"
+                            },
+                            {
+                            "func": "✓ Atendimento Humano"
+                            },
+                            {
+                            "func": "✓ Emojis"
+                            }
+                        ]
                         }
                     ]
                     };
