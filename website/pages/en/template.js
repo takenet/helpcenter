@@ -376,6 +376,9 @@ class ScriptDynamically extends React.Component {
                                 <ol> \\
                                     <li class="content-list-text">Baixe o fluxo do bot</li> \\
                                     <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                    <ul>\\
+                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                </ul>\\
                                     <li class="content-list-text">Crie uma conta no Google</li> \\
                                     <li class="content-list-text">Nessa conta, crie um Agenda no <a href="https://calendar.google.com/">Google Calendar</a>, e pegue o seu ID \\
                                         <ul> \\
@@ -523,6 +526,14 @@ class ScriptDynamically extends React.Component {
                             <ul>\\
                                 <li class="content-list-text">Baixe o fluxo do bot</li>\\
                                 <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                <ul>\\
+                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                </ul>\\
+                                <li class="content-list-text">Conecte seu canal de atendimento humano (ex.: BLiP Desk)</li>\\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
+                                    </ul>\\
+                                \\
                             </ul>\\
                     <p class="content-text"><i>Obs.: Os blocos representados com o emoji ✅ são destinados exclusivamente ao canal WhatsApp.\\
                          Usuários que vem deste canal são automaticamente direcionados para esses blocos.',
@@ -621,7 +632,10 @@ class ScriptDynamically extends React.Component {
                             "install": '<p class="content-title">Como instalar?</p>\\
                             <ul>\\
                                 <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                    <ul>\\
+                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                </ul>\\
                                 <li class="content-list-text">Faça as modificações conforme sua necessidade.</li>\\
                             </ul>',
 
@@ -706,7 +720,10 @@ class ScriptDynamically extends React.Component {
                             "install": '<p class="content-title">Como instalar?</p>\\
                             <ul>\\
                                 <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                    <ul>\\
+                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                </ul>\\
                                 <li class="content-list-text">Defina os horários de atendimento nas variáveis de configuração.</li>\\
                                 <ul> \\
                                     <li class="content-list-text">Horário de início do atendimento: <b>startDate (ex.: 09:00)</b></li>\\
@@ -805,7 +822,10 @@ class ScriptDynamically extends React.Component {
                             "install": '<p class="content-title">Como instalar?</p>\\
                             <ul>\\
                                 <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                    <ul>\\
+                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                </ul>\\
                                 <li class="content-list-text">Altere as informações conforme a sua necessidade.</li>\\
                                 <li class="content-list-text">Conecte-se a um canal de atendimento humano (Ex.: BLiP Desk)</li>\\
                                     <ul>\\
@@ -897,7 +917,10 @@ class ScriptDynamically extends React.Component {
                             \\
                             <ul>\\
                                 <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                    <ul>\\
+                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                </ul>\\
                                 <li class="content-list-text">Acesse sua conta no <a href="https://www.hubspot.com/">Hubspot.</a></li>\\
                                 <li class="content-list-text">Copie sua API Key</li>\\
                                 <ul>\\
