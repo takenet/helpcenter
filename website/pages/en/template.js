@@ -959,6 +959,104 @@ class ScriptDynamically extends React.Component {
                             "func": "✓ Emojis"
                             }
                         ]
+                        },
+                        {
+                        "id": "Seguradora_carros",
+                        "title": "Seguradora de Carros",
+                        "creator": "Criado por BLiP",
+                        "subtitle": "Esse chatbot foi feito para auxiliar Seguradoras de carros a prestar serviços para seus clientes, \\
+                            dando a eles a opção de checar valores, coberturas, tirar dúvidas e consultar a situação de um sinistro, \\
+                            tanto através do bot como por atendimento humano. Tudo isso através de uma interface conversacional compatível \\
+                            com a maioria dos canais disponíveis.",
+                        "categories": [
+                            {
+                            "category": "Serviços"
+                            },
+                            {
+                            "subcategory": "API"
+                            },
+                            {
+                            "subcategory": "Integrações"
+                            }
+                        ],
+                        "download_uri": "/templates/seguradora-carros/seguradora-template.json",
+                        "link_bot": "c2VndXJhZG9yYXRlbXBsYXRlOjkxZGE2NjQ0LTE1MmEtNDEyZi04NWFjLTg4MTFlMDBhM2E3MA==",
+                        "images": [
+                            {
+                            "url": "/templates/seguradora-carros/Exemplo01.png"
+                            },
+                            {
+                            "url": "/templates/seguradora-carros/Exemplo02.png"
+                            },
+                            {
+                            "url": "/templates/seguradora-carros/Exemplo03.png"
+                            },
+                        ],
+                        "tabs": {
+                            "details": '<p class="content-title">Compatível com:</p> \\
+                            <div class="compatible-channels"> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/skype-logo.svg"></img> \\
+                            </div> \\
+                            <p class="content-text">Esse chatbot foi feito para auxiliar Seguradoras de carros a prestar serviços para seus clientes, \\
+                            dando a eles a opção de checar valores, coberturas, tirar dúvidas e consultar a situação de um sinistro, \\
+                            tanto através do bot como por atendimento humano. Tudo isso através de uma interface conversacional compatível \\
+                            com a maioria dos canais disponíveis.\\
+                            \\
+                            <p class="content-title">O que pode ser feito?</p> \\
+                            <ul> \\
+                                <li class="content-list-text">Exibir seus serviços</li> \\
+                                <li class="content-list-text">Passar informações aos clientes</li> \\
+                                <li class="content-list-text">Permitir ao cliente consultar um sinistro</li> \\
+                                <li class="content-list-text">Atendimento humano</li> \\
+                            </ul>\\
+                            \\
+                            <p class="content-title">Pré requisitos:</p>\\
+                            <ul>\\
+                                <li class="content-list-text">Uma API para consulta de Sinistros</li>\\
+                            </ul>',  
+
+                            "install": '<p class="content-title">Como instalar?</p>\\
+                            \\
+                            <ul>\\
+                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                    <ul>\\
+                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                </ul>\\
+                                <li class="content-list-text">No Bloco <b>Número do Sinistro</b>, remova o Script de teste e adicione a Requisição para sua <b>API de consulta ao Sinistro</b>.</li>\\
+                                <li class="content-list-text">Crie as condições de saída baseado nas respostas da sua API</li>\\
+                                <li class="content-list-text">Acrescente o retorno da API no Bloco <b>Sinistro Encontrado</b></li>\\
+                                <li class="content-list-text">Conecte-se a um canal de atendimento humano (Ex.: BLiP Desk)</li>\\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
+                                    </ul>\\
+                            </ul>',
+
+                            "support": '<p class="content-title">Suporte</p> \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                                e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                \\
+                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                        },
+                        "table": [
+                            {
+                            "func": "✓ Integração: API"
+                            },
+                            {
+                            "func": "✓ Multicanal"
+                            },
+                            {
+                            "func": "✓ Requisições HTTP"
+                            },
+                            {
+                            "func": "✓ Atendimento Humano"
+                            }
+                        ]
                         }
                     ]
                     };
