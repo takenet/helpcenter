@@ -1096,6 +1096,9 @@ class ScriptDynamically extends React.Component {
 
                         var download = document.getElementById('download');
                         download.href = template.download_uri.toString();
+                        download.onclick = function(){
+                            ga('send', 'event', 'Template download', 'Download', 'Template', template.title.toString());
+                        };
 
                         var linkBot = document.getElementsByClassName('iframe-bot')[0];
                         linkBot.src = template.link_bot.toString();
