@@ -844,7 +844,7 @@ class ScriptDynamically extends React.Component {
                             "subcategory": "Integrações"
                             }
                         ],
-                        "download_uri": "/templates/geracao-leads/getLeads_template.json",
+                        "download_uri": "/templates/geracao-leads/getLeads-template.json",
                         "link_bot": "cHJvc3BlY2Nhb2RlbGVhZHM6NjAxZmNhNzQtZWExZi00N2MzLTg2Y2QtYTFhOWNkZTM2M2Mx",
                         "images": [
                             {
@@ -948,7 +948,7 @@ class ScriptDynamically extends React.Component {
                             "subcategory": "Integrações"
                             }
                         ],
-                        "download_uri": "/templates/seguradora-carros/seguradora-template.json",
+                        "download_uri": "/templates/seguradora-carros/seguradora-templates.json",
                         "link_bot": "c2VndXJhZG9yYXRlbXBsYXRlOjkxZGE2NjQ0LTE1MmEtNDEyZi04NWFjLTg4MTFlMDBhM2E3MA==",
                         "images": [
                             {
