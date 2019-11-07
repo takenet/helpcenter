@@ -37,11 +37,11 @@ class Detail extends React.Component {
                         <div className="main-details">
                             <div className="categories-details"></div>
                             <p className="title-details"> </p>
-                            <p className="creator-template"> </p>
+                            <a id="linkProfile"><p className="creator-template"></p></a>
                             <p className="subtitle-details"> </p>
                             <div className="buttons-details">
                                 <a id="download" href="#"
-                                    download target="blank"><button className="button-details-download">
+                                    download target="_blank"><button className="button-details-download">
                                         <div className="button-content-download">
                                             <BlipIcon name="download" className="icon-button-download"></BlipIcon>
                                             <p className="text-button-download">Download</p>
@@ -118,8 +118,6 @@ class Detail extends React.Component {
                 <ScriptDynamically></ScriptDynamically>
                 <ScriptCarousel></ScriptCarousel>
                 <ScriptTabs></ScriptTabs>
-                <ScriptModalBot></ScriptModalBot>
-
             </div>
         );
     }
@@ -259,36 +257,6 @@ class ScriptTabs extends React.Component {
                         tabDetails.className = "tablinks";
                         tabInstall.disabled = false;
                         tabInstall.className = "tablinks";
-                    }
-
-                `
-                }}
-            />
-        );
-    }
-}
-
-class ScriptModalBot extends React.Component {
-    render() {
-        return (
-            <script
-                dangerouslySetInnerHTML={{
-                    __html: `
-                    var modalBot = document.getElementById("modalBot");
-                    var btn = document.getElementsByClassName('button-details-see')[0];
-                    var span = document.getElementsByClassName('closeBot')[0];
-                    btn.onclick = function(){
-                        modalBot.style.display = "block";
-                    }
-
-                    span.onclick = function() { 
-                        modalBot.style.display = "none";
-                    }
-
-                    window.onclick = function(event) {
-                        if (event.target == modalBot) {
-                            modalBot.style.display = "none";
-                        }
                     }
 
                 `
@@ -860,7 +828,8 @@ class ScriptDynamically extends React.Component {
                         {
                         "id": "Geracao_leads",
                         "title": "Geração de Leads",
-                        "creator": "Criado por BLiP",
+                        "creator": "Criado por Paulo Abreu",
+                        "creator_profile": "https://forum.blip.ai/u/paulo/",
                         "subtitle": "Esse chatbot foi feito para coletar informações sobre leads, como nome, telefone, email e nível de interesse, \\
                             e enviá-las para sua conta no Hubspot. Além disso, há a oportunidade de atendimento humano e uma interface \\
                             compatível com todos os canais.",
@@ -1089,6 +1058,11 @@ class ScriptDynamically extends React.Component {
                         title_details.innerHTML = template.title.toString();
 
                         var creator = document.getElementsByClassName('creator-template')[0];
+                            if(template.creator_profile){
+                                var linkProfile = document.getElementById('linkProfile');
+                                linkProfile.href = template.creator_profile;
+                                linkProfile.target = "_blank";
+                            }
                         creator.innerHTML = template.creator.toString();
 
                         var subtitle = document.getElementsByClassName('subtitle-details')[0];
@@ -1183,13 +1157,30 @@ class ScriptDynamically extends React.Component {
                         window.location.href = "/templates";
                     }
                     
-                    
-                    new BlipChat()
+                    var chat;
+                    var modalBot = document.getElementById("modalBot");
+                    var btn = document.getElementsByClassName('button-details-see')[0];
+                    var span = document.getElementsByClassName('closeBot')[0];
+                    btn.onclick = function(){
+                        modalBot.style.display = "block";
+                        chat = new BlipChat()
                         .withAppKey(template.link_bot)
                         .withButton({"color":"#2CC3D5","icon":""})
                         .withTarget("iframe")
                         .build();
-                    
+                    }
+
+                    span.onclick = function() { 
+                        modalBot.style.display = "none";
+                        chat.destroy();
+                    }
+
+                    window.onclick = function(event) {
+                        if (event.target == modalBot) {
+                            modalBot.style.display = "none";
+                            chat.destroy();
+                        }
+                    };
                     
                 `
                 }}

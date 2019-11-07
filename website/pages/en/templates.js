@@ -138,7 +138,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Marketing</button>
                                 <p className="title-card-templates">Geração de Leads</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Paulo Abreu</p>
                                 <a href="/template?Id=Geracao_leads"><div className="seeMore-card-templates">
                                     <p className="text-seeMore">Ver detalhes</p>
                                     <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
