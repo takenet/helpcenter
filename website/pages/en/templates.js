@@ -57,8 +57,8 @@ class Template extends React.Component {
                     <div className="banner-templates-section">
                         <img className="banner-img" src="/img/illustrations/banner_templates.png"></img>
                         <div className="banner-content">
-                            <p className="banner-text">Quer ver o seu modelo aqui também? <b>Mande pra gente!</b></p>
-                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSexU2elo1NSjnrsh8Et8f4MRG2X-3RSLa-Yrbq0gGqNCert1g/viewform?usp=sf_link"><button className="banner-button">Enviar modelo</button></a>
+                            <p className="banner-text">Quer ver o seu template aqui também? <b>Mande pra gente!</b></p>
+                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSexU2elo1NSjnrsh8Et8f4MRG2X-3RSLa-Yrbq0gGqNCert1g/viewform?usp=sf_link"><button className="banner-button">Enviar template</button></a>
                         </div>
                     </div>
 
