@@ -402,7 +402,7 @@ class ScriptDynamically extends React.Component {
                                 </ol>',
 
                             "support": '<p class="content-title">Suporte</p> \\
-                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
                             <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
@@ -507,7 +507,7 @@ class ScriptDynamically extends React.Component {
                          Usuários que vem deste canal são automaticamente direcionados para esses blocos.',
 
                             "support": '<p class="content-title">Suporte</p> \\
-                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
                             <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
@@ -611,7 +611,7 @@ class ScriptDynamically extends React.Component {
                                     </ul>',
 
                             "support": '<p class="content-title">Suporte</p> \\
-                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
                             <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
@@ -715,7 +715,7 @@ class ScriptDynamically extends React.Component {
                             </ul>',
 
                             "support": '<p class="content-title">Suporte</p> \\
-                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
                             <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
@@ -805,7 +805,7 @@ class ScriptDynamically extends React.Component {
                             </ul>',
 
                             "support": '<p class="content-title">Suporte</p> \\
-                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
                             <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
@@ -906,7 +906,7 @@ class ScriptDynamically extends React.Component {
                             </ul>',
 
                             "support": '<p class="content-title">Suporte</p> \\
-                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
                             <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
@@ -1007,7 +1007,7 @@ class ScriptDynamically extends React.Component {
                             </ul>',
 
                             "support": '<p class="content-title">Suporte</p> \\
-                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo educacional, ajudar os usuários a compreenderem \\
+                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
                             <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
