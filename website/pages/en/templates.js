@@ -33,8 +33,8 @@ class Template extends React.Component {
                 <div>
                     <div className="pages-top-templates">
                         <div className="main-templates">
-                            <p className="title-templates">Modelos de chatbot</p>
-                            <p className="subtitle-templates">Modelos criados pela comunidade para facilitar a criação e implementação de chatbots em sua empresa!</p>
+                            <p className="title-templates">Templates de chatbot</p>
+                            <p className="subtitle-templates">Templates criados pela comunidade para facilitar a criação e implementação de chatbots em sua empresa!</p>
                         </div>
                         <div className="image-templates">
                             <img className="img" src="/img/illustrations/ilustracao-templates.svg" />
@@ -47,10 +47,10 @@ class Template extends React.Component {
                     <div className="navigation">
                         <p className="from">BLiP Help Center ></p>
                         <p className="from"><a className="link-from" href="/resources">Recursos</a> ></p>
-                        <p className="here">Modelos de chatbot</p>
+                        <p className="here">Templates de chatbot</p>
                     </div>
                     <div className="info-templates">
-                        <p className="intro-templates">Os modelos de chatbot auxiliam os usuários a criar mais facilmente os fluxos de conversa,
+                        <p className="intro-templates">Os templates de chatbot auxiliam os usuários a criar mais facilmente os fluxos de conversa,
                       eles servem para agilizar o processo de criação dos bots no BLiP.</p>
                     </div>
 
@@ -170,5 +170,5 @@ class Template extends React.Component {
     }
 }
 
-Template.title = 'Modelos de Chatbots';
+Template.title = 'Templates de Chatbots';
 module.exports = Template; 
