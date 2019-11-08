@@ -18,20 +18,20 @@ Antes de começar, certifique-se de já ter criado sua conta no LUIS através do
 
 ![](/img/ai/nlp/como-configurar-luis-2.png)<br>
 
-4) Copie a **authoring key**.
+4) Copie a **Primary key**, dentro de **Authoring resources**.
 
 ![](/img/ai/nlp/como-configurar-luis-3.png)<br>
 
 ## Uso gratuito
 
-Para o uso free do bot cole a **Authoring Key** copiada no passo anterior no campo Authoring key e também no campo **Cognitive Service Resource Key**, no BLiP. Clique em **salvar** e o ***bot está pronto para o uso free*** 😀.
+Para o uso free do bot cole a **Primary Key** copiada no passo anterior no campo Primary Key e também no campo **Cognitive Service Resource Key**, no BLiP. Clique em **salvar** e o ***bot está pronto para o uso free*** 😀.
 
 ![](/img/ai/nlp/como-configurar-luis-4.png)<br>
 
 
 ## Uso pago
 
-É necessário ativar a aplicação usando a **Authoring Key** copiada no passo anterior no campo **Authoring Key** e também no campo **Cognitive Service Resource Key**, no BLiP.
+É necessário ativar a aplicação usando a **Primary Key** copiada no passo anterior no campo **Primary Key** e também no campo **Cognitive Service Resource Key**, no BLiP.
 
 
 ![](/img/ai/nlp/como-configurar-luis-4.png)<br>
