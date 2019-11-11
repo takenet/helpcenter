@@ -228,6 +228,7 @@
     ],
     "Gestão": [
       "management/como-encontrar-id-usuario",
+      "management/como-alterar-avatar-bot",
       "management/como-marcar-contato-como-teste",
       "management/configuracoes-avancadas-bot",
       "management/gerenciando-permissoes-acesso-equipe",

@@ -16,7 +16,7 @@ Para alterar a foto de avatar de um bot acesse o portal do BLiP, clique em **Con
 
 Caso seu bot já esteja publicado no canal WhatsApp será necessário realizar um passo adicional para atualização da foto de perfil.
 
-1. Acesse o módulo de **Canais**
+1. Acesse o módulo de **Canais**  
 2. Escolha o WhatsApp, escolha a aba **Configurações** e clique no botão salvar.
 
 ![Imagem que mostra como alterar a foto de avatar de um bot no WhatsApp](/img/management/avatar-whatsapp.png)
