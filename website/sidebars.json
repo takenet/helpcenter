@@ -168,6 +168,7 @@
       "builder/enviando-email-pelo-bot-atraves-do-builder",
       "builder/proporcao-de-exibicao-de-imagens",
       "builder/acao-processar-comando",
+      "builder/acao-registro-evento",
       "builder/expirando-sessao-usuarios-builder",
       "builder/como-definir-um-tempo-limite-para-acoes-do-builder"
     ],
