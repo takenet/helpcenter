@@ -4,7 +4,7 @@ title: Ação: Processar Comando
 sidebar_label: Ação: Processar Comando
 ---
 
-A ação **Processar Comando** foi desenvolvida com o objetivo de facilitar a integração entre o Builder e as APIs internas do BLiP. Na prática, isso significa que a partir de agora é possível utilizar as extensões do BLiP de forma simples, dentro do Builder.
+A ação **Processar Comando** foi desenvolvida com o objetivo de facilitar a integração entre o Builder e as APIs internas do BLiP.
 
 ![Processar comando](/img/builder/builder-acao-processar-comando-1.png)
 
