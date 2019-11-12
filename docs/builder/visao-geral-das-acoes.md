@@ -31,7 +31,7 @@ Para que o Builder seja capaz de realizar a requisição, é preciso preencher t
 
 * **Registro de evento**
   
-Essa ação permite realizar o registro de um evento qualquer no módulo de análise do BLiP. Registro de eventos são necessários para a criação de relatórios customizados.
+Essa ação permite realizar o registro de um evento qualquer no módulo de análise do BLiP. Registro de eventos são necessários para a criação de relatórios customizados. [Clique aqui](/docs/builder/acao-registro-evento) para saber mais informações.
 
 ![Registro de evento](/img/builder/builder-visao-geral-das-acoes-3.png)
 
