@@ -27,23 +27,24 @@ Todo evento possui os seguintes componentes:
 * Ação (obrigatório) - Nome para um tipo de evento agrupado por uma categoria
 * Rótulo (opcional) - Descrição adicional para o evento gerado
 * Valor (opcional) - Número que carrega um valor adicional as informações sobre um evento
+* Extras (opcional - acessível apenas pela API do BLiP) - Informações adicionais importantes para o evento. Cada informação extra é composta por uma chave e um valor. Exemplo: evento gerado para um usuário do **plano premium** pode possuir uma informação extra onde a chave é **Plano** e o valor é **Premium**
 
 Imagine, por exemplo, que exista a necessidade de analisar o número de imagens recebidas por um bot. Uma forma de organizar eventos para essa análise seria:
 
-**Categoria**: "Conteúdos"
-**Action**: "Imagem"
+**Categoria**: "Conteúdos"  
+**Action**: "Imagem"  
 
 Ou seja, o agrupamento dos eventos é dado pela categoria **Conteúdos** e o tipo de conteúdo imagem é definido através da ação **Imagem**. Seguindo a mesma lógica, para analisar a quantida de mensagens de textos recebidas basta utilizar:
 
-**Categoria**: "Conteúdos"
-**Action**: "Texto"
+**Categoria**: "Conteúdos"  
+**Action**: "Texto"  
 
 Da mesma forma, para representar a quantidade de requisições HTTP realizadas pelo bot para um enpoint específico de uma API, uma configuração possível de eventos seria:
 
-**Categoria**: "RequisicaoHTTP"
-**Action**: "/products"
-**Rótulo**: "requisições HTTP para busca de produtos"
-**Valor**: 1
+**Categoria**: "RequisicaoHTTP"  
+**Action**: "/products"  
+**Rótulo**: "requisições HTTP para busca de produtos"  
+**Valor**: 1  
 
 *Onde o valor 1 indica por exemplo o ID do produto buscado na API.*
 
