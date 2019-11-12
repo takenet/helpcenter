@@ -46,7 +46,7 @@ const data = {
             "class": "seeMore-session-small"
         },
         {
-          "title": "Modelos de Chatbot",
+          "title": "Templates de bots",
           "url": "/templates",
           "icon": "robot",
           "color": "sea",
