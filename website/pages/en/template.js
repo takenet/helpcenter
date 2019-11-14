@@ -277,7 +277,207 @@ class ScriptDynamically extends React.Component {
 
                     var data = {
                     "templates": [
-                        {
+                            {
+                            "id": "Programacao_evento",
+                            "title": "Programação de Evento",
+                            "creator": "Criado por BLiP",
+                            "subtitle": "Esse chatbot foi feito para ajudar Comunidades e Empresas a divulgarem e oferecem suporte e informações sobre um determinado \\
+                                    evento em um bot preparado para funcionar com a maioria dos canais, incluindo o WhatsApp",
+                            "categories": [
+                                {
+                                "category": "Entrenimento"
+                                },
+                                {
+                                "subcategory": "Evento"
+                                },
+                                {
+                                "subcategory": "Informativo"
+                                }
+                            ],
+                            "download_uri": "/templates/programacao-evento/event_template.json",
+                            "link_bot": "ZXZlbnRvdGVtcGxhdGVicnVubzo3ZjBiMTY1Ny0xYzVjLTRmMmQtYjkxYS05ZmJjNDE3ZjlmN2Q=",
+                            "images": [
+                                {
+                                "url": "/templates/programacao-evento/Exemplo02.png"
+                                },
+                                {
+                                "url": "/templates/programacao-evento/Exemplo03.png"
+                                },
+                                {
+                                "url": "/templates/programacao-evento/Exemplo05.png"
+                                },
+                                {
+                                "url": "/templates/programacao-evento/Exemplo04.png"
+                                },
+                                
+                            ],
+                            "tabs": {
+                                "details": '<p class="content-title">Compatível com:</p> \\
+                                <div class="compatible-channels"> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                </div> \\
+                                <p class="content-text">Esse chatbot foi feito para ajudar Comunidades e Empresas a divulgarem e oferecem suporte e informações \\
+                                    sobre um determinado evento\\
+                                    em um bot preparado para funcionar com a maioria dos canais, incluindo o WhatsApp\\
+                                \\
+                                <p class="content-title">O que pode ser feito?</p> \\
+                                <ul> \\
+                                    <li class="content-list-text">Exibir seus contatos</li> \\
+                                    <li class="content-list-text">Atendimento humano</li> \\
+                                    <li class="content-list-text">Fornecer ao usuário informações sobre o evento</li> \\
+                                    <li class="content-list-text">Enviar imagens e documentos referentes ao evento.</li> \\
+                                </ul>',  
+    
+    
+                                "install": '<p class="content-title">Como instalar?</p>\\
+                                <ul>\\
+                                    <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                    <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                    </ul>\\
+                                    <li class="content-list-text">Conecte seu canal de atendimento humano (ex.: BLiP Desk)</li>\\
+                                        <ul>\\
+                                            <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
+                                        </ul>\\
+                                    \\
+                                </ul>\\
+                        <p class="content-text"><i>Obs.: Os blocos representados com o emoji ✅ são destinados exclusivamente ao canal WhatsApp.\\
+                             Usuários que vem deste canal são automaticamente direcionados para esses blocos.',
+    
+                                "support": '<p class="content-title">Suporte</p> \\
+                                <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
+                                    e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                    \\
+                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                            },
+                            "table": [
+                                {
+                                "func": "✓ Multicanal"
+                                },
+                                {
+                                "func": "✓ Carrossel"
+                                },
+                                {
+                                "func": "✓ Menu"
+                                },
+                                {
+                                "func": "✓ Imagens"
+                                },
+                                {
+                                "func": "✓ Formatação de texto"
+                                },
+                                {
+                                "func": "✓ Atendimento Humano"
+                                },
+                                {
+                                "func": "✓ Emojis"
+                                }
+                            ]
+                            },
+                            {
+                            "id": "Concessionaria_carros",
+                            "title": "Concessionaria de carros",
+                            "creator": "Criado por BLiP",
+                            "subtitle": "Esse chatbot foi feito para ajudar Concessionárias de Carros a divulgarem e oferecem informações sobre seus produtos, \\
+                                obter dados dos clientes e oferecer atendimento humano em um bot preparado para funcionar com a maioria dos canais\\
+                                 incluindo o WhatsApp.",
+                            "categories": [
+                                {
+                                "category": "Varejo"
+                                },
+                                {
+                                "subcategory": "Prospecção"
+                                },
+                                {
+                                "subcategory": "Multicanal"
+                                }
+                            ],
+                            "download_uri": "/templates/concessionaria-carros/concessionaria_template.json",
+                            "link_bot": "Y29uY2Vzc2lvbnRlbXBsYXRlYnJ1bm86YmFhNmYzMjktMTMxMy00ZmUyLTlhNTktMjMyYTc1NGUyNTg1",
+                            "images": [
+                                {
+                                "url": "/templates/concessionaria-carros/Exemplo01.png"
+                                },
+                                {
+                                "url": "/templates/concessionaria-carros/Exemplo04.png"
+                                },
+                                {
+                                "url": "/templates/concessionaria-carros/Exemplo02.png"
+                                },
+                                {
+                                "url": "/templates/concessionaria-carros/Exemplo03.png"
+                                },
+                                
+                                {
+                                "url": "/templates/concessionaria-carros/Exemplo05.png"
+                                },
+                                
+                            ],
+                            "tabs": {
+                                "details": '<p class="content-title">Compatível com:</p> \\
+                                <div class="compatible-channels"> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                </div> \\
+                                <p class="content-text">Esse chatbot foi feito para ajudar Concessionárias de Carros a divulgarem e oferecem informações sobre seus produtos, \\
+                                    obter dados dos clientes e oferecer atendimento humano em um bot preparado para funcionar com a maioria dos canais, \\
+                                    incluindo o WhatsApp.\\
+                                \\
+                                <p class="content-title">O que pode ser feito?</p> \\
+                                <ul> \\
+                                    <li class="content-list-text">Exibir seus produtos</li> \\
+                                    <li class="content-list-text">Prover informações sobre os produtos</li> \\
+                                    <li class="content-list-text">Salvar dados dos contatos</li> \\
+                                    <li class="content-list-text">Atendimento humano.</li> \\
+                                </ul>',  
+    
+    
+                                "install": '<p class="content-title">Como instalar?</p>\\
+                                <ul>\\
+                                    <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                    <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Faça as modificações conforme sua necessidade.</li>\\
+                                    <li class="content-list-text">Conecte seu canal de atendimento humano (ex.: BLiP Desk)</li>\\
+                                        <ul>\\
+                                            <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
+                                        </ul>',
+    
+                                "support": '<p class="content-title">Suporte</p> \\
+                                <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
+                                    e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                    \\
+                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                            },
+                            "table": [
+                                {
+                                "func": "✓ Multicanal"
+                                },
+                                {
+                                "func": "✓ Imagens"
+                                },
+                                {
+                                "func": "✓ Formatação de texto"
+                                },
+                                {
+                                "func": "✓ Atendimento Humano"
+                                },
+                                {
+                                "func": "✓ Salvar contatos"
+                                }
+                            ]
+                            },                
+                     {
                         "id": "Petshop_agendamento",
                         "title": "Petshop - Agendamento",
                         "creator": "Criado por BLiP",
@@ -1026,7 +1226,275 @@ class ScriptDynamically extends React.Component {
                             "func": "✓ Atendimento Humano"
                             }
                         ]
-                        }
+                        },
+                        {
+                            "id": "Busca_cep",
+                            "title": "Identificador de endereço por CEP",
+                            "creator": "Criado por BLiP",
+                            "subtitle": "Esse chatbot foi desenvolvido com objetivo de auxilar na integração de APIs de CEP, permitindo assim obter o endereço a partir do CEP apresentado. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
+                            "categories": [
+                                {
+                                "category": "Serviços"
+                                },
+                                {
+                                "subcategory": "API"
+                                },
+                                {
+                                "subcategory": "Integrações"
+                                }
+                            ],
+                            "download_uri": "/templates/busca-cep/addressByZipCode_template.json",
+                            "link_bot": "YnVzY2FjZXAzOjZiOWRkMjRkLTkxNWEtNDIyMS1iODM5LTI5NzlkNDM3ZGQwNA==",
+                            "images": [
+                                {
+                                "url": "/templates/busca-cep/Exemplo01.png"
+                                },
+                                {
+                                "url": "/templates/busca-cep/Exemplo02.png"
+                                },
+                                {
+                                "url": "/templates/busca-cep/Exemplo03.png"
+                                }
+                            ],
+                            "tabs": {
+                                "details": '<p class="content-title">Compatível com:</p> \\
+                                <div class="compatible-channels"> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/skype-logo.svg"></img> \\
+                                </div> \\
+                                <p class="content-text">Esse chatbot foi desenvolvido com objetivo de auxilar na integração de APIs de CEP,\\
+                                permitindo assim obter o endereço a partir do CEP apresentado. Tudo isso através de uma interface conversacional compatível\\
+                                com a maioria dos canais disponíveis.\\
+                                \\
+                                <p class="content-title">O que pode ser feito?</p> \\
+                                <ul> \\
+                                    <li class="content-list-text">Exibir um endereço</li> \\
+                                </ul>\\
+                                \\
+                                <p class="content-title">Pré requisitos:</p>\\
+                                <ul>\\
+                                    <li class="content-list-text">Uma API para consulta de endereços</li>\\
+                                </ul>',  
+    
+                                "install": '<p class="content-title">Como instalar?</p>\\
+                                \\
+                                <ul>\\
+                                    <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                    <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                    </ul>\\
+                                    <li class="content-list-text">Crie as condições de saída baseado nas respostas da sua API</li>\\
+                                    <li class="content-list-text">Acrescente ou altere o retorno da API no Bloco <b>Exibe Informações do CEP</b></li>\\
+                                    <li class="content-list-text">Altere as informações conforme a sua necessidade.</li>\\
+                                </ul>',
+    
+                                "support": '<p class="content-title">Suporte</p> \\
+                                <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
+                                    e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                    \\
+                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                            },
+                            "table": [
+                                {
+                                "func": "✓ Integração: API"
+                                },
+                                {
+                                "func": "✓ Multicanal"
+                                },
+                                {
+                                "func": "✓ Requisições HTTP"
+                                }
+                            ]
+                            },
+                             {
+                                "id": "Previsao_tempo",
+                                "title": "Condição e previsão do tempo",
+                                "creator": "Criado por BLiP",
+                                "subtitle": "Esse chatbot foi desenvolvido com objetivo de auxilar na integração de APIs de condição e previsão do tempo, permitindo assim obter o informações inerentes ao clima e tempo em conformidade com a localização apresentada. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
+                                "categories": [
+                                    {
+                                    "category": "Serviços"
+                                    },
+                                    {
+                                    "subcategory": "API"
+                                    },
+                                    {
+                                    "subcategory": "Integrações"
+                                    }
+                                ],
+                                "download_uri": "/templates/previsao-tempo/weatherForecast_template.json",
+                                "link_bot": "cHJldmlzYW90ZW1wbzE6MDc1Y2E0ZjEtZDkzMy00NTY1LTk3NTQtYjI4ZTkzN2EzNzA0",
+                                "images": [
+                                    {
+                                    "url": "/templates/previsao-tempo/Exemplo01.PNG"
+                                    },
+                                    {
+                                    "url": "/templates/previsao-tempo/Exemplo02.PNG"
+                                    },
+                                    {
+                                    "url": "/templates/previsao-tempo/Exemplo03.PNG"
+                                    }
+                                ],
+                                "tabs": {
+                                    "details": '<p class="content-title">Compatível com:</p> \\
+                                    <div class="compatible-channels"> \\
+                                        <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                        <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                        <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                        <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                        <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                        <img class="compatible-channels-img" src="/img/illustrations/skype-logo.svg"></img> \\
+                                    </div> \\
+                                    <p class="content-text">Esse chatbot foi desenvolvido com objetivo de auxilar na utilização APIs de condição e previsão do tempo,\\
+                                    permitindo assim obter o informações inerentes ao clima e tempo em conformidade com a localização apresentada.\\
+                                      Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.\\
+                                    \\
+                                    <p class="content-title">O que pode ser feito?</p> \\
+                                    <ul> \\
+                                        <li class="content-list-text">Exibir informações sobre a previsão do tempo</li> \\
+                                    </ul>\\
+                                    \\
+                                    <p class="content-title">Pré requisitos:</p>\\
+                                    <ul>\\
+                                        <li class="content-list-text">Uma API para consulta de condição e previsão de tempo</li>\\
+                                    </ul>',  
+        
+                                    "install": '<p class="content-title">Como instalar?</p>\\
+                                    \\
+                                    <ul>\\
+                                        <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                        <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                            <ul>\\
+                                            <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
+                                        <li class="content-list-text">Crie as condições de saída baseado nas respostas da sua API</li>\\
+                                        <li class="content-list-text">Acrescente ou altere o retorno da API no Bloco <b>Apresenta informações</b></li>\\
+                                        <li class="content-list-text">Altere as informações conforme a sua necessidade.</li>\\
+                                    </ul>',
+        
+                                    "support": '<p class="content-title">Suporte</p> \\
+                                    <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
+                                        e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                        \\
+                                    <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                },
+                                "table": [
+                                    {
+                                    "func": "✓ Integração: API"
+                                    },
+                                    {
+                                    "func": "✓ Multicanal"
+                                    },
+                                    {
+                                    "func": "✓ Requisições HTTP"
+                                    }
+                                ]
+                                },
+                                {
+                                        "id": "Faq_loja_virtual",
+                                        "title": "FAQ - Loja virtual",
+                                        "creator": "Criado por BLiP",
+                                        "subtitle": "Esse chatbot foi desenvolvido com propósito de auxilar na utilização de provedores de Inteligência Artificial disponíveis, permitindo assim obter um fluxo de conversação mais fluida em um chatbot. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
+                                        "categories": [
+                                            {
+                                            "category": "Serviços"
+                                            },
+                                            {
+                                            "subcategory": "FAQ"
+                                            },
+                                            {
+                                            "subcategory": "Inteligência Artificial"
+                                            }
+                                        ],
+                                        "download_uri": "/templates/faq-loja-virtual/clothing_store_faq.zip",
+                                        "link_bot": "ZmFxbG9qYXZpcnR1YWwxOjE3ZGZhY2UxLTY4ODEtNGJmNS1iYmM2LWFjMmEyNDljMmIzMA==",
+                                        "images": [
+                                            {
+                                            "url": "/templates/faq-loja-virtual/Exemplo01.PNG"
+                                            },
+                                            {
+                                            "url": "/templates/faq-loja-virtual/Exemplo02.PNG"
+                                            },
+                                            {
+                                            "url": "/templates/faq-loja-virtual/Exemplo03.PNG"
+                                            },
+                                            {
+                                            "url": "/templates/faq-loja-virtual/Exemplo04.PNG"
+                                            },
+                                            {
+                                            "url": "/templates/faq-loja-virtual/Exemplo05.PNG"
+                                            }
+                                        ],
+                                        "tabs": {
+                                            "details": '<p class="content-title">Compatível com:</p> \\
+                                            <div class="compatible-channels"> \\
+                                                <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                                <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                                <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                            </div> \\
+                                            <p class="content-text">Esse chatbot foi desenvolvido com propósito de auxilar na utilização de provedores de Inteligência Artificial\\
+                                            disponíveis, permitindo assim obter um fluxo de conversação mais fluida em um chatbot. \\
+                                            Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.\\
+                                            \\
+                                            <p class="content-title">O que pode ser feito?</p> \\
+                                            <ul> \\
+                                                <li class="content-list-text">Exibir respostas para perguntas frequentes</li> \\
+                                            </ul>\\
+                                               ',  
+                                            "install": '<p class="content-title">Como instalar?</p>\\
+                                            \\
+                                            <ul>\\
+                                                <li class="content-list-text">Baixe o arquivo .zip contendo o fluxo do bot, as intenções e entidades</li>\\
+                                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                                    <ul>\\
+                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                                    </ul>\\
+                                                <li class="content-list-text">Ative um provedor de IA sua preferência</li>\\
+                                                    <ul>\\
+                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/ai/nlp/como-configurar-watson/">Clique aqui para aprender como configurar o provedor Watson</a></li>\\
+                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/ai/nlp/como-configurar-luis/">Clique aqui para aprender como configurar o provedor LUIS</a></li>\\
+                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/ai/nlp/como-configurar-dialogflow/">Clique aqui para aprender como configurar o provedor DialogFlow</a></li><br>\\
+                                                    </ul>\\
+                                                <li class="content-list-text">Importe as intenções e entidades</li>\\
+                                                    <ul>\\
+                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/ai/nlp/importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip/">Clique aqui para aprender como importar o modelo de intenções e entidades</a></li><br>\\
+                                                    </ul>\\
+                                                <li class="content-list-text">Treine e publique o modelo de IA</li>\\
+                                                    <ul>\\
+                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/ai/nlp/treinando-publicando-modelo-de-ia/">Clique aqui para aprender como treinar e publicar o modelo de IA</a></li><br>\\
+                                                    </ul>\\
+                                                <li class="content-list-text">Altere as informações conforme a sua necessidade.</li>\\
+                                            </ul>',
+                
+                                            "support": '<p class="content-title">Suporte</p> \\
+                                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
+                                                e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                                \\
+                                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                        },
+                                        "table": [
+                                            {
+                                            "func": "✓ Multicanal"
+                                            },
+                                            {
+                                            "func": "✓ Inteligência Artificial "
+                                            },
+                                            {
+                                            "func": "✓ Carrossel "
+                                            },
+                                            {
+                                            "func": "✓ Conteúdo Dinâmico "
+                                            }
+                                            
+                                        ]
+                                        }
+
+
                     ]
                     };
                     var template;
