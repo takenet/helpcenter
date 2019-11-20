@@ -34,7 +34,7 @@ Preencha as informações necessárias para a submissão de um message tempalte.
 
 ## Analisando o status do Message Template
 
-Após a submissão de um Message Template ele receberá o status de **Pendente**. Ao final do processo o template receberá o status de **Aprovado** ou **Reprovado**, caso seja aceito ou rejeitado pelo WhatsApp, respectivamente.
+Após a submissão de um Message Template ele ficará **em análise** com o status de **Pendente**. Ao final do processo o template receberá o status de **Aprovado** ou **Reprovado**, caso seja aceito ou rejeitado pelo WhatsApp, respectivamente.
 
 ## Utilizando templates aprovados
 
