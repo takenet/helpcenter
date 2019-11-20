@@ -159,6 +159,44 @@ class Template extends React.Component {
                             </div>
                         </div>
 
+                        <div className="card-templates">
+                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/busca-cep.jpg"></img>
+                            <div className="text-card-templates">
+                                <button className="category-card-templates">Serviços</button>
+                                <p className="title-card-templates">Identificador de Endereço por CEP</p>
+                                <p className="creator-card-templates">criado por BLiP</p>
+                                <a href="/template?Id=Busca_cep"><div className="seeMore-card-templates">
+                                    <p className="text-seeMore">Ver detalhes</p>
+                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                </div></a>
+                            </div>
+                        </div>
+
+                        <div className="card-templates">
+                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/previsao-tempo.jpg"></img>
+                            <div className="text-card-templates">
+                                <button className="category-card-templates">Serviços</button>
+                                <p className="title-card-templates">Condição e Previsão do Tempo</p>
+                                <p className="creator-card-templates">criado por BLiP</p>
+                                <a href="/template?Id=Previsao_tempo"><div className="seeMore-card-templates">
+                                    <p className="text-seeMore">Ver detalhes</p>
+                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                </div></a>
+                            </div>
+                        </div>
+
+                        <div className="card-templates">
+                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/faq-loja-virtual.jpg"></img>
+                            <div className="text-card-templates">
+                                <button className="category-card-templates">Serviços</button>
+                                <p className="title-card-templates">FAQ - Loja Virtual</p>
+                                <p className="creator-card-templates">criado por BLiP</p>
+                                <a href="/template?Id=Faq_loja_virtual"><div className="seeMore-card-templates">
+                                    <p className="text-seeMore">Ver detalhes</p>
+                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                </div></a>
+                            </div>
+                        </div>
 
                     </div>
 

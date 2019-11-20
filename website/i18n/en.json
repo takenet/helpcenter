@@ -169,6 +169,10 @@
         "title": "Ação: Processar Comando",
         "sidebar_label": "Ação: Processar Comando"
       },
+      "builder/acao-registro-evento": {
+        "title": "Ação: Registro de eventos",
+        "sidebar_label": "Ação: Registro de eventos"
+      },
       "builder/como-definir-um-tempo-limite-para-acoes-do-builder": {
         "title": "Como definir um tempo limite (timeout) para ações do Builder",
         "sidebar_label": "Como definir um tempo limite (timeout) para ações do Builder"
@@ -640,6 +644,10 @@
         "title": "Como ativar o BLiP Desk como um canal de atendimento",
         "sidebar_label": "Como ativar o BLiP Desk como um canal de atendimento"
       },
+      "helpdesk/blipdesk/como-configurar-avisos-sonoros-notificacoes-desk": {
+        "title": "Configurando avisos sonoros e notificações no BLiP Desk",
+        "sidebar_label": "Configurando avisos sonoros e notificações no BLiP Desk"
+      },
       "helpdesk/blipdesk/como-definir-regras-atendimento": {
         "title": "Como definir regras de atendimento no BLiP Desk",
         "sidebar_label": "Como definir regras de atendimento no BLiP Desk"
@@ -699,6 +707,10 @@
       "introduction/visao-geral-da-plataforma": {
         "title": "Visão geral da plataforma",
         "sidebar_label": "Visão geral da plataforma"
+      },
+      "management/como-alterar-avatar-bot": {
+        "title": "Como alterar o avatar (foto) do bot",
+        "sidebar_label": "Como alterar o avatar (foto) do bot"
       },
       "management/como-encontrar-id-usuario": {
         "title": "Como encontrar o identificador de um usuário",
