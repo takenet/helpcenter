@@ -504,6 +504,10 @@
         "title": "Arquitetura do canal WhatsApp",
         "sidebar_label": "Arquitetura do canal WhatsApp"
       },
+      "channels/whatsapp/como-criar-aprovar-message-template": {
+        "title": "Como criar e aprovar um Message Template no WhatsApp",
+        "sidebar_label": "Como criar e aprovar um Message Template no WhatsApp"
+      },
       "channels/whatsapp/como-interagir-whatsapp": {
         "title": "Como interagir com os usuários através do WhatsApp",
         "sidebar_label": "Como interagir com os usuários através do WhatsApp"
@@ -754,6 +758,7 @@
       }
     },
     "links": {
+      "API Reference": "API Reference",
       "Artigos": "Artigos",
       "Áreas do BLiP": "Áreas do BLiP",
       "Recursos": "Recursos",

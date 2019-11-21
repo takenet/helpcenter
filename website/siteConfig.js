@@ -46,6 +46,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    { href: 'https://docs.blip.ai', label: 'API Reference', external: true },
     { doc: 'introduction/visao-geral-da-plataforma', label: 'Artigos' },
     { page: 'blipareas', label: 'Áreas do BLiP' },
     { page: 'resources', label: 'Recursos' },

@@ -11,9 +11,9 @@ Qualquer mensagem enviada pelo bot, após um período de 24 horas em relação a
 Para enviar uma notificação (mensagem ativa) é necessário garantir que os pré-requisitos abaixo já foram satisfeitos:
 
 1. [Ter um bot previamente publicado no canal WhatsApp](/docs/channels/whatsapp/publicando-bot-no-whatsapp) (*disponível apenas para clientes Business e Enterprise*)
-2. [Ter um Message Template criado e aprovado pelo WhatsApp](/docs/channels/whatsapp/como-criar-aprovar-message-template)
-3. Depois de criar e aprovar seu Message Template você terá acesso a dois valores **NAMESPACE** e **ELEMENT_NAME**. Esses valores identificam seu Message Template e serão necessários durante o processo.
-4. Possuir saldo disponível em sua conta para o disparo de notificações no WhatsApp (*consulte a equipe de suporte do seu plano para analisar o saldo disponível em sua conta*)
+2. [Ter um Message Template criado e aprovado pelo WhatsApp](/docs/channels/whatsapp/como-criar-aprovar-message-template)<br />
+Depois de criar e aprovar seu Message Template você terá acesso a dois valores **NAMESPACE** e **ELEMENT_NAME**. Esses valores identificam seu Message Template e serão necessários durante o processo.
+3. Possuir saldo disponível em sua conta para o disparo de notificações no WhatsApp (*consulte a equipe de suporte do seu plano para analisar o saldo disponível em sua conta*)
 
 ## Enviando uma notificação
 
