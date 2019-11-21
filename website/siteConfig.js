@@ -24,7 +24,7 @@ const siteConfig = {
   docsSideNavCollapsible: true,
   title: 'BLiP', // Title for your website.
   tagline: 'BLiP | Help Center',
-  url: 'hmg-help.blip.ai', // Your website URL
+  url: 'https://help.blip.ai', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',

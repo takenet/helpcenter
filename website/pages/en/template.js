@@ -1272,7 +1272,7 @@ class ScriptDynamically extends React.Component {
                                 \\
                                 <p class="content-title">O que pode ser feito?</p> \\
                                 <ul> \\
-                                    <li class="content-list-text">Exibir um endereço</li> \\
+                                    <li class="content-list-text">Exibir informações sobre endereço com base no CEP informado</li> \\
                                 </ul>\\
                                 \\
                                 <p class="content-title">Pré requisitos:</p>\\
@@ -1356,7 +1356,7 @@ class ScriptDynamically extends React.Component {
                                     \\
                                     <p class="content-title">O que pode ser feito?</p> \\
                                     <ul> \\
-                                        <li class="content-list-text">Exibir informações sobre a previsão do tempo</li> \\
+                                        <li class="content-list-text">Exibir informações sobre a previsão e condição do tempo baseado na locatização informada</li> \\
                                     </ul>\\
                                     \\
                                     <p class="content-title">Pré requisitos:</p>\\
