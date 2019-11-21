@@ -19,14 +19,14 @@ Antes de começar, garanta que sua empresa já recebeu as informações necessá
 
 Todas as informações anteriores, necessárias para ativação do canal WhatsApp, são enviadas, por email, para as organizações que já possuem um plano do BLiP e já passaram pelo processo de ativação do contato no WhatsApp.
 
-### 1. *Dados do container (WhatsApp Business API Client)*
+### 1. Dados do container (WhatsApp Business API Client)
 De posse das informações necessárias, acesse o portal do BLiP, escolha o bot que será publicado e clique no módulo **Canais**. Selecione WhatsApp e clique na aba configurações
 
 ![Configurações canal whatsapp](/img/channels/whatsapp/publicando-bot-no-whatsapp-1.png)<br>
 
 Entre com as informações solicitadas, **Nome do host, porta, usuário, senha,** e clique em Avançar.
 
-### 2. *Dados do número*
+### 2. Dados do número
 
 Na segunda etapa do processo de publicação é necessário validar a propriedade do número utilizado. Para isso, o WhatsApp disponibiliza 2 formas de validação:
 
@@ -58,7 +58,7 @@ Logo após clicar no botão **Salvar e avançar**, o número do WhatsApp que est
 
 Entre com o código e clique em **Salvar e avançar**.
 
-### 3. *Informações do perfil de contato*
+### 3. Informações do perfil de contato
 
 Essa é a terceira e última etapa do processo de publicação de um bot no WhatsApp. Agora é o momento de definir quais serão as informações do perfil do seu contato. Algumas dessas informações serão exibidas quando o cliente clicar no perfil do seu contato no WhatsApp.
 

@@ -53,13 +53,20 @@ const data = {
     "abstract":"Encontre todas as maneiras oferecidas pelo canal para que os usuários consigam iniciar e manter uma conversa com seu bot.",
     "text":"Ver mais!"
   }, 
-  /* {  
-    "title":"Acessando outros recursos",
+  {
+    "title":"Como criar e aprovar Message Templates",
     "type": "text",
-    "url": "#",
-    "abstract":"Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
+    "url": "/docs/channels/whatsapp/como-criar-aprovar-message-template",
+    "abstract":"Entenda todo o processo de criação, análise e aprovação dos Message Templates no WhatsApp",
     "text":"Ver mais!"
-  },  */
+  },
+  {  
+    "title":"Enviando notificações no WhatsApp através da API do BLiP",
+    "type": "text",
+    "url": "/docs/channels/whatsapp/como-criar-aprovar-message-template",
+    "abstract":"Veja todo o processo para enviar notificações no WhatsApp utilizando a API do BLiP",
+    "text":"Ver mais!"
+  },
   {  
     "title":"Veja outros artigos",
     "type": "video",
