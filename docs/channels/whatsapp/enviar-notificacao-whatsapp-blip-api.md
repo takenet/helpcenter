@@ -46,7 +46,7 @@ Veja abaixo um exemplo de resposta para essa requisição. Repare que a propried
 
 > 5531999998888@wa.gw.msging.net - identificador do cliente que possui o número de celular 5531999998888
 
-```http
+```json
 {
     "type": "application/vnd.lime.account+json",
     "resource": {
