@@ -512,6 +512,10 @@
         "title": "Como interagir com os usuários através do WhatsApp",
         "sidebar_label": "Como interagir com os usuários através do WhatsApp"
       },
+      "channels/whatsapp/configurando-canal-whatsapp-container-proprio": {
+        "title": "Configurando um container próprio no canal WhatsApp",
+        "sidebar_label": "Como configurar um container próprio (WhatsApp Business API Client) do WhatsApp Business API no BLiP."
+      },
       "channels/whatsapp/criando-solucao-atendimento-humano-whatsapp": {
         "title": "Criando uma solução de atendimento humano no WhatsApp",
         "sidebar_label": "Criando uma solução de atendimento humano no WhatsApp"

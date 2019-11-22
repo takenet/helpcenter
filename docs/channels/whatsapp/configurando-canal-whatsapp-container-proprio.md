@@ -1,5 +1,5 @@
 ---
-id: publicando-canal-whatsapp-container-proprio
+id: configurando-canal-whatsapp-container-proprio
 title: Configurando um container próprio no canal WhatsApp
 sidebar_label: Como configurar um container próprio (WhatsApp Business API Client) do WhatsApp Business API no BLiP.
 ---
@@ -13,7 +13,8 @@ Se você já possui um container do WhatsApp configurado e gostaria de utilizar 
 Antes de começar, garanta que sua empresa possui todas as informações abaixo:
 
 * [Container do WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/getting-started#setup) configurado e rodando;
-* Número do contato no WhatsApp (**Ex. +553133496201**)
+* Número do contato no WhatsApp (**Ex. 3133496201**)
+* Código do país do número no WhatsApp (**Ex. 55 no Brasil**)
 * Hostname do container - WhatsApp Business API Client (**Ex. yourcompany-wa\.msging\.net**)
 * Porta do container (**Ex. 443**)
 * Usuário do container (**Ex. admin**)
@@ -41,7 +42,7 @@ Marque todas as opções na seção **Media**
 
 Marque todas as opções na seção **Messages**
 
-![Imagem que exemplifica as configurações necessárias no Container](/img/channels/whatsapp/wa-business-api)<br>
+![Imagem que exemplifica as configurações necessárias no Container](/img/channels/whatsapp/wa-business-api.png)<br>
 
 ### 2. Configurando o seu bot no BLiP
 
@@ -66,6 +67,6 @@ Na segunda etapa do processo é necessário realizar a configuração das inform
 - **WebAppPort** - Insira o valor `443`
 - **WhatsAppBusinessAccountId** - WhatsApp Business Account Id da sua empresa
 
-![Imagem que demonstra um exemplo de configurações de um container do WhatsApp no BLiP](/img/channels/whatsapp/advanced-settings-blip-wa)<br>
+![Imagem que demonstra um exemplo de configurações de um container do WhatsApp no BLiP](/img/channels/whatsapp/advanced-settings-blip-wa.png)<br>
 
 Após realizada todas as configurações no BLiP, garanta que seu bot está corretamente configurado e envie uma mensagem de teste através do WhatsApp para o número da sua empresa. Caso o processo de configuração tenha sido realizado com sucesso o bot responderá a mensagem conforme configurado.
