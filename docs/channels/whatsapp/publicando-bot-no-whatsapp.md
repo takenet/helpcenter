@@ -30,8 +30,6 @@ Entre com as informações solicitadas, **Nome do host, porta, usuário, senha,*
 
 Na segunda etapa do processo de publicação é necessário validar a propriedade do número utilizado. Para isso, o WhatsApp disponibiliza 2 formas de validação:
 
-Na segunda etapa do processo de publicação é necessário validar a propriedade do número utilizado. Para isso, o WhatsApp disponibiliza 2 formas de validação:
-
 * Através de uma mensagem SMS: O número informado receberá um código de validação através de uma mensagem SMS.
 
 * Através de uma ligação de voz: O número informado receberá uma ligação de voz (em inglês), com uma gravação contendo um código de validação. **Obs.: Caso escolha a opção de ativação por ligação de voz, garanta que o número que está sendo ativado pode receber uma ligação de voz originada por um número internacional**.
