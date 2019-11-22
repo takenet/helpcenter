@@ -30,9 +30,11 @@ De posse de todas as informações anteriores, acesse o seu container em um brow
 
 Esta é a configuração que define qual URL deverá ser utilizada pelo container para enviar as mensagens recebidas pela sua empresa. Por isso, você deverá configurar a URL do BLiP para recebimento de mensagens do WhatsApp. 
 
-> https://wa.gw.msging.net/IDENTIFICADOR-BOT
+> https://wa.gw.msging.net/CHAVE-ALEATORIA
 
-Onde IDENTIFICADOR-BOT deverá ser substituido pelo identificador único do seu bot. Para encontrar o identificador de um bot vá até a tela HOME do mesmo.
+Onde:  
+
+**CHAVE-ALEATORIA** é um código alfanumérico qualquer, gerado por você. Esse código será utilizado para identificar unicamente seu bot. **Sugerimos que seja utilizado um GUID, também conhecido como UUID (Universally Unique Identifier ou Globally Unique Identifier).** Um exemplo de GUID seria `a4aea429-2018-4f04-be13-30f4ebc60eaa`.
 
 * Media
 
@@ -48,11 +50,11 @@ Marque todas as opções na seção **Messages**
 
 Na segunda etapa do processo é necessário realizar a configuração das informações do seu container no BLiP. Para isso siga os passos abaixo:
 
-* Acesse o portal do BLiP, selecione seu bot e vá até a tela de configurações avançadas. Caso não saiba como acessar a tela de configurações avançadas [clique aqui](/docs/management/configuracoes-avancadas-bot/).
+* Acesse o portal do BLiP, selecione seu bot e vá até a tela de **Configurações Avançadas**. Caso não saiba como acessar a tela de configurações avançadas, [clique aqui](/docs/management/configuracoes-avancadas-bot/).
 
 * Utilizando sempre o domínio `postmaster@wa.gw.msging.net`, adicione todas as chaves de configuração, conforme demonstrado na imagem abaixo.
 
-- **AccountExternalId** - Identificador do seu bot. Mesma informação utilizada na URL de Webhook no passo anterior.
+- **AccountExternalId** - Chave aleatória utilizada para identificar seu bot. Essa é a mesma informação utilizada na URL de Webhook no passo anterior.
 - **ContryCode** - Código do país do número utilizado no WhatsApp. Ex. 55 para o Brasil.
 - **CurrentState** - Insira o valor `profile`
 - **HasPincode** - Caso seu número possua um código de PinCode adicione `True`, caso contrário adicione `False`
