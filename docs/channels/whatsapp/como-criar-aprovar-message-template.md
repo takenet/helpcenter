@@ -21,7 +21,7 @@ Selecione o item **Modelo de Mensagens** e clique no botão **"+ Adicionar Novo"
 
 ​![Imagem que demonstra como criar um Message Template](/img/channels/whatsapp/whatsapp-message-templates.png)<br>
 
-Preencha as informações necessárias para a submissão de um message tempalte.
+Preencha as informações necessárias para a submissão de um message template.
 
 ![Imagem do formulário de criação de um Message Template](/img/channels/whatsapp/creating-message-template.png)
 
