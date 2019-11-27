@@ -28,7 +28,7 @@ Além de texto, no Telegram, uma mensagem pode conter links para conteúdos mult
 
 Os áudios são úteis para a entrega de informações rápidas, áudios longos geralmente não são atrativos. Para saber mais informações sobre o objeto áudio no Telegram, acesse a [documentação oficial](https://core.telegram.org/bots/api#inputmediaaudio).
 
-![Arquivos: audios](/img/channels/telegram/funcionalidades-telegram-audio.jpg)
+![Arquivos: audios](/img/channels/telegram/funcionalidades-telegram-audio.jpg )
 
 ### Documento/Arquivo
 

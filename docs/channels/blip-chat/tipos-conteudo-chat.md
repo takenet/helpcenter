@@ -10,7 +10,7 @@ Entenda melhor quais são os tipos de conteúdo enviados pelo BLiP suportados po
   
 ![Tipo de conteúdo texto](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-2.png)
 
-Envia uma mensagem de texto (<https://docs.blip.ai/#text>) para o usuário.
+Envia uma mensagem de texto (<https://docs.blip.ai/#plain-text>) para o usuário.
 
 * **Quick Reply**
   

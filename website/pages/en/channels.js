@@ -82,7 +82,7 @@ const data = {
       "text": "Aprenda mais!"
     },
     {
-      "title": "WhastsApp",
+      "title": "WhatsApp",
       "icon": "/img/illustrations/whatsapp-logo.svg",
       "url": "/whatsapp",
       "abstract": "Utilize o maior mensageiro do mundo para falar com seus clientes.",

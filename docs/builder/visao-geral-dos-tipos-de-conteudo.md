@@ -15,7 +15,7 @@ Veja abaixo o detalhamento de todos os tipos de conteúdos suportados pelo Build
   
 ![Tipo de conteúdo texto](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-2.png)
 
-Envia uma mensagem de texto (<https://docs.blip.ai/#text>) para o usuário.
+Envia uma mensagem de texto (<https://docs.blip.ai/#plain-text>) para o usuário.
 
 * **Quick Reply**
   

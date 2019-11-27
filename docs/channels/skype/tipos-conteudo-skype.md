@@ -7,7 +7,7 @@ sidebar_label: Tipos de conteúdo suportados pelo Skype
 Entenda melhor quais são os tipos de conteúdo enviados pelo BLiP suportados pelo Skype. **Para mais informações sobre os tipos de conteúdos presentes no BLiP, acesse a sessão de** [**Content-types na nossa documentação**](https://docs.blip.ai/#content-types).
 
 ### Texto
-O texto simples é a base de qualquer experiência no Skype e é uma das ferramentas mais importantes ao seu dispor caso sua meta seja criar uma experiência de conversa. Mais informações: https://docs.blip.ai/#text
+O texto simples é a base de qualquer experiência no Skype e é uma das ferramentas mais importantes ao seu dispor caso sua meta seja criar uma experiência de conversa. Mais informações: https://docs.blip.ai/#plain-text
 
 ![Conteúdo tipo texto](/img/channels/skype/tipos-conteudo-skype-1.png)<br>
 

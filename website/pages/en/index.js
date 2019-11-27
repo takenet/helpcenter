@@ -540,7 +540,7 @@ class Index extends React.Component {
 
             <div className="info">
               <p className="title"> Torne-se um usuário beta! </p>
-              <p className="text"> Ao se tornar um usuário beta você será um dos primeiros a testar as novas feautres que serão lançadas</p>
+              <p className="text"> Ao se tornar um usuário beta você será um dos primeiros a testar as novas features que serão lançadas</p>
             </div>
 
             <div className="div-form-beta">

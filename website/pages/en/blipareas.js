@@ -7,7 +7,7 @@ const data = {
   "img": "/img/illustrations/ilustracao-sessao.svg",
   "from": "BLiP Help Center >",
   "here": "Áreas do BLiP",
-  "intro": `O BLiP é uma plataforma que ajuda a melhorar a comunicação entre clientes e organizações através da construção, gestão e evolução de aplicações conversacionais. Por meio de integrações em diferentes APIs e canais de mensageria, o BLiP facilita o desenvolvimento do contato das empresas de forma inteligente e otimizado. 
+  "intro": `O BLiP é uma plataforma que ajuda a melhorar a comunicação entre clientes e organizações através da construção, gestão e evolução de aplicações conversacionais. Por meio de integrações em diferentes APIs e canais de mensageria, o BLiP facilita o desenvolvimento do contato das empresas de forma inteligente e otimizada. 
   
   Para que seja possível entregar valor em cada uma das etapas do projeto de uma aplicação conversacional, são necessárias diversas ferramentas e integrações. Pensando nisso, o BLiP está organizado de forma modular. Selecione uma das áreas abaixo e veja como o BLiP pode te ajudar.`,
   "cards": [

@@ -11581,6 +11581,11 @@ a.link-from {
   box-sizing: border-box;
   border-radius: 8px;
   margin-top: -3%;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .banner-button:hover {
