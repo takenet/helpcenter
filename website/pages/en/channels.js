@@ -61,20 +61,6 @@ const data = {
       "text": "Aprenda mais!"
     },
     {
-      "title": "Skype",
-      "icon": "/img/illustrations/skype-logo.svg",
-      "url": "/skype",
-      "abstract": "Conecte seu bot no clássico canal de mensagens da Microsoft.",
-      "text": "Aprenda mais!"
-    },
-    /* {
-      "title": "SMS",
-      "icon": "/img/illustrations/sms-logo.svg",
-      "url": "/sms",
-      "abstract": "Conecte seu WhatsApp Business a nossa plataforma e melhore seu contato com seus clientes.",
-      "text": "Aprenda mais!"
-    }, */
-    {
       "title": "Telegram",
       "icon": "/img/illustrations/telegram-logo.svg",
       "url": "/telegram",

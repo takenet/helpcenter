@@ -99,18 +99,6 @@
       },
       {
         "type": "subcategory",
-        "label": "Skype",
-        "ids": [
-          "channels/skype/visao-geral-skype",
-          "channels/skype/arquitetura-skype",
-          "channels/skype/funcionalidades-skype",
-          "channels/skype/tipos-conteudo-skype",
-          "channels/skype/publicando-bot-skype",
-          "channels/skype/como-interagir-skype"
-        ]
-      },
-      {
-        "type": "subcategory",
         "label": "Telegram",
         "ids": [
           "channels/telegram/visao-geral-do-telegram",
