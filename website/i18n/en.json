@@ -552,6 +552,10 @@
         "title": "Acessando outros recursos do Workplace",
         "sidebar_label": "Acessando outros recursos do Workplace"
       },
+      "channels/workplace/publicando-chatbot-no-workplace-custom-integration": {
+        "title": "Publicando seu chatbot no Workplace - Integrações Personalizadas",
+        "sidebar_label": "Publicando seu chatbot no Workplace - Integrações Personalizadas"
+      },
       "channels/workplace/publicando-chatbot-no-workplace": {
         "title": "Publicando seu chatbot no Workplace",
         "sidebar_label": "Publicando seu chatbot no Workplace"

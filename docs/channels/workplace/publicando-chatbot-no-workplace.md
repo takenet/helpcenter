@@ -4,51 +4,40 @@ title: Publicando seu chatbot no Workplace
 sidebar_label: Publicando seu chatbot no Workplace
 ---
 
-Para publicar um bot no [Workplace](/docs/channels/workplace/o-que-e-workplace) da sua empresa acesse o portal do BLiP, escolha o bot desejado, clique em *Canais > Workplace*, no menu lateral direto, e clicar na chave *Disponível no canal*.
+Seguindo as diretivas do Facebook e Workplace sobre criações de chatbots, o processo de publicação nesse canal foi totalmente remodelado, usando o conceito de [Aplicações de Terceiros](https://developers.facebook.com/docs/workplace/third-party-apps/introduction).
 
-Siga as três instruções abaixo para coletar todas as informações necessárias no processo de publicação do seu bot neste canal.
+## 1. Instalando a Aplicação no Workplace
 
-## 1. Crie o seu aplicativo no Workplace
+Para configurar um bot no [Workplace](/docs/channels/workplace/o-que-e-workplace) da sua empresa acesse o portal do BLiP, escolha o bot desejado, clique em *Canais > Workplace*. Com isso a seguinte tela será apresentada:
 
-Acesse o Workplace da sua empresa (com um perfil de administração), selecione **Admin Panel** e clique em **Integrations**.
+![Apresentação Inicial Workplace](/img/channels/workplace/1-Inicio-de-Instalacao-Workplace.png)
 
-![Abrindo integrações do Workplace](/img/channels/workplace/workplace-publicando-chatbot-no-workplace-1.png)
+Ao escolher o nome desejado (nome que irá aparecer na página do Workplace), clique no botão **Instalar/Install**. Após isso, um pop-up será aberto com a página do Workplace:
 
-Na página de integrações, clique no botão **Create Custom Integration**, para adicionar uma nova aplicação no workplace de sua organização.
+![Pop-up Aplicação Workplace](/img/channels/workplace/2-Popup-Aplicacao-Workplace.png)
 
-![Criando uma integração](/img/channels/workplace/workplace-publicando-chatbot-no-workplace-2.png)
+Nesse momento, é possível realizar a alteração do nome da página (caso queira ser diferente do informado no BLiP) e do ícone de exibição dessa página.
 
-Informe um nome e uma descrição para o app, depois clique em **Create**.
+Ao clicar no botão Adicionar ao Workplace, será iniciado o processo de configuração da aplicação.
 
-![Informando dados sobre a integração](/img/channels/workplace/workplace-publicando-chatbot-no-workplace-3.png)
+Após o término da instalação, a seguinte página será exibida, contendo o nome escolhido (que pode ser buscado no workplace) e o id da página gerada.
 
-## 2. Configure o seu APP
+![Aplicação Instalada](/img/channels/workplace/3-Aplicacao-Instalada.png)
 
-Depois de criar uma aplicação será necessário coletar algumas informações que o BLiP utilizará para enviar e receber mensagens. Na tela de configuração da sua aplicação clique no botão **Create Access Token**, copie o token e salve-o em um local temporário (Este token só será mostrado uma unica vez).
+## 2. Utilizando a aplicação criada
 
-Copie também o **App Secret**, você precisará fornecer ao BLiP essas informações.
+No Workplace da sua empresa, basta realizar a busca utilizando o nome da página ou o identificador exibido anteriormente e começar a conversar.
 
-![Criando o Access Token](/img/channels/workplace/workplace-publicando-chatbot-no-workplace-4.png)
+![Página Criada pelo Processo de Instalação](/img/channels/workplace/4-Aplicacao-Funcionando.png)
 
-![Access Token criado](/img/channels/workplace/workplace-publicando-chatbot-no-workplace-5.png)
+## 3. Desinstalação
 
-Na seção *Integration Permissions* selecione as opções: *Read user email, Read group Membership, Mention bot, Read work profile e Message any member*. Veja na imagem abaixo as permissões necessárias.
+É possível realizar a desinstalação de uma aplicação que foi configurada no Portal do BLiP. Para isso acesse o Workplace de sua empresa, navegue para o  menu  *Painel Administrativo > Integrações*. Nessa tela será listada todas as aplicações instaladas.
 
-![Permissões da integração](/img/channels/workplace/workplace-publicando-chatbot-no-workplace-6.png)
+Procure e selecione a aplicação desejada e o seguinte modal será exibido.
 
-Em *Configure Webhooks* especifique o *Callback URL* e o *Verify Token* com os valores abaixo:
+![Desinstalação da Aplicação no Workplace](/img/channels/workplace/5-Desinstalacao-de-Aplicacao.png)
 
-```
-Callback URL: https://workplace.gw.msging.net
-Verify Token: ze3jRmmaLU5KUTtUN
-```
+Selecionando a opção **Desinstalar/Uninstall**, todas as configurações referentes a essa aplicação serão removidas e o canal será desativado em seu chatbot. Acessando o BLiP após a desinstalação, será exibido um aviso informando que o processo de desinstalação foi realizado dentro do workplace.
 
-Habilite as opções: *mention, message_deliveries, messages, messaging_postbacks and message_reads* em **Subscription Fields**, então clique em **Save**.
-
-![Configurando Webhook](/img/channels/workplace/workplace-publicando-chatbot-no-workplace-7.png)
-
-## 3. Obtenha o seu APP ID
-
-Pesquise a aplicação criada no campo de pesquisa do Workplace, escolha a aplicação e clique em Chat. ​Veja a URL da página e copie o identificador da sua aplicação que aparece ao final. Esse é o *App Id* da sua aplicação. Adicione também essa informação no portal do BLiP.
-
-![Obtendo App Id](/img/channels/workplace/workplace-publicando-chatbot-no-workplace-8.png)
+![Aviso de Desinstalação no Portal do BLiP](/img/channels/workplace/6-Aplicacao-Removida-pelo-Workplace.png)
