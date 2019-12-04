@@ -46,6 +46,13 @@ const data = {
       "text": "Ver mais!"
     },
     {
+      "title": "Como publicar seu Chatbot com Integrações Personalizadas",
+      "type": "text",
+      "url": "/docs/channels/workplace/publicando-chatbot-no-workplace-custom-integration/",
+      "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal utilizando integrações personalizadas.",
+      "text": "Ver mais!"
+    },
+    {
       "title": "Como interagir com os usuários",
       "type": "text",
       "url": "/docs/channels/workplace/como-interagir-workplace",
