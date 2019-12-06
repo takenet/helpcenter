@@ -54,6 +54,15 @@ const data = {
           "text": "Veja mais!",
           "class": "seeMore-session-small"
       },
+      {
+        "title": "Tipos de conteúdos",
+        "url": "/contenttypes",
+        "icon": "talk",
+        "color": "refresh",
+        "abstract": "Veja os tipos de conteúdos suportados nos diferentes tipos de canais integrados ao BLiP",
+        "text": "Veja mais!",
+        "class": "seeMore-session-small"
+    },
       //   {
       //     "title": "Status",
       //     "url": "https://status.blip.ai",

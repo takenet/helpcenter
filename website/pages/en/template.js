@@ -92,7 +92,7 @@ class Detail extends React.Component {
 
 
                         <div id="Details" className="tabcontent">
-                        
+
                         </div>
 
                         <div id="Install" className="tabcontent">
@@ -114,7 +114,7 @@ class Detail extends React.Component {
                     </div>
 
                 </div>
-               
+
                 <ScriptDynamically></ScriptDynamically>
                 <ScriptCarousel></ScriptCarousel>
                 <ScriptTabs></ScriptTabs>
@@ -1272,7 +1272,7 @@ class ScriptDynamically extends React.Component {
                                 \\
                                 <p class="content-title">O que pode ser feito?</p> \\
                                 <ul> \\
-                                    <li class="content-list-text">Exibir informações sobre endereço com base no CEP informado</li> \\
+                                    <li class="content-list-text">Apresentar diversas informações sobre endereço com base no CEP informado pelo usuário</li> \\
                                 </ul>\\
                                 \\
                                 <p class="content-title">Pré requisitos:</p>\\
@@ -1356,7 +1356,7 @@ class ScriptDynamically extends React.Component {
                                     \\
                                     <p class="content-title">O que pode ser feito?</p> \\
                                     <ul> \\
-                                        <li class="content-list-text">Exibir informações sobre a previsão e condição do tempo baseado na locatização informada</li> \\
+                                        <li class="content-list-text">Exibir informações sobre a previsão e condição do tempo baseado na locatização informada do usuário solicitante</li> \\
                                     </ul>\\
                                     \\
                                     <p class="content-title">Pré requisitos:</p>\\
@@ -1443,7 +1443,7 @@ class ScriptDynamically extends React.Component {
                                             \\
                                             <p class="content-title">O que pode ser feito?</p> \\
                                             <ul> \\
-                                                <li class="content-list-text">Exibir respostas para perguntas frequentes</li> \\
+                                                <li class="content-list-text">Responder variadas perguntas frequentes da loja virtual, tais como o endereço da loja, promoções, dentre outras. </li> \\
                                             </ul>\\
                                                ',  
                                             "install": '<p class="content-title">Como instalar?</p>\\

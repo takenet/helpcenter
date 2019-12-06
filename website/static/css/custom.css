@@ -760,6 +760,7 @@
   .pages-content-templates .navigation {
     display: none !important;
   }
+ 
   
   .pages-content-templates .cards-templates {
     flex-direction: column !important;
@@ -11402,7 +11403,7 @@ b {
 .image-templates .img {
   width: 60%;
   margin-left: 17%;
-  margin-top: 0%;
+  margin-top: 5%;
 }
 
 .main-templates .title-templates {
@@ -12204,4 +12205,18 @@ a.link-from {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+.iframe-channel-table{
+  height: 1200px;
+  width: 100%;
+  margin-bottom: 5%;
+}
+.caption{
+  margin-top: 2% ;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
 }
