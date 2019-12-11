@@ -532,6 +532,10 @@
         "title": "Publicando seu bot no canal WhatsApp",
         "sidebar_label": "Publicando seu bot no canal WhatsApp"
       },
+      "channels/whatsapp/tipos-conteudo-whatsapp": {
+        "title": "Conteúdos disponíveis no canal WhatsApp",
+        "sidebar_label": "Conteúdos disponíveis no canal WhatsApp"
+      },
       "channels/whatsapp/visao-geral-do-whatsapp": {
         "title": "Visão geral do canal WhatsApp",
         "sidebar_label": "Visão geral do canal WhatsApp"

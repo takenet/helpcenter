@@ -8,72 +8,72 @@ Entenda melhor quais são os tipos de conteúdo enviados pelo BLiP suportados po
 
 * **Texto**
   
-![Tipo de conteúdo texto](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-2.png)
+Envia uma mensagem de texto para o usuário. Para mais informações acesse https://docs.blip.ai/#plain-text.
 
-Envia uma mensagem de texto (<https://docs.blip.ai/#plain-text>) para o usuário.
+![Tipo de conteúdo texto](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-2.png)
 
 * **Quick Reply**
   
-![Tipo de conteúdo quick reply](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-3.png)
+Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário. Para mais informações acesse https://docs.blip.ai/#quick-replies.
 
-Envia uma mensagem do tipo quick reply (respostas de escopo imediato <https://docs.blip.ai/#quick-replies>) para o usuário.
+![Tipo de conteúdo quick reply](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-3.png)
 
 * **Imagem**
   
-![Tipo de conteúdo imagem](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-4.png)
+Envia uma mensagem de imagem para o usuário. Para mais informações acesse https://docs.blip.ai/#images.
 
-Envia uma mensagem de imagem (<https://docs.blip.ai/#images>) para o usuário.
+![Tipo de conteúdo imagem](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-4.png)
 
 * **Carrousel**
 
-![Tipo de conteúdo carrousel](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-5.png)
+Envia uma mensagem do tipo carrousel para o usuário. Para mais informações acesse https://docs.blip.ai/#carousel.
 
-Envia uma mensagem do tipo carrousel (<https://docs.blip.ai/#carousel>) para o usuário.
+![Tipo de conteúdo carrousel](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-5.png)
 
 * **Menu**
 
-![Tipo de conteúdo menu](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-6.png)
+Envia uma mensagem com conteúdo do tipo menu para o usuário. Para mais informações acesse https://docs.blip.ai/#menu.
 
-Envia uma mensagem com conteúdo do tipo menu (<https://docs.blip.ai/#menu>) para o usuário.
+![Tipo de conteúdo menu](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-6.png)
 
 * **Digitando**
 
-![Tipo de conteúdo digitando](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-7.png)
+Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria. Para mais informações acesse https://docs.blip.ai/#chat-state.
 
-Mostra ao usuário que uma mensagem está sendo digitada, como acontece em conversas comuns nos aplicativos de mensageria (<https://docs.blip.ai/#chat-state>).
+![Tipo de conteúdo digitando](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-7.png)
 
 * **Áudio**
 
-![Tipo de conteúdo audio](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-8.png)
+Envia uma mensagem com conteúdo do tipo áudio para o usuário. Para mais informações acesse https://docs.blip.ai/#audio.
 
-Envia uma mensagem com conteúdo do tipo áudio (<https://docs.blip.ai/#audio>) para o usuário.
+![Tipo de conteúdo audio](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-8.png)
 
 * **Vídeo**
 
-![Tipo de conteúdo video](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-9.png)
+Envia uma mensagem com conteúdo do tipo vídeo para o usuário. Para mais informações acesse https://docs.blip.ai/#video.
 
-Envia uma mensagem com conteúdo do tipo vídeo (<https://docs.blip.ai/#video>) para o usuário.
+![Tipo de conteúdo video](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-9.png)
 
 * **Documento**
 
-![Tipo de conteúdo documento](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-10.png)
+Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, por exemplo. Para mais informações acesse https://docs.blip.ai/#document-files.
 
-Envia uma mensagem com um conteúdo do tipo documento (<https://docs.blip.ai/#document-files>) para o usuário — PDF, por exemplo.
+![Tipo de conteúdo documento](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-10.png)
 
 * **Enviar localização**
 
-![Tipo de conteúdo enviar localizacao](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-11.png)
+Envia uma mensagem com um mapa que aponta um determinada localização geográfica para o usuário. Para mais informações acesse https://docs.blip.ai/#send-location.
 
-Envia uma mensagem com um mapa que aponta um determinada localização geográfica (<https://docs.blip.ai/#send-location>) para o usuário.
+![Tipo de conteúdo enviar localizacao](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-11.png)
 
 * **Pedir localização**
 
-![Tipo de conteúdo pedir localizacao](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-12.png)
+Envia uma mensagem com um pedido de compartilhamento da localização do usuário. Para mais informações acesse https://docs.blip.ai/#request-location.
 
-Envia uma mensagem com um pedido de compartilhamento da localização do usuário. (<https://docs.blip.ai/#request-location>)
+![Tipo de conteúdo pedir localizacao](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-12.png)
 
 * **Link Web**
 
-![Tipo de conteúdo link web](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-13.png)
+Envia um link da web para o usuário. Para mais informações acesse https://docs.blip.ai/#web-link.
 
-Envia um link da web (<https://docs.blip.ai/#web-link>) para o usuário.
+![Tipo de conteúdo link web](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-13.png)
