@@ -457,6 +457,9 @@ class Index extends React.Component {
                 {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/changelog">Changelogs</a></li> */}
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/faq">Faq</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://github.com/takenet">Github</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/templates">Templates de chatbot</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/contenttypes">Tipos de conteúdos</a></li>
+               
                 {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://status.blip.ai">Status</a></li> */}
               </ul>
             </div>
