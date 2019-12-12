@@ -48,7 +48,7 @@ class Detail extends React.Component {
                                         </div>
                                     </button></a>
 
-                                <button className="button-details-see">
+                                <button id="test" className="button-details-see">
                                     <div className="button-content-see">
                                         <BlipIcon name="open-eye" className="icon-button-see"></BlipIcon>
                                         <p className="text-button-see">Visualizar</p>
@@ -1541,6 +1541,11 @@ class ScriptDynamically extends React.Component {
                         download.onclick = function(){
                             ga('send', 'event', 'Template download', template.title.toString(), 'Template');
                         };
+                        
+                         var test = document.getElementById('test');
+                         download.onclick = function(){
+                             ga('send', 'event', 'Template test', template.title.toString(), 'Template');
+                         };
 
                         var linkBot = document.getElementsByClassName('iframe-bot')[0];
                         linkBot.src = template.link_bot.toString();
