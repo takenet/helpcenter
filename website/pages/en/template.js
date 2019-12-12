@@ -1288,8 +1288,6 @@ class ScriptDynamically extends React.Component {
                                         <ul>\\
                                         <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                     </ul>\\
-                                    <li class="content-list-text">Crie as condições de saída baseado nas respostas da sua API</li>\\
-                                    <li class="content-list-text">Acrescente ou altere o retorno da API no Bloco <b>Exibe Informações do CEP</b></li>\\
                                     <li class="content-list-text">Altere as informações conforme a sua necessidade.</li>\\
                                 </ul>',
     
@@ -1372,8 +1370,6 @@ class ScriptDynamically extends React.Component {
                                             <ul>\\
                                             <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                         </ul>\\
-                                        <li class="content-list-text">Crie as condições de saída baseado nas respostas da sua API</li>\\
-                                        <li class="content-list-text">Acrescente ou altere o retorno da API no Bloco <b>Apresenta informações</b></li>\\
                                         <li class="content-list-text">Altere as informações conforme a sua necessidade.</li>\\
                                     </ul>',
         
