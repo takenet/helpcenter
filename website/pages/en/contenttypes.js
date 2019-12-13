@@ -33,8 +33,8 @@ class Template extends React.Component {
                 <div>
                     <div className="pages-top-templates">
                         <div className="main-templates">
-                            <p className="title-templates">Tipos de conteúdos</p>
-                            <p className="subtitle-templates">Veja os tipos de conteúdos suportados</p>
+                            <p className="title-templates">Tipos de conteúdos por canal</p>
+                            <p className="subtitle-templates">Veja os tipos de conteúdos suportados nos diferentes canais integrados ao BLiP</p>
                         </div>
                         <div className="image-templates">
                             <img className="img" src="/img/illustrations/ilustracao-categorias.svg" />
@@ -47,10 +47,10 @@ class Template extends React.Component {
                     <div className="navigation">
                         <p className="from">BLiP Help Center ></p>
                         <p className="from"><a className="link-from" href="/resources">Recursos</a> ></p>
-                        <p className="here">Tipos de conteúdos</p>
+                        <p className="here">Tipos de conteúdos por canal</p>
                     </div>
                     <div>
-                        <p className="caption" >Saiba quais conteúdos são suportados nos diferentes tipos de canais integrados ao BLiP. Você pode clicar nos ícones dos canais habilitados e ver como eles funcionam na quando implementados.</p>
+                        <p className="caption" >Clique nos ícones de check da tabela e veja como cada um dos tipos de conteúdo é suportado em cada canal.</p>
                     </div>
                     <iframe src="https://heuristic-mccarthy-9b86f6.netlify.com/" className="iframe-channel-table" />
                 </div>

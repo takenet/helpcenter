@@ -55,11 +55,11 @@ const data = {
           "class": "seeMore-session-small"
       },
       {
-        "title": "Tipos de conteúdos",
+        "title": "Tipos de conteúdos por canal",
         "url": "/contenttypes",
         "icon": "talk",
         "color": "refresh",
-        "abstract": "Veja os tipos de conteúdos suportados nos diferentes tipos de canais integrados ao BLiP",
+        "abstract": "Veja os tipos de conteúdos suportados nos diferentes canais integrados ao BLiP",
         "text": "Veja mais!",
         "class": "seeMore-session-small"
     },
