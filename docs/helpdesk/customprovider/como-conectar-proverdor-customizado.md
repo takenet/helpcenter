@@ -6,7 +6,7 @@ sidebar_label: Como conectar a um canal de atendimento personalizado
 
 Para realizar um atendimento utilizando um canal de atendimento customizado, existem alguns **pré-requisitos**:
 
-1. Adicionar a URL da API que receberá as informações de atendimento
+1. Adicionar a URL da API que receberá as informações de atendimento.
 1. Adicionar uma chave de autenticação, que será enviada em cada requisição para a API, para confirmar a identidade do BLiP (*Opcional*).
 1. Escolher se os tickets criados para atendimento utilizarão as regras de atendimento do Blip. Caso utilizem, adicionar as possíveis equipes para o ticket (*Opcional*).
 
