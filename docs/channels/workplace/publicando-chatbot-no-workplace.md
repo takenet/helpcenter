@@ -41,3 +41,9 @@ Procure e selecione a aplicação desejada e o seguinte modal será exibido.
 Selecionando a opção **Desinstalar/Uninstall**, todas as configurações referentes a essa aplicação serão removidas e o canal será desativado em seu chatbot. Acessando o BLiP após a desinstalação, será exibido um aviso informando que o processo de desinstalação foi realizado dentro do workplace.
 
 ![Aviso de Desinstalação no Portal do BLiP](/img/channels/workplace/6-Aplicacao-Removida-pelo-Workplace.png)
+
+## Precisa de ajuda?
+
+Abra um ticket no [fórum do BLiP](https://forum.blip.ai).
+
+
