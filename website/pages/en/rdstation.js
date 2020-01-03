@@ -80,7 +80,7 @@ class RDStation extends React.Component{
     render(){
         return(
            
-            <div className={"hash-link"}>
+            <div>
 
             {/* Topo */}
               <div>
