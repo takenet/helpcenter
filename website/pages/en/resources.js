@@ -46,6 +46,15 @@ const data = {
             "class": "seeMore-session-small"
         },
         {
+          "title": "Status",
+         "url": "https://status.blip.ai",
+          "icon": "status",
+          "color": "suit",
+          "abstract": "Avalie em tempo real a disponibilidade de todos os serviços da plataforma através da página de status",
+         "text": "Acompanhe!",
+         "class": "seeMore-session-small"
+      },
+        {
           "title": "Templates de bots",
           "url": "/templates",
           "icon": "robot",
@@ -62,16 +71,7 @@ const data = {
         "abstract": "Veja os tipos de conteúdos suportados nos diferentes canais integrados ao BLiP",
         "text": "Veja mais!",
         "class": "seeMore-session-small"
-    },
-      //   {
-      //     "title": "Status",
-      //     "url": "https://status.blip.ai",
-      //     "icon": "status",
-      //     "color": "suit",
-      //     "abstract": "Avalie em tempo real a disponibilidade de todos os serviços da plataforma através da página de status",
-      //     "text": "Acompanhe!",
-      //     "class": "seeMore-session-small"
-      // }
+    }
     ]
 };
 
