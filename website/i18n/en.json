@@ -712,6 +712,10 @@
         "title": "Visão geral do BLiP Desk",
         "sidebar_label": "Visão geral do BLiP Desk"
       },
+      "helpdesk/customprovider/como-conectar-a-um-canal-de-atendimento-personalizado": {
+        "title": "Como conectar a um canal de atendimento personalizado",
+        "sidebar_label": "Como conectar a um canal de atendimento personalizado"
+      },
       "helpdesk/liveagent/utilizar-live-agent-salesForce-atendimento-humano": {
         "title": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?",
         "sidebar_label": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?"

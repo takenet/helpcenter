@@ -4,16 +4,26 @@ title: Como conectar a um canal de atendimento personalizado
 sidebar_label: Como conectar a um canal de atendimento personalizado
 ---
 
+Pode ser interessante para seu negócio que o atendimento humano seja realizado através de uma ferramenta de sua preferência. Pensando nisso, o BLiP permite que você conecte uma plataforma personalizada como canal de atendimento.  
+
+![Opção de canal de atendimento personalizado](/img/helpdesk/como-conectar-a-um-canal-de-atendimento-personalizado-01.png)
+
+## Pré-requisitos
 Para realizar um atendimento utilizando um canal de atendimento customizado, existem alguns **pré-requisitos**:
 
 1. Adicionar a URL da API que receberá as informações de atendimento.
 1. Adicionar uma chave de autenticação, que será enviada em cada requisição para a API, para confirmar a identidade do BLiP (*Opcional*).
 1. Escolher se os tickets criados para atendimento utilizarão as regras de atendimento do Blip. Caso utilizem, adicionar as possíveis equipes para o ticket (*Opcional*).
 
-Verificados todos os pré-requisitos acima, qualquer atendimento criado para o chatbot será encaminhado para a API configurada. Para um fluxo de atendimento completo existem as seguintes etapas:
+![Configurações de canal personalizado](/img/helpdesk/como-conectar-a-um-canal-de-atendimento-personalizado-02.png)
+
+Para um fluxo de atendimento completo existem as seguintes etapas:
 
 ## 1. Recebimento de novo ticket
-Uma vez que o bot encaminhe a conversa para o atendimento, *se o canal personalizado estiver ativo*, a URL cadastrada no passo 1 receberá uma requisição POST com a mensagem de um novo ticket criado. (Caso o token de autenticação exista, configurado no passo 2, ele será enviado no cabeçalho da requisição). Exemplo de mensagem de ticket:
+Uma vez que o bot encaminhe a conversa para o atendimento, *se o canal personalizado estiver ativo*, a URL cadastrada no *passo 1* receberá uma requisição POST com a mensagem de um novo ticket criado. (Caso o token de autenticação exista, configurado no *passo 2*, ele será enviado no cabeçalho da requisição).
+
+Exemplo de mensagem de ticket:
+
 ```json
 {
   "type": "application/vnd.iris.ticket+json",
@@ -43,6 +53,7 @@ Uma vez que o bot encaminhe a conversa para o atendimento, *se o canal personali
 Uma vez que o ticket é criado, fica como responsabilidade da API que receber o ticket tratá-lo e encaminhá-lo para um atendente.
 
 Para que um atendente seja associado a um ticket dentro do BLiP e que o ticket seja atualizado para o status de "*Em Atendimento*", é necessário o envio de um comando para atualizar o ticket dentro da plataforma. Este comando pode ser enviado conforme a [extensão do BLiP Desk](https://docs.blip.ai/#desk) e o seguinte exemplo:
+
 ```json
 {
   "id": "{COMMAND_ID}",
@@ -60,6 +71,7 @@ Para que um atendente seja associado a um ticket dentro do BLiP e que o ticket s
 
 ## 3. Recebimento de mensagens vindas do cliente
 Após a atribuição de um ticket a um atendente, toda mensagem enviada do usuário para o bot será redirecionada para a URL cadastrada no passo 1. A mensagem enviada estará no padrão utilizado pelo protocolo [LIME](https://limeprotocol.org/content-types.html) e pode ser vista na [documentação do BLiP](https://docs.blip.ai/#content-types). Exemplo de mensagem:
+
 ```json
 {
   "type": "text/plain",
@@ -71,6 +83,7 @@ Após a atribuição de um ticket a um atendente, toda mensagem enviada do usuá
 
 ## 4. Envio de mensagens vindas do atendente
 Dado um ticket que já esta atribuído a um atendente, passa a ser possível enviar mensagens para o cliente e iniciar o atendimento. Para isto, basta mandar uma mensagem para o ticket desejado, com o conteúdo suportado pelo [Protocolo Lime](https://limeprotocol.org/content-types.html) e [documento pelo BLiP](https://docs.blip.ai/#content-types). Um exemplo de mensagem enviada que pode ser enviado para o cliente pelo atendente:
+
 ```json
 {
   "type": "text/plain",
@@ -82,6 +95,7 @@ Dado um ticket que já esta atribuído a um atendente, passa a ser possível env
 
 ## 5. Finalização de um ticket
 Quando for necessário finalizar um ticket em atendimento, basta enviar o comando de alterar o status do ticket. **Uma vez finalizado o ticket, não é possivel atualizá-lo mais**. Este comando pode ser enviado conforme a [extensão do BLiP Desk](https://docs.blip.ai/#close-a-ticket-as-attendant). Um exemplo de comando:
+
 ```json
 {
   "id": "{COMMAND_ID}",
@@ -95,4 +109,3 @@ Quando for necessário finalizar um ticket em atendimento, basta enviar o comand
   }
 }
 ```
--um-atendimento-atraves-do-blip-desk-6.png)
