@@ -61,6 +61,13 @@ const data = {
       "text": "Aprenda mais!"
     },
     {
+      "title": "Microsoft Teams",
+      "icon": "/img/illustrations/microsoft-teams.svg",
+      "url": "/microsoftteams",
+      "abstract": "Fale com seus colaboradores utilizando a plataforma unificada de comunicação e colaboração.",
+      "text": "Aprenda mais!"
+    },
+    {
       "title": "Telegram",
       "icon": "/img/illustrations/telegram-logo.svg",
       "url": "/telegram",

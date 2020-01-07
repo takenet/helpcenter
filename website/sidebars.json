@@ -99,6 +99,16 @@
       },
       {
         "type": "subcategory",
+        "label": "Microsoft Teams",
+        "ids": [
+          "channels/microsoft-teams/visao-geral-microsoft-teams",
+          "channels/microsoft-teams/funcionalidades-microsoft-teams",
+          "channels/microsoft-teams/tipos-conteudo-microsoft-teams",
+          "channels/microsoft-teams/publicando-bot-microsoft-teams"
+        ]
+      },
+      {
+        "type": "subcategory",
         "label": "Telegram",
         "ids": [
           "channels/telegram/visao-geral-do-telegram",

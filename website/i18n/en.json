@@ -456,6 +456,26 @@
         "title": "Visão geral do Messenger",
         "sidebar_label": "Visão geral do Messenger"
       },
+      "channels/microsoft-teams/enviando-notificacao-microsoft-teams": {
+        "title": "Enviando notificações com o Microsoft Teams",
+        "sidebar_label": "Enviando notificações com o Microsoft Teams"
+      },
+      "channels/microsoft-teams/funcionalidades-microsoft-teams": {
+        "title": "Funcionalidades do Microsoft Teams",
+        "sidebar_label": "Funcionalidades do Microsoft Teams"
+      },
+      "channels/microsoft-teams/publicando-bot-microsoft-teams": {
+        "title": "Como publicar seu bot no Microsoft Teams",
+        "sidebar_label": "Como publicar seu bot no Microsoft Teams"
+      },
+      "channels/microsoft-teams/tipos-conteudo-microsoft-teams": {
+        "title": "Tipos de conteúdo suportados pelo Microsoft Teams",
+        "sidebar_label": "Tipos de conteúdo suportados pelo Microsoft Teams"
+      },
+      "channels/microsoft-teams/visao-geral-microsoft-teams": {
+        "title": "Visão geral do Microsoft Teams",
+        "sidebar_label": "Visão geral do Microsoft Teams"
+      },
       "channels/skype/arquitetura-skype": {
         "title": "Arquitetura do Skype",
         "sidebar_label": "Arquitetura do Skype"
