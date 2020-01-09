@@ -68,7 +68,7 @@ Este é um conceito usado no cálculo de algumas métricas do BLiP Desk. Intera�
 
 Para ilustrar, imagine um ticket que contenha uma sequência de 2 mensagens do cliente, 3 do atendente e 5 do cliente (10 mensagens no total). Tal ticket possui apenas 1 interação: as 2 primeiras mensagens, que foram do cliente, completam uma interação com as 3 mensagens do atendente. Já as 5 últimas mensagens do cliente estão à espera da resposta do agente, por isso não configuram uma interação ainda.
 
-![Conversa entre usuário (à esquerda) e atendente (à direita)](/img/helpdesk/interaction.png)<br><br>
+![Conversa entre usuário (à esquerda) e atendente (à direita)](/img/helpdesk/desk-interaction.png)<br><br>
 
 Agora que você já sabe os principais conceitos relacionados a ferramenta de **atendimento** do BLiP, adicione essa funcionalidade em seu contato inteligente. [Clique aqui para saber como ativar o BLiP Desk](https://help.blip.ai/hc/pt-br/articles/360001215251-Como-ativar-o-BLiP-Desk-como-um-canal-de-atendimento).
 

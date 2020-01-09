@@ -1065,7 +1065,7 @@ class ScriptDynamically extends React.Component {
                                 <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
                                 <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
                                 <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
-                                <img class="compatible-channels-img" src="/img/illustrations/skype-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
                             </div> \\
                             <p class="content-text">Esse chatbot foi feito para coletar informações sobre leads, como nome, telefone, email e nível de interesse, \\
                             e enviá-las para sua conta no Hubspot. Além disso, há a oportunidade de atendimento humano e uma interface \\
@@ -1169,7 +1169,7 @@ class ScriptDynamically extends React.Component {
                                 <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
                                 <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
                                 <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
-                                <img class="compatible-channels-img" src="/img/illustrations/skype-logo.svg"></img> \\
+                                <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
                             </div> \\
                             <p class="content-text">Esse chatbot foi feito para auxiliar Seguradoras de carros a prestar serviços para seus clientes, \\
                             dando a eles a opção de checar valores, coberturas, tirar dúvidas e consultar a situação de um sinistro, \\
@@ -1264,7 +1264,7 @@ class ScriptDynamically extends React.Component {
                                     <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
                                     <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
                                     <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
-                                    <img class="compatible-channels-img" src="/img/illustrations/skype-logo.svg"></img> \\
+                                    <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
                                 </div> \\
                                 <p class="content-text">Esse chatbot foi desenvolvido com objetivo de auxilar na integração de APIs de CEP,\\
                                 permitindo assim obter o endereço a partir do CEP apresentado. Tudo isso através de uma interface conversacional compatível\\
@@ -1346,7 +1346,7 @@ class ScriptDynamically extends React.Component {
                                         <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
                                         <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
                                         <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
-                                        <img class="compatible-channels-img" src="/img/illustrations/skype-logo.svg"></img> \\
+                                        <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
                                     </div> \\
                                     <p class="content-text">Esse chatbot foi desenvolvido com objetivo de auxilar na utilização APIs de condição e previsão do tempo,\\
                                     permitindo assim obter o informações inerentes ao clima e tempo em conformidade com a localização apresentada.\\
@@ -1488,7 +1488,100 @@ class ScriptDynamically extends React.Component {
                                             }
                                             
                                         ]
-                                        }
+                                        },
+                                        {
+                                            "id": "Rede_hoteis",
+                                            "title": "Rede de Hotéis",
+                                            "creator": "Criado por BLiP",
+                                            "subtitle": "Esse chatbot foi desenvolvido com propósito de auxilar as redes de hotéis a prestar servições aos seus clientes dando a eles a opção de buscar hotéis da rede em qualquer região. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
+                                            "categories": [
+                                                {
+                                                "category": "Serviços"
+                                                },
+                                                {
+                                                "subcategory": "Multicanal"
+                                                },
+                                                {
+                                                "subcategory": "Atendimento Humano"
+                                                }
+                                            ],
+                                            "download_uri": "/templates/rede-de-hoteis/rede_de_hoteis.json",
+                                            "link_bot": "cmVkZXNkZWhvdGVpczpmM2EwZTFiZS1hNjFmLTRhNDMtYjkwZS0yNTk1MjBmZmMzMDM=",
+                                            "images": [
+                                                {
+                                                "url": "/templates/rede-de-hoteis/Exemplo01.PNG"
+                                                },
+                                                {
+                                                "url": "/templates/rede-de-hoteis/Exemplo02.PNG"
+                                                },
+                                                {
+                                                "url": "/templates/rede-de-hoteis/Exemplo03.PNG"
+                                                },
+                                                {
+                                                "url": "/templates/rede-de-hoteis/Exemplo04.PNG"
+                                                },
+                                                {
+                                                "url": "/templates/rede-de-hoteis/Exemplo05.PNG"
+                                                },
+                                                {
+                                                "url": "/templates/rede-de-hoteis/Exemplo06.PNG"
+                                                }
+                                            ],
+                                            "tabs": {
+                                                "details": '<p class="content-title">Compatível com:</p> \\
+                                                <div class="compatible-channels"> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
+                                                </div> \\
+                                                <p class="content-text">Esse chatbot foi desenvolvido com propósito de auxilar as redes de hotéis a prestar servições aos seus clientes\\
+                                                dando a eles a opção de buscar hotéis da rede em qualquer região. \\
+                                                Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.\\
+                                                \\
+                                                <p class="content-title">O que pode ser feito?</p> \\
+                                                <ul> \\
+                                                    <li class="content-list-text"> Exibir seus serviços </li> \\
+                                                    <li class="content-list-text"> Apresentar informações aos clientes </li> \\
+                                                    <li class="content-list-text"> Encaminhar cliente para sistema de reserva </li> \\
+                                                    <li class="content-list-text"> Atendimento humano </li> \\
+                                                </ul>\\
+                                                   ',  
+                                                "install": '<p class="content-title">Como instalar?</p>\\
+                                                \\
+                                                <ul>\\
+                                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                                <ul>\\
+                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                                </ul>\\
+                                                <li class="content-list-text">Faça as modificações conforme sua necessidade.</li>\\
+                                                <li class="content-list-text">Conecte seu canal de atendimento humano (ex.: BLiP Desk)</li>\\
+                                                    <ul>\\
+                                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
+                                                    </ul>\\
+                                                    ',
+                    
+                                                "support": '<p class="content-title">Suporte</p> \\
+                                                <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
+                                                    e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                                    \\
+                                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                            },
+                                            "table": [
+                                                {
+                                                "func": "✓ Multicanal"
+                                                },
+                                                {
+                                                "func": "✓ Imagens "
+                                                },
+                                                {
+                                                "func": "✓ Atendimento Humano "
+                                                }
+                                                
+                                            ]
+                                            }
 
 
                     ]

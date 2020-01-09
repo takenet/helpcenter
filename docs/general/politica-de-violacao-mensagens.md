@@ -26,4 +26,4 @@ Para reduzir as chances de que um bot seja punido por violar as políticas de me
 É muito comum violar a política de mensagens ativas em bots que possuem atendimento humano. Nesses casos, se um ticket de atendimento ficar em aberto por mais de 24 horas e o atendente enviar alguma mensagem para o cliente, uma mensagem de resposta será enviada após o tempo limite, acarretando assim na violação da política.<br><br><br>
 
 *[1] [Veja todos os detalhes da política de privacidade do Messenger](https://developers.facebook.com/docs/messenger-platform/policy/policy-overview)*  
-*[2] [Veja todos os detalhes da política de privacidade do WhatsApp](https://developers.facebook.com/docs/whatsapp/guidelines)*
+*[2] [Veja todos os detalhes da política de privacidade do WhatsApp](https://www.whatsapp.com/legal/business-policy/?lang=pt_br)*

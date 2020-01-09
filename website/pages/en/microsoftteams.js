@@ -4,7 +4,7 @@ const CompLibrary = require('../../core/CompLibrary.js');
 const data = {
   "title": "Microsoft Teams no BLiP",
   "subtitle": "Melhore a comunicação na sua empresa através do Microsoft Teams!",
-  "img": "/img/illustrations/microsoft-teams.svg",
+  "img": "/img/illustrations/microsoft-teams-logo.svg",
   "from": "BLiP Help Center >",
   "session": "Canais",
   "session_url": "/channels",

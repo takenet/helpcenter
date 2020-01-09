@@ -62,7 +62,7 @@ const data = {
     },
     {
       "title": "Microsoft Teams",
-      "icon": "/img/illustrations/microsoft-teams.svg",
+      "icon": "/img/illustrations/microsoft-teams-logo.svg",
       "url": "/microsoftteams",
       "abstract": "Fale com seus colaboradores utilizando a plataforma unificada de comunicação e colaboração.",
       "text": "Aprenda mais!"
