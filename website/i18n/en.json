@@ -528,6 +528,14 @@
         "title": "Como criar e aprovar um Message Template no WhatsApp",
         "sidebar_label": "Como criar e aprovar um Message Template no WhatsApp"
       },
+      "channels/whatsapp/como-enviar-messages-template-respostas-prontas": {
+        "title": "Como enviar messages template através de respostas prontas do BLiP Desk",
+        "sidebar_label": "Como enviar messages template através de respostas prontas do BLiP Desk"
+      },
+      "channels/whatsapp/como-enviar-messages-templates-via-builder": {
+        "title": "Como enviar messages templates via Builder",
+        "sidebar_label": "Como enviar messages templates via Builder"
+      },
       "channels/whatsapp/como-interagir-whatsapp": {
         "title": "Como interagir com os usuários através do WhatsApp",
         "sidebar_label": "Como interagir com os usuários através do WhatsApp"

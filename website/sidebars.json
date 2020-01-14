@@ -130,7 +130,10 @@
           "channels/whatsapp/como-criar-aprovar-message-template",
           "channels/whatsapp/como-interagir-whatsapp",
           "channels/whatsapp/criando-solucao-atendimento-humano-whatsapp",
-          "channels/whatsapp/enviar-notificacao-whatsapp-blip-api"
+          "channels/whatsapp/enviar-notificacao-whatsapp-blip-api",
+          "channels/whatsapp/como-enviar-messages-templates-via-builder",
+          "channels/whatsapp/como-enviar-messages-template-respostas-prontas"
+          
         ]
       },
       {
@@ -211,7 +214,6 @@
           "helpdesk/blipdesk/como-definir-regras-atendimento",
           "helpdesk/blipdesk/habilitando-uso-emoji-desk",
           "helpdesk/blipdesk/descricao-metricas-desk",
-          "helpdesk/customprovider/como-conectar-a-um-canal-de-atendimento-personalizado",
           "helpdesk/blipdesk/como-filtrar-ticket-id",
           "helpdesk/blipdesk/configurar-alertas-inatividade-clientes-blip-desk",
           "helpdesk/blipdesk/definindo-alerta-tempo-resposta-atendente",

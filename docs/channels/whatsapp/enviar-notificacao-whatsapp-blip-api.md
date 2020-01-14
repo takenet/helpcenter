@@ -4,7 +4,7 @@ title: Enviar notificações WhatsApp via API do BLiP
 sidebar_label: Enviar notificações WhatsApp via API do BLiP
 ---
 
-Através do BLiP, é possível criar aplicações para o canal WhatsApp capazes **não só de responder à mensagens recebidas**, mas também de **enviar mensagens (notificações) para o cliente de forma ativa**.
+Através do BLiP, é possível criar aplicações para o canal WhatsApp capazes **não só de responder às mensagens recebidas**, mas também de **enviar mensagens (notificações) para o cliente de forma ativa**.
 
 Qualquer mensagem enviada pelo bot, após um período de 24 horas em relação a última mensagem enviada pelo cliente é considerada uma notificação. Para saber mais sobre as diferenças entre uma mensagem normal e uma notificação [clique aqui](https://help.blip.ai/docs/general/politica-de-violacao-mensagens/#mensagens-de-respostas). Notificações no WhatsApp estão sempre associadas a um Modelo de Mensagem (*Message Template*), previamente aprovado pelo próprio WhatsApp. 
 
