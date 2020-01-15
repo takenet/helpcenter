@@ -24,9 +24,9 @@ Envia uma mensagem de imagem para o usuário. Para mais informações acesse htt
 
 ![Tipo de conteúdo imagem](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-4.png)
 
-* **Carrousel**
+* **Carrossel**
 
-Envia uma mensagem do tipo carrousel para o usuário. Para mais informações acesse https://docs.blip.ai/#carousel.
+Envia uma mensagem do tipo carrossel para o usuário. Para mais informações acesse https://docs.blip.ai/#carousel.
 
 ![Tipo de conteúdo carrousel](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-5.png)
 
@@ -62,7 +62,7 @@ Envia uma mensagem com um conteúdo do tipo documento para o usuário — PDF, p
 
 * **Enviar localização**
 
-Envia uma mensagem com um mapa que aponta um determinada localização geográfica para o usuário. Para mais informações acesse https://docs.blip.ai/#send-location.
+Envia uma mensagem com um mapa que aponta uma determinada localização geográfica para o usuário. Para mais informações acesse https://docs.blip.ai/#send-location.
 
 ![Tipo de conteúdo enviar localizacao](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-11.png)
 

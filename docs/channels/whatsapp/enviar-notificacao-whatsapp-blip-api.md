@@ -6,7 +6,7 @@ sidebar_label: Enviar notificações WhatsApp via API do BLiP
 
 Através do BLiP, é possível criar aplicações para o canal WhatsApp capazes **não só de responder às mensagens recebidas**, mas também de **enviar mensagens (notificações) para o cliente de forma ativa**.
 
-Qualquer mensagem enviada pelo bot, após um período de 24 horas em relação a última mensagem enviada pelo cliente é considerada uma notificação. Para saber mais sobre as diferenças entre uma mensagem normal e uma notificação [clique aqui](https://help.blip.ai/docs/general/politica-de-violacao-mensagens/#mensagens-de-respostas). Notificações no WhatsApp estão sempre associadas a um Modelo de Mensagem (*Message Template*), previamente aprovado pelo próprio WhatsApp. 
+Qualquer mensagem enviada pelo bot, após um período de 24 horas em relação à última mensagem enviada pelo cliente é considerada uma notificação. Para saber mais sobre as diferenças entre uma mensagem normal e uma notificação [clique aqui](https://help.blip.ai/docs/general/politica-de-violacao-mensagens/#mensagens-de-respostas). Notificações no WhatsApp estão sempre associadas a um Modelo de Mensagem (*Message Template*), previamente aprovado pelo próprio WhatsApp. 
 
 Para enviar uma notificação (mensagem ativa) é necessário garantir que os pré-requisitos abaixo já foram satisfeitos:
 
@@ -17,7 +17,7 @@ Depois de criar e aprovar seu Message Template você terá acesso a dois valores
 
 ## Enviando uma notificação
 
-Para realizar o envio de uma notificação através da API do BLiP será necessário realizar 2 requisições HTTP na API do BLiP. A primeira delas tem o objetivo de buscar o identificador de um cliente no WhatsApp e deverá ser executada uma única vez para cada usuário. Já a segunda requisição é responsável por efetivamente disparar uma notificação através de um Message Template específco.
+Para realizar o envio de uma notificação através da API do BLiP será necessário realizar 2 requisições HTTP na API do BLiP. A primeira delas tem o objetivo de buscar o identificador de um cliente no WhatsApp e deverá ser executada uma única vez para cada usuário. Já a segunda requisição é responsável por efetivamente disparar uma notificação através de um Message Template específico.
 
 ### Requisição 1: Buscando o identificador de um cliente
 

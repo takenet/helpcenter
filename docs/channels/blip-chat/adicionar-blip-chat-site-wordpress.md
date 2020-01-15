@@ -8,7 +8,7 @@ Adicionar o widget do BLiP Chat em um site Wordpress é bem simples. Antes de co
 
 ## Passo a passo
 
-1. Acesse o painel de administração do seu site, acesse o módulo **Aparência** e escolha a opção **Editor**. Selecione uma seção do seu site que seja utilizada em todas as páginas que pretende exibir o BLiP Chat, por exemplo o footer.php (conforme imagem abaixo).
+1. Acesse o painel de administração do seu site, acesse o módulo **Aparência** e escolha a opção **Editor**. Selecione uma seção do seu site que seja utilizada em todas as páginas que pretende exibir o BLiP Chat, por exemplo, o footer.php (conforme imagem abaixo).
 
 ![Editor de Aparência](/img/channels/blip-chat/chat-adicionar-blip-chat-site-wordpress-1.png)<br>
 

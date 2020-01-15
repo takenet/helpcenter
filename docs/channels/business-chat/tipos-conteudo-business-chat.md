@@ -28,6 +28,6 @@ Tipos permitidos: áudio, vídeo, imagens e documentos. Mais informações: http
 ![Conteúdo tipo weblink](/img/channels/business-chat/tipos-conteudo-business-chat-4.png)<br>
 
 ### Weblink
-Permite o envio de um link para uma página na web, permitindo que o mesmo seja aberta diretamente no aplicativo Mensagens. Para mais informações, acesse nossa documentação: https://docs.blip.ai/#web-link.
+Permite o envio de um link para uma página na web, permitindo que o mesmo seja aberta diretamente no aplicativo. Para mais informações, acesse nossa documentação: https://docs.blip.ai/#web-link.
 
 ![Conteúdo tipo anexos](/img/channels/business-chat/tipos-conteudo-business-chat-3.png)<br>

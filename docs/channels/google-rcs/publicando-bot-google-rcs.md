@@ -4,7 +4,7 @@ title: Como publicar seu Chatbot no Google RCS
 sidebar_label: Como publicar seu Chatbot no Google RCS
 ---
 
-> **ATENÇÃO:** O uso do Google RCS está restrito a algumas empresas. Siga os passos descritos neste artigo apenas se sua empresa possui acesso à este canal. Caso tenha interesse em utilizar o canal Google RCS entre em contato [clicando aqui](mailto:community@take.net).
+> **ATENÇÃO:** O uso do Google RCS está restrito a algumas empresas. Siga os passos descritos neste artigo apenas se sua empresa possui acesso a este canal. Caso tenha interesse em utilizar o canal Google RCS entre em contato [clicando aqui](mailto:community@take.net).
 
 Antes de iniciar o processo de publicação de um contato inteligente no canal Google RCS, verifique todos os pré-requisitos necessários.
 

@@ -5,7 +5,7 @@ sidebar_label: Visão geral dos tipos de conteúdo
 ---
 Dentro de qualquer **bloco de conteúdo**, é possível definir quais as mensagens serão enviadas do bot para o cliente. O BLiP suporta qualquer tipo de conteúdo disponível nos canais conectados à plataforma.
 
-No Builder, para adicionar um conteúdo em um bloco, basta selecionar o ícone correspondente ao conteúdo desejado. Os tipos mais utilizados (texto, quick reply, imagem, carousel e menu) possuem um ícone específico e podem ser escolhidos facilmente. Os demais tipos de conteúdo podem ser encontrados através do ícone mais conteúdos ("..."), conforme imagem abaixo.
+No Builder, para adicionar um conteúdo em um bloco, basta selecionar o ícone correspondente ao conteúdo desejado. Os tipos mais utilizados (texto, quick reply, imagem, carrossel e menu) possuem um ícone específico e podem ser escolhidos facilmente. Os demais tipos de conteúdo podem ser encontrados através do ícone mais conteúdos ("..."), conforme imagem abaixo.
 
 ![Tipos de conteúdo](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-1.png)
 
@@ -69,7 +69,7 @@ Envia uma mensagem com um conteúdo do tipo documento (<https://docs.blip.ai/#do
 
 ![Tipo de conteúdo enviar localizacao](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-11.png)
 
-Envia uma mensagem com um mapa que aponta um determinada localização geográfica (<https://docs.blip.ai/#send-location>) para o usuário.
+Envia uma mensagem com um mapa que aponta uma determinada localização geográfica (<https://docs.blip.ai/#send-location>) para o usuário.
 
 * **Pedir localização**
 
@@ -89,7 +89,7 @@ Envia um link da web (<https://docs.blip.ai/#web-link>) para o usuário.
 
 Tipo de conteúdo especial que possibilita a geração de dados dinâmicos.
 
-Em algumas situações, a criação de um conteúdo acontece de forma dinâmica. Uma lista de produtos, por exemplo, depende da quantidade de produtos em estoque em um dado momento. Assim, não é possível criar um carrousel no Builder com todos os produtos disponíveis durante todo o dia. Nesses casos, torna-se necessária a utilização do Conteúdo HTTP.
+Em algumas situações, a criação de um conteúdo acontece de forma dinâmica. Uma lista de produtos, por exemplo, depende da quantidade de produtos em estoque em um dado momento. Assim, não é possível criar um carrossel no Builder com todos os produtos disponíveis durante todo o dia. Nesses casos, torna-se necessária a utilização do Conteúdo HTTP.
 
 Através deste tipo, a responsabilidade para geração do conteúdo é transferida para uma API. Atualmente, são aceitos **Quick Reply**, **Carrossel** e **Menu** como conteúdo dinâmico.
 

@@ -24,7 +24,7 @@ A imagem abaixo apresenta o BLiP Chat integrado ao site do BLiP como um widget f
 
 ## 2. Em aplicativos móveis
 
-Você também pode adicionar o BLiP Chat em aplicações móveis nativas. Para maiores informações sobre como utilizar as bibliotecas mobile do BLiP Chat, verifique os projetos [Android](https://github.com/takenet/blip-chat-android) e [iOS](https://github.com/takenet/blip-chat-ios) no Github
+Você também pode adicionar o BLiP Chat em aplicações móveis nativas. Para mais informações sobre como utilizar as bibliotecas mobile do BLiP Chat, verifique os projetos [Android](https://github.com/takenet/blip-chat-android) e [iOS](https://github.com/takenet/blip-chat-ios) no Github
 
 ![BLiP Chat Android](/img/channels/blip-chat/chat-o-que-e-blip-chat-3.png) <br><br>
 
@@ -42,4 +42,4 @@ Outra funcionalidade importante do BLiP Chat é a possibilidade de configurar di
 
 O primeiro tipo de autenticação (logado) é ideal para ambientes em que o usuário que está utilizando o sistema (site ou aplicativo) já é conhecido. Dessa forma, o desenvolvedor da aplicação consegue informar ao BLiP Chat informações importantes sobre o usuário, como seu identificador, nome, e-mail entre outras.
 
-O segundo tipo de autenticação (não logado) é indicado para os demais cenários. **O comportamento padrão do BLiP Chat utiliza este tipo de autenticação**. Para saber como utilizar os tipos de autenticação disponíveis clique aqui.
+O segundo tipo de autenticação (não logado) é indicado para os demais cenários. **O comportamento padrão do BLiP Chat utiliza este tipo de autenticação**. Para saber como utilizar os tipos de autenticação disponíveis, clique aqui.

@@ -8,7 +8,7 @@ Entenda melhor quais são os tipos de conteúdo enviados pelo BLiP suportados pe
 
 ## Texto
 
-É possível enviar e receber mensagens de texto simples para o seus clientes.
+É possível enviar e receber mensagens de texto simples para os seus clientes.
 
 ### Áudio
 

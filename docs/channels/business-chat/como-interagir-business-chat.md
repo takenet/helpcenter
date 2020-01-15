@@ -9,7 +9,7 @@ A plataforma de Serviços do Business Chat permite que o usuário interaja e ini
 ### URL
 Os clientes podem iniciar um bate-papo usando um URL que você fornecer. Quando os clientes clicam no URL, o sistema o redireciona para o Mensagens, para que eles possam enviar uma mensagem de texto à sua empresa.
 
-Você decide como e onde fornecer o URL. Você pode incluí-lo como um link em uma mensagem de email no seu site ou usá-lo como a ação de um botão no seu aplicativo.
+Você decide como e onde fornecer o URL. Você pode incluí-lo como um link em uma mensagem de e-mail no seu site ou usá-lo como a ação de um botão no seu aplicativo.
 
 ### Botão do Business Chat em Websites
 Você pode exibir os botões do Business Chat na sua página da Web adicionando uma tag à sua página HTML. Você pode criar seu site combinando os botões, banners e texto do Business Chat com as cores e a fonte do logotipo da sua empresa.

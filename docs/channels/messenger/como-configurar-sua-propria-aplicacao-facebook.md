@@ -4,7 +4,7 @@ title: Como configurar sua própria aplicação do Facebook em um bot no BLiP
 sidebar_label: Como configurar sua própria aplicação do Facebook em um bot no BLiP
 ---
 
-**Observação: Essa é uma configuração para usuários avançados! Siga essas instruçãoes apenas se souber o que está fazendo.**
+**Observação: Essa é uma configuração para usuários avançados! Siga essas instruções apenas se souber o que está fazendo.**
 
 Por padrão, todo bot publicado no canal Facebook, através do portal do BLiP, utiliza a aplicação **BLiP Messaging**, mantida pela equipe do BLiP, para enviar e receber mensagens. Esse processo facilita a integração com o Facebook e diminui muito o número de atividades necessárias para ter um bot disponível neste canal. Apesar disso, por várias razões, algumas pessoas/empresas podem desejar utilizar suas próprias aplicações do Facebook nesse processo.
 

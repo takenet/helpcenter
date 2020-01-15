@@ -44,6 +44,6 @@ Selecionando a opção **Desinstalar/Uninstall**, todas as configurações refer
 
 ## Precisa de ajuda?
 
-Abra um ticket no [fórum do BLiP](https://forum.blip.ai).
+Abra um tópico no [fórum do BLiP](https://forum.blip.ai).
 
 

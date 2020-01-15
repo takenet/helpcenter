@@ -14,13 +14,13 @@ Entenda que tipos de conteúdo é possível enviar para o canal email através d
 
 ### Áudio
 
-É possível enviar um áudio compartilhando uma URL, que contenha o arquivo, com seus clientes. Os áudios são úteis para a entrega de informações rápidas, áudios longos geralmente não são atrativos. Para mais informações acesse https://docs.blip.ai/#audio.
+É possível enviar um áudio compartilhando um URL, que contenha o arquivo, com seus clientes. Os áudios são úteis para a entrega de informações rápidas, áudios longos geralmente não são atrativos. Para mais informações acesse https://docs.blip.ai/#audio.
 
 ![](/img/channels/email/tipos-conteudo-email-2.png)<br>
 
 ### Documentos e Arquivos
 
-Seu contato inteligente pode enviar documentos como PDFs, compartilhando uma URL que contenha o arquivo.
+Seu contato inteligente pode enviar documentos como PDFs, compartilhando um URL que contenha o arquivo.
 Para mais informações acesse https://docs.blip.ai/#document-files.
 
 ![](/img/channels/email/tipos-conteudo-email-3.png)<br>
@@ -39,7 +39,7 @@ Para mais informações acesse https://docs.blip.ai/#images.
 ![](/img/channels/email/tipos-conteudo-email-5.png)<br>
 ### Vídeo
 
-Envie vídeos com propagandas, informações rápidas ou qualquer outro tema que lhe interesse, desde que seja compartilhado uma URL que contenha o arquivo do vídeo.
+Envie vídeos com propagandas, informações rápidas ou qualquer outro tema que lhe interesse, desde que seja compartilhado um URL que contenha o arquivo do vídeo.
 Para mais informações acesse https://docs.blip.ai/#video.
 
 ![](/img/channels/email/tipos-conteudo-email-6.png)<br>

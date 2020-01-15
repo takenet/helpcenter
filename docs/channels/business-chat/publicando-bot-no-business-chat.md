@@ -40,7 +40,7 @@ Para publicar seu bot no Apple Business Chat é preciso primeiro se registrar no
 
 ![](/img/channels/business-chat/publicando-bot-no-business-chat-9.png)<br>
 
-9.  Adicione as pessoas que conseguiram testar seu Business Chat antes mesmo dele ser aprovado pela Apple. Insira o email de todos os usuários de teste.
+9.  Adicione as pessoas que conseguiram testar seu Business Chat antes mesmo dele ser aprovado pela Apple. Insira o e-mail de todos os usuários de teste.
 
 ![](/img/channels/business-chat/publicando-bot-no-business-chat-10.png)<br>
 
@@ -56,7 +56,7 @@ Para publicar seu bot no Apple Business Chat é preciso primeiro se registrar no
 
 ![](/img/channels/business-chat/publicando-bot-no-business-chat-13.png)<br>
 
-13. Clique no botão Connect to BLiP para associar seu Business Chat à um contato inteligente do BLiP.
+13. Clique no botão Connect to BLiP para associar seu Business Chat a um contato inteligente do BLiP.
 
 ![](/img/channels/business-chat/publicando-bot-no-business-chat-14.png)<br>
 

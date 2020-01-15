@@ -60,7 +60,7 @@ BlipClient.openBlipThread(MainActivity.this, BuildConfig.APPKEY, blipOptions);
 
 Além das configurações 1 e 2, é necessário enviar para o BLiP um arquivo com as chaves privadas do seu projeto FCM.
 
-Para gerar o arquivo com essas configurações siga os passos abaixo:
+Para gerar o arquivo com essas configurações, siga os passos abaixo:
 
 1. No Firebase console, abra **Configurações > Contas de serviço**.
 

@@ -41,7 +41,7 @@ A imagem abaixo representa o fluxo caracterizado como uma mensagem de resposta. 
 
 ​![Janela de 24 horas](/img/channels/whatsapp/arquitetura-do-whatsapp-1.png)<br>
 
-Já as **notificações** para Whatsapp são <u>mensagens de texto</u> (markdown é suportado) enviadas da empresa para os usuários (clientes) em janelas superiores a 24 horas em relação a última entrada do usuário. Conforme demonstrado no fluxo da imagem abaixo, todas as notificações são cobradas.
+Já as **notificações** para Whatsapp são <u>mensagens de texto</u> (markdown é suportado) enviadas da empresa para os usuários (clientes) em janelas superiores a 24 horas em relação à última entrada do usuário. Conforme demonstrado no fluxo da imagem abaixo, todas as notificações são cobradas.
 
 Além disso, todas as notificações devem passar por um processo de validação manual feita pelo WhatsApp. Esse processo visa garantir que nenhuma mensagem promocional ou de SPAM será enviada para os clientes.
 
@@ -59,9 +59,9 @@ Para saber mais sobre o processo de verificação de um número [clique aqui](ht
 
 ### Entendendo os conceitos de Opt-In
 
-Antes de uma empresa começar a enviar qualquer notificação para seus clientes, no WhatsApp, é preciso entender muito bem o conceito de Opt-In (*optar pelo recebimento de mensagens*). Para enviar uma notificação no WhatsApp é preciso, inicialmente, garantir que o destinatário tenha aceito, previamente, receber mensagens através deste canal.
+Antes de uma empresa começar a enviar qualquer notificação para seus clientes, no WhatsApp, é preciso entender muito bem o conceito de Opt-In (*optar pelo recebimento de mensagens*). Para enviar uma notificação no WhatsApp é preciso, inicialmente, garantir que o destinatário tenha aceitado, previamente, receber mensagens através deste canal.
 
-O procedimento de solicitação dessa permissão pode ser realizado por qualquer canal que a empresa use para se comunicar com seus clientes, como websites, app, email, SMS, contratos e etc. Entretanto, a mensagem de opt-in precisa, necessariamente, ser clara e objetiva, garantindo que o usuário está ciente de que receberá mensagens em seu número através do WhatsApp.
+O procedimento de solicitação dessa permissão pode ser realizado por qualquer canal que a empresa use para se comunicar com seus clientes, como websites, app, email, SMS, contratos e etc. Entretanto, a mensagem de opt-in precisa, necessariamente, ser clara e objetiva, garantindo que o usuário está ciente que receberá mensagens em seu número através do WhatsApp.
 
 Caso a empresa opte por solicitar permissão do usuário através de uma interface web, algumas regras devem ser observadas. O usuário deve ser solicitado a optar por um **elemento visual** (caixa de seleção ou similar) exibido ao lado do nome e do logotipo do WhatsApp. O usuário deve ter controle sobre qual número é usado por meio de ação explícita (por exemplo, edição). Além disso, o idioma deve ser mostrado ao lado dos elementos da interface do usuário para explicar claramente quais informações serão recebidas e fazer referência específica a essas informações enviadas como mensagens no WhatsApp. Veja um exemplo na imagem abaixo.
 

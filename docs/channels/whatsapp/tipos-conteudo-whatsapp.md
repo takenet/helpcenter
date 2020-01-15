@@ -39,7 +39,7 @@ Envia uma mensagem com conteúdo do tipo vídeo para o usuário. Para mais infor
 
 ## Enviar localização
 
-Envia uma mensagem com um mapa que aponta um determinada localização geográfica para o usuário. Para mais informações acesse https://docs.blip.ai/#send-location. 
+Envia uma mensagem com um mapa que aponta uma determinada localização geográfica para o usuário. Para mais informações acesse https://docs.blip.ai/#send-location. 
 
 ![Mapa para localização](/img/channels/whatsapp/location.png)
 

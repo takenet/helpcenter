@@ -8,7 +8,7 @@ sidebar_label: Como publicar seu bot no Google Assistant
 
 * **1º Passo:** Acesse o link: https://console.actions.google.com/u/0/.
 
-* **2º Passo:** Crie um novo projeto.
+* **2º Passo:** Crie um projeto.
 
 * **3º Passo:** Assim que o projeto for criado, serão exibidas opções. Escolha a opção “Actions SDK”, no fim da página.
 

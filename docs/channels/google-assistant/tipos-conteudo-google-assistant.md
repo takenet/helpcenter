@@ -71,7 +71,7 @@ Aprimore seu contato inteligente através do quick reply. Ele deve conter no má
 
 ![](/img/channels/google-assistant/tipos-conteudo-google-assistant-9.png)<br>
 
-**Observação:** Quick reply pode ser usado junto com qualquer tipo.
+**Observação:** Quick reply pode ser usado com qualquer tipo.
 
 Caso queira saber mais sobre os tipos de conteúdos aceitos no Google Assistant, [acesse a documentação oficial](https://developers.google.com/actions/assistant/responses).
 

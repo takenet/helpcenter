@@ -20,7 +20,7 @@ Veja na imagem abaixo um exemplo dos conteúdos de **texto** e **digitando**.
 
 ## Arquivos de media
 
-Além de texto, no Telegram, uma mensagem pode conter links para conteúdos multimídia como áudio, imagens, vídeos e arquivos. É importante ressaltar que o BLiP trafega apenas o link do conteúdo. Garanta que os arquivos que deseja enviar estão disponíveis em alguma URL pública.
+Além de texto, no Telegram, uma mensagem pode conter links para conteúdos multimídias como áudio, imagens, vídeos e arquivos. É importante ressaltar que o BLiP trafega apenas o link do conteúdo. Garanta que os arquivos que deseja enviar estão disponíveis em alguma URL pública.
 
 ![Arquivos: Imagens, audios, videos e documentos](/img/channels/telegram/funcionalidades-telegram.jpg)
 
@@ -71,7 +71,7 @@ Através do objeto mensagem, é possível realizar o envio de um menu de texto p
 
 ## Quick Reply
 
-Quick replys fornecem uma maneira de apresentar um conjunto de até 11 botões na conversa além de uma frase opcional. As opções de um quick reply aparecem acima do espaço reservado para digitar mensagens. Na integração do Telegram com o BLiP, este recurso está disponível no formato semelhante à um Menu. Esse conteúdo é muito útil para facilitar a conversa com seu cliente, enviando as possíveis respostas que seu contato irá processar. Para mais informações sobre os tipos de conteúdos suportados no Telegram [acesse a documentação oficial](https://core.telegram.org/bots/api#available-types).
+Quick replys fornecem uma maneira de apresentar um conjunto de até 11 botões na conversa além de uma frase opcional. As opções de um quick reply aparecem acima do espaço reservado para digitar mensagens. Na integração do Telegram com o BLiP, este recurso está disponível no formato semelhante a um Menu. Esse conteúdo é muito útil para facilitar a conversa com seu cliente, enviando as possíveis respostas que seu contato irá processar. Para mais informações sobre os tipos de conteúdos suportados no Telegram [acesse a documentação oficial](https://core.telegram.org/bots/api#available-types).
 
 ## Web Link
 

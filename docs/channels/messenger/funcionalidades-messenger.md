@@ -10,7 +10,7 @@ A Plataforma do Messenger é composta por um conjunto de recursos destinados a o
 Sempre que alguém iniciar uma conversa com um bot no Messenger será atribuído a ele um número de identificação exclusivo para cada página do Facebook. Assim, é possível garantir que esse usuário só seja alcançado por um bot caso ele tenha escolhido conversar com esse bot primeiro. 
 
 ### Webview do Messenger
-O Webview do Messenger permite que páginas web sejam abertas dentro do escopo do mensageiro, tanto em aplicações móveis, quanto na web. Essa funcionalidade permite que sejam criadas experiências mais ricas em interfaces onde há interações mais complexas com o usuário que podem ser difíceis de serem criadas através de mensagens, como por exemplo, solicitar o preenchimento e o envio de um formulário.
+O Webview do Messenger permite que páginas web sejam abertas dentro do escopo do mensageiro, tanto em aplicações móveis, quanto na web. Essa funcionalidade permite que sejam criadas experiências mais ricas em interfaces onde há interações mais complexas com o usuário que podem ser difíceis de serem criadas através de mensagens, como, por exemplo, solicitar o preenchimento e o envio de um formulário.
 
 ![Webview do canal Messenger](/img/channels/messenger/funcionalidades-messenger-1.png)<br>
 

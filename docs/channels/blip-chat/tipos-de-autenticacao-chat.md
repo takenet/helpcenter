@@ -12,7 +12,7 @@ Este artigo define cada um dos tipos e explica quando você deverá utilizar cad
 
 A autenticação do tipo GUEST deve ser utilizada em um chatbot quando não há a necessidade de identificar (ou manter a identificação) o seu usuário, como em um bot FAQ (perguntas e respostas frequentes) em um site não logado.
 
-Nesse modelo, toda vez que o seu chatbot for acessado pela primeira vez em um browser, o BLiP Chat criará um novo usuário e manterá o mesmo por 30 dias. Todo o histórico deste usuário será portanto, mantido por até 30 dias. Depois desse período o BLiP Chat criará outra conta para o usuário.
+Nesse modelo, toda vez que o seu chatbot for acessado pela primeira vez em um browser, o BLiP Chat criará um usuário e manterá o mesmo por 30 dias. Todo o histórico deste usuário será portanto, mantido por até 30 dias. Depois desse período o BLiP Chat criará outra conta para o usuário.
 
 A opção GUEST é o modo padrão de autenticação do BLiP Chat. Portanto, para adicioná-la em sua página web, não é necessário passar por nenhuma configuração especial, como mostra o exemplo abaixo:
 
@@ -34,7 +34,7 @@ A opção GUEST é o modo padrão de autenticação do BLiP Chat. Portanto, para
 <br>![Script instalação BLiP Chat](/img/channels/blip-chat/chat-tipos-de-autenticacao-chat-1.png)<br><br>
 
 ## DEV_AUTH
-O tipo de autenticaçao Dev deve ser escolhido quando houver a necessidade de manter sempre a mesma identificação do cliente que utiliza o BLiP Chat em seu site ou app, por exemplo em ambientes logados. Nesse modo, é possível definir o usuário através de um **identificador** e uma **senha**.
+O tipo de autenticação Dev deve ser escolhido quando houver a necessidade de manter sempre a mesma identificação do cliente que utiliza o BLiP Chat em seu site ou app, por exemplo, em ambientes logados. Nesse modo, é possível definir o usuário através de um **identificador** e uma **senha**.
 
 Nesse modo de autenticação, sempre que o usuário acessar o bot será identificado como um mesmo usuário, mantendo assim todo o histórico, por tempo indeterminado.
 

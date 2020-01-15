@@ -20,7 +20,7 @@ Adicione o script do BLiP Chat conforme indicado no portal.
 
 ![permitir o dominio no portal do blip](/img/channels/blip-chat/chat-adicionar-blip-chat-site-wix-3.png)
 
-O Wix, utiliza *iframes* como estratégia para embarcar códigos HTML. **Por isso, o domínio que deverá ser incluido no portal não é o domínio do site, mas sim o domínio do iframe gerado pelo Wix.**
+O Wix, utiliza *iframes* como estratégia para embarcar códigos HTML. **Por isso, o domínio que deverá ser incluído no portal não é o domínio do site, mas sim o domínio do iframe gerado pelo Wix.**
 
 Para encontrar o domínio, publique seu componente, inspecione a página web (no componente do BLiP) e encontre o valor do iframe que embarca o componente.
 

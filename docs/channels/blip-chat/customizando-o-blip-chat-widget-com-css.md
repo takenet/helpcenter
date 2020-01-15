@@ -24,7 +24,7 @@ Pode acontecer do círculo flutuante não se encaixar muito com o estilo do seu 
 </script>
 ```
 
-A método **withTarget** do widget do BLiP Chat permite que você coloque seu chat onde quiser no site. Basta utilizar o "id" de um elemento HTML da sua página. A partir disso, a extensão vai carregar o chat no elemento que você indicar e você conseguirá ter mais liberdade para tratar o chat na sua página. Veja um exemplo abaixo:
+O método **withTarget** do widget do BLiP Chat permite que você coloque seu chat onde quiser no site. Basta utilizar o "id" de um elemento HTML da sua página. A partir disso, a extensão vai carregar o chat no elemento que você indicar e você conseguirá ter mais liberdade para tratar o chat na sua página. Veja um exemplo abaixo:
 
 **Antes**
 
@@ -36,7 +36,7 @@ A método **withTarget** do widget do BLiP Chat permite que você coloque seu ch
 
 ## Customizando dentro do iframe
 
-Por motivos de segurança, fornecidos pelo próprio navegador, seu chat vem embarcado dentro de um elemento iframe. A questão é a limitação que vem junto com essa segurança.
+Por motivos de segurança, fornecidos pelo próprio navegador, seu chat vem embarcado dentro de um elemento iframe. A questão é a limitação que vem com essa segurança.
 
 O navegador impede qualquer tentativa de enviar regras de estilo para customizar a aparência interna do widget. Por isso, não é possível modificar o CSS do chat. Ou será que é?
 
@@ -78,7 +78,7 @@ Dessa forma, você conseguirá customizar totalmente o seu chat:
 
 ## Chamando a atenção
 
-Mesmo conhecendo os atalhos para deixar o chat mais atrativo, você ainda pode achar que a forma que o visitante da página visualiza a janela de chat ainda não está satisfatória.
+Mesmo conhecendo os atalhos para deixar o chat mais atrativo, você ainda pode julgar que a forma que o visitante da página visualiza a janela de chat ainda não está satisfatória.
 
 Uma boa opção para melhorar a presença do seu bot, é adicionar, por exemplo, um balão com uma mensagem convidando o usuário:
 
@@ -96,5 +96,5 @@ ou até mesmo mudar a forma como o chat abre:
 
 Tudo feito usando CSS, externo ao widget, controlando o que já existe em volta do iframe.
 
-O código utilizado em todos os exemplos pode ser encontrado em: <https://henriquetorquato.github.io/>
+O código utilizado em todos os exemplos podem ser encontrado em: <https://henriquetorquato.github.io/>
 

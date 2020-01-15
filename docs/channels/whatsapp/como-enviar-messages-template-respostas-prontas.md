@@ -16,7 +16,7 @@ Depois de criar e aprovar seu Message Template você terá acesso a dois valores
 ### Enviando resposta pronta
 
 
-O primeiro passo para realizar esta tarefa, é necessario a criação da resposta pronta assim como já apresentando no artigo [Utilizando variáveis nas respostas prontas do BLiP Desk](/docs/helpdesk/blipdesk/utilizando-variav-respostas/#docsNav), similarmente, acesse a aba de **Atendimento** na funcionalidade de **respostas prontas** e clique no botão **criar categoria**, conforme imagem abaixo.
+O primeiro passo para realizar esta tarefa, é necessário a criação da resposta pronta assim como já apresentando no artigo [Utilizando variáveis nas respostas prontas do BLiP Desk](/docs/helpdesk/blipdesk/utilizando-variav-respostas/#docsNav), similarmente, acesse a aba de **Atendimento** na funcionalidade de **respostas prontas** e clique no botão **criar categoria**, conforme imagem abaixo.
 
 ![Acessando aba de Atendimento na funcionalidade de respostas prontas](/img/channels/whatsapp/como-enviar-messages-template-respostas-prontas-1.png)<br />
 

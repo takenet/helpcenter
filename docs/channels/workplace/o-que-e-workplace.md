@@ -10,6 +10,6 @@ sidebar_label: O que é o Workplace?
 
 Além da possibilidade de criar grupos entre empresas é possível ainda criar chatbots que ficam acessíveis apenas aos funcionários devidamente credenciados.
 
-Para o BLiP, o Workplace funciona como mais um canal disponível para seu bot. Na prática, os conteúdos trafegados no Workplace são exatamente os mesmos do canal Facebook Messenger.
+Para o BLiP, o Workplace funciona como mais um canal disponível para seu bot. Na prática, os conteúdos trafegados no Workplace são os mesmos do canal Facebook Messenger.
 
 Para saber como publicar seu bot no Workplace, [clique aqui](/docs/channels/workplace/publicando-chatbot-no-workplace)!
