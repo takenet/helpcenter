@@ -37,7 +37,7 @@ class Template extends React.Component {
                             <p className="subtitle-templates">Veja os tipos de conteúdos suportados nos diferentes canais integrados ao BLiP</p>
                         </div>
                         <div className="image-templates">
-                            <img className="img" src="/img/illustrations/ilustracao-categorias.svg" />
+                            <img className="img-content" src="/img/illustrations/ilustracao-categorias.svg" />
                         </div>
                     </div>
                 </div>

@@ -210,7 +210,7 @@
         "sidebar_label": "O que é um bloco de atendimento"
       },
       "builder/o-que-e-um-bloco-de-conteudo": {
-        "title": "O que é um bloco de contéudo",
+        "title": "O que é um bloco de conteúdo",
         "sidebar_label": "O que é um bloco de conteúdo"
       },
       "builder/o-que-e-um-weblink": {
@@ -455,10 +455,6 @@
       "channels/messenger/visao-geral-messenger": {
         "title": "Visão geral do Messenger",
         "sidebar_label": "Visão geral do Messenger"
-      },
-      "channels/microsoft-teams/enviando-notificacao-microsoft-teams": {
-        "title": "Enviando notificações com o Microsoft Teams",
-        "sidebar_label": "Enviando notificações com o Microsoft Teams"
       },
       "channels/microsoft-teams/funcionalidades-microsoft-teams": {
         "title": "Funcionalidades do Microsoft Teams",
