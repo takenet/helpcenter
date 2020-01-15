@@ -4,9 +4,9 @@ title: Funcionalidades do BLiP Chat Widget
 sidebar_label: Funcionalidades do BLiP Chat Widget
 ---
 
-*insert some text*
+O BLiP Chat Widget é a forma de introduzir o canal nativo do BLiP em sua aplicação *web* ou móvel. Nesses cenários, pode ser interessante que algumas ações e comandos sejam realizados antes mesmo do início da interação *usuário x bot*.
 
-Veja algumas das funcionalidades do BLiP Chat Widget.
+Veja algumas das funcionalidades do BLiP Chat Widget:
 
 ## Como definir as informações dos contatos na primeira iteração
 
@@ -57,7 +57,7 @@ Veja o exemplo abaixo de como utilizar essa função:
 (function () {
         window.onload = function () {
           var blipClient = new BlipChat()
-.withAppKey('YOUR-BLIPCHAT-API-KEY')
+			.withAppKey('YOUR-BLIPCHAT-API-KEY')
             .withEventHandler(BlipChat.ENTER_EVENT, function () {
               console.log('enter')
             })
@@ -77,7 +77,84 @@ Veja o exemplo abaixo de como utilizar essa função:
 </script>
 ```
 
-## Como enviar mensagens após carregar o chat
+## Desabilitar histórico de mensagens
+
+Com o método **withoutHistory** é possível fazer com que o histórico de mensagens trocadas entre o usuário e o bot não seja exibido após o carregamento do bot.
+
+> BlipClient.withoutHistory()
+
+## Como enviar mensagens para o bot
+
+Você pode enviar mensagens para bot através do método **sendMessage**, como no exemplo abaixo:
+
+```html
+<script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
+<script>
+(function () {
+        window.onload = function () {
+			var blipClient = new BlipChat();
+			blipClient
+            .withAppKey('YOUR-BLIPCHAT-API-KEY')
+			.withEventHandler(BlipChat.LOAD_EVENT, function () {
+				blipClient.sendMessage({
+					"type": "text/plain",
+					"content": "Start"
+					});
+			})
+            .build();
+        }
+	})();
+</script>
+```
+
+Além disso, é possível enviar outros tipos de mensagens, incluindo *metadados* que podem ser úteis para sua aplicação.
+
+### 1) Enviar mensagem com metadados
+
+Este método é usado para enviar, juntamente às mensagens, metadados *ocultos*.
+
+```html
+<script src="https://unpkg.com/blip-chat-widget@1.6.*" type="text/javascript"></script>
+<script>
+(function () {
+        window.onload = function () {
+			var blipClient = new BlipChat();
+			blipClient
+                  .withAppKey('YOUR-BLIPCHAT-API-KEY')
+        		.withEventHandler(BlipChat.LOAD_EVENT, function () {
+			blipClient.sendMessage({
+                  "type": "text/plain",
+                  "content": "Start",
+                  "metadata":{
+                    "#blip.hiddenMessage": true
+                   }
+                  });
+			})
+            .build();
+        }
+	})();
+</script>
+```
+
+### 2) Enviar metadados customizados em todas as mensagens
+
+Este método define um metadado padrão para as todas as mensagens enviadas para o bot.
+
+```html
+<script src="https://unpkg.com/blip-chat-widget@1.6.*" type="text/javascript"></script>
+<script>
+(function () {
+	window.onload = function () {
+      var blipClient = new BlipChat()
+	  .withAppKey('YOUR-BLIPCHAT-API-KEY')
+	  .withCustomMessageMetadata ({
+		  "origem do usuario" : "browser"
+	   })
+	  .build();
+	}
+	})();
+</script>
+```
 
 ## Associar o BLiP Chat a um elemento HTML
 
@@ -104,7 +181,18 @@ Caso você precise definir um elemento HTML, como uma *div*, por exemplo, e asso
 </script>
 ```
 
+## Abrir ou fechar a janela do chat
+
+Caso você queira abrir ou fechar a janela do chat, baseado em algum evento, por exemplo, é possível utilizar o método **toogleChat**, alternadamente. Caso a janela esteja aberta, ela será fechada e assim o contrário.
+
+>blipClient.toogleChat();
+
 ## Deletar a instância do Widget
+
+Você pode querer remover completamente a instância do BLiP Chat do seu site. Com o método **destroy** você irá destruir a instância do widget e o remover do elemento HTML que ele estiver.
+
+Para isso, basta que você chame o método conforme abaixo:
+> BlipClient.destroy();
 
 ## Como customizar o Widget
 
@@ -133,3 +221,7 @@ Suponha que você precise enviar um comando para a API do BLiP quando o chat for
     })();
 </script>
 ```
+--------------------------- 
+
+
+Caso precise saber mais detalhes sobre o *widget*, acesse nosso repositório no Github [clicando aqui](https://github.com/takenet/blip-chat-widget/). 
