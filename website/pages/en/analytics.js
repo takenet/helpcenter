@@ -9,7 +9,7 @@ const data = {
   "session": "Áreas do BLiP",
   "session_url": "/blipareas",
   "here": "Métricas e Analytics",
-  "intro": "Entender o que acontece, em tempo real, dentro de um contato inteligente é uma tarefa vital para qualquer empresa. Quantas mensagens, para quantos usuários e quais os eventos ocorreram são exemplos de métricas que devem ser acompanhadas contínuamente. Veja nos artigos abaixo, como o BLiP pode ajudar nessa tarefa.",
+  "intro": "Entender o que acontece, em tempo real, dentro de um contato inteligente é uma tarefa vital para qualquer empresa. Quantas mensagens, para quantos usuários e quais os eventos ocorreram são exemplos de métricas que devem ser acompanhadas continuamente. Veja nos artigos abaixo, como o BLiP pode ajudar nessa tarefa.",
   "cards": [
     {
       "title": "Descrição das métricas geradas pelo BLiP",

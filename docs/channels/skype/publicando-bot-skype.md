@@ -6,7 +6,7 @@ sidebar_label: Como publicar seu Chatbot no Skype
 
 ## Adquirindo o Application ID
 
-Acesse o [Application Registration Portal](https://apps.dev.microsoft.com) da Microsoft e crie um novo aplicativo. Informe o nome do seu chatbot.
+Acesse o [Application Registration Portal](https://apps.dev.microsoft.com) da Microsoft e crie um aplicativo. Informe o nome do seu chatbot.
 
 Preencha o campo **Application ID** do BLiP com o *Application ID* informado no portal, conforme a imagem abaixo:
 
@@ -25,7 +25,7 @@ No BLiP, preencha o campo **Senha** e clique em **Salvar**. Será gerada uma URL
 ![](/img/channels/skype/publicando-bot-skype-5.png)<br>
 ## Criando seu chatbot no Skype
 
-Acesse o [BotFramework](https://dev.botframework.com/bots/new) utilizando a sua conta Microsoft, e crie um novo bot usando o seu *Application ID*.
+Acesse o [BotFramework](https://dev.botframework.com/bots/new) utilizando a sua conta Microsoft, e crie um bot usando o seu *Application ID*.
 
 ![](/img/channels/skype/publicando-bot-skype-6.png)<br>
 

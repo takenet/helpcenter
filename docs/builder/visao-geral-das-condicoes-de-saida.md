@@ -22,7 +22,7 @@ Existem diferentes tipos de operadores para uma regra. A tabela abaixo apresenta
 | Nome do operador  | Descrição                                                            |
 | ----------------- | -------------------------------------------------------------------- |
 | **Existe**        | Verifica se na fonte de dados existe algum valor, seja ele qual for. |
-| **Igual a**       | Verifica se a fonte de dados é exatamente igual ao valor experado    |
+| **Igual a**       | Verifica se a fonte de dados é exatamente igual ao valor esperado    |
 | **Diferente de** | Verifica se a fonte de dados é diferente do valor esperado.
 | **Contém**  | Verifica se a fonte de dados contém o valor esperado.
 | **Começa com** | Verifica se a fonte de dados começa com o valor esperado.

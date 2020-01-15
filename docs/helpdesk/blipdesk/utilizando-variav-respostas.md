@@ -49,12 +49,12 @@ Antes de cadastrar uma resposta é necessário criar uma categoria. Para isso cl
 ![Criar categoria](/img/helpdesk/desk-utilizando-variav-respostas-2.png)
 ![Nomear categoria](/img/helpdesk/desk-utilizando-variav-respostas-3.png)<br><br>
 
-Neste exemplo, a resposta pronta criada refere-se a um mensagem padrão para saudação dos usuários que pedem atendimento no bot.
+Neste exemplo, a resposta pronta criada refere-se a uma mensagem padrão para saudação dos usuários que pedem atendimento no bot.
 
 A partir de agora o atendente já pode utilizar esta resposta dentro do BLiP Desk, conforme exibido na imagem abaixo:
 
 ![Utilizando resposta pronta dentro do BLiP Desk](/img/helpdesk/desk-utilizando-variav-respostas-4.png)<br><br>
 
-Repare que o BLiP altera o valor das variáveis antes de realizar o envio da menssagem. Na imagem abaixo temos um exemplo de como o conteúdo chega no cliente final.
+Repare que o BLiP altera o valor das variáveis antes de realizar o envio da mensagem. Na imagem abaixo temos um exemplo de como o conteúdo chega no cliente final.
 
 ![Exemplo uso mensagem pronta BLiP Desk](/img/helpdesk/desk-utilizando-variav-respostas-5.png)

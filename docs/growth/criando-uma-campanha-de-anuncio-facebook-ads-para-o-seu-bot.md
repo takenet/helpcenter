@@ -8,7 +8,7 @@ O módulo *Growth* - do inglês crescimento, é o módulo da plataforma respons�
 
 **Facebook Ads** é uma das ferramentas de *Growth* do BLiP*, responsável por gerenciar suas campanhas de anúncios do Facebook. A partir destas campanhas é possível buscar novos clientes para o seu bot, analisando não só os interesses de sua empresa como também o perfil dos usuários que já utilizam seu chatbot.
 
-Os clientes impactados por sua campanha serão incentivados a clicarem em um botão que leva-os para conversar diretamente com o bot, através do Facebook Messenger. Este processo é conhecido também como *Click to Messenger* - Clique para o Messenger. Para utilizar a ferramenta **Facebook Ads**, siga os passos abaixo:
+Os clientes impactados por sua campanha serão incentivados a clicarem em um botão que os leva para conversar diretamente com o bot, através do Facebook Messenger. Este processo é conhecido também como *Click to Messenger* - Clique para o Messenger. Para utilizar a ferramenta **Facebook Ads**, siga os passos abaixo:
 
 ## Pré-requisitos:
 

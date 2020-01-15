@@ -4,7 +4,7 @@ title: Como aprimorar meu modelo de inteligência artificial
 sidebar_label: Como aprimorar meu modelo de inteligência artificial
 ---
 
-O processo de aprimoramento é uma forma de gerar métricas e obter insights sobre o nível de assertividade do modelo. Ao aprovar ou corrigir uma análise, esses dados são enviados para a matriz de confusão e ajudam a entender se as frases estão sendo entendidas corretamente pelo modelo. Finalmente, análise corrigidas podem ser aprovadas e/ou salvas como exemplo de intenções.
+O processo de aprimoramento é uma forma de gerar métricas e obter insights sobre o nível de assertividade do modelo. Ao aprovar ou corrigir uma análise, esses dados são enviados para a matriz de confusão e ajudam a entender se as frases estão sendo entendidas corretamente pelo modelo. Finalmente, análises corrigidas podem ser aprovadas e/ou salvas como exemplo de intenções.
 
 ## Apresentação
 
@@ -34,7 +34,7 @@ Quando o modelo  identificou uma intenção diferente do esperado para o que o u
 ![Como corrigir a intenção](/img/ai/nlp/como-aprimorar-meu-modelo-de-inteligencia-artificial-4.png)
 
 **4. Excluir**  
-Às vezes pode ser necessário tirar da análise insumos que não agregam, como por exemplo, quando a interação do usuário é irrelevante para o contexto do modelo NLP do seu bot. Por isso você pode excluir frases quando julgar necessário.
+Às vezes pode ser necessário tirar da análise insumos que não agregam, por exemplo, quando a interação do usuário é irrelevante para o contexto do modelo NLP do seu bot. Por isso você pode excluir frases quando julgar necessário.
 
 ![Como excluir uma análise](/img/ai/nlp/como-aprimorar-meu-modelo-de-inteligencia-artificial-5.png)
 

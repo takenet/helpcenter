@@ -10,7 +10,7 @@ O BLiP Desk disponibiliza um alerta visual para os atendentes que demorarem muit
 
 ![Alerta visual atendentes](/img/helpdesk/desk-definindo-alerta-tempo-resposta-atendente-1.png)<br>
 
-A configuração deste alerta define o tempo máximo que um agente (atendente do BLiP Desk) pode ficar sem responder à um determinado ticket. Após esse tempo o atendente receberá o alerta. **Importante: o tempo começará a ser contado a partir da primeira mensagem, não lida, enviada pelo cliente. Após uma resposta do atendente o contador é reiniciado.**
+A configuração deste alerta define o tempo máximo que um agente (atendente do BLiP Desk) pode ficar sem responder a um determinado ticket. Após esse tempo o atendente receberá o alerta. **Importante: o tempo começará a ser contado a partir da primeira mensagem, não lida, enviada pelo cliente. Após uma resposta do atendente o contador é reiniciado.**
 
 ![Configuração de alertas](/img/helpdesk/desk-definindo-alerta-tempo-resposta-atendente-2.png)<br>
 

@@ -8,9 +8,9 @@ O BLiP possui um modelo de integração através de requisições HTTP. Esse mod
 
 Mas a explosão atual de API's HTTP nos permite criar chatbots sem a necessidade de uma única linha de código! Ferramentas como [If This Than That](https://ifttt.com/), [Integromat](https://www.integromat.com/en/) e [Zapier](https://zapier.com/) oferecem interfaces intuitivas para combinar API's de forma fácil.
 
-Para demonstrar o poder desta integração, que tal criar um chatbot que envia as última notícias de um *feed* para você no Facebook Messenger (ou em qualquer um dos canais suportados pelo BLiP)?
+Para demonstrar o poder desta integração, que tal criar um chatbot que envia as últimas notícias de um *feed* para você no Facebook Messenger (ou em qualquer um dos canais suportados pelo BLiP)?
 
-Vamos começar criando um novo *zap* no Zapier (você pode clicar [aqui](https://zapier.com/app/login?next=%2Fapp%2Feditor) para ir direto para o editor. Não esqueça que é preciso ter uma conta, que pode ser gratuita mesmo).
+Vamos começar criando um *zap* no Zapier (você pode clicar [aqui](https://zapier.com/app/login?next=%2Fapp%2Feditor) para ir direto para o editor. Não esqueça que é preciso ter uma conta, que pode ser gratuita mesmo).
 
 Para a *trigger app*, escolha “RSS”.
 

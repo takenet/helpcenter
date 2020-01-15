@@ -8,7 +8,7 @@ Se você já tem uma base de conhecimento (conjunto de intenções + entidades) 
 
 ## Exportando sua base de conhecimento
 
-O processo de exportação dos dados do seu conjunto de intenções e/ou entidades, previamete cadastrados, pode ser feita da seguinte maneira: Acesse o **Portal**, escolha o seu bot e selecione o módulo **Inteligência Artifical**.
+O processo de exportação dos dados do seu conjunto de intenções e/ou entidades, previamente cadastrados, pode ser feita da seguinte maneira: Acesse o **Portal**, escolha o seu bot e selecione o módulo **Inteligência Artifical**.
 
 Para exportar intenções, selecione a opção **Intenções**, no menu lateral esquerdo, clique no botão mais opções e selecione **Exportar intenções** (conforme imagem abaixo)
 
@@ -26,13 +26,13 @@ O arquivo de intenção (**blip-intentions.csv**) possui 2 colunas. A primeira d
 
 ![modelo de arquivo exportado](/img/ai/nlp/nlp-como-exportar-base-conhecimento-3.png)<br>
 
-O arquivo de entidades (**blip-entities.csv**), por sua vez, possui 3 colunas. A primeira coluna possui o nome da entidade, a segunda o valor que representa a entidade e a terceira coluna possui todos os sinônimos relacionados a um determinado valor, separados pelo caracter **`/`**. A imagem abaixo apresenta um exemplo do arquivo de entidades 
+O arquivo de entidades (**blip-entities.csv**), por sua vez, possui 3 colunas. A primeira coluna possui o nome da entidade, a segunda o valor que representa a entidade e a terceira coluna possui todos os sinônimos relacionados a um determinado valor, separados pelo caractere **`/`**. A imagem abaixo apresenta um exemplo do arquivo de entidades 
 
 ![modelo de arquivos de entidade](/img/ai/nlp/nlp-como-exportar-base-conhecimento-4.png)<br>
 
 ## Importando uma base de conhecimento
 
-Para importar uma base de conhecimento, pré existente, ao BLiP é preciso realizar 2 tarefas. A primeira delas é a construção dos arquivos blip-intentions.csv e **blip-entities.csv** (explicados acima), no formato esperado pelo BLiP.
+Para importar uma base de conhecimento, pré-existente, ao BLiP é preciso realizar 2 tarefas. A primeira delas é a construção dos arquivos blip-intentions.csv e **blip-entities.csv** (explicados acima), no formato esperado pelo BLiP.
 
 O segundo passo é realizar a importação dos arquivos preparados. Para isso, acesse o Portal, escolha o bot e selecione o módulo Inteligência Artificial. Selecione o menu Intenções (ou Entidades), no menu lateral esquerdo, clique no botão mais opções, selecione Importar intenções (ou Importar entidades) e faça upload do arquivo **blip-intentions.csv** (ou **blip-entities.csv**).
 

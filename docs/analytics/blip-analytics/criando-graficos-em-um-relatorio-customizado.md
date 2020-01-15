@@ -22,6 +22,6 @@ Escolha um formato para o gráfico, defina um nome, a dimensão e a categoria de
 
 ## Criando um gráfico
 
-Após definida todas as informações do gráfico o mesmo aparecerá dentro do relatório. Note que ainda é possível reoordenar a ordem dos gráficos em um relatório. Isso facilita bastante na organização das informações. A imagem abaixo apresenta um gráfico de “Pizza” como exemplo.
+Após definida todas as informações do gráfico o mesmo aparecerá dentro do relatório. Note que ainda é possível reordenar a ordem dos gráficos em um relatório. Isso facilita bastante na organização das informações. A imagem abaixo apresenta um gráfico de “Pizza” como exemplo.
 
 ![Gráfico de pizza](/img/analytics/blip-analytics/blip-analytics-criando-graficos-em-um-relatorio-customizado-4.png)

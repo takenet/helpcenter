@@ -21,7 +21,7 @@ Repare que ao enviar uma frase de teste o BLiP exibirá:
 
 ![Treinamento NLP](/img/ai/nlp/nlp-como-testar-modelo-nlp-2.png)<br><br>
 
-Seu objetivo agora é testar o máximo de frases que os usuários supostamente enviariam para o contato da sua empresa. Analise a possibilidade de adicionar novas frases em suas intenções ou criar novas inteções/entidades, para os exemplos de frase não reconhecidos pelo seu modelo.
+Seu objetivo agora é testar o máximo de frases que os usuários supostamente enviariam para o contato da sua empresa. Analise a possibilidade de adicionar novas frases em suas intenções ou criar novas intenções/entidades, para os exemplos de frase não reconhecidos pelo seu modelo.
 
 * **Observação: Lembre-se de treinar e publicar a primeira versão do seu modelo antes de realizar o treinamento.**
 * **Observação 2: A partir da segunda versão do modelo, novas alterações devem ser testadas após novos treinamentos.**

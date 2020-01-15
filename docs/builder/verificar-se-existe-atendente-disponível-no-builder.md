@@ -85,6 +85,6 @@ function run(result) {
 
 ![Definindo ações de saída](/img/builder/builder-verificar-se-existe-atendente-disponível-no-builder-5.png)
 
-Adicione o bloco de **Atendimento Humano**. apenas na condição de saída que representa a disponibilidade de atendentes.
+Adicione o bloco de **Atendimento Humano** apenas na condição de saída que representa a disponibilidade de atendentes.
 
 

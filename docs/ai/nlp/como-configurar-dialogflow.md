@@ -17,9 +17,9 @@ Antes de começar, certifique-se de já ter criado sua conta gratuita no DialogF
 
 ![Aba configurações](/img/ai/nlp/nlp-como-configurar-dialogflow-2.png)<br>
 
-4) Abra uma nova aba no seu navegador e acesse sua conta no DialogFlow. Após realizar login, crie um Agente. Para criar um novo agente *clique no triângulo, apontado pra baixo, e depois em **Create new agent**, conforme imagem abaixo.*
+4) Abra uma nova aba no seu navegador e acesse sua conta no DialogFlow. Após realizar login, crie um Agente. Para criar um agente *clique no triângulo, apontado pra baixo, e depois em **Create new agent**, conforme imagem abaixo.*
 
-![tela de criar novo agente dialogflow](/img/ai/nlp/nlp-como-configurar-dialogflow-3.png)<br>
+![tela de criar agente dialogflow](/img/ai/nlp/nlp-como-configurar-dialogflow-3.png)<br>
 
 **Obs.: Lembre-se de escolher a linguagem correta para seu agente. Para este exemplo, a escolha foi Português do Brasil.**
 

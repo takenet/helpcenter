@@ -32,7 +32,7 @@ e) Copie o Token de acesso do seu bot.
 
 ## 2 - Adicionando Token do BotAnalytics no BLiP
 
-De posse do Token do seu bot no BotAnalytics, vá até o portal do BLiP, selecione o seu bot e clique m Integrações (conforme imagem abaixo).
+De posse do Token do seu bot no BotAnalytics, vá até o portal do BLiP, selecione o seu bot e clique em Integrações (conforme imagem abaixo).
 
 ![Menu integrações BLiP](/img/analytics/botanalytics/botanalytics-como-enviar-dados-botanalytics-5.png)<br>
 

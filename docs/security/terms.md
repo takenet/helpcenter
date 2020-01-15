@@ -21,7 +21,7 @@ Ao usar o BLiP, você consente em receber comunicações eletrônicas relacionad
 ### 5. PROPRIEDADE INTELECTUAL DO BLiP
 Nem este Termo nem o uso da plataforma transfere a você a propriedade intelectual da plataforma ou do conteúdo que você acessa através do serviço (além do seu Conteúdo). Este Termo não lhe outorga nenhum direito de usar as marcas registradas ou outros elementos distintivos do BLiP. O uso indevido e desautorizado das marcas registradas ou outros elementos distintivos do BLiP pode acarretar na suspensão ou encerramento da sua utilização do site ou do serviço e gera o dever de indenizar a TAKE por danos morais e por perdas.
 
-### 6. COUNTEÚDO DE USUÁRIOS
+### 6. CONTEÚDO DE USUÁRIOS
 * **Cadastro**
 Você declara e garante que todas as informações disponibilizadas para o cadastro e utilização do serviço são verdadeiras, exatas e completas, obrigando-se a comunicar ao BLiP qualquer alteração em tais dados, em até 24 (vinte e quatro) horas da efetivação das alterações.<br><br>
 
@@ -42,7 +42,7 @@ Você é responsável por sua conduta, seu Conteúdo e suas comunicações com o
 **(c)** Você não pode investigar, escanear ou testar a vulnerabilidade de nenhum sistema ou rede do BLiP;  
 **(d)** Você não pode realizar engenharia reversa do serviço ou tentar fazer isto;  
 **(e)** Você não pode transmitir nenhum vírus, malware ou outros tipos de software ilícitos, nem links a esse tipo de software, através do serviço;  
-**(f)** Você não pode usar o serviço para infringir os direitos de propriedade intelectual da TAKE, do BLIP, ou de terceiro, tampouco para realizar atividades ilícitas.  
+**(f)** Você não pode usar o serviço para infringir os direitos de propriedade intelectual da TAKE, do BLiP, ou de terceiro, tampouco para realizar atividades ilícitas.  
 
 ### 8. GERENCIAMENTO DA CONTA
 

@@ -27,11 +27,11 @@ Após clicar na opção de Debug o BLiP abrirá uma nova janela com todos os rec
 
 ## Utilizando o Debug para analisar o fluxo da conversa
 
-Uma vez entendido os conceitos básicos para a utilização da ferramenta de Debug, vamos executar um exemplo real para avaliar como ela pode ser útil na identificação de problemas em um fluxo de conversa. P*ara exemplificar o funcionamento utilizaremos um novo bot*, mas você pode utilizar o Debug para qualquer *bot já existente*.
+Uma vez entendido os conceitos básicos para a utilização da ferramenta de Debug, vamos executar um exemplo real para avaliar como ela pode ser útil na identificação de problemas em um fluxo de conversa. *Para exemplificar o funcionamento, utilizaremos um novo bot*, mas você pode utilizar o Debug para qualquer *bot já existente*.
 
-Acesse o portal, crie um novo bot (do zero), e publique o fluxo do bot. Todo bot criado no BLiP possui, por padrão, 4 blocos: Início, Boas Vindas, Exceções e Erro padrão (caso sua conta na plataforma esteja em inglês o nome dos blocos será: Start, Welcome, Exceptions, Default Error). Acesse a ferramenta de Debug e envie uma mensagem para o bot, por exemplo: "oi".
+Acesse o portal, crie um bot (do zero), e publique o fluxo do bot. Todo bot criado no BLiP possui, por padrão, 4 blocos: Início, Boas Vindas, Exceções e Erro padrão (caso sua conta na plataforma esteja em inglês o nome dos blocos será: Start, Welcome, Exceptions, Default Error). Acesse a ferramenta de Debug e envie uma mensagem para o bot, por exemplo: "oi".
 
-Depois de enviar a mensagem o bot responderá com os conteúdos definidos no bloco Welcome (ou Boas Vindas) e a seção de **Console** exibirá tudo o que aconteceu com o usuário de teste dentro do fluxo. Veja que o caminho percorrido pelo usuário foi a transição entre os blocos Start e Welcome (ou Início e Boas Vindas), executado devido a entrada do usuário "oi". Este comportamento é descrito na primeira linha do console. Caso queira analisar exatamente quais foram todas as ações (de entrada ou saída) executadas a partir de uma transição específica, expanda a linha no console.
+Depois de enviar a mensagem o bot responderá com os conteúdos definidos no bloco Welcome (ou Boas Vindas) e a seção de **Console** exibirá tudo o que aconteceu com o usuário de teste dentro do fluxo. Veja que o caminho percorrido pelo usuário foi a transição entre os blocos Start e Welcome (ou Início e Boas Vindas), executado devido à entrada do usuário "oi". Este comportamento é descrito na primeira linha do console. Caso queira analisar exatamente quais foram todas as ações (de entrada ou saída) executadas a partir de uma transição específica, expanda a linha no console.
 
 ![analisando debug](/img/builder/builder-como-utilizar-debug-builder-3.png)<br><br>
 

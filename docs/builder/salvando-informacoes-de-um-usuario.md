@@ -4,9 +4,9 @@ title: Salvando informações de um usuário
 sidebar_label: Salvando informações de um usuário
 ---
 
-Uma das ações disponíveis em todos os blocos de conteúdo do BLiP é a ação de **Definir Contato**. Através dela é possível salvar informações, adiquiridas ao longo do fluxo de conversa, na **variável de contato** de um usuário. Todas as informações salvas na variável de contato de um usuário podem ser visualizadas em outros módulos do portal (por exemplo *Usuários*, *histórico*, *Desk*) e reaproveitadas ao longo do fluxo da conversa do seu bot.
+Uma das ações disponíveis em todos os blocos de conteúdo do BLiP é a ação de **Definir Contato**. Através dela é possível salvar informações, adquiridas ao longo do fluxo de conversa, na **variável de contato** de um usuário. Todas as informações salvas na variável de contato de um usuário podem ser visualizadas em outros módulos do portal (por exemplo *Usuários*, *histórico*, *Desk*) e reaproveitadas ao longo do fluxo da conversa do seu bot.
 
-Imagine por exemplo, que seu bot solicita ao usuário informações como **nome**, **email** e **telefone**. Para que esses dados estejam disponíveis em todo o portal, utilize a ação de definir contato, seguindos os passos abaixo:
+Imagine, por exemplo, que seu bot solicita ao usuário informações como **nome**, **email** e **telefone**. Para que esses dados estejam disponíveis em todo o portal, utilize a ação de definir contato, seguindo os passos abaixo:
 
 1. Escolha um bloco, onde as variáveis que você deseja utilizar já existam, e crie uma ação de Definir Contato.
 

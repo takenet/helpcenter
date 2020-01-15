@@ -97,7 +97,7 @@ A tabela abaixo apresenta todas variáveis de contato disponíveis no BLiP e uma
 
 As variáveis de configuração possibilitam armazenar valores de configuração de uso geral.
 
-Imagine por exemplo que o fluxo de conversa realiza 10 ações de requisições HTTP para uma mesma API de endpoint <https://minhaapi.com.>
+Imagine, por exemplo que o fluxo de conversa realiza 10 ações de requisições HTTP para uma mesma API de endpoint <https://minhaapi.com.>
 
 Nesse cenário, é possível criar, por exemplo, uma variável de configuração endpoint com o valor <https://minhaapi.com> e reaproveitar essa variável em todas as 10 ações do fluxo. Caso o endereço da sua API mude, basta alterar o valor da variável.
 

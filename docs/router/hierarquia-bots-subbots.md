@@ -20,7 +20,7 @@ Nesse cenário uma solução interessante seria construir dois bots, um para cad
 
 Uma solução possível para esse cenário é construir um novo bot com a replicação de todos os dados/conteúdos dos bots criados anteriormente. Entretanto, essa não é uma solução muito flexível, uma vez que os dados estariam duplicados em diferentes locais.
 
-Através da hirarquia de bots e subbots do BLiP, é possível solucionar esse problema adicionando 2 novos bots. O primeiro será o bot **router** - o bot para a filial da Irlanda, capaz de conversar em qualquer língua, e o segundo será o **bot principal**, responsável por descobrir qual a língua de preferência do usuário e enviá-lo à um dos bots já existentes (Brasil ou EUA). O desenho abaixo mostra a arquitetura dessa solução.
+Através da hirarquia de bots e subbots do BLiP, é possível solucionar esse problema adicionando 2 novos bots. O primeiro será o bot **router** - o bot para a filial da Irlanda, capaz de conversar em qualquer língua, e o segundo será o **bot principal**, responsável por descobrir qual a língua de preferência do usuário e enviá-lo a um dos bots já existentes (Brasil ou EUA). O desenho abaixo mostra a arquitetura dessa solução.
 
 ![Subbot arquitetura](/img/router/router-hierarquia-bots-subbots-2.png)<br><br>
 
@@ -31,7 +31,7 @@ Além disso, qualquer correção ou evolução feita nas aplicações Filial Bra
 
 **Bot Router** - bot responsável por gerir os subbots. Este é o bot que o cliente verá, portanto é este bot que deverá ser publicado e testado nos canais. O bot router não possui nenhuma regra ou conteúdo, apenas possui a referência de todos os subbots. Qualquer bot router deve possuir pelo menos 1 subbot.
 
-**SubBot Principal** - Sempre que um usuário conversa com um bot router pela primeira vez ele é direcionado para o subbot principal da hierarquia. Ele é responsável por definir, pela primeira vez, qual subbot atendenrá o cliente. Caso o bot router possua apenas um bot, este será obrigatoriamente o bot principal.
+**SubBot Principal** - Sempre que um usuário conversa com um bot router pela primeira vez ele é direcionado para o subbot principal da hierarquia. Ele é responsável por definir, pela primeira vez, qual subbot atenderá o cliente. Caso o bot router possua apenas um bot, este será obrigatoriamente o bot principal.
 
 **Subbot** - Qualquer bot pertencente à hierarquia de um bot router.
 

@@ -20,7 +20,7 @@ Para isso, basta exportar o fluxo de um bot e importá-lo em outro bot. Veja tod
 
 ## Importando o fluxo
 
-1. Crie um novo bot e acesse o módulo Builder.
+1. Crie um bot e acesse o módulo Builder.
 2. Clique no botão **Configurações** no menu lateral esquerdo e depois escolha a aba **Versões** no menu contextual a direita.
 3. Clique no botão **Importar fluxo** e envie o arquivo JSON exportado no passo anterior.
 4. Após finalizar o processo de importação clique em **Publicar fluxo** para testar seu novo bot.

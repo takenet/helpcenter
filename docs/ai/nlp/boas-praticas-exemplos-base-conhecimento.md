@@ -30,9 +30,9 @@ Ao criar sua base de conhecimento será necessário criar um conjunto de intenç
 
 - Procurar criar nomes de intenções que façam sentido e estejam relacionados aos exemplos.
 
-	- Sugestão de um passo a passo para dar nomes para intenções seria ler os exemplos cadastrados buscando entender a idéia principal, explicar essa idéia em uma frase. Cortar em 30 caracteres: **OU** cortar nos primeiros 30 caracteres, **OU** resumir a frase em 3 palavras (até 30 caracteres na soma). E por fim, usar o resultado desse procedimento como novo nome da intenção.
+	- Sugestão de um passo a passo para dar nomes para intenções seria ler os exemplos cadastrados buscando entender a ideia principal, explicar essa ideia em uma frase. Cortar em 30 caracteres: **OU** cortar nos primeiros 30 caracteres, **OU** resumir a frase em 3 palavras (até 30 caracteres na soma). E por fim, usar o resultado desse procedimento como novo nome da intenção.
 
- - Também uma boa recomendação geral dos provedores de NLP é ter em média 10 exemplos para cada intenção, pois poucos exemplos dificultam o processo de generalização, sendo esse número apenas uma estimativa para ser usado como referência mas o importante mesmo é o modelo estar em bom funcionamento.
+ - Também uma boa recomendação geral dos provedores de NLP é ter em média 10 exemplos para cada intenção, pois poucos exemplos dificultam o processo de generalização, sendo esse número apenas uma estimativa para ser usado como referência, mas o importante mesmo é o modelo estar em bom funcionamento.
 
 - Balancear a quantidade de exemplos em cada intenção.
 

@@ -27,7 +27,7 @@ Ao longo de um atendimento um ticket pode assumir diferentes status. A lista aba
 
 ## Métricas - Tempo
 
-* **Tempo na fila**: Tempo do ticket na fila até ser atribuido à algum atendente.
+* **Tempo na fila**: Tempo do ticket na fila até ser atribuído à algum atendente.
 * **Tempo da primeira resposta**: Tempo que o atendente gasta para dar a primeira resposta ao usuário após receber um ticket.
 * **Tempo de espera**: Total do tempo que o usuário aguarda para ser atendido. É a soma do **Tempo na fila** e do **Tempo para primeira resposta**.
 * **Tempo médio de resposta**: Tempo médio que o atendente demora para responder uma mensagem do cliente. *É calculado apenas para atendimentos com **pelo menos uma interação** entre atendente e cliente, **após a primeira resposta do atendente**.* [Clique aqui](/docs/helpdesk/blipdesk/visao-geral-desk#interacão) caso não saiba o que significa uma **interação**.

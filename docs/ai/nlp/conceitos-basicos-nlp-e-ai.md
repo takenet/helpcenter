@@ -103,7 +103,7 @@ Confiança ou Confiabilidade é grau de certeza do provedor de NLP ao categoriza
 
 Entidades podem ser entendidas como pedaços do texto que completam o sentido de intenções/categorias encontradas pelo provedor de NLP e são a saída *secundária* dele. Em geral, as entidades do chatbot são substantivos, adjetivos, coisas, produtos e serviços que fazem parte do contexto do negócio do cliente. Além disso, podem ser também números, datas, valores monetários, porcentagens, pessoas e localizações.
 
-Para a criação de entidades, observa-se alguns tópicos:
+Para a criação de entidades, observam-se alguns tópicos:
 
 1. Mapear produtos, serviços e contextos do negócio.
 2. Usar nomes como se fossem categorias.
@@ -176,9 +176,9 @@ Com todos os conceitos expostos, podemos definir o modelo de NLP como sendo:
 
 ![](/img/ai/nlp/conceitos-basicos-nlp-e-ai-01.png)
 
-O modelo de NLP é o que efetivamente analisa o texto e entrega as intenções (junto com a confiança) e entidades reconhecidas.
+O modelo de NLP é o que efetivamente analisa o texto e entrega as intenções ( com a confiança) e entidades reconhecidas.
 
-Todas as vezes que **e** **apenas quando** realizamos um novo treino, criamos um novo modelo de NLP.
+Todas as vezes que **e** **apenas quando** realizamos um novo treino, criamos um modelo de NLP.
 
 ## Pontos importantes
 

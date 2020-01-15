@@ -29,11 +29,11 @@ Envia uma mensagem do tipo quick reply (respostas de escopo imediato <https://do
 
 Envia uma mensagem de imagem (<https://docs.blip.ai/#images>) para o usuário.
 
-* **Carrousel**
+* **Carrossel**
 
-![Tipo de conteúdo carrousel](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-5.png)
+![Tipo de conteúdo carrossel](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-5.png)
 
-Envia uma mensagem do tipo carrousel (<https://docs.blip.ai/#carousel>) para o usuário.
+Envia uma mensagem do tipo carrossel (<https://docs.blip.ai/#carousel>) para o usuário.
 
 * **Menu**
 

@@ -14,7 +14,7 @@ O BLiP Desk apresenta, no canto superior esquerdo, qual a soma de tickets aguard
 
 ## Novo ticket 
 
-Tickets que acabaram de ser atribuidos a um atendente e estão à espera da primeira resposta do atendente, possuem uma marcação azul com a palavra "Novo".
+Tickets que acabaram de ser atribuídos a um atendente e estão à espera da primeira resposta do atendente, possuem uma marcação azul com a palavra "Novo".
 
 ![Alerta de novos tickets na fila](/img/helpdesk/desk-new-ticket-alert.png)<br><br>
 
@@ -38,14 +38,14 @@ Durante a transferência de um ticket o atendente é alertado sobre a necessidad
 
 ## Incentivo para novo atendimento
 
-Durante a finalização de um ticket, caso exista outros tickets na fila o agente é incentivado a realizar um novo atendimento.
+Durante a finalização de um ticket, caso existam outros tickets na fila o agente é incentivado a realizar um novo atendimento.
 Este alerta também é disparado quando o atendente fica por mais de 5 minutos sem interagir no BLiP Desk.
 
 ![Alerta de incentivo de novo atendimento](/img/helpdesk/desk-incentive-ticket.png)<br><br>
 
 ## Lentidão no tempo de resposta do atendente
 
-O BLiP Desk fornece um alerta vermelho e pulsante em todos os tickets cujo o tempo de resposta do atendente está superior ao configurado na plataforma. 
+O BLiP Desk fornece um alerta vermelho e pulsante em todos os tickets cujo tempo de resposta do atendente está superior ao configurado na plataforma. 
 
 ![Alerta de lentidão de resposta do atendente](/img/helpdesk/desk-definindo-alerta-tempo-resposta-atendente-1.png)
 

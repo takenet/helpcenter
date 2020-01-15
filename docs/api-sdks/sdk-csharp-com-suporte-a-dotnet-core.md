@@ -12,11 +12,11 @@ Consulte a [documentação do BLiP](https://docs.blip.ai/#using-sdk-csharp) para
 
 Para realizar a migração de um chatbot que utiliza a versão antiga do SDK (baseada no pacote `Takenet.MessagingHub.Client`) é necessário realizar os seguintes passos:
 
-* Criar um novo projeto utilizando o template do BLiP, utilizando o comando dotnet new blip-console (como descrito no menu lateral direito na seção SDK C# na [documentação do BLiP](https://docs.blip.ai/?csharp#using-sdk-csharp)).
+* Criar um projeto utilizando o template do BLiP, utilizando o comando dotnet new blip-console (como descrito no menu lateral direito na seção SDK C# na [documentação do BLiP](https://docs.blip.ai/?csharp#using-sdk-csharp)).
 * Copiar as classes e o arquivo application.json para o novo projeto e instalar as demais dependências (exceto do SDK do BLiP, que já está instalada no template).
 * Substituir o nome das interfaces e classes antigas para o SDK novo (mapeado abaixo).
 * Ajustar as chamadas dos métodos com assinaturas alteradas (mapeado abaixo).
-* Não é possível reutilizar os projetos antigos pois os mesmos se baseiam na versão antiga do `.csproj` do .NET, que é incompatível com projetos .NET Standard / .NET Core utilizados no novo SDK do BLiP.
+* Não é possível reutilizar os projetos antigos, pois os mesmos se baseiam na versão antiga do `.csproj` do .NET, que é incompatível com projetos .NET Standard / .NET Core utilizados no novo SDK do BLiP.
 
 ## Mapeamento de tipos
 
@@ -79,4 +79,4 @@ Para realizar a migração de um chatbot que utiliza a versão antiga do SDK (ba
 
 **Observação**: Na maior parte dos métodos da nova versão, é obrigatório informar um `cancellationToken` para garantir o cancelamento correto das operações assíncronas e evitar o congelamento do processo. Neste caso, passe sempre o `cancellationToken` recebido nos *receivers*.
 
-Mas caso deseje que seu chatbot seja ainda um *Class library* por qualquer motivo, utilize o template `blip-console` ao criar o projeto e o altere para *Class library*. Para executar o chatbot neste caso, será necessário um outro projeto como host.
+Mas caso deseje que seu chatbot seja ainda um *Class library* por qualquer motivo, utilize o template `blip-console` ao criar o projeto e o altere para *Class library*. Para executar o chatbot neste caso, será necessário outro projeto como host.

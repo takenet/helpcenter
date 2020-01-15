@@ -336,7 +336,7 @@ class ScriptDynamically extends React.Component {
                                 "install": '<p class="content-title">Como instalar?</p>\\
                                 <ul>\\
                                     <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                    <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                    <li class="content-list-text">Crie um bot e importe o fluxo para ele.</li>\\
                                     <ul>\\
                                         <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                     </ul>\\
@@ -443,7 +443,7 @@ class ScriptDynamically extends React.Component {
                                 "install": '<p class="content-title">Como instalar?</p>\\
                                 <ul>\\
                                     <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                    <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                    <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
                                         <ul>\\
                                         <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                         </ul>\\
@@ -543,12 +543,12 @@ class ScriptDynamically extends React.Component {
                                 \\
                                 <ol> \\
                                     <li class="content-list-text">Baixe o fluxo do bot</li> \\
-                                    <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                    <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
                                     <ul>\\
                                     <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                 </ul>\\
                                     <li class="content-list-text">Crie uma conta no Google</li> \\
-                                    <li class="content-list-text">Nessa conta, crie um Agenda no <a href="https://calendar.google.com/">Google Calendar</a>, e pegue o seu ID \\
+                                    <li class="content-list-text">Nessa conta, crie uma Agenda no <a href="https://calendar.google.com/">Google Calendar</a>, e pegue o seu ID \\
                                         <ul> \\
                                             <li>Acesse a agenda, clique em <b>Opções</b></li> \\
                                             <img src="/templates/petshop-agendamento/calendar_config.png"></img> \\
@@ -693,7 +693,7 @@ class ScriptDynamically extends React.Component {
                             "install": '<p class="content-title">Como instalar?</p>\\
                             <ul>\\
                                 <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                <li class="content-list-text">Crie um bot e importe o fluxo para ele.</li>\\
                                 <ul>\\
                                     <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                 </ul>\\
@@ -800,7 +800,7 @@ class ScriptDynamically extends React.Component {
                             "install": '<p class="content-title">Como instalar?</p>\\
                             <ul>\\
                                 <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
                                     <ul>\\
                                     <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                     </ul>\\
@@ -839,7 +839,7 @@ class ScriptDynamically extends React.Component {
                         "title": "Imobiliária",
                         "creator": "Criado por BLiP",
                         "subtitle": "Esse chatbot foi feito para coletar informações sobre clientes que querem comprar ou alugar um imóvel e \\
-                            transferí-los para um atendimento humano, em uma interface compatível com a maioria dos canais, incluindo o WhatsApp.",
+                            transferi-los para um atendimento humano, em uma interface compatível com a maioria dos canais, incluindo o WhatsApp.",
                         "categories": [
                             {
                             "category": "Serviços"
@@ -877,7 +877,7 @@ class ScriptDynamically extends React.Component {
                                 <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
                             </div> \\
                             <p class="content-text">Esse chatbot foi feito para coletar informações sobre clientes que querem comprar ou alugar um imóvel e \\
-                            transferí-los para um atendimento humano, em uma interface compatível com a maioria dos canais, incluindo o WhatsApp.\\
+                            transferi-los para um atendimento humano, em uma interface compatível com a maioria dos canais, incluindo o WhatsApp.\\
                             \\
                             <p class="content-title">O que pode ser feito?</p> \\
                             <ul> \\
@@ -891,7 +891,7 @@ class ScriptDynamically extends React.Component {
                             "install": '<p class="content-title">Como instalar?</p>\\
                             <ul>\\
                                 <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
                                     <ul>\\
                                     <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                 </ul>\\
@@ -944,7 +944,7 @@ class ScriptDynamically extends React.Component {
                         "creator": "Criado por BLiP",
                         "subtitle": "Esse chatbot foi feito para coletar informações sobre as necessidades de um cliente e baseado nelas, \\
                                         mostrar o produto que melhor se enquadra no seu perfil, \\
-                            transferí-lo para um atendimento humano, em uma interface compatível com a maioria dos canais, incluindo o WhatsApp.",
+                            transferi-lo para um atendimento humano, em uma interface compatível com a maioria dos canais, incluindo o WhatsApp.",
                         "categories": [
                             {
                             "category": "Varejo"
@@ -980,7 +980,7 @@ class ScriptDynamically extends React.Component {
                             </div> \\
                             <p class="content-text">Esse chatbot foi feito para coletar informações sobre as necessidades de um cliente e baseado nelas, \\
                                         mostrar o produto que melhor se enquadra no seu perfil e \\
-                            transferí-lo para um atendimento humano, em uma interface compatível com a maioria dos canais, incluindo o WhatsApp.\\
+                            transferi-lo para um atendimento humano, em uma interface compatível com a maioria dos canais, incluindo o WhatsApp.\\
                             \\
                             <p class="content-title">O que pode ser feito?</p> \\
                             <ul> \\
@@ -993,7 +993,7 @@ class ScriptDynamically extends React.Component {
                             "install": '<p class="content-title">Como instalar?</p>\\
                             <ul>\\
                                 <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
                                     <ul>\\
                                     <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                 </ul>\\
@@ -1089,7 +1089,7 @@ class ScriptDynamically extends React.Component {
                             \\
                             <ul>\\
                                 <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
                                     <ul>\\
                                     <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                 </ul>\\
@@ -1193,7 +1193,7 @@ class ScriptDynamically extends React.Component {
                             \\
                             <ul>\\
                                 <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
                                     <ul>\\
                                     <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                 </ul>\\
@@ -1231,7 +1231,7 @@ class ScriptDynamically extends React.Component {
                             "id": "Busca_cep",
                             "title": "Identificador de endereço por CEP",
                             "creator": "Criado por BLiP",
-                            "subtitle": "Esse chatbot foi desenvolvido com objetivo de auxilar na integração de APIs de CEP, permitindo assim obter o endereço a partir do CEP apresentado. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
+                            "subtitle": "Esse chatbot foi desenvolvido com objetivo de auxiliar na integração de APIs de CEP, permitindo assim obter o endereço a partir do CEP apresentado. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
                             "categories": [
                                 {
                                 "category": "Serviços"
@@ -1266,7 +1266,7 @@ class ScriptDynamically extends React.Component {
                                     <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
                                     <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
                                 </div> \\
-                                <p class="content-text">Esse chatbot foi desenvolvido com objetivo de auxilar na integração de APIs de CEP,\\
+                                <p class="content-text">Esse chatbot foi desenvolvido com objetivo de auxiliar na integração de APIs de CEP,\\
                                 permitindo assim obter o endereço a partir do CEP apresentado. Tudo isso através de uma interface conversacional compatível\\
                                 com a maioria dos canais disponíveis.\\
                                 \\
@@ -1284,7 +1284,7 @@ class ScriptDynamically extends React.Component {
                                 \\
                                 <ul>\\
                                     <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                    <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                    <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
                                         <ul>\\
                                         <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                     </ul>\\
@@ -1313,7 +1313,7 @@ class ScriptDynamically extends React.Component {
                                 "id": "Previsao_tempo",
                                 "title": "Condição e previsão do tempo",
                                 "creator": "Criado por BLiP",
-                                "subtitle": "Esse chatbot foi desenvolvido com objetivo de auxilar na integração de APIs de condição e previsão do tempo, permitindo assim obter o informações inerentes ao clima e tempo em conformidade com a localização apresentada. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
+                                "subtitle": "Esse chatbot foi desenvolvido com objetivo de auxiliar na integração de APIs de condição e previsão do tempo, permitindo assim obter informações inerentes ao clima e tempo em conformidade com a localização apresentada. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
                                 "categories": [
                                     {
                                     "category": "Serviços"
@@ -1348,13 +1348,13 @@ class ScriptDynamically extends React.Component {
                                         <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
                                         <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
                                     </div> \\
-                                    <p class="content-text">Esse chatbot foi desenvolvido com objetivo de auxilar na utilização APIs de condição e previsão do tempo,\\
-                                    permitindo assim obter o informações inerentes ao clima e tempo em conformidade com a localização apresentada.\\
+                                    <p class="content-text">Esse chatbot foi desenvolvido com objetivo de auxiliar na utilização APIs de condição e previsão do tempo,\\
+                                    permitindo assim obter informações inerentes ao clima e tempo em conformidade com a localização apresentada.\\
                                       Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.\\
                                     \\
                                     <p class="content-title">O que pode ser feito?</p> \\
                                     <ul> \\
-                                        <li class="content-list-text">Exibir informações sobre a previsão e condição do tempo baseado na locatização informada do usuário solicitante</li> \\
+                                        <li class="content-list-text">Exibir informações sobre a previsão e condição do tempo baseado na localização informada do usuário solicitante</li> \\
                                     </ul>\\
                                     \\
                                     <p class="content-title">Pré requisitos:</p>\\
@@ -1366,7 +1366,7 @@ class ScriptDynamically extends React.Component {
                                     \\
                                     <ul>\\
                                         <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                        <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                        <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
                                             <ul>\\
                                             <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                         </ul>\\
@@ -1395,7 +1395,7 @@ class ScriptDynamically extends React.Component {
                                         "id": "Faq_loja_virtual",
                                         "title": "FAQ - Loja virtual",
                                         "creator": "Criado por BLiP",
-                                        "subtitle": "Esse chatbot foi desenvolvido com propósito de auxilar na utilização de provedores de Inteligência Artificial disponíveis, permitindo assim obter um fluxo de conversação mais fluida em um chatbot. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
+                                        "subtitle": "Esse chatbot foi desenvolvido com propósito de auxiliar na utilização de provedores de Inteligência Artificial disponíveis, permitindo assim obter um fluxo de conversação mais fluida em um chatbot. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
                                         "categories": [
                                             {
                                             "category": "Serviços"
@@ -1433,7 +1433,7 @@ class ScriptDynamically extends React.Component {
                                                 <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
                                                 <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
                                             </div> \\
-                                            <p class="content-text">Esse chatbot foi desenvolvido com propósito de auxilar na utilização de provedores de Inteligência Artificial\\
+                                            <p class="content-text">Esse chatbot foi desenvolvido com propósito de auxiliar na utilização de provedores de Inteligência Artificial\\
                                             disponíveis, permitindo assim obter um fluxo de conversação mais fluida em um chatbot. \\
                                             Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.\\
                                             \\
@@ -1446,7 +1446,7 @@ class ScriptDynamically extends React.Component {
                                             \\
                                             <ul>\\
                                                 <li class="content-list-text">Baixe o arquivo .zip contendo o fluxo do bot, as intenções e entidades</li>\\
-                                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele</li> \\
+                                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
                                                     <ul>\\
                                                     <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                                     </ul>\\
@@ -1493,7 +1493,7 @@ class ScriptDynamically extends React.Component {
                                             "id": "Rede_hoteis",
                                             "title": "Rede de Hotéis",
                                             "creator": "Criado por BLiP",
-                                            "subtitle": "Esse chatbot foi desenvolvido com propósito de auxilar as redes de hotéis a prestar servições aos seus clientes dando a eles a opção de buscar hotéis da rede em qualquer região. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
+                                            "subtitle": "Esse chatbot foi desenvolvido com propósito de auxiliar as redes de hotéis a prestar servições aos seus clientes dando a eles a opção de buscar hotéis da rede em qualquer região. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
                                             "categories": [
                                                 {
                                                 "category": "Serviços"
@@ -1537,7 +1537,7 @@ class ScriptDynamically extends React.Component {
                                                     <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
                                                     <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
                                                 </div> \\
-                                                <p class="content-text">Esse chatbot foi desenvolvido com propósito de auxilar as redes de hotéis a prestar servições aos seus clientes\\
+                                                <p class="content-text">Esse chatbot foi desenvolvido com propósito de auxiliar as redes de hotéis a prestar servições aos seus clientes\\
                                                 dando a eles a opção de buscar hotéis da rede em qualquer região. \\
                                                 Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.\\
                                                 \\
@@ -1552,7 +1552,7 @@ class ScriptDynamically extends React.Component {
                                                 "install": '<p class="content-title">Como instalar?</p>\\
                                                 \\
                                                 <ul>\\
-                                                <li class="content-list-text">Crie um novo bot e importe o fluxo para ele.</li>\\
+                                                <li class="content-list-text">Crie um bot e importe o fluxo para ele.</li>\\
                                                 <ul>\\
                                                     <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                                 </ul>\\

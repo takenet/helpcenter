@@ -6,7 +6,7 @@ sidebar_label: Obtendo o número de usuários afetados por um broadcast
 
 O módulo de agendamento do BLiP é uma poderosa ferramenta para o engajamento dos usuários em um bot. Através dela, é possível agendar disparo de mensagens (broadcasts) para uma lista de usuários previamente definida. Por padrão todo bot já possui uma lista de usuários chamada **Todos os usuários**, que contém qualquer usuário que tenha conversado com o bot, pelo menos uma vez independente do canal. Para realizar um agendamento acesse o **Portal**, escolha seu bot e no menu superior escolha mais opções e então clique em **Agendador**.
 
-Após realizar um broadcast é muito importante análisar a assertividade do disparo. Para isso é necessário realizar algumas requisições na API do BLiP (via requests HTTP ou via comandos nos SDKs).
+Após realizar um broadcast é muito importante analisar a assertividade do disparo. Para isso é necessário realizar algumas requisições na API do BLiP (via requests HTTP ou via comandos nos SDKs).
 
 ## 1º Passo - Buscar todos os agendamentos
 
@@ -20,7 +20,7 @@ Após realizar um broadcast é muito importante análisar a assertividade do dis
 
 * **Value:** Key API-KEY-BOT
 
-**Corpo:** JSON com o comando que busca todos os agendamentos, de acordo com o protocolo LIME ([veja aqui](https://docs.blip.ai/?csharp#extensions) maiores informações sobre as extensões do BLiP)
+**Corpo:** JSON com o comando que busca todos os agendamentos, de acordo com o protocolo LIME ([veja aqui](https://docs.blip.ai/?csharp#extensions) mais informações sobre as extensões do BLiP)
 
 ```json
 {
@@ -93,7 +93,7 @@ De posse do ID da mensagem agendada e do identificador da lista para qual o agen
 
 * **Value:** Key API-KEY-BOT
 
-**Corpo:** JSON com o comando que busca todos os agendamentos, de acordo com o protocolo LIME ([veja aqui](https://docs.blip.ai/?csharp#extensions) maiores informações sobre as extensões do BLiP)
+**Corpo:** JSON com o comando que busca todos os agendamentos, de acordo com o protocolo LIME ([veja aqui](https://docs.blip.ai/?csharp#extensions) mais informações sobre as extensões do BLiP)
 
 ```json
 {

@@ -8,7 +8,7 @@ A ação **Processar Comando** foi desenvolvida com o objetivo de facilitar a in
 
 ![Processar comando](/img/builder/builder-acao-processar-comando-1.png)
 
-**Extensões** são ferramentas que possibilitam o reaproveitamento e a extensão de vários recursos da plataforma. Através delas é possível por exemplo, agendar mensagens, salvar informações nos bancos de dados do BLiP, buscar histórico de conversas. Veja algumas das principais extensões disponíveis abaixo:
+**Extensões** são ferramentas que possibilitam o reaproveitamento e a extensão de vários recursos da plataforma. Através delas é possível, por exemplo, agendar mensagens, salvar informações nos bancos de dados do BLiP, buscar histórico de conversas. Veja algumas das principais extensões disponíveis abaixo:
 
 | Extensão | Descrição                                                                                                                                         | 
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------|

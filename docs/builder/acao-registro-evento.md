@@ -34,7 +34,7 @@ Imagine, por exemplo, que exista a necessidade de analisar o número de imagens 
 **Categoria**: "Conteúdos"  
 **Action**: "Imagem"  
 
-Ou seja, o agrupamento dos eventos é dado pela categoria **Conteúdos** e o tipo de conteúdo imagem é definido através da ação **Imagem**. Seguindo a mesma lógica, para analisar a quantida de mensagens de textos recebidas basta utilizar:
+Ou seja, o agrupamento dos eventos é dado pela categoria **Conteúdos** e o tipo de conteúdo imagem é definido através da ação **Imagem**. Seguindo a mesma lógica, para analisar a quantidade de mensagens de textos recebidas basta utilizar:
 
 **Categoria**: "Conteúdos"  
 **Action**: "Texto"  
@@ -46,11 +46,11 @@ Da mesma forma, para representar a quantidade de requisições HTTP realizadas p
 **Rótulo**: "requisições HTTP para busca de produtos"  
 **Valor**: 1  
 
-*Onde o valor 1 indica por exemplo o ID do produto buscado na API.*
+*Onde o valor 1 indica, por exemplo, o ID do produto buscado na API.*
 
 ## Criando um evento através da ação Registro de eventos
 
-Analise o fluxo do seu bot e defina qual bloco corresponde ao momento em que se deseja gerar um evento. Nesse bloco, crie uma ação (entrada ou saída) do tipo **Registro de Eventos** e preenchas as informações relacionadas ao evento que deseja analisar. Veja na imagem abaixo, um exemplo para o registro de eventos que representam a quantidade de vezes que a *funcionalidades* **atendimento humano** foi solicitada.
+Analise o fluxo do seu bot e defina qual bloco corresponde ao momento em que se deseja gerar um evento. Nesse bloco, crie uma ação (entrada ou saída) do tipo **Registro de Eventos** e preenchas as informações relacionadas ao evento que deseja analisar. Veja na imagem abaixo, um exemplo para o registro de eventos que representam a quantidade de vezes que as *funcionalidades* **atendimento humano** foi solicitada.
 
 ![Imagem detalhada da ação Registro de Evento](/img/analytics/blip-analytics/event-sample.png)
 

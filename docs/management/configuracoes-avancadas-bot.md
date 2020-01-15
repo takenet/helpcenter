@@ -6,7 +6,7 @@ sidebar_label: Configurações avançadas do bot
 
 Em certos momentos, o desenvolvedor do bot pode precisar ter acesso a algumas configurações internas que o BLiP armazena, como o **token de autenticação do Messenger**, por exemplo.
 
-Para isso, basta acessar a tela de configurações do seu bot (o ícone com uma engrenagem no canto superior direito do portal), rolar a tela até embaixo e clicar no link de acesso as <u>configurações avançadas</u>.
+Para isso, basta acessar a tela de configurações do seu bot (o ícone com uma engrenagem no canto superior direito do portal), rolar a tela até embaixo e clicar no link de acesso às <u>configurações avançadas</u>.
 
 ![Tela de configurações avançadas](/img/management/management-configuracoes-avancadas-bot-1.png)
 

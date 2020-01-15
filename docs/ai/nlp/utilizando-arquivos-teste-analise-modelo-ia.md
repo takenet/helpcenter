@@ -8,11 +8,11 @@ O arquivo de teste é uma lista de interações críticas que se deseja que o mo
 
 O objetivo da criação deste arquivo é possibilitar a validação da assertividade do modelo, mais especificamente, garantir que o modelo **identifique corretamente as intenções** para as **interações mais críticas** do chatbot. Entende-se por perguntas críticas as interações relacionadas às skills (e conteúdos) que o chatbot não pode, em hipótese nenhuma, deixar de responder.
 
-A recomendação é que sejam coletadas interações reais dos usuários que estejam dentro dos assuntos críticos mencionadas acima.
+A recomendação é que sejam coletadas interações reais dos usuários que estejam dentro dos assuntos críticos mencionados acima.
 
 *Dica: Use os filtros da Tela de Aprimoramento para encontrar essas interações.*
 
-**Esse arquivo é importante** pois assim é possível validar as modificações feitas na base, garantindo que tais alterações não gerem nenhum impacto negativo ao modelo, ou seja, tudo o que era reconhecido continua sendo reconhecido corretamente.
+**Esse arquivo é importante**, pois assim é possível validar as modificações feitas na base, garantindo que tais alterações não gerem nenhum impacto negativo ao modelo, ou seja, tudo o que era reconhecido continua sendo reconhecido corretamente.
 
 O arquivo deve estar no formato **.csv**, onde a primeira coluna contém as perguntas e a segunda o nome da intenção que se espera que o modelo reconheça para aquela pergunta.
 
@@ -63,7 +63,7 @@ No caso do relatório criado com o arquivo de teste, as métricas geradas devem 
 |     Top Falsos Negativos     	|  Nenhum  	|
 
 
-A **Confiabilidade média** é variável pois este valor é a média da confiabilidade dada pelo provedor ao analisar cada uma das perguntas do arquivo de teste.
+A **Confiabilidade média** é variável, pois este valor é a média da confiabilidade dada pelo provedor ao analisar cada uma das perguntas do arquivo de teste.
 
 Caso o valor de alguma das outras métricas seja diferente do que está na tabela, significa que o modelo não está respondendo corretamente todas as perguntas. Sendo assim, a sugestão é conferir quais são elas nas abas **Top Falsos Positivos** e **Top Falsos Negativos**, onde é possível identificar qual intenção era esperada e qual foi reconhecida.
 
@@ -71,7 +71,7 @@ Além disso, também é gerado a **Matriz de Confusão** onde é possível ident
 
 ![](/img/ai/nlp/utilizando-arquivos-teste-analise-modelo-ia-03.png)
 
-A **coluna superior** representa as **intenções esperadas**, enquanto que a **coluna da esquerda** mostra as **intenções reconhecidas**. 
+A **coluna superior** representa as **intenções esperadas**, enquanto a **coluna da esquerda** mostra as **intenções reconhecidas**. 
 
 Ex.: Era-se esperado que **10 perguntas** fossem reconhecidas como ***Curiosidades***, mas apenas 5 foram. Portanto, há confusão entre a intenção Curiosidades com a intenção ***O que é, Sinais básicos***, e ***Como aprender***, pois uma pergunta foi reconhecida como ***O que é***, outra como ***Sinais básicos*** e outras 3 como ***Como aprender.***
 

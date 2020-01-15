@@ -41,7 +41,7 @@ Antes de mais nada, precisamos criar um novo contato (chatbot) na plataforma [bl
 
 Para este artigo apresentarei uma api desenvolvida em C# utilizando o framework [ASP.NET Web API](https://dotnet.microsoft.com/apps/aspnet/apis). Entretanto tenha em mente que a tecnologia escolhida para construir a API não importa, escolha aquela que lhe for mais conveniente. Para ver um outro exemplo de webhook, utilizando uma API escrita em JavaScript usando Node.JS, veja este [post](/docs/api-sdks/criando-um-bot-para-busca-de-imagens-no-bing).
 
-* Crie um novo projeto de uma aplicação *ASP.NET Web API* no *VisualStudio*
+* Crie um projeto de uma aplicação *ASP.NET Web API* no *VisualStudio*
 
 O mínimo que precisamos fazer agora é criar dois endpoints na API, um para receber as mensagens enviadas pelos usuários de seu chatbot e outra para receber notificações.
 

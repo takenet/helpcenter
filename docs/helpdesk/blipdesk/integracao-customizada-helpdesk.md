@@ -43,7 +43,7 @@ Uma vez entendido o que precisa ser feito vamos aos passos que devem ser seguido
 
 2. Enviando mensagens para a ferramenta de atendimento humano customizada.<br>
 
-    a. Acesse o código construido para a execução do Subbot 2 e faça com que todas as mensagens recebidas sejam devidamente enviadas para a ferramenta customizada. Para mais detalhes e exemplos de como receber mensagens em um bot SDK (ou HTTP) acesse a [documentação do BLiP](https://docs.blip.ai/#2-receiving-a-message).
+    a. Acesse o código construído para a execução do Subbot 2 e faça com que todas as mensagens recebidas sejam devidamente enviadas para a ferramenta customizada. Para mais detalhes e exemplos de como receber mensagens em um bot SDK (ou HTTP) acesse a [documentação do BLiP](https://docs.blip.ai/#2-receiving-a-message).
 
     **Observações**:
     * Utilize a propriedade **FROM** dos envelopes de mensagens recebidos para identificar o cliente que está solicitando atendimento humano.<br>

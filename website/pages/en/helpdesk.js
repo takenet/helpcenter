@@ -29,7 +29,7 @@ const data = {
       "title": "Como realizar um atendimento através do BLiP Desk",
       "type": "text",
       "url": "/docs/helpdesk/blipdesk/como-realizar-um-atendimento-atraves-do-blip-desk",
-      "abstract": "Saiba todos os passas necessários para realizar seu primeiro atendimento humano através do BLiP Desk",
+      "abstract": "Saiba todos os passos necessários para realizar seu primeiro atendimento humano através do BLiP Desk",
       "text": "Ver mais!"
     },
     {

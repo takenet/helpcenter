@@ -3,7 +3,7 @@ id: o-que-e-um-weblink
 title: O que é um Weblink?
 sidebar_label: O que é um Weblink?
 ---
-O tipo de conteúdo **weblink** permite que o bot envie para o cliente um link de qualquer página pública na internet. Esse tipo de conteúdo é muito útil para facilitar o acesso dos usuários, de forma simples, à informações disponíveis em sites e blogs.
+O tipo de conteúdo **weblink** permite que o bot envie para o cliente um link de qualquer página pública na internet. Esse tipo de conteúdo é muito útil para facilitar o acesso dos usuários, de forma simples, às informações disponíveis em sites e blogs.
 
 A imagem abaixo, apresenta um exemplo do Weblink no canal BLiP Chat.
 <br><br>
@@ -12,7 +12,7 @@ A imagem abaixo, apresenta um exemplo do Weblink no canal BLiP Chat.
 <br><br>
 Para criar um weblink é preciso definir 4 propriedades:
 
-**Url**: Link da página que será exibida **(obrigatório)**. O link DEVE deve estar acessível através do protocolo HTTPS *(páginas HTTP estarão acessíveis apenas com o target Blank)*.  
+**Url**: Link da página que será exibida **(obrigatório)**. O link **DEVE** estar acessível através do protocolo HTTPS *(páginas HTTP estarão acessíveis apenas com o target Blank)*.  
 **Title**: Título que será exibido no card de weblink **(obrigatório)**  
 **Description**: Descrição do link que será exibido no card **(opcional)**.  
 **Target**: Modo em que o link será aberto no momento em que o usuário clicar no card **(obrigatório)**.  
@@ -28,7 +28,7 @@ Exsitem 4 tipos possíveis de target:
 
 <br><br>Nos canais que suportam weblinks com os targets Self, SelfCompact e SelfTall, é possível utilizar esse conteúdo para gerar conteúdos customizados para cada bot.
 
-Imagine que seu bot precise solicitar uma data para o cliente. Neste caso, nâo existe um tipo de conteúdo, nativo, capaz de entregar uma boa experiência ao usuário. Para solucionar esse problema é possível criar uma página web, que possua um elemento específico para datas - um datepicker por exemplo, e utilizá-la através de um weblink.
+Imagine que seu bot precise solicitar uma data para o cliente. Neste caso, nâo existe um tipo de conteúdo, nativo, capaz de entregar uma boa experiência ao usuário. Para solucionar esse problema é possível criar uma página web, que possua um elemento específico para datas - um datepicker, por exemplo, e utilizá-la através de um weblink.
 
 Nestes casos, além de exibir a página web é possível também enviar informações coletadas na página para dentro da conversa. Para isso, é necessário adicionar bibliotecas específicas do canal (também chamadas de extensões) dentro da página web criada.
 

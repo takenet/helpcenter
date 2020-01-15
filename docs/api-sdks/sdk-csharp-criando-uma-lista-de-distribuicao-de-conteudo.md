@@ -10,7 +10,7 @@ Para resolver este problema basta utilizar a extensão de listas.
 
 1. Crie o projeto template do SDK C# do BLiP (veja como na [documentação do BLiP](https://docs.blip.ai/?csharp#using-sdk-csharp)).
 2. Adicione a interface IBroadcastExtension no construtor de seu MessageReceiver. Obs.: Ele será injetado automaticamente pelo SDK.
-3. Crie uma nova lista de distribuição utilizando o método CreateDistributionListAsync(string listName).
+3. Crie uma lista de distribuição utilizando o método CreateDistributionListAsync(string listName).
 4. Adicione um novo usuário à sua lista com o método AddRecipientAsync(string listName, Identity recipientIdentity).
 5. Finalmente, envie uma mensagem para todos os usuários de sua lista com o método SendMessageAsync(string listName, Document d).
 

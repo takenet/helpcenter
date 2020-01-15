@@ -12,7 +12,7 @@ Neste artigo explicarei, passo a passo, como criar uma página web e utilizá-la
 
 ## Para este exemplo, você vai precisar de:
 
-1. Página web (HTML, CSS e JS), devidamente construida, com um elemento datepicker (seletor de data). [Clique aqui para baixar uma página de exemplo](https://github.com/takenet/blip-chat-extension/blob/master/samples/demo-webview.html);
+1. Página web (HTML, CSS e JS), devidamente construída, com um elemento datepicker (seletor de data). [Clique aqui para baixar uma página de exemplo](https://github.com/takenet/blip-chat-extension/blob/master/samples/demo-webview.html);
 2. Adicione um script Javascript (blip-chat-extension) para permitir que sua página envie conteúdo para seu bot;
 3. Endpoint público (com https), que aponte para a sua página; (caso queira apenas testar, utilize o link: <https://blip-weblink-demo.herokuapp.com/>);
 4. Um bot que envie o tipo de conteúdo Weblink com o link da página criada no passo 1 (utilizando um dos targets: Self, SelfCompact e SelfTall).
@@ -25,9 +25,9 @@ Crie uma página web contendo os componentes necessários para o seu caso de uso
 
 ![Página de exemplo](/img/builder/builder-criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat-1.png)
 
-Você têm total liberdade para utilizar qualquer componente em sua página web, mas lembre-se que os componentes devem suportar os mais diversos browsers (desktop e mobile).
+Você tem total liberdade para utilizar qualquer componente em sua página web, mas lembre-se que os componentes devem suportar os mais diversos browsers (desktop e mobile).
 
-Outra dica importante é criar páginas mais netras, sem muitas cores e efeitos. Isso evita que o usuário sinta uma grande diferença entre todos os conteúdos nativos (texto, imagens e etc) e o conteúdo customizado que você está criando.
+Outra dica importante é criar páginas mais neutras, sem muitas cores e efeitos. Isso evita que o usuário sinta uma grande diferença entre todos os conteúdos nativos (texto, imagens e etc) e o conteúdo customizado que você está criando.
 
 ### 2. Adicione o script blip-chat-extension na página criada no passo anterior
 
