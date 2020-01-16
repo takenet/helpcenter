@@ -132,7 +132,8 @@
           "channels/whatsapp/criando-solucao-atendimento-humano-whatsapp",
           "channels/whatsapp/enviar-notificacao-whatsapp-blip-api",
           "channels/whatsapp/como-enviar-messages-templates-via-builder",
-          "channels/whatsapp/como-enviar-messages-template-respostas-prontas"
+          "channels/whatsapp/como-enviar-messages-template-respostas-prontas",
+          "channels/whatsapp/como-gerenciar-lista-de-distribuicao-notificacao-whatsapp"
           
         ]
       },

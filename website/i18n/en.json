@@ -532,6 +532,10 @@
         "title": "Como enviar messages templates via Builder",
         "sidebar_label": "Como enviar messages templates via Builder"
       },
+      "channels/whatsapp/como-gerenciar-lista-de-distribuicao-notificacao-whatsapp": {
+        "title": "Como gerenciar uma lista de distribuição para enviar notificações WhatsApp",
+        "sidebar_label": "Como gerenciar uma lista de distribuição para enviar notificações WhatsApp"
+      },
       "channels/whatsapp/como-interagir-whatsapp": {
         "title": "Como interagir com os usuários através do WhatsApp",
         "sidebar_label": "Como interagir com os usuários através do WhatsApp"
