@@ -7,20 +7,24 @@ sidebar_label: Como adicionar um bot em um aplicativo Android utilizando o BLiP 
 Com o **BLiP Chat**, é possível colocar o seu bot dentro do seu aplicativo Android de forma muito simples. Para isso, adicione a referência do repositório no arquivo `build.gradle` do seu projeto:
 
 ## 1. Adicionando referência
+Adicione a referência para o repositório Maven jcenter.
 
-```
+*Para dúvidas sobre este passo, consulte a documentação oficial: https://bintray.com/bintray/jcenter*
+
+```java
 allprojects {
     repositories {
         //others repository dependencies
-        maven { url 'http://dl.bintray.com/takenet/maven' }
+        jcenter()
     }
 }
+
 ```
 
 E importe o módulo via gradle:
 
-```
-compile 'net.take:blip-chat:2.0.6'
+```java
+implementation 'net.take:blip-chat:2.1.24'
 ```
 
 Ou via Maven:
@@ -29,10 +33,12 @@ Ou via Maven:
 <dependency>
   <groupId>net.take</groupId>
   <artifactId>blip-chat</artifactId>
-  <version>2.0.6</version>
+  <version>2.1.24</version>
   <type>pom</type>
 </dependency>
 ```
+
+Ou faça o download da [última versão JAR ](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22net.take%22)e importe para o seu app.
 
 ## 2. Pré-requisitos
 
@@ -107,7 +113,7 @@ blipOptions.setHideMenu(true);
 
 ### Título da janela
 
-No iOS, a janela do BLiP Chat possui um título que pode ser customizado. Para isso, defina o valor da propriedade **windowTitle** com o título apropriado. Por padrão, este título é *BLiP Chat*.
+No Android, a janela do BLiP Chat possui um título que pode ser customizado. Para isso, defina o valor da propriedade **windowTitle** com o título apropriado. Por padrão, este título é *BLiP Chat*.
 
 ```swift
 let options = BlipOptions()
