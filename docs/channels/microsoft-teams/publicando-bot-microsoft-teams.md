@@ -4,7 +4,6 @@ title: Como publicar seu bot no Microsoft Teams
 sidebar_label: Como publicar seu bot no Microsoft Teams
 ---
 
-**Atualmente, a integração com o canal Microsoft Teams está disponível apenas no Ambiente de homologação.**
 
 ### Introdução ao Microsoft Teams
 Acesse [o site oficial](https://products.office.com/pt-br/microsoft-teams/group-chat-software), utilize a versão online ou baixe e instale o aplicativo do Microsoft Teams.
