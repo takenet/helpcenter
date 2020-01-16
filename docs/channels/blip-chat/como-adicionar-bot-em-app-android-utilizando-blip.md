@@ -42,15 +42,24 @@ Ou faça o download da [última versão JAR ](http://search.maven.org/#search%7C
 
 ## 2. Pré-requisitos
 
-Para poder utilizar o BLiP Chat, seu app deve ter acesso à **internet**. Tal permissão deve ser requisitada dentro do arquivo *AndroidManifest.xml* do seu projeto. Se em algum momento o seu chatbot requisita a **localização** do usuário, você também deve adicionar a permissão de localização. Para tanto, **adicione as informações abaixo no arquivo de manifesto do seu projeto**:
+Para poder utilizar o BLiP Chat, seu app deve ter acesso à **internet**. Tal permissão deve ser requisitada dentro do arquivo *AndroidManifest.xml* do seu projeto. Se em algum momento o seu chatbot requisita a **localização** do usuário, você também deve adicionar a permissão de localização. Para **enviar arquivos**, você também precisará conceder permissões. Para tanto, **adicione as informações abaixo no arquivo de manifesto do seu projeto**:
 
 ```xml
 <manifest xlmns:android...>
     ...
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
     ...
 </manifest>
+```
+
+Também será necessário adicionar a dependência GSON ao seu aplicativo, uma vez que o BLiP Chat usa esta biblioteca.
+
+```java
+implementation 'com.google.code.gson:gson:2.8.5'
 ```
 
 ## 3. Abrindo sua janela de conversa
