@@ -289,6 +289,10 @@
         "title": "Customizando o BLiP Chat Widget através de CSS",
         "sidebar_label": "Customizando o BLiP Chat Widget através de CSS"
       },
+      "channels/blip-chat/funcionalidades-blip-chat-widget": {
+        "title": "Funcionalidades do BLiP Chat Widget",
+        "sidebar_label": "Funcionalidades do BLiP Chat Widget"
+      },
       "channels/blip-chat/o-que-e-blip-chat": {
         "title": "O que é o BLiP Chat?",
         "sidebar_label": "O que é o BLiP Chat?"

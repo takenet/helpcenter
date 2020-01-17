@@ -7,20 +7,24 @@ sidebar_label: Como adicionar um bot em um aplicativo Android utilizando o BLiP 
 Com o **BLiP Chat**, é possível colocar o seu bot dentro do seu aplicativo Android de forma muito simples. Para isso, adicione a referência do repositório no arquivo `build.gradle` do seu projeto:
 
 ## 1. Adicionando referência
+Adicione a referência para o repositório Maven jcenter.
 
-```
+*Para dúvidas sobre este passo, consulte a documentação oficial: https://bintray.com/bintray/jcenter*
+
+```java
 allprojects {
     repositories {
         //others repository dependencies
-        maven { url 'http://dl.bintray.com/takenet/maven' }
+        jcenter()
     }
 }
+
 ```
 
 E importe o módulo via gradle:
 
-```
-compile 'net.take:blip-chat:2.0.6'
+```java
+implementation 'net.take:blip-chat:2.1.24'
 ```
 
 Ou via Maven:
@@ -29,22 +33,33 @@ Ou via Maven:
 <dependency>
   <groupId>net.take</groupId>
   <artifactId>blip-chat</artifactId>
-  <version>2.0.6</version>
+  <version>2.1.24</version>
   <type>pom</type>
 </dependency>
 ```
 
+Ou faça o download da [última versão JAR ](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22net.take%22)e importe para o seu app.
+
 ## 2. Pré-requisitos
 
-Para poder utilizar o BLiP Chat, seu app deve ter acesso à **internet**. Tal permissão deve ser requisitada dentro do arquivo *AndroidManifest.xml* do seu projeto. Se em algum momento o seu chatbot requisita a **localização** do usuário, você também deve adicionar a permissão de localização. Para tanto, **adicione as informações abaixo no arquivo de manifesto do seu projeto**:
+Para poder utilizar o BLiP Chat, seu app deve ter acesso à **internet**. Tal permissão deve ser requisitada dentro do arquivo *AndroidManifest.xml* do seu projeto. Se em algum momento o seu chatbot requisita a **localização** do usuário, você também deve adicionar a permissão de localização. Para **enviar arquivos**, você também precisará conceder permissões. Para tanto, **adicione as informações abaixo no arquivo de manifesto do seu projeto**:
 
 ```xml
 <manifest xlmns:android...>
     ...
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
     ...
 </manifest>
+```
+
+Também será necessário adicionar a dependência GSON ao seu aplicativo, uma vez que o BLiP Chat usa esta biblioteca.
+
+```java
+implementation 'com.google.code.gson:gson:2.8.5'
 ```
 
 ## 3. Abrindo sua janela de conversa
@@ -94,7 +109,32 @@ Existem algumas possibilidades de customização do seu chat que podem ser confi
 * **Não logado**: na qual cada usuário é tratado como convidado e não há quaisquer informações sobre ele.
 * **Logado**: na qual o desenvolvedor do app é responsável por passar as informações do usuário para o BLiP Chat. Nesse modo, o histórico da conversa está disponível sempre que o usuário se conectar.
 
-Para entender melhor os possíveis modos de autenticação, veja este post.
+Para entender melhor os possíveis modos de autenticação, veja este [post](https://github.com/takenet/blip-chat-android#defining-authentication-type).
+
+Exemplo:
+
+```java
+import net.take.blipchat.AuthType;
+import net.take.blipchat.BlipClient;
+import net.take.blipchat.models.AuthConfig;
+import net.take.blipchat.models.BlipOptions;
+
+import org.limeprotocol.messaging.resources.Account;
+
+...
+
+AuthConfig authConfig = new AuthConfig(AuthType.Dev, "userId123PS","pass123PS");
+
+Account account = new Account();
+account.setFullName("User Name Android123");
+account.setEmail("test@android.com");
+
+BlipOptions blipOptions = new BlipOptions();
+blipOptions.setAuthConfig(authConfig);
+blipOptions.setAccount(account);
+
+BlipClient.openBlipThread(context, APP_KEY, blipOptions);
+```
 
 ### Esconder o menu da janela
 
@@ -107,7 +147,7 @@ blipOptions.setHideMenu(true);
 
 ### Título da janela
 
-No iOS, a janela do BLiP Chat possui um título que pode ser customizado. Para isso, defina o valor da propriedade **windowTitle** com o título apropriado. Por padrão, este título é *BLiP Chat*.
+No Android, a janela do BLiP Chat possui um título que pode ser customizado. Para isso, defina o valor da propriedade **windowTitle** com o título apropriado. Por padrão, este título é *BLiP Chat*.
 
 ```swift
 let options = BlipOptions()
