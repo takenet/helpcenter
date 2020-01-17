@@ -109,7 +109,32 @@ Existem algumas possibilidades de customização do seu chat que podem ser confi
 * **Não logado**: na qual cada usuário é tratado como convidado e não há quaisquer informações sobre ele.
 * **Logado**: na qual o desenvolvedor do app é responsável por passar as informações do usuário para o BLiP Chat. Nesse modo, o histórico da conversa está disponível sempre que o usuário se conectar.
 
-Para entender melhor os possíveis modos de autenticação, veja este post.
+Para entender melhor os possíveis modos de autenticação, veja este [post](https://github.com/takenet/blip-chat-android#defining-authentication-type).
+
+Exemplo:
+
+```java
+import net.take.blipchat.AuthType;
+import net.take.blipchat.BlipClient;
+import net.take.blipchat.models.AuthConfig;
+import net.take.blipchat.models.BlipOptions;
+
+import org.limeprotocol.messaging.resources.Account;
+
+...
+
+AuthConfig authConfig = new AuthConfig(AuthType.Dev, "userId123PS","pass123PS");
+
+Account account = new Account();
+account.setFullName("User Name Android123");
+account.setEmail("test@android.com");
+
+BlipOptions blipOptions = new BlipOptions();
+blipOptions.setAuthConfig(authConfig);
+blipOptions.setAccount(account);
+
+BlipClient.openBlipThread(context, APP_KEY, blipOptions);
+```
 
 ### Esconder o menu da janela
 
