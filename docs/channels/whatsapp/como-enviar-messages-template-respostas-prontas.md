@@ -26,8 +26,8 @@ Preencha o nome da categoria conforme deseja e clique no botão **adicionar resp
 
 ![Adicionando respostas com conteúdo dinâmico](/img/channels/whatsapp/como-enviar-messages-template-respostas-prontas-2.png)
 
-
-Por sua vez, neste tipo de conteúdo, preencha os três campos apresentados. Assim sendo, selecione o valor *application/json* para o campo **tipo** e para o campo **conteúdo** preencha conforme código abaixo adaptando de acordo com seu message template.
+### Preenchendo o conteúdo dinâmico
+Neste tipo de conteúdo, preencha os três campos apresentados. Assim sendo, selecione o valor *application/json* para o campo **tipo** e para o campo **conteúdo** preencha conforme código abaixo adaptando de acordo com seu message template.
 
 ```json
  {
@@ -43,11 +43,37 @@ Por sua vez, neste tipo de conteúdo, preencha os três campos apresentados. Ass
         }
       ]
     }
-
+ }
 ```
 
 
 Substitua as variáveis **{NAMESPACE}** e **{ELEMENT_NAME}** em conformidade com os valores correspondentes do message template a ser enviado e, do mesmo modo, adicione ou remova valores no campo **localizable_params**. 
+
+Para ilustrar, suponhamos que seu message template contém 3 placeholders, sendo o primeiro placeholder o nome do contato, o segundo a data atual e, por último, um conteúdo que deseja preencher livremente. Para cada placeholders deve existir um objeto correspondente interno ao array **localizable_params**, os objetos serão apresentados respectivamente. Observe o código solução abaixo:
+
+```json
+{
+    "type": "hsm",
+    "hsm": {
+      "namespace": "{NAMESPACE}",
+      "element_name": "{ELEMENT_NAME}",
+      "fallback_lg": "pt",
+      "fallback_lc": "BR",
+      "localizable_params": [
+        {
+          "default": "${contact.name}"
+        },
+        {
+          "default": "${calendar.date}"
+        },
+        {
+          "default": "Meu preenchimento livre"
+        }
+      ]
+    }
+ }
+
+```
 
 ![Preenchendo campos da resposta pronta](/img/channels/whatsapp/como-enviar-messages-template-respostas-prontas-3.png)
 

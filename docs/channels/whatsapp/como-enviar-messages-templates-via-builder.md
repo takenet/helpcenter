@@ -21,9 +21,11 @@ Para enviar uma notificação, acesse a aba de **Growth** na funcionalidade de *
 
 ![Selecionando opção Growth](/img/channels/whatsapp/como-enviar-messages-templates-via-builder-1.png)
 
+### Preenchendo o conteúdo do broadcast 
+
 A funcionalidade apresentada, permitirá o envio de diversos conteúdos, neste caso o tipo de conteúdo utilizado para o envio de message template é o **conteúdo dinâmico**, sendo assim selecione-o assim como apresentado na imagem abaixo. 
 
-![Criando o contéudo do Broadcast](/img/channels/whatsapp/como-enviar-messages-templates-via-builder-2.png)
+![Criando o conteúdo do Broadcast](/img/channels/whatsapp/como-enviar-messages-templates-via-builder-2.png)
 
 Neste tipo de conteúdo, preencha os dois campos apresentados. Assim sendo, selecione o valor *application/json* para o campo **tipo** e para o campo **conteúdo** preencha conforme código abaixo adaptando de acordo com seu message template.
 
@@ -41,19 +43,49 @@ Neste tipo de conteúdo, preencha os dois campos apresentados. Assim sendo, sele
         }
       ]
     }
-
+ }
 ```
 
 
-Substitua as variáveis **{NAMESPACE}** e **{ELEMENT_NAME}** em conformidade com os valores correspondentes do message template a ser enviado e, do mesmo modo, adicione ou remova valores no campo **localizable_params**.
+Substitua as variáveis **{NAMESPACE}** e **{ELEMENT_NAME}** em conformidade com os valores correspondentes do message template a ser enviado e, do mesmo modo, adicione ou remova objetos no array **localizable_params**.
+
+Para ilustrar, suponhamos que seu message template contém 3 placeholders, sendo o primeiro placeholder o nome do contato, o segundo a data atual e, por último, um conteúdo que deseja preencher livremente. Para cada placeholders deve existir um objeto correspondente interno ao array **localizable_params**, os objetos serão apresentados respectivamente. Observe o código solução abaixo:
+
+```json
+{
+    "type": "hsm",
+    "hsm": {
+      "namespace": "{NAMESPACE}",
+      "element_name": "{ELEMENT_NAME}",
+      "fallback_lg": "pt",
+      "fallback_lc": "BR",
+      "localizable_params": [
+        {
+          "default": "${contact.name}"
+        },
+        {
+          "default": "${calendar.date}"
+        },
+        {
+          "default": "Meu preenchimento livre"
+        }
+      ]
+    }
+ }
+
+```
 
 ![Preenchendo conteúdo com message template](/img/channels/whatsapp/como-enviar-messages-templates-via-builder-3.png)
+
+### Definindo sua audiência
 
 Finalizando este primeiro processo, selecione a lista de envio no qual será encaminhado o message template em questão.
 
 ![Definindo sua audiência](/img/channels/whatsapp/como-enviar-messages-templates-via-builder-4.png)
 
-Por fim, selecione o tipo de mensagem e envie ou agende a mensagem.
+### Enviando ou agendando o broadcast 
+
+Por fim, selecione o tipo de mensagem e envie ou agende a mensagem, conforme necessidade.
 
 ![Enviando de conteúdo com message template](/img/channels/whatsapp/como-enviar-messages-templates-via-builder-5.png)
 
