@@ -172,6 +172,20 @@ class Faq extends React.Component {
                 <a href="/docs/router/hierarquia-bots-subbots/" className="faq-links-link">Como orquestrar diferentes iniciativas de bots na minha empresa? </a>
               </div>
             </div>
+
+            <div className="card-faq">
+              <div className="title-faq">
+                <p className="title"> BLiP Chat Widget</p>
+              </div>
+              <div className="faq-links">
+                <a href="/docs/channels/blip-chat/adicionar-bot-site-blip-chat/" className="faq-links-link">Como colocar o BLiP Chat em meu site? </a>
+                <a href="/docs/channels/blip-chat/como-adicionar-bot-em-app-android-utilizando-blip/" className="faq-links-link">Preciso de um chat em um app Android, como fazer? </a>
+                <a href="/docs/channels/blip-chat/funcionalidades-blip-chat-widget" className="faq-links-link">Consigo ligar o contato logado do site no meu chat?</a>
+                <a href="/docs/channels/blip-chat/como-adicionar-bot-em-app-ios-utilizando-blip/" className="faq-links-link">Como colocar o chat em um app iOS? </a>
+                <a href="/docs/channels/blip-chat/customizando-o-blip-chat-widget-com-css/" className="faq-links-link">É possível customizar o chat no meu site? </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
