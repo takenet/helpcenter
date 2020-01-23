@@ -165,13 +165,32 @@
         "title": "Utilizando o Textc para construir uma conversa contextual",
         "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
       },
+      "builder/acao-definir-variavel": {
+        "title": "Ação: Definir variável",
+        "sidebar_label": "Ação: Definir variável"
+      },
+      "builder/acao-executar-script": {
+        "title": "builder/acao-executar-script"
+      },
+      "builder/acao-gerenciar-listas": {
+        "title": "Ação: Gerenciar listas de distribuição",
+        "sidebar_label": "Ação: Gerenciar listas de distribuição"
+      },
       "builder/acao-processar-comando": {
         "title": "Ação: Processar Comando",
         "sidebar_label": "Ação: Processar Comando"
       },
+      "builder/acao-redirecionar-servico": {
+        "title": "Ação: Redicionar a um serviço",
+        "sidebar_label": "Ação: Redirecionar a um serviço"
+      },
       "builder/acao-registro-evento": {
         "title": "Ação: Registro de eventos",
         "sidebar_label": "Ação: Registro de eventos"
+      },
+      "builder/acao-requisicao-http": {
+        "title": "Ação: Requisição HTTP",
+        "sidebar_label": "Ação: Requisição HTTP"
       },
       "builder/como-definir-um-tempo-limite-para-acoes-do-builder": {
         "title": "Como definir um tempo limite (timeout) para ações do Builder",
