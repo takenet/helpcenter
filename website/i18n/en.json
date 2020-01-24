@@ -170,7 +170,8 @@
         "sidebar_label": "Ação: Definir variável"
       },
       "builder/acao-executar-script": {
-        "title": "builder/acao-executar-script"
+        "title": "Ação: Executar script",
+        "sidebar_label": "Ação: Executar script"
       },
       "builder/acao-gerenciar-listas": {
         "title": "Ação: Gerenciar listas de distribuição",
