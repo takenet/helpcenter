@@ -27,7 +27,7 @@ function run(inputVariable1, inputVariable2) {
 ```
 A função **run** é a que será executada como principal. Os parâmetros *inputVariableX* são as variáveis definidas como variáveis de entradas e o *return* é o que será enviado para a variável definida como retorno.
 
-#### Observação: 
+#### Observações: 
 
 * Todas as variáveis de entrada devem ser passadas como parâmetros da função;
 * *Objetos* recebidos como parâmetro devem ser transformados em um objeto *JSON*. *Ex.: JSON.parse(inputVariable1)*;
