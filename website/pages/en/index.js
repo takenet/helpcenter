@@ -164,30 +164,30 @@ class Index extends React.Component {
               <ul className="ul-recent-accessed">
 
                 <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/ai/nlp/como-configurar-luis/" >
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/customprovider/como-conectar-a-um-canal-de-atendimento-personalizado" >
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Como configurar o Luis como um provedor de Inteligência Artificial
+                    Como conectar a um canal de atendimento personalizado
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/whatsapp/arquitetura-do-whatsapp/">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/blip-chat/funcionalidades-blip-chat-widget">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Arquitetura do canal WhatsApp
+                    Funcionalidades do BLiP Chat Widget
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/messenger/tipos-conteudo-messenger/">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/visao-geral-das-acoes">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Tipos de conteúdo suportados pelo Messenger
+                    Visão geral das ações
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-realizar-um-atendimento-atraves-do-blip-desk/">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/blip-chat/como-adicionar-bot-em-app-android-utilizando-blip">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Como realizar um atendimento através do BLiP Desk
+                    Como adicionar um bot em um aplicativo Android...
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
@@ -264,30 +264,30 @@ class Index extends React.Component {
               <div className="hidden-content">
                 <ul className="ul-recent-accessed">
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/ai/nlp/como-configurar-luis/" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/customprovider/como-conectar-a-um-canal-de-atendimento-personalizado" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Como configurar o Luis como um provedor de Inteligência Artificial
+                      Como conectar a um canal de atendimento personalizado
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/whatsapp/arquitetura-do-whatsapp/" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/blip-chat/funcionalidades-blip-chat-widget" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Arquitetura do canal WhatsApp
+                      Funcionalidades do BLiP Chat Widget
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/messenger/tipos-conteudo-messenger/" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/visao-geral-das-acoes" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Tipos de conteúdo suportados pelo Messenger
+                      Visão geral das ações
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
-                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-realizar-um-atendimento-atraves-do-blip-desk/" target="_blank">
+                    <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/blip-chat/como-adicionar-bot-em-app-android-utilizando-blip" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Como realizar um atendimento através do BLiP Desk
+                      Como adicionar um bot em um aplicativo Android...
                     </a>
                   </li>
                 </ul>
