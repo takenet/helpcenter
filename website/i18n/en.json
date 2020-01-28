@@ -97,6 +97,10 @@
         "title": "Descrição das métricas geradas pelo BLiP",
         "sidebar_label": "Descrição das métricas geradas pelo BLiP"
       },
+      "analytics/descricao-metricas-geradas-blip": {
+        "title": "Descrição das métricas geradas pelo BLiP",
+        "sidebar_label": "Descrição das métricas geradas pelo BLiP"
+      },
       "analytics/entendendo-diferentes-tipos-msg": {
         "title": "Entendendo os diferentes tipos de mensagem do BLiP",
         "sidebar_label": "Entendendo os diferentes tipos de mensagem do BLiP"
