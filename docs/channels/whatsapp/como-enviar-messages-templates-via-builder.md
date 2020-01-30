@@ -1,7 +1,7 @@
 ---
 id: como-enviar-messages-templates-via-builder
-title: Como enviar messages templates via Builder
-sidebar_label: Como enviar messages templates via Builder
+title: Como enviar notificações WhatsApp via Builder
+sidebar_label: Como enviar notificações WhatsApp via Builder
 ---
 
 Através do BLiP, é possível criar aplicações para o canal WhatsApp capazes **não só de responder às mensagens recebidas**, mas também de **enviar mensagens (notificações) para o cliente de forma ativa**.
