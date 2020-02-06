@@ -30,7 +30,7 @@ Por sua vez, será necessário configurar a aplicação como bot, conforme apres
 
 ![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-5.png)<br>
 
-Finalizada sua configuração inicial, gere uma senha no botão **"generate new passwork"** e armazene a mesma, pois utilizaremos da mesma nas demais etapas. Além disso, preencha o campo **Bot endpoint address** com https://abs.gw.msging.net/**{AccountExternalId}**, substitua o **{AccountExternalId}** com o valor do mesmo.
+Finalizada sua configuração inicial, gere uma senha no botão **"generate new password"** e armazene a mesma, pois utilizaremos da mesma nas demais etapas. Além disso, preencha o campo **Bot endpoint address** com https://abs.gw.msging.net/**{AccountExternalId}**, substitua o **{AccountExternalId}** com o valor do mesmo.
 Em suma, o valor abaixo do nome do Bot (*05465a70-2a28-45c7-babe-333aa39cbcd1*) corresponde ao **ApplicationId**, enquanto a senha gerada e parcialmente visualizada no campo *password* equivale ao **ApplicationPassword**.
 
 ![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-6.png)<br>

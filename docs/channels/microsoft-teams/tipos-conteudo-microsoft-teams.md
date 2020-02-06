@@ -54,7 +54,7 @@ Permite o envio de um link para uma página na web, permitindo que elas sejam ab
 
 ### Carrossel
 
-Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título. Para mais informações, acesse https://docs.blip.ai/#carousel.
+Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, porém com suporte a imagens como título, **com no máximo 10 *cards***. Para mais informações, acesse https://docs.blip.ai/#carousel.
 
 ![](/img/channels/microsoft-teams/tipos-conteudo-microsoft-teams-8.png)<br>
 
