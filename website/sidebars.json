@@ -252,7 +252,6 @@
       "analytics/entendendo-diferentes-tipos-msg",
       "analytics/o-que-sao-usuarios-unicos",
       "analytics/integracao-ferramentas-analytics",
-      "analytics/rd-station/como-enviar-dados-rd-station",
       {
         "type": "subcategory",
         "label": "BLiP Analytics",
@@ -280,6 +279,13 @@
         "label": "Dashbot",
         "ids": [
           "analytics/dashbot/como-enviar-dados-dashbot"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "RD Station",
+        "ids": [
+          "analytics/rd-station/como-enviar-dados-rd-station"
         ]
       },
       {
