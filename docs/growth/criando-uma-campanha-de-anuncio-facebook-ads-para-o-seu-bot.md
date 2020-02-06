@@ -49,3 +49,36 @@ Além de preencher a imagem e os dados do anúncio é possível analisar como el
 ![Recebendo notificação do Facebook](/img/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-6.png)
 
 \* *Integração realizada em parceria com a **SugarAds**.*
+
+## Iniciando uma conversa com o bot vindo de ADS
+Quando o Messenger é aberto via ADS, uma mensagem do tipo *chatstate* é enviada ao bot, antes de qualquer outro *payload*. Ela tem como objetivo informar, via metadata:
+
+* **messenger.source**: de onde o Messenger foi aberto, regularmente esse campo é igual a 'ADS';
+* **messenger.type**: o tipo de interação com o Messenger, regularmente esse campo é igual a 'OPEN_THREAD';
+* **messenger.ad_id**: o Id do AD;
+* **messenger.ref**: a url do AD, caso ele seja externo ao Facebook.
+
+Através da [execução do script](/docs/builder/acao-executar-script) abaixo, é possível extrair todos estes dados do metadata da mensagem, sendo necessário passar **input.message** como variável de entrada:
+
+```javascript
+    function run(message) {
+        message = JSON.parse(message);
+        if (message.type === 'application/vnd.lime.chatstate+json') {
+            const metadata = message.metadata;
+            const messengerMetadatas = { 
+                'ref' : metadata['messenger.ref'],
+                'source' : metadata['messenger.source'],
+                'type' : metadata['messenger.type'],
+                'adId' : metadata['messenger.ad_id'],
+            };
+            return JSON.stringify(messengerMetadatas);
+        }
+        return null;
+    }
+```
+
+No entanto, caso você queria apenas ignorar o *chatstate* no início do fluxo do bot, é necessário apenas adicionar a condição de saída abaixo no bloco **'Início'**:
+
+![](/img/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-7.png)
+
+Esta condição de saída fará um loop no bloco 'Início' caso a mensagem seja do tipo chatstate, esse loop terá apenas um iteração, porque apenas uma mensagem deste tipo é enviada no ínicio da conversa.

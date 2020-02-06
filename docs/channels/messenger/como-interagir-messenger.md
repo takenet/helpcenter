@@ -26,7 +26,7 @@ Muitas pessoas encontrarão o bot pela Página do Facebook, muitas vezes por mei
 ![Páginas do Facebook](/img/channels/messenger/como-interagir-messenger-4.png)<br>
 
 ### Anúncios de Clique para o Messenger
-É possível usar anúncios de clique para o Messenger para iniciar conversas em escala, aproveitando o direcionamento do Facebook para encontrar clientes relevantes para suas empresas.
+É possível usar anúncios de clique para o Messenger para iniciar conversas em escala, aproveitando o direcionamento do Facebook para encontrar clientes relevantes para suas empresas. Para saber como criar um anúncio e integrá-lo ao seu fluxo, acesse [este artigo](/docs/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot).
 
 ![Anúncios de clique](/img/channels/messenger/como-interagir-messenger-5.png)<br>
 
