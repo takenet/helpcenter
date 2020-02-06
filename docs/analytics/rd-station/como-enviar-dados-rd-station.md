@@ -4,7 +4,7 @@ title: Integração RD Station - Enviando dados de um bot para o RD Station
 sidebar_label: Integração RD Station - Enviando dados de um bot para o RD Station
 ---
 
-Seguindo as diretivas do RD Station sobre a integração com serviço de terceiros, o processo de conexão foi totalmente remodelado, usando o conceito de [aplicativos](https://appstore.rdstation.com/pt-BR).
+Siga os passos abaixo para realizar a integração entre o RD Station e o BLiP.
 
 ## 1. Instalando o Aplicativo do BLiP no RD Station
 
