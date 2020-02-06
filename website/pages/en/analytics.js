@@ -80,7 +80,14 @@ const data = {
       "url": "/docs/analytics/dashbot/como-enviar-dados-dashbot",
       "abstract": "Envie os dados gerados pelo bot para a ferramenta Dashbot",
       "text": "Ver mais!"
-    }
+    },
+    {  
+      "title":"Integração RD Station - Enviando dados de um bot para o RD Station",
+      "type": "text",
+      "url": "/docs/analytics/rd-station/como-enviar-dados-rd-station", 
+      "abstract":"Saiba tudo sobre a integração, comandos e como enviar dados do seu bot diretamente para o RD Station",
+      "text":"Ver mais!"
+   }
   ]
 };
 //BLiP Icon for SVGs

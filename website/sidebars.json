@@ -252,6 +252,7 @@
       "analytics/entendendo-diferentes-tipos-msg",
       "analytics/o-que-sao-usuarios-unicos",
       "analytics/integracao-ferramentas-analytics",
+      "analytics/rd-station/como-enviar-dados-rd-station",
       {
         "type": "subcategory",
         "label": "BLiP Analytics",
