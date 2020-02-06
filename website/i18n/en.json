@@ -113,6 +113,10 @@
         "title": "O que são usuários únicos do BLiP",
         "sidebar_label": "O que são usuários únicos do BLiP"
       },
+      "analytics/rd-station/como-enviar-dados-rd-station": {
+        "title": "Integração RD Station - Enviando dados de um bot para o RD Station",
+        "sidebar_label": "Integração RD Station - Enviando dados de um bot para o RD Station"
+      },
       "analytics/webhook/enviando-dados-atraves-webhook": {
         "title": "Enviando dados do seu bot através de Webhooks",
         "sidebar_label": "Enviando dados do seu bot através de Webhooks"
@@ -557,8 +561,8 @@
         "sidebar_label": "Como enviar messages template através de respostas prontas do BLiP Desk"
       },
       "channels/whatsapp/como-enviar-messages-templates-via-builder": {
-        "title": "Como enviar messages templates via Builder",
-        "sidebar_label": "Como enviar messages templates via Builder"
+        "title": "Como enviar notificações WhatsApp via Builder",
+        "sidebar_label": "Como enviar notificações WhatsApp via Builder"
       },
       "channels/whatsapp/como-gerenciar-lista-de-distribuicao-notificacao-whatsapp": {
         "title": "Como gerenciar uma lista de distribuição para enviar notificações WhatsApp",
