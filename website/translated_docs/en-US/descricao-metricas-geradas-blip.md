@@ -4,13 +4,13 @@ title: Descrição das métricas geradas pelo BLiP
 sidebar_label: Descrição das métricas geradas pelo BLiP
 ---
 
-O módulo de análise do BLiP exibe informações baseadas nos diversos eventos ocorridos em um bot. Esses eventos estão categorizados em três dimensões:
+The BLiP Analytics module displays information based on the events that happened in a bot. These events are categorized in three dimensions:
 
-* Mensagens
-* Usuários
-* Eventos personalizados
+* Messages
+* Users
+* Custom events
 
-O relatório **Visão geral**, presente no módulo de análise, possui gráficos (ou métricas) relacionados apenas às dimensões de Mensagens e Usuários. Todos os demais relatórios customizados podem conter relatórios de qualquer uma das três dimensões disponíveis.
+The **Dashboard** report, found in the Analytics module, has charts (or metrics) related only to the Users and Messages dimensions. Todos os demais relatórios customizados podem conter relatórios de qualquer uma das três dimensões disponíveis.
 
 A descrição de como cada uma das métricas contidas no relatório **Visão geral** estão dispostas abaixo:
 
