@@ -10,4 +10,4 @@ The following video shows the overview of the BLiP functions. <iframe width="778
 
 Important links:
 
-[**Portal do BLiP**](https://portal.blip.ai/) (para criar uma conta e começar a utilizar a plataforma. 😉) [**Documentação**](https://docs.blip.ai/) [**Comunidade do Facebook**](https://goo.gl/wnE1Vt) [**Fórum de dúvidas**](https://forum.blip.ai/)  
+[**BLiP Portal**](https://portal.blip.ai/) (Use this link to create an account and start to use the plataform. 😉) [**Documentação**](https://docs.blip.ai/) [**Comunidade do Facebook**](https://goo.gl/wnE1Vt) [**Fórum de dúvidas**](https://forum.blip.ai/)  
