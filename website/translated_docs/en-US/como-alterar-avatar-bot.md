@@ -1,7 +1,7 @@
 ---
 id: como-alterar-avatar-bot
-title: Como alterar o avatar (foto) do bot
-sidebar_label: Como alterar o avatar (foto) do bot
+title: How to update the bot image
+sidebar_label: How to update the bot image
 ---
 
 A foto de um contato inteligente (bot) é uma das informações mais importantes deste tipo de aplicação. É através dela que se cria a primeira conexão entre o cliente e marca da empresa.
