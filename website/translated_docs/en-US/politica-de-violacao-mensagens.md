@@ -11,7 +11,7 @@ Em resumo, essas políticas dizem que empresas e desenvolvedores que usam esses 
 ## Mensagens de Respostas
 São as mensagens enviadas pelo bot, em até 24 horas, após o recebimento de uma mensagem do cliente. Todas as mensagens definidas nos blocos de conteúdo do Builder são mensagens de resposta.
 
-## Mensagens ativas
+## Active messages
 
 São as mensagens enviadas pelo bot, depois de 24 horas, após o recebimento de uma mensagem do cliente. Mensagens ativas podem ser tarifadas e devem ser enviadas seguindo algumas regras específicas por canal.
 
