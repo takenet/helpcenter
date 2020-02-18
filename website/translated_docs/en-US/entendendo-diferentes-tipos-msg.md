@@ -13,10 +13,10 @@ Total number of messages sent or received by the bot to the users in a given per
 Messages received by the bot from the users in a given period.
 
 ## Sent messages
-Messages sent by the bot to the users in a given period. Mensagens enviadas podem ser classificadas entre mensagens ativas ou de resposta.
+Messages sent by the bot to the users in a given period. Sent messages can be further classified as active or reply type messages.
 
 ## Active messages
-São as mensagens enviadas pelo bot, **depois de 24 horas**, após o recebimento de uma mensagem do cliente. Mensagens ativas podem ser tarifadas e devem ser enviadas seguindo algumas regras específicas por canal.
+Messages that were sent by the bot **24 hours after** having received a message from the client. Active messages require following specific rules per channel and may incur additional charges.
 
-## Mensagens de Respostas
+## Reply messages
 São as mensagens enviadas pelo bot, em até 24 horas, após o recebimento de uma mensagem do cliente. Em geral, todas as mensagens definidas nos blocos de conteúdo do Builder são mensagens de resposta.
