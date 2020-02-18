@@ -1,21 +1,21 @@
 ---
 id: entendendo-diferentes-tipos-msg
-title: Entendendo os diferentes tipos de mensagem do BLiP
-sidebar_label: Entendendo os diferentes tipos de mensagem do BLiP
+title: Understanding the different types of messages inside BLiP
+sidebar_label: Understanding the different types of messages inside BLiP
 ---
 
-O BLiP utiliza diferentes nomenclaturas para se referir a diferentes subcategorias de mensagens. Este artigo apresenta e descreve cada um dos tipos possíveis de mensagens utilizados na plataforma. **Note que em todos os casos o ponto referencial é sempre o bot.**
+BLiP uses distinct names for each of its different message subcategories. This article describes each one of the existing types of messages used in the platform. **Note that in all of the following cases, the point of reference is always the bot.**
 
 ## Exchanged messages
-Total de mensagens enviadas ou recebidas pelo bot aos usuários em um período.
+Total number of messages sent or received by the bot to the users in a given period.
 
 ## Received messages
-Mensagens que o bot recebeu dos usuários em um período.
+Messages that the bot received from the users in a given period.
 
 ## Sent messages
 Mensagens que o bot enviou aos usuários em um período. Mensagens enviadas podem ser classificadas entre mensagens ativas ou de resposta.
 
-## Mensagens Ativas
+## Active messages
 São as mensagens enviadas pelo bot, **depois de 24 horas**, após o recebimento de uma mensagem do cliente. Mensagens ativas podem ser tarifadas e devem ser enviadas seguindo algumas regras específicas por canal.
 
 ## Mensagens de Respostas
