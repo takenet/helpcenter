@@ -6,7 +6,7 @@
  */
 const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
-
+const translate = require('../../server/translate.js').translate;
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
@@ -41,10 +41,10 @@ class HomeSplash extends React.Component {
       <div>
         <div className="div-rectangle-main">
           <img className="main-logo" src="img/logo.svg" />
-          <h1 className="main-title"> Estamos aqui para te ajudar!</h1>
+          <h1 className="main-title"><translate>Estamos aqui para te ajudar!</translate> </h1>
           <div className="main-subtitle">
-            Antes de começar a explorar, que tal escolher uma área de conhecimento?
-              <p className="main-subsubtitle">Os níveis de conhecimento servem para melhor filtrar os conteúdos que podem auxiliar a tirar suas dúvidas =)</p>
+            <translate>Antes de começar a explorar, que tal escolher uma área de conhecimento?</translate>
+              <p className="main-subsubtitle"><translate>Os níveis de conhecimento servem para melhor filtrar os conteúdos que podem auxiliar a tirar suas dúvidas =)</translate></p>
           </div>
         </div>
         <div className="flexbox-container">
@@ -56,14 +56,14 @@ class HomeSplash extends React.Component {
             </div>
             <div className="card-info">
               <div className="card-title">
-                <p>Introdução à plataforma</p>
+                <p><translate>Introdução à plataforma</translate></p>
               </div>
-              <p className="card-text">Começou a usar o BLiP agora? Preparamos este conteúdo para ajudar nos seus primeiros passos.</p>
+              <p className="card-text"><translate>Começou a usar o BLiP agora? Preparamos este conteúdo para ajudar nos seus primeiros passos.</translate></p>
               <div className="card-icon">
                 <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon>
               </div>
               <a href="/docs/introduction/visao-geral-da-plataforma" className="card-button">Começar aqui</a>
-              <p className="card-text-mobile">Começou a usar o BLiP agora? Preparamos este conteúdo exclusivamente para ajudar nos seus primeiros passos.</p>
+              <p className="card-text-mobile"><translate>Começou a usar o BLiP agora? Preparamos este conteúdo exclusivamente para ajudar nos seus primeiros passos.</translate></p>
             </div>
           </div></a>
 
@@ -75,14 +75,14 @@ class HomeSplash extends React.Component {
             </div>
             <div className="card-info">
               <div className="card-title">
-                <p>Explorando a plataforma</p>
+                <p><translate>Explorando a plataforma</translate></p>
               </div>
               <div className="card-icon">
                 <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon>
               </div>
-              <p className="card-text">Para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</p>
-              <a href="/blipareas" className="card-button">Começar aqui</a>
-              <p className="card-text-mobile">Para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</p>
+              <p className="card-text"><translate>Para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</translate></p>
+              <a href="/blipareas" className="card-button"><translate>Começar aqui</translate></a>
+              <p className="card-text-mobile"><translate>Para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.</translate></p>
             </div>
           </div></a>
 
@@ -95,14 +95,14 @@ class HomeSplash extends React.Component {
               </div>
               <div className="card-info">
                 <div className="card-title">
-                  <p>Dominando o BLiP</p>
+                  <p><translate>Dominando o BLiP</translate></p>
                 </div>
                 <div className="card-icon">
                   <BlipIcon name="arrow-ball-down-solid" className="bp-fs-2 bp-fill-bot"></BlipIcon>
                 </div>
-                <p className="card-text">Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
-                <a target="blank" href="https://docs.blip.ai" className="card-button">Começar aqui</a>
-                <p className="card-text-mobile">Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</p>
+                <p className="card-text"><translate>Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</translate></p>
+                <a target="blank" href="https://docs.blip.ai" className="card-button"><translate>Começar aqui</translate></a>
+                <p className="card-text-mobile"><translate>Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!</translate></p>
               </div>
             </div>
           </a>
@@ -159,35 +159,35 @@ class Index extends React.Component {
 
             <div className="div-recent-accessed-list">
 
-              <h2 className="h2-recent-accessed">Mais recentes</h2>
+              <h2 className="h2-recent-accessed"><translate>Mais recentes</translate></h2>
 
               <ul className="ul-recent-accessed">
 
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/customprovider/como-conectar-a-um-canal-de-atendimento-personalizado" >
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Como conectar a um canal de atendimento personalizado
+                    <translate>Como conectar a um canal de atendimento personalizado</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/blip-chat/funcionalidades-blip-chat-widget">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Funcionalidades do BLiP Chat Widget
+                    <translate>Funcionalidades do BLiP Chat Widget</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/visao-geral-das-acoes">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Visão geral das ações
+                    <translate>Visão geral das ações</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/blip-chat/como-adicionar-bot-em-app-android-utilizando-blip">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Como adicionar um bot em um aplicativo Android...
+                    <translate>Como adicionar um bot em um aplicativo Android...</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
@@ -198,35 +198,35 @@ class Index extends React.Component {
 
             <div className="div-recent-accessed-list">
 
-              <h2 className="h2-recent-accessed">Mais acessados</h2>
+              <h2 className="h2-recent-accessed"><translate>Mais acessados</translate></h2>
 
               <ul className="ul-recent-accessed">
 
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/introduction/como-criar-um-bot-com-builder/">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Como criar um bot com o Builder do BLiP
+                    <translate>Como criar um bot com o Builder do BLiP</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/ai/nlp/como-configurar-dialogflow/">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Como configurar o DialogFlow como um provedor de Inteligência Artificial
+                    <translate>Como configurar o DialogFlow como um provedor de Inteligência Artificial</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/visao-geral-do-builder/">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Visão geral do Builder
+                    <translate>Visão geral do Builder</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="docs/channels/whatsapp/enviar-notificacao-whatsapp-blip-api/">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    Enviar notificações WhatsApp via API do BLiP
+                    <translate>Enviar notificações WhatsApp via API do BLiP</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
@@ -239,7 +239,7 @@ class Index extends React.Component {
 
           <div className="div-see-more">
 
-            <a role="button" href="/docs/introduction/visao-geral-da-plataforma" className="bp-btn bp-btn--bot btn--recent-accessed" >Veja outros artigos!</a>
+            <a role="button" href="/docs/introduction/visao-geral-da-plataforma" className="bp-btn bp-btn--bot btn--recent-accessed" ><translate>Veja outros artigos!</translate></a>
             <hr className="bp-divider-h bp-divider--see-more"></hr>
 
           </div>
@@ -255,7 +255,7 @@ class Index extends React.Component {
             <label htmlFor="check1-recent-accessed">
 
               <div className="btn-title-recent-accessed">
-                <h2 className="h2-recent-accessed">Artigos mais <strong>recentes</strong></h2>
+                <h2 className="h2-recent-accessed"><translate>Artigos mais <strong>recentes</strong></translate></h2>
                 <BlipIcon name="arrow-ball-down-outline" className="bp-fs-4 bp-fill-bot"></BlipIcon>
               </div>
 
@@ -266,28 +266,28 @@ class Index extends React.Component {
                   <li className="li-recent-accessed">
                     <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/customprovider/como-conectar-a-um-canal-de-atendimento-personalizado" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Como conectar a um canal de atendimento personalizado
+                      <translate>Como conectar a um canal de atendimento personalizado</translate>
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
                     <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/blip-chat/funcionalidades-blip-chat-widget" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Funcionalidades do BLiP Chat Widget
+                      <translate>Funcionalidades do BLiP Chat Widget</translate>
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
                     <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/visao-geral-das-acoes" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Visão geral das ações
+                      <translate>Visão geral das ações</translate>
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
                     <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/blip-chat/como-adicionar-bot-em-app-android-utilizando-blip" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Como adicionar um bot em um aplicativo Android...
+                      <translate>Como adicionar um bot em um aplicativo Android...</translate>
                     </a>
                   </li>
                 </ul>
@@ -303,7 +303,7 @@ class Index extends React.Component {
             <label htmlFor="check2-recent-accessed">
 
               <div className="btn-title-recent-accessed">
-                <h2 className="h2-recent-accessed">Artigos mais <strong>acessados</strong></h2>
+                <h2 className="h2-recent-accessed"><translate>Artigos mais <strong>acessados</strong></translate></h2>
                 <BlipIcon name="arrow-ball-down-outline" className="bp-fs-4 bp-fill-bot"></BlipIcon>
               </div>
 
@@ -314,28 +314,28 @@ class Index extends React.Component {
                   <li className="li-recent-accessed">
                     <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/introduction/como-criar-um-bot-com-builder/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Como criar um bot com o Builder do BLiP
+                      <translate>Como criar um bot com o Builder do BLiP</translate>
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
                     <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/ai/nlp/como-configurar-dialogflow/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Como configurar o DialogFlow como um provedor de Inteligência Artificial
+                      <translate> Como configurar o DialogFlow como um provedor de Inteligência Artificial</translate>
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
                     <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/visao-geral-do-builder/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Visão geral do Builder
+                      <translate>Visão geral do Builder</translate>
                     </a>
                   </li>
                   <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                   <li className="li-recent-accessed">
                     <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="docs/channels/whatsapp/enviar-notificacao-whatsapp-blip-api/" target="_blank">
                       <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                      Enviar notificações WhatsApp via API do BLiP
+                      <translate>Enviar notificações WhatsApp via API do BLiP</translate>
                     </a>
                   </li>
                 </ul>
@@ -348,7 +348,7 @@ class Index extends React.Component {
 
           <div className="div-see-more">
             <a role="button" href="/articles" className="bp-btn bp-btn--bot btn--recent-accessed">
-              Veja outros artigos!
+            <translate>Veja outros artigos!</translate>
           </a>
           </div>
 
@@ -360,8 +360,8 @@ class Index extends React.Component {
     const ForumAndIdeas = () => (
       <div className="div-forum-ideas">
 
-        <h2 className="h2-forum-ideas">Tire dúvidas e faça sugestões!</h2>
-        <p className="p-forum-ideas">O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!</p>
+        <h2 className="h2-forum-ideas"><translate>Tire dúvidas e faça sugestões!</translate></h2>
+        <p className="p-forum-ideas"><translate>O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!</translate></p>
 
         <div className="flexbox-forum-ideas">
 
@@ -371,8 +371,8 @@ class Index extends React.Component {
                 <BlipIcon name="forum" className="bp-fs-1 bp-fill-sea"></BlipIcon>
               </div>
               <div className="section-card">
-                <h3 className="h3-forum-ideas-card">Fórum</h3>
-                <p className="p-forum-ideas-card">Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!</p>
+                <h3 className="h3-forum-ideas-card"><translate>Fórum</translate></h3>
+                <p className="p-forum-ideas-card"><translate>Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!</translate></p>
               </div>
             </div>
           </a>
@@ -383,8 +383,8 @@ class Index extends React.Component {
                 <BlipIcon name="blip-ideas" className="bp-fs-1 bp-fill-doritos"></BlipIcon>
               </div>
               <div className="section-card">
-                <h3 className="h3-forum-ideas-card">BLiP Ideas</h3>
-                <p className="p-forum-ideas-card">Alguma ideia para melhorar a plataforma? Crie uma sugestão no BLiP Ideas! As ideias mais votadas são analisadas e podem se tornar novas features.</p>
+                <h3 className="h3-forum-ideas-card"><translate>BLiP Ideas</translate></h3>
+                <p className="p-forum-ideas-card"><translate>Alguma ideia para melhorar a plataforma? Crie uma sugestão no BLiP Ideas! As ideias mais votadas são analisadas e podem se tornar novas features.</translate></p>
               </div>
             </div>
           </a>
@@ -394,118 +394,118 @@ class Index extends React.Component {
 
     const AprendaMais = () => (
       <div className="div-aprenda-main">
-        <p className="title"> Aprenda mais sobre o universo dos contatos inteligentes </p>
-        <p className="subtitle"> Todas as informações que você precisa para saber para utilizar o BLiP como um expert estão em nas categorias abaixo: </p>
+        <p className="title"> <translate>Aprenda mais sobre o universo dos contatos inteligentes</translate> </p>
+        <p className="subtitle"> <translate>Todas as informações que você precisa para saber para utilizar o BLiP como um expert estão em nas categorias abaixo: </translate></p>
         <div className="articles">
 
           <label htmlFor="check1-aprendaMais" className="cards">
-            <p className="titles">Primeiro acesso</p>
+            <p className="titles"><translate>Primeiro acesso</translate></p>
             <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
             <input id="check1-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://account.blip.ai/register">Criar uma conta</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://portal.blip.ai">Portal</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="docs/introduction/visao-geral-da-plataforma">Visão geral da plataforma</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="docs/introduction/como-criar-um-bot-com-builder">Como criar um bot com o Builder</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="docs/builder/visao-geral-do-builder">Visão geral do Builder</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://account.blip.ai/register"><translate>Criar uma conta</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://portal.blip.ai"><translate>Portal</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="docs/introduction/visao-geral-da-plataforma"><translate>Visão geral da plataforma</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="docs/introduction/como-criar-um-bot-com-builder"><translate>Como criar um bot com o Builder</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="docs/builder/visao-geral-do-builder"><translate>Visão geral do Builder</translate></a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
           </label>
 
           <label htmlFor="check2-aprendaMais" className="cards">
-            <p className="titles">Canais</p>
+            <p className="titles"><translate>Canais</translate></p>
             <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
             <input id="check2-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp">WhatsApp </a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/businesschat">Apple Business Chat</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/messenger">Messenger </a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/blipchat">BLiP Chat </a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googleassistant">Google Assistant</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/channels">Ver todos</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/whatsapp"><translate>WhatsApp</translate> </a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/businesschat"><translate>Apple Business Chat</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/messenger"><translate>Messenger</translate> </a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/blipchat"><translate>BLiP Chat</translate> </a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/googleassistant"><translate>Google Assistant</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/channels"><translate>Ver todos</translate></a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
           </label>
 
           <label htmlFor="check3-aprendaMais" className="cards">
-            <p className="titles">Integrações</p>
+            <p className="titles"><translate>Integrações</translate></p>
             <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
             <input id="check3-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/botanalytics">Botanalytics</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/chatbase">Chatbase</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/dashbot">Dashbot</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/ai">DialogFlow</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/integrations">Ver todos</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/botanalytics"><translate>Botanalytics</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/chatbase"><translate>Chatbase</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/dashbot"><translate>Dashbot</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/ai"><translate>DialogFlow</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/integrations"><translate>Ver todos</translate></a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
           </label>
 
           <label htmlFor="check4-aprendaMais" className="cards">
-            <p className="titles">Recursos</p>
+            <p className="titles"><translate>Recursos</translate></p>
             <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
             <input id="check4-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://docs.blip.ai">API Reference</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://docs.blip.ai"><translate>API Reference</translate></a></li>
                 {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/changelog">Changelogs</a></li> */}
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/faq">Faq</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://github.com/takenet">Github</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/templates">Templates de chatbot</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/contenttypes">Tipos de conteúdos por canal</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://github.com/takenet"><translate>Github</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/templates"><translate>Templates de chatbot</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/contenttypes"><translate>Tipos de conteúdos por canal</translate></a></li>
                
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://status.blip.ai">Status</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://status.blip.ai"><translate>Status</translate></a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
           </label>
 
           <label htmlFor="check5-aprendaMais" className="cards">
-            <p className="titles">Explore o BLiP</p>
+            <p className="titles"><translate>Explore o BLiP</translate></p>
             <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
             <input id="check5-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/helpdesk">Atendimento Humano</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/builder">Builder</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/channels">Canais</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/ai">Inteligência Artificial</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/analytics">Métricas e Analytics</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/growth">Retenção e Engajamento</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/helpdesk"><translate>Atendimento Humano</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/builder"><translate>Builder</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/channels"><translate>Canais</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/ai"><translate>Inteligência Artificial</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/analytics"><translate>Métricas e Analytics</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/growth"><translate>Retenção e Engajamento</translate></a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
           </label>
 
           <label htmlFor="check6-aprendaMais" className="cards">
-            <p className="titles">Cursos </p>
+            <p className="titles"><translate>Cursos</translate> </p>
             <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
             <input id="check6-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="http://learn.take.net/courses/criando-chatbots-com-a-plataforma-blip">Criando chatbots com a plataforma BLiP</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://botcamp.blip.ai">BLiP Botcamp</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="http://learn.take.net/courses/criando-chatbots-com-a-plataforma-blip"><translate>Criando chatbots com a plataforma BLiP</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://botcamp.blip.ai"><translate>BLiP Botcamp</translate></a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
           </label>
 
           <label htmlFor="check7-aprendaMais" className="cards">
-            <p className="titles">Comunidade</p>
+            <p className="titles"><translate>Comunidade</translate></p>
             <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
             <input id="check7-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/beta">BLiP Beta</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/beta"><translate>BLiP Beta</translate></a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://ideas.blip.ai">BLiP Ideas </a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://meetup.blip.ai">Eventos</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://forum.blip.ai">Fórum</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://meetup.blip.ai"><translate>Eventos</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://forum.blip.ai"><translate>Fórum</translate></a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
@@ -513,7 +513,7 @@ class Index extends React.Component {
 
 
           <label htmlFor="check8-aprendaMais" className="cards">
-            <p className="titles">Políticas </p>
+            <p className="titles"><translate>Políticas</translate> </p>
             <BlipIcon name="arrow-ball-down-outline" className="bp-fs-3-articles bp-fill-bot"></BlipIcon>
             <input id="check8-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
@@ -521,10 +521,10 @@ class Index extends React.Component {
                 {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">DPA</a></li> */}
                 {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Governança de Dados</a></li> */}
                 {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Legal</a></li> */}
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/docs/security/cookies">Políticas de Cookies</a></li>
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/docs/security/privacy">Políticas de Privacidade</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/docs/security/cookies"><translate>Políticas de Cookies</translate></a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/docs/security/privacy"><translate>Políticas de Privacidade</translate></a></li>
                 {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/">Programa de Privacidade e Proteção de Dados</a></li> */}
-                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/docs/security/terms">Termos de Uso</a></li>
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/docs/security/terms"><translate>Termos de Uso</translate></a></li>
               </ul>
             </div>
             <hr className="bp-divider-h--articles"></hr>
@@ -542,8 +542,8 @@ class Index extends React.Component {
           <div className="div-beta-main">
 
             <div className="info">
-              <p className="title"> Torne-se um usuário beta! </p>
-              <p className="text"> Ao se tornar um usuário beta você será um dos primeiros a testar as novas features que serão lançadas</p>
+              <p className="title"> <translate>Torne-se um usuário beta!</translate> </p>
+              <p className="text"> <translate>Ao se tornar um usuário beta você será um dos primeiros a testar as novas features que serão lançadas</translate></p>
             </div>
 
             <div className="div-form-beta">
@@ -555,7 +555,7 @@ class Index extends React.Component {
                   className="form-input-email"
                   placeholder="Digite o seu e-mail">
                 </input>
-                <button id="Bsubmit" disabled={true} className="button-beta">Quero ser beta!</button>
+                <button id="Bsubmit" disabled={true} className="button-beta"><translate>Quero ser beta!</translate></button>
               </div>
             </div>
 
@@ -563,10 +563,10 @@ class Index extends React.Component {
               <div className="modal-beta-content">
                 <div className="modal-beta-header">
                   <BlipIcon name="checkball-outline" className="bp-fs-1 bp-fill-white"></BlipIcon>
-                  <p className="modal-beta-title">Parabéns, você agora é um beta!</p>
+                  <p className="modal-beta-title"><translate>Parabéns, você agora é um beta!</translate></p>
                 </div>
                 <div className="modal-beta-body">
-                  <p className="modal-beta-text">Em alguns instantes você vai receber um e-mail com mais informações</p>
+                  <p className="modal-beta-text"><translate>Em alguns instantes você vai receber um e-mail com mais informações</translate></p>
                   <button className="close-beta" > Ok</button>
                 </div>
               </div>
@@ -647,3 +647,9 @@ class Index extends React.Component {
 }
 
 module.exports = Index;
+
+
+
+Index.defaultProps = {
+  language: 'pt-BR',
+};

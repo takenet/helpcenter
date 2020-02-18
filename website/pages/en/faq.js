@@ -1,5 +1,5 @@
 const React = require('react');
-
+const translate = require('../../server/translate.js').translate;
 const CompLibrary = require('../../core/CompLibrary.js');
 
 //BLiP Icon for SVGs
@@ -32,7 +32,7 @@ class Faq extends React.Component {
           <div className="pages-top">
             <div className="main">
               <p className="title">FAQ</p>
-              <p className="subtitle">Perguntas frequentes</p>
+              <p className="subtitle"><translate>Perguntas frequentes</translate></p>
             </div>
             <div className="image">
               <img className="img-faq" src="/img/illustrations/Ilustracao-FAQ.svg" />
@@ -44,12 +44,12 @@ class Faq extends React.Component {
         <div className="pages-content">
           <div className="navigation">
             <p className="from">BLiP Help Center ></p>
-            <p className="from"><a className="link-from" href="/resources">Recursos</a> ></p>
+            <p className="from"><a className="link-from" href="/resources"><translate>Recursos</translate></a> ></p>
             <p className="here">FAQ</p>
           </div>
           <div className="info">
-            <p className="intro">Esta página contém algumas das principais dúvidas e perguntas frequentes dos usuários da plataforma. As dúvidas estão organizadas em categorias, de acordo com o assunto abordado.</p>
-            <p className="intro">Caso suas dúvidas não sejam respondidas aqui, acesse o <a href="https://forum.blip.ai">Fórum do BLiP</a> e abra um ticket 😉.</p>
+            <p className="intro"><translate>Esta página contém algumas das principais dúvidas e perguntas frequentes dos usuários da plataforma. As dúvidas estão organizadas em categorias, de acordo com o assunto abordado.</translate></p>
+            <p className="intro"><translate>Caso suas dúvidas não sejam respondidas aqui, acesse o <a href="https://forum.blip.ai">Fórum do BLiP</a> e abra um ticket 😉.</translate></p>
           </div>
 
           {/* Cards */}
@@ -60,11 +60,11 @@ class Faq extends React.Component {
                 <p className="title">BLiP </p>
               </div>
               <div className="faq-links">
-                <a href="/docs/introduction/visao-geral-da-plataforma/" className="faq-links-link">Como funciona a plataforma?</a>
-                <a href="http://blip.ai/precos" className="faq-links-link">O BLiP é gratuito? </a>
-                <a href="/docs/analytics/descricao-metricas-blip" className="faq-links-link">O que significa a sigla MAU?</a>
-                <a href="/blipareas" className="faq-links-link">Quais os principais módulos do BLiP? </a>
-                <a href="https://take.net/fale-conosco/" className="faq-links-link">Como contratar um plano Busines/Enterprise? </a>
+                <a href="/docs/introduction/visao-geral-da-plataforma/" className="faq-links-link"><translate>Como funciona a plataforma?</translate></a>
+                <a href="http://blip.ai/precos" className="faq-links-link"><translate>O BLiP é gratuito?</translate></a>
+                <a href="/docs/analytics/descricao-metricas-blip" className="faq-links-link"><translate>O que significa a sigla MAU?</translate></a>
+                <a href="/blipareas" className="faq-links-link"><translate>Quais os principais módulos do BLiP? </translate></a>
+                <a href="https://take.net/fale-conosco/" className="faq-links-link"><translate>Como contratar um plano Busines/Enterprise?</translate> </a>
               </div>
             </div>
 
@@ -73,103 +73,103 @@ class Faq extends React.Component {
                 <p className="title">WhatsApp</p>
               </div>
               <div className="faq-links">
-                <a href="/docs/channels/whatsapp/visao-geral-do-whatsapp/" className="faq-links-link">Como utilizar o WhatsApp com o BLiP? </a>
-                <a href="/docs/channels/whatsapp/funcionalidades-do-whatsapp/" className="faq-links-link">O que posso fazer no canal WhatsApp? </a>
-                <a href="/docs/channels/whatsapp/arquitetura-do-whatsapp/" className="faq-links-link">Quais conteúdos são suportados por este canal?</a>
-                <a href="/docs/channels/whatsapp/arquitetura-do-whatsapp/#tipos-de-mensagem" className="faq-links-link">Preciso pagar para enviar mensagens no WhatsApp? </a>
-                <a href="/docs/channels/whatsapp/arquitetura-do-whatsapp/#tipos-de-mensagem" className="faq-links-link">O que é a <b>janela de 24 horas</b> do WhatsApp? </a>
+                <a href="/docs/channels/whatsapp/visao-geral-do-whatsapp/" className="faq-links-link"><translate>Como utilizar o WhatsApp com o BLiP?</translate> </a>
+                <a href="/docs/channels/whatsapp/funcionalidades-do-whatsapp/" className="faq-links-link"><translate>O que posso fazer no canal WhatsApp?</translate> </a>
+                <a href="/docs/channels/whatsapp/arquitetura-do-whatsapp/" className="faq-links-link"><translate>Quais conteúdos são suportados por este canal?</translate></a>
+                <a href="/docs/channels/whatsapp/arquitetura-do-whatsapp/#tipos-de-mensagem" className="faq-links-link"><translate>Preciso pagar para enviar mensagens no WhatsApp?</translate> </a>
+                <a href="/docs/channels/whatsapp/arquitetura-do-whatsapp/#tipos-de-mensagem" className="faq-links-link"><translate>O que é a janela de 24 horas do WhatsApp?</translate> </a>
               </div>
             </div>
 
             <div className="card-faq">
               <div className="title-faq">
-                <p className="title">Plano FREE</p>
+                <p className="title"><translate>Plano FREE</translate></p>
               </div>
               <div className="faq-links">
-                <a href="http://blip.ai/precos/" className="faq-links-link">Quais as limitações do plano FREE? </a>
-                <a href="http://blip.ai/precos/" className="faq-links-link">Existe limitação de nº de mensagens ou de bots? </a>
-                <a href="https://docs.blip.ai/#throughputs" className="faq-links-link">Qual o throughput do plano FREE?</a>
-                <a href="http://blip.ai/precos/" className="faq-links-link">Qual a SLA para usuários gratuitos? </a>
-                <a href="http://blip.ai/precos/" className="faq-links-link">Posso utilizar o WhatsApp no plano FREE? </a>
+                <a href="http://blip.ai/precos/" className="faq-links-link"><translate>Quais as limitações do plano FREE? </translate></a>
+                <a href="http://blip.ai/precos/" className="faq-links-link"><translate>Existe limitação de nº de mensagens ou de bots?</translate> </a>
+                <a href="https://docs.blip.ai/#throughputs" className="faq-links-link"><translate>Qual o throughput do plano FREE?</translate></a>
+                <a href="http://blip.ai/precos/" className="faq-links-link"><translate>Qual a SLA para usuários gratuitos?</translate></a>
+                <a href="http://blip.ai/precos/" className="faq-links-link"><translate>Posso utilizar o WhatsApp no plano FREE?</translate></a>
               </div>
             </div>
 
             <div className="card-faq">
               <div className="title-faq">
-                <p className="title"> Integrações</p>
+                <p className="title"> <translate>Integrações</translate></p>
               </div>
               <div className="faq-links">
-                <a href="#" className="faq-links-link">Posso integrar o BLiP ao meu sistema? </a>
-                <a href="/integrations" className="faq-links-link">Quais integrações disponíveis no BLiP? </a>
-                <a href="#" className="faq-links-link">O BLiP possui API?</a>
-                <a href="#" className="faq-links-link">Posso enviar os dados do BLiP para outros sistemas? </a>
-                <a href="https://take.net/fale-conosco/" className="faq-links-link">Como ser usuário Enterprise? </a>
+                <a href="#" className="faq-links-link"><translate>Posso integrar o BLiP ao meu sistema?</translate> </a>
+                <a href="/integrations" className="faq-links-link"><translate>Quais integrações disponíveis no BLiP?</translate> </a>
+                <a href="#" className="faq-links-link"><translate>O BLiP possui API?</translate></a>
+                <a href="#" className="faq-links-link"><translate>Posso enviar os dados do BLiP para outros sistemas?</translate> </a>
+                <a href="https://take.net/fale-conosco/" className="faq-links-link"><translate>Como ser usuário Enterprise? </translate></a>
               </div>
             </div>
 
             <div className="card-faq">
               <div className="title-faq">
-                <p className="title">Canais</p>
+                <p className="title"><translate>Canais</translate></p>
               </div>
               <div className="faq-links">
-                <a href="/channels" className="faq-links-link">Quais os canais de suportados pelo BLiP? </a>
-                <a href="/docs/channels/whatsapp/publicando-bot-no-whatsapp/" className="faq-links-link">Como habilitar o canal WhatsApp? </a>
-                <a href="/channels" className="faq-links-link">Qual conteúdos são suportados pelos canais?</a>
-                <a href="#" className="faq-links-link">Posso criar meu próprio canal? </a>
-                <a href="/docs/channels/blip-chat/adicionar-bot-site-blip-chat/" className="faq-links-link">Posso adicionar um bot no meu site (ou app)? </a>
+                <a href="/channels" className="faq-links-link"><translate>Quais os canais de suportados pelo BLiP?</translate> </a>
+                <a href="/docs/channels/whatsapp/publicando-bot-no-whatsapp/" className="faq-links-link"><translate>Como habilitar o canal WhatsApp?</translate> </a>
+                <a href="/channels" className="faq-links-link"><translate>Qual conteúdos são suportados pelos canais?</translate></a>
+                <a href="#" className="faq-links-link"><translate>Posso criar meu próprio canal?</translate> </a>
+                <a href="/docs/channels/blip-chat/adicionar-bot-site-blip-chat/" className="faq-links-link"><translate>Posso adicionar um bot no meu site (ou app)?</translate> </a>
               </div>
             </div>
 
             <div className="card-faq">
               <div className="title-faq">
-                <p className="title"> Segurança LGPD/GDPR</p>
+                <p className="title"> <translate>Segurança LGPD/GDPR</translate></p>
               </div>
               <div className="faq-links">
-                <a href="/security" className="faq-links-link">O BLiP possui alguma certificação de segurança? </a>
-                <a href="/security" className="faq-links-link">O BLiP está em conformidade com a LGPD? </a>
-                <a href="/security" className="faq-links-link">Qual o processo de criptografia dos dados no BLiP?</a>
-                <a href="/security" className="faq-links-link">O BLiP possui um plano de continuidade de negócio? </a>
-                <a href="/security" className="faq-links-link">Qual o procedimento de desastre recovery do BLiP? </a>
+                <a href="/security" className="faq-links-link"><translate>O BLiP possui alguma certificação de segurança?</translate> </a>
+                <a href="/security" className="faq-links-link"><translate>O BLiP está em conformidade com a LGPD?</translate> </a>
+                <a href="/security" className="faq-links-link"><translate>Qual o processo de criptografia dos dados no BLiP?</translate></a>
+                <a href="/security" className="faq-links-link"><translate>O BLiP possui um plano de continuidade de negócio? </translate></a>
+                <a href="/security" className="faq-links-link"><translate>Qual o procedimento de desastre recovery do BLiP?</translate> </a>
               </div>
             </div>
 
             <div className="card-faq">
               <div className="title-faq">
-                <p className="title">Recursos</p>
+                <p className="title"><translate>Recursos</translate></p>
               </div>
               <div className="faq-links">
-                <a href="https://docs.blip.ai" className="faq-links-link">Qual o link para a API Reference (docs)? </a>
-                <a href="/changelog" className="faq-links-link">Como acompanhar os últimos lançamentos do BLiP? </a>
-                <a href="https://github.com/takenet" className="faq-links-link">Posso contribuir com a plataforma?</a>
-                <a href="https://status.blip.ai/" className="faq-links-link">Acho que o BLiP caiu 😬, como ver o status? </a>
-                <a href="https://github.com/takenet" className="faq-links-link">Gosto de código, tem algum exemplo ai? </a>
+                <a href="https://docs.blip.ai" className="faq-links-link"><translate>Qual o link para a API Reference (docs)?</translate> </a>
+                <a href="/changelog" className="faq-links-link"><translate>Como acompanhar os últimos lançamentos do BLiP?</translate> </a>
+                <a href="https://github.com/takenet" className="faq-links-link"><translate>Posso contribuir com a plataforma?</translate></a>
+                <a href="https://status.blip.ai/" className="faq-links-link"><translate>Acho que o BLiP caiu 😬, como ver o status?</translate> </a>
+                <a href="https://github.com/takenet" className="faq-links-link"><translate>Gosto de código, tem algum exemplo ai?</translate> </a>
               </div>
             </div>
 
             <div className="card-faq">
               <div className="title-faq">
-                <p className="title"> Comunidade</p>
+                <p className="title"> <translate>Comunidade</translate></p>
               </div>
               <div className="faq-links">
-                <a href="/beta" className="faq-links-link">Como testar as novidades em primeira mão? </a>
-                <a href="https://ideas.blip.ai/" className="faq-links-link">Quero sugerir uma funcionalidade, posso? </a>
-                <a href="/community" className="faq-links-link">Qual o próximo evento sobre o BLiP?</a>
-                <a href="https://forum.blip.ai" className="faq-links-link">Onde cadastro dúvidas e perguntas? </a>
-                <a href="https://www.facebook.com/groups/BLiP.Community" className="faq-links-link">Como me conectar com outros BLiPPers? </a>
+                <a href="/beta" className="faq-links-link"><translate>Como testar as novidades em primeira mão?</translate> </a>
+                <a href="https://ideas.blip.ai/" className="faq-links-link"><translate>Quero sugerir uma funcionalidade, posso?</translate> </a>
+                <a href="/community" className="faq-links-link"><translate>Qual o próximo evento sobre o BLiP?</translate></a>
+                <a href="https://forum.blip.ai" className="faq-links-link"><translate>Onde cadastro dúvidas e perguntas?</translate> </a>
+                <a href="https://www.facebook.com/groups/BLiP.Community" className="faq-links-link"><translate>Como me conectar com outros BLiPPers?</translate> </a>
               </div>
             </div>
 
 
             <div className="card-faq">
               <div className="title-faq">
-                <p className="title">Soluções</p>
+                <p className="title"><translate>Soluções</translate></p>
               </div>
               <div className="faq-links">
-                <a href="/blipareas" className="faq-links-link">O que posso resolver com o BLiP? </a>
-                <a href="/docs/helpdesk/blipdesk/visao-geral-desk/" className="faq-links-link">Da pra fazer atendimento humano? </a>
-                <a href="#" className="faq-links-link">Preciso vender mais, o BLiP ajuda?</a>
-                <a href="/channels" className="faq-links-link">Da pra usar o BLiP como um broker multicanal? </a>
-                <a href="/docs/router/hierarquia-bots-subbots/" className="faq-links-link">Como orquestrar diferentes iniciativas de bots na minha empresa? </a>
+                <a href="/blipareas" className="faq-links-link"><translate>O que posso resolver com o BLiP?</translate> </a>
+                <a href="/docs/helpdesk/blipdesk/visao-geral-desk/" className="faq-links-link"><translate>Da pra fazer atendimento humano?</translate> </a>
+                <a href="#" className="faq-links-link"><translate>Preciso vender mais, o BLiP ajuda?</translate></a>
+                <a href="/channels" className="faq-links-link"><translate>Da pra usar o BLiP como um broker multicanal?</translate> </a>
+                <a href="/docs/router/hierarquia-bots-subbots/" className="faq-links-link"><translate>Como orquestrar diferentes iniciativas de bots na minha empresa?</translate> </a>
               </div>
             </div>
 
@@ -178,11 +178,11 @@ class Faq extends React.Component {
                 <p className="title"> BLiP Chat Widget</p>
               </div>
               <div className="faq-links">
-                <a href="/docs/channels/blip-chat/adicionar-bot-site-blip-chat/" className="faq-links-link">Como colocar o BLiP Chat em meu site? </a>
-                <a href="/docs/channels/blip-chat/como-adicionar-bot-em-app-android-utilizando-blip/" className="faq-links-link">Preciso de um chat em um app Android, como fazer? </a>
-                <a href="/docs/channels/blip-chat/funcionalidades-blip-chat-widget" className="faq-links-link">Consigo ligar o contato logado do site no meu chat?</a>
-                <a href="/docs/channels/blip-chat/como-adicionar-bot-em-app-ios-utilizando-blip/" className="faq-links-link">Como colocar o chat em um app iOS? </a>
-                <a href="/docs/channels/blip-chat/customizando-o-blip-chat-widget-com-css/" className="faq-links-link">É possível customizar o chat no meu site? </a>
+                <a href="/docs/channels/blip-chat/adicionar-bot-site-blip-chat/" className="faq-links-link"><translate>Como colocar o BLiP Chat em meu site?</translate> </a>
+                <a href="/docs/channels/blip-chat/como-adicionar-bot-em-app-android-utilizando-blip/" className="faq-links-link"><translate>Preciso de um chat em um app Android, como fazer?</translate> </a>
+                <a href="/docs/channels/blip-chat/funcionalidades-blip-chat-widget" className="faq-links-link"><translate>Consigo ligar o contato logado do site no meu chat?</translate></a>
+                <a href="/docs/channels/blip-chat/como-adicionar-bot-em-app-ios-utilizando-blip/" className="faq-links-link"><translate>Como colocar o chat em um app iOS? </translate></a>
+                <a href="/docs/channels/blip-chat/customizando-o-blip-chat-widget-com-css/" className="faq-links-link"><translate>É possível customizar o chat no meu site? </translate></a>
               </div>
             </div>
 
@@ -194,4 +194,10 @@ class Faq extends React.Component {
 }
 
 Faq.title = 'FAQ';
+
+
+Faq.defaultProps = {
+  language: 'pt-BR',
+};
+
 module.exports = Faq; 
