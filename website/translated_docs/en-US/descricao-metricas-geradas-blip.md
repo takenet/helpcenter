@@ -24,23 +24,23 @@ Represents the number of **unique users** that talked (**sent at least one messa
 
 ## 3. Active users per day
 
-Quantidade de usuários únicos que enviaram pelo menos uma mensagem, por dia, para o bot no período selecionado.
+The number of unique users that sent at least one message, per day, to the bot in the specified period.
 
-## 4. Mensagens Trafegadas
+## 4. Exchanged messages
 
-Quantidade total de mensagens enviadas e recebidas pelo bot no período selecionado
+Total number of messages that were sent and received by the bot in the specified period.
 
-## 5. Mensagens Enviadas
+## 5. Sent messages
 
-Quantidade total de mensagens enviadas pelo bot no período selecionado
+Total number of messages sent by the bot in the specified period.
 
-## 6. Mensagens Recebidas
+## 6. Received messages
 
-Quantidade total de mensagens recebidas pelo bot no período selecionado
+Total number of messages received by the bot in the specified period.
 
-## 7. Mensagens por dia
+## 7. Messages per day
 
-Quantidade de mensagens enviadas e recebidas, por dia, para o bot no período selecionado.
+The number of messages that were sent and received, per day, by the bot on the specified period.
 
 ## 8. Mensagens Ativas
 Todas as mensagens enviadas determinado período após o último contato do usuário com o bot ou atendente são nomeadas como mensagens ativas. Este período varia de acordo com cada canal. *Essas mensagens recebem uma classificação diferente pois podem estar sujeitas a políticas de utilização e tarifação específicas do canal.*
