@@ -8,12 +8,12 @@ Visando dar uma boa experiência aos usuários, alguns canais de mensageria, com
 
 Em resumo, essas políticas dizem que empresas e desenvolvedores que usam esses canais para construção de bots, têm até 24 horas para responder a uma mensagem enviada por um usuário. O limite de 24 horas será reiniciado sempre que um usuário enviar uma mensagem ao bot. Essa regra é comumente conhecida como **Janela de Mensagem de 24 horas**. Pensando em facilitar o processo de gestão dos bots, o BLiP criou dois conceitos de mensagens: as <u>Mensagens de Resposta</u> e <u>Mensagens Ativas</u>.
 
-## Mensagens de Respostas
+## Reply messages
 São as mensagens enviadas pelo bot, em até 24 horas, após o recebimento de uma mensagem do cliente. Todas as mensagens definidas nos blocos de conteúdo do Builder são mensagens de resposta.
 
 ## Active messages
 
-São as mensagens enviadas pelo bot, depois de 24 horas, após o recebimento de uma mensagem do cliente. Mensagens ativas podem ser tarifadas e devem ser enviadas seguindo algumas regras específicas por canal.
+São as mensagens enviadas pelo bot, depois de 24 horas, após o recebimento de uma mensagem do cliente. Active messages require following specific rules per channel and may incur additional charges.
 
 ### Mensagens ativas no WhatsApp
 Devem ser enviadas através de Messages Templates (ou modelos de mensagens) previamente aprovados pelo WhatsApp (Mensagens ativas no WhatsApp possuem tarifação).
