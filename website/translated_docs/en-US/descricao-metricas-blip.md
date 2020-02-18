@@ -44,4 +44,4 @@ The number of messages that were sent and received, per day, by the bot on the s
 
 ## 8. Active messages
 
-Every message sent from the bot to a client 24 hours after the last sent message from the same client to the bot are defined as active messages. **Essas mensagens recebem uma classificação diferente por estarem sujeitas a políticas de utilização e tarifação, específicas de cada canal.**
+Every message sent from the bot to a client 24 hours after the last sent message from the same client to the bot are defined as active messages. **These messages are classified differently for being subject to charging and usage policies specific to each channel.**
