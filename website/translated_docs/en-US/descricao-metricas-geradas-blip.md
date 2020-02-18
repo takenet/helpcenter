@@ -42,7 +42,7 @@ Total number of messages received by the bot in the specified period.
 
 The number of messages that were sent and received, per day, by the bot on the specified period.
 
-## 8. Mensagens Ativas
+## 8. Active messages
 Todas as mensagens enviadas determinado período após o último contato do usuário com o bot ou atendente são nomeadas como mensagens ativas. Este período varia de acordo com cada canal. *Essas mensagens recebem uma classificação diferente pois podem estar sujeitas a políticas de utilização e tarifação específicas do canal.*
 
 #### 1. WhatsApp
