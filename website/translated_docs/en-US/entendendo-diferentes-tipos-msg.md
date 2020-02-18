@@ -6,13 +6,13 @@ sidebar_label: Entendendo os diferentes tipos de mensagem do BLiP
 
 O BLiP utiliza diferentes nomenclaturas para se referir a diferentes subcategorias de mensagens. Este artigo apresenta e descreve cada um dos tipos possíveis de mensagens utilizados na plataforma. **Note que em todos os casos o ponto referencial é sempre o bot.**
 
-## Mensagens Trafegadas
+## Exchanged messages
 Total de mensagens enviadas ou recebidas pelo bot aos usuários em um período.
 
-## Mensagens Recebidas
+## Received messages
 Mensagens que o bot recebeu dos usuários em um período.
 
-## Mensagens Enviadas
+## Sent messages
 Mensagens que o bot enviou aos usuários em um período. Mensagens enviadas podem ser classificadas entre mensagens ativas ou de resposta.
 
 ## Mensagens Ativas
