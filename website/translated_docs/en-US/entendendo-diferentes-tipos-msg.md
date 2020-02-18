@@ -10,10 +10,10 @@ BLiP uses distinct names for each of its different message subcategories. This a
 Total number of messages sent or received by the bot to the users in a given period.
 
 ## Received messages
-Messages that the bot received from the users in a given period.
+Messages received by the bot from the users in a given period.
 
 ## Sent messages
-Mensagens que o bot enviou aos usuários em um período. Mensagens enviadas podem ser classificadas entre mensagens ativas ou de resposta.
+Messages sent by the bot to the users in a given period. Mensagens enviadas podem ser classificadas entre mensagens ativas ou de resposta.
 
 ## Active messages
 São as mensagens enviadas pelo bot, **depois de 24 horas**, após o recebimento de uma mensagem do cliente. Mensagens ativas podem ser tarifadas e devem ser enviadas seguindo algumas regras específicas por canal.
