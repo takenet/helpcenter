@@ -1,5 +1,5 @@
 ---
-id: como-enviar-messages-templates-via-builder
+id: como-enviar-notificacoes-via-builder
 title: Como enviar notificações WhatsApp via Builder
 sidebar_label: Como enviar notificações WhatsApp via Builder
 ---

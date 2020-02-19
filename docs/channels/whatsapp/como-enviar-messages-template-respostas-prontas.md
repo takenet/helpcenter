@@ -1,7 +1,7 @@
 ---
-id: como-enviar-messages-template-respostas-prontas
-title: Como enviar messages template através de respostas prontas do BLiP Desk
-sidebar_label: Como enviar messages template através de respostas prontas do BLiP Desk
+id: como-enviar-notificacoes-respostas-prontas
+title: Como enviar notificações através de respostas prontas do BLiP Desk
+sidebar_label: Como enviar notificações através de respostas prontas do BLiP Desk
 ---
 
 Antes de mais nada, qualquer mensagem enviada pelo bot, após um período de 24 horas em relação à última mensagem enviada pelo cliente é considerada uma notificação. Para saber mais sobre as diferenças entre uma mensagem normal e uma notificação [clique aqui](https://help.blip.ai/docs/general/politica-de-violacao-mensagens/#mensagens-de-respostas). É importante enfatizar que as notificações no WhatsApp estão sempre associadas a um Modelo de Mensagem (*Message Template*), previamente aprovado pelo próprio WhatsApp. 
