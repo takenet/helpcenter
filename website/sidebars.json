@@ -303,7 +303,8 @@
     ],
     "Router": [
       "router/hierarquia-bots-subbots",
-      "router/criando-bot-com-3-subbots"
+      "router/criando-bot-com-3-subbots",
+      "router/recuperando-infomacoes-contatos-subbots"
     ],
     "API e SDKs": [
       "api-sdks/facilitando-criacao-do-chatbot-atraves-extensoes",
