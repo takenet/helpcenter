@@ -77,8 +77,19 @@ Através da [execução do script](/docs/builder/acao-executar-script) abaixo, �
     }
 ```
 
-No entanto, caso você queria apenas ignorar o *chatstate* no início do fluxo do bot, é necessário apenas adicionar a condição de saída abaixo no bloco **'Início'**:
+No entanto, como as mensagens de *chatstate* e de *payload* trafegam via internet, não é possível garantir a entrega ordenada das mesmas.
 
-![](/img/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-7.png)
+Caso você queira ignorar o *chatstate*, criamos um fluxo de exemplo que trata as mensagens do anúncio independentemente da ordem de recebimento no bot:
 
-Esta condição de saída fará um loop no bloco 'Início' caso a mensagem seja do tipo chatstate, esse loop terá apenas um iteração, porque apenas uma mensagem deste tipo é enviada no ínicio da conversa.
+<a href="/img/growth/chatstate-facebook-ads.json" download>Clique aqui para baixar o fluxo</a>
+
+
+**Atenção:** Este fluxo requer que o anúncio do Facebook envie os *payloads* dos botões com o prefixo **[payload] -**  antes do conteúdo real. Observe o exemplo abaixo: 
+
+![Exemplo de envio os payloads dos botões com o prefixo "[payload] -" ](/img/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot-7.png)
+
+É importante ressaltar que a tratativa utilizada neste fluxo inviabiliza o uso dos campos **Intenção identificada** e **Entidade identificada**, pois ambos realizam a análise baseada na última entrada do usuário e, no caso, a última entrada pode ou não ser do tipo *chatstate*. Por isso, este fluxo também testa análises via comando.
+
+Ademais, está tratativa funciona apenas quando o contato está no início do fluxo, portanto é necessário adicionar algum valor na configuração da **EXPIRAÇÃO DA SESSÃO**, para reiniciar os contatos. Recomendamos 86400 segundos (1 dia).
+
+Segundo as melhores práticas do uso de botões da [documentação do Facebook](https://developers.facebook.com/docs/messenger-platform/send-messages/buttons), não deve-se usar botões caso a ação resultado dependa do estado do bot, como é o caso. Portanto, recomendamos utilizar *Quick reply* no anúncio. 
