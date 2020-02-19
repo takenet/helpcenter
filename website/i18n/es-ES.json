@@ -820,6 +820,10 @@
         "title": "Hierarquia (ou arquitetura) de bots e subbots",
         "sidebar_label": "Hierarquia (ou arquitetura) de bots e subbots"
       },
+      "router/recuperando-infomacoes-contatos-subbots": {
+        "title": "Como recuperar informações de contatos em um subbot",
+        "sidebar_label": "Como recuperar informações de contatos em um subbot"
+      },
       "security/cookies": {
         "title": "Política de Uso de Cookies",
         "sidebar_label": "Política de Uso de Cookies"
