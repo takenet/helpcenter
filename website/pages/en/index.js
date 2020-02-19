@@ -32,26 +32,25 @@ class BlipIcon extends React.Component {
 class HomeSplash extends React.Component {
   render() {
     const { siteConfig, language = '' } = this.props;
-    const { baseUrl, docsUrl } = siteConfig;
+    const { url, baseUrl, docsUrl } = siteConfig;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
-
     return (
       <div>
         <div className="div-rectangle-main">
-          <img className="main-logo" src="img/logo.svg" />
+          <img className="main-logo" src={url + "/img/logo.svg"} />
           <h1 className="main-title"><translate>Estamos aqui para te ajudar!</translate> </h1>
           <div className="main-subtitle">
             <translate>Antes de começar a explorar, que tal escolher uma área de conhecimento?</translate>
-              <p className="main-subsubtitle"><translate>Os níveis de conhecimento servem para melhor filtrar os conteúdos que podem auxiliar a tirar suas dúvidas =)</translate></p>
+            <p className="main-subsubtitle"><translate>Os níveis de conhecimento servem para melhor filtrar os conteúdos que podem auxiliar a tirar suas dúvidas =)</translate></p>
           </div>
         </div>
         <div className="flexbox-container">
           <a href="/docs/introduction/visao-geral-da-plataforma" className="nonClickable"><div className="card-home-main" id="card1">
             <div className="card-img">
               <div className="section-icon-circle-card section-icon-circle-card--bot">
-                <img src="img/illustrations/Estrela-1.svg" />
+                <img  src={url +"/img/illustrations/Estrela-1.svg"} />
               </div>
             </div>
             <div className="card-info">
@@ -70,7 +69,7 @@ class HomeSplash extends React.Component {
           <a href="/blipareas" className="nonClickable"><div className="card-home-main" id="card2">
             <div className="card-img">
               <div className="section-icon-circle-card section-icon-circle-card--watermelon">
-                <img src="img/illustrations/Estrela-2.svg" />
+                <img src={url +"/img/illustrations/Estrela-2.svg"} />
               </div>
             </div>
             <div className="card-info">
@@ -90,7 +89,7 @@ class HomeSplash extends React.Component {
             <div className="card-home-main" id="card3">
               <div className="card-img">
                 <div className="section-icon-circle-card section-icon-circle-card--warning">
-                  <img src="img/illustrations/Estrela-3.svg" />
+                  <img  src={url +"/img/illustrations/Estrela-3.svg"} />
                 </div>
               </div>
               <div className="card-info">
@@ -348,8 +347,8 @@ class Index extends React.Component {
 
           <div className="div-see-more">
             <a role="button" href="/articles" className="bp-btn bp-btn--bot btn--recent-accessed">
-            <translate>Veja outros artigos!</translate>
-          </a>
+              <translate>Veja outros artigos!</translate>
+            </a>
           </div>
 
         </div>
@@ -459,7 +458,7 @@ class Index extends React.Component {
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://github.com/takenet"><translate>Github</translate></a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/templates"><translate>Templates de chatbot</translate></a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/contenttypes"><translate>Tipos de conteúdos por canal</translate></a></li>
-               
+
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://status.blip.ai"><translate>Status</translate></a></li>
               </ul>
             </div>
