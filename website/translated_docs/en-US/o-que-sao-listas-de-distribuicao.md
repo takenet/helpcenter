@@ -1,7 +1,7 @@
 ---
 id: o-que-sao-listas-de-distribuicao
-title: O que são listas de distribuição
-sidebar_label: O que são listas de distribuição
+title: What is a distribution list
+sidebar_label: What is a distribution list
 ---
 
 Para alguns chatbots, a distribuição de conteúdo é a principal funcionalidade. Tão importante quanto ser capaz de enviar conteúdos é conseguir enviá-los para segmentos específicos dos usuários. Imagine, por exemplo, o chatbot de uma empresa varejista que precisa enviar, mensalmente, cupons de promoções apenas para um determinado perfil de clientes.
