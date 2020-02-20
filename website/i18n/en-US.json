@@ -174,32 +174,32 @@
         "sidebar_label": "Utilizando o Textc para construir uma conversa contextual"
       },
       "builder/acao-definir-variavel": {
-        "title": "Ação: Definir variável",
-        "sidebar_label": "Ação: Definir variável"
+        "title": "Action: Define variable",
+        "sidebar_label": "Action: Define variable"
       },
       "builder/acao-executar-script": {
-        "title": "Ação: Executar script",
-        "sidebar_label": "Ação: Executar script"
+        "title": "Action: Execute script",
+        "sidebar_label": "Action: Execute script"
       },
       "builder/acao-gerenciar-listas": {
-        "title": "Ação: Gerenciar listas de distribuição",
-        "sidebar_label": "Ação: Gerenciar listas de distribuição"
+        "title": "Action: Manage distribution list",
+        "sidebar_label": "Action: Manage distribution list"
       },
       "builder/acao-processar-comando": {
-        "title": "Ação: Processar Comando",
-        "sidebar_label": "Ação: Processar Comando"
+        "title": "Action: Process command",
+        "sidebar_label": "Action: Process command"
       },
       "builder/acao-redirecionar-servico": {
-        "title": "Ação: Redicionar a um serviço",
-        "sidebar_label": "Ação: Redirecionar a um serviço"
+        "title": "Action: Redirect to service",
+        "sidebar_label": "Action: Redirect to service"
       },
       "builder/acao-registro-evento": {
-        "title": "Ação: Registro de eventos",
-        "sidebar_label": "Ação: Registro de eventos"
+        "title": "Action: Event tracking",
+        "sidebar_label": "Action: Event tracking"
       },
       "builder/acao-requisicao-http": {
-        "title": "Ação: Requisição HTTP",
-        "sidebar_label": "Ação: Requisição HTTP"
+        "title": "Action: Process HTTP",
+        "sidebar_label": "Action: Process HTTP"
       },
       "builder/como-definir-um-tempo-limite-para-acoes-do-builder": {
         "title": "Como definir um tempo limite (timeout) para ações do Builder",
