@@ -114,8 +114,8 @@
         "sidebar_label": "What are unique users of BLiP"
       },
       "analytics/rd-station/como-enviar-dados-rd-station": {
-        "title": "Integração RD Station - Enviando dados de um bot para o RD Station",
-        "sidebar_label": "Integração RD Station - Enviando dados de um bot para o RD Station"
+        "title": "RD Station Integration - Sending data from a bot to RD Station",
+        "sidebar_label": "RD Station Integration - Sending data from a bot to RD Station"
       },
       "analytics/webhook/enviando-dados-atraves-webhook": {
         "title": "Enviando dados do seu bot através de Webhooks",
@@ -914,7 +914,7 @@
     "Quais integrações disponíveis no BLiP?|no description given": "Quais integrações disponíveis no BLiP?",
     "O BLiP possui API?|no description given": "O BLiP possui API?",
     "Posso enviar os dados do BLiP para outros sistemas?|no description given": "Posso enviar os dados do BLiP para outros sistemas?",
-    "Como ser usuário Enterprise?|no description given": "Como ser usuário Enterprise?",
+    "Como ser usuário Enterprise?|no description given": "How to be an Enterprise user?",
     "Canais|no description given": "Channels",
     "Quais os canais de suportados pelo BLiP?|no description given": "Quais os canais de suportados pelo BLiP?",
     "Como habilitar o canal WhatsApp?|no description given": "Como habilitar o canal WhatsApp?",
@@ -1006,7 +1006,7 @@
     "Métricas e Analytics|no description given": "Metrics and Analytics",
     "Retenção e Engajamento|no description given": "Retenção e Engajamento",
     "Cursos|no description given": "Courses",
-    "Criando chatbots com a plataforma BLiP|no description given": "Criando chatbots com a plataforma BLiP",
+    "Criando chatbots com a plataforma BLiP|no description given": "Creating chatbots on the BLiP platform",
     "BLiP Botcamp|no description given": "BLiP Botcamp",
     "BLiP Beta|no description given": "BLiP Beta",
     "Eventos|no description given": "Events",
