@@ -318,8 +318,8 @@
         "sidebar_label": "Customizando o BLiP Chat Widget através de CSS"
       },
       "channels/blip-chat/funcionalidades-blip-chat-widget": {
-        "title": "Funcionalidades do BLiP Chat Widget",
-        "sidebar_label": "Funcionalidades do BLiP Chat Widget"
+        "title": "BLiP Chat Widget features",
+        "sidebar_label": "BLiP Chat Widget features"
       },
       "channels/blip-chat/o-que-e-blip-chat": {
         "title": "What is BLiP Chat?",
@@ -346,8 +346,8 @@
         "sidebar_label": "Como interagir com os usuários através do Business Chat"
       },
       "channels/business-chat/funcionalidades-business-chat": {
-        "title": "Funcionalidades do canal Business Chat",
-        "sidebar_label": "Funcionalidades do canal Business Chat"
+        "title": "Business Chat features",
+        "sidebar_label": "Business Chat features"
       },
       "channels/business-chat/outros-recursos-business-chat": {
         "title": "Acessando outros recursos do Business Chat",
@@ -373,8 +373,8 @@
         "sidebar_label": "Como interagir com os usuários através do email"
       },
       "channels/email/funcionalidades-email": {
-        "title": "Funcionalidades do canal Email",
-        "sidebar_label": "Funcionalidades do canal Email"
+        "title": "Email features",
+        "sidebar_label": "Email features"
       },
       "channels/email/publicando-bot-email": {
         "title": "Como publicar seu Chatbot no email",
@@ -393,8 +393,8 @@
         "sidebar_label": "Enviando notificações com o Google Assistant"
       },
       "channels/google-assistant/funcionalidades-google-assistant": {
-        "title": "Funcionalidades do Google Assistant",
-        "sidebar_label": "Funcionalidades do Google Assistant"
+        "title": "Google Assistant features",
+        "sidebar_label": "Google Assistant features"
       },
       "channels/google-assistant/publicando-bot-google-assistant": {
         "title": "Como publicar seu bot no Google Assistant",
@@ -413,8 +413,8 @@
         "sidebar_label": "Como interagir com os usuários através do Google RCS"
       },
       "channels/google-rcs/funcionalidades-google-rcs": {
-        "title": "Funcionalidades do Google RCS",
-        "sidebar_label": "Funcionalidades do Google RCS"
+        "title": "Google RCS features",
+        "sidebar_label": "Google RCS features"
       },
       "channels/google-rcs/outros-recursos-google-rcs": {
         "title": "Acessando outros recursos do Google RCS",
@@ -441,8 +441,8 @@
         "sidebar_label": "Como interagir com os usuários através do Infobip"
       },
       "channels/infobip/funcionalidades-infobip": {
-        "title": "Funcionalidades do canal Infobip",
-        "sidebar_label": "Funcionalidades do canal Infobip"
+        "title": "Infobip channel features",
+        "sidebar_label": "Infobip channel features"
       },
       "channels/infobip/publicando-bot-infobip": {
         "title": "Como publicar seu Chatbot no Infobip",
@@ -469,8 +469,8 @@
         "sidebar_label": "Como interagir com os usuários através do Messenger"
       },
       "channels/messenger/funcionalidades-messenger": {
-        "title": "Funcionalidades do canal Messenger",
-        "sidebar_label": "Funcionalidades do canal Messenger"
+        "title": "Messenger features",
+        "sidebar_label": "Messenger features"
       },
       "channels/messenger/outros-recursos-messenger": {
         "title": "Acessando outros recursos do Messenger",
@@ -489,8 +489,8 @@
         "sidebar_label": "Messenger Overview"
       },
       "channels/microsoft-teams/funcionalidades-microsoft-teams": {
-        "title": "Funcionalidades do Microsoft Teams",
-        "sidebar_label": "Funcionalidades do Microsoft Teams"
+        "title": "Microsoft Teams features",
+        "sidebar_label": "Microsoft Teams features"
       },
       "channels/microsoft-teams/publicando-bot-microsoft-teams": {
         "title": "Como publicar seu bot no Microsoft Teams",
@@ -513,8 +513,8 @@
         "sidebar_label": "Como interagir com os usuários através do Skype"
       },
       "channels/skype/funcionalidades-skype": {
-        "title": "Funcionalidades do canal Skype",
-        "sidebar_label": "Funcionalidades do canal Skype"
+        "title": "Skype features",
+        "sidebar_label": "Skype features"
       },
       "channels/skype/publicando-bot-skype": {
         "title": "Como publicar seu Chatbot no Skype",
@@ -585,8 +585,8 @@
         "sidebar_label": "Enviar notificações WhatsApp via API do BLiP"
       },
       "channels/whatsapp/funcionalidades-do-whatsapp": {
-        "title": "Funcionalidades do canal WhatsApp",
-        "sidebar_label": "Funcionalidades do canal WhatsApp"
+        "title": "WhatsApp features",
+        "sidebar_label": "WhatsApp features"
       },
       "channels/whatsapp/publicando-bot-no-whatsapp": {
         "title": "Publicando seu bot no canal WhatsApp",
@@ -605,8 +605,8 @@
         "sidebar_label": "Como interagir com os usuários através do Workplace"
       },
       "channels/workplace/funcionalidades-workplace": {
-        "title": "Funcionalidades do canal Workplace",
-        "sidebar_label": "Funcionalidades do canal Workplace"
+        "title": "Workplace features",
+        "sidebar_label": "Workplace features"
       },
       "channels/workplace/o-que-e-workplace": {
         "title": "What is Workplace?",
@@ -962,7 +962,7 @@
     "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!|no description given": "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!",
     "Mais recentes|no description given": "Most recent",
     "Como conectar a um canal de atendimento personalizado|no description given": "Como conectar a um canal de atendimento personalizado",
-    "Funcionalidades do BLiP Chat Widget|no description given": "Funcionalidades do BLiP Chat Widget",
+    "Funcionalidades do BLiP Chat Widget|no description given": "BLiP Chat Widget features",
     "Visão geral das ações|no description given": "Actions overview",
     "Como adicionar um bot em um aplicativo Android...|no description given": "Como adicionar um bot em um aplicativo Android...",
     "Mais acessados|no description given": "Most accessed",
