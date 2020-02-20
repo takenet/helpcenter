@@ -1492,7 +1492,7 @@ class ScriptDynamically extends React.Component {
                                         {
                                             "id": "Rede_hoteis",
                                             "title": "Rede de Hotéis",
-                                            "creator": "Criado por BLiP",
+                                            "creator": "Criado por Criado por <a href='https://forum.blip.ai/u/thaynara_oliveira' target='_blank'>Thaynara Oliveira</a>",
                                             "subtitle": "Esse chatbot foi desenvolvido com propósito de auxiliar as redes de hotéis a prestar servições aos seus clientes dando a eles a opção de buscar hotéis da rede em qualquer região. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
                                             "categories": [
                                                 {
@@ -1578,6 +1578,103 @@ class ScriptDynamically extends React.Component {
                                                 },
                                                 {
                                                 "func": "✓ Atendimento Humano "
+                                                }
+                                                
+                                            ]
+                                            },
+                                            {
+                                            "id": "Clinicas",
+                                            "title": "Clínica de Saúde",
+                                            "creator": "Criado por <a href='https://forum.blip.ai/u/thaynara_oliveira' target='_blank'>Thaynara Oliveira</a>",
+                                            "subtitle": "Esse chatbot foi desenvolvido com o propósito de auxiliar pequenas a médias clínicas de saúde e similares no atendimento a seus clientes.",
+                                            "categories": [
+                                                {
+                                                "category": "Serviços"
+                                                },
+                                                {
+                                                "subcategory": "Registro de Eventos"
+                                                },
+                                                {
+                                                "subcategory": "Atendimento Humano"
+                                                }
+                                            ],
+                                            "download_uri": "/templates/clinicas/clinicatemplate.json",
+                                            "link_bot": "Y3Jpc3RpbmFjbGluaWNhbWFpc3NhdWRlOmYyYzc2M2JhLWJjYTctNDM1MS04MDI0LTc2MzJiOTMyYWJkYg==",
+                                            "images": [
+                                                {
+                                                "url": "/templates/clinicas/Exemplo02.PNG"
+                                                },
+                                                {
+                                                "url": "/templates/clinicas/Exemplo01.PNG"
+                                                },
+                                                {
+                                                "url": "/templates/clinicas/Exemplo03.PNG"
+                                                },
+                                                {
+                                                "url": "/templates/clinicas/Exemplo04.PNG"
+                                                }
+                                            ],
+                                            "tabs": {
+                                                "details": '<p class="content-title">Compatível com:</p> \\
+                                                <div class="compatible-channels"> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
+                                                </div> \\
+                                                <p class="content-text">Esse chatbot foi desenvolvido com o propósito de auxiliar\\
+                                                pequenas a médias clínicas de saúde e similares no atendimento a seus clientes. \\
+                                                \\
+                                                <p class="content-title">O que pode ser feito?</p> \\
+                                                <ul> \\
+                                                    <li class="content-list-text"> Exibir seus serviços </li> \\
+                                                    <li class="content-list-text"> Apresentar informações aos clientes </li> \\
+                                                    <li class="content-list-text"> Encaminhar cliente para atendimento humano </li> \\
+                                                    <li class="content-list-text"> Agendar consultas e exames* <u><i>necessário API própria</i></u> </li> \\
+                                                </ul>\\
+                                                   ',  
+                                                "install": '<p class="content-title">Como instalar?</p>\\
+                                                \\
+                                                <ul>\\
+                                                <li class="content-list-text">Crie um bot e importe o fluxo para ele.</li>\\
+                                                <ul>\\
+                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                                </ul>\\
+                                                <li class="content-list-text">Faça as modificações conforme sua necessidade.</li>\\
+                                                <br><li class="content-list-text">Crie relatórios personalizados para registrar seus eventos.</li>\\
+                                                <ul>\\
+                                                <li class="content-list-text">Utilize a variável <b>{{nps}}</b> para as notas</li>\\
+                                                <li class="content-list-text">Utilize a variável <b>{{feedback}}</b> para os comentários</li>\\
+                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/en/analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado/">Criando gráficos em um relatório customizado</a></li><br>\\
+                                                </ul>\\
+                                                <li class="content-list-text">Conecte seu canal de atendimento humano (ex.: BLiP Desk)</li>\\
+                                                    <ul>\\
+                                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
+                                                    </ul>\\
+                                                    ',
+                    
+                                                "support": '<p class="content-title">Suporte</p> \\
+                                                <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
+                                                    e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                                    \\
+                                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                            },
+                                            "table": [
+                                                {
+                                                "func": "✓ Multicanal"
+                                                },
+                                                {
+                                                "func": "✓ Quick Reply "
+                                                },
+                                                {
+                                                "func": "✓ Menu "
+                                                },
+                                                {
+                                                "func": "✓ Atendimento Humano "
+                                                },
+                                                {
+                                                "func": "✓ Registro de Eventos "
                                                 }
                                                 
                                             ]

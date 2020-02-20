@@ -212,6 +212,19 @@ class Template extends React.Component {
                             </div>
                         </div>
 
+                        <div className="card-templates">
+                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/clinicas.jpg"></img>
+                            <div className="text-card-templates">
+                                <button className="category-card-templates">Serviços</button>
+                                <p className="title-card-templates">Clínica de Saúde</p>
+                                <p className="creator-card-templates">criado por <a href="https://forum.blip.ai/u/thaynara_oliveira" target="_blank">Thaynara Oliveira</a></p>
+                                <a href="/template?Id=Clinicas"><div className="seeMore-card-templates">
+                                    <p className="text-seeMore">Ver detalhes</p>
+                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                </div></a>
+                            </div>
+                        </div>
+
                     </div>
 
 
