@@ -1,7 +1,7 @@
 ---
 id: visao-geral-do-builder
-title: Visão geral do Builder
-sidebar_label: Visão geral do Builder
+title: Builder overview
+sidebar_label: Builder overview
 ---
 
 O **Builder** é mais um dos diversos componente do BLiP. Ele foi pensado para possibilitar a construção de bons chatbots de forma rápida, simples, visual e sem a obrigatoriedade de utilizar código. Através dele, é possível estruturar todo o fluxo da conversa e definir o conteúdo do bot, de forma integrada aos outros recursos da plataforma.
