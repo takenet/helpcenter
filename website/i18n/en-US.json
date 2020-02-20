@@ -330,8 +330,8 @@
         "sidebar_label": "Permitir envio de arquivos no BLiP Chat"
       },
       "channels/blip-chat/tipos-conteudo-chat": {
-        "title": "Tipos de conteúdo suportados pelo BLiP Chat",
-        "sidebar_label": "Tipos de conteúdo suportados pelo BLiP Chat"
+        "title": "Content types supported by BLiP Chat",
+        "sidebar_label": "Content types supported by BLiP Chat"
       },
       "channels/blip-chat/tipos-de-autenticacao-chat": {
         "title": "Tipos de autenticação dos usuários no BLiP Chat",
@@ -357,8 +357,8 @@
         "title": "Como publicar seu Chatbot no Business Chat"
       },
       "channels/business-chat/tipos-conteudo-business-chat": {
-        "title": "Tipos de conteúdo suportados pelo Business Chat",
-        "sidebar_label": "Tipos de conteúdo suportados pelo Business Chat"
+        "title": "Content types supported by Business Chat",
+        "sidebar_label": "Content types supported by Business Chat"
       },
       "channels/business-chat/visao-geral-business-chat": {
         "title": "Business Chat Overview",
@@ -381,8 +381,8 @@
         "sidebar_label": "Como publicar seu Chatbot no email"
       },
       "channels/email/tipos-conteudo-email": {
-        "title": "Tipos de conteúdo suportados pelo Email",
-        "sidebar_label": "Tipos de conteúdo suportados pelo Email"
+        "title": "Content types supported by Email",
+        "sidebar_label": "Content types supported by Email"
       },
       "channels/email/visao-geral-email": {
         "title": "Email Overview",
@@ -401,8 +401,8 @@
         "sidebar_label": "Como publicar seu bot no Google Assistant"
       },
       "channels/google-assistant/tipos-conteudo-google-assistant": {
-        "title": "Tipos de conteúdo suportados pelo Google Assistant",
-        "sidebar_label": "Tipos de conteúdo suportados pelo Google Assistant"
+        "title": "Content types supported by Google Assistant",
+        "sidebar_label": "Content types supported by Google Assistant"
       },
       "channels/google-assistant/visao-geral-google-assistant": {
         "title": "Google Assistant Overview",
@@ -425,8 +425,8 @@
         "sidebar_label": "Como publicar seu Chatbot no Google RCS"
       },
       "channels/google-rcs/tipos-conteudo-google-rcs": {
-        "title": "Tipos de conteúdo suportados pelo Google RCS",
-        "sidebar_label": "Tipos de conteúdo suportados pelo Google RCS"
+        "title": "Content types supported by Google RCS",
+        "sidebar_label": "Content types supported by Google RCS"
       },
       "channels/google-rcs/visao-geral-google-rcs": {
         "title": "Google RCS Overview",
@@ -449,8 +449,8 @@
         "sidebar_label": "Como publicar seu Chatbot no Infobip"
       },
       "channels/infobip/tipos-conteudo-infobip": {
-        "title": "Tipos de conteúdo suportados pelo Infobip",
-        "sidebar_label": "Tipos de conteúdo suportados pelo Infobip"
+        "title": "Content types supported by Infobip",
+        "sidebar_label": "Content types supported by Infobip"
       },
       "channels/infobip/visao-geral-infobip": {
         "title": "Infobip Overview",
@@ -481,8 +481,8 @@
         "sidebar_label": "Como publicar seu Chatbot no Messenger"
       },
       "channels/messenger/tipos-conteudo-messenger": {
-        "title": "Tipos de conteúdo suportados pelo Messenger",
-        "sidebar_label": "Tipos de conteúdo suportados pelo Messenger"
+        "title": "Content types supported by Messenger",
+        "sidebar_label": "Content types supported by Messenger"
       },
       "channels/messenger/visao-geral-messenger": {
         "title": "Messenger Overview",
@@ -497,8 +497,8 @@
         "sidebar_label": "Como publicar seu bot no Microsoft Teams"
       },
       "channels/microsoft-teams/tipos-conteudo-microsoft-teams": {
-        "title": "Tipos de conteúdo suportados pelo Microsoft Teams",
-        "sidebar_label": "Tipos de conteúdo suportados pelo Microsoft Teams"
+        "title": "Content types supported by Microsoft Teams",
+        "sidebar_label": "Content types supported by Microsoft Teams"
       },
       "channels/microsoft-teams/visao-geral-microsoft-teams": {
         "title": "Microsoft Teams Overview",
@@ -521,8 +521,8 @@
         "sidebar_label": "Como publicar seu Chatbot no Skype"
       },
       "channels/skype/tipos-conteudo-skype": {
-        "title": "Tipos de conteúdo suportados pelo Skype",
-        "sidebar_label": "Tipos de conteúdo suportados pelo Skype"
+        "title": "Content types supported by Skype",
+        "sidebar_label": "Content types supported by Skype"
       },
       "channels/skype/visao-geral-skype": {
         "title": "Skype Overview",
@@ -542,7 +542,7 @@
       },
       "channels/telegram/tipos-conteudo-telegram": {
         "title": "Conteúdos disponíveis no canal Telegram",
-        "sidebar_label": "Conteúdos disponíveis no canal Telegram"
+        "sidebar_label": "Content types supported by Telegram"
       },
       "channels/telegram/visao-geral-do-telegram": {
         "title": "Telegram Overview",
@@ -553,8 +553,8 @@
         "sidebar_label": "WhatsApp Architecture"
       },
       "channels/whatsapp/como-criar-aprovar-message-template": {
-        "title": "Como criar e aprovar um Message Template no WhatsApp",
-        "sidebar_label": "Como criar e aprovar um Message Template no WhatsApp"
+        "title": "How to create and approve a Message Template on WhatsApp",
+        "sidebar_label": "How to create and approve a Message Template on WhatsApp"
       },
       "channels/whatsapp/como-enviar-notificacoes-respostas-prontas": {
         "title": "Como enviar notificações através de respostas prontas do BLiP Desk",
@@ -594,7 +594,7 @@
       },
       "channels/whatsapp/tipos-conteudo-whatsapp": {
         "title": "Conteúdos disponíveis no canal WhatsApp",
-        "sidebar_label": "Conteúdos disponíveis no canal WhatsApp"
+        "sidebar_label": "Content types supported by WhatsApp"
       },
       "channels/whatsapp/visao-geral-do-whatsapp": {
         "title": "WhatsApp Overview",
@@ -625,8 +625,8 @@
         "sidebar_label": "Publicando seu chatbot no Workplace"
       },
       "channels/workplace/tipos-conteudo-workplace": {
-        "title": "Tipos de conteúdo suportados pelo Workplace",
-        "sidebar_label": "Tipos de conteúdo suportados pelo Workplace"
+        "title": "Content types supported by Workplace",
+        "sidebar_label": "Content types supported by Workplace"
       },
       "channels/workplace/visao-geral-workplace": {
         "title": "Workplace Overview",
@@ -729,8 +729,8 @@
         "sidebar_label": "Como definir regras de atendimento no BLiP Desk"
       },
       "helpdesk/blipdesk/como-filtrar-ticket-id": {
-        "title": "Como filtrar um ticket por ID?",
-        "sidebar_label": "Como filtrar um ticket por ID?"
+        "title": "How to filter a ticket by ID?",
+        "sidebar_label": "How to filter a ticket by ID?"
       },
       "helpdesk/blipdesk/como-realizar-um-atendimento-atraves-do-blip-desk": {
         "title": "Como realizar um atendimento através do BLiP Desk",
@@ -886,7 +886,7 @@
     "Para se tornar um usuário beta insira seu email na seção superior desta página e clique no botão|no description given": "Para se tornar um usuário beta insira seu email na seção superior desta página e clique no botão",
     "Parabéns, você agora é um beta!|no description given": "Parabéns, você agora é um beta!",
     "Em alguns instantes você vai receber um e-mail com mais informações|no description given": "Em alguns instantes você vai receber um e-mail com mais informações",
-    "Tipos de conteúdos por canal|no description given": "Tipos de conteúdos por canal",
+    "Tipos de conteúdos por canal|no description given": "Content types by channel",
     "Veja os tipos de conteúdos suportados nos diferentes canais integrados ao BLiP|no description given": "Veja os tipos de conteúdos suportados nos diferentes canais integrados ao BLiP",
     "Recursos|no description given": "Resources",
     "Clique nos ícones de check da tabela e veja como cada um dos tipos de conteúdo é suportado em cada canal.|no description given": "Clique nos ícones de check da tabela e veja como cada um dos tipos de conteúdo é suportado em cada canal.",
