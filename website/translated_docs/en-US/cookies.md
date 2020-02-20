@@ -1,7 +1,7 @@
 ---
 id: cookies
-title: Política de Uso de Cookies
-sidebar_label: Política de Uso de Cookies
+title: Cookies Policies
+sidebar_label: Cookies Policies
 ---
 
 Última atualização em agosto de 2019
