@@ -1,7 +1,7 @@
 ---
 id: o-que-e-um-bloco-de-atendimento
-title: O que é um bloco de atendimento
-sidebar_label: O que é um bloco de atendimento
+title: What is a customer service block
+sidebar_label: What is a customer service block
 ---
 
 Um bloco de atendimento representa o estado em que um usuário deixa de ser atendido pelo bot e passa a ser atendido por um atendente humano. Assim, cada bloco de atendimento no fluxo do bot representa um ponto em que os clientes são transbordados para o atendimento humano.
