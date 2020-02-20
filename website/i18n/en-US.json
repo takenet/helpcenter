@@ -234,16 +234,16 @@
         "sidebar_label": "Importando o fluxo de um bot no Builder"
       },
       "builder/o-que-e-um-bloco-de-atendimento": {
-        "title": "O que é um bloco de atendimento",
-        "sidebar_label": "O que é um bloco de atendimento"
+        "title": "What is a customer service block",
+        "sidebar_label": "What is a customer service block"
       },
       "builder/o-que-e-um-bloco-de-conteudo": {
-        "title": "O que é um bloco de conteúdo",
-        "sidebar_label": "O que é um bloco de conteúdo"
+        "title": "What is a content block",
+        "sidebar_label": "What is a content block"
       },
       "builder/o-que-e-um-weblink": {
-        "title": "O que é um Weblink?",
-        "sidebar_label": "O que é um Weblink?"
+        "title": "What is Weblink?",
+        "sidebar_label": "What is Weblink?"
       },
       "builder/o-que-sao-blocos-de-controle": {
         "title": "O que são blocos de controle (Início e Exceção)",
@@ -361,12 +361,12 @@
         "sidebar_label": "Tipos de conteúdo suportados pelo Business Chat"
       },
       "channels/business-chat/visao-geral-business-chat": {
-        "title": "Visão geral do canal Business Chat",
-        "sidebar_label": "Visão geral do canal Business Chat"
+        "title": "Business Chat Overview",
+        "sidebar_label": "Business Chat Overview"
       },
       "channels/email/arquitetura-email": {
-        "title": "Arquitetura do canal de Email",
-        "sidebar_label": "Arquitetura do canal de Email"
+        "title": "Email Architecture",
+        "sidebar_label": "Email Architecture"
       },
       "channels/email/como-interagir-email": {
         "title": "Como interagir com os usuários através do email",
@@ -385,8 +385,8 @@
         "sidebar_label": "Tipos de conteúdo suportados pelo Email"
       },
       "channels/email/visao-geral-email": {
-        "title": "Visão geral do canal Email",
-        "sidebar_label": "Visão geral do canal Email"
+        "title": "Email Overview",
+        "sidebar_label": "Email Overview"
       },
       "channels/google-assistant/enviando-notificacao-google-assistant": {
         "title": "Enviando notificações com o Google Assistant",
@@ -405,8 +405,8 @@
         "sidebar_label": "Tipos de conteúdo suportados pelo Google Assistant"
       },
       "channels/google-assistant/visao-geral-google-assistant": {
-        "title": "Visão geral do Google Assistant",
-        "sidebar_label": "Visão geral do Google Assistant"
+        "title": "Google Assistant Overview",
+        "sidebar_label": "Google Assistant Overview"
       },
       "channels/google-rcs/como-interagir-google-rcs": {
         "title": "Como interagir com os usuários através do Google RCS",
@@ -429,12 +429,12 @@
         "sidebar_label": "Tipos de conteúdo suportados pelo Google RCS"
       },
       "channels/google-rcs/visao-geral-google-rcs": {
-        "title": "Visão geral do Google RCS",
-        "sidebar_label": "Visão geral do Google RCS"
+        "title": "Google RCS Overview",
+        "sidebar_label": "Google RCS Overview"
       },
       "channels/infobip/arquitetura-infobip": {
-        "title": "Arquitetura do canal Infobip",
-        "sidebar_label": "Arquitetura do canal Infobip"
+        "title": "Infobip Architecture",
+        "sidebar_label": "Infobip Architecture"
       },
       "channels/infobip/como-interagir-infobip": {
         "title": "Como interagir com os usuários através do Infobip",
@@ -453,12 +453,12 @@
         "sidebar_label": "Tipos de conteúdo suportados pelo Infobip"
       },
       "channels/infobip/visao-geral-infobip": {
-        "title": "Visão geral do canal Infobip",
+        "title": "Infobip Overview",
         "sidebar_label": "Visão gera do canal Infobip"
       },
       "channels/messenger/arquitetura-messenger": {
-        "title": "Arquitetura do canal do Messenger",
-        "sidebar_label": "Arquitetura do canal do Messenger"
+        "title": "Messenger Architecture",
+        "sidebar_label": "Messenger Architecture"
       },
       "channels/messenger/como-configurar-sua-propria-aplicacao-facebook": {
         "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
@@ -485,8 +485,8 @@
         "sidebar_label": "Tipos de conteúdo suportados pelo Messenger"
       },
       "channels/messenger/visao-geral-messenger": {
-        "title": "Visão geral do Messenger",
-        "sidebar_label": "Visão geral do Messenger"
+        "title": "Messenger Overview",
+        "sidebar_label": "Messenger Overview"
       },
       "channels/microsoft-teams/funcionalidades-microsoft-teams": {
         "title": "Funcionalidades do Microsoft Teams",
@@ -501,12 +501,12 @@
         "sidebar_label": "Tipos de conteúdo suportados pelo Microsoft Teams"
       },
       "channels/microsoft-teams/visao-geral-microsoft-teams": {
-        "title": "Visão geral do Microsoft Teams",
-        "sidebar_label": "Visão geral do Microsoft Teams"
+        "title": "Microsoft Teams Overview",
+        "sidebar_label": "Microsoft Teams Overview"
       },
       "channels/skype/arquitetura-skype": {
-        "title": "Arquitetura do Skype",
-        "sidebar_label": "Arquitetura do Skype"
+        "title": "Skype Architecture",
+        "sidebar_label": "Skype Architecture"
       },
       "channels/skype/como-interagir-skype": {
         "title": "Como interagir com os usuários através do Skype",
@@ -525,12 +525,12 @@
         "sidebar_label": "Tipos de conteúdo suportados pelo Skype"
       },
       "channels/skype/visao-geral-skype": {
-        "title": "Visão geral do canal Skype",
-        "sidebar_label": "Visão geral do canal Skype"
+        "title": "Skype Overview",
+        "sidebar_label": "Skype Overview"
       },
       "channels/telegram/arquitetura-do-telegram": {
-        "title": "Arquitetura do canal Telegram",
-        "sidebar_label": "Arquitetura do canal Telegram"
+        "title": "Telegram Architecture",
+        "sidebar_label": "Telegram Architecture"
       },
       "channels/telegram/como-interagir-telegram": {
         "title": "Como interagir com os usuários através do Telegram",
@@ -545,12 +545,12 @@
         "sidebar_label": "Conteúdos disponíveis no canal Telegram"
       },
       "channels/telegram/visao-geral-do-telegram": {
-        "title": "Visão geral do canal Telegram",
-        "sidebar_label": "Visão geral do canal Telegram"
+        "title": "Telegram Overview",
+        "sidebar_label": "Telegram Overview"
       },
       "channels/whatsapp/arquitetura-do-whatsapp": {
-        "title": "Arquitetura do canal WhatsApp",
-        "sidebar_label": "Arquitetura do canal WhatsApp"
+        "title": "WhatsApp Architecture",
+        "sidebar_label": "WhatsApp Architecture"
       },
       "channels/whatsapp/como-criar-aprovar-message-template": {
         "title": "Como criar e aprovar um Message Template no WhatsApp",
@@ -597,8 +597,8 @@
         "sidebar_label": "Conteúdos disponíveis no canal WhatsApp"
       },
       "channels/whatsapp/visao-geral-do-whatsapp": {
-        "title": "Visão geral do canal WhatsApp",
-        "sidebar_label": "Visão geral do canal WhatsApp"
+        "title": "WhatsApp Overview",
+        "sidebar_label": "WhatsApp Overview"
       },
       "channels/workplace/como-interagir-workplace": {
         "title": "Como interagir com os usuários através do Workplace",
@@ -629,8 +629,8 @@
         "sidebar_label": "Tipos de conteúdo suportados pelo Workplace"
       },
       "channels/workplace/visao-geral-workplace": {
-        "title": "Visão geral do canal Workplace",
-        "sidebar_label": "Visão geral do canal Workplace"
+        "title": "Workplace Overview",
+        "sidebar_label": "Workplace Overview"
       },
       "general/central-notificacoes": {
         "title": "Central de Notificações",
@@ -769,8 +769,8 @@
         "sidebar_label": "Utilizando variáveis nas respostas prontas do BLiP Desk"
       },
       "helpdesk/blipdesk/visao-geral-desk": {
-        "title": "Visão geral do BLiP Desk",
-        "sidebar_label": "Visão geral do BLiP Desk"
+        "title": "BLiP Desk Overview",
+        "sidebar_label": "BLiP Desk Overview"
       },
       "helpdesk/customprovider/como-conectar-a-um-canal-de-atendimento-personalizado": {
         "title": "Como conectar a um canal de atendimento personalizado",
