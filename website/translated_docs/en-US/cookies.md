@@ -6,7 +6,7 @@ sidebar_label: Política de Uso de Cookies
 
 Última atualização em agosto de 2019
 
-### Introdução
+### Introduction
 Podemos definir *cookies* como um conjunto de informações que um site pode armazenar no seu dispositivo.
 
 A partir do momento que essas informações forem armazenadas, elas serão fornecidas pelo seu navegador sempre que acessar esse site, fazendo com que suas preferências sejam aplicadas.
