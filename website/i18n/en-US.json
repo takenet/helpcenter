@@ -250,8 +250,8 @@
         "sidebar_label": "O que são blocos de controle (Início e Exceção)"
       },
       "builder/o-que-sao-listas-de-distribuicao": {
-        "title": "O que são listas de distribuição",
-        "sidebar_label": "O que são listas de distribuição"
+        "title": "What is a distribution list",
+        "sidebar_label": "What is a distribution list"
       },
       "builder/proporcao-de-exibicao-de-imagens": {
         "title": "Proporção de exibição de imagens (Aspect Ratio)",
@@ -609,8 +609,8 @@
         "sidebar_label": "Funcionalidades do canal Workplace"
       },
       "channels/workplace/o-que-e-workplace": {
-        "title": "O que é Workplace?",
-        "sidebar_label": "O que é o Workplace?"
+        "title": "What is Workplace?",
+        "sidebar_label": "What is Workplace?"
       },
       "channels/workplace/outros-recursos-workplace": {
         "title": "Acessando outros recursos do Workplace",
@@ -864,8 +864,8 @@
   "pages-strings": {
     "Seja usuário beta!|no description given": "Seja usuário beta!",
     "Utilize novas funcionalidades do BLiP antes de serem implementadas|no description given": "Utilize novas funcionalidades do BLiP antes de serem implementadas",
-    "Quero ser beta!|no description given": "Quero ser beta!",
-    "Porque ser um usuário beta?|no description given": "Porque ser um usuário beta?",
+    "Quero ser beta!|no description given": "I want to be beta!",
+    "Porque ser um usuário beta?|no description given": "Why should I be a beta user?",
     "As novas funcionalidades do BLiP são disponibilizadas de forma controlada, para grupos de usuários específicos. Esse processo ajuda a equipe que desenvolve a plataforma a validar algumas hipóteses e coletar feedbacks, antes mesmo da funcionalidade estar disponível para todos os clientes.|no description given": "As novas funcionalidades do BLiP são disponibilizadas de forma controlada, para grupos de usuários específicos. Esse processo ajuda a equipe que desenvolve a plataforma a validar algumas hipóteses e coletar feedbacks, antes mesmo da funcionalidade estar disponível para todos os clientes.",
     "Os usuários beta tem acesso as funcionalidades que|no description given": "Os usuários beta tem acesso as funcionalidades que",
     "ainda estão em fase de avaliação|no description given": "ainda estão em fase de avaliação",
@@ -890,16 +890,16 @@
     "Veja os tipos de conteúdos suportados nos diferentes canais integrados ao BLiP|no description given": "Veja os tipos de conteúdos suportados nos diferentes canais integrados ao BLiP",
     "Recursos|no description given": "Resources",
     "Clique nos ícones de check da tabela e veja como cada um dos tipos de conteúdo é suportado em cada canal.|no description given": "Clique nos ícones de check da tabela e veja como cada um dos tipos de conteúdo é suportado em cada canal.",
-    "Perguntas frequentes|no description given": "Perguntas frequentes",
+    "Perguntas frequentes|no description given": "Frequently Asked Questions",
     "Esta página contém algumas das principais dúvidas e perguntas frequentes dos usuários da plataforma. As dúvidas estão organizadas em categorias, de acordo com o assunto abordado.|no description given": "Esta página contém algumas das principais dúvidas e perguntas frequentes dos usuários da plataforma. As dúvidas estão organizadas em categorias, de acordo com o assunto abordado.",
     "Caso suas dúvidas não sejam respondidas aqui, acesse o|no description given": "Caso suas dúvidas não sejam respondidas aqui, acesse o",
     "Como funciona a plataforma?|no description given": "Como funciona a plataforma?",
     "O BLiP é gratuito?|no description given": "O BLiP é gratuito?",
-    "O que significa a sigla MAU?|no description given": "O que significa a sigla MAU?",
+    "O que significa a sigla MAU?|no description given": "What does the acronym MAU mean?",
     "Quais os principais módulos do BLiP?|no description given": "Quais os principais módulos do BLiP?",
     "Como contratar um plano Busines/Enterprise?|no description given": "Como contratar um plano Busines/Enterprise?",
     "Como utilizar o WhatsApp com o BLiP?|no description given": "Como utilizar o WhatsApp com o BLiP?",
-    "O que posso fazer no canal WhatsApp?|no description given": "O que posso fazer no canal WhatsApp?",
+    "O que posso fazer no canal WhatsApp?|no description given": "What can I do on Whatsapp?",
     "Quais conteúdos são suportados por este canal?|no description given": "Quais conteúdos são suportados por este canal?",
     "Preciso pagar para enviar mensagens no WhatsApp?|no description given": "Preciso pagar para enviar mensagens no WhatsApp?",
     "O que é a janela de 24 horas do WhatsApp?|no description given": "O que é a janela de 24 horas do WhatsApp?",
