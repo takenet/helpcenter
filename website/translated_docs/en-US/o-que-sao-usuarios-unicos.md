@@ -1,7 +1,7 @@
 ---
 id: o-que-sao-usuarios-unicos
-title: O que são usuários únicos do BLiP
-sidebar_label: O que são usuários únicos do BLiP
+title: What are unique users of BLiP
+sidebar_label: What are unique users of BLiP
 ---
 
 O cálculo de usuário único do BLiP é feito por canal. Cada canal identifica um usuário (de forma particular) através de um identificador único.
