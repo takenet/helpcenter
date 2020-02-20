@@ -270,8 +270,8 @@
         "sidebar_label": "Actions overview"
       },
       "builder/visao-geral-das-condicoes-de-saida": {
-        "title": "Visão geral das condições de saída",
-        "sidebar_label": "Visão geral das condições de saída"
+        "title": "Output conditions overview",
+        "sidebar_label": "Output conditions overview"
       },
       "builder/visao-geral-do-builder": {
         "title": "Builder overview",
@@ -322,8 +322,8 @@
         "sidebar_label": "Funcionalidades do BLiP Chat Widget"
       },
       "channels/blip-chat/o-que-e-blip-chat": {
-        "title": "O que é o BLiP Chat?",
-        "sidebar_label": "O que é o BLiP Chat?"
+        "title": "What is BLiP Chat?",
+        "sidebar_label": "What is BLiP Chat?"
       },
       "channels/blip-chat/permitir-envio-de-arquivos-blip-chat": {
         "title": "Permitir envio de arquivos no BLiP Chat",
@@ -338,8 +338,8 @@
         "sidebar_label": "Tipos de autenticação dos usuários no BLiP Chat"
       },
       "channels/business-chat/arquitetura-business-chat": {
-        "title": "Arquitetura do Business Chat",
-        "sidebar_label": "Arquitetura do Business Chat"
+        "title": "Business Chat Architecture",
+        "sidebar_label": "Business Chat Architecture"
       },
       "channels/business-chat/como-interagir-business-chat": {
         "title": "Como interagir com os usuários através do Business Chat",
