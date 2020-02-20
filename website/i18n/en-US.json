@@ -110,8 +110,8 @@
         "sidebar_label": "Integração com ferramentas de analytics"
       },
       "analytics/o-que-sao-usuarios-unicos": {
-        "title": "O que são usuários únicos do BLiP",
-        "sidebar_label": "O que são usuários únicos do BLiP"
+        "title": "What are unique users of BLiP",
+        "sidebar_label": "What are unique users of BLiP"
       },
       "analytics/rd-station/como-enviar-dados-rd-station": {
         "title": "Integração RD Station - Enviando dados de um bot para o RD Station",
@@ -633,28 +633,28 @@
         "sidebar_label": "Workplace Overview"
       },
       "general/central-notificacoes": {
-        "title": "Central de Notificações",
-        "sidebar_label": "Central de Notificações"
+        "title": "Notifications Center",
+        "sidebar_label": "Notifications Center"
       },
       "general/chatbots-e-a-importancia-contexto": {
         "title": "Chatbots e a importância do contexto",
         "sidebar_label": "Chatbots e a importância do contexto"
       },
       "general/level-up/level-up-0-lancamento-oficial-do-blip": {
-        "title": "LevelUp 0 - Lançamento oficial do BLiP",
-        "sidebar_label": "LevelUp 0 - Lançamento oficial do BLiP"
+        "title": "LevelUp 0 - Official launch of BLiP",
+        "sidebar_label": "LevelUp 0 - Official launch of BLiP"
       },
       "general/level-up/level-up-1-blip-desk": {
         "title": "LevelUp 1 - BLiP Desk",
         "sidebar_label": "LevelUp 1 - BLiP Desk"
       },
       "general/level-up/level-up-10-ferramenta-de-debug": {
-        "title": "LevelUp 10 - Ferramenta de Debug",
-        "sidebar_label": "LevelUp 10 - Ferramenta de Debug"
+        "title": "LevelUp 10 - Debug Tool",
+        "sidebar_label": "LevelUp 10 - Debug Tool"
       },
       "general/level-up/level-up-11-comemoracao-de-um-ano-mais-caso-mundiale": {
-        "title": "LevelUp 11 - Comemoração de 1 ano + Case Mundiale",
-        "sidebar_label": "LevelUp 11 - Comemoração de 1 ano + Case Mundiale"
+        "title": "LevelUp 11 - 1 year celebration and Case Mundiale",
+        "sidebar_label": "LevelUp 11 - 1 year celebration and Case Mundiale"
       },
       "general/level-up/level-up-12-botanalytics": {
         "title": "LevelUp 12 - BotAnalytics",
@@ -681,8 +681,8 @@
         "sidebar_label": "LevelUp 5 - WhatsApp"
       },
       "general/level-up/level-up-6-templates-tags-e-biblioteca-de-variaveis": {
-        "title": "LevelUp 6 - Templates, tags e biblioteca de variáveis",
-        "sidebar_label": "LevelUp 6 - Templates, tags e biblioteca de variáveis"
+        "title": "LevelUp 6 - Templates, tags, and variable library",
+        "sidebar_label": "LevelUp 6 - Templates, tags, and variable library"
       },
       "general/level-up/level-up-7-dialogflow": {
         "title": "LevelUp 7 - Dialogflow",
@@ -693,8 +693,8 @@
         "sidebar_label": "LevelUp 8 - BLiP Growth"
       },
       "general/level-up/level-up-9-marcos-de-2018": {
-        "title": "LevelUp 9 - Marcos de 2018",
-        "sidebar_label": "LevelUp 9 - Marcos de 2018"
+        "title": "LevelUp 9 - 2018 Highlights",
+        "sidebar_label": "LevelUp 9 - 2018 Highlights"
       },
       "general/politica-de-violacao-mensagens": {
         "title": "Política de violação de mensagens ativas do BLiP",
@@ -825,12 +825,12 @@
         "sidebar_label": "Como recuperar informações de contatos em um subbot"
       },
       "security/cookies": {
-        "title": "Política de Uso de Cookies",
-        "sidebar_label": "Política de Uso de Cookies"
+        "title": "Cookies Policies",
+        "sidebar_label": "Cookies Policies"
       },
       "security/privacy": {
-        "title": "Política de Privacidade",
-        "sidebar_label": "Política de Privacidade"
+        "title": "Privacy Policies",
+        "sidebar_label": "Privacy Policies"
       },
       "security/terms": {
         "title": "Termos de uso e privacidade do BLiP",
@@ -842,9 +842,9 @@
       "Artigos": "Articles",
       "Áreas do BLiP": "BLiP Areas",
       "Recursos": "Resources",
-      "Cursos": "Cursos",
+      "Cursos": "Courses",
       "Comunidade": "Community",
-      "Políticas": "Políticas"
+      "Políticas": "Policies"
     },
     "categories": {
       "Introdução": "Introduction",
@@ -862,7 +862,7 @@
     }
   },
   "pages-strings": {
-    "Seja usuário beta!|no description given": "Seja usuário beta!",
+    "Seja usuário beta!|no description given": "Be a beta user!",
     "Utilize novas funcionalidades do BLiP antes de serem implementadas|no description given": "Utilize novas funcionalidades do BLiP antes de serem implementadas",
     "Quero ser beta!|no description given": "I want to be beta!",
     "Porque ser um usuário beta?|no description given": "Why should I be a beta user?",
@@ -881,7 +881,7 @@
     "Outra forma de ajudar é reportar qualquer suspeita de problema através do|no description given": "Outra forma de ajudar é reportar qualquer suspeita de problema através do",
     "Fórum do BLiP|no description given": "Fórum do BLiP",
     "Neste caso, abra um ticket no fórum, relatando o problema encontrado|no description given": "Neste caso, abra um ticket no fórum, relatando o problema encontrado",
-    "Ajude-nos a evoluir!|no description given": "Ajude-nos a evoluir!",
+    "Ajude-nos a evoluir!|no description given": "Help us evolve!",
     "Os usuários beta tem um papel fundamental no processo de construção da plataforma. Através dos testes, avaliações e feedbacks, eles ajudam a equipe do BLiP no lançamento de funcionalidades cada vez mais aderentes ao problemas das empresas no momento de construir uma aplicação conversacional.|no description given": "Os usuários beta tem um papel fundamental no processo de construção da plataforma. Através dos testes, avaliações e feedbacks, eles ajudam a equipe do BLiP no lançamento de funcionalidades cada vez mais aderentes ao problemas das empresas no momento de construir uma aplicação conversacional.",
     "Para se tornar um usuário beta insira seu email na seção superior desta página e clique no botão|no description given": "Para se tornar um usuário beta insira seu email na seção superior desta página e clique no botão",
     "Parabéns, você agora é um beta!|no description given": "Parabéns, você agora é um beta!",
@@ -894,7 +894,7 @@
     "Esta página contém algumas das principais dúvidas e perguntas frequentes dos usuários da plataforma. As dúvidas estão organizadas em categorias, de acordo com o assunto abordado.|no description given": "Esta página contém algumas das principais dúvidas e perguntas frequentes dos usuários da plataforma. As dúvidas estão organizadas em categorias, de acordo com o assunto abordado.",
     "Caso suas dúvidas não sejam respondidas aqui, acesse o|no description given": "Caso suas dúvidas não sejam respondidas aqui, acesse o",
     "Como funciona a plataforma?|no description given": "Como funciona a plataforma?",
-    "O BLiP é gratuito?|no description given": "O BLiP é gratuito?",
+    "O BLiP é gratuito?|no description given": "Is BLiP free?",
     "O que significa a sigla MAU?|no description given": "What does the acronym MAU mean?",
     "Quais os principais módulos do BLiP?|no description given": "Quais os principais módulos do BLiP?",
     "Como contratar um plano Busines/Enterprise?|no description given": "Como contratar um plano Busines/Enterprise?",
@@ -921,7 +921,7 @@
     "Qual conteúdos são suportados pelos canais?|no description given": "Qual conteúdos são suportados pelos canais?",
     "Posso criar meu próprio canal?|no description given": "Posso criar meu próprio canal?",
     "Posso adicionar um bot no meu site (ou app)?|no description given": "Posso adicionar um bot no meu site (ou app)?",
-    "Segurança LGPD/GDPR|no description given": "Segurança LGPD/GDPR",
+    "Segurança LGPD/GDPR|no description given": "LGPD / GDPR Security",
     "O BLiP possui alguma certificação de segurança?|no description given": "O BLiP possui alguma certificação de segurança?",
     "O BLiP está em conformidade com a LGPD?|no description given": "O BLiP está em conformidade com a LGPD?",
     "Qual o processo de criptografia dos dados no BLiP?|no description given": "Qual o processo de criptografia dos dados no BLiP?",
@@ -957,8 +957,8 @@
     "Começou a usar o BLiP agora? Preparamos este conteúdo exclusivamente para ajudar nos seus primeiros passos.|no description given": "Começou a usar o BLiP agora? Preparamos este conteúdo exclusivamente para ajudar nos seus primeiros passos.",
     "Explorando a plataforma|no description given": "Explorando a plataforma",
     "Para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.|no description given": "Para pessoas que conhecem o BLiP ou já estão familiarizadas com o universo de contatos inteligentes.",
-    "Começar aqui|no description given": "Começar aqui",
-    "Dominando o BLiP|no description given": "Dominando o BLiP",
+    "Começar aqui|no description given": "Start here",
+    "Dominando o BLiP|no description given": "Mastering BLiP",
     "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!|no description given": "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!",
     "Mais recentes|no description given": "Most recent",
     "Como conectar a um canal de atendimento personalizado|no description given": "Como conectar a um canal de atendimento personalizado",
@@ -971,8 +971,8 @@
     "Visão geral do Builder|no description given": "Builder overview",
     "Enviar notificações WhatsApp via API do BLiP|no description given": "Enviar notificações WhatsApp via API do BLiP",
     "Veja outros artigos!|no description given": "See other articles!",
-    "Artigos mais|no description given": "Artigos mais",
-    "Tire dúvidas e faça sugestões!|no description given": "Tire dúvidas e faça sugestões!",
+    "Artigos mais|no description given": "\nMore articles",
+    "Tire dúvidas e faça sugestões!|no description given": "Ask questions and make suggestions!",
     "O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!|no description given": "O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!",
     "Fórum|no description given": "Fórum",
     "Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!|no description given": "Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!",
@@ -1014,7 +1014,7 @@
     "Políticas de Cookies|no description given": "Cookies Policies",
     "Políticas de Privacidade|no description given": "Privacy Policies",
     "Termos de Uso|no description given": "Terms of use",
-    "Torne-se um usuário beta!|no description given": "Torne-se um usuário beta!",
+    "Torne-se um usuário beta!|no description given": "\nBecome a beta user!",
     "Ao se tornar um usuário beta você será um dos primeiros a testar as novas features que serão lançadas|no description given": "Ao se tornar um usuário beta você será um dos primeiros a testar as novas features que serão lançadas",
     "Help Translate|recruit community translators for your project": "Help Translate",
     "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
