@@ -1,7 +1,7 @@
 ---
 id: privacy
-title: Política de Privacidade
-sidebar_label: Política de Privacidade
+title: Privacy Policies
+sidebar_label: Privacy Policies
 ---
 
 Última atualização em agosto de 2019
