@@ -266,24 +266,24 @@
         "sidebar_label": "Verificar se existe atendente disponível no Builder"
       },
       "builder/visao-geral-das-acoes": {
-        "title": "Visão geral das ações",
-        "sidebar_label": "Visão geral das ações"
+        "title": "Actions overview",
+        "sidebar_label": "Actions overview"
       },
       "builder/visao-geral-das-condicoes-de-saida": {
         "title": "Visão geral das condições de saída",
         "sidebar_label": "Visão geral das condições de saída"
       },
       "builder/visao-geral-do-builder": {
-        "title": "Visão geral do Builder",
-        "sidebar_label": "Visão geral do Builder"
+        "title": "Builder overview",
+        "sidebar_label": "Builder overview"
       },
       "builder/visao-geral-dos-tipos-de-conteudo": {
         "title": "Visão geral dos tipos de conteúdo",
         "sidebar_label": "Visão geral dos tipos de conteúdo"
       },
       "builder/visao-geral-variaveis": {
-        "title": "Visão geral das variáveis",
-        "sidebar_label": "Visão geral das variáveis"
+        "title": "Variables overview",
+        "sidebar_label": "Variables overview"
       },
       "channels/blip-chat/adicionando-push-notification-blip-chat-android": {
         "title": "Adicionando push notification no BLiP Chat Android",
@@ -963,12 +963,12 @@
     "Mais recentes|no description given": "Mais recentes",
     "Como conectar a um canal de atendimento personalizado|no description given": "Como conectar a um canal de atendimento personalizado",
     "Funcionalidades do BLiP Chat Widget|no description given": "Funcionalidades do BLiP Chat Widget",
-    "Visão geral das ações|no description given": "Visão geral das ações",
+    "Visão geral das ações|no description given": "Actions overview",
     "Como adicionar um bot em um aplicativo Android...|no description given": "Como adicionar um bot em um aplicativo Android...",
     "Mais acessados|no description given": "Mais acessados",
     "Como criar um bot com o Builder do BLiP|no description given": "Como criar um bot com o Builder do BLiP",
     "Como configurar o DialogFlow como um provedor de Inteligência Artificial|no description given": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
-    "Visão geral do Builder|no description given": "Visão geral do Builder",
+    "Visão geral do Builder|no description given": "Builder overview",
     "Enviar notificações WhatsApp via API do BLiP|no description given": "Enviar notificações WhatsApp via API do BLiP",
     "Veja outros artigos!|no description given": "Veja outros artigos!",
     "Artigos mais|no description given": "Artigos mais",
