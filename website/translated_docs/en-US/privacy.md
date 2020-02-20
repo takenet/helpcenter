@@ -6,7 +6,7 @@ sidebar_label: Política de Privacidade
 
 Última atualização em agosto de 2019
 
-### Introdução
+### Introduction
 
 O BLiP é uma plataforma que permite a construção, gestão e evolução de chatbots e contatos inteligentes. Para que possamos fornecer as funcionalidades mais adequadas, precisamos coletar, armazenar e processar alguns tipos de dados.
 
