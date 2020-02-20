@@ -14,7 +14,7 @@ A ação **Processar Comando** foi desenvolvida com o objetivo de facilitar a in
 
 | Extensão                         | Descrição                                                                                                                                                                                        |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Inteligência Artificial          | Extender os recursos disponíveis no módulo de Inteligência Artificial do BLiP.                                                     | [Saiba mais](https://docs.blip.ai/#artificial-intelligence) |
+| Artificial Intelligence          | Extender os recursos disponíveis no módulo de Inteligência Artificial do BLiP.                                                     | [Saiba mais](https://docs.blip.ai/#artificial-intelligence) |
 | Agendamento (Schedulling)        | Realiza o envio de mensagens, em nome do seu chatbot, para uma data e horário específico.                                        | [Saiba mais](https://docs.blip.ai/#schedule)                  |
 | Envio em massa (Broadcast)       | Gerencia listas de usuários de seu chatbot e envia mensagens para todos os usuários de uma lista.                             | [Saiba mais](https://docs.blip.ai/#broadcast)                    |
 | Armazenamento (Storage)          | Permite o armazenamento de dados, no formato de documentos JSON, em um local seguro e isolado, acessível apenas pelo seu chatbot. | [Saiba mais](https://docs.blip.ai/#bucket)                   |
