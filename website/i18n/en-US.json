@@ -30,12 +30,12 @@
         "sidebar_label": "Como configurar o Watson Assistant como um provedor de Inteligência Artificial"
       },
       "ai/nlp/como-criar-uma-entidade": {
-        "title": "Como criar uma entidade",
-        "sidebar_label": "Como criar uma entidade"
+        "title": "How to create an entity",
+        "sidebar_label": "How to create an entity"
       },
       "ai/nlp/como-criar-uma-intencao": {
-        "title": "Como criar uma intenção",
-        "sidebar_label": "Como criar uma intenção"
+        "title": "How to create an intent",
+        "sidebar_label": "How to create an intent"
       },
       "ai/nlp/como-exportar-base-conhecimento": {
         "title": "Como importar/exportar uma base de conhecimento",
@@ -58,12 +58,12 @@
         "sidebar_label": "Importar modelo de NLP (intenções e entidades) pré-existente no BLiP"
       },
       "ai/nlp/o-que-e-entidade": {
-        "title": "O que é uma entidade?",
-        "sidebar_label": "O que é uma entidade?"
+        "title": "What is an entity?",
+        "sidebar_label": "What is an entity?"
       },
       "ai/nlp/o-que-e-intencao": {
-        "title": "O que é intenção?",
-        "sidebar_label": "O que é intenção?"
+        "title": "What is an intent?",
+        "sidebar_label": "What is an intent?"
       },
       "ai/nlp/treinando-publicando-modelo-de-ia": {
         "title": "Treinando e publicando seu modelo de inteligência artificial",
