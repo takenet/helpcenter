@@ -1,7 +1,7 @@
 ---
 id: visao-geral-das-condicoes-de-saida
-title: Visão geral das condições de saída
-sidebar_label: Visão geral das condições de saída
+title: Output conditions overview
+sidebar_label: Output conditions overview
 ---
 
 Para que seja possível condicionar a mudança de estado de um usuário, o Builder disponibiliza condições de saída. Uma condição de saída é composta de **uma ou mais regras e o identificador do bloco de destino**, caso a condição seja alcançada.
