@@ -7,7 +7,7 @@ sidebar_label: Verificar se existe atendente disponível no Builder
 Uma das funcionalidades mais interessantes do BLiP é permitir que um bot faça a transferência de um cliente para um atendente humano de forma transparente. Caso tenha dúvida em como utilizar essa funcionalidade em seu bot acesse os artigos:
 
 * [LevelUp 1 - BLiP Desk](/docs/general/level-up/level-up-1-blip-desk)
-* [Visão geral do BLiP Desk](/docs/helpdesk/blipdesk/visao-geral-desk)
+* [BLiP Desk Overview](/docs/helpdesk/blipdesk/visao-geral-desk)
 * [Como realizar um atendimento através do BLiP Desk](/docs/helpdesk/blipdesk/como-realizar-um-atendimento-atraves-do-blip-desk)
 
 Apesar de ser simples enviar um cliente para atendimento humano, a experiência do usuário pode ficar muito comprometida caso não haja nenhum atendente disponível na ferramenta (como no BLiP Desk por exemplo), uma vez que o bot para de responder e todas as mensagens são direcionadas para o ser humano.
