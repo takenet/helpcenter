@@ -86,7 +86,7 @@ class Beta extends React.Component {
                              de contatos por email e também através do</translate> <a href="https://ideas.blip.ai" target="blank">BLiP Ideas</a> - <translate>portal de sugestões de novas funcionalidades da plataforma.</translate></p>
 
                             <p className="text"><translate>Outra forma de ajudar é reportar qualquer suspeita de problema através do</translate> <a href="https://forum.blip.ai" target="blank"><translate>Fórum do BLiP</translate></a>.
-                            <translate>Neste caso, abra um ticket no fórum, relatando o problema encontrado</translate></p>
+                            <translate>Neste caso, abra um tópico no fórum, relatando o problema encontrado</translate></p>
                         </div>
 
                         <p className="title"><translate>Ajude-nos a evoluir!</translate></p>

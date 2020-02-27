@@ -593,8 +593,8 @@
         "sidebar_label": "Publicando seu bot no canal WhatsApp"
       },
       "channels/whatsapp/tipos-conteudo-whatsapp": {
-        "title": "Conteúdos disponíveis no canal WhatsApp",
-        "sidebar_label": "Conteúdos disponíveis no canal WhatsApp"
+        "title": "Conteúdos suportados no canal WhatsApp",
+        "sidebar_label": "Conteúdos suportados no canal WhatsApp"
       },
       "channels/whatsapp/visao-geral-do-whatsapp": {
         "title": "Visão geral do canal WhatsApp",
@@ -754,7 +754,7 @@
       },
       "helpdesk/blipdesk/gerenciamento-equipes": {
         "title": "Gerenciando equipes de atendimento no BLiP Desk",
-        "sidebar_label": "Gerenciado equipes de atendimento no BLiP Desk"
+        "sidebar_label": "Gerenciando equipes de atendimento no BLiP Desk"
       },
       "helpdesk/blipdesk/habilitando-uso-emoji-desk": {
         "title": "Habilitando o uso de emoji para o Desk",
@@ -880,7 +880,7 @@
     "portal de sugestões de novas funcionalidades da plataforma.|no description given": "portal de sugestões de novas funcionalidades da plataforma.",
     "Outra forma de ajudar é reportar qualquer suspeita de problema através do|no description given": "Outra forma de ajudar é reportar qualquer suspeita de problema através do",
     "Fórum do BLiP|no description given": "Fórum do BLiP",
-    "Neste caso, abra um ticket no fórum, relatando o problema encontrado|no description given": "Neste caso, abra um ticket no fórum, relatando o problema encontrado",
+    "Neste caso, abra um tópico no fórum, relatando o problema encontrado|no description given": "Neste caso, abra um tópico no fórum, relatando o problema encontrado",
     "Ajude-nos a evoluir!|no description given": "Ajude-nos a evoluir!",
     "Os usuários beta tem um papel fundamental no processo de construção da plataforma. Através dos testes, avaliações e feedbacks, eles ajudam a equipe do BLiP no lançamento de funcionalidades cada vez mais aderentes ao problemas das empresas no momento de construir uma aplicação conversacional.|no description given": "Os usuários beta tem um papel fundamental no processo de construção da plataforma. Através dos testes, avaliações e feedbacks, eles ajudam a equipe do BLiP no lançamento de funcionalidades cada vez mais aderentes ao problemas das empresas no momento de construir uma aplicação conversacional.",
     "Para se tornar um usuário beta insira seu email na seção superior desta página e clique no botão|no description given": "Para se tornar um usuário beta insira seu email na seção superior desta página e clique no botão",
@@ -975,7 +975,7 @@
     "Tire dúvidas e faça sugestões!|no description given": "Tire dúvidas e faça sugestões!",
     "O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!|no description given": "O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!",
     "Fórum|no description given": "Fórum",
-    "Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!|no description given": "Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!",
+    "Não encontrou o que procurava aqui no nosso help center? Abra um tópico no fórum para que outros usuários possam te ajudar!|no description given": "Não encontrou o que procurava aqui no nosso help center? Abra um tópico no fórum para que outros usuários possam te ajudar!",
     "BLiP Ideas|no description given": "BLiP Ideas",
     "Alguma ideia para melhorar a plataforma? Crie uma sugestão no BLiP Ideas! As ideias mais votadas são analisadas e podem se tornar novas features.|no description given": "Alguma ideia para melhorar a plataforma? Crie uma sugestão no BLiP Ideas! As ideias mais votadas são analisadas e podem se tornar novas features.",
     "Aprenda mais sobre o universo dos contatos inteligentes|no description given": "Aprenda mais sobre o universo dos contatos inteligentes",

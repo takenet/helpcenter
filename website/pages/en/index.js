@@ -371,7 +371,7 @@ class Index extends React.Component {
               </div>
               <div className="section-card">
                 <h3 className="h3-forum-ideas-card"><translate>Fórum</translate></h3>
-                <p className="p-forum-ideas-card"><translate>Não encontrou o que procurava aqui no nosso help center? Abra um ticket no fórum para que outros usuários possam te ajudar!</translate></p>
+                <p className="p-forum-ideas-card"><translate>Não encontrou o que procurava aqui no nosso help center? Abra um tópico no fórum para que outros usuários possam te ajudar!</translate></p>
               </div>
             </div>
           </a>

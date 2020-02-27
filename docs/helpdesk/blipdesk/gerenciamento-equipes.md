@@ -1,7 +1,7 @@
 ---
 id: gerenciamento-equipes
 title: Gerenciando equipes de atendimento no BLiP Desk
-sidebar_label: Gerenciado equipes de atendimento no BLiP Desk
+sidebar_label: Gerenciando equipes de atendimento no BLiP Desk
 ---
 
 O usuário que criou o bot — ou qualquer pessoa que tenha acesso de escrita no módulo de atendimento — pode gerenciar os atendentes e suas respectivas equipes de atendimento.

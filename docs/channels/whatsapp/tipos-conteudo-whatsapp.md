@@ -1,7 +1,7 @@
 ---
 id: tipos-conteudo-whatsapp
-title: Conteúdos disponíveis no canal WhatsApp
-sidebar_label: Conteúdos disponíveis no canal WhatsApp
+title: Conteúdos suportados no canal WhatsApp
+sidebar_label: Conteúdos suportados no canal WhatsApp
 ---
 
 Veja abaixo todos os tipos de conteúdos disponíveis na integração entre o BLiP e o WhatsApp. Para mais informações sobre os tipos de conteúdos presentes no BLiP, acesse a sessão de [tipos de conteúdos](https://docs.blip.ai/#content-types) na documentação.
