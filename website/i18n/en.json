@@ -560,9 +560,9 @@
         "title": "Como enviar notificações através de respostas prontas do BLiP Desk",
         "sidebar_label": "Como enviar notificações através de respostas prontas do BLiP Desk"
       },
-      "channels/whatsapp/como-enviar-notificacoes-via-builder": {
-        "title": "Como enviar notificações WhatsApp via Builder",
-        "sidebar_label": "Como enviar notificações WhatsApp via Builder"
+      "channels/whatsapp/como-enviar-notificacoes-via-portal": {
+        "title": "Como enviar notificações WhatsApp via Portal",
+        "sidebar_label": "Como enviar notificações WhatsApp via Portal"
       },
       "channels/whatsapp/como-gerenciar-lista-de-distribuicao-notificacao-whatsapp": {
         "title": "Como gerenciar uma lista de distribuição para enviar notificações WhatsApp",

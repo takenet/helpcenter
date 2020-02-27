@@ -1,7 +1,7 @@
 ---
-id: como-enviar-notificacoes-via-builder
-title: Como enviar notificações WhatsApp via Builder
-sidebar_label: Como enviar notificações WhatsApp via Builder
+id: como-enviar-notificacoes-via-portal
+title: Como enviar notificações WhatsApp via Portal
+sidebar_label: Como enviar notificações WhatsApp via Portal
 ---
 
 Através do BLiP, é possível criar aplicações para o canal WhatsApp capazes **não só de responder às mensagens recebidas**, mas também de **enviar mensagens (notificações) para o cliente de forma ativa**.
