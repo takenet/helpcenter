@@ -45,6 +45,10 @@
         "title": "Como testar seu modelo de NLP",
         "sidebar_label": "Como testar seu modelo de NLP"
       },
+      "ai/nlp/como-usar-assistente-de-conteudo": {
+        "title": "Como usar o Assistente de Conteúdo",
+        "sidebar_label": "Como usar o Assistente de Conteúdo"
+      },
       "ai/nlp/conceitos-basicos-nlp-e-ai": {
         "title": "Conceitos básicos para utilizar NLP e IA em chatbots",
         "sidebar_label": "Conceitos básicos para utilizar NLP e IA em chatbots"
