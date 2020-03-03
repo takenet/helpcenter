@@ -51,8 +51,6 @@ Ao clicar em Criar um arquivo (no formato .JSON) será baixado para o seu comput
 
 Para finalizar clique em **Concluir**.
 
-![Concluir criação](/img/ai/nlp/nlp-como-configurar-dialogflow-10.png)<br>
-
 7) **Última etapa**: Volte ao portal do BLiP e faça upload do arquivo de chave **.JSON**
 
 ![Upload arquivo JSON blip](/img/ai/nlp/nlp-como-configurar-dialogflow-11.png)<br>
