@@ -14,12 +14,14 @@ BLiP Help Center was created with [Docusaurus](https://docusaurus.io/).
 
 ```sh
 # Install dependencies
+$ cd website
 $ yarn
 ```
 2. Run your dev server:
 
 ```sh
 # Start the site
+$ cd website
 $ yarn start
 ```
 
