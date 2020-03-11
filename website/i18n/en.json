@@ -668,6 +668,10 @@
         "title": "LevelUp 13 - BLiP Ideas",
         "sidebar_label": "LevelUp 13 - BLiP Ideas"
       },
+      "general/level-up/level-up-14-metricas-negocios": {
+        "title": "LevelUp 14 - Metricas de Negócios",
+        "sidebar_label": "LevelUp 14 - Metricas de Negócios"
+      },
       "general/level-up/level-up-2-blip-chat": {
         "title": "LevelUp 2 - BLiP Chat",
         "sidebar_label": "LevelUp 2 - BLiP Chat"
@@ -969,10 +973,10 @@
     "Dominando o BLiP|no description given": "Dominando o BLiP",
     "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!|no description given": "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!",
     "Mais recentes|no description given": "Mais recentes",
+    "Boas práticas ao definir regras de atendimento|no description given": "Boas práticas ao definir regras de atendimento",
     "Como recuperar informações de contatos em um subbot|no description given": "Como recuperar informações de contatos em um subbot",
     "Como conectar a um canal de atendimento personalizado|no description given": "Como conectar a um canal de atendimento personalizado",
     "Funcionalidades do BLiP Chat Widget|no description given": "Funcionalidades do BLiP Chat Widget",
-    "Visão geral das ações|no description given": "Visão geral das ações",
     "Mais acessados|no description given": "Mais acessados",
     "Como criar um bot com o Builder do BLiP|no description given": "Como criar um bot com o Builder do BLiP",
     "Como configurar o DialogFlow como um provedor de Inteligência Artificial|no description given": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
@@ -980,6 +984,7 @@
     "Enviar notificações WhatsApp via API do BLiP|no description given": "Enviar notificações WhatsApp via API do BLiP",
     "Veja outros artigos!|no description given": "Veja outros artigos!",
     "Artigos mais|no description given": "Artigos mais",
+    "Visão geral das ações|no description given": "Visão geral das ações",
     "Como adicionar um bot em um aplicativo Android...|no description given": "Como adicionar um bot em um aplicativo Android...",
     "Tire dúvidas e faça sugestões!|no description given": "Tire dúvidas e faça sugestões!",
     "O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!|no description given": "O BLiP está em constante melhoria e adoramos quando nossos usuários nos ajudam a melhorar!",
