@@ -50,7 +50,7 @@ class HomeSplash extends React.Component {
           <a href="/docs/introduction/visao-geral-da-plataforma" className="nonClickable"><div className="card-home-main" id="card1">
             <div className="card-img">
               <div className="section-icon-circle-card section-icon-circle-card--bot">
-                <img  src={url +"/img/illustrations/Estrela-1.svg"} />
+                <img src={url + "/img/illustrations/Estrela-1.svg"} />
               </div>
             </div>
             <div className="card-info">
@@ -69,7 +69,7 @@ class HomeSplash extends React.Component {
           <a href="/blipareas" className="nonClickable"><div className="card-home-main" id="card2">
             <div className="card-img">
               <div className="section-icon-circle-card section-icon-circle-card--watermelon">
-                <img src={url +"/img/illustrations/Estrela-2.svg"} />
+                <img src={url + "/img/illustrations/Estrela-2.svg"} />
               </div>
             </div>
             <div className="card-info">
@@ -89,7 +89,7 @@ class HomeSplash extends React.Component {
             <div className="card-home-main" id="card3">
               <div className="card-img">
                 <div className="section-icon-circle-card section-icon-circle-card--warning">
-                  <img  src={url +"/img/illustrations/Estrela-3.svg"} />
+                  <img src={url + "/img/illustrations/Estrela-3.svg"} />
                 </div>
               </div>
               <div className="card-info">
@@ -162,6 +162,20 @@ class Index extends React.Component {
 
               <ul className="ul-recent-accessed">
 
+              <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/blipdesk/boas-praticas-regras-atendimento">
+                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
+                    <translate>Boas práticas ao definir regras de atendimento</translate>
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+                <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/router/recuperando-infomacoes-contatos-subbots/">
+                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
+                    <translate>Como recuperar informações de contatos em um subbot</translate>
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/customprovider/como-conectar-a-um-canal-de-atendimento-personalizado" >
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
@@ -173,20 +187,6 @@ class Index extends React.Component {
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/blip-chat/funcionalidades-blip-chat-widget">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
                     <translate>Funcionalidades do BLiP Chat Widget</translate>
-                  </a>
-                </li>
-                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/visao-geral-das-acoes">
-                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Visão geral das ações</translate>
-                  </a>
-                </li>
-                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/blip-chat/como-adicionar-bot-em-app-android-utilizando-blip">
-                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Como adicionar um bot em um aplicativo Android...</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
