@@ -20,7 +20,7 @@ Leia as permissões solicitadas pelo aplicativo e clique em _Conectar_.
 
 ![Autorizando Permissões no RD Station](/img/analytics/rd-station/como-enviar-dados-rd-station-3.png)
 
-Após o término da instalação, a seguinte página será exibida, contendo o nome de usuário na sua conta do RD Station e o id do bot conectado.
+Após o término da instalação, a seguinte página será exibida, contendo o nome da sua conta do RD Station e o id do bot conectado.
 
 ![Tela de Instalção do RD Station Logada](/img/analytics/rd-station/como-enviar-dados-rd-station-4.png)
 
@@ -41,6 +41,10 @@ Clique em __+ Adicionar informações extras__ para cada informação que você 
 As informações extras da ação devem ter pelo menos dois campos obrigatórios: `conversion_identifier` e `email`. Se algum destes __não estiver definido__, o lead __não será salvo__.
 
 ![Ação de Criação de Leads no RD Station](/img/analytics/rd-station/como-enviar-dados-rd-station-5.png)
+
+__Nota__:
+
+- Quando o lead é gerado por um evento no builder os campos personalizados `#stateId`, `#messageId` e `#stateName` são gerados automaticamente.
 
 ### Comandos
 
@@ -79,3 +83,6 @@ __Notas__:
 - Não inserir __Keys__ repetidas em um mesmo comando ou ação. Caso isto aconteça a segunda ocorrência da __Key__ será ignorada assim como o seu respectivo __Value__;
 - O nome das __Keys__ devem seguir as seguintes regras: Usar caracteres alfanuméricos e/ou underline, não usar caracteres especiais e usar no máximo 64 caracteres;
 - Caso você digite o nome de um campo que não exista no RD Station, o BLiP irá criá-los automaticamente.
+- Após a criação de um campo personalizado no BLiP, a RD Station garante que ele estará disponivel para uso em até 3 horas. Caso o seu lead não exiba o campo personalizado, aguarde este período e tente novamente.
+- Apenas campos do tipo **string** são suportados pelo BLiP. Portanto as `keys tags` e `available_for_mailing` **não são suportadas**.
+- Para mais detalhes dos campos suportados acesse: https://developers.rdstation.com/pt-BR/reference/events#events-post
