@@ -1678,7 +1678,101 @@ class ScriptDynamically extends React.Component {
                                                 }
                                                 
                                             ]
-                                            }
+                                            },
+                                            {
+                                            "id": "Atendimento_humano_equipes",
+                                            "title": "Atendimento Humano para Equipes",
+                                            "creator": "Criado por BLiP",
+                                            "subtitle": "Esse chatbot foi desenvolvido para auxiliar todos aqueles que utilizam o atendimento humando para prestar serviços para seus clientes, \\
+                                            dando a eles uma solução de template de atendimento mais completa com objetivo de garantir a excelência na gestão de equipes.  \\
+                                            ",
+                                            "categories": [
+                                                {
+                                                "category": "Serviços"
+                                                },
+                                                {
+                                                "subcategory": "API"
+                                                },
+                                                {
+                                                "subcategory": "Atendimento Humano "
+                                                }
+                                            ],
+                                            "download_uri": "/templates/atendimento-humano-equipes/atendimento-para-equipes.json",
+                                            "link_bot": "YXRlbmRpbWVudG9wb3JlcXVpcGVzOmVjYWI5ZDVmLWI3YTQtNGUyOC1hYjQ4LWNlZjhkOTczZmFhZg==",
+                                            "images": [
+                                                {
+                                                "url": "/templates/atendimento-humano-equipes/Exemplo01.png"
+                                                },
+                                                {
+                                                "url": "/templates/atendimento-humano-equipes/Exemplo02.png"
+                                                },
+                                                {
+                                                "url": "/templates/atendimento-humano-equipes/Exemplo03.png"
+                                                },
+                                            ],
+                                            "tabs": {
+                                                "details": '<p class="content-title">Compatível com:</p> \\
+                                                <div class="compatible-channels"> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                                    <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
+                                                </div> \\
+                                                <p class="content-text">Esse chatbot foi desenvolvido para auxiliar todos aqueles que utilizam o atendimento humando para prestar serviços para seus clientes, \\
+                                                dando a eles uma solução de template de atendimento mais completa com objetivo de garantir a excelência na gestão de equipes.  \\
+                                                Tudo isso através de uma interface conversacional compatível \\
+                                                com a maioria dos canais disponíveis.\\
+                                                \\
+                                                <p class="content-title">O que pode ser feito?</p> \\
+                                                <ul> \\
+                                                    <li class="content-list-text">Verificar atendentes disponíveis por equipe</li> \\
+                                                    <li class="content-list-text">Exibir seus serviços a partir do atendimento humano</li> \\
+                                                    <li class="content-list-text">Registrar contatos quando não há atendentes disponíveis na equipe desejada </li> \\
+                                                </ul>\\
+                                                \\
+                                                <p class="content-title">Pré requisitos:</p>\\
+                                                <ul>\\
+                                                    <li class="content-list-text">Um projeto que utiliza o template de atendimento oficial</li>\\
+                                                </ul>',  
+                    
+                                                "install": '<p class="content-title">Como instalar?</p>\\
+                                                \\
+                                                <ul>\\
+                                                    <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                                    <li class="content-list-text">Crie um bot a partir do <b>template de atendimento oficial</b> e importe o fluxo para ele</li> \\
+                                                    <ul>\\
+                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/" target="_blank">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                                </ul>\\
+                                                <li class="content-list-text"><b>Adicione atendentes e equipes</b> conforme especificação abaixo:</li> \\
+                                                     <ul>\\
+                                                         <li class="content-list-text"><a href="https://help.blip.ai/docs/en/helpdesk/blipdesk/como-verificar-atendentes-equipe#2-adicione-atendentes-nas-equipes" target="_blank">Clique aqui para aprender como adicionar atendentes e equipes para este exemplo</a></li><br>\\
+                                                     </ul>\\
+                                                <li class="content-list-text"><b>Defina as regras de atendimento</b> conforme especificação abaixo:</li> \\
+                                                     <ul>\\
+                                                         <li class="content-list-text"><a href="https://help.blip.ai/docs/en/helpdesk/blipdesk/como-verificar-atendentes-equipe#3-defina-as-regras-de-atendimento" target="_blank">Clique aqui para aprender como definir as regras de atendimento </a></li><br>\\
+                                                     </ul>\\
+                                                </ul>',
+                    
+                                                "support": '<p class="content-title">Suporte</p> \\
+                                                <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
+                                                    e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                                    \\
+                                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                            },
+                                            "table": [
+                                                {
+                                                "func": "✓ Multicanal"
+                                                },
+                                                {
+                                                "func": "✓ Requisições HTTP"
+                                                },
+                                                {
+                                                "func": "✓ Atendimento Humano"
+                                                }
+                                            ]
+                                            },
 
 
                     ]

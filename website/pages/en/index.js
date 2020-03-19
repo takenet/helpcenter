@@ -162,8 +162,15 @@ class Index extends React.Component {
 
               <ul className="ul-recent-accessed">
 
-              <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/blipdesk/boas-praticas-regras-atendimento">
+                <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-verificar-atendentes-equipe">
+                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
+                    <translate>Como verificar atendentes disponíveis por equipe</translate>
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+                <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/boas-praticas-regras-atendimento">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
                     <translate>Boas práticas ao definir regras de atendimento</translate>
                   </a>
@@ -180,13 +187,6 @@ class Index extends React.Component {
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/customprovider/como-conectar-a-um-canal-de-atendimento-personalizado" >
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
                     <translate>Como conectar a um canal de atendimento personalizado</translate>
-                  </a>
-                </li>
-                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/blip-chat/funcionalidades-blip-chat-widget">
-                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Funcionalidades do BLiP Chat Widget</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>

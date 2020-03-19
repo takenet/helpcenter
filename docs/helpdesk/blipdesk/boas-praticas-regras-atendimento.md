@@ -6,11 +6,15 @@ sidebar_label: Boas práticas ao definir regras de atendimento
 
 Como já apresentados em outros artigos, devemos **utilizar as regras de atendimento sempre que desejamos direcionar um contato para um equipe de atendimento humano**. Em suma, as regras são normas que definem os critérios de direcionamento do contato, dessa forma uma vez definida **uma regra que não engloba todos os casos de direcionamento**, de certo, **haverá casos incorretos de encaminhamento**. 
 
-![Exemplo de Fluxo](/img/helpdesk/boas-praticas-regras-atendimento-1.png)<br><br>
 
 Com objetivo de compreender como utilizar as regras de atendimento corretamente, este artigo aborda as melhores práticas ao definir regras de atendimento. Utilizaremos o exemplo abaixo para compreender cada tipo de regra e suas especificidades. 
 
+![Exemplo de Fluxo](/img/helpdesk/boas-praticas-regras-atendimento-1.png)<br><br>
+
+Só para ilustrar, utilizaremos as seguintes nomenclaturas para descrever a estrutura das regras de atendimento.
+
 ![Estrutura das regras](/img/helpdesk/boas-praticas-regras-atendimento-2.png)<br><br>
+
 ### Operador
 
 Se tratando do operador, temos as seguintes opções: 
