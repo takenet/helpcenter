@@ -86,8 +86,10 @@ Authorization: Key YOUR_TOKEN
     "hsm": {
       "namespace": "NAMESPACE",
       "element_name": "ELEMENT_NAME",
-      "fallback_lg": "pt",
-      "fallback_lc": "BR",
+      "language": {
+                "policy": "deterministic",
+                "code": "pt_BR"
+      },
       "localizable_params": [
         {
           "default": "BLiPPer"

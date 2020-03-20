@@ -35,8 +35,10 @@ Neste tipo de conteúdo, preencha os três campos apresentados. Assim sendo, sel
     "hsm": {
       "namespace": "{NAMESPACE}",
       "element_name": "{ELEMENT_NAME}",
-      "fallback_lg": "pt",
-      "fallback_lc": "BR",
+      "language": {
+                "policy": "deterministic",
+                "code": "pt_BR"
+        },
       "localizable_params": [
         {
           "default": "BLiPPer"
@@ -57,8 +59,10 @@ Para ilustrar, suponhamos que seu message template contém 3 placeholders, sendo
     "hsm": {
       "namespace": "{NAMESPACE}",
       "element_name": "{ELEMENT_NAME}",
-      "fallback_lg": "pt",
-      "fallback_lc": "BR",
+      "language": {
+                "policy": "deterministic",
+                "code": "pt_BR"
+      },
       "localizable_params": [
         {
           "default": "${contact.name}"
