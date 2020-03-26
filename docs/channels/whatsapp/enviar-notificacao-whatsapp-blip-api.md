@@ -68,7 +68,7 @@ Veja abaixo um exemplo de resposta para essa requisição. Repare que a propried
 ```
 **Obs.: Essa operação deve ser executada uma única vez para cada cliente.**
 
-### Requisição 2: Envio da notificação
+### Requisição 2: Envio da notificação com texto somente
 
 De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo:
 
@@ -100,7 +100,102 @@ Authorization: Key YOUR_TOKEN
 }
 ```
 
+### Requisição 3: Envio da notificação com imagem
+
+De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo:
+
+```http
+POST https://msging.net/messages HTTP/1.1
+Content-Type: application/json
+Authorization: Key YOUR_TOKEN
+
+{
+   "id":"123e4567-e89b-12d3-a456-426655440002",
+   "to":"553199998888@wa.gw.msging.net",
+   "type":"application/json",
+   "content":{
+      "type":"template",
+      "template":{
+         "namespace":"NAMESPACE",
+         "name":"ELEMENT_NAME",
+         "language":{
+            "code":"pt_BR",
+            "policy":"deterministic"
+         },
+         "components":[
+            {
+               "type":"header",
+               "parameters":[
+                  {
+                     "type":"image",
+                     "image":{
+                        "link":"https://www.blip.ai/wp-content/uploads/2018/02/logo-blip.png"
+                     }
+                  }
+               ]
+            },
+            {
+               "type":"body",
+               "parameters":[
+
+               ]
+            }
+         ]
+      }
+   }
+}
+```
+### Requisição 4: Envio da notificação com documento
+
+De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo:
+
+```http
+POST https://msging.net/messages HTTP/1.1
+Content-Type: application/json
+Authorization: Key YOUR_TOKEN
+
+{
+   "id":"123e4fgfg56564745454405654654002",
+   "to":"553199998888@wa.gw.msging.net",
+   "type":"application/json",
+   "content":{
+      "type":"template",
+      "template":{
+         "namespace":"NAMESPACE",
+         "name":"ELEMENT_NAME",
+         "language":{
+            "code":"pt_BR",
+            "policy":"deterministic"
+         },
+         "components":[
+            {
+               "type":"header",
+               "parameters":[
+                  {
+                     "type":"document",
+                     "document":{
+                        "link":"http://www.orimi.com/pdf-test.pdf"
+                     }
+                  }
+               ]
+            },
+            {
+               "type":"body",
+               "parameters":[
+                  {
+                     "type":"text",
+                     "text":"BLiP"
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}
+```
+
 Note que além do **token** do bot e do **identificador do cliente** será necessário alterar no corpo da requisição os valores  `NAMESPACE` e `ELEMENT_NAME` correspondentes ao Message Template pré aprovado.
+Além disso é precisso inserir os valores das varáveis definidas na criação do Message Template, quando for o caso.  
 
 ---
 
