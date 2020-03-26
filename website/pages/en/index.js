@@ -162,6 +162,22 @@ class Index extends React.Component {
 
               <ul className="ul-recent-accessed">
 
+
+                <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/template/?Id=Atendimento_humano_horarios">
+                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
+                    <translate>Template/ Atendimento Humano - Horários</translate>
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+                <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-configurar-horario-atendimento" >
+                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
+                    <translate>Como configurar horário de atendimento</translate>
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-verificar-atendentes-equipe">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
@@ -173,20 +189,6 @@ class Index extends React.Component {
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/boas-praticas-regras-atendimento">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
                     <translate>Boas práticas ao definir regras de atendimento</translate>
-                  </a>
-                </li>
-                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/router/recuperando-infomacoes-contatos-subbots/">
-                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Como recuperar informações de contatos em um subbot</translate>
-                  </a>
-                </li>
-                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/customprovider/como-conectar-a-um-canal-de-atendimento-personalizado" >
-                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Como conectar a um canal de atendimento personalizado</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
