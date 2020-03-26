@@ -70,7 +70,7 @@ Veja abaixo um exemplo de resposta para essa requisição. Repare que a propried
 
 ### Requisição 2: Envio da notificação
 
-De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo:
+De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo **alterando** o `id` da mesma:
 
 ```http
 POST https://msging.net/messages HTTP/1.1

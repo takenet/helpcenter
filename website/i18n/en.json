@@ -756,6 +756,10 @@
         "title": "Configurando avisos sonoros e notificações no BLiP Desk",
         "sidebar_label": "Configurando avisos sonoros e notificações no BLiP Desk"
       },
+      "helpdesk/blipdesk/como-configurar-horario-atendimento": {
+        "title": "Como configurar horário de atendimento",
+        "sidebar_label": "Como configurar horário de atendimento"
+      },
       "helpdesk/blipdesk/como-definir-regras-atendimento": {
         "title": "Como definir regras de atendimento no BLiP Desk",
         "sidebar_label": "Como definir regras de atendimento no BLiP Desk"

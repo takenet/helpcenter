@@ -14,7 +14,7 @@ Para ativar esta funcionalidade, basta acessar as `configurações gerais` do su
 
 ![Ativar contexto do roteador](/img/router/recuperando-infomacoes-contatos-subbots-1.png)
 
-Uma vez que o contexto do roteador seja ativado nos demais subbots, **todos os dados serão compartilhados de forma centralizada, inclusive no BLiP Desk.**
+Uma vez que o contexto do roteador seja ativado nos demais subbots, **todos os dados serão compartilhados de forma centralizada, exceto atendimento humano.**
 
 ## Contexto do roteador desativado
 

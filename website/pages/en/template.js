@@ -1683,7 +1683,7 @@ class ScriptDynamically extends React.Component {
                                             "id": "Atendimento_humano_equipes",
                                             "title": "Atendimento Humano para Equipes",
                                             "creator": "Criado por BLiP",
-                                            "subtitle": "Esse chatbot foi desenvolvido para auxiliar todos aqueles que utilizam o atendimento humando para prestar serviços para seus clientes, \\
+                                            "subtitle": "Esse chatbot foi desenvolvido para auxiliar todos aqueles que utilizam o atendimento humano para prestar serviços para seus clientes, \\
                                             dando a eles uma solução de template de atendimento mais completa com objetivo de garantir a excelência na gestão de equipes.  \\
                                             ",
                                             "categories": [
@@ -1720,7 +1720,7 @@ class ScriptDynamically extends React.Component {
                                                     <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
                                                     <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
                                                 </div> \\
-                                                <p class="content-text">Esse chatbot foi desenvolvido para auxiliar todos aqueles que utilizam o atendimento humando para prestar serviços para seus clientes, \\
+                                                <p class="content-text">Esse chatbot foi desenvolvido para auxiliar todos aqueles que utilizam o atendimento humano para prestar serviços para seus clientes, \\
                                                 dando a eles uma solução de template de atendimento mais completa com objetivo de garantir a excelência na gestão de equipes.  \\
                                                 Tudo isso através de uma interface conversacional compatível \\
                                                 com a maioria dos canais disponíveis.\\
@@ -1773,7 +1773,95 @@ class ScriptDynamically extends React.Component {
                                                 }
                                             ]
                                             },
-
+                                            {
+                                                "id": "Atendimento_humano_horarios",
+                                                "title": "Atendimento Humano - Horários",
+                                                "creator": "Criado por BLiP",
+                                                "subtitle": "Esse chatbot foi desenvolvido para auxiliar todos aqueles que utilizam o atendimento humano para prestar serviços para seus clientes, \\
+                                                dando a eles uma solução de template de atendimento mais completa com objetivo de garantir a excelência na gestão dos horários de atendimento.  \\
+                                                ",
+                                                "categories": [
+                                                    {
+                                                    "category": "Serviços"
+                                                    },
+                                                    {
+                                                    "subcategory": "API"
+                                                    },
+                                                    {
+                                                    "subcategory": "Atendimento Humano "
+                                                    }
+                                                ],
+                                                "download_uri": "/templates/atendimento-humano-horarios/atendimento-humano-horarios.json",
+                                                "link_bot": "YXRlbmRpbWVudG9ob3JhcmlvOmQ1NzQxMTNkLTNmMWUtNGQ0Ny1iYzU4LTExMjkyYzliNDFhNQ==",
+                                                "images": [
+                                                    {
+                                                    "url": "/templates/atendimento-humano-horarios/Exemplo01.png"
+                                                    },
+                                                    {
+                                                    "url": "/templates/atendimento-humano-horarios/Exemplo02.png"
+                                                    },
+                                                    {
+                                                    "url": "/templates/atendimento-humano-horarios/Exemplo03.png"
+                                                    },
+                                                ],
+                                                "tabs": {
+                                                    "details": '<p class="content-title">Compatível com:</p> \\
+                                                    <div class="compatible-channels"> \\
+                                                        <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
+                                                        <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                                        <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                                        <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                                        <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
+                                                        <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
+                                                    </div> \\
+                                                    <p class="content-text">Esse chatbot foi desenvolvido para auxiliar todos aqueles que utilizam o atendimento humano para prestar serviços para seus clientes, \\
+                                                    dando a eles uma solução de template de atendimento mais completa com objetivo de garantir a excelência na gestão dos horários de atendimento.  \\
+                                                    Tudo isso através de uma interface conversacional compatível \\
+                                                    com a maioria dos canais disponíveis.\\
+                                                    \\
+                                                    <p class="content-title">O que pode ser feito?</p> \\
+                                                    <ul> \\
+                                                        <li class="content-list-text">Exibir seus serviços a partir do atendimento humano</li> \\
+                                                        <li class="content-list-text">Gerir horários de atendimento</li> \\
+                                                    </ul>\\
+                                                    \\
+                                                    <p class="content-title">Pré requisitos:</p>\\
+                                                    <ul>\\
+                                                        <li class="content-list-text">Um projeto que utiliza o template de atendimento oficial</li>\\
+                                                    </ul>',  
+                        
+                                                    "install": '<p class="content-title">Como instalar?</p>\\
+                                                    \\
+                                                    <ul>\\
+                                                        <li class="content-list-text">Baixe o fluxo do bot</li>\\
+                                                        <li class="content-list-text">Crie um bot a partir do <b>template de atendimento oficial</b> e importe o fluxo para ele</li> \\
+                                                        <ul>\\
+                                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/" target="_blank">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                                    </ul>\\
+                                                    <li class="content-list-text"><b>Customize o horário de atendimento</b> conforme necessidade:</li> \\
+                                                         <ul>\\
+                                                             <li class="content-list-text"><a href="https://help.blip.ai/docs/en/helpdesk/blipdesk/como-configurar-horario-atendimento#2-adicione-o-script-setworkschedule" target="_blank">Clique aqui para entender a estrutura deste template</a></li><br>\\
+                                                         </ul>\\
+                                                    </ul>',
+                        
+                                                    "support": '<p class="content-title">Suporte</p> \\
+                                                    <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
+                                                        e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                                        \\
+                                                    <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                                },
+                                                "table": [
+                                                    {
+                                                    "func": "✓ Multicanal"
+                                                    },
+                                                    {
+                                                    "func": "✓ Requisições HTTP"
+                                                    },
+                                                    {
+                                                    "func": "✓ Atendimento Humano"
+                                                    }
+                                                ]
+                                                },
 
                     ]
                     };

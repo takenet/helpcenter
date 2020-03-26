@@ -231,7 +231,9 @@
           "helpdesk/blipdesk/como-configurar-avisos-sonoros-notificacoes-desk",
           "helpdesk/blipdesk/integracao-customizada-helpdesk",
           "helpdesk/blipdesk/boas-praticas-regras-atendimento",
-          "helpdesk/blipdesk/como-verificar-atendentes-equipe"
+          "helpdesk/blipdesk/como-verificar-atendentes-equipe",
+          "helpdesk/blipdesk/como-configurar-horario-atendimento"
+
         ]
       },
       {
