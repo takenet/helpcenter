@@ -37,7 +37,7 @@ A variável **startDate** representa o início do `horário de atendimento` e, p
 * **startDate**: `08:30`.
 * **endDate**: `18:50`.
 
-Em suma, por padrão, **os horários de atendimento são os mesmos para todos os dias de atendimento**. Dessa forma, caso seu negócio possua em alguns dias, diferentes horários de atendimentos, utilize o [Template/ Atendimento Humano - Horários](/template/?Id=Atendimento_humano_horarios) no artigo que acompanha este template, alguns detalhes para customizações são apresentados [Como configurar horário de atendimento](/docs/helpdesk/blipdesk/como-verificar-atendentes-equipe).
+Em suma, por padrão, **os horários de atendimento são os mesmos para todos os dias de atendimento**. Dessa forma, caso seu negócio possua em alguns dias, diferentes horários de atendimentos, utilize o [Template/ Atendimento Humano - Horários](/template/?Id=Atendimento_humano_horarios) no artigo que acompanha este template, alguns detalhes para customizações são apresentados [Como configurar horário de atendimento](/docs/helpdesk/blipdesk/como-configurar-horario-atendimento).
 
 
 #### workDays
