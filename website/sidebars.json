@@ -181,7 +181,8 @@
       "builder/acao-processar-comando",
       "builder/acao-registro-evento",
       "builder/expirando-sessao-usuarios-builder",
-      "builder/como-definir-um-tempo-limite-para-acoes-do-builder"
+      "builder/como-definir-um-tempo-limite-para-acoes-do-builder",
+      "builder/salvando-entrada-variavel"
     ],
     "Inteligência Artificial": [
       {

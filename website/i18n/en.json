@@ -261,6 +261,10 @@
         "title": "Proporção de exibição de imagens (Aspect Ratio)",
         "sidebar_label": "Proporção de exibição de imagens (Aspect Ratio)"
       },
+      "builder/salvando-entrada-variavel": {
+        "title": "Salvando entrada do usuário em variável",
+        "sidebar_label": "Salvando entrada do usuário em variável"
+      },
       "builder/salvando-informacoes-de-um-usuario": {
         "title": "Salvando informações de um usuário",
         "sidebar_label": "Salvando informações de um usuário"
