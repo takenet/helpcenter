@@ -772,6 +772,10 @@
         "title": "Como filtrar um ticket por ID?",
         "sidebar_label": "Como filtrar um ticket por ID?"
       },
+      "helpdesk/blipdesk/como-funciona-a-distribuicao-de-tickets": {
+        "title": "Como funciona a distribuição de tickets?",
+        "sidebar_label": "Como funciona a distribuição de tickets?"
+      },
       "helpdesk/blipdesk/como-realizar-um-atendimento-atraves-do-blip-desk": {
         "title": "Como realizar um atendimento através do BLiP Desk",
         "sidebar_label": "Como realizar um atendimento através do BLiP Desk"
