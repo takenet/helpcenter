@@ -102,7 +102,7 @@ Authorization: Key YOUR_TOKEN
 
 ### Requisição 3: Envio da notificação com imagem
 
-De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo:
+De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo **alterando** o `id` da mesma:
 
 ```http
 POST https://msging.net/messages HTTP/1.1
@@ -110,7 +110,7 @@ Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
 {
-   "id":"123e4567-e89b-12d3-a456-426655440002",
+   "id":"964g2478-e89b-12d3-a456-256325440002",
    "to":"553199998888@wa.gw.msging.net",
    "type":"application/json",
    "content":{
@@ -147,7 +147,7 @@ Authorization: Key YOUR_TOKEN
 ```
 ### Requisição 4: Envio da notificação com documento
 
-De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo:
+De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo **alterando** o `id` da mesma:
 
 ```http
 POST https://msging.net/messages HTTP/1.1
@@ -155,7 +155,7 @@ Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
 {
-   "id":"123e4fgfg56564745454405654654002",
+   "id":"851d4853-f78i-12d3-a456-256325440002",
    "to":"553199998888@wa.gw.msging.net",
    "type":"application/json",
    "content":{
