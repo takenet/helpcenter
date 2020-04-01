@@ -1791,7 +1791,7 @@ class ScriptDynamically extends React.Component {
                                                     "subcategory": "Atendimento Humano "
                                                     }
                                                 ],
-                                                "download_uri": "/templates/atendimento-humano-horarios/atendimento-humano-horarios.json",
+                                                "download_uri": "docs/en/helpdesk/blipdesk/como-configurar-horario-atendimento#customize-o-seu-template",
                                                 "link_bot": "YXRlbmRpbWVudG9ob3JhcmlvOmQ1NzQxMTNkLTNmMWUtNGQ0Ny1iYzU4LTExMjkyYzliNDFhNQ==",
                                                 "images": [
                                                     {
@@ -1840,7 +1840,7 @@ class ScriptDynamically extends React.Component {
                                                     </ul>\\
                                                     <li class="content-list-text"><b>Customize o horário de atendimento</b> conforme necessidade:</li> \\
                                                          <ul>\\
-                                                             <li class="content-list-text"><a href="https://help.blip.ai/docs/en/helpdesk/blipdesk/como-configurar-horario-atendimento#2-adicione-o-script-setworkschedule" target="_blank">Clique aqui para entender a estrutura deste template</a></li><br>\\
+                                                             <li class="content-list-text"><a href="https://help.blip.ai/docs/en/helpdesk/blipdesk/como-configurar-horario-atendimento#customize-o-seu-template" target="_blank">Clique aqui para <b>customizar e gerar seu template</b> </a></li><br>\\
                                                          </ul>\\
                                                     </ul>',
                         
@@ -1905,7 +1905,7 @@ class ScriptDynamically extends React.Component {
                         subtitle.innerHTML = template.subtitle.toString();
 
                         var download = document.getElementById('download');
-                        download.href = template.download_uri.toString();
+                      //  download.href = template.download_uri.toString();
                         download.onclick = function(){
                             ga('send', 'event', 'Template download', template.title.toString(), 'Template');
                         };

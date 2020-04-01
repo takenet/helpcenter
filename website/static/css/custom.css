@@ -12221,6 +12221,13 @@ a.link-from {
   width: 100%;
   margin-bottom: 5%;
 }
+
+.iframe-template-generator{
+  height: 1200px;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
 .caption{
   margin-top: 2% ;
 font-family: Nunito Sans;

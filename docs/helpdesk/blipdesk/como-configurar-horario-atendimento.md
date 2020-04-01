@@ -30,13 +30,13 @@ Neste script em questão, **não há variáveis de entrada**. Por sua vez, nosso
 Para nosso exemplo, suponhamos que precisamos dos seguintes horários de disponibilidade.
 
 |                           | Domingo | Segunda | Terça | Quarta | Quinta | Sexta | Sábado |
-|---------------------------|---------|---------|-------|--------|--------|-------|--------|
+| ------------------------- | ------- | ------- | ----- | ------ | ------ | ----- | ------ |
 | Início de atendimento [1] | 8:30    | 8:30    | 8:30  | 8:30   | 8:30   | 8:30  | 8:30   |
-|   Fim de atendimento [1]  | 12:00   | 12:00   | 18:00 | 12:00  | 12:00  | 12:00 | 12:00  |
+| Fim de atendimento [1]    | 12:00   | 12:00   | 18:00 | 12:00  | 12:00  | 12:00 | 12:00  |
 | Início de atendimento [2] | -----   | 13:00   | ----- | 13:00  | 13:00  | 13:00 | -----  |
-|   Fim de atendimento [2]  | -----   | 15:00   | ----- | 18:00  | 18:00  | 18:00 | -----  |
+| Fim de atendimento [2]    | -----   | 15:00   | ----- | 18:00  | 18:00  | 18:00 | -----  |
 | Início de atendimento [3] | -----   | 15:30   | ----- | -----  | -----  | ----- | -----  |
-|   Fim de atendimento [3]  | -----   | 18:00   | ----- | -----  | -----  | ----- | -----  |
+| Fim de atendimento [3]    | -----   | 18:00   | ----- | -----  | -----  | ----- | -----  |
 
 O **script resultante** é apresentado logo abaixo e pode ser customizado conforme necessidade.
 ```javascript
@@ -148,6 +148,7 @@ function run() {
 Observe o resultado na imagem abaixo.
 
 ![](/img/helpdesk/como-configurar-horario-atendimento-3.png)<br>
+
 
 ### 3. Altere o script "CheckWorkTime" 
 
@@ -277,8 +278,8 @@ Altere no script `"SetWorkSchedule"`, caso queira:
 Altere nas variáveis globais do chatbot, caso queira:
   * Alterar fuso horário.
 
-## Baixe o projeto
+## Customize o seu template
 
-Todo conteúdo deste artigo, gerou um template que pode ser baixado e importado em seu chatbot:
+Todo conteúdo deste artigo, gerou um template que pode ser configurado, baixado e importado em seu chatbot, a partir da ferramenta abaixo:
 
-[Clique aqui para utilizar o template gerado nesse artigo](/template?Id=Atendimento_humano_horarios)
+<iframe src="https://customer-service-template-generator.netlify.com/" class="iframe-template-generator" />
