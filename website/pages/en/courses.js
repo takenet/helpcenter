@@ -26,7 +26,16 @@ const data = {
             "abstract": "Nós do BLiP oferecemos alguns cursos, com nossos profissionais experts em criação de contatos inteligentes, que te ajudarão a evoluir e utilizar a plataforma de forma plena.",
             "text": "Aprenda mais!",
             "class": "seeMore-session"
-        }
+        },
+        {
+          "title": "Level UP",
+          "url": "/levelup",
+          "icon": "level-up",
+          "color": "refresh",
+          "abstract": "Entenda mais detalhadamente como funcionam as muitas funcionalidades do BLiP e como elas melhoram as interações dos usuários com o seu chatbot.",
+          "text": "Aprenda mais!",
+          "class": "seeMore-session"
+      }
     ]
 };
 
