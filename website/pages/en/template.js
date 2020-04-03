@@ -1911,7 +1911,7 @@ class ScriptDynamically extends React.Component {
                         };
                         
                          var test = document.getElementById('test');
-                         download.onclick = function(){
+                         test.onclick = function(){
                              ga('send', 'event', 'Template test', template.title.toString(), 'Template');
                          };
 
