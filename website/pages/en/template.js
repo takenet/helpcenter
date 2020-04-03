@@ -1910,10 +1910,6 @@ class ScriptDynamically extends React.Component {
                             ga('send', 'event', 'Template download', template.title.toString(), 'Template');
                         };
                         
-                         var test = document.getElementById('test');
-                         test.onclick = function(){
-                             ga('send', 'event', 'Template test', template.title.toString(), 'Template');
-                         };
 
                         var linkBot = document.getElementsByClassName('iframe-bot')[0];
                         linkBot.src = template.link_bot.toString();
@@ -2003,6 +1999,9 @@ class ScriptDynamically extends React.Component {
                     var btn = document.getElementsByClassName('button-details-see')[0];
                     var span = document.getElementsByClassName('closeBot')[0];
                     btn.onclick = function(){
+
+                        ga('send', 'event', 'Template test', template.title.toString(), 'Template');
+
                         modalBot.style.display = "block";
                         chat = new BlipChat()
                         .withAppKey(template.link_bot)
