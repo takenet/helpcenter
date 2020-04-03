@@ -268,14 +268,14 @@ function isWorkDay(today, workDays) {
 ```
 ### Observações 
 
-Uma vez que este exemplo foi utilizado para verificação de horários para atendimento humano, **o local de alteração para definição não serão o mesmo** conforme, template de atendimento. Veja **onde você pode mudar as definições**.
+Uma vez que este exemplo foi utilizado para verificação de horários para atendimento humano, **o local de alteração para definição de horário de atendimento não será o mesmo** do template de atendimento oficial. Veja **onde você pode mudar as definições**.
 
 Altere no script `"SetWorkSchedule"`, caso queira:
 
   * Adicionar ou retirar dias de atendimento.
   * Adicionar, alterar ou retirar horários de atendimento de um dia.
 
-Altere nas variáveis globais do chatbot, caso queira:
+Altere nas variáveis de configuração do chatbot, caso queira:
   * Alterar fuso horário.
 
 ## Customize o seu template

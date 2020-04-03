@@ -1905,7 +1905,7 @@ class ScriptDynamically extends React.Component {
                         subtitle.innerHTML = template.subtitle.toString();
 
                         var download = document.getElementById('download');
-                      //  download.href = template.download_uri.toString();
+                        download.href = template.download_uri.toString();
                         download.onclick = function(){
                             ga('send', 'event', 'Template download', template.title.toString(), 'Template');
                         };
