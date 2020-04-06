@@ -182,7 +182,8 @@
       "builder/acao-registro-evento",
       "builder/expirando-sessao-usuarios-builder",
       "builder/como-definir-um-tempo-limite-para-acoes-do-builder",
-      "builder/salvando-entrada-variavel"
+      "builder/salvando-entrada-variavel",
+      "builder/como-validar-entrada-usuario"
     ],
     "Inteligência Artificial": [
       {

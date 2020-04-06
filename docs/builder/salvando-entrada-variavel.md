@@ -15,15 +15,15 @@ Sempre que um bloco do fluxo "Aguarda resposta", significa que esta resposta é 
 
 Ao clicar sobre a entrada do usuário, um menu de opção é aberto com a opção "SALVAR RESPOSTA EM VARIÁVEL", conforme imagem abaixo.
 
-![](/img/builder/salvando-entrada-variavel-2.png)<br/>
+![Identificando a entrada de usuário](/img/builder/salvando-entrada-variavel-2.png)<br/>
 
 ## 2. Habilite e preencha o nome da variável
 
 Inicialmente, **habilite a opção "SALVAR RESPOSTA EM VARIÁVEL"** e **preencha o campo** **Variável** com o nome da sua variável, para este exemplo, será `nome`.
-![](/img/builder/salvando-entrada-variavel-3.png)<br/>
+![Habilitando e preenchendo o nome da variável](/img/builder/salvando-entrada-variavel-3.png)<br/>
 
 Por fim, após finalização destas etapas, voltando à aba de conteúdo do seu bloco, será possível visualizar que a **entrada do usuário agora tem o nome da variável definida**.
 
-![](/img/builder/salvando-entrada-variavel-4.png)<br/>
+![Mudança do nome da entrada de usuário](/img/builder/salvando-entrada-variavel-4.png)<br/>
 
 

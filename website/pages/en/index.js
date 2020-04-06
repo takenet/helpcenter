@@ -163,6 +163,14 @@ class Index extends React.Component {
               <ul className="ul-recent-accessed">
 
 
+              <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/como-validar-entrada-usuario">
+                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
+                    <translate>Como validar a entrada do usuário</translate>
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/dominando-customizando-template-atendimento">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
@@ -181,14 +189,6 @@ class Index extends React.Component {
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-configurar-horario-atendimento" >
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
                     <translate>Como configurar horário de atendimento</translate>
-                  </a>
-                </li>
-                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
-
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-verificar-atendentes-equipe">
-                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Como verificar atendentes disponíveis por equipe</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
