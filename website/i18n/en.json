@@ -740,6 +740,10 @@
         "title": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)",
         "sidebar_label": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)"
       },
+      "growth/como-identificar-usuarios-campanha": {
+        "title": "Como identificar usuários vindos de uma campanha (anúncio)",
+        "sidebar_label": "Como identificar usuários vindos de uma campanha (anúncio)"
+      },
       "growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot": {
         "title": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot",
         "sidebar_label": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot"
@@ -1017,10 +1021,10 @@
     "Dominando o BLiP|no description given": "Dominando o BLiP",
     "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!|no description given": "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!",
     "Mais recentes|no description given": "Mais recentes",
+    "Como identificar usuários vindos de uma campanha (anúncio)|no description given": "Como identificar usuários vindos de uma campanha (anúncio)",
+    "Como validar a entrada do usuário|no description given": "Como validar a entrada do usuário",
     "Dominando e customizando o template de atendimento|no description given": "Dominando e customizando o template de atendimento",
-    "Template/ Atendimento Humano - Horários|no description given": "Template/ Atendimento Humano - Horários",
     "Como configurar horário de atendimento|no description given": "Como configurar horário de atendimento",
-    "Como verificar atendentes disponíveis por equipe|no description given": "Como verificar atendentes disponíveis por equipe",
     "Mais acessados|no description given": "Mais acessados",
     "Como criar um bot com o Builder do BLiP|no description given": "Como criar um bot com o Builder do BLiP",
     "Como configurar o DialogFlow como um provedor de Inteligência Artificial|no description given": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",

@@ -162,8 +162,14 @@ class Index extends React.Component {
 
               <ul className="ul-recent-accessed">
 
-
-              <li className="li-recent-accessed">
+                <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/growth/como-identificar-usuarios-campanha">
+                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
+                    <translate>Como identificar usuários vindos de uma campanha (anúncio)</translate>
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+                <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/como-validar-entrada-usuario">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
                     <translate>Como validar a entrada do usuário</translate>
@@ -175,13 +181,6 @@ class Index extends React.Component {
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/dominando-customizando-template-atendimento">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
                     <translate>Dominando e customizando o template de atendimento</translate>
-                  </a>
-                </li>
-                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/template/?Id=Atendimento_humano_horarios">
-                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Template/ Atendimento Humano - Horários</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
