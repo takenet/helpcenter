@@ -40,13 +40,12 @@ class Detail extends React.Component {
                             <a id="linkProfile"><p className="creator-template"></p></a>
                             <p className="subtitle-details"> </p>
                             <div className="buttons-details">
-                                <a id="download" href="#"
-                                    download target="_blank"><button className="button-details-download">
-                                        <div className="button-content-download">
-                                            <BlipIcon name="download" className="icon-button-download"></BlipIcon>
-                                            <p className="text-button-download">Download</p>
-                                        </div>
-                                    </button></a>
+                                <button id="download" className="button-details-download">
+                                    <div className="button-content-download">
+                                        <BlipIcon name="download" className="icon-button-download"></BlipIcon>
+                                        <p className="text-button-download">Download</p>
+                                    </div>
+                                </button>
 
                                 <button id="test" className="button-details-see">
                                     <div className="button-content-see">
@@ -79,6 +78,35 @@ class Detail extends React.Component {
                     </div>
                 </div>
 
+                {/* Modal donwload */}
+                <div id="modalDownload" className="modal-beta">
+                    <div className="modal-template-content">
+                        <div className="modal-template-header">
+                            <p className="modal-template-title">Publique esse template diretamente em seu bot</p>
+                            <span className="closeDownload" id="closeDownload">&times;</span>
+                        </div>
+                        <div className="modal-beta-body">
+                            <p className="modal-beta-text">Para instalar informe a APP Key do seu bot</p>
+                                <div className="tooltip">
+                                        <BlipIcon className="template-tooltip" name="blip-attention"></BlipIcon>
+                                        <div className="right">
+                                        <p>API-KEY é necessária para realizar qualquer requisição na API do BLiP. 
+                                            Para saber como encontrar seu API-KEY, <a target="_blank" href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">
+                                             clique aqui</a></p>
+                                        <i></i>
+                                    </div>
+                                </div>
+                            <input type="text"
+                                id="botKey"
+                                name="botKey"
+                                className="input-template-page"
+                                placeholder="Digite o seu e-mail">
+                            </input>
+                            <button id="BPublish" disabled={true} className="button-template-page">Instalar!</button>
+                            <p className="modal-template-subtext">Caso prefira fazer o download, <a href="#" id="download_link">clique aqui</a></p>
+                        </div>
+                    </div>
+                </div>
 
                 {/* Conteudo */}
                 <div className="page-content-details">
@@ -1904,13 +1932,55 @@ class ScriptDynamically extends React.Component {
                         var subtitle = document.getElementsByClassName('subtitle-details')[0];
                         subtitle.innerHTML = template.subtitle.toString();
 
-                        var download = document.getElementById('download');
-                        download.href = template.download_uri.toString();
-                        download.onclick = function(){
-                            ga('send', 'event', 'Template download', template.title.toString(), 'Template');
+                        function readTextFile(file, callback) {
+                            var rawFile = new XMLHttpRequest();
+                            rawFile.overrideMimeType("application/json");
+                            rawFile.open("GET", file, true);
+                            rawFile.onreadystatechange = function() {
+                                if (rawFile.readyState === 4 && rawFile.status == "200") {
+                                    callback(rawFile.responseText);
+                                }
+                            }
+                            rawFile.send(null);
                         };
-                        
 
+                        var download = document.getElementById('download');
+                        var modalDownload = document.getElementById("modalDownload");
+                        var modalCloseDonwload = document.getElementById("closeDownload");
+                        download.onclick = function(){
+                            modalDownload.style.display = "block";
+                        };
+
+                        var Bpublish = document.getElementById("BPublish");
+                        var aKey = document.getElementById("botKey");
+                        Bpublish.onclick = function() {
+                            readTextFile(template.download_uri.toString(), function(json_file){
+                                axios.post('https://msging.net/commands', {
+                                "id": "0094447a-2581-4597-be6a-a5dff33af156",
+                                "method": "set",
+                                "uri": "/buckets/blip_portal:builder_working_flow",
+                                "type": "application/json", 
+                                "resource": JSON.parse(json_file)
+                                }, {
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                    'Access-Control-Allow-Origin' : '*',
+                                    'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+                                    'X-Requested-With': 'XMLHttpRequest',
+                                    'Authorization': aKey.value.toString()
+                                }
+                                })
+                                .then(function (response) {
+                                    console.log(response);
+                                })
+                                .catch(function (error) {
+                                    console.log(error.response);
+                                });    
+                            });
+                            
+                        };
+
+                        
                         var linkBot = document.getElementsByClassName('iframe-bot')[0];
                         linkBot.src = template.link_bot.toString();
 
@@ -2020,7 +2090,23 @@ class ScriptDynamically extends React.Component {
                             modalBot.style.display = "none";
                             chat.destroy();
                         }
+                        if (event.target == modalDownload) {
+                            modalDownload.style.display = "none";
+                        }
                     };
+
+                    modalCloseDonwload.onclick = function(){
+                        modalDownload.style.display = "none";
+                    };
+
+                    document.getElementById("botKey").addEventListener("keyup", function() {
+                        var nameInput = document.getElementById('botKey').value;
+                        if (nameInput != "") {
+                            document.getElementById('BPublish').removeAttribute("disabled");
+                        } else {
+                            document.getElementById('BPublish').setAttribute("disabled", null);
+                        }
+                    });
                     
                 `
                 }}
