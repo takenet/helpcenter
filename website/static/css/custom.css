@@ -9731,6 +9731,18 @@ a.link-from {
   text-align: center;
 }
 
+.modal-template-text {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8ca0b3;
+  width: 95%;
+  margin: auto;
+  flex-direction: row;
+}
+
 
 .modal-beta-header {
   padding: 20px 16px;
@@ -11240,7 +11252,6 @@ a.link-from {
 .tooltip {
   display:inline-block;
   position:relative;
-  
   text-align:left;
 }
 

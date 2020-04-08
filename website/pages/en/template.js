@@ -86,16 +86,17 @@ class Detail extends React.Component {
                             <span className="closeDownload" id="closeDownload">&times;</span>
                         </div>
                         <div className="modal-beta-body">
-                            <p className="modal-beta-text">Para instalar informe a APP Key do seu bot</p>
+                            <p className="modal-template-text">Para instalar informe a APP Key do seu bot
                                 <div className="tooltip">
-                                        <BlipIcon className="template-tooltip" name="blip-attention"></BlipIcon>
-                                        <div className="right">
-                                        <p>API-KEY é necessária para realizar qualquer requisição na API do BLiP. 
+                                    <BlipIcon className="template-tooltip" name="blip-attention"></BlipIcon>
+                                    <div className="right">
+                                        <p>API-KEY é necessária para realizar qualquer requisição na API do BLiP.
                                             Para saber como encontrar seu API-KEY, <a target="_blank" href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">
-                                             clique aqui</a></p>
+                                                clique aqui</a></p>
                                         <i></i>
                                     </div>
                                 </div>
+                            </p>
                             <input type="text"
                                 id="botKey"
                                 name="botKey"
@@ -306,110 +307,9 @@ class ScriptDynamically extends React.Component {
                     var data = {
                     "templates": [
                             {
-                            "id": "Programacao_evento",
-                            "title": "Programação de Evento",
-                            "creator": "Criado por BLiP",
-                            "subtitle": "Esse chatbot foi feito para ajudar Comunidades e Empresas a divulgarem e oferecem suporte e informações sobre um determinado \\
-                                    evento em um bot preparado para funcionar com a maioria dos canais, incluindo o WhatsApp",
-                            "categories": [
-                                {
-                                "category": "Entrenimento"
-                                },
-                                {
-                                "subcategory": "Evento"
-                                },
-                                {
-                                "subcategory": "Informativo"
-                                }
-                            ],
-                            "download_uri": "/templates/programacao-evento/event_template.json",
-                            "link_bot": "ZXZlbnRvdGVtcGxhdGVicnVubzo3ZjBiMTY1Ny0xYzVjLTRmMmQtYjkxYS05ZmJjNDE3ZjlmN2Q=",
-                            "images": [
-                                {
-                                "url": "/templates/programacao-evento/Exemplo02.png"
-                                },
-                                {
-                                "url": "/templates/programacao-evento/Exemplo03.png"
-                                },
-                                {
-                                "url": "/templates/programacao-evento/Exemplo05.png"
-                                },
-                                {
-                                "url": "/templates/programacao-evento/Exemplo04.png"
-                                },
-                                
-                            ],
-                            "tabs": {
-                                "details": '<p class="content-title">Compatível com:</p> \\
-                                <div class="compatible-channels"> \\
-                                    <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
-                                    <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
-                                    <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
-                                    <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
-                                    <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
-                                </div> \\
-                                <p class="content-text">Esse chatbot foi feito para ajudar Comunidades e Empresas a divulgarem e oferecem suporte e informações \\
-                                    sobre um determinado evento\\
-                                    em um bot preparado para funcionar com a maioria dos canais, incluindo o WhatsApp\\
-                                \\
-                                <p class="content-title">O que pode ser feito?</p> \\
-                                <ul> \\
-                                    <li class="content-list-text">Exibir seus contatos</li> \\
-                                    <li class="content-list-text">Atendimento humano</li> \\
-                                    <li class="content-list-text">Fornecer ao usuário informações sobre o evento</li> \\
-                                    <li class="content-list-text">Enviar imagens e documentos referentes ao evento.</li> \\
-                                </ul>',  
-    
-    
-                                "install": '<p class="content-title">Como instalar?</p>\\
-                                <ul>\\
-                                    <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                    <li class="content-list-text">Crie um bot e importe o fluxo para ele.</li>\\
-                                    <ul>\\
-                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                    </ul>\\
-                                    <li class="content-list-text">Conecte seu canal de atendimento humano (ex.: BLiP Desk)</li>\\
-                                        <ul>\\
-                                            <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
-                                        </ul>\\
-                                    \\
-                                </ul>\\
-                        <p class="content-text"><i>Obs.: Os blocos representados com o emoji ✅ são destinados exclusivamente ao canal WhatsApp.\\
-                             Usuários que vem deste canal são automaticamente direcionados para esses blocos.',
-    
-                                "support": '<p class="content-title">Suporte</p> \\
-                                <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
-                                    e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
-                                    \\
-                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
-                            },
-                            "table": [
-                                {
-                                "func": "✓ Multicanal"
-                                },
-                                {
-                                "func": "✓ Carrossel"
-                                },
-                                {
-                                "func": "✓ Menu"
-                                },
-                                {
-                                "func": "✓ Imagens"
-                                },
-                                {
-                                "func": "✓ Formatação de texto"
-                                },
-                                {
-                                "func": "✓ Atendimento Humano"
-                                },
-                                {
-                                "func": "✓ Emojis"
-                                }
-                            ]
-                            },
-                            {
                             "id": "Concessionaria_carros",
                             "title": "Concessionaria de carros",
+                            "topicId": 4774,
                             "creator": "Criado por BLiP",
                             "subtitle": "Esse chatbot foi feito para ajudar Concessionárias de Carros a divulgarem e oferecem informações sobre seus produtos, \\
                                 obter dados dos clientes e oferecer atendimento humano em um bot preparado para funcionar com a maioria dos canais\\
@@ -508,6 +408,7 @@ class ScriptDynamically extends React.Component {
                      {
                         "id": "Petshop_agendamento",
                         "title": "Petshop - Agendamento",
+                        "topicId": 4772,
                         "creator": "Criado por BLiP",
                         "subtitle": "Esse chatbot foi feito para ajudar Petshops a oferecerem seus serviços e uma maneira de agendá-los, integrando automaticamente com o Google Calendar.",
                         "categories": [
@@ -665,6 +566,7 @@ class ScriptDynamically extends React.Component {
                         {
                         "id": "Programacao_evento",
                         "title": "Programação de Evento",
+                        "topicId": 4773,
                         "creator": "Criado por BLiP",
                         "subtitle": "Esse chatbot foi feito para ajudar Comunidades e Empresas a divulgarem e oferecem suporte e informações sobre um determinado \\
                                 evento em um bot preparado para funcionar com a maioria dos canais, incluindo o WhatsApp",
@@ -765,106 +667,9 @@ class ScriptDynamically extends React.Component {
                         ]
                         },
                         {
-                        "id": "Concessionaria_carros",
-                        "title": "Concessionaria de carros",
-                        "creator": "Criado por BLiP",
-                        "subtitle": "Esse chatbot foi feito para ajudar Concessionárias de Carros a divulgarem e oferecem informações sobre seus produtos, \\
-                            obter dados dos clientes e oferecer atendimento humano em um bot preparado para funcionar com a maioria dos canais\\
-                             incluindo o WhatsApp.",
-                        "categories": [
-                            {
-                            "category": "Varejo"
-                            },
-                            {
-                            "subcategory": "Prospecção"
-                            },
-                            {
-                            "subcategory": "Multicanal"
-                            }
-                        ],
-                        "download_uri": "/templates/concessionaria-carros/concessionaria_template.json",
-                        "link_bot": "Y29uY2Vzc2lvbnRlbXBsYXRlYnJ1bm86YmFhNmYzMjktMTMxMy00ZmUyLTlhNTktMjMyYTc1NGUyNTg1",
-                        "images": [
-                            {
-                            "url": "/templates/concessionaria-carros/Exemplo01.png"
-                            },
-                            {
-                            "url": "/templates/concessionaria-carros/Exemplo04.png"
-                            },
-                            {
-                            "url": "/templates/concessionaria-carros/Exemplo02.png"
-                            },
-                            {
-                            "url": "/templates/concessionaria-carros/Exemplo03.png"
-                            },
-                            
-                            {
-                            "url": "/templates/concessionaria-carros/Exemplo05.png"
-                            },
-                            
-                        ],
-                        "tabs": {
-                            "details": '<p class="content-title">Compatível com:</p> \\
-                            <div class="compatible-channels"> \\
-                                <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
-                                <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
-                                <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
-                                <img class="compatible-channels-img" src="/img/illustrations/telegram-logo.svg"></img> \\
-                                <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
-                            </div> \\
-                            <p class="content-text">Esse chatbot foi feito para ajudar Concessionárias de Carros a divulgarem e oferecem informações sobre seus produtos, \\
-                                obter dados dos clientes e oferecer atendimento humano em um bot preparado para funcionar com a maioria dos canais, \\
-                                incluindo o WhatsApp.\\
-                            \\
-                            <p class="content-title">O que pode ser feito?</p> \\
-                            <ul> \\
-                                <li class="content-list-text">Exibir seus produtos</li> \\
-                                <li class="content-list-text">Prover informações sobre os produtos</li> \\
-                                <li class="content-list-text">Salvar dados dos contatos</li> \\
-                                <li class="content-list-text">Atendimento humano.</li> \\
-                            </ul>',  
-
-
-                            "install": '<p class="content-title">Como instalar?</p>\\
-                            <ul>\\
-                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
-                                    <ul>\\
-                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                    </ul>\\
-                                <li class="content-list-text">Faça as modificações conforme sua necessidade.</li>\\
-                                <li class="content-list-text">Conecte seu canal de atendimento humano (ex.: BLiP Desk)</li>\\
-                                    <ul>\\
-                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
-                                    </ul>',
-
-                            "support": '<p class="content-title">Suporte</p> \\
-                            <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
-                                e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
-                                \\
-                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
-                        },
-                        "table": [
-                            {
-                            "func": "✓ Multicanal"
-                            },
-                            {
-                            "func": "✓ Imagens"
-                            },
-                            {
-                            "func": "✓ Formatação de texto"
-                            },
-                            {
-                            "func": "✓ Atendimento Humano"
-                            },
-                            {
-                            "func": "✓ Salvar contatos"
-                            }
-                        ]
-                        },
-                        {
                         "id": "Imobiliaria",
                         "title": "Imobiliária",
+                        "topicId": 4775,
                         "creator": "Criado por BLiP",
                         "subtitle": "Esse chatbot foi feito para coletar informações sobre clientes que querem comprar ou alugar um imóvel e \\
                             transferi-los para um atendimento humano, em uma interface compatível com a maioria dos canais, incluindo o WhatsApp.",
@@ -969,6 +774,7 @@ class ScriptDynamically extends React.Component {
                         {
                         "id": "Loja_impressora",
                         "title": "Loja de Impressoras",
+                        "topicId": 4777,
                         "creator": "Criado por BLiP",
                         "subtitle": "Esse chatbot foi feito para coletar informações sobre as necessidades de um cliente e baseado nelas, \\
                                         mostrar o produto que melhor se enquadra no seu perfil, \\
@@ -1056,6 +862,7 @@ class ScriptDynamically extends React.Component {
                         {
                         "id": "Geracao_leads",
                         "title": "Geração de Leads",
+                        "topicId": 4778,
                         "creator": "Criado por Paulo Abreu",
                         "creator_profile": "https://forum.blip.ai/u/paulo/",
                         "subtitle": "Esse chatbot foi feito para coletar informações sobre leads, como nome, telefone, email e nível de interesse, \\
@@ -1160,6 +967,7 @@ class ScriptDynamically extends React.Component {
                         {
                         "id": "Seguradora_carros",
                         "title": "Seguradora de Carros",
+                        "topicId": 4779,
                         "creator": "Criado por BLiP",
                         "subtitle": "Esse chatbot foi feito para auxiliar Seguradoras de carros a prestar serviços para seus clientes, \\
                             dando a eles a opção de checar valores, coberturas, tirar dúvidas e consultar a situação de um sinistro, \\
@@ -1258,6 +1066,7 @@ class ScriptDynamically extends React.Component {
                         {
                             "id": "Busca_cep",
                             "title": "Identificador de endereço por CEP",
+                            "topicId": 4780,
                             "creator": "Criado por BLiP",
                             "subtitle": "Esse chatbot foi desenvolvido com objetivo de auxiliar na integração de APIs de CEP, permitindo assim obter o endereço a partir do CEP apresentado. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
                             "categories": [
@@ -1340,6 +1149,7 @@ class ScriptDynamically extends React.Component {
                              {
                                 "id": "Previsao_tempo",
                                 "title": "Condição e previsão do tempo",
+                                "topicId": 4781,
                                 "creator": "Criado por BLiP",
                                 "subtitle": "Esse chatbot foi desenvolvido com objetivo de auxiliar na integração de APIs de condição e previsão do tempo, permitindo assim obter informações inerentes ao clima e tempo em conformidade com a localização apresentada. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
                                 "categories": [
@@ -1422,6 +1232,7 @@ class ScriptDynamically extends React.Component {
                                 {
                                         "id": "Faq_loja_virtual",
                                         "title": "FAQ - Loja virtual",
+                                        "topicId": 4783,
                                         "creator": "Criado por BLiP",
                                         "subtitle": "Esse chatbot foi desenvolvido com propósito de auxiliar na utilização de provedores de Inteligência Artificial disponíveis, permitindo assim obter um fluxo de conversação mais fluida em um chatbot. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
                                         "categories": [
@@ -1520,6 +1331,7 @@ class ScriptDynamically extends React.Component {
                                         {
                                             "id": "Rede_hoteis",
                                             "title": "Rede de Hotéis",
+                                            "topicId": 4784,
                                             "creator": "Criado por Criado por <a href='https://forum.blip.ai/u/thaynara_oliveira' target='_blank'>Thaynara Oliveira</a>",
                                             "subtitle": "Esse chatbot foi desenvolvido com propósito de auxiliar as redes de hotéis a prestar servições aos seus clientes dando a eles a opção de buscar hotéis da rede em qualquer região. Tudo isso através de uma interface conversacional compatível com a maioria dos canais disponíveis.",
                                             "categories": [
@@ -1613,6 +1425,7 @@ class ScriptDynamically extends React.Component {
                                             {
                                             "id": "Clinicas",
                                             "title": "Clínica de Saúde",
+                                            "topicId": 4786,
                                             "creator": "Criado por <a href='https://forum.blip.ai/u/thaynara_oliveira' target='_blank'>Thaynara Oliveira</a>",
                                             "subtitle": "Esse chatbot foi desenvolvido com o propósito de auxiliar pequenas a médias clínicas de saúde e similares no atendimento a seus clientes.",
                                             "categories": [
@@ -1710,6 +1523,7 @@ class ScriptDynamically extends React.Component {
                                             {
                                             "id": "Atendimento_humano_equipes",
                                             "title": "Atendimento Humano para Equipes",
+                                            "topicId": 4787,
                                             "creator": "Criado por BLiP",
                                             "subtitle": "Esse chatbot foi desenvolvido para auxiliar todos aqueles que utilizam o atendimento humano para prestar serviços para seus clientes, \\
                                             dando a eles uma solução de template de atendimento mais completa com objetivo de garantir a excelência na gestão de equipes.  \\
@@ -1804,6 +1618,7 @@ class ScriptDynamically extends React.Component {
                                             {
                                                 "id": "Atendimento_humano_horarios",
                                                 "title": "Atendimento Humano - Horários",
+                                                "topicId": 4788,
                                                 "creator": "Criado por BLiP",
                                                 "subtitle": "Esse chatbot foi desenvolvido para auxiliar todos aqueles que utilizam o atendimento humano para prestar serviços para seus clientes, \\
                                                 dando a eles uma solução de template de atendimento mais completa com objetivo de garantir a excelência na gestão dos horários de atendimento.  \\
@@ -2046,8 +1861,21 @@ class ScriptDynamically extends React.Component {
                             b.appendChild(span);
                         install.appendChild(b);
 
+
+                    DiscourseEmbed = { discourseUrl: 'https://forum.blip.ai/',
+                    topicId: template.topicId };
+
+                    (function() {
+                        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                        d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                    })();
+
                         var support = document.getElementById("Support");
                         support.innerHTML = template.tabs.support;
+                        var d = document.createElement("div");
+                        d.setAttribute("id", "discourse-comments");
+                        support.appendChild(d);
                         var c = document.createElement("a");
                             c.setAttribute("class", "docs-prev button");
                             Object.assign(c.style, {"margin-top": "87px", "margin-bottom": "80px", "text-align": "center", "height": "38px" ,"width": "30%", "min-width": "fit-content","border-radius": "8px"});
