@@ -47,3 +47,6 @@ As permissões discutidas anteriormente podem ser concedidas para diferentes fun
 **Builder**: Ferramenta de construção visual de bots da plataforma. Para saber mais [clique aqui](https://help.blip.ai/hc/pt-br/articles/360000677132-Vis%C3%A3o-geral-do-Builder).
 
 *Obs.: Atualmente, apenas as permissões: **Escrita** e **Sem permissão**, estão disponíveis nesta funcionalidade.*
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -67,3 +67,7 @@ Clique no botão de reiniciar o usuário de teste no Debug e refaça os testes.
 Agora você perceberá que o console apresentará uma ação com um erro e o detalhe do que está ocasionando este problema. Repare ainda que as linhas do console são pintadas de vermelho sempre que uma ou mais ações relacionadas a essa transição possuírem erros.
 
 ![Erros no debug](/img/builder/builder-como-utilizar-debug-builder-7.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -9,3 +9,7 @@ Para visualizar a transcrição das conversas entre seu bot e um determinado cli
 ![Módulo usuários](/img/management/management-transcricao-conversas-contatos-1.png)<br><br>
 
 Outra forma de buscar toda a transcrição de uma conversa é utilizando a API do BLiP. Para mais informações sobre como utilizar a extensão [Chat History do BLiP acesse a documentação](https://docs.blip.ai/#chat-history).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

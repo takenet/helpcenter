@@ -64,3 +64,6 @@ Envia uma lista horizontal e rolável de conteúdos, parecido com um menu, poré
 Envia uma mensagem do tipo quick reply (respostas de escopo imediato) para o usuário. Neste canal, este tipo de conteúdo não desaparece após clique de opção.
 
 ![](/img/channels/microsoft-teams/tipos-conteudo-microsoft-teams-10.png)<br>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

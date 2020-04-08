@@ -18,3 +18,6 @@ No vídeo abaixo, demonstro, passo a passo, como utilizar o template de Atendime
 **2)** Logar na ferramenta de atendimento **BLiP Desk**  
 **3)** Configurar o canal WhatsApp com as informações do seu **WEC** - WhatsApp Enterprise Client (container)  
 **4)** Testes  
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

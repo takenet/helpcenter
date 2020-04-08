@@ -58,3 +58,7 @@ A partir de agora o atendente já pode utilizar esta resposta dentro do BLiP Des
 Repare que o BLiP altera o valor das variáveis antes de realizar o envio da mensagem. Na imagem abaixo temos um exemplo de como o conteúdo chega no cliente final.
 
 ![Exemplo uso mensagem pronta BLiP Desk](/img/helpdesk/desk-utilizando-variav-respostas-5.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

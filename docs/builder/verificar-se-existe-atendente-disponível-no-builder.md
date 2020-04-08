@@ -88,3 +88,5 @@ function run(result) {
 Adicione o bloco de **Atendimento Humano** apenas na condição de saída que representa a disponibilidade de atendentes.
 
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

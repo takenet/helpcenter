@@ -13,3 +13,7 @@ O app **Menssagens** é o aplicativo oficial e nativo do Android para conversaç
 Para saber mais sobre esse canal de mensageria, acesse a documentação oficial do Google [neste link](https://developers.google.com/business-communications/rcs-business-messaging).
 
 **Obs.: O uso deste canal está restrito a algumas empresas. Caso tenha interesse em utilizá-lo entre em contato [clicando aqui](mailto:community@take.net)**
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

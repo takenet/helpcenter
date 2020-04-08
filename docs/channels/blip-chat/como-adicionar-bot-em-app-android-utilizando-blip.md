@@ -183,3 +183,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ![Customizando a interface do chat no Android](/img/channels/blip-chat/chat-como-adicionar-bot-em-app-android-utilizando-blip-2.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

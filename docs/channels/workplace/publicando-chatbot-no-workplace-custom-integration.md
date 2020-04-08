@@ -52,3 +52,6 @@ Habilite as opções: *mention, message_deliveries, messages, messaging_postback
 Pesquise a aplicação criada no campo de pesquisa do Workplace, escolha a aplicação e clique em Chat. ​Veja a URL da página e copie o identificador da sua aplicação que aparece ao final. Esse é o *App Id* da sua aplicação. Adicione também essa informação no portal do BLiP.
 
 ![Obtendo App Id](/img/channels/workplace/workplace-publicando-chatbot-no-workplace-8.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

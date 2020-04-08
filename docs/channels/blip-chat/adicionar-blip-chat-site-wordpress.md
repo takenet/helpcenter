@@ -23,3 +23,7 @@ Adicionar o widget do BLiP Chat em um site Wordpress é bem simples. Antes de co
  4. Após adicionar o domínio como válido, faça o teste em sua página.
 
 ![Testando a página](/img/channels/blip-chat/chat-adicionar-blip-chat-site-wordpress-4.png)<br>
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

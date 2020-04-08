@@ -282,4 +282,7 @@ Altere nas variáveis de configuração do chatbot, caso queira:
 
 Todo conteúdo deste artigo, gerou um template que pode ser configurado, baixado e importado em seu chatbot, a partir da ferramenta abaixo:
 
-<iframe src="https://customer-service-template-generator.netlify.com/" class="iframe-template-generator" />
+<iframe src="https://customer-service-template-generator.netlify.com/" class="iframe-template-generator" ></frame>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

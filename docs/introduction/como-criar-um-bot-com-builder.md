@@ -19,3 +19,5 @@ Links importantes:
 [**Comunidade do Facebook**](https://goo.gl/wnE1Vt)  
 [**Fórum de dúvidas**](https://forum.blip.ai/)  
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

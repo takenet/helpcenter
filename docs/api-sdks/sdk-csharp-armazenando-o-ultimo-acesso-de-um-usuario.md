@@ -38,3 +38,5 @@ public class BucketMessageReceiver : IMessageReceiver
 }
 ```
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

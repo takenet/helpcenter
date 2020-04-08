@@ -225,3 +225,6 @@ Suponha que você precise enviar um comando para a API do BLiP quando o chat for
 
 
 Caso precise saber mais detalhes sobre o *widget*, acesse nosso repositório no Github [clicando aqui](https://github.com/takenet/blip-chat-widget/). 
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

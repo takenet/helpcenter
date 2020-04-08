@@ -22,4 +22,4 @@ O vídeo abaixo apresenta mais detalhes sobre o conceito de intenção e apresen
 
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

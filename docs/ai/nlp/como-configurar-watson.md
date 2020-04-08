@@ -39,4 +39,4 @@ Caso o seu bot esteja utilizando a configuração por usuário e senha será nec
 Para migrar seu bot para a configuração atualizada é preciso seguir todo o processo descrito neste artigo, inclusive o de criação de um novo serviço da IBM Watson. Munido da chave e url do novo serviço, configure seu bot e o treine novamente. Após esse processo seu bot estará atualizado.
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

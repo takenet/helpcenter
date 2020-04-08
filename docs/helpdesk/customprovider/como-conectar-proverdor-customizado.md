@@ -109,3 +109,6 @@ Quando for necessário finalizar um ticket em atendimento, basta enviar o comand
   }
 }
 ```
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

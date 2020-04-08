@@ -32,3 +32,6 @@ Por padrão, o Builder aceita textos com o padrão spintax em qualquer conteúdo
     }
 }
 ```
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

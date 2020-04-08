@@ -44,3 +44,7 @@ A última etapa do processo de publicação customizada acontece no BLiP. No por
 ## 4. Testando o processo de configuração
 
 Envie uma mensagem para sua página no Facebook e teste se a mensagem chegou para o seu bot no BLiP.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

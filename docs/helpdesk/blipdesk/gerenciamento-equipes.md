@@ -22,3 +22,7 @@ Para editar as informações ou excluir um atendente, pare o mouse sobre o nome 
 ![Editar informações atendente](/img/helpdesk/desk-gerenciando-equipes-3.png)<br><br>
 
 Após gerenciar os atendentes, é preciso ativar o BLiP Desk como um canal de atendimento para iniciar o processo de atendimento ([clique aqui](https://help.blip.ai/hc/pt-br/articles/360001197672-Como-realizar-um-atendimento-atrav%C3%A9s-do-BLiP-Desk) caso não saiba como ativar o BLiP Desk).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

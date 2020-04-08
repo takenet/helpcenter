@@ -71,3 +71,5 @@ Logo, tais dados devem ser [definidos no contato](/docs/builder/salvando-informa
 
 Similarmente ao Nome Contato e Email Contato, este tipo de fonte representam o valor armazenado nos extras do contato. Analogamente, tal dado deve ser [definido no contato](/docs/builder/salvando-informacoes-de-um-usuário) *a priori*.
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -218,3 +218,6 @@ A imagem abaixo mostra uma interação simples com o chatbot criado.
 Neste artigo discutimos um pouco sobre uma aplicação válida para um chatbot, um currículo digital. De forma rápida e simples foi apresentado um passo a passo de como criar, configurar e publicar um *chatbot*, usando *Webhook*, através do [blip.ai](https://blip.ai).
 
 Todo o código desenvolvido para este artigo está disponível no [Github](https://github.com/takenet/messaginghub-docs/tree/master/samples/webhook/ResumeBot) com informações *fake*. Caso tenha gostado sinta-se a vontade para utilizá-lo como template para criar o seu chatbot currículo. Nos próximos dias continuarei evoluindo este chatbot, em meu [repositório](https://github.com/ravpacheco/resumebot). Fique atento, para cada nova versão publicarei novos *posts*.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

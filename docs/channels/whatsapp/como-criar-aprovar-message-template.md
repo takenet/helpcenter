@@ -45,3 +45,5 @@ Para utilizar um message template é necessário ter acesso a duas informações
 
 Para mais informações sobre como utilizar a API do BLiP para enviar Mensagens Ativas (Notificações), [clique aqui](/docs/channels/whatsapp/enviar-notificacao-whatsapp-blip-api).
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

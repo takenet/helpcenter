@@ -28,3 +28,7 @@ Imagine, por exemplo, que seu bot solicita ao usuário informações como **nome
 4. Abra o módulo de **Usuários**, acesse algum contato e verifique se as informações foram armazenadas corretamente. As mesmas informações estarão disponíveis também no Builder através das variáveis de contato (exemplo: {{contact.name}}, {{contact.phoneNumber}} e etc...).
 
 ![Informações do contato](/img/builder/builder-salvando-informacoes-de-um-usuario-3.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

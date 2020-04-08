@@ -21,3 +21,6 @@ A partir desse momento, o seu bot já poderá utilizar o BLiP Desk como ferramen
 * [Gerenciando equipes de atendimento no BLiP Desk](https://help.blip.ai/hc/pt-br/articles/360001197332)
 * [Como definir regras de atendimento no BLiP Desk](https://help.blip.ai/hc/pt-br/articles/360001215891)
 * [Como realizar um atendimento através do BLiP Desk](https://help.blip.ai/hc/pt-br/articles/360001197672)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

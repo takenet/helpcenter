@@ -126,3 +126,7 @@ Caso a regra definida em uma entrada do usuário não seja satisfeita, o usuári
 * Um bloco pode conter 0 (zero) ou 1 (uma) Entrada do usuário.
 * Na grande maioria das vezes, todo bloco conterá uma Entrada do usuário.
 * Caso um bloco não possua Entrada do usuário, o processamento da máquina de estados levará o cliente para o bloco que contenha.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

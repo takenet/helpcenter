@@ -9,3 +9,7 @@ Divulgue o nome de usuário do Skype do seu contato inteligente através de seu 
 Para encontrá-lo no Skype é muito simples, basta que seu cliente busque o nome de usuário ou então digite o nome da sua empresa!
 
 ![](/img/channels/skype/como-interagir-skype-1.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

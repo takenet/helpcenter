@@ -39,3 +39,6 @@ Porém quando um ticket é transferido para outra equipe, o mesmo é fechado com
 Existem os tickets **A** e **B**, criados na plataforma nesta ordem. Caso o ticket **A** seja transferido, criando assim o ticket **C**, o novo ticket **C** terá *prioridade* para ser distribuido antes do ticket **B**, pois ele foi criado por uma transferência de um ticket que originalmente foi criado antes do ticket **B**.
 
 <center>[ Ticket "A" | Ticket "B" ] -> [ Ticket "C" | Ticket "B" ]</center>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

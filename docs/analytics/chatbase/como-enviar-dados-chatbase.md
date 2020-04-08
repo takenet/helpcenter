@@ -51,3 +51,6 @@ Todas as mensagens enviadas e recebidas pelo bot são enviadas automaticamente p
 **Assim, após realizada a integração e enviadas algumas mensagens, pode ser necessário esperar algumas horas até que os dados estejam disponíveis no dashboard do Chatbase.**
 
 **Obs.: Para saber mais sobre como gerar o relatório SessionFlow corretamente no Chatbase [veja este artigo](https://help.blip.ai/hc/pt-br/articles/360018079712).**
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

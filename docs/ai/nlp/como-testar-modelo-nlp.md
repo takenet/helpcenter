@@ -28,4 +28,4 @@ Seu objetivo agora é testar o máximo de frases que os usuários supostamente e
 
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

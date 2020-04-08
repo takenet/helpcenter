@@ -13,3 +13,7 @@ Uma empresa que utiliza outra ferramenta que não seja a API empresarial oficial
 Atualmente, apenas usuários dos planos Business ou Enterprise do BLiP, ou organizações que já possuam acesso direto a este canal, podem utilizar o WhatsApp no BLiP. Se você ainda não possui um desses planos e gostaria de utilizar este canal em sua empresa, entre em contato conosco [através do link](https://take.net/fale-conosco/).
 
 Para saber mais detalhes sobre o canal WhatsApp, acesse a documentação oficial, clicando [neste link](https://developers.facebook.com/docs/whatsapp/overview).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

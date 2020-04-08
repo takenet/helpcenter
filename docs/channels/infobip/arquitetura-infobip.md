@@ -9,3 +9,7 @@ A arquitetura interna do Infobip pode ser um pouco complexa, mas para entender c
 ![](/img/channels/infobip/arquitetura-infobip-1.png)<br>
 
 Para mais informações sobre a arquitetura da plataforma Infobip, [acesse a documentação oficial](https://www.infobip.com/pt/plataforma).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

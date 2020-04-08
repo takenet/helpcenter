@@ -98,3 +98,5 @@ Finalmente, para que o usuário final receba uma página web é necessário envi
 Clique [neste link](https://drive.google.com/file/d/1bH2Kkya47lOMUxs4Uhque1ONItFFqqeQ/view) para baixar o fluxo de um bot que envia um weblink.
 
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

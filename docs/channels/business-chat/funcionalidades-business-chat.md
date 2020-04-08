@@ -22,3 +22,7 @@ Uma maneira de fornecer experiências ricas, fornecendo Seletores de Lista, Sele
 Uma mensagem com interação exclusiva pode ser parecer com uma mensagem normal, porém abre uma interface personalizada quando selecionado pelo usuário.
 
 *Obs.: Esse recurso é algo nativo e precisa ser feito independente do BLiP.*
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

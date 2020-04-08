@@ -8,3 +8,6 @@ Para utilizar a integração do e-mail com o seu chatbot é muito simples. Este 
 
 ![](/img/channels/email/publicando-bot-email-1.png)<br>
 ![](/img/channels/email/publicando-bot-email-2.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -69,3 +69,7 @@ Note que além de utilizar o método **withAuth** (informando as propriedades au
 **<p align="center">...</p>**
 
 Para mais detalhes a respeito da utilização dos modos de autenticação do BLiP Chat consulte as documentações [web](https://github.com/takenet/blip-chat-widget) e mobile[ android](https://github.com/takenet/blip-chat-android) e [iOS](https://github.com/takenet/blip-chat-ios).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

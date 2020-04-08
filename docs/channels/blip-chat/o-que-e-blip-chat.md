@@ -43,3 +43,7 @@ Outra funcionalidade importante do BLiP Chat é a possibilidade de configurar di
 O primeiro tipo de autenticação (logado) é ideal para ambientes em que o usuário que está utilizando o sistema (site ou aplicativo) já é conhecido. Dessa forma, o desenvolvedor da aplicação consegue informar ao BLiP Chat informações importantes sobre o usuário, como seu identificador, nome, e-mail entre outras.
 
 O segundo tipo de autenticação (não logado) é indicado para os demais cenários. **O comportamento padrão do BLiP Chat utiliza este tipo de autenticação**. Para saber como utilizar os tipos de autenticação disponíveis, clique aqui.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

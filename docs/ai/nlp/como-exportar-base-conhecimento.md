@@ -40,4 +40,4 @@ O segundo passo é realizar a importação dos arquivos preparados. Para isso, a
 
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

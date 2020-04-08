@@ -14,3 +14,7 @@ Reconhecer a estrutura de mensagens que sigam o modelo de um menu, a partir de u
 Enviar arquivos como documentos, imagens, áudio e vídeo.
 
 ![](/img/channels/email/funcionalidades-email-3.png)<br>
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

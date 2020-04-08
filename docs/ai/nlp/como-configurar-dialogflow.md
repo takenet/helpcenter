@@ -61,4 +61,4 @@ Após realizar o upload do arquivo clique em **Concluir**;
 
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

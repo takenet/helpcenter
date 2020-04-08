@@ -13,3 +13,6 @@ Para utilizar a ação de gerenciar listas de distribuição, é preciso informa
 ![Opção gerenciar listas de distribuição](/img/builder/acao-gerenciar-listas-2.png)
 
 Para saber mais o que são e como utilizar as listas de distribuição, [clique aqui](/docs/builder/o-que-sao-listas-de-distribuicao).
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -58,3 +58,6 @@ Para mais informações sobre mensagens ativas no Messenger, consulte a [documen
 
 #### 3. Demais canais
 Nos demais canais disponíveis no BLiP, é considerada mensagem ativa qualquer mensagem enviada 24h após o último contato do usuário com o bot ou atendente.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

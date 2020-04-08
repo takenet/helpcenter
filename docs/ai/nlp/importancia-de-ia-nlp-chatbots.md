@@ -15,4 +15,4 @@ O vídeo abaixo destaca a importância de se utilizar algoritmos de NLP - Natura
 
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

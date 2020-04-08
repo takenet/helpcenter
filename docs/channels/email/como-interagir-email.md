@@ -11,3 +11,7 @@ Para entrar em contato com seu contato inteligente através do endereço de e-ma
 Caso não saiba como encontrar o e-mail do seu chatbot, [acesse o artigo de processo de publicação](/docs/channels/email/publicando-bot-email).
 
 Sua companhia poderá publicar o endereço de e-mail do seu contato inteligente através de seu site, redes sociais, panfletos, dentre outros meios de comunicações. Você também poderá utilizar a URI **mailto:<emailDoSeuBot@blip.ai>** em suas propagandas digitais.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

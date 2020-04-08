@@ -23,3 +23,6 @@ Abaixo é apresentado o escopo do script.
 ![](/img/growth/como-identificar-usuarios-campanha-2.png)<br/>
 
 Utilize [registro de eventos](docs/builder/acao-registro-evento) para engrandecer a captura de dados e torná-los mais apresentáveis a partir de relatórios personalizados.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -9,3 +9,7 @@ O Google Assistant tem como principal objetivo estar pronto para ajudar o seu us
 Este serviço logo alcançou uma grande popularidade devido ao principal produto do Google já ser totalmente consolidado no mercado: o buscador. Sem perder a qualidade, o Google Assistant já está integrado aos atuais dispositivos Android, como smartphones e tablets, mas também pode ser adquirido pelos usuários de outros sistemas operacionais.
 
 Acesse [a documentação oficial do Google Assistant](https://developers.google.com/actions/) para mais informações sobre este assistente virtual e os recursos que ele disponibiliza para desenvolvimento.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

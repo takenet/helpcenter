@@ -17,4 +17,4 @@ Após o treinamento, deve-se publicar o modelo para poder utilizá-lo, clicando 
 Para testar o funcionamento do modelo (analisando possíveis mensagens de usuários) utilize o botão **Testar modelo de IA** ou a [extensão de inteligência artificial](https://docs.blip.ai/#artificial-intelligence), caso deseja realizar testes programaticamente. [Clique aqui](/docs/ai/nlp/como-testar-modelo-nlp) para mais informações.
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

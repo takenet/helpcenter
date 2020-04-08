@@ -15,3 +15,6 @@ O processo de transformação de um usuário comum para usuário de teste pode s
 ![Editar contato](/img/management/management-como-marcar-contato-como-teste-2.png)<br><br>
 
 **Observação: O BLiP limita o número de usuários que podem ser ativamente promovidos a usuários de testes em no máximo 3 por bot.**
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

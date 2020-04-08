@@ -72,3 +72,5 @@ Para que o feed seja monitorado e as novas notícias sejam enviadas automaticame
 
 Você pode utilizar outros recursos do Zapier para tornar seu contato ainda mais interessante, como por exemplo criar um [*feed único que agregue todos os seus feeds favoritos*](https://zapier.com/blog/make-your-own-rss-superfeed/) e utilizar o endereço deste *feed* agregado, gerado pelo Zapier, neste zap. Você pode ainda usar como trigger app o Webhook do Zapier, recebendo notícias de serviços especializados de feed como [Feedly](https://developer.feedly.com/) ou [SuperFeedr](https://superfeedr.com/subscriber).
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

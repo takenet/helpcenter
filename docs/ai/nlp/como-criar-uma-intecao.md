@@ -16,4 +16,4 @@ Clique no botão **Adicionar Intenção**, dê um nome para sua intenção e cad
 
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

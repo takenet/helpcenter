@@ -53,3 +53,6 @@ Por fim, a validação de tipo, verifica se a entrada do usuário condiz com um 
 O valor deste campo será sempre apresentado para o usuário caso o valor da validação seja falso. Por seu lado, caso a validação seja positiva, o fluxo segue normalmente.
 
 ![Exemplo de instrução de validação](/img/builder/como-validar-entrada-usuario-2.png)<br/>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

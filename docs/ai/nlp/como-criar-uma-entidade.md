@@ -15,4 +15,4 @@ Clique no botão **Adicionar Entidade**, dê um nome para sua entidade, cadastre
 **Observação:** Não se esqueça de salvar sua entidade após cadastrar todos os valores.
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

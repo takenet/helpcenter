@@ -29,3 +29,7 @@ Compartilhe imagens de logo, panfletos digitais e muito mais para aprimorar seu 
 ### Vídeo
 
 Envie vídeos com propagandas, informações rápidas ou qualquer outro tema que lhe interesse, desde que seja compartilhado uma URL que contenha o arquivo do vídeo. O cliente deverá abrir o link para visualizar ou fazer o download do vídeo.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

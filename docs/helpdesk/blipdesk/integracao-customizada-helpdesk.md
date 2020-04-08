@@ -60,3 +60,7 @@ Uma vez entendido o que precisa ser feito vamos aos passos que devem ser seguido
     a. Em algum momento o atendimento humano será finalizado pelo atendente. Nesse momento é responsabilidade do Subbot 2 (Bot Atendimento Humano) realizar o redirecionamento do cliente de volta para o Subbot 1 (Bot Principal). Cada ferramenta possui uma forma específica de sinalizar o fim de um atendimento.
 
     Quando receber a sinalização de que um atendimento foi finalizado será necessário enviar uma mensagem do tipo Redirect, definindo qual o serviço será responsável por tratar o cliente a partir daquele momento. Para mais informações e ver exemplos de como enviar o conteúdo Redirect [clique aqui](https://docs.blip.ai/#redirect).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

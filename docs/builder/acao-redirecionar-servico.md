@@ -15,3 +15,6 @@ Esta ação é bem simples: basta informar o **identificador do Serviço (bot)**
 O identificador do serviço precisa ser o mesmo informado nas configurações de **Serviços** do bot roteador.
 
 ![Configurando o nome do serviço](/img/builder/acao-redirecionar-servico-2.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -42,3 +42,6 @@ Escolha a integração **Dashbot** e clique na aba **Configuração**. Preencha 
 Todas as mensagens enviadas e recebidas pelo bot são enviadas automaticamente para o Dashbot. Depois de realizar alguma interação com seu bot, vá até o painel do Dashbot e veja o resultado.
 
 **Obs.: Para saber mais sobre todas as métricas geradas pelo Dashbot veja [este link](https://www.dashbot.io/tour).**
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

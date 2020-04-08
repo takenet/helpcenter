@@ -98,3 +98,5 @@ Tudo feito usando CSS, externo ao widget, controlando o que já existe em volta 
 
 O código utilizado em todos os exemplos podem ser encontrado em: <https://henriquetorquato.github.io/>
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

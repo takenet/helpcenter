@@ -202,3 +202,7 @@ Além disso é precisso inserir os valores das varáveis definidas na criação 
 O vídeo abaixo demonstra, passo a passo, como realizar este procedimento.
 
 <iframe width="778" height="517" src="https://www.youtube.com/embed/JtY0woSr9wo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

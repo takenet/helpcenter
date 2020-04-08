@@ -17,3 +17,7 @@ Algumas considerações importantes:
 
 * **Os blocos de controle não podem ser renomeados ou deletados;**
 * **É possível referenciar os blocos de controle em qualquer outro bloco de forma transparente.**
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

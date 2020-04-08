@@ -147,3 +147,7 @@ Authorization: Key {YOUR_TOKEN}
 }
 
 ``` 
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

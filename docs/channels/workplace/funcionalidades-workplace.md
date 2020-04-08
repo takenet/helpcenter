@@ -23,3 +23,6 @@ A conversa com seu bot começa quando o usuário toca no botão “Get Started�
 Bots publicados neste canal pelo BLiP conseguem acessar diretamente alguns dados pessoais, como **nome** e **e-mail**, por exemplo. Esses dados são fornecidos automaticamente pelo Workplace, baseados naquilo que o usuário informou em sua conta pessoal.
 
 Para saber mais sobre essas e outras funcionalidades da Plataforma do Workplace acesse sua documentação oficial, clicando neste link.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

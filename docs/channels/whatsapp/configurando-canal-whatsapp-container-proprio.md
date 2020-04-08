@@ -72,3 +72,7 @@ Na segunda etapa do processo é necessário realizar a configuração das inform
 ![Imagem que demonstra um exemplo de configurações de um container do WhatsApp no BLiP](/img/channels/whatsapp/advanced-settings-blip-wa.png)<br>
 
 Após realizada todas as configurações no BLiP, garanta que seu bot está corretamente configurado e envie uma mensagem de teste através do WhatsApp para o número da sua empresa. Caso o processo de configuração tenha sido realizado com sucesso o bot responderá a mensagem conforme configurado.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

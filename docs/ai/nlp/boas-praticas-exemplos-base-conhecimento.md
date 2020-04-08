@@ -75,4 +75,4 @@ Pensando na melhoria da qualidade do modelo disponibilizamos algumas dicas
 - A regra do número de exemplos não deve ser “gravada em pedra”. O ideal é buscar um equilíbrio, evitando ao máximo que existam intenções com poucos exemplos.
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

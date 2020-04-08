@@ -89,3 +89,7 @@ Para visualizar melhor, confira a imagem a seguir:
 * Uma condição de saída é composta por uma ou mais regras. Todas as regras de uma condição devem ser verdadeiras para que o bloco de alvo correspondente seja ativado.
 * As condições de saída de um bloco do Builder **são processadas sequencialmente, até que uma condição verdadeira seja alcançada**. Ou seja, é preciso cadastrar as condições ordenadas a partir das mais específicas até a mais genérica.
 * Por padrão, todo bloco possui uma condição de saída padrão (Fallback) pré-configurado. Apesar de ser possível alterar a saída padrão de qualquer bloco, não é possível removê-la.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

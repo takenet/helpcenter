@@ -44,3 +44,6 @@ Os links m.me podem ser embutidos em QR Codes, que ao serem lidos pelas câmeras
 É possível adicionar um botão em páginas web que, ao serem clicados, direcionam os usuários para conversas com o bot no Messenger.
 
 ![Plug-in "Fale conosco"](/img/channels/messenger/como-interagir-messenger-8.png)<br>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -22,3 +22,6 @@ Atualmente a plataforma conta com as seguintes extensões:
 | Delegação (*delegation*) | Atribui permissão para que outras extensões possam enviar mensagens em nome do seu chatbot. | [Saiba mais](https://portal.blip.ai/#/docs/extensions/delegation)|
 
 <br>Para consultar a documentação completa de todas as extensões [clique aqui](https://docs.blip.ai/#extensions)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

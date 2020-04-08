@@ -59,3 +59,7 @@ Neste caso, é necessário utilizar o tipo de conteúdo dinâmico. Veja o passo 
 ```
 
 ![Source do conteúdo dinamico com JSON](/img/builder/builder-o-que-e-um-weblink-4.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -78,3 +78,6 @@ Quick replys fornecem uma maneira de apresentar um conjunto de até 11 botões n
 Este recurso permite o envio de um link para uma página da Web para um cliente, incluindo metadados, como o título do link, a descrição e uma imagem em miniatura. Para mais informações sobre os tipos de conteúdos suportados no Telegram [acesse a documentação oficial](https://core.telegram.org/bots/api#available-types).
 
 ![Exemplo de Weblink](/img/channels/telegram/funcionalidades-telegram-weblink.jpg)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

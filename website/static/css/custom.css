@@ -416,7 +416,6 @@
   .main-category .subtitle-category {
     display: none;
   }
-
   .pages-content-category {
     padding-left: 5% !important;
     padding-bottom: 15%;
@@ -10822,16 +10821,15 @@ a.link-from {
   width: 100%;
   margin-bottom: 5%;
 }
+
 .frame-rating {
-  height: 1200px;
+  height:  33.5vh;
   width: 100%;
   margin-top: 5%;
-  
 }
 
-
 .iframe-template-generator {
-  height: 1200px;
+  height: 100vh;
   width: 100%;
   margin-bottom: 5%;
 }
@@ -11003,7 +11001,8 @@ a.link-from {
 .searchbox__input::-moz-placeholder {
   color: #aaaaaa;
 }
-.forum-direct-message{
+
+.forum-direct-message {
   margin: 0px;
 }
 

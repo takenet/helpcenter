@@ -54,3 +54,9 @@ Nesta etapa, adicione as variáveis de integração. O *domínio* sempre será *
 Com objetivo de integralizar as duas plataformas, outras variáveis são necessárias para rotulação do tipo de conteúdo trafegado são elas: **AudioSentence, DocumentSentence, GifSentence, VideoSentence, WeblinkSentence, TextButton**. Quando um destes tipos de conteúdos são enviados, o rotulo apresentado adapta-se ao valor preenchido respectivamente, portanto preencha o valor da forma que melhor lhe convém.
 
 ![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-10.png)<br>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

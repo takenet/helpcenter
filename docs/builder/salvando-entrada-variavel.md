@@ -27,3 +27,5 @@ Por fim, após finalização destas etapas, voltando à aba de conteúdo do seu 
 ![Mudança do nome da entrada de usuário](/img/builder/salvando-entrada-variavel-4.png)<br/>
 
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

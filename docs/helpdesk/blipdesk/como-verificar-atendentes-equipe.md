@@ -69,3 +69,7 @@ Em resumo, essas alterações são suficientes para verificar a disponibilidade 
 Quer testar ou importar essa solução para seu bot? 
 
 [Clique aqui para utilizar o template gerado nesse artigo](/template?Id=Atendimento_humano_equipes)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

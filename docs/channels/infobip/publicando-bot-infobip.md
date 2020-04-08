@@ -13,3 +13,6 @@ Usuário: login utilizado na conta infobip
 Senha: senha da conta infobip
 
 URL: url de acesso à sua conta da infobip (Ex.: https://suaurl.api.infobip.com)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

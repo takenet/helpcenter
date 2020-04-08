@@ -163,4 +163,4 @@ Para realizar a importação dos arquivos preparados acesse o Portal, escolha o 
 
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

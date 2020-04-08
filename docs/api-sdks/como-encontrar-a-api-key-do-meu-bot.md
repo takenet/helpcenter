@@ -17,3 +17,6 @@ Para encontrar a API de um bot acesse o [Portal do BLiP](https://portal.blip.ai)
 3. No final da tela de **Informações de conexão** você encontrará a API-KEY do seu bot. Lembre-se de que a **API-KEY é necessária para realizar qualquer requisição na API do BLiP**.
 
 ![Endpoints HTTP](/img/api-sdks/api-sdks-como-encontrar-a-api-key-do-meu-bot-3.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

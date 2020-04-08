@@ -19,3 +19,7 @@ Para saber mais sobre o envio de notificações clique [neste link](/docs/channe
 
 ### Links wa.me
 É possível adicionar links wa.me em qualquer lugar em que os hiperlinks funcionem. Eles vinculam pessoas ao bot, não importa se estão no celular ou no desktop. Para saber mais sobre como montar links de acesso ao WhatsApp [clique aqui](https://faq.whatsapp.com/en/android/26000030/).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

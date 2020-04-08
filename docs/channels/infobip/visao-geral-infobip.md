@@ -9,3 +9,7 @@ A Infobip trabalha com a conexão através de sua plataforma de mensageria *omni
 Um dos maiores benefícios de se utilizar um serviço como este é o seu trabalho com SMS, um meio de comunicação disponível para basicamente todos os celulares (smartphones ou não), assim como também sua consolidação no mercado, tornando a plataforma uma das mais confiáveis para apoiar seu contato inteligente.
 
 Para mais informações sobre a Infobip API [acesse a documentação oficial](https://dev.infobip.com/).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

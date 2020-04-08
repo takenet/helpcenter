@@ -60,4 +60,4 @@ Na versão anterior era necessário aprovar todas as sugestões de alteração r
 
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -21,3 +21,7 @@ Atualmente, o hub de analytics conta com duas ferramentas:
 * [BotAnalytics](https://botanalytics.co/) - Ferramenta especializada na análise de dados gerados em aplicações conversacionais e na evolução das interações entre humanos e bots ([Clique aqui para saber como habilitar a integração com o BotAnalytics no seu bot](https://help.blip.ai/hc/pt-br/articles/360020501031-Integra%C3%A7%C3%A3o-BotAnalytics-Como-enviar-dados-de-um-bot-para-o-BotAnalytics-));  
 * [Dashbot](https://www.dashbot.io/) - Ferramenta especializada na análise de dados gerados em chatbots e aplicações de voz. Focado na melhoria da satisfação dos usuários, engajamento e monetização ([Clique aqui para saber como habilitar a integração com o Dashbot no seu bot](https://help.blip.ai/hc/pt-br/articles/360020239532-Integra%C3%A7%C3%A3o-Dashbot-Como-enviar-dados-de-um-bot-para-o-Dashbot-));  
 * [Webhook](https://en.wikipedia.org/wiki/Webhook) - Integração customizada, que possibilita enviar os dados trafegados pelo chatbot para qualquer ferramenta ([Clique aqui para saber como enviar os eventos de seu bot para uma aplicação customizada através do Webhook](https://help.blip.ai/hc/pt-br/articles/360020500911));
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

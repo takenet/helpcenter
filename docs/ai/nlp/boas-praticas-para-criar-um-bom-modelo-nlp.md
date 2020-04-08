@@ -8,4 +8,4 @@ sidebar_label: Boas práticas para criar um bom modelo de NLP
 
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

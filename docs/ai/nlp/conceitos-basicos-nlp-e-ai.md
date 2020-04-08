@@ -230,4 +230,4 @@ Processo de disponibilização de um novo modelo de NLP para os clientes.
 É um processo criado pelo BLiP em que as sugestões/propostas de aprimoramento são validadas por um especialista em modelos de NLP (analista de IA).
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

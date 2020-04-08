@@ -87,3 +87,6 @@ __Notas__:
 - Após a criação de um campo personalizado no BLiP, a RD Station garante que ele estará disponivel para uso em até 3 horas. Caso o seu lead não exiba o campo personalizado, aguarde este período e tente novamente.
 - Apenas campos do tipo **string** são suportados pelo BLiP. Portanto as `keys tags` e `available_for_mailing` **não são suportadas**.
 - Para mais detalhes dos campos suportados acesse: https://developers.rdstation.com/pt-BR/reference/events#events-post
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

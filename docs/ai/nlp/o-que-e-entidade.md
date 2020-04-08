@@ -23,4 +23,4 @@ Neste caso, uma opção muito válida seria a modelagem da intenção de nome **
 Entidades também podem ser chamadas de **variáveis das intenções**, uma vez que elas representam objetos dentro das mesmas.
 
 <!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"/>
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -56,3 +56,5 @@ A variável **workDays** representa os `dias da semana` de atendimento e, por pa
 
 Customize o valor desta variável retirando ou adicionado o dia da semana de atendimento, sempre, **separando os valores com vírgula**.
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>
