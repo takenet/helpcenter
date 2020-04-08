@@ -120,3 +120,6 @@ Para testar ou alterar algo em um subbot faça os testes de forma localizada em 
 8.1 - Faça as alterações/testes desejados
 
 Caso tenha alguma dúvida utilize nosso fórum <http://forum.blip.ai>.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>
