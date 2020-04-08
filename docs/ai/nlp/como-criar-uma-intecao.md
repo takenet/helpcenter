@@ -13,3 +13,7 @@ Clique no botão **Adicionar Intenção**, dê um nome para sua intenção e cad
 ![Adiocionar intenção blip](/img/ai/nlp/nlp-como-criar-uma-intencao-2.png)
 
 **Observação**: Não esqueça de salvar sua intenção após cadastrar todos os exemplos.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"/>

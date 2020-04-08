@@ -70,3 +70,6 @@ Depois copie a **Key 1** referente ao recurso que você acabou de adicionar e co
 Pronto, seu provedor de NLP já está configurado! 🤩
 
 Para saber mais sobre como utilizar o módulo de Inteligência Artificial do BLiP [clique aqui](/docs/general/level-up/level-up-3-checklist-de-ia).
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"/>

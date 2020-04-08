@@ -57,3 +57,7 @@ Ao passar o mouse sobre uma frase aparece uma seta, ao clicar nela é possível 
 ## Não precisa de aprovação
 
 Na versão anterior era necessário aprovar todas as sugestões de alteração realizadas no aprimoramento, porém, agora a aprovação faz parte do processo de aprimoramento. Os usuários que têm permissão de visualizar, editar, excluir na tela de aprimoramento ([veja aqui como fazer para configurar nível de permissão aos membros do seu time](https://help.blip.ai/docs/management/gerenciando-permissoes-acesso-equipe/)), podem executar as ações sem necessitar de mudar de página.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"/>

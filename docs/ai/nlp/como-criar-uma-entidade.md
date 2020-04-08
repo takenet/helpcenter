@@ -13,3 +13,6 @@ Clique no botão **Adicionar Entidade**, dê um nome para sua entidade, cadastre
 ![Editando entidade](/img/ai/nlp/nlp-como-criar-uma-entidade-2.png)
 
 **Observação:** Não se esqueça de salvar sua entidade após cadastrar todos os valores.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"/>

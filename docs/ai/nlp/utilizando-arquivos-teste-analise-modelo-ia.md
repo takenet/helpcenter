@@ -94,3 +94,6 @@ Para controle de versão do arquivo recomenda-se que cada versão criada seja no
 Se seguidas as recomendações feitas neste documento, a pessoa responsável pela evolução da base de conhecimento (e, consequentemente, do modelo de NLP) terá a capacidade de validar as modificações feitas na base, garantindo que, no geral, **houve evolução e não retrocesso.**
 
 Além disso, cria-se um modo de garantir que o modelo responde corretamente aquilo que o cliente espera e, caso seja identificado algo que não é respondido, **isso deve ser entendido como melhoria do modelo e não bug.**
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"/>

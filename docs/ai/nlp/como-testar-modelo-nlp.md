@@ -25,3 +25,7 @@ Seu objetivo agora é testar o máximo de frases que os usuários supostamente e
 
 * **Observação: Lembre-se de treinar e publicar a primeira versão do seu modelo antes de realizar o treinamento.**
 * **Observação 2: A partir da segunda versão do modelo, novas alterações devem ser testadas após novos treinamentos.**
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"/>

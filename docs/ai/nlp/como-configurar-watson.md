@@ -37,3 +37,6 @@ Antes de começar, certifique-se de já ter criado sua conta no Watson através 
 Caso o seu bot esteja utilizando a configuração por usuário e senha será necessário mudar para a configuração via chave e url. **No dia 30 de outubro a IBM Watson encerrará o suporte para configuração por usuário e senha**, sendo necessário que todos os bots que a utilizam façam a mudança.
 
 Para migrar seu bot para a configuração atualizada é preciso seguir todo o processo descrito neste artigo, inclusive o de criação de um novo serviço da IBM Watson. Munido da chave e url do novo serviço, configure seu bot e o treine novamente. Após esse processo seu bot estará atualizado.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"/>

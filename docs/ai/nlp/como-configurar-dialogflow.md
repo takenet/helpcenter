@@ -58,3 +58,7 @@ Para finalizar clique em **Concluir**.
 Após realizar o upload do arquivo clique em **Concluir**;
 
 ![Concluir configuração blip](/img/ai/nlp/nlp-como-configurar-dialogflow-12.png)<br>
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"/>
