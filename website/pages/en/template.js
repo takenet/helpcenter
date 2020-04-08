@@ -1791,7 +1791,7 @@ class ScriptDynamically extends React.Component {
                                                     "subcategory": "Atendimento Humano "
                                                     }
                                                 ],
-                                                "download_uri": "docs/en/helpdesk/blipdesk/como-configurar-horario-atendimento#customize-o-seu-template",
+                                                "download_uri": "/templates/atendimento-humano-horarios/atendimento-humano-horarios.json",
                                                 "link_bot": "YXRlbmRpbWVudG9ob3JhcmlvOmQ1NzQxMTNkLTNmMWUtNGQ0Ny1iYzU4LTExMjkyYzliNDFhNQ==",
                                                 "images": [
                                                     {
