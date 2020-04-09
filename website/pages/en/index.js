@@ -163,6 +163,13 @@ class Index extends React.Component {
               <ul className="ul-recent-accessed">
 
                 <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/messenger/como-adicionar-message-tags" >
+                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
+                    <translate>Como adicionar tags nas mensagens (Message Tags)</translate>
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+                <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/growth/como-identificar-usuarios-campanha">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
                     <translate>Como identificar usuários vindos de uma campanha (anúncio)</translate>
@@ -181,13 +188,6 @@ class Index extends React.Component {
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/dominando-customizando-template-atendimento">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
                     <translate>Dominando e customizando o template de atendimento</translate>
-                  </a>
-                </li>
-                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-configurar-horario-atendimento" >
-                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Como configurar horário de atendimento</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>

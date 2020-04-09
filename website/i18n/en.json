@@ -472,6 +472,10 @@
         "title": "Arquitetura do canal do Messenger",
         "sidebar_label": "Arquitetura do canal do Messenger"
       },
+      "channels/messenger/como-adicionar-message-tags": {
+        "title": "Como adicionar tags nas mensagens (Message Tags)",
+        "sidebar_label": "Como adicionar tags nas mensagens (Message Tags)"
+      },
       "channels/messenger/como-configurar-sua-propria-aplicacao-facebook": {
         "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
         "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
@@ -1021,10 +1025,10 @@
     "Dominando o BLiP|no description given": "Dominando o BLiP",
     "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!|no description given": "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!",
     "Mais recentes|no description given": "Mais recentes",
+    "Como adicionar tags nas mensagens (Message Tags)|no description given": "Como adicionar tags nas mensagens (Message Tags)",
     "Como identificar usuários vindos de uma campanha (anúncio)|no description given": "Como identificar usuários vindos de uma campanha (anúncio)",
     "Como validar a entrada do usuário|no description given": "Como validar a entrada do usuário",
     "Dominando e customizando o template de atendimento|no description given": "Dominando e customizando o template de atendimento",
-    "Como configurar horário de atendimento|no description given": "Como configurar horário de atendimento",
     "Mais acessados|no description given": "Mais acessados",
     "Como criar um bot com o Builder do BLiP|no description given": "Como criar um bot com o Builder do BLiP",
     "Como configurar o DialogFlow como um provedor de Inteligência Artificial|no description given": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
