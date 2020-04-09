@@ -11162,3 +11162,8 @@ a.link-from {
 .algolia-autocomplete .algolia-docsearch-suggestion--highlight {
   color: blue;
 }
+
+.forum-redirect-message{
+  text-align: center;
+  margin-top: 2vw;
+}
