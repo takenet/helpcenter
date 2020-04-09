@@ -11313,3 +11313,13 @@ a.link-from {
   color: #ffffff;
   font-size: unset;
 }
+
+div #discourse-comments{
+  padding-top: 20px;
+  width: 95%;
+}
+
+#discourse-embed-frame{
+    min-height: 250px;
+}
+
