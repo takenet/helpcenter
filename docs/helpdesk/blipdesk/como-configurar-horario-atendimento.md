@@ -39,6 +39,7 @@ Para nosso exemplo, suponhamos que precisamos dos seguintes horários de disponi
 | Fim de atendimento [3]    | -----   | 18:00   | ----- | -----  | -----  | ----- | -----  |
 
 O **script resultante** é apresentado logo abaixo e pode ser customizado conforme necessidade.
+
 ```javascript
 function run() {
   let workSchedule = [
@@ -159,13 +160,10 @@ Por fim, **alteraremos o "CheckWorkTime",** aquele que deve ser o segundo script
 Por sua vez, temos o script propriamente dito, está apresentado abaixo e pode ser transferido para seu bot e funcionará perfeitamente, caso os passos a passos aqui apresentados sejam seguidos.
 
 ```javascript
-//Default BLiP TimeZoneOffset = São Paulo (GMT-3)
-var DEFAULT_OFFSET = 3;
-
 
 // Receive the variables as parameters
 function run(offset, weekSchedule) {
-  offset = parseInt(offset) + DEFAULT_OFFSET;
+  offset = parseInt(offset);
 
    weekSchedule = JSON.parse(weekSchedule);
 
@@ -173,7 +171,7 @@ function run(offset, weekSchedule) {
 
   if (isWorkDay(today, weekSchedule)) {
     let todaySchedule = getTodaySchedule(weekSchedule, today);
-    let intervalTime = getIntervalTime(todaySchedule, offset);
+    let intervalTime = getIntervalTime(todaySchedule);
 
     return checkTime(intervalTime, today);
   }
@@ -181,12 +179,12 @@ function run(offset, weekSchedule) {
   return false;
 }
 
-function getIntervalTime(todaySchedule, offset) {
+function getIntervalTime(todaySchedule) {
   let intervalTime = [];
   for (let i = 0; i < todaySchedule.workTime.length; i++) {
     intervalTime.push({
-      start: utcDate(todaySchedule.workTime[i].start, offset),
-      end: utcDate(todaySchedule.workTime[i].end, offset)
+      start: utcDate(todaySchedule.workTime[i].start),
+      end: utcDate(todaySchedule.workTime[i].end)
     });
   }
 
@@ -224,13 +222,11 @@ function nowUTC(offset) {
 }
 
 //Get UTC Date
-function utcDate(timeString, offset) {
+function utcDate(timeString) {
   let now = new Date();
 
   let hour = getValueByString("hour", timeString);
   let minutes = getValueByString("minutes", timeString);
-
-  hour += DEFAULT_OFFSET;
 
   let utc_timestamp = Date.UTC(
     now.getUTCFullYear(),
@@ -241,7 +237,7 @@ function utcDate(timeString, offset) {
     0,
     0
   );
-  return new Date(utc_timestamp + offset * 3600 * 1000);
+  return new Date(utc_timestamp);
 }
 
 //Get hour/minute by string with pattern HH:mm
