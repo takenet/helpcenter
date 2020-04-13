@@ -161,7 +161,7 @@ class ScriptRating extends React.Component{
                 dangerouslySetInnerHTML={{
                     __html: `
         (function(d, t, e, m){
-    
+        
         // Async Rating-Widget initialization.
         window.RW_Async_Init = function(){
                     

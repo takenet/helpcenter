@@ -75,7 +75,7 @@ class Template extends React.Component {
                                 <p className="title-card-templates">Petshop - Agendamento</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
                                 <div className="card-footer">
-                                    <div className="rw-ui-container" data-title="Petshop - Agendamento"></div>
+                                    <div className="rw-ui-container" name="petshop2" data-title="Petshop - Agendamento"></div>
                                     <a href="/template?Id=Petshop_agendamento"><div className="seeMore-card-templates">
                                         <p className="text-seeMore">Ver detalhes</p>
                                         <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
@@ -107,7 +107,7 @@ class Template extends React.Component {
                                 <p className="title-card-templates">Concessionária de Carros</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
                                 <div className="card-footer">
-                                    <div className="rw-ui-container" data-title="Concessionária de Carros"></div>
+                                    <div className="rw-ui-container" data-title="Concessionaria de Carros"></div>
                                     <a href="/template?Id=Concessionaria_carros"><div className="seeMore-card-templates">
                                         <p className="text-seeMore">Ver detalhes</p>
                                         <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
@@ -312,7 +312,8 @@ class ScriptRating extends React.Component {
                 dangerouslySetInnerHTML={{
                     __html: `
         (function(d, t, e, m){
-    
+        
+        console.log(this);
         // Async Rating-Widget initialization.
         window.RW_Async_Init = function(){
                     
@@ -324,6 +325,7 @@ class ScriptRating extends React.Component {
                 "boost": {
                     "rate": 4
                 },
+                "readOnly": true,
                 "lng": "pt",
                 "size": "tiny",
                 "style": "flat_yellow",
