@@ -117,3 +117,6 @@ gactions init
 *  **a)** Inicie a conversa pela mensagem sugerida pelo simulador, pois foi a única definida no `action.json` e serve apenas para iniciar a conversa. Uma vez que a conversa foi iniciada, qualquer mensagem do usuário cairá direto no bot.
 
 ![](/img/channels/google-assistant/publicando-bot-google-assistant-6.png)<br>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

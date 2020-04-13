@@ -12,3 +12,7 @@ Entretanto, apenas a seção de **Condições de saída** pode ser editada nesse
 ![Condicoes de saida bloco de atendimento](/img/builder/builder-o-que-e-um-bloco-de-atendimento-1.png)
 
 Para entender como configurar o BLiP Desk no módulo de atendimento do BLiP, [clique aqui](https://help.blip.ai/hc/pt-br/articles/360001215251?flash_digest=ac633a3e35d911da8949026d057ab284ea3f0acb).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

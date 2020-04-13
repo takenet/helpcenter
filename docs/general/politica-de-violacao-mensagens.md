@@ -27,3 +27,6 @@ Para reduzir as chances de que um bot seja punido por violar as políticas de me
 
 *[1] [Veja todos os detalhes da política de privacidade do Messenger](https://developers.facebook.com/docs/messenger-platform/policy/policy-overview)*  
 *[2] [Veja todos os detalhes da política de privacidade do WhatsApp](https://www.whatsapp.com/legal/business-policy/?lang=pt_br)*
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

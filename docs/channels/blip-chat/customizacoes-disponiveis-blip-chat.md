@@ -17,3 +17,6 @@ O BLiP Chat permite customizar alguns detalhes na interface do chat. A imagem ab
 Para modificar qualquer um desses valores, vá até o **portal** e escolha o bot correspondente. Clique no módulo **Canais** e escolha o canal **BLiP Chat**. Clique na aba **Configurações** e altere as informações desejadas, conforme a imagem abaixo:
 
 ![Opções de customização blip chat](/img/channels/blip-chat/chat-customizacoes-disponiveis-blip-chat-2.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

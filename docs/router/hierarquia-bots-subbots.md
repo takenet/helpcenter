@@ -40,3 +40,7 @@ Além disso, qualquer correção ou evolução feita nas aplicações Filial Bra
 **Expiração do redirecionamento** - É possível definir um tempo de inatividade em cada subbot. Imagine um subbot que só poderá atender o cliente em um tempo específico. Assim o tempo de expiração define um limite, em segundos, do período em que este subbot deve ficar ativo na conversa em relação à última interação do cliente.
 
 Para explicar, passo a passo, como implementar uma arquitetura de bots e subbots semelhante à do exemplo deste texto, preparei o artigo [Criando um bot router com 3 subbots](/docs/router/criando-bot-com-3-subbots). Caso tenha alguma dúvida utilize nosso fórum <http://forum.blip.ai>.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -31,3 +31,7 @@ Tipos permitidos: áudio, vídeo, imagens e documentos. Mais informações: http
 Permite o envio de um link para uma página na web, permitindo que o mesmo seja aberta diretamente no aplicativo. Para mais informações, acesse nossa documentação: https://docs.blip.ai/#web-link.
 
 ![Conteúdo tipo anexos](/img/channels/business-chat/tipos-conteudo-business-chat-3.png)<br>
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

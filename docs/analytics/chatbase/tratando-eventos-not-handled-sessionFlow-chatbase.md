@@ -34,3 +34,6 @@ Para marcar uma determinada mensagem como **not_Handled** é necessário realiza
 Veja o exemplo na imagem abaixo:
 
 ![Registro de not_handled chatbase](/img/analytics/chatbase/chatbase-tratando-eventos-not-handled-sessioFlow-chatbase-2.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

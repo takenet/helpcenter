@@ -8,3 +8,7 @@ O Facebook Messenger é um canal que ajuda na conexão e compartilhamento de inf
 A Plataforma do Messenger é a maneira segura, gratuita e confiável do Facebook para que empresas possam criar conversas entre clientes e a sua presença no Messenger, para ajudar a controlar e entender as interações e dores dos clientes. Essa solução pode ser implantada em um servidor, fornecendo uma API local que permite que você envie e receba mensagens programaticamente e integre esse fluxo de trabalho aos seus próprios sistemas (CRMs, atendimento ao cliente, etc.).
 
 Para saber mais detalhes sobre a Plataforma do Messenger acesse a documentação oficial, disponível [neste link](https://developers.facebook.com/docs/messenger-platform).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

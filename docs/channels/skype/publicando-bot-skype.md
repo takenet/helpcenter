@@ -42,3 +42,6 @@ Para isto, você deve ir no [BotFramework](https://dev.botframework.com/bots/new
 ![](/img/channels/skype/publicando-bot-skype-7.png)<br>
 
 Se seu bot não tiver sido aprovado ainda pode ser que você somente consiga testá-lo usando a mesma conta do Skype que você utilizou para criá-lo.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

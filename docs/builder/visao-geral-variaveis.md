@@ -218,3 +218,8 @@ As variáveis de atendimento BLiP Desk podem ser utilizadas em respostas prontas
 | agent.fullName    | O nome do agente.                              |
 | agent.email       | O email do agente.                             |
 | agent.phoneNumber | O telefone do agente.                          |
+
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

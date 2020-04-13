@@ -1840,7 +1840,7 @@ class ScriptDynamically extends React.Component {
                                                     </ul>\\
                                                     <li class="content-list-text"><b>Customize o horário de atendimento</b> conforme necessidade:</li> \\
                                                          <ul>\\
-                                                             <li class="content-list-text"><a href="https://help.blip.ai/docs/en/helpdesk/blipdesk/como-configurar-horario-atendimento#2-adicione-o-script-setworkschedule" target="_blank">Clique aqui para entender a estrutura deste template</a></li><br>\\
+                                                             <li class="content-list-text"><a href="https://help.blip.ai/docs/en/helpdesk/blipdesk/como-configurar-horario-atendimento#customize-o-seu-template" target="_blank">Clique aqui para <b>customizar e gerar seu template</b> </a></li><br>\\
                                                          </ul>\\
                                                     </ul>',
                         
@@ -1910,10 +1910,6 @@ class ScriptDynamically extends React.Component {
                             ga('send', 'event', 'Template download', template.title.toString(), 'Template');
                         };
                         
-                         var test = document.getElementById('test');
-                         download.onclick = function(){
-                             ga('send', 'event', 'Template test', template.title.toString(), 'Template');
-                         };
 
                         var linkBot = document.getElementsByClassName('iframe-bot')[0];
                         linkBot.src = template.link_bot.toString();
@@ -2003,6 +1999,9 @@ class ScriptDynamically extends React.Component {
                     var btn = document.getElementsByClassName('button-details-see')[0];
                     var span = document.getElementsByClassName('closeBot')[0];
                     btn.onclick = function(){
+
+                        ga('send', 'event', 'Template test', template.title.toString(), 'Template');
+
                         modalBot.style.display = "block";
                         chat = new BlipChat()
                         .withAppKey(template.link_bot)

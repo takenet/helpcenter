@@ -27,3 +27,6 @@ Para isso, você deve seguir os seguintes passos:
 **5.** Então, é só usar a variável no bloco correspondente!
 
 ![](/img/ai/nlp/como-usar-assistente-de-conteudo-06.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

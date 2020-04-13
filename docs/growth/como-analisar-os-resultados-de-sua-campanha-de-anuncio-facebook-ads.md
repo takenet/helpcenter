@@ -18,3 +18,6 @@ O BLiP apresenta as seguintes métricas para cada anúncio:
 ![Análise de resultados da campanha (Facebook Ads)](/img/growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads.png)
 
 Todos os resultados podem ser visualizados **de forma geral ou por anúncio específico**. É possível também aplicar um filtro por período de datas definido.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

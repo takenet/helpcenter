@@ -46,3 +46,6 @@ Quantidade de mensagens enviadas e recebidas, por dia, para o bot no período se
 
 Todas as mensagens enviadas pelo bot, para um determinado cliente, após 24 horas da última mensagem enviada pelo mesmo cliente para o bot, são nomeadas como mensagens ativas.
 **Essas mensagens recebem uma classificação diferente por estarem sujeitas a políticas de utilização e tarifação, específicas de cada canal.**
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

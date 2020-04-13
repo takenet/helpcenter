@@ -20,3 +20,6 @@ São as mensagens enviadas pelo bot, **depois de 24 horas**, após o recebimento
 
 ## Mensagens de Respostas
 São as mensagens enviadas pelo bot, em até 24 horas, após o recebimento de uma mensagem do cliente. Em geral, todas as mensagens definidas nos blocos de conteúdo do Builder são mensagens de resposta.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

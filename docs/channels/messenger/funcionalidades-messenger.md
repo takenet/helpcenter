@@ -28,3 +28,6 @@ A plataforma do Messenger oferece diversas maneiras de permitir que o usuário e
 Bots publicados neste canal pelo BLiP conseguem acessar diretamente alguns dados pessoais, como nome e e-mail, por exemplo. Esses dados são fornecidos automaticamente pelo Messenger, baseados naquilo que o usuário informou em sua conta pessoal.
 
 Para saber mais sobre essas e outras funcionalidades da Plataforma do Messenger acesse sua documentação oficial, clicando [neste link](https://developers.facebook.com/docs/messenger-platform).
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

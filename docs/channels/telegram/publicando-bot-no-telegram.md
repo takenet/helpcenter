@@ -41,3 +41,7 @@ Após seguir os 2 passos anteriores, o Telegram disponibilizará o token, que é
 Para mais informações sobre a criação de um bot através do **BotFather**, os comandos que ele disponibiliza, geração de um novo token e demais tipos de suporte, acesse a documentação oficial [clicando aqui](https://core.telegram.org/bots#6-botfather).
 
 ![Imagem da publicação do bot no blip](/img/channels/telegram/telegram-newbot-publish.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

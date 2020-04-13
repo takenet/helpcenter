@@ -157,3 +157,7 @@ Por ser uma aplicação Node.js, o chatbot criado deve ser hospedado em um servi
 Após hospedar seu chatbot, você deve ainda incluir sua **URL para receber mensagens** nas configurações dele no [portal do BLiP](https://portal.blip.ai) como a URL onde ele está hospedado.
 
 O código deste e outros exemplos estão [no Github](https://github.com/takenet/blip-sdk-js/tree/master/examples/bing-image-search).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

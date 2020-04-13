@@ -36,3 +36,7 @@ Você pode utilizar esses retornos para exibir as informações para o usuário,
 ### 4. Defina o corpo da requisição
 
 ![Exemplo requisicao HTTP](/img/builder/acao-requisicao-http-4.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

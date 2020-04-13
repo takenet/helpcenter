@@ -16,3 +16,5 @@ Seu principal ponto forte é a gratuidade para a utilização de seus serviços.
 
 Para saber mais detalhes sobre o canal Telegram, acesse a documentação oficial, clicando [neste link](https://core.telegram.org/).
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

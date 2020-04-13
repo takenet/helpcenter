@@ -45,3 +45,7 @@ Equipe de atendentes que receberá o atendimento caso a regra correspondente sej
 **<p align="center"> ... </p>**
 
 Após definida todas as regras de atendimento, sempre que um usuário for enviado para um bloco de atendimento humano o BLiP analisará as regras e definirá qual deve ser a equipe responsável por realizar o atendimento. Caso não exista nenhuma regra cadastrada ou nenhuma regra seja satisfeita o usuário será enviado para a equipe **Default**.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

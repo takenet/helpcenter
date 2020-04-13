@@ -44,3 +44,6 @@ Para mais informações, acesse https://docs.blip.ai/#carousel
 A resposta rápida de localização permite que seu bot solicite e receba a localização de uma pessoa. Mais informações disponíveis em: https://docs.blip.ai/#location
 
 ![](/img/channels/google-rcs/tipos-conteudo-google-rcs-6.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

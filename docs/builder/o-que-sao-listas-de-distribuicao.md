@@ -14,3 +14,7 @@ O processo de criação e manutenção de uma lista de distribuição pode ser f
 Uma vez definida uma lista de distribuição é possível enviar uma mensagem para todos os usuários definidos na mesma através da ferramenta de Agendamento de mensagens do módulo Growth, ou [através da API do BLiP](https://docs.blip.ai/#send-message).
 
 ![Módulo growth](/img/builder/builder-o-que-sao-listas-de-distribuicao-2.png).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

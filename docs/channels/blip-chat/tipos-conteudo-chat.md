@@ -77,3 +77,7 @@ Envia uma mensagem com um pedido de compartilhamento da localização do usuári
 Envia um link da web para o usuário. Para mais informações acesse https://docs.blip.ai/#web-link.
 
 ![Tipo de conteúdo link web](/img/builder/builder-visao-geral-dos-tipos-de-conteudo-13.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

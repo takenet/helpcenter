@@ -75,3 +75,5 @@ Após configurado um número de teste, criar uma chave de acesso e submeter as i
 7. Para testar o funcionamento do bot, acesse o aplicativo **Mensagens**, através do número de teste habilitado, e envie uma mensagem para o seu agente.
 
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

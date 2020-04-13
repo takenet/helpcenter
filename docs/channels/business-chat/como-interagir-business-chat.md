@@ -25,3 +25,6 @@ Permite que os clientes entrem em contato com sua empresa nas pesquisas do Maps,
 É possível que um cliente inicie um bate-papo usando seu aplicativo criando um botão e adicionando-o à interface do aplicativo. Crie o botão de bate-papo para que ele chame a URL do Business Chat para iniciar uma conversa com sua empresa quando o cliente tocar no botão.
 
 ![](/img/channels/business-chat/como-interagir-business-chat-3.png)<br>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

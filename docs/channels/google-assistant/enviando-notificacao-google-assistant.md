@@ -177,3 +177,6 @@ A notificação vai aparecer da seguinte forma, sendo:
 Imagem: Imagem do aplicativo escolhida no painel do Actions.
 
 ![](/img/channels/google-assistant/enviando-notificacao-google-assistant-9.png)<br>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

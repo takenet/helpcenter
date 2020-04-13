@@ -11,3 +11,6 @@ Quando o cliente envia uma mensagem para o seu contato no Telegram, as mensagens
 ![Desenho da arquitetura do Telegram](/img/channels/telegram/telegram-architecture.png)
 
 Para mais informações, acesse a [documentação oficial do Telegram](https://core.telegram.org/bots/api).
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

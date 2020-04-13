@@ -96,3 +96,7 @@ A medida que o número de usuários impactados por uma empresa aumenta seus limi
 
 
 *\* Todos os usuários dos planos Business e Enterprise do BLiP já possuem um container e não precisam se preocupar com a criação/gestão do mesmo.*
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

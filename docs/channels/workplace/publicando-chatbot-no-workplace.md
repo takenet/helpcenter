@@ -47,3 +47,5 @@ Selecionando a opção **Desinstalar/Uninstall**, todas as configurações refer
 Abra um tópico no [fórum do BLiP](https://forum.blip.ai).
 
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

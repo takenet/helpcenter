@@ -56,3 +56,6 @@ As ações representam o principal ponto de flexibilidade do Builder do BLiP. At
 
 * As ações do Builder **são processadas sequencialmente** (uma após a outra) **até que todas sejam executadas**.
 * Ações inválidas, como uma requisição HTTP inválida, podem bloquear a execução do fluxo de conversa de um usuário. **Fique atento quando cadastrar uma ação em seu bloco.**
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -99,3 +99,8 @@ O retorno do método remoteMessage.getData() é um Map<String, String> com 3 ite
 **‘type’** = tipo da mensagem.  
 
 Os conteúdos e tipos das mensagens são exemplificados [aqui](https://docs.blip.ai/?http#content-types)
+
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

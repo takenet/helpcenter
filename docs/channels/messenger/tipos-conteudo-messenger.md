@@ -51,3 +51,6 @@ Permite o envio de um link para uma página na web, permitindo que elas sejam ab
 ![Conteúdo tipo menu carrossel](/img/channels/messenger/tipos-conteudo-messenger-6.png)<br>
 
 Para entender melhor e saber mais detalhes sobre os tipos de conteúdo e como eles funcionam no Messenger, acesse a documentação oficial [clicando aqui](https://developers.facebook.com/docs/messenger-platform).
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

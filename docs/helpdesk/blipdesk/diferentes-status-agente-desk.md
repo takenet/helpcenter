@@ -11,3 +11,6 @@ Status de um atendente refere-se ao estado atual do mesmo na ferramenta BLiP Des
 * **Em pausa / Invisível**: Agente **não se encontra** disponível para atender ou receber novos tickets, porém é permitido que o mesmo continue conversando com clientes presentes em sua lista de chat atual. A diferença prática entre "Em pausa" e "Invisível" cabe ao supervisor, que interpretará tais dados nas telas de monitoramento e relatório.
 
 * **Offline**: Agente indisponível, seja por não ter entrado no BLiP Desk ou por ter sido desconectado.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

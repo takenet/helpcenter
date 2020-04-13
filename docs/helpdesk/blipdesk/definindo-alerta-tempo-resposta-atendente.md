@@ -17,3 +17,7 @@ A configuração deste alerta define o tempo máximo que um agente (atendente do
 Para configurar esse alerta acesse o módulo de **Atendimento** de seu bot selecione a opção **Configurações básicas** (no menu lateral esquerdo), ative a **Configuração alerta para tempo máximo de resposta de um agente** e defina o tempo.
 
 ![Configuração de alertas 2](/img/helpdesk/desk-definindo-alerta-tempo-resposta-atendente-3.png)<br>
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

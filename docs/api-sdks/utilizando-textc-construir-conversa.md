@@ -110,3 +110,7 @@ There's no match for the specified input
 Apesar de ser um exemplo bastante simples, ele ilustra como o contexto pode facilitar a navegação por parte do usuário.
 
 Os códigos do Textc deste e de outros exemplos estão [no Github](https://github.com/takenet/textc-csharp/tree/master/src/Takenet.Textc.Samples).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

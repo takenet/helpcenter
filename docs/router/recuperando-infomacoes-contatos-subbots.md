@@ -30,3 +30,6 @@ Uma vez que todas as informações foram encaminhadas no redirecionamento, basta
 Por fim, utilize a funcionalidade de `definir contato` para adicionar atributos do usuário a partir das informações salvas na variável, a imagem abaixo ilustra esta tarefa.
 
 ![Salvando informações encaminhadas em uma variavel](/img/router/recuperando-infomacoes-contatos-subbots-4.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

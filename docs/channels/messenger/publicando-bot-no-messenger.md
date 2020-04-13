@@ -27,3 +27,7 @@ sidebar_label: Como publicar seu Chatbot no Messenger
 
 5. Pronto! Agora, de volta ao Portal do BLiP, as informações de conexão já estão disponíveis para conferência e configuração.
 ![Selecionando opção Messenger no Portal](/img/channels/messenger/publicando-bot-no-messenger-5.png)<br>
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

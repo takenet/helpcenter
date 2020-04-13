@@ -23,7 +23,8 @@ Selecione o item **Modelo de Mensagens** e clique no botão **"+ Adicionar Novo"
 
 Preencha as informações necessárias para a submissão de um message template.
 
-![Imagem do formulário de criação de um Message Template](/img/channels/whatsapp/creating-message-template.png)
+![Imagem do formulário de criação de um Message Template](/img/channels/whatsapp/creating-message-template-01.png)
+![Imagem do formulário de criação de um Message Template](/img/channels/whatsapp/creating-message-template-02.png)
 
 * Nome do modelo: nome que identifica seu template (*use apenas letras minúsculas, números ou o caracter underline '_'*)
 * Categoria: categoria que mais se aproxima do conteúdo da sua mensagem.
@@ -44,3 +45,5 @@ Para utilizar um message template é necessário ter acesso a duas informações
 
 Para mais informações sobre como utilizar a API do BLiP para enviar Mensagens Ativas (Notificações), [clique aqui](/docs/channels/whatsapp/enviar-notificacao-whatsapp-blip-api).
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

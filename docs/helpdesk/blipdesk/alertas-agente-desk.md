@@ -69,3 +69,6 @@ Para saber como configurar o alerta de inatividade dos clientes [clique aqui](/d
 Caso algum ticket seja finalizado pelo cliente o BLiP Desk exibirá um alerta de abandono de ticket. Tickets abandonados ainda devem ser finalizados pelo atendente.
 
 ![Alerta para ticket abandonado pelo cliente](/img/helpdesk/desk-abandoned-ticket.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

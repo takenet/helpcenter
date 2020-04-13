@@ -80,3 +80,6 @@ Pronto, seu contato já está publicado no WhatsApp. Para testar se tudo está f
 Caso tenha alguma dificuldade durante o processo de publicação, veja o vídeo abaixo. Ele demonstra, passo a passo, como publicar um bot de atendimento humano no WhatsApp.
 
 <iframe width="778" height="517" src="https://www.youtube.com/embed/JtY0woSr9wo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

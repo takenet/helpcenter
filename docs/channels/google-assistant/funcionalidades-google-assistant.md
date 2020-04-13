@@ -15,3 +15,6 @@ No Google Assistant o usuário pode conversar utilizando entradas de texto ou en
 Este canal oferece grande parte dos tipos de conteúdo disponíveis no BLiP, de forma dinâmica e pensada numa boa interface conversacional com o usuário. É possível enviar arquivos de imagem, de texto, links, listas e respostas rápidas, por exemplo.
 
 Para entender melhor sobre essas e outras funcionalidades, acesse a documentação oficial, [clicando aqui](https://developers.google.com/actions/overview).
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

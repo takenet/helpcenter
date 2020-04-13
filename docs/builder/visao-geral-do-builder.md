@@ -43,3 +43,7 @@ Assim como em qualquer máquina de estados, após realizada todas as tarefas de 
 O vídeo abaixo traz um compilado dessas informações e faz um tour pelo Builder através do portal do BLiP. Confira:
 
 <iframe width="778" height="517" src="https://www.youtube.com/embed/82Yv6PAWCt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

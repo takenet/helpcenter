@@ -27,3 +27,7 @@ Imagine o cenário de um usuário (de nome Rafael Pacheco, por exemplo) identifi
 Usuários não integrados são temporários, gerados aleatoriamente pela plataforma, porque o desenvolvedor não forneceu nenhuma identificação do mesmo, no momento de utilizar o BLiP Chat em seu site ou aplicativo móvel.
 
 Para usuários não integrados o BLiP Chat gera um identificador único para cada sessão de conversa com o bot. Imagine o cenário de um usuário qualquer, não identificado pelo desenvolvedor, com um identificador aleatório **999bbe42-68b0-4816-bf58-53194ef2deeb**. No BLiP o canal BLiP Chat é identificado como **0mn\.io**. Assim, quando o usuário entrar em contato com um bot, pela primeira vez, será computado um usuário único de id **999bbe42-68b0-4816-bf58-53194ef2deeb@0mn<span>.</span>io**.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

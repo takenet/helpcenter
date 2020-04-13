@@ -80,3 +80,6 @@ Para realizar a migração de um chatbot que utiliza a versão antiga do SDK (ba
 **Observação**: Na maior parte dos métodos da nova versão, é obrigatório informar um `cancellationToken` para garantir o cancelamento correto das operações assíncronas e evitar o congelamento do processo. Neste caso, passe sempre o `cancellationToken` recebido nos *receivers*.
 
 Mas caso deseje que seu chatbot seja ainda um *Class library* por qualquer motivo, utilize o template `blip-console` ao criar o projeto e o altere para *Class library*. Para executar o chatbot neste caso, será necessário outro projeto como host.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

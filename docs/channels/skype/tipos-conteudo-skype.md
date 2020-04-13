@@ -31,3 +31,7 @@ Envie e receba localizações e endereços. Mais informações: https://docs.bli
 
 ### Menu
 Envie lista opções de ação rápidas através de um menu, facilitando a interação com o bot. Mais informações: https://docs.blip.ai/#menu
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

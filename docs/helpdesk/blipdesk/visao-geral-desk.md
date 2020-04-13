@@ -91,3 +91,6 @@ Encerra a instância de um ticket, adicionando a ele todas as tags marcadas. A d
 ## Transferir um ticket
 
 Finaliza o ticket atual, adicionando nele todas as tags, e cria um novo ticket, associado a este, que é encaminhado à equipe escolhida. Este novo ticket não recebe as tags do ticket transferido.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

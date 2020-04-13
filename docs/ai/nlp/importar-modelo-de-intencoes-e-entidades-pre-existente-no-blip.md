@@ -162,3 +162,5 @@ Para realizar a importação dos arquivos preparados acesse o Portal, escolha o 
 ![Importação dos arquivos](/img/ai/nlp/nlp-importar-modelo-de-intencoes-e-entidades-pre-existente-no-blip-1.png)
 
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

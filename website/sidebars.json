@@ -95,7 +95,8 @@
           "channels/messenger/publicando-bot-no-messenger",
           "channels/messenger/como-interagir-messenger",
           "channels/messenger/outros-recursos-messenger",
-          "channels/messenger/como-configurar-sua-propria-aplicacao-facebook"
+          "channels/messenger/como-configurar-sua-propria-aplicacao-facebook",
+          "channels/messenger/como-adicionar-message-tags"
         ]
       },
       {
@@ -182,7 +183,8 @@
       "builder/acao-registro-evento",
       "builder/expirando-sessao-usuarios-builder",
       "builder/como-definir-um-tempo-limite-para-acoes-do-builder",
-      "builder/salvando-entrada-variavel"
+      "builder/salvando-entrada-variavel",
+      "builder/como-validar-entrada-usuario"
     ],
     "Inteligência Artificial": [
       {
@@ -306,7 +308,8 @@
     "Retenção e Engajamento": [
       "growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot",
       "growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads",
-      "growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast"
+      "growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast",
+      "growth/como-identificar-usuarios-campanha"
     ],
     "Router": [
       "router/hierarquia-bots-subbots",

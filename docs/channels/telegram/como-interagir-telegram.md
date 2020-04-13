@@ -11,3 +11,7 @@ Para entrar em contato com um bot no Telegram basta buscar o nome de usuário (p
 Você poderá publicar o nome de usuário do seu contato através de seu site, redes sociais, panfletos ou também poderá informar o link para o contato direto, basta utilizar o link padrão do Telegram telegram.me/<NomeDoSeuBot>. Veja o exemplo abaixo para o chatbot com o nome de usuário @FelizDemaisBot:
 
 ![Exemplo da pesquisa de um bot no Telegram através de um link](/img/channels/telegram/telegram-funcionalidades-link.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

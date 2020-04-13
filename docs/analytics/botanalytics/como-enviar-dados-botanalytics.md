@@ -45,3 +45,6 @@ Escolha a integração **BotAnalytics** e clique na aba **Configurações**. Pre
 Todas as mensagens enviadas e recebidas pelo bot são enviadas automaticamente para o BotAnalytics. Depois de realizar alguma interação com seu bot, vá até o painel do BotAnalytics e veja o resultado.
 
 **Obs.: Para saber mais sobre todas as métricas geradas pelo BotAnalytics [veja este link](http://help.botanalytics.co/).**
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

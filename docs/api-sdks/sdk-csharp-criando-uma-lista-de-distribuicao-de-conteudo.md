@@ -36,3 +36,6 @@ public class BroadcastMessageReceiver : IMessageReceiver
     }
 }
 ```
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

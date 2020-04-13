@@ -41,3 +41,7 @@ Se o Pedro fosse seu chefe e se você chegasse alguns segundos depois para ouvir
 Conversas naturais possuem contextos bastante complexos e que variam de acordo com a relação entre os indivíduos. Pessoas mais próximas precisam trocar menos palavras para se entenderem, praticamente definindo uma linguagem particular. Já conversas entre pessoas desconhecidas - como as que você tem ao ligar para o *callcenter* da sua operadora de telefonia - tendem a ser **mais formais e padronizadas**. Nestes casos, a linguagem e o contexto são simplificados e os *chatbots* podem desempenhar um bom papel substituindo o atendente em grande parte das situações. E quanto mais **sensível ao contexto** o *chatbot* for, maior chance da conversa ser produtiva para o cliente.
 
 Ao construir um chatbot, deve se considerar que o usuário poderá tentar se comunicar da maneira que ele conversa com pessoas mais próximas. Por outro lado, o **chatbot deve possuir um propósito claro** e delimitar até onde consegue ir. Não adianta tentar responder *qual o sentido da vida* no chatbot da pizzaria, pois a implementação seria inviável devido a complexidade e, provavelmente, você não atenderia seu cliente bem no que você se propõe - vender pizzas. Desta forma, o chatbot da pizzaria deveria se preocupar com informações como nome do cliente, endereço e último pedido, dados que já seriam suficientes para atender ao seu propósito.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

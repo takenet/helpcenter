@@ -38,3 +38,6 @@ A função **run** é a que será executada como principal. Os parâmetros *inpu
 Após a execução do script, pode ser interessante salvar o retorno em alguma variável, para que seja usada no seu fluxo conversacional. Para isso, basta definir um nome para a variável, como no exemplo abaixo:
 
 ![Definindo variaveis de retorno](/img/builder/acao-executar-script-4.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

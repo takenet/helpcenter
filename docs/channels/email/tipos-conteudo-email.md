@@ -64,3 +64,7 @@ Para mais informações acesse https://docs.blip.ai/#send-location.
 
 Para mais informações sobre os tipos de conteúdos suportados pelo BLiP, acesse a documentação. Para mais informações acesse https://docs.blip.ai/#web-link.
 ![](/img/channels/email/tipos-conteudo-email-10.png)<br>
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

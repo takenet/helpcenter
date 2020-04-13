@@ -25,3 +25,6 @@ A tela de boas-vindas é a primeira coisa que as pessoas veem quando começam um
 A tela de informações sobre a empresa é uma maneira de agregar todo o tipo de informação relevante sobre a organização: informações de contato, endereço, website etc.
 
 ![](/img/channels/google-rcs/funcionalidades-google-rcs-4.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -15,3 +15,6 @@ Para definir a condição necessária para que uma determinada ação seja execu
 No exemplo acima, a ação de **Registro** de evento será executada apenas nos blocos que contem, em seu nome, as palavras <u>Início</u> ou <u>Exceções</u>.
 
 <font color=gray>Adicionado na Release 19.25</font>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -17,3 +17,6 @@ Para mais informações sobre o que é o Builder ou como utilizá-lo para constr
 Neste modelo o BLiP realiza requisições em um endpoint definido pelo desenvolvedor do chatbot sempre que novas mensagens ou notificações estiverem disponíveis. Da mesma forma, sempre que o bot quiser enviar uma mensagem para o cliente será necessário realizar uma requisição HTTP na API do BLiP. A vantagem em utilizar o modelo API HTTP é ter a possibilidade de construir seu bot em linguagens de programação diferente de C#, Javascript e Java.
 
 Para mais detalhes sobre como utilizar um dos SDKs ou a API HTTP do BLiP, [clique aqui](https://docs.blip.ai/#getting-started).
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

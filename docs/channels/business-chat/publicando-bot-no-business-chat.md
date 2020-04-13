@@ -79,3 +79,6 @@ Para publicar seu bot no Apple Business Chat é preciso primeiro se registrar no
 18. Caso, ainda não tenha enviado seu Business Chat para análise, clique no botão Submit for review.
 
 ![](/img/channels/business-chat/publicando-bot-no-business-chat-19.png)<br>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

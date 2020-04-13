@@ -49,3 +49,6 @@ public class SchedulerExtensionMessageReceiver : IMessageReceiver
     }
 }
 ```
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

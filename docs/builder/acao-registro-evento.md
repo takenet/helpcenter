@@ -60,3 +60,5 @@ Além de registrar os eventos através da ação do Builder é possível realiza
 
 
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

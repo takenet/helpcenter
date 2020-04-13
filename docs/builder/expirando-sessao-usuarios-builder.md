@@ -15,3 +15,6 @@ Para isso, acesse o **Builder**, clique no botão de **Configurações do Builde
 No exemplo acima, usuários que ficarem mais de 1 hora (3600 segundos) sem interagir com o bot serão automaticamente enviados para o bloco início.
 
 <font color="gray">Adicionado na Release 19.25</font>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

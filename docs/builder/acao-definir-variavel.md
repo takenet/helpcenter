@@ -13,3 +13,6 @@ Para utilizar a ação corretamente, é preciso informar um nome para a varíave
 ![Ação para executar script](/img/builder/builder-visao-geral-das-acoes-9.png)
 
 Caso você precise entender mais sobre o conceito de variáveis no Builder e sobre algumas das variáveis de sistema presentes na plataforma, [acesse este artigo](docs/builder/visao-geral-variaveis).
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

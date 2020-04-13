@@ -48,3 +48,6 @@ Envia uma mensagem com um mapa que aponta uma determinada localização geográf
 
 Este recurso permite o envio de um link para uma página da Web para um cliente, incluindo metadados, como o título do link, a descrição e uma imagem em miniatura. Para mais informações acesse https://docs.blip.ai/#web-link. 
 ![Exemplo de Weblink](/img/channels/whatsapp/weblink.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

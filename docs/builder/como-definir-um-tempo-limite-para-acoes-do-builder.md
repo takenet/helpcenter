@@ -13,3 +13,7 @@ Por padrão, todas as ações possuem um tempo máximo de execução de 30 segun
 **Importante**: O valor dessa variável deverá ser dado em segundos e poderá variar entre 0 e 60.
 
 *Adicionado na Release 19.25*
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

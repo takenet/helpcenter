@@ -30,15 +30,16 @@ Neste script em questão, **não há variáveis de entrada**. Por sua vez, nosso
 Para nosso exemplo, suponhamos que precisamos dos seguintes horários de disponibilidade.
 
 |                           | Domingo | Segunda | Terça | Quarta | Quinta | Sexta | Sábado |
-|---------------------------|---------|---------|-------|--------|--------|-------|--------|
+| ------------------------- | ------- | ------- | ----- | ------ | ------ | ----- | ------ |
 | Início de atendimento [1] | 8:30    | 8:30    | 8:30  | 8:30   | 8:30   | 8:30  | 8:30   |
-|   Fim de atendimento [1]  | 12:00   | 12:00   | 18:00 | 12:00  | 12:00  | 12:00 | 12:00  |
+| Fim de atendimento [1]    | 12:00   | 12:00   | 18:00 | 12:00  | 12:00  | 12:00 | 12:00  |
 | Início de atendimento [2] | -----   | 13:00   | ----- | 13:00  | 13:00  | 13:00 | -----  |
-|   Fim de atendimento [2]  | -----   | 15:00   | ----- | 18:00  | 18:00  | 18:00 | -----  |
+| Fim de atendimento [2]    | -----   | 15:00   | ----- | 18:00  | 18:00  | 18:00 | -----  |
 | Início de atendimento [3] | -----   | 15:30   | ----- | -----  | -----  | ----- | -----  |
-|   Fim de atendimento [3]  | -----   | 18:00   | ----- | -----  | -----  | ----- | -----  |
+| Fim de atendimento [3]    | -----   | 18:00   | ----- | -----  | -----  | ----- | -----  |
 
 O **script resultante** é apresentado logo abaixo e pode ser customizado conforme necessidade.
+
 ```javascript
 function run() {
   let workSchedule = [
@@ -149,6 +150,7 @@ Observe o resultado na imagem abaixo.
 
 ![](/img/helpdesk/como-configurar-horario-atendimento-3.png)<br>
 
+
 ### 3. Altere o script "CheckWorkTime" 
 
 Por fim, **alteraremos o "CheckWorkTime",** aquele que deve ser o segundo script do "2.0 - Verifica Horário Atendimento". A primeira **alteração é nas variáveis de entrada**, para este exemplo nossas **variáveis de entrada são:** `config.dateTimeOffset` e `workSchedule`. O retorno do script será **salvo ainda na variável `isWorkTime`**.
@@ -158,13 +160,10 @@ Por fim, **alteraremos o "CheckWorkTime",** aquele que deve ser o segundo script
 Por sua vez, temos o script propriamente dito, está apresentado abaixo e pode ser transferido para seu bot e funcionará perfeitamente, caso os passos a passos aqui apresentados sejam seguidos.
 
 ```javascript
-//Default BLiP TimeZoneOffset = São Paulo (GMT-3)
-var DEFAULT_OFFSET = 3;
-
 
 // Receive the variables as parameters
 function run(offset, weekSchedule) {
-  offset = parseInt(offset) + DEFAULT_OFFSET;
+  offset = parseInt(offset);
 
    weekSchedule = JSON.parse(weekSchedule);
 
@@ -172,7 +171,7 @@ function run(offset, weekSchedule) {
 
   if (isWorkDay(today, weekSchedule)) {
     let todaySchedule = getTodaySchedule(weekSchedule, today);
-    let intervalTime = getIntervalTime(todaySchedule, offset);
+    let intervalTime = getIntervalTime(todaySchedule);
 
     return checkTime(intervalTime, today);
   }
@@ -180,12 +179,12 @@ function run(offset, weekSchedule) {
   return false;
 }
 
-function getIntervalTime(todaySchedule, offset) {
+function getIntervalTime(todaySchedule) {
   let intervalTime = [];
   for (let i = 0; i < todaySchedule.workTime.length; i++) {
     intervalTime.push({
-      start: utcDate(todaySchedule.workTime[i].start, offset),
-      end: utcDate(todaySchedule.workTime[i].end, offset)
+      start: utcDate(todaySchedule.workTime[i].start),
+      end: utcDate(todaySchedule.workTime[i].end)
     });
   }
 
@@ -223,13 +222,11 @@ function nowUTC(offset) {
 }
 
 //Get UTC Date
-function utcDate(timeString, offset) {
+function utcDate(timeString) {
   let now = new Date();
 
   let hour = getValueByString("hour", timeString);
   let minutes = getValueByString("minutes", timeString);
-
-  hour += DEFAULT_OFFSET;
 
   let utc_timestamp = Date.UTC(
     now.getUTCFullYear(),
@@ -240,7 +237,7 @@ function utcDate(timeString, offset) {
     0,
     0
   );
-  return new Date(utc_timestamp + offset * 3600 * 1000);
+  return new Date(utc_timestamp);
 }
 
 //Get hour/minute by string with pattern HH:mm
@@ -267,18 +264,21 @@ function isWorkDay(today, workDays) {
 ```
 ### Observações 
 
-Uma vez que este exemplo foi utilizado para verificação de horários para atendimento humano, **o local de alteração para definição não serão o mesmo** conforme, template de atendimento. Veja **onde você pode mudar as definições**.
+Uma vez que este exemplo foi utilizado para verificação de horários para atendimento humano, **o local de alteração para definição de horário de atendimento não será o mesmo** do template de atendimento oficial. Veja **onde você pode mudar as definições**.
 
 Altere no script `"SetWorkSchedule"`, caso queira:
 
   * Adicionar ou retirar dias de atendimento.
   * Adicionar, alterar ou retirar horários de atendimento de um dia.
 
-Altere nas variáveis globais do chatbot, caso queira:
+Altere nas variáveis de configuração do chatbot, caso queira:
   * Alterar fuso horário.
 
-## Baixe o projeto
+## Customize o seu template
 
-Todo conteúdo deste artigo, gerou um template que pode ser baixado e importado em seu chatbot:
+Todo conteúdo deste artigo, gerou um template que pode ser configurado, baixado e importado em seu chatbot, a partir da ferramenta abaixo:
 
-[Clique aqui para utilizar o template gerado nesse artigo](/template?Id=Atendimento_humano_horarios)
+<iframe src="https://customer-service-template-generator.netlify.com/" class="iframe-template-generator" ></frame>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

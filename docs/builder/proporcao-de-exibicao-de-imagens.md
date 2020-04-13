@@ -28,3 +28,7 @@ Caso esteja utilizando um dos SDKs ou a API HTTP do BLiP utilize a propriedade *
 ```
 
 Para mais detalhes sobre o tipo de conteúdo Media Link acesse [a documentação](https://docs.blip.ai/#media-link).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

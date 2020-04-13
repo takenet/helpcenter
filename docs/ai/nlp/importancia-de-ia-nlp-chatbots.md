@@ -12,3 +12,7 @@ O vídeo abaixo destaca a importância de se utilizar algoritmos de NLP - Natura
 
 * **IA** - Inteligência Artificial (ou em inglês, AI - Artificial Intelligence)
 * **NLP** - Natural Language Processing (ou em português, PLN - Processamento de linguagem natural)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

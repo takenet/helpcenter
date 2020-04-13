@@ -37,3 +37,7 @@ Para importar uma base de conhecimento, pré-existente, ao BLiP é preciso reali
 O segundo passo é realizar a importação dos arquivos preparados. Para isso, acesse o Portal, escolha o bot e selecione o módulo Inteligência Artificial. Selecione o menu Intenções (ou Entidades), no menu lateral esquerdo, clique no botão mais opções, selecione Importar intenções (ou Importar entidades) e faça upload do arquivo **blip-intentions.csv** (ou **blip-entities.csv**).
 
 ![opção importar entidades blip](/img/ai/nlp/nlp-como-exportar-base-conhecimento-5.png)<br>
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -9,3 +9,7 @@ O Workplace é a versão voltada para empresas da maior rede social do mundo, o 
 É importante entender que, embora sejam muito similares, o Workplace e o Facebook são independentes, e é necessário que a empresa pague um valor por cada funcionário que usar a ferramenta.
 
 Para saber mais sobre essa *intranet* criada pelo Facebook, acesse sua documentação oficial [neste link](https://developers.facebook.com/docs/workplace).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

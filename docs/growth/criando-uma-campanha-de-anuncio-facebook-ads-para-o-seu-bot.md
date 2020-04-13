@@ -93,3 +93,6 @@ Caso você queira ignorar o *chatstate*, criamos um fluxo de exemplo que trata a
 Ademais, está tratativa funciona apenas quando o contato está no início do fluxo, portanto é necessário adicionar algum valor na configuração da **EXPIRAÇÃO DA SESSÃO**, para reiniciar os contatos. Recomendamos 86400 segundos (1 dia).
 
 Segundo as melhores práticas do uso de botões da [documentação do Facebook](https://developers.facebook.com/docs/messenger-platform/send-messages/buttons), não deve-se usar botões caso a ação resultado dependa do estado do bot, como é o caso. Portanto, recomendamos utilizar *Quick reply* no anúncio. 
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

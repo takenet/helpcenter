@@ -15,3 +15,7 @@ Para habilitar o uso de emoji, por parte dos atendentes, no BLiP Desk acesse o m
 Após habilitada esta configuração, os atendentes do Desk poderão utilizar o recurso de emoji conforme exibido na imagem abaixo.
 
 ![Acessando emojis blip desk](/img/helpdesk/desk-habilitando-uso-emoji-2.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

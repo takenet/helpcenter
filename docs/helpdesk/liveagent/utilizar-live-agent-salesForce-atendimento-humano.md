@@ -30,3 +30,6 @@ Adicione os dados obtidos no passo anterior e clique em **Conectar**. Pronto, a 
 
 ![Configurações SalesForce no BLiP](/img/helpdesk/desk-utilizar-live-agent-salesForce-atendimento-humano-2.png)
 ***Observação: Lembre-se que ao ativar um provedor de atendimento humano diferente do BLiP Desk os recursos de Monitoramento e Relatórios não estarão mais disponíveis.***
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

@@ -367,3 +367,6 @@ class ViewController: UIViewController {
 
 @end
 ```
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

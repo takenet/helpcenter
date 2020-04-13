@@ -94,3 +94,5 @@ Por fim, selecione o tipo de mensagem e envie ou agende a mensagem, conforme nec
 ![Enviando de conteúdo com message template](/img/channels/whatsapp/como-enviar-messages-templates-via-builder-5.png)
 
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

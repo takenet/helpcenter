@@ -140,3 +140,6 @@ As informações mais importantes sobre cada agendamento estão dentro do objeto
 | received	| Quantidade de mensagens recebidas.                           |
 | recipients| Quantidade de usuários presentes na lista.                   |
 | sent	    | Quantidade de mensagens enviadas durante o broadcast.        |
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

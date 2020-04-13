@@ -33,3 +33,7 @@ Para encontrar o domínio, publique seu componente, inspecione a página web (no
 ![Testando página](/img/channels/blip-chat/chat-adicionar-blip-chat-site-wix-5.png)<br>
 
 **Observação**: O *iframe* gerado pelo Wix na página publicada é diferente do *iframe* gerado na página dentro do editor do Wix. Caso queira visualizar o BLiP Chat nos dois locais, será necessário adicionar também o domínio do *iframe* de edição.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

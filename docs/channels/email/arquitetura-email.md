@@ -10,3 +10,6 @@ Visando facilitar esse processo, o BLiP utiliza um serviço externo - [**Mailgun
 
 ![](/img/channels/email/arquitetura-email-1.png)<br>
 * **Observação:** Todos os usuários do BLiP já possuem um endereço de e-mail padrão para cada chatbot criado.*
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

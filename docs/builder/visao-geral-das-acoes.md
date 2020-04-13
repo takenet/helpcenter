@@ -80,3 +80,7 @@ Para saber mais sobre utilizar variáveis e definí-las no Builder, [clique aqui
 
 * As ações do Builder **são processadas sequencialmente** (uma após a outra), **até que todas sejam executadas**.
 * Ações inválidas, como uma requisição HTTP incorreta, podem bloquear a execução do fluxo de conversa de um usuário. **Fique atento quando cadastrar uma ação em seu bloco**.
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

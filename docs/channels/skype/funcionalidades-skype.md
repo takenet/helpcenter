@@ -23,3 +23,7 @@ Caso queira convidar seu cliente para visitar seu estabelecimento, compartilhe t
 
 
 Para mais informações sobre os tipos de conteúdos suportados neste canal, [acesse o artigo especializado aqui](/docs/channels/skype/tipos-conteudo-skype).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

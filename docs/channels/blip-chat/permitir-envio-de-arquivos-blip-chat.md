@@ -20,3 +20,7 @@ Para permitir que um usuário faça upload de um arquivo (imagem, áudio, vídeo
 4 - Para confirmar a alteração, clique no botão Salvar (localizado no canto inferior da página)
 
 Viu só como é simples? 😉
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

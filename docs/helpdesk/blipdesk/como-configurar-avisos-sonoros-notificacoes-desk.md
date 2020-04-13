@@ -33,3 +33,5 @@ Veja os passos necessários para habilitar essas permissões, em cada navegador,
 [Habilitando permissões no Firefox](https://support.mozilla.org/pt-BR/kb/notificacoes-web-push-firefox)
 
 
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

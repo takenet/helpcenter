@@ -52,7 +52,7 @@ class Template extends React.Component {
                     <div>
                         <p className="caption" ><translate>Clique nos ícones de check da tabela e veja como cada um dos tipos de conteúdo é suportado em cada canal.</translate></p>
                     </div>
-                    <iframe src="https://heuristic-mccarthy-9b86f6.netlify.com/" className="iframe-channel-table" />
+                    <iframe src="https://heuristic-mccarthy-9b86f6.netlify.com/" className="iframe-channel-table" ></iframe>
                 </div>
             </div>
         );

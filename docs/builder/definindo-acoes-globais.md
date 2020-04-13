@@ -19,3 +19,7 @@ Pense em utilizar ações globais para tarefas que precisam ser realizadas a cad
 ![Ações globais exemplo](/img/builder/builder-definindo-acoes-globais-2.png)<br>
 
 <font color=gray>Adicionado na Release 19.25</font>
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

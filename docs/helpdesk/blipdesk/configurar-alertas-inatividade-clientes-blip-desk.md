@@ -20,3 +20,6 @@ Essa funcionalidade possibilita que o atendente (operador humano conectado ao BL
 Para configurar o tempo de primeiro e segundo alerta acesse o módulo de **Atendimento** de seu bot, selecione a opção **Configurações básicas** (no menu lateral esquerdo), ative a **Configuração alerta para tempo máximo de resposta** e defina os tempos.
 
 ![Configuração de inatividade](/img/helpdesk/desk-configurar-alertas-inatividade-clientes-blip-desk-3.png)<br>
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

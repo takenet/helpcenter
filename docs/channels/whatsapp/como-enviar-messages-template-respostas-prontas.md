@@ -84,3 +84,7 @@ Para ilustrar, suponhamos que seu message template contém 3 placeholders, sendo
 Por fim, satisfeitos os pré requisitos e etapas anteriores, o envio do message template através da funcionalidade de respostas prontas estará disponível no BLiP Desk, conforme imagem abaixo.
 
 ![Enviando message template através da resposta pronta](/img/channels/whatsapp/como-enviar-messages-template-respostas-prontas-4.png)
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

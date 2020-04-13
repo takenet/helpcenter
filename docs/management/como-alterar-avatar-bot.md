@@ -21,6 +21,5 @@ Caso seu bot já esteja publicado no canal WhatsApp será necessário realizar u
 
 ![Imagem que mostra como alterar a foto de avatar de um bot no WhatsApp](/img/management/avatar-whatsapp.png)
 
-
-
-
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

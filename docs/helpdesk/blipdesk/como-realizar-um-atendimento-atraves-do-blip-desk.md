@@ -44,3 +44,6 @@ A imagem abaixo ilustra uma troca de mensagens entre o atendente e o cliente fin
 Após realizado o atendimento, o atendente pode finalizar a conversa clicando no botão **Finalizar Atendimento**, localizado na parte superior da conversa, conforme a imagem abaixo. Note que o BLiP Desk exibirá, ainda, uma tela de confirmação da finalização do ticket de atendimento.
 
 ![Finalizando atendimento](/img/helpdesk/desk-como-realizar-um-atendimento-atraves-do-blip-desk-6.png)
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

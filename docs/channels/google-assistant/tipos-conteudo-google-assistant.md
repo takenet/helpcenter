@@ -76,3 +76,7 @@ Aprimore seu contato inteligente através do quick reply. Ele deve conter no má
 Caso queira saber mais sobre os tipos de conteúdos aceitos no Google Assistant, [acesse a documentação oficial](https://developers.google.com/actions/assistant/responses).
 
 Para mais informações sobre os tipos de conteúdos suportados pelo BLiP, [acesse a documentação](https://docs.blip.ai/#content-types).
+
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>
