@@ -254,7 +254,8 @@
       "management/como-marcar-contato-como-teste",
       "management/configuracoes-avancadas-bot",
       "management/gerenciando-permissoes-acesso-equipe",
-      "management/transcricao-conversas-contatos"
+      "management/transcricao-conversas-contatos",
+      "management/gerenciando-chatbot-atraves-log"
     ],
     "Métricas e Analytics": [
       "analytics/descricao-metricas-blip",
