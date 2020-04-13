@@ -86,7 +86,7 @@ class Detail extends React.Component {
                             <span className="closeDownload" id="closeDownload">&times;</span>
                         </div>
                         <div className="modal-beta-body">
-                            <p className="modal-template-text">Para instalar informe a APP Key do seu bot
+                            <div className="modal-template-text"> <p>Para instalar informe a API-Key do seu bot</p>
                                 <div className="tooltip">
                                     <BlipIcon className="template-tooltip" name="blip-attention"></BlipIcon>
                                     <div className="right">
@@ -96,7 +96,7 @@ class Detail extends React.Component {
                                         <i></i>
                                     </div>
                                 </div>
-                            </p>
+                            </div>
                             <input type="text"
                                 id="botKey"
                                 name="botKey"
@@ -104,6 +104,7 @@ class Detail extends React.Component {
                                 placeholder="Digite o seu e-mail">
                             </input>
                             <button id="BPublish" disabled={true} className="button-template-page">Instalar!</button>
+                            <p className="modal-template-subtext">Ao clicar em <b>instalar</b>, o fluxo atual do seu bot será substituído.</p>
                             <p className="modal-template-subtext">Caso prefira fazer o download, <a href="#" id="download_link">clique aqui</a></p>
                         </div>
                     </div>
@@ -147,7 +148,54 @@ class Detail extends React.Component {
                 <ScriptDynamically></ScriptDynamically>
                 <ScriptCarousel></ScriptCarousel>
                 <ScriptTabs></ScriptTabs>
+                <ScriptRating></ScriptRating>
             </div>
+        );
+    }
+}
+
+class ScriptRating extends React.Component{
+    render() {
+        return (
+            <script
+                dangerouslySetInnerHTML={{
+                    __html: `
+        (function(d, t, e, m){
+    
+        // Async Rating-Widget initialization.
+        window.RW_Async_Init = function(){
+                    
+            RW.init({
+            huid: "455562",
+            uid: "885b63212d353553845c2fd806312995",
+            source: "website",
+            options: {
+                "boost": {
+                    "rate": 4
+                },
+                "lng": "pt",
+                "size": "medium",
+                "style": "flat_yellow",
+                "isDummy": false
+            } 
+        });
+            RW.render();
+        };
+            // Append Rating-Widget JavaScript library.
+        var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
+            l = d.location, ck = "Y" + t.getFullYear() + 
+            "M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
+            f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+            a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+        if (d.getElementById(id)) return;              
+        rw = d.createElement(e);
+        rw.id = id; rw.async = true; rw.type = "text/javascript";
+        rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+        s.parentNode.insertBefore(rw, s);
+        }(document, new Date(), "script", "rating-widget.com/"));
+        `
+                }}
+            />
         );
     }
 }
@@ -1836,6 +1884,19 @@ class ScriptDynamically extends React.Component {
 
                         var details = document.getElementById("Details");
                         details.innerHTML = template.tabs.details;
+                        
+                        var feedbacks = document.createElement("div");
+                        feedbacks.setAttribute("class", "template-feedback");
+                                var feedback_text = document.createElement("p");
+                                feedback_text.innerHTML = "Como você avalia este template?";
+                        feedbacks.appendChild(feedback_text);
+                                var feedback_rating = document.createElement("div");
+                                feedback_rating.setAttribute("class", "rw-ui-container");
+                                feedback_rating.setAttribute("data-title", template.title.toString());
+                        feedbacks.appendChild(feedback_rating);
+
+                        details.appendChild(feedbacks);
+
                             var a = document.createElement("a");
                             a.setAttribute("class", "docs-prev button");
                             Object.assign(a.style, {"margin-top": "87px", "margin-bottom": "80px", "text-align": "center", "height": "38px" ,"width": "30%", "min-width": "fit-content", "border-radius": "8px"});

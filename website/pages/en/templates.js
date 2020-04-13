@@ -74,10 +74,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Petshop - Agendamento</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=Petshop_agendamento"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Petshop - Agendamento"></div>
+                                    <a href="/template?Id=Petshop_agendamento"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -87,10 +90,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Entretenimento</button>
                                 <p className="title-card-templates">Programação de Evento</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=Programacao_evento"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Programação de Evento"></div>
+                                    <a href="/template?Id=Programacao_evento"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -100,10 +106,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Varejo</button>
                                 <p className="title-card-templates">Concessionária de Carros</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=Concessionaria_carros"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Concessionária de Carros"></div>
+                                    <a href="/template?Id=Concessionaria_carros"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -113,10 +122,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Imobiliária</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=Imobiliaria"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Imobiliária"></div>
+                                    <a href="/template?Id=Imobiliaria"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -126,10 +138,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Varejo</button>
                                 <p className="title-card-templates">Loja de Impressoras</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=Loja_impressora"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Loja de Impressoras"></div>
+                                    <a href="/template?Id=Loja_impressora"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -139,10 +154,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Marketing</button>
                                 <p className="title-card-templates">Geração de Leads</p>
                                 <p className="creator-card-templates">criado por Paulo Abreu</p>
-                                <a href="/template?Id=Geracao_leads"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Geração de Leads"></div>
+                                    <a href="/template?Id=Geracao_leads"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -152,10 +170,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Seguradora de Carros</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=Seguradora_carros"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Seguradora de Carros"></div>
+                                    <a href="/template?Id=Seguradora_carros"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -165,10 +186,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Identificador de Endereço por CEP</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=Busca_cep"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Identificador de Endereço por CEP"></div>
+                                    <a href="/template?Id=Busca_cep"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -178,10 +202,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Condição e Previsão do Tempo</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=Previsao_tempo"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Condição e Previsão do Tempo"></div>
+                                    <a href="/template?Id=Previsao_tempo"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -191,24 +218,30 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">FAQ - Loja Virtual</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=Faq_loja_virtual"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="FAQ - Loja Virtual"></div>
+                                    <a href="/template?Id=Faq_loja_virtual"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
-                        
+
                         <div className="card-templates">
                             <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/hoteis.jpg"></img>
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Rede de Hotéis</p>
                                 <p className="creator-card-templates">criado por <a href="https://forum.blip.ai/u/thaynara_oliveira" target="_blank">Thaynara Oliveira</a></p>
-                                <a href="/template?Id=Rede_hoteis"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Rede de Hotéis"></div>
+                                    <a href="/template?Id=Rede_hoteis"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -218,10 +251,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Clínica de Saúde</p>
                                 <p className="creator-card-templates">criado por <a href="https://forum.blip.ai/u/thaynara_oliveira" target="_blank">Thaynara Oliveira</a></p>
-                                <a href="/template?Id=Clinicas"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Clínica de Saúde"></div>
+                                    <a href="/template?Id=Clinicas"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -231,10 +267,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Atendimento Humano para Equipes</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=Atendimento_humano_equipes"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Atendimento Humano para Equipes"></div>
+                                    <a href="/template?Id=Atendimento_humano_equipes"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -244,10 +283,13 @@ class Template extends React.Component {
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Atendimento Humano - Horários</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
-                                <a href="/template?Id=Atendimento_humano_horarios"><div className="seeMore-card-templates">
-                                    <p className="text-seeMore">Ver detalhes</p>
-                                    <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
-                                </div></a>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Atendimento Humano - Horários"></div>
+                                    <a href="/template?Id=Atendimento_humano_horarios"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
                             </div>
                         </div>
 
@@ -257,7 +299,54 @@ class Template extends React.Component {
 
 
                 </div>
+                <ScriptRating></ScriptRating>
             </div>
+        );
+    }
+}
+
+class ScriptRating extends React.Component {
+    render() {
+        return (
+            <script
+                dangerouslySetInnerHTML={{
+                    __html: `
+        (function(d, t, e, m){
+    
+        // Async Rating-Widget initialization.
+        window.RW_Async_Init = function(){
+                    
+            RW.init({
+            huid: "455562",
+            uid: "885b63212d353553845c2fd806312995",
+            source: "website",
+            options: {
+                "boost": {
+                    "rate": 4
+                },
+                "lng": "pt",
+                "size": "tiny",
+                "style": "flat_yellow",
+                "isDummy": false
+            } 
+        });
+            RW.render();
+        };
+            // Append Rating-Widget JavaScript library.
+        var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
+            l = d.location, ck = "Y" + t.getFullYear() + 
+            "M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
+            f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+            a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+        if (d.getElementById(id)) return;              
+        rw = d.createElement(e);
+        rw.id = id; rw.async = true; rw.type = "text/javascript";
+        rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+        s.parentNode.insertBefore(rw, s);
+        }(document, new Date(), "script", "rating-widget.com/"));
+        `
+                }}
+            />
         );
     }
 }
