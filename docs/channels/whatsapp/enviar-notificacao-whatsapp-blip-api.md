@@ -174,6 +174,7 @@ Authorization: Key YOUR_TOKEN
                   {
                      "type":"document",
                      "document":{
+                        "filename":"take.pdf",
                         "link":"http://www.orimi.com/pdf-test.pdf"
                      }
                   }

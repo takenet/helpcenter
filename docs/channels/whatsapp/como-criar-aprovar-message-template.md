@@ -23,8 +23,7 @@ Selecione o item **Modelo de Mensagens** e clique no botão **"+ Adicionar Novo"
 
 Preencha as informações necessárias para a submissão de um message template.
 
-![Imagem do formulário de criação de um Message Template](/img/channels/whatsapp/creating-message-template-01.png)
-![Imagem do formulário de criação de um Message Template](/img/channels/whatsapp/creating-message-template-02.png)
+![Imagem do formulário de criação de um Message Template](/img/channels/whatsapp/creating-message-template-05.png)
 
 * Nome do modelo: nome que identifica seu template (*use apenas letras minúsculas, números ou o caracter underline '_'*)
 * Categoria: categoria que mais se aproxima do conteúdo da sua mensagem.
@@ -32,6 +31,37 @@ Preencha as informações necessárias para a submissão de um message template.
 * Conteúdo da mensagem: (*tipos suportados: texto, documentos e imagens*)
 
 **Observação: clique no botão 'Adicionar tradução' caso queira utilizar um mesmo template em diferentes idiomas**
+
+
+------------------------------
+
+Confira como utilizar todos os tipos de conteúdo suportados e um exemplo de como ele será recebido pelo usuário no WhatsApp: 
+
+#### 1) Tipo de Conteúdo: Texto
+
+![Imagem do formulário de criação de um Message Template tipo texto](/img/channels/whatsapp/creating-message-template-01.png)
+
+##### Exemplo:
+
+![Exemplo de Conteúdo do tipo Texto](/img/channels/whatsapp/creating-message-template-02.png)
+
+#### 2) Tipo de Conteúdo: Imagem
+
+![Imagem do formulário de criação de um Message Template tipo imagem](/img/channels/whatsapp/creating-message-template-03.png)
+
+##### Exemplo:
+
+![Exemplo de Conteúdo do tipo Imagem](/img/channels/whatsapp/creating-message-template-04.png)
+
+#### 2) Tipo de Conteúdo: Documento
+
+![Imagem do formulário de criação de um Message Template tipo documento](/img/channels/whatsapp/creating-message-template-06.png)
+
+##### Exemplo:
+
+![Exemplo de Conteúdo do tipo Documento](/img/channels/whatsapp/creating-message-template-07.png)
+
+------------------------------
 
 ## Analisando o status do Message Template
 
