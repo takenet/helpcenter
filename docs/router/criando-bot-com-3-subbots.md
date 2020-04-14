@@ -19,7 +19,7 @@ Para exemplificar como criar uma arquitetura de bot router e subbots no BLiP, im
 
 ![Importar fluxo BLiP](/img/router/router-criando-bot-com-3-subbots-1.png)<br>
 
-1.7 - Faça download e importe o arquivo [filialbrasil.json](https://drive.google.com/file/d/1wonj9CWN9S_LBMWXwCwThOcVgt4AObtx/view?usp=sharing)  
+1.7 - Faça download e importe o arquivo [filialbrasil.json](https://drive.google.com/file/d/1vCFeskMTfMA4s5juq1jiGJYnEczFuSBT/view?usp=sharing)  
 1.8 - Clique em Publicar fluxo para deixar o bot disponível
 
 ## Passo 2: Criando um bot de exemplo da Filial EUA
@@ -33,7 +33,7 @@ Para exemplificar como criar uma arquitetura de bot router e subbots no BLiP, im
 
 ![Importar fluxo BLiP 2](/img/router/router-criando-bot-com-3-subbots-2.png)<br>
 
-2.7 - Faça download e importe o arquivo [filialeua.json](https://drive.google.com/file/d/14zU2aWkudtFsSkjUvRRPqrhsWaN_mgWp/view?usp=sharing)  
+2.7 - Faça download e importe o arquivo [filialeua.json](https://drive.google.com/file/d/1RX7L3_gCPH319gO21Xou9ZyQYzm-41bU/view?usp=sharing)  
 2.8 - Clique em Publicar fluxo para deixar o bot disponível
 
 ## Passo 3: Criando o subbot principal
@@ -47,7 +47,7 @@ Para exemplificar como criar uma arquitetura de bot router e subbots no BLiP, im
 
 ![Importa fluxo BLiP 3](/img/router/router-criando-bot-com-3-subbots-3.png)<br>
 
-3.7 - Faça download e importe o arquivo [botprincipal.json](https://drive.google.com/file/d/1XP2X0iVLd_1xG2egns5ShRingp4Ffmih/view?usp=sharing)  
+3.7 - Faça download e importe o arquivo [botprincipal.json](https://drive.google.com/file/d/1J-hO2M7PYHlT4wfxHJZpkvHYIv-XdP_w/view?usp=sharing)  
 3.8 - Clique em **Publicar fluxo** para deixar o bot disponível  
 
 ## Passo 4: Criando o bot router
