@@ -351,6 +351,11 @@
   .formulario-beta .form-input-email-page {
     margin-top: 3%;
   }
+
+  .input-template-page {
+    margin-top: 3%;
+  }
+  
   .beta-contents {
     margin-top: 15% !important;
     margin-left: 5% !important;
@@ -9071,6 +9076,19 @@ a.link-footer:hover {
   width: 60%;
 }
 
+.input-template-page {
+  border: 1px solid #d2dfe6;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  background-color: #ffffff;
+  padding: 10px 10px 10px 20px;
+  width: 314px;
+  outline: none;
+  display: block;
+  margin-top: 20px;
+}
+
 .formulario-beta .form-input-email-page {
   border: 1px solid #d2dfe6;
   box-sizing: border-box;
@@ -9085,6 +9103,29 @@ a.link-footer:hover {
   width: 314px;
   outline: none;
   display: block;
+}
+
+.button-template-page {
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+  min-width: 3rem;
+  width: 314px;
+  height: 2.2rem;
+  line-height: 1.25rem;
+  margin-top: 3%;
+  padding: 0 2.25rem;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0.875rem;
+  font-weight: normal;
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  background-color: #2cc3d5;
+  border: 1px solid #2cc3d5;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
 
 .button-beta-page {
@@ -9110,11 +9151,11 @@ a.link-footer:hover {
   border-radius: 8px;
 }
 
-.button-beta-page:hover {
+.button-beta-page:hover, .button-template-page:hover {
   background-color: #25a9b9;
 }
 
-.button-beta-page:disabled {
+.button-beta-page:disabled, .button-template-page:disabled {
   cursor: default;
   background-color: #c9dfe4;
   color: #fff;
@@ -9624,6 +9665,25 @@ a.link-from {
   border-radius: 8px;
 }
 
+.modal-template-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 359px;
+  max-width: 95%;
+  min-height: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  box-sizing: border-box;
+  box-shadow: 2px 0px 10px rgba(96, 123, 153, 0.3);
+  border-radius: 8px;
+}
+
 /* Add Animation */
 
 @-webkit-keyframes animatetop {
@@ -9647,6 +9707,78 @@ a.link-from {
     opacity: 1;
   }
 }
+
+.modal-template-header {
+  padding: 20px 16px;
+  background: #2cc3d5;
+  color: white;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.modal-template-title {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.closeDownload{
+  color: gray;
+  position: absolute;
+  align-self: center;
+  margin-left: 315px;
+  margin-top: -6%;
+  font-size: 23px;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 0;
+}
+
+.closeDownload:hover, .closeDownload:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-template-text{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-template-text p {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8ca0b3;
+  margin-right: 5px;
+}
+
+.modal-template-subtext{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  color: #8ca0b3;
+  width: 100%;
+  margin: auto;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 5px;
+}
+
 
 .modal-beta-header {
   padding: 20px 16px;
@@ -10248,10 +10380,16 @@ a.link-from {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 100%;
   color: #52636c;
   margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-height: 150%;
 }
 
 .creator-card-templates {
@@ -10286,9 +10424,15 @@ a.link-from {
   margin-bottom: 12px;
 }
 
-.seeMore-card-templates {
+.card-footer{
   display: flex;
   flex-direction: row;
+}
+
+.seeMore-card-templates {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
 }
 
 .seeMore-card-templates .text-seeMore {
@@ -10301,7 +10445,6 @@ a.link-from {
   text-decoration-line: underline;
   color: #2cc3d5;
   margin-top: -1%;
-  margin-right: 2%;
 }
 
 .pages-top-details {
@@ -10858,6 +11001,43 @@ a.link-from {
   color: #738192;
 }
 
+.template-feedback{
+  margin-top: 64px;
+}
+
+.template-feedback p{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  color: #607B99;
+}
+
+.rw-ui-container.rw-size-medium span.rw-ui-info {
+  font-size: 16px;
+  line-height: 20px;
+  display: none;
+}
+
+.rw-ui-container.rw-size-medium.rw-valign-middle.rw-halign-right .rw-ui-info-container {
+  display: none !important;
+}
+
+.rw-ui-container.rw-size-tiny span.rw-ui-info {
+  font-size: 16px;
+  line-height: 20px;
+  display: none;
+}
+
+.rw-ui-container.rw-size-tiny.rw-valign-middle.rw-halign-right .rw-ui-info-container {
+  display: none !important;
+}
+
+.rw-ui-report {
+  display: none !important;
+}
+
 /**
  * Copyright (c) 2017-present, Facebook, Inc.
  *
@@ -11167,3 +11347,77 @@ a.link-from {
   text-align: center;
   margin-top: 2vw;
 }
+.tooltip {
+  display:inline-block;
+  position:relative;
+  text-align:left;
+}
+
+.template-tooltip{
+  flex-shrink: 0;
+  font-size: 1.5rem;
+}
+
+.tooltip .right {
+  min-width:200px; 
+  top:50%;
+  left:100%;
+  margin-left:20px;
+  transform:translate(0, -50%);
+  padding:10px 20px;
+  color:#FFFFFF;
+  background-color:#444444;
+  font-weight:normal;
+  font-size:13px;
+  border-radius:8px;
+  position:absolute;
+  z-index:99999999;
+  box-sizing:border-box;
+  box-shadow:0 1px 8px rgba(0,0,0,0.5);
+  display:none;
+}
+
+.tooltip:hover .right {
+  display:block;
+}
+
+.tooltip .right i {
+  position:absolute;
+  top:50%;
+  right:100%;
+  margin-top:-12px;
+  width:12px;
+  height:24px;
+  overflow:hidden;
+}
+
+.tooltip .right i::after {
+  content:'';
+  position:absolute;
+  width:12px;
+  height:12px;
+  left:0;
+  top:50%;
+  transform:translate(50%,-50%) rotate(-45deg);
+  background-color:#444444;
+  box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+
+.tooltip p{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 150%;
+  color: #ffffff;
+  font-size: unset;
+}
+
+div #discourse-comments{
+  padding-top: 20px;
+  width: 95%;
+}
+
+#discourse-embed-frame{
+    min-height: 250px;
+}
+
