@@ -1,6 +1,10 @@
 /* your custom css */
 
 @media (min-width: 2px) and (max-width: 736px) and (min-height: 790px) {
+  header.discourse {
+    background-image: none !important;
+  }
+  
   .flexbox-container .card-home-main {
     width: 25% !important;
     max-height: 250px !important;
@@ -27,6 +31,10 @@
 }
 
 @media only screen and (min-device-width: 2px) and (max-device-width: 736px) {
+  header.discourse {
+    background: none !important;
+  }
+
   .custom-footer .footer-content {
     flex-direction: row !important;
     margin-left: 5% !important;
@@ -11421,3 +11429,6 @@ div #discourse-comments{
     min-height: 250px;
 }
 
+.rw-ui-mobile-wrapper {
+  display: none;
+}
