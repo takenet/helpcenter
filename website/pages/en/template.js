@@ -101,7 +101,7 @@ class Detail extends React.Component {
                                 id="botKey"
                                 name="botKey"
                                 className="input-template-page"
-                                placeholder="Digite o seu e-mail">
+                                placeholder="Cole a sua API-Key">
                             </input>
                             <button id="BPublish" disabled={true} className="button-template-page">Instalar!</button>
                             <p className="modal-template-subtext">Ao clicar em <b>instalar</b>, o fluxo atual do seu bot será substituído.</p>
