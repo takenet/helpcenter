@@ -105,7 +105,8 @@ class Detail extends React.Component {
                             </input>
                             <button id="BPublish" disabled={true} className="button-template-page">Instalar!</button>
                             <p className="modal-template-subtext">Ao clicar em <b>instalar</b>, o fluxo atual do seu bot será substituído.</p>
-                            <p className="modal-template-subtext">Caso prefira fazer o download, <a href="#" id="download_link">clique aqui</a></p>
+                            <p className="modal-template-subtext">Alguns templates requerem arquivos extras, confira a sessão <b>Instalação</b></p>
+                            <p className="modal-template-subtext">Caso prefira fazer o download, <a href="#" id="download_link" download target="_blank">clique aqui</a></p>
                         </div>
                     </div>
                 </div>
@@ -418,8 +419,12 @@ class ScriptDynamically extends React.Component {
     
                                 "install": '<p class="content-title">Como instalar?</p>\\
                                 <ul>\\
-                                    <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                    <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
+                                    <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
                                         <ul>\\
                                         <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                         </ul>\\
@@ -433,7 +438,8 @@ class ScriptDynamically extends React.Component {
                                 <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                     e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                     \\
-                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                    <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                             },
                             "table": [
                                 {
@@ -519,11 +525,15 @@ class ScriptDynamically extends React.Component {
                                 fazer a autenticação e informar para qual agenda os eventos serão enviados. </p> \\
                                 \\
                                 <ol> \\
-                                    <li class="content-list-text">Baixe o fluxo do bot</li> \\
-                                    <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
+                                <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
                                     <ul>\\
-                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                </ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
                                     <li class="content-list-text">Crie uma conta no Google</li> \\
                                     <li class="content-list-text">Nessa conta, crie uma Agenda no <a href="https://calendar.google.com/">Google Calendar</a>, e pegue o seu ID \\
                                         <ul> \\
@@ -582,7 +592,8 @@ class ScriptDynamically extends React.Component {
                             <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
-                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                         },
                         "table": [
                             {
@@ -670,11 +681,15 @@ class ScriptDynamically extends React.Component {
 
                             "install": '<p class="content-title">Como instalar?</p>\\
                             <ul>\\
-                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um bot e importe o fluxo para ele.</li>\\
-                                <ul>\\
-                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                </ul>\\
+                            <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
                                 <li class="content-list-text">Conecte seu canal de atendimento humano (ex.: BLiP Desk)</li>\\
                                     <ul>\\
                                         <li class="content-list-text"><a href="https://help.blip.ai/docs/helpdesk/blipdesk/como-ativar-blip-desk-canal/">Como ativar o BLiP Desk como canal de atendimento</a></li>\\
@@ -688,7 +703,8 @@ class ScriptDynamically extends React.Component {
                             <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
-                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                         },
                         "table": [
                             {
@@ -771,11 +787,15 @@ class ScriptDynamically extends React.Component {
 
                             "install": '<p class="content-title">Como instalar?</p>\\
                             <ul>\\
-                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
+                            <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
                                     <ul>\\
-                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                </ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
                                 <li class="content-list-text">Defina os horários de atendimento nas variáveis de configuração.</li>\\
                                 <ul> \\
                                     <li class="content-list-text">Horário de início do atendimento: <b>startDate (ex.: 09:00)</b></li>\\
@@ -799,7 +819,8 @@ class ScriptDynamically extends React.Component {
                             <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
-                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                         },
                         "table": [
                             {
@@ -874,11 +895,15 @@ class ScriptDynamically extends React.Component {
 
                             "install": '<p class="content-title">Como instalar?</p>\\
                             <ul>\\
-                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
+                            <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
                                     <ul>\\
-                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                </ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
                                 <li class="content-list-text">Altere as informações conforme a sua necessidade.</li>\\
                                 <li class="content-list-text">Conecte-se a um canal de atendimento humano (Ex.: BLiP Desk)</li>\\
                                     <ul>\\
@@ -890,7 +915,8 @@ class ScriptDynamically extends React.Component {
                             <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
-                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                         },
                         "table": [
                             {
@@ -971,11 +997,15 @@ class ScriptDynamically extends React.Component {
                             "install": '<p class="content-title">Como instalar?</p>\\
                             \\
                             <ul>\\
-                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
+                                <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
                                     <ul>\\
-                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                </ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
                                 <li class="content-list-text">Acesse sua conta no <a href="https://www.hubspot.com/">Hubspot.</a></li>\\
                                 <li class="content-list-text">Copie sua API Key</li>\\
                                 <ul>\\
@@ -1076,11 +1106,15 @@ class ScriptDynamically extends React.Component {
                             "install": '<p class="content-title">Como instalar?</p>\\
                             \\
                             <ul>\\
-                                <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
+                                <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
                                     <ul>\\
-                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                </ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
                                 <li class="content-list-text">No Bloco <b>Número do Sinistro</b>, remova o Script de teste e adicione a Requisição para sua <b>API de consulta ao Sinistro</b>.</li>\\
                                 <li class="content-list-text">Crie as condições de saída baseado nas respostas da sua API</li>\\
                                 <li class="content-list-text">Acrescente o retorno da API no Bloco <b>Sinistro Encontrado</b></li>\\
@@ -1094,7 +1128,8 @@ class ScriptDynamically extends React.Component {
                             <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                 \\
-                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                         },
                         "table": [
                             {
@@ -1168,11 +1203,15 @@ class ScriptDynamically extends React.Component {
                                 "install": '<p class="content-title">Como instalar?</p>\\
                                 \\
                                 <ul>\\
-                                    <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                    <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
+                                <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
                                         <ul>\\
                                         <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                    </ul>\\
+                                        </ul>\\
                                     <li class="content-list-text">Altere as informações conforme a sua necessidade.</li>\\
                                 </ul>',
     
@@ -1180,7 +1219,8 @@ class ScriptDynamically extends React.Component {
                                 <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                     e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                     \\
-                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                             },
                             "table": [
                                 {
@@ -1251,10 +1291,14 @@ class ScriptDynamically extends React.Component {
                                     "install": '<p class="content-title">Como instalar?</p>\\
                                     \\
                                     <ul>\\
-                                        <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                        <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
-                                            <ul>\\
-                                            <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                    <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
                                         </ul>\\
                                         <li class="content-list-text">Altere as informações conforme a sua necessidade.</li>\\
                                     </ul>',
@@ -1263,7 +1307,8 @@ class ScriptDynamically extends React.Component {
                                     <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                         e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                         \\
-                                    <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                        <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                                 },
                                 "table": [
                                     {
@@ -1294,7 +1339,7 @@ class ScriptDynamically extends React.Component {
                                             "subcategory": "Inteligência Artificial"
                                             }
                                         ],
-                                        "download_uri": "/templates/faq-loja-virtual/clothing_store_faq.zip",
+                                        "download_uri": "/templates/faq-loja-virtual/faqlojavirtual.json",
                                         "link_bot": "ZmFxbG9qYXZpcnR1YWwxOjE3ZGZhY2UxLTY4ODEtNGJmNS1iYmM2LWFjMmEyNDljMmIzMA==",
                                         "images": [
                                             {
@@ -1332,11 +1377,20 @@ class ScriptDynamically extends React.Component {
                                             "install": '<p class="content-title">Como instalar?</p>\\
                                             \\
                                             <ul>\\
-                                                <li class="content-list-text">Baixe o arquivo .zip contendo o fluxo do bot, as intenções e entidades</li>\\
-                                                <li class="content-list-text">Crie um bot e importe o fluxo para ele</li> \\
+                                                <li class="content-list-text">Baixe o arquivos abaixo com as intenções e entidades</li>\\
                                                     <ul>\\
-                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                                        <li class="content-list-text"><a dowload target="_blank" href="/templates/faq-loja-virtual/faqlojavirtual-intents.csv"> Intenções</a></li>\\
+                                                        <li class="content-list-text"><a dowload target="_blank" href="/templates/faq-loja-virtual/faqlojavirtual-entities.csv"> Entidades</a></li>\\
                                                     </ul>\\
+                                                <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
                                                 <li class="content-list-text">Ative um provedor de IA sua preferência</li>\\
                                                     <ul>\\
                                                     <li class="content-list-text"><a href="https://help.blip.ai/docs/ai/nlp/como-configurar-watson/">Clique aqui para aprender como configurar o provedor Watson</a></li>\\
@@ -1358,7 +1412,8 @@ class ScriptDynamically extends React.Component {
                                             <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                                 e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                                 \\
-                                            <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                                         },
                                         "table": [
                                             {
@@ -1440,10 +1495,15 @@ class ScriptDynamically extends React.Component {
                                                 "install": '<p class="content-title">Como instalar?</p>\\
                                                 \\
                                                 <ul>\\
-                                                <li class="content-list-text">Crie um bot e importe o fluxo para ele.</li>\\
-                                                <ul>\\
-                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                                </ul>\\
+                                                <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
                                                 <li class="content-list-text">Faça as modificações conforme sua necessidade.</li>\\
                                                 <li class="content-list-text">Conecte seu canal de atendimento humano (ex.: BLiP Desk)</li>\\
                                                     <ul>\\
@@ -1455,7 +1515,8 @@ class ScriptDynamically extends React.Component {
                                                 <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                                     e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                                     \\
-                                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                                    <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                                             },
                                             "table": [
                                                 {
@@ -1526,10 +1587,15 @@ class ScriptDynamically extends React.Component {
                                                 "install": '<p class="content-title">Como instalar?</p>\\
                                                 \\
                                                 <ul>\\
-                                                <li class="content-list-text">Crie um bot e importe o fluxo para ele.</li>\\
-                                                <ul>\\
-                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                                </ul>\\
+                                                <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
                                                 <li class="content-list-text">Faça as modificações conforme sua necessidade.</li>\\
                                                 <br><li class="content-list-text">Crie relatórios personalizados para registrar seus eventos.</li>\\
                                                 <ul>\\
@@ -1547,7 +1613,8 @@ class ScriptDynamically extends React.Component {
                                                 <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                                     e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                                     \\
-                                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                                    <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                                             },
                                             "table": [
                                                 {
@@ -1630,11 +1697,15 @@ class ScriptDynamically extends React.Component {
                                                 "install": '<p class="content-title">Como instalar?</p>\\
                                                 \\
                                                 <ul>\\
-                                                    <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                                    <li class="content-list-text">Crie um bot a partir do <b>template de atendimento oficial</b> e importe o fluxo para ele</li> \\
-                                                    <ul>\\
-                                                    <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/" target="_blank">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                                </ul>\\
+                                                <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
                                                 <li class="content-list-text"><b>Adicione atendentes e equipes</b> conforme especificação abaixo:</li> \\
                                                      <ul>\\
                                                          <li class="content-list-text"><a href="https://help.blip.ai/docs/en/helpdesk/blipdesk/como-verificar-atendentes-equipe#2-adicione-atendentes-nas-equipes" target="_blank">Clique aqui para aprender como adicionar atendentes e equipes para este exemplo</a></li><br>\\
@@ -1649,7 +1720,8 @@ class ScriptDynamically extends React.Component {
                                                 <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                                     e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                                     \\
-                                                <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                                    <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                                             },
                                             "table": [
                                                 {
@@ -1682,7 +1754,7 @@ class ScriptDynamically extends React.Component {
                                                     "subcategory": "Atendimento Humano "
                                                     }
                                                 ],
-                                                "download_uri": "docs/en/helpdesk/blipdesk/como-configurar-horario-atendimento#customize-o-seu-template",
+                                                "download_uri": "templates/atendimento-humano-horarios/atendimento-humano-horarios.json",
                                                 "link_bot": "YXRlbmRpbWVudG9ob3JhcmlvOmQ1NzQxMTNkLTNmMWUtNGQ0Ny1iYzU4LTExMjkyYzliNDFhNQ==",
                                                 "images": [
                                                     {
@@ -1724,11 +1796,15 @@ class ScriptDynamically extends React.Component {
                                                     "install": '<p class="content-title">Como instalar?</p>\\
                                                     \\
                                                     <ul>\\
-                                                        <li class="content-list-text">Baixe o fluxo do bot</li>\\
-                                                        <li class="content-list-text">Crie um bot a partir do <b>template de atendimento oficial</b> e importe o fluxo para ele</li> \\
-                                                        <ul>\\
-                                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/" target="_blank">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                                    </ul>\\
+                                                    <li class="content-list-text">Crie um bot a partir do <b>Template de Atendimento Humano oficial do Builder</b> e copie a API-Key dele.</li> \\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
                                                     <li class="content-list-text"><b>Customize o horário de atendimento</b> conforme necessidade:</li> \\
                                                          <ul>\\
                                                              <li class="content-list-text"><a href="https://help.blip.ai/docs/en/helpdesk/blipdesk/como-configurar-horario-atendimento#customize-o-seu-template" target="_blank">Clique aqui para <b>customizar e gerar seu template</b> </a></li><br>\\
@@ -1739,7 +1815,8 @@ class ScriptDynamically extends React.Component {
                                                     <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
                                                         e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
                                                         \\
-                                                    <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>',
+                                                        <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
                                                 },
                                                 "table": [
                                                     {
@@ -1807,6 +1884,12 @@ class ScriptDynamically extends React.Component {
                             rawFile.send(null);
                         };
 
+                        var download_link = document.getElementById("download_link");
+                        download_link.href = template.download_uri.toString();
+                        download_link.onclick = function(){
+                            ga('send', 'event', 'Template download', template.title.toString(), 'Template');
+                        }
+                        
                         var download = document.getElementById('download');
                         var modalDownload = document.getElementById("modalDownload");
                         var modalCloseDonwload = document.getElementById("closeDownload");
@@ -1834,7 +1917,7 @@ class ScriptDynamically extends React.Component {
                                 }
                                 })
                                 .then(function (response) {
-                                    console.log(response);
+                                    ga('send', 'event', 'Template install', template.title.toString(), 'Template');
                                 })
                                 .catch(function (error) {
                                     console.log(error.response);
