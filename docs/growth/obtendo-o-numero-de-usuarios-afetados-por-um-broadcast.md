@@ -12,7 +12,7 @@ Após realizar um broadcast é muito importante analisar a assertividade do disp
 
 **Método da requisição:** POST
 
-**URL:** https://msging.net/commands
+**URL:** https://http.msging.net/commands
 
 **Cabeçalhos:** 
 
@@ -85,7 +85,7 @@ De posse do ID da mensagem agendada e do identificador da lista para qual o agen
 
 **Método da requisição:** POST
 
-**URL:** https://msging.net/commands
+**URL:** https://http.msging.net/commands
 
 **Cabeçalhos:** 
 

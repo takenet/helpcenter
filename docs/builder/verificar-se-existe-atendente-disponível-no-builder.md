@@ -22,7 +22,7 @@ Para verificar se existe algum atendente disponível no Builder siga os passos a
 
 **Método da Requisição:** POST
 
-**URL:** <https://msging.net/commands>
+**URL:** <https://http.msging.net/commands>
 
 **Cabeçalhos:**
 

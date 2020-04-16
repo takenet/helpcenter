@@ -54,7 +54,7 @@ O comando deve ter pelo menos dois campos que são obrigatórios: `identificador
 **Exemplo:** Requisição HTTP realizada para salvar a conversão:
 
 ```
-POST https://msging.net/commands HTTP/1.1
+POST https://http.msging.net/commands HTTP/1.1
 Authorization: Key YOUR-BLIP-API-KEY
 HTTP/1.1 200 OK
 Content-Type: application/json

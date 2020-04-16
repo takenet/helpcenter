@@ -15,7 +15,7 @@ Suponha que você possui um BLiP Chatbot e alguns usuários que já interagiram 
 ```http
 
 
-POST https://msging.net/commands HTTP/1.1
+POST https://http.msging.net/commands HTTP/1.1
 Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
@@ -54,7 +54,7 @@ A busca pelo identificador é feita através de uma requisição HTTP, considera
 > +5531999998888
 
 ```http
-POST https://msging.net/commands HTTP/1.1
+POST https://http.msging.net/commands HTTP/1.1
 Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
@@ -111,7 +111,7 @@ Para executar a ação de criar lista de distribuição via API, utilizaremos o 
 substitua o `{your_distributionList}` pelo nome desejado para sua lista.
 
 ```http
-POST https://msging.net/commands HTTP/1.1
+POST https://http.msging.net/commands HTTP/1.1
 Content-Type: application/json
 Authorization: Key {YOUR_TOKEN}
 
@@ -133,7 +133,7 @@ Authorization: Key {YOUR_TOKEN}
 Finalizando todas as etapas anteriores, utilizaremos a API para inserir todos os contatos levantados na lista criada. Para isso utilizaremos o endpoint [**add a member to list**](https://docs.blip.ai/#add-a-member-to-list), para cada usuário a ser inserido devemos executar a requisição abaixo, lembre-se de substituir o `{your_distributionList}` pelo nome da sua lista criada que pode ser obtida nos passos anteriores ou no endpoint [**get all lists**](https://docs.blip.ai/#get-all-lists).
 
 ```http
-POST https://msging.net/commands HTTP/1.1
+POST https://http.msging.net/commands HTTP/1.1
 Content-Type: application/json
 Authorization: Key {YOUR_TOKEN}
 

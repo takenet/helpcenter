@@ -28,7 +28,7 @@ A busca pelo identificador é feita através de uma requisição HTTP levando em
 > +5531999998888
 
 ```http
-POST https://msging.net/commands HTTP/1.1
+POST https://http.msging.net/commands HTTP/1.1
 Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
@@ -73,7 +73,7 @@ Veja abaixo um exemplo de resposta para essa requisição. Repare que a propried
 De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo **alterando** o `id` da mesma:
 
 ```http
-POST https://msging.net/messages HTTP/1.1
+POST https://http.msging.net/messages HTTP/1.1
 Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
@@ -105,7 +105,7 @@ Authorization: Key YOUR_TOKEN
 De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo **alterando** o `id` da mesma:
 
 ```http
-POST https://msging.net/messages HTTP/1.1
+POST https://http.msging.net/messages HTTP/1.1
 Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
@@ -150,7 +150,7 @@ Authorization: Key YOUR_TOKEN
 De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo **alterando** o `id` da mesma:
 
 ```http
-POST https://msging.net/messages HTTP/1.1
+POST https://http.msging.net/messages HTTP/1.1
 Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 

@@ -26,7 +26,7 @@ Após definido em qual ponto do fluxo o email será disparado, acesse o bloco co
 
 **Método da requisição:** POST
 
-**URL:** <https://msging.net/messages>
+**URL:** <https://http.msging.net/messages>
 
 **Cabeçalhos:**
 

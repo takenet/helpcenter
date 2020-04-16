@@ -1901,7 +1901,7 @@ class ScriptDynamically extends React.Component {
                         var aKey = document.getElementById("botKey");
                         Bpublish.onclick = function() {
                             readTextFile(template.download_uri.toString(), function(json_file){
-                                axios.post('https://msging.net/commands', {
+                                axios.post('https://http.msging.net/commands', {
                                 "id": "0094447a-2581-4597-be6a-a5dff33af156",
                                 "method": "set",
                                 "uri": "/buckets/blip_portal:builder_working_flow",

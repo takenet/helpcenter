@@ -10,7 +10,7 @@ Neste tutorial vamos usar o [BING](https://azure.microsoft.com/pt-br/services/co
 
 Para este projeto iremos utilizar o **node.js**. Para criar um projeto node, basta criar um diretório qualquer e executar o comando `npm init` neste diretório.
 
-Após criado o projeto node, precisamos instalar os pacotes de dependências que iremos utilizar. Para utilizar Webhooks, precisamos fazer chamadas HTTP no endereço <https://msging.net/messages>. Serão necessários os pacotes `request` e `request-promise`. Além disto, para enviar mensagens via HTTP, precisamos gerar *uuids* válidos, portanto será necessário utilizar o pacote `uuid`.
+Após criado o projeto node, precisamos instalar os pacotes de dependências que iremos utilizar. Para utilizar Webhooks, precisamos fazer chamadas HTTP no endereço <https://http.msging.net/messages>. Serão necessários os pacotes `request` e `request-promise`. Além disto, para enviar mensagens via HTTP, precisamos gerar *uuids* válidos, portanto será necessário utilizar o pacote `uuid`.
 
 Para instalar estas dependências basta executar o seguinte comando:
 
@@ -63,7 +63,7 @@ Como próximo passo, precisamos abstrair o envio de mensagens. Para isto vamos c
 
 ```javascript
 let request = require('request-promise');
-const MESSAGES_URL = 'https://msging.net/messages';
+const MESSAGES_URL = 'https://http.msging.net/messages';
 
 class MessagingHubHttpClient {
 
