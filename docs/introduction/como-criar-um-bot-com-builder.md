@@ -12,7 +12,7 @@ Para a coleta das informações climáticas, foi utilizado a API [DarkSky](http:
 
 Links importantes:
 
-[**Fluxo do ClimaBot**](https://goo.gl/Mwipha) - Arquivo com o fluxo do bot criado no exemplo. Para utilizá-lo basta fazer o download do arquivo e [importá-lo no BLiP](https://help.blip.ai/hc/pt-br/articles/360007448911).  
+[**Fluxo do ClimaBot**](https://drive.google.com/file/d/148ntbmI1QOfumNjDQJr-gMK9O7SqoAhG/view?usp=sharing) - Arquivo com o fluxo do bot criado no exemplo. Para utilizá-lo basta fazer o download do arquivo e [importá-lo no BLiP](https://help.blip.ai/hc/pt-br/articles/360007448911).  
 
 [**Portal do BLiP**](https://portal.blip.ai/) (para criar uma conta e começar a utilizar a plataforma 😉)  
 [**Documentação**](https://docs.blip.ai/)  
