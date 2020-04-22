@@ -11432,3 +11432,7 @@ div #discourse-comments{
 .rw-ui-mobile-wrapper {
   display: none;
 }
+
+.rw-ui-container.rw-dir-ltr .rw-report-link, .rw-ui-container.rw-valign-middle.rw-halign-right .rw-report-link {
+  display: none !important;
+}
