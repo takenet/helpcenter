@@ -50,8 +50,7 @@ class Template extends React.Component {
                         <p className="here">Plugins para o BLiP</p>
                     </div>
                     <div className="info-templates">
-                        <p className="intro-templates">Evidentemente, a expansão dos 
-                            mercados mundiais promove a alavancagem dos modos de operação convencionais</p>
+                        <p className="intro-templates">Plugins possibilitam a evolução do BLiP de forma colaborativa facilitando a criação de novas funcionalidades por outras pessoas ou empresas</p>
                     </div>
 
                     <div className="banner-templates-section">
@@ -68,11 +67,29 @@ class Template extends React.Component {
                     <div className="cards-templates">
                         <div className="card-templates">
                             <div className="thumb-card-templates">
-                                <img className="thumb-image" src="/img/illustrations/thumbs-templates/petshop-agendamento.jpg"></img>
+                                <img className="thumb-image" src="/img/illustrations/thumbs-plugins/Transmission-1.svg"></img>
                             </div>
                             <div className="text-card-templates">
-                                <button className="category-card-templates">Serviços</button>
-                                <p className="title-card-templates">Petshop - Agendamento</p>
+                                <button className="category-card-templates">Broadcast</button>
+                                <p className="title-card-templates">Plugin de Broadcast</p>
+                                <p className="creator-card-templates">criado por BLiP</p>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" name="petshop2" data-title="Petshop - Agendamento"></div>
+                                    <a href="/template?Id=Petshop_agendamento"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card-templates">
+                            <div className="thumb-card-templates">
+                                <img className="thumb-image" src="/img/illustrations/thumbs-plugins/Export-1.svg"></img>
+                            </div>
+                            <div className="text-card-templates">
+                                <button className="category-card-templates">Analytics</button>
+                                <p className="title-card-templates">Histórico de mensagens</p>
                                 <p className="creator-card-templates">criado por BLiP</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" name="petshop2" data-title="Petshop - Agendamento"></div>
