@@ -195,6 +195,62 @@ Authorization: Key YOUR_TOKEN
 }
 ```
 
+### Requisição 5: Envio da notificação com quick reply
+
+De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo alterando o id da mesma:
+
+```
+{
+   "id":"964g2478-e89b-12d3-a456-256325449992",
+   "to":"553175713755@wa.gw.msging.net",
+   "type":"application/json",
+   "content":{
+      "type":"template",
+      "template":{
+         "namespace":"NAMESPACE",
+         "name":"ELEMENT_NAME",
+         "language":{
+            "code":"en_US",
+            "policy":"deterministic"
+         },
+         "components":[
+            {
+                "type": "body",
+                "parameters": [
+                    {
+                        "type": "text",
+                        "text": "Uma mensagem qualquer. Gostaria de responder?"
+                    }
+                ]
+            },
+            {
+                "type": "button",
+                "sub_type": "quick_reply",
+                "index": 0,
+                "parameters": [
+                    {
+                        "type": "payload",
+                        "payload": "Sim"
+                    }
+                ]
+            },
+            {
+                "type": "button",
+                "sub_type": "quick_reply",
+                "index": 1,
+                "parameters": [
+                    {
+                        "type": "payload",
+                        "payload": "Sim"
+                    }
+                ]
+            }
+        ]
+      }
+   }
+}
+```
+
 Note que além do **token** do bot e do **identificador do cliente** será necessário alterar no corpo da requisição os valores  `NAMESPACE` e `ELEMENT_NAME` correspondentes ao Message Template pré aprovado.
 Além disso é precisso inserir os valores das varáveis definidas na criação do Message Template, quando for o caso.  
 

@@ -49,5 +49,14 @@ Envia uma mensagem com um mapa que aponta uma determinada localização geográf
 Este recurso permite o envio de um link para uma página da Web para um cliente, incluindo metadados, como o título do link, a descrição e uma imagem em miniatura. Para mais informações acesse https://docs.blip.ai/#web-link. 
 ![Exemplo de Weblink](/img/channels/whatsapp/weblink.png)
 
+
+## Call to Action e Quick Reply
+
+Este recurso permite o envio de mensagens de texto, imagem, documentos e vídeos juntamente com botões de ação (Ir para um site ou ligar para um número) ou *quick replies* (respostas rápidas predefinidas). **Este tipo de conteúdo precisa ser enviado via [conteúdo dinâmico](https://help.blip.ai/docs/en/channels/whatsapp/enviar-notificacao-whatsapp-blip-api/) através do uso de [Message Templates](https://help.blip.ai/docs/en/channels/whatsapp/como-criar-aprovar-message-template/)**.
+
+![Exemplo de botão](/img/channels/whatsapp/imagemBotao.png)
+
+![Exemplo de botão com call to action](/img/channels/whatsapp/callActionWeb.png)
+
 <!-- Rating frame -->
 <script type="text/javascript" src="/scripts/rating.js"></script>

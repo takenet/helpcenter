@@ -63,6 +63,39 @@ Confira como utilizar todos os tipos de conteúdo suportados e um exemplo de com
 
 ------------------------------
 
+## Message Template com botões
+
+Recentemente o [WhatsApp liberou uma funcionalidade](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/interactive-message-templates/) que permite o envio de **conteúdos com botões**, como *Call to Actions* e *Quick replies*, **apenas através de Message Templates** (para utilizar esse tipo de conteúdo no seu fluxo de conversa, será necessário enviar através de [conteúdo dinâmico](https://help.blip.ai/docs/en/channels/whatsapp/enviar-notificacao-whatsapp-blip-api/)).
+
+>**No momento, para criar esse tipo de template é necessário entrar em contato com o seu suporte. Em breve essa funcionalidade estará disponível no portal do BLiP.**
+
+Veja abaixo os tipos de conteúdo com botões disponíveis nesta nova atualização:
+### 1. Call to action (ir para um link)
+
+Tipo de botão que permite enviar um link que levará o usuário para a página correspondente.
+
+![Exemplo de conteúdo com botão call to action](/img/channels/whatsapp/callActionWeb.png)
+
+### 2. Call to action (ligar para telefone)
+
+Tipo de botão que permite enviar um número de telefone que ao ser clicado acionará a aplicação correspondente do sistema (Ex.: Telefone, Agenda, Skype e até mesmo o WhatsApp).
+
+![Exemplo de conteúdo com botão call to action](/img/channels/whatsapp/callActionCel.png)
+
+### 3. Quick reply
+
+Tipo de conteúdo com botões que permite o envio de respostas rápidas e predefinidas.
+
+![Exemplo de conteúdo com botão quick reply](/img/channels/whatsapp/quickReply.png)
+
+------ 
+
+Ainda é possível adicionar estes botões juntamente a outros tipos de conteúdo além de texto, como imagens, vídeos e documentos.
+
+
+![Exemplo de botão com documento](/img/channels/whatsapp/imagemBotao.png)
+
+
 ## Analisando o status do Message Template
 
 Após a submissão de um Message Template ele ficará **em análise** com o status de **Pendente**. Ao final do processo o template receberá o status de **Aprovado** ou **Reprovado**, caso seja aceito ou rejeitado pelo WhatsApp, respectivamente.
