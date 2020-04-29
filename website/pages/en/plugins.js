@@ -19,7 +19,7 @@ class BlipIcon extends React.Component {
 }
 
 
-class Template extends React.Component {
+class Plugins extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -71,11 +71,11 @@ class Template extends React.Component {
                             </div>
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Broadcast</button>
-                                <p className="title-card-templates">Plugin de Broadcast</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="title-card-templates">Gerenciamento de Broadcast</p>
+                                <p className="abstract-card-plugin">Crie e gerencie listas de distribuição e contatos</p>
                                 <div className="card-footer">
-                                    <div className="rw-ui-container" name="petshop2" data-title="Petshop - Agendamento"></div>
-                                    <a href="/template?Id=Petshop_agendamento"><div className="seeMore-card-templates">
+                                    <div className="rw-ui-container" name="broadcast2" data-title="Plugin - Broadcast"></div>
+                                    <a href="/plugin?Id=broadcast"><div className="seeMore-card-templates">
                                         <p className="text-seeMore">Ver detalhes</p>
                                         <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                     </div></a>
@@ -85,14 +85,14 @@ class Template extends React.Component {
 
                         <div className="card-templates">
                             <div className="thumb-card-templates">
-                                <img className="thumb-image" src="/img/illustrations/thumbs-plugins/Export-1.svg"></img>
+                                <img className="thumb-image" src="/img/illustrations/WhatsApp-logo.svg"></img>
                             </div>
                             <div className="text-card-templates">
-                                <button className="category-card-templates">Analytics</button>
-                                <p className="title-card-templates">Histórico de mensagens</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <button className="category-card-templates">WhatsApp</button>
+                                <p className="title-card-templates">Envio de mensagens ativas</p>
+                                <p className="abstract-card-plugin">Gerencie seus messages templates e suas listas de distribuição</p>
                                 <div className="card-footer">
-                                    <div className="rw-ui-container" name="petshop2" data-title="Petshop - Agendamento"></div>
+                                    <div className="rw-ui-container" name="whatsapp-broadcast" data-title="Plugin - WhatsApp Brodcast"></div>
                                     <a href="/template?Id=Petshop_agendamento"><div className="seeMore-card-templates">
                                         <p className="text-seeMore">Ver detalhes</p>
                                         <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
@@ -160,5 +160,5 @@ class ScriptRating extends React.Component {
     }
 }
 
-Template.title = 'Templates de Chatbots';
-module.exports = Template; 
+Plugins.title = 'Plugins';
+module.exports = Plugins; 

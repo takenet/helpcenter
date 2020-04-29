@@ -10162,6 +10162,27 @@ strong, b {
   margin-top: 5%;
 }
 
+.pages-top-templates .image-plugin{
+  width: 40%;
+}
+
+.image-plugin .img{
+  margin-left: 17%;
+  margin-top: 5%;
+}
+
+.abstract-card-plugin {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.125;
+  height: 2.25em;
+  color: #8ca0b3;
+  margin-bottom: 24px;
+  width: 90%;
+}
+
 .main-templates .title-templates {
   font-family: Nunito Sans;
   font-style: normal;
