@@ -46,13 +46,13 @@ const data = {
       "abstract": "Conecte-se com clientes através do aplicativo nativo de mensagens do Android.",
       "text": "Aprenda mais!"
     },
-    {
+    /* {
       "title": "Infobip",
       "icon": "/img/illustrations/infobip-logo.svg",
       "url": "/infobip",
       "abstract": "Envie mensagens de SMS através do Infobip e conecte-se com seus clientes.",
       "text": "Aprenda mais!"
-    },
+    }, */
     {
       "title": "Messenger",
       "icon": "/img/illustrations/messenger-logo.svg",
