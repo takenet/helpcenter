@@ -22,7 +22,7 @@ Quando o contexto do roteador está desativado nos subbots, as informações dos
 
 ![Redirecionando a um serviço com informações](/img/router/recuperando-infomacoes-contatos-subbots-2.png)
 
-
+É importante mencionar que o campo de enviar mensagem possui limitação de caracteres, dessa forma caso o conteúdo de envio desejado seja maior que o limite do campo, adicione o conteúdo em variável utilizando a ação `Definir variável` e envie a variável no campo no formato de apresentação `{{nomeDaVariavel}}`.
 Uma vez que todas as informações foram encaminhadas no redirecionamento, basta no bloco inicial do subbot encaminhado, salvar a entrada em uma variável, veja no exemplo abaixo.
 
 ![Salvando informações encaminhadas em uma variável](/img/router/recuperando-infomacoes-contatos-subbots-3.png)

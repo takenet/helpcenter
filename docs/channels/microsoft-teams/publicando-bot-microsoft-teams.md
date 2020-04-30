@@ -43,6 +43,7 @@ Novamente na aba de aplicativos, na funcionalidade apontada abaixo, carregue e a
 
 ![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-8.png)<br>
 
+<div class="span-warning-message">Note: Caso a <b>opção indicada acima não esteja disponível</b>, significa que seu email é corporativo e sua organização não possui contrato com a Microsoft para acesso privilegiado dos recursos Microsoft Teams. Portanto, contrate o serviço ou faça a integração utilizando um email não corporativo.</div>
 
 ### Integração com o BLiP
 Abra as configurações do seu bot no Builder e acesse as configurações avançadas.
