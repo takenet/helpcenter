@@ -71,7 +71,7 @@ class Plugins extends React.Component {
                             </div>
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Broadcast</button>
-                                <p className="title-card-templates">Gerenciamento de Broadcast</p>
+                                <p className="title-card-plugin">Gerenciamento de Broadcast</p>
                                 <p className="abstract-card-plugin">Crie e gerencie listas de distribuição e contatos</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" name="broadcast2" data-title="Plugin - Broadcast"></div>
@@ -89,11 +89,11 @@ class Plugins extends React.Component {
                             </div>
                             <div className="text-card-templates">
                                 <button className="category-card-templates">WhatsApp</button>
-                                <p className="title-card-templates">Envio de mensagens ativas</p>
+                                <p className="title-card-plugin">Envio de mensagens ativas no WhatsApp</p>
                                 <p className="abstract-card-plugin">Gerencie seus messages templates e suas listas de distribuição</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" name="whatsapp-broadcast" data-title="Plugin - WhatsApp Brodcast"></div>
-                                    <a href="/template?Id=Petshop_agendamento"><div className="seeMore-card-templates">
+                                    <a href="/plugin?Id=broadcast-whatsapp"><div className="seeMore-card-templates">
                                         <p className="text-seeMore">Ver detalhes</p>
                                         <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                     </div></a>

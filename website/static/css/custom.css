@@ -10183,6 +10183,22 @@ strong, b {
   width: 90%;
 }
 
+.title-card-plugin {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.125;
+  height: 2.25em;
+  color: #52636c;
+  margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 .main-templates .title-templates {
   font-family: Nunito Sans;
   font-style: normal;
@@ -11454,6 +11470,10 @@ div #discourse-comments{
   display: none;
 }
 
-.rw-ui-container.rw-dir-ltr .rw-report-link, .rw-ui-container.rw-valign-middle.rw-halign-right .rw-report-link {
+.rw-report-link {
+  display: none !important;
+}
+
+.rw-ui-container.rw-dir-ltr .rw-report-link, .rw-ui-container.rw-valign-middle.rw-halign-right .rw-report-link{
   display: none !important;
 }
