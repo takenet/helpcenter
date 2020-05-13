@@ -273,6 +273,10 @@
         "title": "Salvando informações de um usuário",
         "sidebar_label": "Salvando informações de um usuário"
       },
+      "builder/tipo-conteudo-dinamico": {
+        "title": "Tipo de Conteúdo - Conteúdo Dinâmico",
+        "sidebar_label": "Tipo de Conteúdo - Conteúdo Dinâmico"
+      },
       "builder/verificar-se-existe-atendente-disponível-no-builder": {
         "title": "Verificar se existe atendente disponível no Builder",
         "sidebar_label": "Verificar se existe atendente disponível no Builder"
