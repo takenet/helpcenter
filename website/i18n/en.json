@@ -568,6 +568,9 @@
         "title": "Como interagir com os usuários através do WhatsApp",
         "sidebar_label": "Como interagir com os usuários através do WhatsApp"
       },
+      "channels/whatsapp/como-salvar-numero-whatsapp": {
+        "title": "Como salvar o número do WhatsApp de um contato"
+      },
       "channels/whatsapp/configurando-canal-whatsapp-container-proprio": {
         "title": "Configurando um container próprio no canal WhatsApp",
         "sidebar_label": "Como configurar um container próprio (WhatsApp Business API Client) do WhatsApp Business API no BLiP."
@@ -1013,7 +1016,7 @@
     "Dominando o BLiP|no description given": "Dominando o BLiP",
     "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!|no description given": "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!",
     "Mais recentes|no description given": "Mais recentes",
-    "Como adicionar tags nas mensagens (Message Tags)|no description given": "Como adicionar tags nas mensagens (Message Tags)",
+    "Como salvar o número do WhatsApp de um contato?|no description given": "Como salvar o número do WhatsApp de um contato?",
     "Como identificar usuários vindos de uma campanha (anúncio)|no description given": "Como identificar usuários vindos de uma campanha (anúncio)",
     "Como validar a entrada do usuário|no description given": "Como validar a entrada do usuário",
     "Dominando e customizando o template de atendimento|no description given": "Dominando e customizando o template de atendimento",

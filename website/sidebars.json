@@ -135,7 +135,8 @@
           "channels/whatsapp/enviar-notificacao-whatsapp-blip-api",
           "channels/whatsapp/como-enviar-notificacoes-via-portal",
           "channels/whatsapp/como-enviar-notificacoes-respostas-prontas",
-          "channels/whatsapp/como-gerenciar-lista-de-distribuicao-notificacao-whatsapp"
+          "channels/whatsapp/como-gerenciar-lista-de-distribuicao-notificacao-whatsapp",
+          "channels/whatsapp/como-salvar-numero-whatsapp"
           
         ]
       },

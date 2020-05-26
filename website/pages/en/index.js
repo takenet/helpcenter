@@ -163,9 +163,9 @@ class Index extends React.Component {
               <ul className="ul-recent-accessed">
 
                 <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/messenger/como-adicionar-message-tags" >
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/whatsapp/como-salvar-numero-whatsapp" >
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Como adicionar tags nas mensagens (Message Tags)</translate>
+                    <translate>Como salvar o número do WhatsApp de um contato?</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
