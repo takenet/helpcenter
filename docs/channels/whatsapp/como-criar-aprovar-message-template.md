@@ -35,7 +35,7 @@ Preencha as informações necessárias para a submissão de um message template.
 
 ------------------------------
 
-Confira como utilizar todos os tipos de conteúdo suportados e um exemplo de como ele será recebido pelo usuário no WhatsApp: 
+Confira como utilizar todos os tipos de conteúdo suportados e um exemplo de como ele será recebido pelo usuário no WhatsApp:
 
 #### 1) Tipo de Conteúdo: Texto
 
@@ -53,7 +53,15 @@ Confira como utilizar todos os tipos de conteúdo suportados e um exemplo de com
 
 ![Exemplo de Conteúdo do tipo Imagem](/img/channels/whatsapp/creating-message-template-04.png)
 
-#### 2) Tipo de Conteúdo: Documento
+#### 3) Tipo de Conteúdo: Video
+
+![Imagem do formulário de criação de um Message Template tipo video](/img/channels/whatsapp/creating-message-template-08.png)
+
+##### Exemplo:
+
+![Exemplo de Conteúdo do tipo Vídeo](/img/channels/whatsapp/creating-message-template-09.png)
+
+#### 4) Tipo de Conteúdo: Documento
 
 ![Imagem do formulário de criação de um Message Template tipo documento](/img/channels/whatsapp/creating-message-template-06.png)
 
@@ -88,7 +96,7 @@ Tipo de conteúdo com botões que permite o envio de respostas rápidas e predef
 
 ![Exemplo de conteúdo com botão quick reply](/img/channels/whatsapp/quickReply.png)
 
------- 
+------
 
 Ainda é possível adicionar estes botões juntamente a outros tipos de conteúdo além de texto, como imagens, vídeos e documentos.
 
