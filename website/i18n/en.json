@@ -221,6 +221,10 @@
         "title": "Criando ações condicionais",
         "sidebar_label": "Criando ações condicionais"
       },
+      "builder/criando-carrinho-compras": {
+        "title": "Criando um carrinho de compras usando o Builder",
+        "sidebar_label": "Criando um carrinho de compras usando o Builder"
+      },
       "builder/criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat": {
         "title": "Criando um elemento web através de um weblink no BLiP Chat",
         "sidebar_label": "Criando um elemento web através de um weblink no BLiP Chat"

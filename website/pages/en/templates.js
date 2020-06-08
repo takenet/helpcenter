@@ -293,6 +293,21 @@ class Template extends React.Component {
                             </div>
                         </div>
 
+                        <div className="card-templates">
+                            <img className="thumb-card-templates" src="/img/illustrations/thumbs-templates/carrinho.svg"></img>
+                            <div className="text-card-templates">
+                                <button className="category-card-templates">Serviços</button>
+                                <p className="title-card-templates">Carrinho de Compras</p>
+                                <p className="creator-card-templates">criado por BLiP</p>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Carrinho de compras"></div>
+                                    <a href="/template?Id=Carrinho"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
 

@@ -11028,6 +11028,10 @@ a.link-from {
   display: none;
 }
 
+.rw-ui-container.rw-dir-ltr .rw-report-link, .rw-ui-container.rw-valign-middle.rw-halign-right .rw-report-link{
+  display: none !important;
+}
+
 .rw-ui-container.rw-size-medium.rw-valign-middle.rw-halign-right .rw-ui-info-container {
   display: none !important;
 }
