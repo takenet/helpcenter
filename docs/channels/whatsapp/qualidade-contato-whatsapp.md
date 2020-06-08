@@ -41,3 +41,6 @@ Se você tem notado que a saúde do seu contato está baixando, se atente a algu
 5. As mensagens e notificações estão de acordo com o proposto pelo *chatbot*?
 
 Você pode entender o que é e o que não é permitido para entender como manter sua saúde em um bom estado acessando [este artigo](https://take.net/blog/whatsapp/conta-corporativa-banida-no-whatsapp) no blog da Take.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>
