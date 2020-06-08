@@ -1,7 +1,7 @@
 ---
 id: como-salvar-numero-whatsapp
 title: Como salvar o número do WhatsApp de um contato
-siderbar_label: Como salvar o número do WhatsApp de um contato
+sidebar_label: Como salvar o número do WhatsApp de um contato
 ---
 
 Obter e manter as informações atualizadas de seus contatos pode ser algo muito importante para qualquer negócio. O canal WhatsApp já [traz algumas informações por padrão](https://help.blip.ai/docs/en/channels/whatsapp/funcionalidades-do-whatsapp/#informac%C3%B5es-basicas-dos-usuarios) salvas nos contatos do bot: **Nome** e **Telefone**. No entanto, o número de telefone vem salvo em forma de `Identificador de Usuário`, o que pode causar algumas confusões.

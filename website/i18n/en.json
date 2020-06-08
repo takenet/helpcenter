@@ -573,7 +573,8 @@
         "sidebar_label": "Como interagir com os usuários através do WhatsApp"
       },
       "channels/whatsapp/como-salvar-numero-whatsapp": {
-        "title": "Como salvar o número do WhatsApp de um contato"
+        "title": "Como salvar o número do WhatsApp de um contato",
+        "sidebar_label": "Como salvar o número do WhatsApp de um contato"
       },
       "channels/whatsapp/configurando-canal-whatsapp-container-proprio": {
         "title": "Configurando um container próprio no canal WhatsApp",
@@ -594,6 +595,10 @@
       "channels/whatsapp/publicando-bot-no-whatsapp": {
         "title": "Publicando seu bot no canal WhatsApp",
         "sidebar_label": "Publicando seu bot no canal WhatsApp"
+      },
+      "channels/whatsapp/qualidade-contato-whatsapp": {
+        "title": "Qualidade do contato no WhatsApp",
+        "sidebar_label": "Qualidade do contato no WhatsApp"
       },
       "channels/whatsapp/tipos-conteudo-whatsapp": {
         "title": "Conteúdos suportados no canal WhatsApp",

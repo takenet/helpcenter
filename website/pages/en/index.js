@@ -170,16 +170,16 @@ class Index extends React.Component {
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/growth/como-identificar-usuarios-campanha">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/en/builder/criando-carrinho-compras/">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Como identificar usuários vindos de uma campanha (anúncio)</translate>
+                    Como criar um carrinho de compras usando o Builder
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
                 <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/como-validar-entrada-usuario">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/en/channels/whatsapp/qualidade-contato-whatsapp">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Como validar a entrada do usuário</translate>
+                    Qualidade do contato no WhatsApp
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
