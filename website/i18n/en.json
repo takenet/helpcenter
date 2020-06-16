@@ -812,6 +812,10 @@
         "title": "Dominando e customizando o template de atendimento",
         "sidebar_label": "Dominando e customizando o template de atendimento"
       },
+      "helpdesk/blipdesk/exemplos-regras-atendimento": {
+        "title": "Exemplos práticos de regras de atendimento",
+        "sidebar_label": "Exemplos práticos de regras de atendimento"
+      },
       "helpdesk/blipdesk/gerenciamento-equipes": {
         "title": "Gerenciando equipes de atendimento no BLiP Desk",
         "sidebar_label": "Gerenciando equipes de atendimento no BLiP Desk"
@@ -1026,8 +1030,6 @@
     "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!|no description given": "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!",
     "Mais recentes|no description given": "Mais recentes",
     "Como salvar o número do WhatsApp de um contato?|no description given": "Como salvar o número do WhatsApp de um contato?",
-    "Como identificar usuários vindos de uma campanha (anúncio)|no description given": "Como identificar usuários vindos de uma campanha (anúncio)",
-    "Como validar a entrada do usuário|no description given": "Como validar a entrada do usuário",
     "Dominando e customizando o template de atendimento|no description given": "Dominando e customizando o template de atendimento",
     "Mais acessados|no description given": "Mais acessados",
     "Como criar um bot com o Builder do BLiP|no description given": "Como criar um bot com o Builder do BLiP",
