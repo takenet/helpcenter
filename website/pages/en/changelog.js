@@ -14,97 +14,140 @@ class BlipIcon extends React.Component {
       className={className}
       width="1em" height="1em"
     >
-      <use xlinkHref={`${defs}#${this.props.name}`}/>
+      <use xlinkHref={`${defs}#${this.props.name}`} />
     </svg>
     );
   }
 }
 
 
-class Changelog extends React.Component{
-    render(){
-        return(
-           
-            <div>
+class Changelog extends React.Component {
+  render() {
+    return (
 
-            {/* Topo */}
-              <div>
-                <div className="pages-top">
-                  <div className="main">
-                    <p className="uptitle">Atual v3.0</p>
-                    <p className="title">Versões</p>
-                    <p className="subtitle">Tudo sobre as versões e changelogs do BLiP</p>
-                  </div>
-                  <div className="image">
-                    <img className="img-changelog" src="/img/illustrations/Versionamento.svg" />
-                  </div>
-                </div>
-              </div>
-
-              {/* Conteudo */}
-              <div className="pages-content">
-                <div className="navigation">
-                  <p className="from">BLiP Help Center ></p>
-                  <p className="from"><a className="link-from" href="/resources">Recursos</a> ></p>
-                  <p className="here">Versionamento</p>
-                </div>
-                <div className="info">
-                  <p className="intro">Um histórico de versões completo do Help Center basta clicar na versão que deseja acessar. 
-                      Documentação para versões recentes também pode ser encontrada abaixo.</p>
-                </div>
-
-                    <div className="content-changelog">
-                      
-                      <div className="changelog-card">
-                        <div className="changelog-card-date">
-                          <p className="version-date">Ago 16, 2019</p>
-                        </div>
-
-                        <div className="changelog-card-info">
-                          <div className="changelog-title">
-                            <p className="version-title">Título da atualização</p>
-                            <p className="span-changelog">Novo!</p>
-                          </div>
-
-                          <div className="info-content">
-                          <p className="info-content-text">Transforme o seu lifestyle. Bora pra action. Se você não vê a oportunidade, ela passa. 
-                          Se você não tá no jogo do longo prazo, então seu futuro é estar fora do jogo. 
-                          Genialidade é fruto de muito hardwork. Trabalho é aprendizado, tudo é um só, onelife. 
-                          Você nunca vai estar pronto então comece agora. Se você não vê a oportunidade, ela passa.</p>
-                          <a href="#" className="info-content-link">Saiba mais!</a>
-                          </div>
-                        </div>
-                      </div>
-                      <hr></hr>
-
-                      <div className="changelog-card">
-                        <div className="changelog-card-date">
-                          <p className="version-date">Jul 20, 2019</p>
-                        </div>
-
-                        <div className="changelog-card-info">
-                          <div className="changelog-title">
-                            <p className="version-title">Título da atualização</p>
-                          </div>
-
-                          <div className="info-content">
-                          <p className="info-content-text">Você tá realmente obcecado pelos seus sonhos? 
-                            O inconformismo é o combustível da alta performance. 
-                            É você quem decide se o seu dia vai ser incrível ou não. A vida acontece de você e não pra você. 
-                            Ninguém lembra do médio, foque no excelente. A vida acontece de você e não pra você. 
-                            Não adianta ter conhecimento se você não tem action. Busque o next level.</p>
-                          <a href="#" className="info-content-link">Saiba mais!</a>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                
-              </div>
+      <div>
+        {/* Topo */}
+        <div>
+          <div className="pages-top-category">
+            <div className="main-category">
+              <p className="title-category">Changelog</p>
+              <p className="subtitle-category">Fique por dentro de todas as atualizações do BLiP</p>
+            </div>
+            <div className="image-category">
+              <img className="img" src='/img/illustrations/Versionamento.svg' />
+            </div>
           </div>
-        );
-    }
+        </div>
+
+        {/* Conteudo */}
+        <div className="pages-content-changelog">
+          <div className="navigation">
+            <p className="from">BLiP Help Center ></p>
+            <p className="from"><a className="link-from" href="https://status.blip.ai/">Status</a> > </p>
+            <p className="here">Changelog</p>
+          </div>
+          <div className="info-changelog">
+            <div className="banner">
+              <img href="/" src="/img/banners/Banner-Changelog.svg"></img>
+            </div>
+            <p className="title">Atualizações Recentes</p>
+            <p className="intro">Nossa página de changelog permite que você esteja sempre inteirado de
+              todas as melhorias implementadas na plataforma como também consiga acompanhar a evolução da plataforma.</p>
+          </div>
+
+          <div className="content-changelog">
+
+            <div className="toolbar">
+
+              <div className="identifiers">
+                <div className="identifier">
+                  <div className="blip-icon blip-icon--blip">
+                    <BlipIcon name="true" className="bp-fs-3 bp-fill-white"></BlipIcon>
+                  </div>
+                  <p className="text">
+                    Atualizações </p>
+                </div>
+
+                <div className="identifier">
+                  <div className="blip-icon blip-icon--watermelon">
+                    <BlipIcon name="bug" className="bp-fs-1 bp-fill-white"></BlipIcon>
+                  </div>
+                  <p className="text">
+                    Correção de bugs </p>
+                </div>
+
+                <div className="identifier">
+                  <div className="blip-icon blip-icon--cheetos">
+                      <BlipIcon id="star" name="star" className="bp-fs-4 bp-fill-white"></BlipIcon>
+                  </div>
+                  <p className="text">
+                    Novidades </p>
+                </div>
+              </div>
+
+              <div className="filter">
+                <p className="label"> Filtrar por</p>
+                <select name="filter-options" id="filter-select" className="filter-select">
+                  <option value="volvo">Mais recentes</option>
+                  <option value="saab">Atualizações</option>
+                  <option value="opel">Correção de bugs</option>
+                  <option value="audi">Novidades</option>
+                </select>
+              </div>
+
+            </div>
+
+            <div className="releases">
+
+              <div className="release" id="news">
+                <div className="content">
+                  <p className="title">Título da Atualização</p>
+                  <p className="date">18 de junho de 2020</p>
+                  <p className="text"> Estamos utilizando esse espaço apenas para marcação de texto. 
+                    Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout, 
+                    você pude utilizar links para outras partes do help center. Ver detalhes</p>
+                </div>
+              </div>
+
+              <div className="release" id="atts">
+                <div className="content">
+                  <p className="title">Título da Atualização 2</p>
+                  <p className="date">15 de junho de 2020</p>
+                  <p className="text"> Estamos utilizando esse espaço apenas para marcação de texto. 
+                    Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout, 
+                    você pude utilizar links para outras partes do help center. Ver detalhes</p>
+                </div>
+              </div>
+
+              <div className="release" id="bug">
+                <div className="content">
+                  <p className="title">Título da Atualização</p>
+                  <p className="date">18 de junho de 2020</p>
+                  <p className="text"> Estamos utilizando esse espaço apenas para marcação de texto. 
+                    Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout, 
+                    você pude utilizar links para outras partes do help center. Ver detalhes</p>
+                </div>
+              </div>
+
+              <div className="release" id="news">
+                <div className="content">
+                  <p className="title">Título da Atualização</p>
+                  <p className="date">18 de junho de 2020</p>
+                  <p className="text"> Estamos utilizando esse espaço apenas para marcação de texto. 
+                    Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout, 
+                    você pude utilizar links para outras partes do help center. Ver detalhes</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    );
+  }
 }
 
 Changelog.title = 'Changelogs';
