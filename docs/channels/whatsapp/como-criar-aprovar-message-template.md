@@ -75,7 +75,7 @@ Confira como utilizar todos os tipos de conteúdo suportados e um exemplo de com
 
 Recentemente o [WhatsApp liberou uma funcionalidade](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/interactive-message-templates/) que permite o envio de **conteúdos com botões**, como *Call to Actions* e *Quick replies*, **apenas através de Message Templates** (para utilizar esse tipo de conteúdo no seu fluxo de conversa, será necessário enviar através de [conteúdo dinâmico](https://help.blip.ai/docs/en/docs/en/builder/tipo-conteudo-dinamico) ou [mensagens prontas do Desk](https://hmg-help.blip.ai/docs/en/channels/whatsapp/como-enviar-notificacoes-respostas-prontas/)).
 
->**No momento, para criar esse tipo de template é necessário entrar em contato com o seu suporte. Em breve essa funcionalidade estará disponível no portal do BLiP.**
+>**No momento, para criar esse tipo de template é necessário entrar em contato com o seu suporte do BLiP (https://support.blip.ai/). Em breve essa funcionalidade estará disponível no portal.**
 
 Veja abaixo os tipos de conteúdo com botões disponíveis nesta nova atualização:
 ### 1. Call to action (ir para um link)
