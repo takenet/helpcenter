@@ -59,7 +59,7 @@ Envie uma mensagem para sua página no Facebook e teste se a mensagem chegou par
 
 -----------------
 
-## Migração para Organização
+## Alteração de URL do Messenger
 Após realizar a migração para Organização será necessário alterar a Url de retorno de chamada em sua aplicação do Facebook.
 
 Acesse o portal de desenvolvedores do Facebook, acesse sua aplicação, clique no menu **Messenger**, entre em **Configurações** e altere as informações **Url de retorno de chamada** e **Verificar Token**, com os dados abaixo:
