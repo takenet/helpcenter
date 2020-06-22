@@ -11637,6 +11637,8 @@ div #discourse-comments{
   position: relative;
   margin-left: 16px;
   top: 40px;
+  height: 300px;
+  overflow: hidden;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -11675,6 +11677,7 @@ div #discourse-comments{
   background-color: #F9B42F;
   background-image: url('/img/illustrations/star.svg');
   background-repeat: no-repeat;
+  background-position: center;
   top: 0px;
   border-radius: 50%;
   z-index: 1;
@@ -11690,6 +11693,7 @@ div #discourse-comments{
   background-color: #F66689;
   background-image: url('/img/illustrations/bug.svg');
   background-repeat: no-repeat;
+  background-position: center;
   border: 4px solid #F66689;
   top: 0px;
   border-radius: 50%;

@@ -78,7 +78,7 @@ class Changelog extends React.Component {
 
                 <div className="identifier">
                   <div className="blip-icon blip-icon--cheetos">
-                      <BlipIcon id="star" name="star" className="bp-fs-4 bp-fill-white"></BlipIcon>
+                    <BlipIcon id="star" name="star" className="bp-fs-4 bp-fill-white"></BlipIcon>
                   </div>
                   <p className="text">
                     Novidades </p>
@@ -88,67 +88,114 @@ class Changelog extends React.Component {
               <div className="filter">
                 <p className="label"> Filtrar por</p>
                 <select name="filter-options" id="filter-select" className="filter-select">
-                  <option value="volvo">Mais recentes</option>
-                  <option value="saab">Atualizações</option>
-                  <option value="opel">Correção de bugs</option>
-                  <option value="audi">Novidades</option>
+                  <option value="recent">Mais recentes</option>
+                  <option value="atts">Atualizações</option>
+                  <option value="bug">Correção de bugs</option>
+                  <option value="news">Novidades</option>
                 </select>
               </div>
 
             </div>
 
-            <div className="releases">
-
-              <div className="release" id="news">
-                <div className="content">
-                  <p className="title">Título da Atualização</p>
-                  <p className="date">18 de junho de 2020</p>
-                  <p className="text"> Estamos utilizando esse espaço apenas para marcação de texto. 
-                    Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout, 
-                    você pude utilizar links para outras partes do help center. Ver detalhes</p>
-                </div>
-              </div>
-
-              <div className="release" id="atts">
-                <div className="content">
-                  <p className="title">Título da Atualização 2</p>
-                  <p className="date">15 de junho de 2020</p>
-                  <p className="text"> Estamos utilizando esse espaço apenas para marcação de texto. 
-                    Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout, 
-                    você pude utilizar links para outras partes do help center. Ver detalhes</p>
-                </div>
-              </div>
-
-              <div className="release" id="bug">
-                <div className="content">
-                  <p className="title">Título da Atualização</p>
-                  <p className="date">18 de junho de 2020</p>
-                  <p className="text"> Estamos utilizando esse espaço apenas para marcação de texto. 
-                    Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout, 
-                    você pude utilizar links para outras partes do help center. Ver detalhes</p>
-                </div>
-              </div>
-
-              <div className="release" id="news">
-                <div className="content">
-                  <p className="title">Título da Atualização</p>
-                  <p className="date">18 de junho de 2020</p>
-                  <p className="text"> Estamos utilizando esse espaço apenas para marcação de texto. 
-                    Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout, 
-                    você pude utilizar links para outras partes do help center. Ver detalhes</p>
-                </div>
-              </div>
-
+            <div className="releases" id="releases">
+              
             </div>
 
           </div>
 
-
         </div>
+        <InfiniteScroll></InfiniteScroll>
       </div>
     );
   }
 }
+
+class InfiniteScroll extends React.Component {
+  render() {
+    return (
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+
+var nextItem = 0;
+var releaseItem = document.getElementById('releases');
+var releases = '';
+
+//function to save variable
+function saveResponse(response){
+  releases = response;
+}
+
+
+//function to get items from API
+window.onload = function() {
+  axios.get('https://5eebd3f25e298b0016b694b5.mockapi.io/releases')
+  .then(function (response) {
+    releases = response.data.releases; 
+    createReleases(releases);
+    saveResponse(releases);
+  })
+  .catch(function (error) {
+    console.log(error);
+  })
+  .then(function () {
+});
+};
+
+function createReleases(releases){
+  for (i=0; i<releases.length && i<4; i++){
+    var mainDiv = document.createElement('div');
+    mainDiv.setAttribute('class', "release");
+    mainDiv.setAttribute('id', releases[i].id);
+    
+    var contentDiv = document.createElement('div');
+    contentDiv.setAttribute('class', 'content');
+
+    var title = document.createElement('p');
+    title.setAttribute('class', 'title');
+    title.innerHTML = releases[i].title;
+
+    var date = document.createElement('p');
+    date.setAttribute('class', 'date');
+    date.innerHTML = releases[i].date;
+
+    var text = document.createElement('p');
+    text.setAttribute('class', 'text');
+    text.innerHTML = releases[i].text;
+    
+    contentDiv.appendChild(title);
+
+    contentDiv.appendChild(date);
+
+    contentDiv.appendChild(text);
+
+    mainDiv.appendChild(contentDiv);
+    
+    releaseItem.appendChild(mainDiv);
+
+    nextItem = i;
+  }
+}
+
+//function to add more items
+var loadMore = function() {
+  console.log(releases);
+}
+
+// Detect when scrolled to bottom.
+releaseItem.addEventListener('scroll', function() {
+  if (releaseItem.scrollTop + releaseItem.clientHeight >= releaseItem.scrollHeight) {
+    loadMore();
+  }
+});
+
+                  `
+        }}
+      />
+    );
+  }
+}
+
 
 Changelog.title = 'Changelogs';
 module.exports = Changelog; 
