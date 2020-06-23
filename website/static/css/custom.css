@@ -11637,8 +11637,19 @@ div #discourse-comments{
   position: relative;
   margin-left: 16px;
   top: 40px;
-  height: 300px;
-  overflow: hidden;
+  height: 720px;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+
+/* The actual timeline (the vertical ruler) */
+.releases-special {
+  position: relative;
+  margin-left: 16px;
+  top: 40px;
+  height: 720px;
+  overflow-y: visible;
+  overflow-x: visible;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -11651,15 +11662,25 @@ div #discourse-comments{
   bottom: 0;
 }
 
+.releases-special::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #DEE8EC;
+  top: 0;
+  bottom: 0;
+}
+
 /* Container around content */
-.releases .release {
+.release {
   position: relative;
   background-color: inherit;
   left: 0;
   margin-bottom: 32px;
+  height: 120px;
 }
 
-.releases .release:last-of-type {
+.release:last-of-type {
   position: relative;
   background-color: inherit;
   left: 0;
@@ -11667,7 +11688,7 @@ div #discourse-comments{
 }
 
 /* The circles on the timeline */
-.releases .release#news::after {
+.release#news::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -11684,7 +11705,7 @@ div #discourse-comments{
   left: -14px;
 }
 
-.releases .release#bug::after {
+.release#bug::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -11701,7 +11722,7 @@ div #discourse-comments{
   left: -14px;
 }
 
-.releases .release#atts::after {
+.release#atts::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -11720,12 +11741,12 @@ div #discourse-comments{
 }
 
 /* The actual content */
-.releases .release .content {
+.release .content {
   position: relative;
   margin-left: 30px;
 }
 
-.releases .release .content .title{
+.release .content .title{
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
@@ -11736,7 +11757,7 @@ div #discourse-comments{
   margin-bottom: 4px;
 }
 
-.releases .release .content .date{
+.release .content .date{
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: normal;
@@ -11747,7 +11768,7 @@ div #discourse-comments{
   margin-bottom: 16px;
 }
 
-.releases .release .content .text{
+.release .content .text{
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: normal;

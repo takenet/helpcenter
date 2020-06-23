@@ -40,7 +40,7 @@ class Changelog extends React.Component {
         </div>
 
         {/* Conteudo */}
-        <div className="pages-content-changelog">
+        <div className="pages-content-changelog" id="pages-content-changelog">
           <div className="navigation">
             <p className="from">BLiP Help Center ></p>
             <p className="from"><a className="link-from" href="https://status.blip.ai/">Status</a> > </p>
@@ -87,8 +87,8 @@ class Changelog extends React.Component {
 
               <div className="filter">
                 <p className="label"> Filtrar por</p>
-                <select name="filter-options" id="filter-select" className="filter-select">
-                  <option value="recent">Mais recentes</option>
+                <select onChange="filter()" name="filter-options" id="filter-select" className="filter-select">
+                  <option onClick="filter()" value="recent">Mais recentes</option>
                   <option value="atts">Atualizações</option>
                   <option value="bug">Correção de bugs</option>
                   <option value="news">Novidades</option>
@@ -120,20 +120,20 @@ class InfiniteScroll extends React.Component {
 var nextItem = 0;
 var releaseItem = document.getElementById('releases');
 var releases = '';
+var changelogDiv = document.getElementById('pages-content-changelog');
+var selectItem = document.getElementById('filter-select');
 
-//function to save variable
-function saveResponse(response){
-  releases = response;
-}
-
+//function to get select elements
+selectItem.addEventListener('change', function(){
+  filter();
+});
 
 //function to get items from API
 window.onload = function() {
   axios.get('https://5eebd3f25e298b0016b694b5.mockapi.io/releases')
   .then(function (response) {
     releases = response.data.releases; 
-    createReleases(releases);
-    saveResponse(releases);
+    createReleases(releases, nextItem);
   })
   .catch(function (error) {
     console.log(error);
@@ -142,26 +142,28 @@ window.onload = function() {
 });
 };
 
-function createReleases(releases){
-  for (i=0; i<releases.length && i<4; i++){
+function createReleases(releasess, index){
+  var aux = index + 5;
+  console.log(releasess.length);
+  for (i=index; i<releasess.length && i<aux; i++){
     var mainDiv = document.createElement('div');
     mainDiv.setAttribute('class', "release");
-    mainDiv.setAttribute('id', releases[i].id);
+    mainDiv.setAttribute('id', releasess[i].id);
     
     var contentDiv = document.createElement('div');
     contentDiv.setAttribute('class', 'content');
 
     var title = document.createElement('p');
     title.setAttribute('class', 'title');
-    title.innerHTML = releases[i].title;
+    title.innerHTML = releasess[i].title;
 
     var date = document.createElement('p');
     date.setAttribute('class', 'date');
-    date.innerHTML = releases[i].date;
+    date.innerHTML = releasess[i].date;
 
     var text = document.createElement('p');
     text.setAttribute('class', 'text');
-    text.innerHTML = releases[i].text;
+    text.innerHTML = releasess[i].text;
     
     contentDiv.appendChild(title);
 
@@ -172,22 +174,49 @@ function createReleases(releases){
     mainDiv.appendChild(contentDiv);
     
     releaseItem.appendChild(mainDiv);
-
-    nextItem = i;
   }
+  nextItem = i
+  releaseItem.setAttribute('class', 'releases-special');
 }
 
 //function to add more items
 var loadMore = function() {
-  console.log(releases);
+  console.log(nextItem);
+  createReleases(releases, nextItem);
 }
 
 // Detect when scrolled to bottom.
 releaseItem.addEventListener('scroll', function() {
-  if (releaseItem.scrollTop + releaseItem.clientHeight >= releaseItem.scrollHeight) {
+  if (releaseItem.scrollTop + releaseItem.clientHeight - 200 >= releaseItem.scrollHeight) {
     loadMore();
   }
 });
+
+//Filter
+function filter (){
+  destroyReleases();
+  var releaseItemNew = document.createElement('div');
+  releaseItemNew.setAttribute('class', 'releases');
+  var value = selectItem.options[selectItem.selectedIndex].value;
+  var releasesFiltered = releases;
+    console.log(releasesFiltered['releases'])
+    for (i=0; i<releases.length; i++){
+      if (releases[i].id != value){
+        releasesFiltered.releases.remove(releases[i]);
+      }
+    }
+  console.log(releases);
+  console.log(releasesFiltered);
+  createReleases(releasesFiltered, 0);
+}
+
+//Remove all release items
+function destroyReleases(){
+  var changelogContent = document.getElementsByClassName('content-changelog')[0];
+  changelogContent.removeChild(releaseItem);
+}
+
+
 
                   `
         }}
