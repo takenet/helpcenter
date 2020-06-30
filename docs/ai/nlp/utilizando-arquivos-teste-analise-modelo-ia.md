@@ -14,7 +14,8 @@ A recomendação é que sejam coletadas interações reais dos usuários que est
 
 **Esse arquivo é importante**, pois assim é possível validar as modificações feitas na base, garantindo que tais alterações não gerem nenhum impacto negativo ao modelo, ou seja, tudo o que era reconhecido continua sendo reconhecido corretamente.
 
-O arquivo deve estar no formato **.csv**, onde a primeira coluna contém as perguntas e a segunda o nome da intenção que se espera que o modelo reconheça para aquela pergunta.
+O arquivo deve estar no formato **.csv**, onde a primeira coluna contém as perguntas e a segunda o id da intenção que se espera que o modelo reconheça para aquela pergunta, utilize a ferramenta [BLiP Build AI Model Analysis File](https://blip-build-ai-model-analysis-file.netlify.app/) para construir este arquivo facilmente.
+
 
 ![](/img/ai/nlp/utilizando-arquivos-teste-analise-modelo-ia-01.png)
 
