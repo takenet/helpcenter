@@ -120,6 +120,7 @@ class InfiniteScroll extends React.Component {
 var nextItem = 0;
 var releaseItem = document.getElementById('releases');
 var releases = '';
+var releasesFilter = '';
 var changelogDiv = document.getElementById('pages-content-changelog');
 var selectItem = document.getElementById('filter-select');
 
@@ -199,14 +200,12 @@ function filter (){
   releaseItemNew.setAttribute('class', 'releases');
   var value = selectItem.options[selectItem.selectedIndex].value;
   var releasesFiltered = releases;
-    console.log(releasesFiltered['releases'])
     for (i=0; i<releases.length; i++){
       if (releases[i].id != value){
-        releasesFiltered.releases.remove(releases[i]);
+        console.log('entrou: -> ' + releases[i].id + "-> value: -> " + value);
+        releasesFiltered.splice[1, 1];
       }
     }
-  console.log(releases);
-  console.log(releasesFiltered);
   createReleases(releasesFiltered, 0);
 }
 
