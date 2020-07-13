@@ -69,7 +69,7 @@ Content-Type: application/json
         "category": "lead",
         "action": "create",
         "extras": {
-            "conversion_identifier": "9494447a-2581-4597-be6a-a5dff33af156"
+            "conversion_identifier": "9494447a-2581-4597-be6a-a5dff33af156",
             "email": "joao.silva@email.com",
             "step": "Pagamento",
             "conversion_time": "2020-12-04 18:45:12 +00:00"
