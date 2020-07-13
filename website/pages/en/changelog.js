@@ -119,8 +119,144 @@ class InfiniteScroll extends React.Component {
 
 var nextItem = 0;
 var releaseItem = document.getElementById('releases');
-var releases = '';
-var releasesFilter = '';
+var releasesAux;
+var aux;
+var releases =[
+      {
+         "id":"news",
+         "title":"Título da atualização 1",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center.",
+         "link": "https://www.help.blip.ai/templates",
+      },
+      {
+         "id":"bug",
+         "title":"Título da atualização 2",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center."
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 3",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center."
+      },
+      {
+         "id":"news",
+         "title":"Título da atualização 4",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center."
+      },
+      {
+         "id":"bug",
+         "title":"Título da atualização 5",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 6",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"bug",
+         "title":"Título da atualização 10",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"bug",
+         "title":"Título da atualização 11",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 12",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"news",
+         "title":"Título da atualização 13",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"bug",
+         "title":"Título da atualização 14",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 15",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 16",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 17",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 18",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 19",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 20",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 21",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 22",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 23",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 24",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 25",
+         "date":"18 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+  }
+  ];
+var alreadyFiltered = false;
 var changelogDiv = document.getElementById('pages-content-changelog');
 var selectItem = document.getElementById('filter-select');
 
@@ -130,7 +266,7 @@ selectItem.addEventListener('change', function(){
 });
 
 //function to get items from API
-window.onload = function() {
+{/* window.onload = function() {
   axios.get('https://5eebd3f25e298b0016b694b5.mockapi.io/releases')
   .then(function (response) {
     releases = response.data.releases; 
@@ -141,15 +277,21 @@ window.onload = function() {
   })
   .then(function () {
 });
-};
+}; */}
+
+createReleases(releases, nextItem);
 
 function createReleases(releasess, index){
-  var aux = index + 5;
-  console.log(releasess.length);
-  for (i=index; i<releasess.length && i<aux; i++){
+  aux = index + 5;
+  var i;
+  console.log(releasess.length, aux);
+  for (i=index; i<releasess.length; i++){
     var mainDiv = document.createElement('div');
     mainDiv.setAttribute('class', "release");
     mainDiv.setAttribute('id', releasess[i].id);
+    if (i >= aux){
+      mainDiv.style.display = "none";
+    }
     
     var contentDiv = document.createElement('div');
     contentDiv.setAttribute('class', 'content');
@@ -165,6 +307,14 @@ function createReleases(releasess, index){
     var text = document.createElement('p');
     text.setAttribute('class', 'text');
     text.innerHTML = releasess[i].text;
+
+    if(releasess[i].link){
+      var link = document.createElement('a');
+      link.setAttribute('href', releasess[i].link);
+      link.innerHTML = "Ver detalhes";
+
+      text.appendChild(link);
+    }
     
     contentDiv.appendChild(title);
 
@@ -194,27 +344,47 @@ releaseItem.addEventListener('scroll', function() {
 });
 
 //Filter
-function filter (){
-  destroyReleases();
-  var releaseItemNew = document.createElement('div');
-  releaseItemNew.setAttribute('class', 'releases');
+function filter(){
+	//destroyReleases();
+  var allReleases = document.getElementsByClassName('release');
   var value = selectItem.options[selectItem.selectedIndex].value;
-  var releasesFiltered = releases;
-    for (i=0; i<releases.length; i++){
-      if (releases[i].id != value){
-        console.log('entrou: -> ' + releases[i].id + "-> value: -> " + value);
-        releasesFiltered.splice[1, 1];
+  nonDisplaysAllReleases();
+	if (value == "recent"){
+		displaysAllReleasesAgain();
+	}else{
+    var count = 0;
+		for (i=0; i<releases.length; i++){
+      console.log('legal');
+      if (releases[i].id == value){
+        if (count < aux){
+          allReleases[i].style.display = "block";
+          count++;
+        }
       }
     }
-  createReleases(releasesFiltered, 0);
+	}
 }
 
 //Remove all release items
 function destroyReleases(){
-  var changelogContent = document.getElementsByClassName('content-changelog')[0];
-  changelogContent.removeChild(releaseItem);
+  releaseItem.remove();
 }
 
+//Displays none all releases
+function nonDisplaysAllReleases(){
+  var allReleases = document.getElementsByClassName('release');
+  for (i=0; i<releases.length; i++){
+    allReleases[i].style.display = "none";
+  }
+}
+
+//Displays all releases
+function displaysAllReleasesAgain(){
+  var allReleases = document.getElementsByClassName('release');
+  for (i=0; i<releases.length && i<aux; i++){
+      allReleases[i].style.display = "block";
+  }
+}
 
 
                   `

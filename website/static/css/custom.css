@@ -11484,7 +11484,7 @@ div #discourse-comments{
   font-size: 24px;
   line-height: 150%;
   color: #52636C;
-  margin-top: 32px;
+  margin-top: 0px;
 }
 
 .pages-content-changelog .info-changelog .intro {
@@ -11494,6 +11494,10 @@ div #discourse-comments{
   font-size: 16px;
   line-height: 150%;
   color: #738192;
+}
+
+.pages-content-changelog .info-changelog .banner {
+  display: none;
 }
 
 .content-changelog {
@@ -11637,9 +11641,6 @@ div #discourse-comments{
   position: relative;
   margin-left: 16px;
   top: 40px;
-  height: 720px;
-  overflow-y: visible;
-  overflow-x: visible;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -11647,9 +11648,6 @@ div #discourse-comments{
   position: relative;
   margin-left: 16px;
   top: 40px;
-  height: 720px;
-  overflow-y: visible;
-  overflow-x: visible;
 }
 
 /* The actual timeline (the vertical ruler) */
