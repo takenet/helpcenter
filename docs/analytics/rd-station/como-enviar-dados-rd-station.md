@@ -38,7 +38,7 @@ Em __Categoria__ preencha com o valor `lead`, e em __Ação__ preencha com o val
 Os dados do seu cliente devem ser adicionados como informações extras da ação.
 
 Clique em __+ Adicionar informações extras__ para cada informação que você deseja enviar para o RD Station. Em __Key__ preencha com o nome do dado, e em __Value__ preencha com a valor do dado (você também pode usar variáveis do fluxo).
-As informações extras da ação devem ter pelo menos dois campos obrigatórios: `identificador` e `email`. Se algum destes __não estiver definido__, o lead __não será salvo__.
+As informações extras da ação devem ter pelo menos dois campos obrigatórios: `conversion_identifier` e `email`. Se algum destes __não estiver definido__, o lead __não será salvo__.
 
 ![Ação de Criação de Leads no RD Station](/img/analytics/rd-station/como-enviar-dados-rd-station-5.png)
 
@@ -49,7 +49,7 @@ __Nota__:
 ### Comandos
 
 Para criar novas conversões de leads na sua conta RDStation, você deve mandar um comando de tipo [event-track](https://docs.blip.ai/#event-analysis), com os campos `category: "lead"` e `action: "create"`.
-O comando deve ter pelo menos dois campos que são obrigatórios: `identificador` e `email`. Se algum destes **não estiver definido**, o lead **não será salvo**.
+O comando deve ter pelo menos dois campos que são obrigatórios: `conversion_identifier` e `email`. Se algum destes **não estiver definido**, o lead **não será salvo**.
 
 **Exemplo:** Requisição HTTP realizada para salvar a conversão:
 
@@ -69,8 +69,7 @@ Content-Type: application/json
         "category": "lead",
         "action": "create",
         "extras": {
-            "conversion_identifier": "9494447a-2581-4597-be6a-a5dff33af156",
-            "identificador": "sad78a9x1-asrth-87452-be6a-5ua85paxla",
+            "conversion_identifier": "9494447a-2581-4597-be6a-a5dff33af156"
             "email": "joao.silva@email.com",
             "step": "Pagamento",
             "conversion_time": "2020-12-04 18:45:12 +00:00"
