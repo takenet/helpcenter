@@ -68,3 +68,6 @@ A informação da WABA Id é a última da lista, encontre-a e clique no botão d
 Após inserir a WABA Id da sua empresa tecle enter para salvar.
 
 Pronto, a sua WABA já está configurada no BLiP. Para testar se tudo está funcionando corretamente, verifique se os modelos de mensagens criados na sua WABA são listados no BLiP na tela de message templates.
+
+<!-- Rating frame -->
+<script type="text/javascript" src="/scripts/rating.js"></script>

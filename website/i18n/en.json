@@ -556,6 +556,10 @@
         "title": "Arquitetura do canal WhatsApp",
         "sidebar_label": "Arquitetura do canal WhatsApp"
       },
+      "channels/whatsapp/como-buscar-informacoes-de-uma-waba-fora-do-business-manager-da-take": {
+        "title": "Como buscar informações de uma WABA fora do Business Manager da Take",
+        "sidebar_label": "Como buscar informações de uma WABA fora do Business Manager da Take"
+      },
       "channels/whatsapp/como-criar-aprovar-message-template": {
         "title": "Como criar e aprovar um Message Template no WhatsApp",
         "sidebar_label": "Como criar e aprovar um Message Template no WhatsApp"
