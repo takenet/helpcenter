@@ -282,8 +282,7 @@ selectItem.addEventListener('change', function(){
 createReleases(releases, nextItem);
 
 function createReleases(releasess, index){
-  aux = index + 5;
-  var i;
+  aux = index + 10;
   console.log(releasess.length, aux);
   for (i=index; i<releasess.length; i++){
     var mainDiv = document.createElement('div');
