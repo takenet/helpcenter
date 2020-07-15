@@ -65,14 +65,12 @@
         "label": "Google RCS",
         "ids": [
           "channels/google-rcs/visao-geral-google-rcs",
+          "channels/google-rcs/arquitetura-google-bm",
           "channels/google-rcs/funcionalidades-google-rcs",
-          "channels/google-rcs/tipos-conteudo-google-rcs",
-          "channels/google-rcs/publicando-bot-google-rcs",
-          "channels/google-rcs/como-interagir-google-rcs",
-          "channels/google-rcs/outros-recursos-google-rcs"
+          "channels/google-rcs/publicando-bot-google-rcs"
         ]
       },
-      {
+      /* {
         "type": "subcategory",
         "label": "Infobip",
         "ids": [
@@ -83,7 +81,7 @@
           "channels/infobip/publicando-bot-infobip",
           "channels/infobip/como-interagir-infobip"
         ]
-      },
+      }, */
       {
         "type": "subcategory",
         "label": "Messenger",

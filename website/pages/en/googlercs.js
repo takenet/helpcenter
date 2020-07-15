@@ -2,13 +2,13 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
-  "title":"Google RCS no BLiP",
+  "title":"Google Business Messages no BLiP",
   "subtitle":"Mantenha contato com seus clientes através do aplicativo nativo de mensagens do Android.",
   "img":"/img/illustrations/google-rcs-logo.svg",
   "from":"BLiP Help Center >",
   "session": "Canais",
   "session_url": "/channels",
-  "here":"Google RCS no BLiP",
+  "here":"Google Business Messages no BLiP",
   "cards": [
     {
       "title": "Visão geral do canal",
@@ -17,13 +17,13 @@ const data = {
       "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
       "text": "Ver mais!"
     },
-    /* {
+     {
       "title": "Arquitetura do canal no BLiP",
       "type": "text",
-      "url": "#",
+      "url": "/docs/channels/google-rcs/arquitetura-google-bm",
       "abstract": "Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
       "text": "Ver mais!"
-    }, */
+    },
     {
       "title": "Funcionalidades do canal",
       "type": "text",
@@ -31,21 +31,21 @@ const data = {
       "abstract": "Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text": "Ver mais!"
     },
-    {
+    /* {
       "title": "Tipos de conteúdo suportados",
       "type": "text",
       "url": "/docs/channels/google-rcs/tipos-conteudo-google-rcs",
       "abstract": "Descubra aqui quais são os tipos de conteúdo que você consegue enviar através do BLiP e entenda como eles se comportam no canal.",
       "text": "Ver mais!"
-    },
+    }, */
     {
-      "title": "Como publicar seu Chatbot no Google RCS",
+      "title": "Como publicar seu Chatbot no Google BM",
       "type": "text",
       "url": "/docs/channels/google-rcs/publicando-bot-google-rcs",
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },
-    {
+    /* {
       "title": "Como interagir com os usuários",
       "type": "text",
       "url": "/docs/channels/google-rcs/como-interagir-google-rcs",
@@ -58,7 +58,7 @@ const data = {
       "url": "/docs/channels/google-rcs/outros-recursos-google-rcs",
       "abstract": "Veja como acessar conteúdo e funcionalidades nativas do canal, através da sua API e documentação oficial.",
       "text": "Ver mais!"
-    },
+    }, */
   ]
 };
 //BLiP Icon for SVGs
@@ -152,5 +152,5 @@ class GoogleRcs extends React.Component{
     }
 }
 
-GoogleRcs.title = 'Google RCS no BLiP';
+GoogleRcs.title = 'Google Business Messages no BLiP';
 module.exports = GoogleRcs; 

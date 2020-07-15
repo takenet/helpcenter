@@ -40,7 +40,7 @@ const data = {
       "text": "Aprenda mais!"
     },
     {
-      "title": "Google RCS",
+      "title": "Google Business Messages",
       "icon": "/img/illustrations/google-rcs-logo.svg",
       "url": "/googlercs",
       "abstract": "Conecte-se com clientes através do aplicativo nativo de mensagens do Android.",

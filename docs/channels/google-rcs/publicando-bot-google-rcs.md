@@ -4,75 +4,136 @@ title: Como publicar seu Chatbot no Google RCS
 sidebar_label: Como publicar seu Chatbot no Google RCS
 ---
 
-> **ATENÇÃO:** O uso do Google RCS está restrito a algumas empresas. Siga os passos descritos neste artigo apenas se sua empresa possui acesso a este canal. Caso tenha interesse em utilizar o canal Google RCS entre em contato [clicando aqui](mailto:community@take.net).
 
-Antes de iniciar o processo de publicação de um contato inteligente no canal Google RCS, verifique todos os pré-requisitos necessários.
+O processo de publicação do seu bot no Business Messages começa com o preenchimento do seguinte formulário.
+É de suma importância que seja feito o correto preenchimento das informações, pois elas serão utilizadas para criação do Agente da marca.
 
-### Pré-requisitos
+## Seção 1 - Google Business Messages
 
-1. Ter acesso ao [Console do Google RCS Business Messaging](https://rbm-console.sandbox.google.com/console/).
-2. **Criar um agente** no console do Google RCS Business Messaging.
-3. Possuir um telefone Android habilitado para testar o **RCS**
+1 - Preencha o nome e o email do responsável pelo contato do bot na empresa. Esta pessoa será responsável pela liberação e posterior contato do Google para aprovação e publicação do bot no canal.
 
-Para habilitar um telefone como usuário de teste do Google RCS, abra o aplicativo **Mensagens**.
+2 - Nome do agente. O nome que será exibido para o contato durante a interação no canal.
 
-* Dentro do aplicativo, clique no ícone de pesquisa (no canto superior direito).In the Messages app, tap the search icon.
-* Digite "*xyzzy*" e clique no butão pesquisar para habilitar o menu **Debug**.
-* Clique no ícone do menu (canto superior direito) e depois escolha as opções Debug > RCS > Report RCS Connection State.
-* O aplicativo mostrará uma imagem indicando se o RCS está **Ativo** ou **Inativo** para este aparelho.
+![Logo do agente](/img/channels/google-rcs/publicando-01.png)
 
-4. Habilitar um celular como usuário de teste de um agente do RCS.
+3 - Url com logo que será exibido no agente. As seguintes especificações devem ser seguidas:
+Distanciada igualmente a partir de todas as bordas;
+As bordas devem ser cortadas dentro de um círculo bem espaçado. Link do template do círculo;
+Resolução de 1024x1024px.
 
-Para isso, acesse o agente criado no Console do Google RCS e clique na opção **Devices**.
-Informe um número de telefone Android, previamente habilitado para utilizar o RCS (conforme descrito no item 3).
+**Correto**:
+![Logo do agente](/img/channels/google-rcs/publicando-02.png)
+![Logo do agente](/img/channels/google-rcs/publicando-03.png)
 
-![Imagem que demonstra com habilitar um aparelho celular como usuário de teste de um agente do RCS](/img/channels/google-rcs/add-test-device-rcs.png)
+---------------------------------
 
-Clique em **Send test message** e escolha uma mensagem de teste para ser enviada para o número definido.
+**Incorreto**:
+![Logo do agente](/img/channels/google-rcs/publicando-04.png)
+![Logo do agente](/img/channels/google-rcs/publicando-05.png)
+ 
+4 - Mensagem de boas-vindas no canal. Será a mensagem enviada pelo canal assim que o usuário interagir com o botão de mensagem. 
 
-## Configurando o agente no Console do Google RCS
+> **Obs: A mensagem de boas-vindas aceita emojis e texto.**
 
-1. Acesse o agente no Console do Google RCS e clique em **Service account**. Clique no botão **Create key** para criar uma chave que dará acesso ao BLiP para enviar mensagens em nome do seu agente.
+![Logo do agente](/img/channels/google-rcs/publicando-06.png)
 
-![Imagem que demonstra como criar uma chave de acesso ao seu agente no Google RCS](/img/channels/google-rcs/agent-info-rcs.png)
+## Seção 2 - Botões de Boas Vindas
 
-Ao final do processo de criação de uma chave você terá um arquivo JSON (**ServiceCredentialJson**). Guarde essa informação, ela será utilizada mais adiante.
+Junto com a mensagem de boas-vindas, é fornecido até 5 opções de se adicionar botões como possíveis respostas a uma primeira interação do usuário. Preencha esta seção caso deseje utilizar esta funcionalidade.
 
-2. Ainda no Console do Google RCS, acesse as informações do seu agente (*Agent Information*) no menu de configurações (*Setup*) e preencha todas as informações solicitadas. **Apenas agentes que possuam todas as informações definidas poderão ser submetidos para análise e aprovação do Google.**
+> **Obs**: Esta seção só será exibida caso seja selecionado sim para a opção de adicionar botões junto a mensagem de boas vindas na seção 1.
 
-3. Acesse o menu Integrações (*Integrations*) e selecione a opção **Cloud Pub/Sub**. Escolha a opção **Push**.
+## Seção 3 - Configurações adicionais
 
-* Endpoint URL
+1. Forneça a URL pública da política de privacidade da empresa.
 
-Insira a URL de enpoint do BLiP para o canal Google RCS. Esta é a configuração que define qual URL deverá ser utilizada pelo Google RCS para enviar as mensagens recebidas pela sua empresa. Por isso, você deverá configurar a URL do BLiP para recebimento de mensagens do WhatsApp. 
+2. A configuração inicial do agente da marca é feito a partir de um PLACE ID, que é uma identificação única de um local no Google.
 
-> https://googlercs.gw.msging.net/CHAVE-ALEATORIA
+3. Para descobrir o Place ID, acesse este [link](https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder).
 
-Onde:  
+4. Na página que será aberta, insira o endereço ou localização que represente sua marca.
 
-**CHAVE-ALEATORIA** é um código alfanumérico qualquer, gerado por você. Esse código será utilizado para identificar unicamente seu bot. **Sugerimos que seja utilizado um GUID, também conhecido como UUID (Universally Unique Identifier ou Globally Unique Identifier).** Um exemplo de GUID seria `a4aea429-2018-4f04-be13-30f4ebc60eaa`.  
+![Logo do agente](/img/channels/google-rcs/publicando-07.png)
 
-Copie o **Client token** fornecido pelo Google e siga para a próxima configuração. **Ao final do processo você deverá voltar a este ponto e clicar no botão 'Verify'.**
+5. Ao selecionar a localização, uma caixa com o Place ID será exibida abaixo do endereço. Informe o mesmo no formulário. 
 
-## Configurando o seu contato inteligente no BLiP
+> **Obs**: Caso existam várias localizações, selecione a que represente melhor as buscas e resultados dos usuários, neste instante só é permitido um único Place ID.
 
-Após configurado um número de teste, criar uma chave de acesso e submeter as informações do agente ao Google é preciso configurar seu contato inteligente (bot) no BLiP.
+6. Informe o endereço fornecido para encontrar o Place ID fornecido no passo anterior.
 
-4. Acesse seu bot no BLiP, e vá para a tela de configurações avançadas. Caso não saiba como acessar as configurações avançadas do seu bot, [clique aqui](/docs/management/configuracoes-avancadas-bot).
+## Seção 4 - Configurações de atendimento
 
-5. Utilizando sempre o domínio `postmaster@googlercs.gw.msging.net`, adicione todas as chaves de configuração, conforme demonstrado na imagem abaixo.
+A seção quatro trata das configurações do horário de atendimento via bot. Se esse for o caso. Selecione a opção que se adeque ao horário ou adicione uma nova.
 
-![Imagem que demonstra um exemplo de configurações de um bot do BLiP no canal Google RCS](/img/channels/google-rcs/advanced-settings-rcs.png)
+> **Obs**: Esta seção só será exibida caso seja selecionada a opção sim para atendimento via bot na seção anterior.
 
-- **AccountExternalId** - Chave aleatória utilizada para identificar seu bot. Essa é a mesma informação utilizada na URL de PubSub durante a configuração do agente no Google RCS.
-- **RCSClientToken** - Token obtido durante a criação da chave do RCS no passo 3.
-- **ServiceCredentialJson** - Conteúdo do arquivo JSON obtido durante a criação da chave do RCS no passo 1. Para obter o conteúdo do arquivo, abra-o em um editor de texto e copie o conteúdo, conforme demostrado na imagem abaixo.
+Uma vez preenchido o formulário, nossa equipe vai proceder com o registro da marca e criação do agente no Business Messages. O prazo para retorno é de 2 semanas.
 
-![Imagem que demonstra como abrir um arquivo JSON e copiar seu conteúdo](/img/channels/google-rcs/rcs-credential-json.png)
+## Configurando o bot no BLiP para o Business Messages
 
-6. Após realizada todas as configurações anteriores, volte ao passo 3 e clique no botão **'Verify'**. Esta é a última etapa de configuração. Caso todos os passos tenham sido executados com sucesso, basta testar o funcionamento da sua aplicação.
+1. Após criação do agente e retorno da nossa equipe, será encaminhado um e-mail contendo informações referentes ao agente e a marca, entre elas um **BrandID** e um **AgentID**.
 
-7. Para testar o funcionamento do bot, acesse o aplicativo **Mensagens**, através do número de teste habilitado, e envie uma mensagem para o seu agente.
+2. Estes valores deverão ser inseridos nas configurações avançadas do bot. Para isso, crie um bot ou utilize um já existente. Vá em **Configurações** > **Configurações Avançadas**.
+
+3. Clique no botão Continuar para prosseguir.<br><br>
+
+    ![Logo do agente](/img/channels/google-rcs/publicando-08.png)
+
+4. Clique em Adicionar para criar uma nova configuração avançada.<br><br>
+    ![Logo do agente](/img/channels/google-rcs/publicando-08.png)
+
+5. Preencha os espaços em branco com os valores:  
+Domínio: **postmaster@businessmessages.gw.msging.net**  
+Chave: **BrandId**  
+Valor: **BrandId recebido no e-mail**  
+
+6. Adicione uma segunda configuração com os seguintes valores:  
+Domínio: **postmaster@businessmessages.gw.msging.net**  
+Chave: **AgentId**  
+Valor: **AgentId recebido no e-mail**  
+
+As configurações devem se parecer com as da figura abaixo.<br><br>
+
+![Logo do agente](/img/channels/google-rcs/publicando-10.png)
+
+7. Feitas essas configurações o seu bot já está configurado para receber mensagens pelo canal.
+
+
+## Como testar seu bot no canal
+
+1. Para testar seu bot no canal, é necessário a utilização de um celular, seja Android ou IOS.
+
+2. Primeiramente acesse este [endereço](http://business-messages-launcher.appspot.com) a partir do seu celular Android ou IOS.
+
+![Logo do agente](/img/channels/google-rcs/publicando-11.png)
+
+3. No e-mail, também serão encaminhados três links correspondentes aos pontos de entrada do canal. Os pontos de entrada representam os meios em que o usuário pode iniciar uma interação com o bot, podendo ser oriundo de uma busca orgânica, ou no Google Maps. Neste último caso, são disponibilizados os links para o acesso no Android. Sendo assim, eles representam um link único e possuem os seguintes nomes:
+    * **SURFACE_ANDROID_WEB**
+    * **SURFACE_ANDROID_MAPS**
+    * **SURFACE_IOS_MAPS**
+
+4. Copie e cole o link referente ao ponto de entrada selecionado na caixa do link aberto.
+
+5. Uma janela com a conversa no canal se iniciará.
+
+## Publicando seu bot em produção
+
+1. Antes de publicar seu bot é importante ler os [termos de uso](https://developers.google.com/business-communications/support/aup/) e [regras de serviço](https://developers.google.com/business-communications/business-messages/support/tos) do Google para utilização do canal.
+
+2. Para publicar seu bot, encaminhe um e-mail para business.communications@take.net, solicitando lançamento. 
+
+3. Após encaminhar o e-mail, será feita solicitação de lançamento do seu bot no canal. Após receber e processar a solicitação, o Google encaminhará um email verificando a permissão de lançamento do seu bot no canal.
+
+4. Verificado o email, será feito o lançamento em produção que pode levar até 72 horas.
+
+
+## Publicando seu bot em várias localizações
+
+Após o lançamento do bot no Business Messages, o Google faz a varredura e verificação de todos as localizações de sua marca, de acordo com o grupo e configurações da localização atual.
+
+Para que seja feito o lançamento em várias localizações, é necessário que todas elas estejam reivindicadas e configuradas no mesmo grupo de localizações. É possível verificar essas configurações pelo próprio painel do google, neste [link](https://business.google.com/locations).
+
+Uma vez configurada todas as localizações, encaminhe um e-mail para business.communications@take.net solicitando o lançamento nas outras localizações. Nossa equipe verificará a solicitação e disponibilidade.
 
 
 <!-- Rating frame -->

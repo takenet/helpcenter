@@ -4,27 +4,19 @@ title: Funcionalidades do Google RCS
 sidebar_label: Funcionalidades do Google RCS
 ---
 
-A nova aplicação do Android para o envio de mensagens fornece uma ampla variedade de funcionalidades e recursos que visam entregar ao usuário uma experiência conversacional especial incluindo mensagens enriquecidas, dinâmicas e personalização de interfaces.
+## Encontre os clientes onde eles estão
 
- ### Integração com Google Assistant
-Através da incorporação do Google Assistant é possível, em tempo real, receber informações e chamadas de ações relevantes e condizentes com o assunto tratado na conversa, como o endereço de um restaurante citado, por exemplo.
+O Business Messages permite que seja adicionado o botão de mensagem em diversos resultados de busca, baseado nas localizações da marca, permitindo que qualquer um destes seja um ponto de entrada para interação do usuário com a marca.
 
-![](/img/channels/google-rcs/funcionalidades-google-rcs-1.png)
+## Customização do Agente
 
-### Selo de Verificação
-O selo de verificação é uma maneira de evitar fraudes, informando ao usuário quando ele estiver se comunicando com a empresa verdadeira.
+Uma vez iniciada a conversa com o bot, o Business Messages assume as características do Agente criado especialmente para a marca. Com logos próprios, persona e muito mais.
 
-![](/img/channels/google-rcs/funcionalidades-google-rcs-2.png)
+## Entenda seus clientes
 
-### Tela de boas-vindas
-A tela de boas-vindas é a primeira coisa que as pessoas veem quando começam uma nova conversa com seu bot. Ela inclui o nome, a descrição, a foto do perfil, algumas opções e se a empresa tem o selo de verificação. Talvez você queira definir um texto de saudação opcional para a tela de boas-vindas, que pode ser usado para introduzir o objetivo do seu bot.
+O Business Messages, após 12 horas sem interação com o usuário, envia automaticamente uma pesquisa de satisfação para entender como está a experiência do usuário.  
+Além disto, a marca pode interagir ativamente por até 30 dias com o usuário, uma vez iniciada a conversa.
 
-![](/img/channels/google-rcs/funcionalidades-google-rcs-3.png)
-
-### Páginas de informações
-A tela de informações sobre a empresa é uma maneira de agregar todo o tipo de informação relevante sobre a organização: informações de contato, endereço, website etc.
-
-![](/img/channels/google-rcs/funcionalidades-google-rcs-4.png)
 
 <!-- Rating frame -->
 <script type="text/javascript" src="/scripts/rating.js"></script>

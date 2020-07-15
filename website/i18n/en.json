@@ -432,6 +432,10 @@
         "title": "Visão geral do Google Assistant",
         "sidebar_label": "Visão geral do Google Assistant"
       },
+      "channels/google-rcs/arquitetura-google-bm": {
+        "title": "Arquitetura do Canal Google Business Messages",
+        "sidebar_label": "Arquitetura do Canal Google Business Messages"
+      },
       "channels/google-rcs/como-interagir-google-rcs": {
         "title": "Como interagir com os usuários através do Google RCS",
         "sidebar_label": "Como interagir com os usuários através do Google RCS"
@@ -453,8 +457,8 @@
         "sidebar_label": "Tipos de conteúdo suportados pelo Google RCS"
       },
       "channels/google-rcs/visao-geral-google-rcs": {
-        "title": "Visão geral do Google RCS",
-        "sidebar_label": "Visão geral do Google RCS"
+        "title": "Visão geral do Google Business Messages",
+        "sidebar_label": "Visão geral do Business Messages"
       },
       "channels/messenger/arquitetura-messenger": {
         "title": "Arquitetura do canal do Messenger",
