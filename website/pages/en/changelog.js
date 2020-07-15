@@ -124,135 +124,135 @@ var aux;
 var releases =[
       {
          "id":"news",
-         "title":"Título da atualização 1",
+         "title":"Título da atualização 22",
          "date":"18 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center.",
          "link": "https://www.help.blip.ai/templates",
       },
       {
          "id":"bug",
-         "title":"Título da atualização 2",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 21",
+         "date":"17 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center."
       },
       {
          "id":"atts",
-         "title":"Título da atualização 3",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 20",
+         "date":"16 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center."
       },
       {
          "id":"news",
-         "title":"Título da atualização 4",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 19",
+         "date":"15 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center."
       },
       {
          "id":"bug",
-         "title":"Título da atualização 5",
-         "date":"18 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 6",
-         "date":"18 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"bug",
-         "title":"Título da atualização 10",
-         "date":"18 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"bug",
-         "title":"Título da atualização 11",
-         "date":"18 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 12",
-         "date":"18 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"news",
-         "title":"Título da atualização 13",
-         "date":"18 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"bug",
-         "title":"Título da atualização 14",
-         "date":"18 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 15",
-         "date":"18 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 16",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 18",
+         "date":"14 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
       },
       {
          "id":"atts",
          "title":"Título da atualização 17",
-         "date":"18 de junho de 2020",
+         "date":"13 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"bug",
+         "title":"Título da atualização 16",
+         "date":"12 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"bug",
+         "title":"Título da atualização 15",
+         "date":"11 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
       },
       {
          "id":"atts",
-         "title":"Título da atualização 18",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 14",
+         "date":"10 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"news",
+         "title":"Título da atualização 13",
+         "date":"09 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"bug",
+         "title":"Título da atualização 12",
+         "date":"08 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
       },
       {
          "id":"atts",
-         "title":"Título da atualização 19",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 11",
+         "date":"07 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
       },
       {
          "id":"atts",
-         "title":"Título da atualização 20",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 10",
+         "date":"06 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
       },
       {
          "id":"atts",
-         "title":"Título da atualização 21",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 9",
+         "date":"06 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
       },
       {
          "id":"atts",
-         "title":"Título da atualização 22",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 8",
+         "date":"05 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
       },
       {
          "id":"atts",
-         "title":"Título da atualização 23",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 7",
+         "date":"04 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
       },
       {
          "id":"atts",
-         "title":"Título da atualização 24",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 6",
+         "date":"03 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
       },
       {
          "id":"atts",
-         "title":"Título da atualização 25",
-         "date":"18 de junho de 2020",
+         "title":"Título da atualização 5",
+         "date":"02 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 4",
+         "date":"01 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 3",
+         "date":"01 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 2",
+         "date":"01 de junho de 2020",
+         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+      },
+      {
+         "id":"atts",
+         "title":"Título da atualização 1",
+         "date":"01 de junho de 2020",
          "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
   }
   ];
