@@ -3,7 +3,7 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const data = { 
   "title":"Google Business Messages no BLiP",
-  "subtitle":"Mantenha contato com seus clientes através do aplicativo nativo de mensagens do Android.",
+  "subtitle":"Permita que clientes conversem com sua empresa diretamente da pesquisa do Google",
   "img":"/img/illustrations/google-rcs-logo.svg",
   "from":"BLiP Help Center >",
   "session": "Canais",
@@ -110,12 +110,9 @@ class GoogleRcs extends React.Component{
                   <p className="here">{data.here}</p>
                 </div>
                 <div className="info">
-                  <p className="intro">O Google RCS (Messages) é a nova versão nativa do aplicativo de mensagens do Android, 
-                    sistema operacional móvel com o maior número de usuários no mundo todo, com mais de 2,5 bilhões de usuários ativos por mês. 
-                    Ela oferece uma nova e única maneira de se comunicar diretamente do smartphone.</p>
-                  <p className="intro">Esta categoria apresenta vários artigos sobre como integrar o canal do RCS ao BLiP. 
-                    Através deles será possível entender como funciona o canal, suas funcionalidades, 
-                    seus benefícios e como criar sua primeira interação entre o BLiP e a plataforma da Google.</p>
+                  <p className="intro">O Google Business Messages é um canal de conversação móvel 
+                    que combina localizações de empresas no Google Maps,  na Pesquisa e em sites das organizações
+                    para criar experiências ricas de mensagens que encantam os clientes e geram resultados de negócios.</p>
                   <p className="intro">Caso você nunca tenha trabalhado com este canal clique no primeiro link abaixo.</p>
                 </div>
 

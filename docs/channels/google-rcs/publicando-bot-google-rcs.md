@@ -1,11 +1,11 @@
 ---
 id: publicando-bot-google-rcs
-title: Como publicar seu Chatbot no Google RCS
-sidebar_label: Como publicar seu Chatbot no Google RCS
+title: Como publicar seu Chatbot no Google Business Messages
+sidebar_label: Como publicar seu Chatbot no Google Business Messages
 ---
 
 
-O processo de publicação do seu bot no Business Messages começa com o preenchimento do seguinte formulário.
+O processo de publicação do seu bot no Business Messages começa com o preenchimento do [seguinte formulário](https://docs.google.com/forms/d/e/1FAIpQLSdM7pFU1_eud2erYUk-qyE0Lwf3kp4jMMHOhdUTLMOQrWigTg/viewform).
 É de suma importância que seja feito o correto preenchimento das informações, pois elas serão utilizadas para criação do Agente da marca.
 
 ## Seção 1 - Google Business Messages
@@ -16,10 +16,10 @@ O processo de publicação do seu bot no Business Messages começa com o preench
 
 ![Logo do agente](/img/channels/google-rcs/publicando-01.png)
 
-3 - Url com logo que será exibido no agente. As seguintes especificações devem ser seguidas:
-Distanciada igualmente a partir de todas as bordas;
-As bordas devem ser cortadas dentro de um círculo bem espaçado. Link do template do círculo;
-Resolução de 1024x1024px.
+3 - Url com logo que será exibido no agente. As seguintes especificações devem ser seguidas:  
+* Distanciada igualmente a partir de todas as bordas;   
+* As bordas devem ser cortadas dentro de um círculo bem espaçado. [Link](https://developers.google.com/business-communications/images/logo-guidelines/template-logo-circle-highres.png) do template do círculo;   
+* Resolução de 1024x1024px.
 
 **Correto**:
 ![Logo do agente](/img/channels/google-rcs/publicando-02.png)

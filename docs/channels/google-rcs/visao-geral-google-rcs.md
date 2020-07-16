@@ -10,8 +10,6 @@ Depois de se registrar no Business Messages e criar um agente para sua marca, os
 
 ![](/img/channels/google-rcs/visao-geral-01.png)
 
-**Obs.: O uso deste canal está restrito a algumas empresas. Caso tenha interesse em utilizá-lo entre em contato [clicando aqui](mailto:community@take.net)**
-
 
 <!-- Rating frame -->
 <script type="text/javascript" src="/scripts/rating.js"></script>

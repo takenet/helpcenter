@@ -1,7 +1,7 @@
 ---
 id: funcionalidades-google-rcs
-title: Funcionalidades do Google RCS
-sidebar_label: Funcionalidades do Google RCS
+title: Funcionalidades do Google Business Messages
+sidebar_label: Funcionalidades do Google Business Messages
 ---
 
 ## Encontre os clientes onde eles estão
