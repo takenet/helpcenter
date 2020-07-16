@@ -13,21 +13,21 @@ const data = {
     {
       "title": "Visão geral do canal",
       "type": "text",
-      "url": "/docs/channels/google-rcs/visao-geral-google-bm",
+      "url": "/docs/channels/google-bm/visao-geral-google-bm",
       "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
       "text": "Ver mais!"
     },
      {
       "title": "Arquitetura do canal no BLiP",
       "type": "text",
-      "url": "/docs/channels/google-rcs/arquitetura-google-bm",
+      "url": "/docs/channels/google-bm/arquitetura-google-bm",
       "abstract": "Obtenha informações sobre a arquitetura do canal e como a sua integração com o BLiP funciona.",
       "text": "Ver mais!"
     },
     {
       "title": "Funcionalidades do canal",
       "type": "text",
-      "url": "/docs/channels/google-rcs/funcionalidades-google-bm",
+      "url": "/docs/channels/google-bm/funcionalidades-google-bm",
       "abstract": "Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text": "Ver mais!"
     },
@@ -41,7 +41,7 @@ const data = {
     {
       "title": "Como publicar seu Chatbot no Google BM",
       "type": "text",
-      "url": "/docs/channels/google-rcs/publicando-bot-google-bm",
+      "url": "/docs/channels/google-bm/publicando-bot-google-bm",
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },
