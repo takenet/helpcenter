@@ -62,12 +62,24 @@
       },
       {
         "type": "subcategory",
+        "label": "Google RCS",
+        "ids": [
+          "channels/google-rcs/visao-geral-google-rcs",
+          "channels/google-rcs/funcionalidades-google-rcs",
+          "channels/google-rcs/tipos-conteudo-google-rcs",
+          "channels/google-rcs/publicando-bot-google-rcs",
+          "channels/google-rcs/como-interagir-google-rcs",
+          "channels/google-rcs/outros-recursos-google-rcs"
+        ]
+      },
+      {
+        "type": "subcategory",
         "label": "Google Business Messages",
         "ids": [
-          "channels/google-rcs/visao-geral-google-bm",
-          "channels/google-rcs/arquitetura-google-bm",
-          "channels/google-rcs/funcionalidades-google-bm",
-          "channels/google-rcs/publicando-bot-google-bm"
+          "channels/google-bm/visao-geral-google-bm",
+          "channels/google-bm/arquitetura-google-bm",
+          "channels/google-bm/funcionalidades-google-bm",
+          "channels/google-bm/publicando-bot-google-bm"
         ]
       },
       {
