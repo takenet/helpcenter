@@ -1,5 +1,5 @@
 ---
-id: publicando-bot-google-rcs
+id: publicando-bot-google-bm
 title: Como publicar seu Chatbot no Google Business Messages
 sidebar_label: Como publicar seu Chatbot no Google Business Messages
 ---

@@ -440,7 +440,7 @@
         "title": "Como interagir com os usuários através do Google RCS",
         "sidebar_label": "Como interagir com os usuários através do Google RCS"
       },
-      "channels/google-rcs/funcionalidades-google-rcs": {
+      "channels/google-rcs/funcionalidades-google-bm": {
         "title": "Funcionalidades do Google Business Messages",
         "sidebar_label": "Funcionalidades do Google Business Messages"
       },
@@ -448,7 +448,7 @@
         "title": "Acessando outros recursos do Google RCS",
         "sidebar_label": "Acessando outros recursos do Google RCS"
       },
-      "channels/google-rcs/publicando-bot-google-rcs": {
+      "channels/google-rcs/publicando-bot-google-bm": {
         "title": "Como publicar seu Chatbot no Google Business Messages",
         "sidebar_label": "Como publicar seu Chatbot no Google Business Messages"
       },
@@ -456,7 +456,7 @@
         "title": "Tipos de conteúdo suportados pelo Google RCS",
         "sidebar_label": "Tipos de conteúdo suportados pelo Google RCS"
       },
-      "channels/google-rcs/visao-geral-google-rcs": {
+      "channels/google-rcs/visao-geral-google-bm": {
         "title": "Visão geral do Google Business Messages",
         "sidebar_label": "Visão geral do Business Messages"
       },

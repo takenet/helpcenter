@@ -13,7 +13,7 @@ const data = {
     {
       "title": "Visão geral do canal",
       "type": "text",
-      "url": "/docs/channels/google-rcs/visao-geral-google-rcs",
+      "url": "/docs/channels/google-rcs/visao-geral-google-bm",
       "abstract": "Entenda o que é o canal, qual seu objetivo e por que foi criado e obtenha informações importantes para que você consiga utilizá-lo da melhor maneira possível.",
       "text": "Ver mais!"
     },
@@ -27,7 +27,7 @@ const data = {
     {
       "title": "Funcionalidades do canal",
       "type": "text",
-      "url": "/docs/channels/google-rcs/funcionalidades-google-rcs",
+      "url": "/docs/channels/google-rcs/funcionalidades-google-bm",
       "abstract": "Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text": "Ver mais!"
     },
@@ -41,7 +41,7 @@ const data = {
     {
       "title": "Como publicar seu Chatbot no Google BM",
       "type": "text",
-      "url": "/docs/channels/google-rcs/publicando-bot-google-rcs",
+      "url": "/docs/channels/google-rcs/publicando-bot-google-bm",
       "abstract": "Veja um passo-a-passo e aprenda como publicar o seu bot no canal.",
       "text": "Ver mais!"
     },

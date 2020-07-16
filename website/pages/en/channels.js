@@ -42,7 +42,7 @@ const data = {
     {
       "title": "Google Business Messages",
       "icon": "/img/illustrations/google-rcs-logo.svg",
-      "url": "/googlercs",
+      "url": "/googlebm",
       "abstract": "Conecte-se com clientes através do aplicativo nativo de mensagens do Android.",
       "text": "Aprenda mais!"
     },

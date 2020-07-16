@@ -1,5 +1,5 @@
 ---
-id: visao-geral-google-rcs
+id: visao-geral-google-bm
 title: Visão geral do Google Business Messages
 sidebar_label: Visão geral do Business Messages
 ---

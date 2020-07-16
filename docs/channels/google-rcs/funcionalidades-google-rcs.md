@@ -1,5 +1,5 @@
 ---
-id: funcionalidades-google-rcs
+id: funcionalidades-google-bm
 title: Funcionalidades do Google Business Messages
 sidebar_label: Funcionalidades do Google Business Messages
 ---
