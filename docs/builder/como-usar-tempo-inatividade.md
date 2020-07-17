@@ -4,7 +4,7 @@ title: Como usar tempo de espera de resposta do usuário
 sidebar_label: Como usar tempo de espera de resposta do usuário
 ---
 
-É posível definir um tempo, em minutos, que o contato inteligente deve aguardar pela resposta do usuário antes de passar para um novo estado. Essa configuração é possível em qualquer bloco que não seja de atendimento humano. 
+É posível definir um tempo, em minutos, que o contato inteligente deve aguardar pela resposta do usuário antes de passar para um novo estado. Essa configuração é possível em qualquer bloco que não seja de atendimento humano ou o bloco de inicio. 
 
 Para usá-la, você deve seguir os seguintes passos:
 
