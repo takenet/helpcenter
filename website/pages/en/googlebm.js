@@ -25,9 +25,9 @@ const data = {
       "text": "Ver mais!"
     },
     {
-      "title": "Funcionalidades do canal",
+      "title": "Benefícios do canal",
       "type": "text",
-      "url": "/docs/channels/google-bm/funcionalidades-google-bm",
+      "url": "/docs/channels/google-bm/beneficios-google-bm",
       "abstract": "Veja tudo o que o canal pode oferecer para que seu bot consiga proporcionar uma ótima experiência conversacional.",
       "text": "Ver mais!"
     },

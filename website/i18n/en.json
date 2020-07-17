@@ -436,9 +436,9 @@
         "title": "Arquitetura do Canal Google Business Messages",
         "sidebar_label": "Arquitetura do Canal Google Business Messages"
       },
-      "channels/google-bm/funcionalidades-google-bm": {
-        "title": "Funcionalidades do Google Business Messages",
-        "sidebar_label": "Funcionalidades do Google Business Messages"
+      "channels/google-bm/beneficios-google-bm": {
+        "title": "Benefícios do Google Business Messages",
+        "sidebar_label": "Benefícios do Google Business Messages"
       },
       "channels/google-bm/publicando-bot-google-bm": {
         "title": "Como publicar seu Chatbot no Google Business Messages",
