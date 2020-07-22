@@ -187,7 +187,7 @@
       "builder/como-validar-entrada-usuario",
       "builder/tipo-conteudo-dinamico",
       "builder/criando-carrinho-compras",
-      "builder/como-usar-tempo-de-espera-de-resposta-do-usuario"
+      "builder/como-usar-tempo-inatividade"
     ],
     "Inteligência Artificial": [
       {
@@ -312,8 +312,6 @@
       }
     ],
     "Retenção e Engajamento": [
-      "growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot",
-      "growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads",
       "growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast",
       "growth/como-identificar-usuarios-campanha"
     ],

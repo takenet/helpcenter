@@ -1,10 +1,12 @@
 ---
-id: como-usar-tempo-de-espera-de-resposta-do-usuario
-title: Como usar tempo de espera de resposta do usuário
-sidebar_label: Como usar tempo de espera de resposta do usuário
+id: como-usar-tempo-inatividade
+title: Como usar o tempo de inatividade de usuário
+sidebar_label: Como usar o tempo de inatividade de usuário
 ---
 
-É posível definir um tempo, em minutos, que o contato inteligente deve aguardar pela resposta do usuário antes de passar para um novo estado. Essa configuração é possível em qualquer bloco que não seja de atendimento humano ou o bloco de inicio. 
+É posível definir um tempo, em minutos, que o contato inteligente deve aguardar pela resposta do usuário antes de passar para um novo estado.
+
+>**Essa configuração é possível em qualquer bloco que não seja de atendimento humano ou o bloco de inicio**. 
 
 Para usá-la, você deve seguir os seguintes passos:
 

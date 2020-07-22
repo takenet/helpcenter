@@ -209,9 +209,9 @@
         "title": "Como definir um tempo limite (timeout) para ações do Builder",
         "sidebar_label": "Como definir um tempo limite (timeout) para ações do Builder"
       },
-      "builder/como-usar-tempo-de-espera-de-resposta-do-usuario": {
-        "title": "Como usar tempo de espera de resposta do usuário",
-        "sidebar_label": "Como usar tempo de espera de resposta do usuário"
+      "builder/como-usar-tempo-inatividade": {
+        "title": "Como usar o tempo de inatividade de usuário",
+        "sidebar_label": "Como usar o tempo de inatividade de usuário"
       },
       "builder/como-utilizar-debug-builder": {
         "title": "Como utilizar a ferramenta de debug do Builder",
