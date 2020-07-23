@@ -123,138 +123,45 @@ var releasesAux;
 var aux;
 var releases =[
       {
-         "id":"news",
-         "title":"Título da atualização 22",
-         "date":"18 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center.",
-         "link": "https://www.help.blip.ai/templates",
-      },
-      {
-         "id":"bug",
-         "title":"Título da atualização 21",
-         "date":"17 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center."
+         "id":"atts",
+         "title":"Integração com a SugarAds",
+         "date":"22 de Julho de 2020",
+         "text":"Com o fechamento da SugarAds, descontinuamos a integração antes disponível em Growth, no portal do BLiP.",
       },
       {
          "id":"atts",
-         "title":"Título da atualização 20",
-         "date":"16 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center."
+         "title":"Notificações no portal do BLiP",
+         "date":"21 de Julho de 2020",
+         "text":"Atualizamos o modelo de notificações temporárias que fornecem feedbacks sobre as ações realizadas no portal do BLiP.",
       },
       {
          "id":"news",
-         "title":"Título da atualização 19",
-         "date":"15 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center."
-      },
-      {
-         "id":"bug",
-         "title":"Título da atualização 18",
-         "date":"14 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 17",
-         "date":"13 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"bug",
-         "title":"Título da atualização 16",
-         "date":"12 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"bug",
-         "title":"Título da atualização 15",
-         "date":"11 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 14",
-         "date":"10 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+         "title":"WhatsApp Message Template",
+         "date":"14 de Julho de 2020",
+         "text":"Adicionamos à funcionalidade de modelos de mensagem do WhatsApp a atualização que possibilita o envio de vídeos (.mp4) nas mensagens.",
+         "link": "http://help.blip.ai/docs/en/channels/whatsapp/como-criar-aprovar-message-template/?utm_source=changelog",
       },
       {
          "id":"news",
-         "title":"Título da atualização 13",
-         "date":"09 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"bug",
-         "title":"Título da atualização 12",
-         "date":"08 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+         "title":"Tempo de Inatividade do Usuário",
+         "date":"06 de Julho de 2020",
+         "text":"Disponibilizamos o Tempo de Inatividade do Usuário, nova funcionalidade que permite programar diretamente no Builder quanto tempo o chatbot deve esperar por uma resposta do usuário para encerrar a conversa ou enviar uma mensagem para reengajamento.",
+         "link": "https://help.blip.ai/docs/en/builder/como-usar-tempo-inatividade/?utm_source=changelog",
       },
       {
          "id":"atts",
-         "title":"Título da atualização 11",
-         "date":"07 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+         "title":"Permissões de Acesso ao Chatbot",
+         "date":"03 de Julho de 2020",
+         "text":"Atualizamos a mensagem de alerta da permissão de acesso à um chatbot, porque para acessar o projeto, a conta do usuário logado deve ser a mesma do membro convidado para compor a equipe.",
+         "link": "https://help.blip.ai/docs/en/management/gerenciando-permissoes-acesso-equipe/?utm_source=changelog",
       },
       {
-         "id":"atts",
-         "title":"Título da atualização 10",
-         "date":"06 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
+         "id":"news",
+         "title":"Integração com o RD Station",
+         "date":"29 de Junho de 2020",
+         "text":"Disponibilizamos uma nova integração entre RD Station e BLiP para que a instalação seja feita com apenas um clique.",
+         "link": "https://help.blip.ai/docs/en/analytics/rd-station/como-enviar-dados-rd-station/?utm_source=changelog",
       },
-      {
-         "id":"atts",
-         "title":"Título da atualização 9",
-         "date":"06 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 8",
-         "date":"05 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 7",
-         "date":"04 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 6",
-         "date":"03 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 5",
-         "date":"02 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 4",
-         "date":"01 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 3",
-         "date":"01 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 2",
-         "date":"01 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-      },
-      {
-         "id":"atts",
-         "title":"Título da atualização 1",
-         "date":"01 de junho de 2020",
-         "text":"Estamos utilizando esse espaço apenas para marcação de texto. Não ultrapassar mais do que a quantidade de 2 linhas, uma vez isso pode acabar prejudicando o layout,você pude utilizar links para outras partes do help center. Ver detalhes"
-  }
   ];
 var alreadyFiltered = false;
 var changelogDiv = document.getElementById('pages-content-changelog');
@@ -309,6 +216,7 @@ function createReleases(releasess, index){
 
     if(releasess[i].link){
       var link = document.createElement('a');
+      link.setAttribute('class', 'link-changelogs');
       link.setAttribute('href', releasess[i].link);
       link.innerHTML = "Ver detalhes";
 

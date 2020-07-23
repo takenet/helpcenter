@@ -11857,9 +11857,24 @@ div #discourse-comments{
   font-size: 14px;
   line-height: 150%;
   color: #738192;
+  min-width: 100%;
   width: 100%;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+
+.release .content .text .link-changelogs{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2cc3d5;
+  width: 100%;
+  margin-left: 5px;
+  margin-bottom: 0;
+  text-decoration: none;
 }
 
 
