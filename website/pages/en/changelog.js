@@ -136,7 +136,7 @@ var releases =[
       },
       {
          "id":"news",
-         "title":"WhatsApp Message Template",
+         "title":"Vídeo no WhatsApp Message Template",
          "date":"14 de Julho de 2020",
          "text":"Adicionamos à funcionalidade de modelos de mensagem do WhatsApp a atualização que possibilita o envio de vídeos (.mp4) nas mensagens.",
          "link": "http://help.blip.ai/docs/en/channels/whatsapp/como-criar-aprovar-message-template/?utm_source=changelog",
