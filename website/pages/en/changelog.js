@@ -123,6 +123,13 @@ var releasesAux;
 var aux;
 var releases =[
       {
+         "id":"news",
+         "title":"Botões de ação e de resposta rápida nos modelos de mensagem do WhatsApp",
+         "date":"31 de Junho de 2020",
+         "text":"Adicionamos à funcionalidade de modelos de mensagem do WhatsApp no portal do BLiP a atualização que possibilita o uso de botões de ação e de respostas rápidas nas mensagens.",
+         "link": "http://help.blip.ai/docs/en/channels/whatsapp/como-criar-aprovar-message-template?utm_source=changelog",
+      },
+      {
          "id":"atts",
          "title":"Integração com a SugarAds",
          "date":"22 de Julho de 2020",
@@ -189,7 +196,7 @@ selectItem.addEventListener('change', function(){
 createReleases(releases, nextItem);
 
 function createReleases(releasess, index){
-  aux = index + 6;
+  aux = index + 7;
   console.log(releasess.length, aux);
   for (i=index; i<releasess.length; i++){
     var mainDiv = document.createElement('div');

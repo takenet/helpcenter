@@ -103,6 +103,8 @@
   /* Container around content */
   .release {
     margin-bottom: 60px !important;
+    height: fit-content !important;
+    width: 90% !important;
   }
   
   /* The actual content */
@@ -11835,7 +11837,6 @@ div #discourse-comments{
   font-size: 20px;
   line-height: 28px;
   color: #607B99;
-  width: 60%;
   margin-bottom: 4px;
 }
 
