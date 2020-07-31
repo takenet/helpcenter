@@ -75,12 +75,37 @@ Confira como utilizar todos os tipos de conteúdo suportados e um exemplo de com
 
 Recentemente o [WhatsApp liberou uma funcionalidade](https://developers.facebook.com/docs/whatsapp/api/messages/message-templates/interactive-message-templates/) que permite o envio de **conteúdos com botões**, como *Call to Actions* e *Quick replies*, **apenas através de Message Templates** (para utilizar esse tipo de conteúdo no seu fluxo de conversa, será necessário enviar através de [conteúdo dinâmico](https://help.blip.ai/docs/en/docs/en/builder/tipo-conteudo-dinamico) ou [mensagens prontas do Desk](https://hmg-help.blip.ai/docs/en/channels/whatsapp/como-enviar-notificacoes-respostas-prontas/)).
 
->**No momento, para criar esse tipo de template é necessário entrar em contato com o seu suporte do BLiP (https://support.blip.ai/). Em breve essa funcionalidade estará disponível no portal.**
+Já é possível criá-los através do nosso Portal!
 
-Veja abaixo os tipos de conteúdo com botões disponíveis nesta nova atualização:
+Veja abaixo os tipos de conteúdo com botões disponíveis nesta nova atualização e como criá-los:
+
+Abaixo do conteúdo, há o menu dos botões disponíveis.
+
+![Menu de escolher botões](/img/channels/whatsapp/botoes-escolher.png)
+
 ### 1. Call to action (ir para um link)
 
 Tipo de botão que permite enviar um link que levará o usuário para a página correspondente.
+
+Selecione o botão *Botões de ação*, selecione *Link do website* e preencha as informações necessárias.
+
+![Exemplo de Botao de URL preenchido](/img/channels/whatsapp/url-call_to_action-1.png)
+
+**Observação: lembre-se de preencher a url seguindo a estrutura do exemplo! Sempre colocando https:// ou http://**
+
+Ao salvar as informações, é possível visualizar uma prévia de como ficará o template.
+
+![Exemplo de template com Botao de URL](/img/channels/whatsapp/url-call_to_action-2.png)
+
+No campo de URL você poderá adicionar uma URL dinâmica e adicionar até uma variável {{1}} para criar um link personalizado.
+
+*Ex.:*
+**URL dinâmica:** https://www.google.com/{{1}}
+**URL estática:** https://www.google.com
+
+Se acrescentar uma variável no final da URL o sistema vai entender como URL Dinâmica, senão ela vai ser Estática.
+
+##### Exemplo de como ele será recebido pelo usuário no WhatsApp:
 
 ![Exemplo de conteúdo com botão call to action](/img/channels/whatsapp/callActionWeb.png)
 
@@ -88,11 +113,35 @@ Tipo de botão que permite enviar um link que levará o usuário para a página 
 
 Tipo de botão que permite enviar um número de telefone que ao ser clicado acionará a aplicação correspondente do sistema (Ex.: Telefone, Agenda, Skype e até mesmo o WhatsApp).
 
+Selecione o botão *Botões de ação*, selecione *Número de telefone* e preencha as informações necessárias.
+
+![Exemplo de Botao de Telefone preenchido](/img/channels/whatsapp/phone_number-call_to_action-1.png)
+
+**Observação: lembre-se de colocar o código do país no número de telefone seguindo o exemplo!**
+
+Ao salvar as informações, é possível visualizar uma prévia de como ficará o template.
+
+![Exemplo de template com Botao de Telefone](/img/channels/whatsapp/phone_number-call_to_action-2.png)
+
+##### Exemplo de como ele será recebido pelo usuário no WhatsApp:
+
 ![Exemplo de conteúdo com botão call to action](/img/channels/whatsapp/callActionCel.png)
 
 ### 3. Quick reply
 
 Tipo de conteúdo com botões que permite o envio de respostas rápidas e predefinidas.
+
+Selecione o botão *Respostas rápidas* e preencha os textos que irão nos botões.
+
+![Exemplo de Botao de Respostas rápidas](/img/channels/whatsapp/quick_replies-1.png)
+
+**Observação: lembre-se você pode adicionar até no máximo 3 botões!**
+
+Ao salvar as informações, é possível visualizar uma prévia de como ficará o template.
+
+![Exemplo de template com Botao de Telefone](/img/channels/whatsapp/quick_replies-2.png)
+
+##### Exemplo de como ele será recebido pelo usuário no WhatsApp:
 
 ![Exemplo de conteúdo com botão quick reply](/img/channels/whatsapp/quickReply.png)
 
