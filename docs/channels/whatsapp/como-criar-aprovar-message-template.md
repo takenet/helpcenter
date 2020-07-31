@@ -81,7 +81,7 @@ Veja abaixo os tipos de conteúdo com botões disponíveis nesta nova atualizaç
 
 Abaixo do conteúdo, há o menu dos botões disponíveis.
 
-![Exemplo de Botao de URL preenchido](/img/channels/whatsapp/botoes-escolher.png)
+![Menu de escolher botões](/img/channels/whatsapp/botoes-escolher.png)
 
 ### 1. Call to action (ir para um link)
 
