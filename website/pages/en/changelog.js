@@ -125,7 +125,7 @@ var releases =[
       {
          "id":"news",
          "title":"Botões de ação e de resposta rápida nos modelos de mensagem do WhatsApp",
-         "date":"31 de Junho de 2020",
+         "date":"03 de Agosto de 2020",
          "text":"Adicionamos à funcionalidade de modelos de mensagem do WhatsApp no portal do BLiP a atualização que possibilita o uso de botões de ação e de respostas rápidas nas mensagens.",
          "link": "http://help.blip.ai/docs/en/channels/whatsapp/como-criar-aprovar-message-template?utm_source=changelog",
       },
