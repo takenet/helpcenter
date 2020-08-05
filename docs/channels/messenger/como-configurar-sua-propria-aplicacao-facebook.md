@@ -15,6 +15,8 @@ Existem duas formas de utilizar uma aplicação customizada para publicar bots n
 * **A) Usando uma Aplicação previamente criada e analisada pelo Facebook, um PageId e um PageAccessToken**
 * **B) Usando uma Aplicação previamente criada e analisada pelo Facebook e gerando um token através do BLiP**
 
+> ***Se você não sabe como criar uma aplicação no Facebook [clique aqui para a documentação oficial do Facebook](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup). Ou [clique aqui para a documentação do BLiP.](https://help.blip.ai/docs/en/channels/messenger/como-criar-sua-propria-aplicacao-facebook)*<br>**
+
 -----------------
 
 ##  A) Usando Aplicação, PageId e PageAccessToken
@@ -25,33 +27,11 @@ Para utilizar uma aplicação customizada durante a publicação de um bot no Fa
 * **PageId - [Clique aqui](https://findmyfbid.com/) para entender como criar um Facebook PageId**
 * **PageAccessToken - Token de acesso a sua página no Facebook**
 
-*Se você não sabe como criar uma aplicação no Facebook, ou precisa de ajuda para gerar um PageAccessToken [clique aqui](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup).*
+*Se você precisa de ajuda para gerar um PageAccessToken [clique aqui](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup).*
 
-**Atenção**: É recomendável que sua aplicação do Facebook esteja configurada para a versão **v5.0**. Caso contrário sua aplicação pode apresentar instabilidades. Você pode definir essa informação nas configurações avançadas da sua aplicação:
+**Atenção**: Verificar na documentação sobre a [Criação/Atualização de aplicação prória no Facebook](https://help.blip.ai/docs/en/channels/messenger/como-criar-sua-propria-aplicacao-facebook) qual a versão da API está sendo usada pelo BLiP.
 
-![Configurações de versão da Aplicação](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-3.png)
-
-
-## 1. Configuração de Webhooks
-De posse das duas informações acima, vá até o portal de desenvolvedores do Facebook, acesse sua aplicação, clique no menu **Webhook** e configure as informações **Url de retorno de chamada** e **Verificar Token**, conforme imagem abaixo:
-
-Url: https://messenger.gw.msging.net
-
-*Token: ze3jRmmaLU5KUTtUN*
-
-![Configurando informações de url de retorno de chamada](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-1.png)<br>
-
-## 2. Configurações dos eventos de Webhook
-
-Após configurado o Webhook da aplicação é necessário configurar quais eventos do Messenger a serão enviados pelo Facebook. Ainda no portal de desenvolvedores do Facebook, clique no menu **Messenger** e selecione **Configurações** de Webhooks. Selecione os itens, conforme apresentado pela imagem abaixo:
-
-![Configurações de eventos de Webhook](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-2.png)<br>
-
-Verifique se a versão dos webhooks que você selecionou estão marcadas como **v5.0**. Faça as alterações se necessário, caso contrário sua aplicação pode apresentar instabilidades:
-
-![Configurações da versão de eventos de Webhook](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-4.png)<br>
-
-## 3. Configuração das informações da aplicação do Facebook BLiP
+## 1. Configuração das informações da aplicação do Facebook BLiP
 
 A última etapa do processo de publicação customizada acontece no BLiP. No portal, escolha o bot que deseja publicar, vá até a tela de Configurações Avançadas (clique aqui se você não sabe como chegar até a tela de Configurações Avançadas) e adicione os seguintes registros na tabela.
 
@@ -60,26 +40,13 @@ A última etapa do processo de publicação customizada acontece no BLiP. No por
 | postmaster@messenger<span>.</span>gw<span>.</span>msging<span>.</span>net | PageAccessToken | SEU_PAGE_ACCESS_TOKEN |
 | postmaster@messenger<span>.</span>gw<span>.</span>msging<span>.</span>net | PageId | SEU_PAGE_ID |
 
-## 4. Testando o processo de configuração
+## 2. Testando o processo de configuração
 
 Envie uma mensagem para sua página no Facebook e teste se a mensagem chegou para o seu bot no BLiP.
 
 > **Nota: O bot pode começar a responder em até 3 minutos.**
 
 <br>
-
-## (Apenas se for utilizar Organização) Alteração de URL do Messenger
-Após realizar a migração para Organização será necessário alterar a Url de retorno de chamada em sua aplicação do Facebook.
-
-Acesse o portal de desenvolvedores do Facebook, acesse sua aplicação, clique no menu **Messenger**, entre em **Configurações** e altere as informações **Url de retorno de chamada** e **Verificar Token**, com os dados abaixo:
-
-**Url**: [https://{IdOrganização}-messenger.gw.msging.net](https://messenger.gw.msging.net)  
-**Token**: ze3jRmmaLU5KUTtUN
-
-![Configurações da versão de eventos de Webhook](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-5.png)<br>
-
-> **Nota: Lembre-se de substituir {IdOrganização} pelo valor correspondente.**
-
 -----------------
 
 ##  B) Usando uma Aplicação e gerando um token através do BLiP
@@ -90,60 +57,19 @@ Para utilizar uma aplicação customizada durante a publicação de um bot no Fa
 * **App Id - Id único da Aplicação**
 * **App Secret - Chave secreta do Aplicação**
 
-*Se você não sabe como criar uma aplicação no Facebook [clique aqui](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup).*
 *Se você não sabe onde pegar o AppId e/ou o AppSecret [clique aqui](https://help.blip.ai/docs/en/channels/messenger/publicando-bot-no-messenger/) e olhe a seção **Publicando na sua própria aplicação do Facebook**.*
 
-**Atenção**: É recomendável que sua aplicação do Facebook esteja configurada para a versão **v5.0**. Caso contrário sua aplicação pode apresentar instabilidades. Você pode definir essa informação nas configurações avançadas da sua aplicação:
-
-![Configurações de versão da Aplicação](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-3.png)
-
-## 1. Configuração de OAuth do Cliente 
-Vá até o portal de desenvolvedores do Facebook, acesse sua aplicação, clique no menu **Login do Facebook -> Configurações** e configure as informações de OAuth do cliente conforme imagem abaixo:
-
-![Configurando informações de url de login](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-6.png)<br>
-
-## 2. Configuração de Webhooks
-Vá até o portal de desenvolvedores do Facebook, acesse sua aplicação, clique no menu **Webhook** e configure as informações **Url de retorno de chamada** e **Verificar Token**, conforme imagem abaixo:
-
-Url: https://messenger.gw.msging.net
-
-*Token: ze3jRmmaLU5KUTtUN*
-
-![Configurando informações de url de retorno de chamada](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-1.png)<br>
-
-## 3. Configurações dos eventos de Webhook
-
-Após configurado o Webhook da aplicação é necessário configurar quais eventos do Messenger a serão enviados pelo Facebook. Ainda no portal de desenvolvedores do Facebook, clique no menu **Messenger** e selecione **Configurações** de Webhooks. Selecione os itens, conforme apresentado pela imagem abaixo:
-
-![Configurações de eventos de Webhook](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-2.png)<br>
-
-Verifique se a versão dos webhooks que você selecionou estão marcadas como **v5.0**. Faça as alterações se necessário, caso contrário sua aplicação pode apresentar instabilidades:
-
-![Configurações da versão de eventos de Webhook](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-4.png)<br>
-
-## 4. Autentição pelo portal do BLiP
+## 1. Autentição pelo portal do BLiP
 
 Para fazer a publicação dos seu bot siga os passos detalhados [nesta página](https://help.blip.ai/docs/en/channels/messenger/publicando-bot-no-messenger/) na seção **Publicando na sua própria aplicação do Facebook**
 
-## 5. Testando o processo de configuração
+## 2. Testando o processo de configuração
 
 Envie uma mensagem para sua página no Facebook e teste se a mensagem chegou para o seu bot no BLiP.
 
 > **Nota: O bot pode começar a responder em até 3 minutos.**
 
 <br>
-
-## (Apenas se for utilizar Organização) Alteração de URL do Messenger
-Após realizar a migração para Organização será necessário alterar a Url de retorno de chamada em sua aplicação do Facebook.
-
-Acesse o portal de desenvolvedores do Facebook, acesse sua aplicação, clique no menu **Messenger**, entre em **Configurações** e altere as informações **Url de retorno de chamada** e **Verificar Token**, com os dados abaixo:
-
-**Url**: [https://{IdOrganização}-messenger.gw.msging.net](https://messenger.gw.msging.net)  
-**Token**: ze3jRmmaLU5KUTtUN
-
-![Configurações da versão de eventos de Webhook](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-5.png)<br>
-
-> **Nota: Lembre-se de substituir {IdOrganização} pelo valor correspondente.**
 
 <!-- Rating frame -->
 <script type="text/javascript" src="/scripts/rating.js"></script>
