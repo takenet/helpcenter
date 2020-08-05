@@ -480,14 +480,6 @@
         "title": "Como adicionar tags nas mensagens (Message Tags)",
         "sidebar_label": "Como adicionar tags nas mensagens (Message Tags)"
       },
-      "channels/messenger/como-configurar-sua-propria-aplicacao-facebook": {
-        "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
-        "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
-      },
-      "channels/messenger/como-criar-sua-propria-aplicacao-facebook": {
-        "title": "Como criar e/ou atualizar sua própria aplicação do Facebook",
-        "sidebar_label": "Como criar e/ou atualizar sua própria aplicação do Facebook"
-      },
       "channels/messenger/como-interagir-messenger": {
         "title": "Como interagir com os usuários através do Messenger",
         "sidebar_label": "Como interagir com os usuários através do Messenger"
@@ -499,6 +491,14 @@
       "channels/messenger/outros-recursos-messenger": {
         "title": "Acessando outros recursos do Messenger",
         "sidebar_label": "Acessando outros recursos do Messenger"
+      },
+      "channels/messenger/propria-aplicacao-config-avancada": {
+        "title": "Como conectar sua própria aplicação pelas Configurações Avançadas",
+        "sidebar_label": "Como conectar sua própria aplicação pelas Configurações Avançadas"
+      },
+      "channels/messenger/propria-aplicacao-portal": {
+        "title": "Como conectar sua própria aplicação através do Portal",
+        "sidebar_label": "Como conectar sua própria aplicação através do Portal"
       },
       "channels/messenger/publicando-bot-no-messenger": {
         "title": "Como publicar seu Chatbot no Messenger",

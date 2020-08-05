@@ -1,19 +1,8 @@
 ---
-id: como-criar-sua-propria-aplicacao-facebook
-title: Como criar e/ou atualizar sua própria aplicação do Facebook
-sidebar_label: Como criar e/ou atualizar sua própria aplicação do Facebook
+id: propria-aplicacao-config-avancada
+title: Como conectar sua própria aplicação pelas Configurações Avançadas
+sidebar_label: Como conectar sua própria aplicação pelas Configurações Avançadas
 ---
-
-> **Observações: Essa é uma configuração para usuários avançados! Siga essas instruções apenas se souber o que está fazendo.**
-
-Por padrão, todo bot publicado no canal Facebook, através do portal do BLiP, utiliza a aplicação **BLiP Messaging**, mantida pela equipe do BLiP, para enviar e receber mensagens. Esse processo facilita a integração com o Facebook e diminui muito o número de atividades necessárias para ter um bot disponível neste canal. Apesar disso, por várias razões, algumas pessoas/empresas podem desejar utilizar suas próprias aplicações do Facebook nesse processo.
-
-O BLiP permite que qualquer bot seja publicado no Facebook utilizando, não só a aplicação padrão da plataforma, como também outra aplicação customizada.
-
-Existem duas formas de utilizar uma aplicação customizada para publicar bots no Facebook Messenger:
-[Clique aqui](https://help.blip.ai/docs/en/channels/messenger/como-configurar-sua-propria-aplicacao-facebook/) para saber detalhes de como configurar sua aplicação customizada no BLiP.
-
------------------
 
 Para criar uma aplicação própria do Facebook recomenda-se seguir os passos da página oficial através [deste link](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/).
 
@@ -51,7 +40,7 @@ Abaixo listamos alguns passos para ajudar na criação e aprovação de uma apli
 
 * Ir em **Configurações -> Avançado** e selecionar a versão do API citada abaixo:
 
-![Configurações de versão da Aplicação](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-3.png)
+![Configurações de versão da Aplicação](/img/channels/messenger/messenger-propria-aplicacao-portal-3.png)
 
 **Atenção**: É recomendável que sua aplicação do Facebook esteja configurada para a versão **v5.0**. Caso contrário sua aplicação pode apresentar instabilidades.
 
@@ -66,7 +55,7 @@ Abaixo listamos alguns passos para ajudar na criação e aprovação de uma apli
 ## 1. Configurações do Produto: Login do Facebook
 Após adicionar o produto **Login do Facebook**, clique no menu **Login do Facebook -> Configurações** e configure as informações de OAuth do cliente conforme imagem abaixo:
 
-![Configurando informações de url de login](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-6.png)<br>
+![Configurando informações de url de login](/img/channels/messenger/messenger-propria-aplicacao-portal-6.png)<br>
 
 -----------------
 
@@ -113,7 +102,7 @@ Acesse sua aplicação, clique no menu **Messenger**, entre em **Configurações
 **Url**: [https://{IdOrganização}-messenger.gw.msging.net](https://messenger.gw.msging.net)  
 **Token**: ze3jRmmaLU5KUTtUN
 
-![Configurações da versão de eventos de Webhook](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-5.png)<br>
+![Configurações da versão de eventos de Webhook](/img/channels/messenger/messenger-propria-aplicacao-portal-5.png)<br>
 
 > **Nota: Lembre-se de substituir {IdOrganização} pelo valor correspondente.** 
 
@@ -122,14 +111,14 @@ Acesse sua aplicação, clique no menu **Messenger**, entre em **Configurações
 Acessar  **Messenger->Configurações->Webhook->Controles de versão de campo do webhook** .<br>
 Verificar se a versão dos webhooks selecionadas estão marcadas como v5.0. Faça as alterações se necessário, caso contrário sua aplicação pode apresentar instabilidades:
 
-![Configurações da versão de eventos de Webhook](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-4.png)<br>
+![Configurações da versão de eventos de Webhook](/img/channels/messenger/messenger-propria-aplicacao-portal-4.png)<br>
 
 -----------------
 
 Acessar  **Messenger->Configurações->Webhook->Adicionar ou Remover Páginas** e adicionar uma página onde será publicado um bot seu.<br>
 Para a página selecionada clicar em **Adicionar Assinaturas** e eelecionar os itens, conforme apresentado pela imagem abaixo:
 
-![Configurações de eventos de Webhook](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-2.png)<br>
+![Configurações de eventos de Webhook](/img/channels/messenger/messenger-propria-aplicacao-portal-2.png)<br>
 
 -----------------
 Após os passos acima é necessário enviar a Aplicação para revisão do Facebook.
