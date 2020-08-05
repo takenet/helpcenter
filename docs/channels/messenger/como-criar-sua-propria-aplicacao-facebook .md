@@ -1,38 +1,77 @@
 ---
-id: como-configurar-sua-propria-aplicacao-facebook
-title: Como configurar sua própria aplicação do Facebook em um bot no BLiP
-sidebar_label: Como configurar sua própria aplicação do Facebook em um bot no BLiP
+id: como-criar-sua-propria-aplicacao-facebook
+title: Como criar sua própria aplicação do Facebook
+sidebar_label: Como criar sua própria aplicação do Facebook
 ---
 
-> **Observação: Essa é uma configuração para usuários avançados! Siga essas instruções apenas se souber o que está fazendo.**
+> **Observações: Essa é uma configuração para usuários avançados! Siga essas instruções apenas se souber o que está fazendo.**
 
 Por padrão, todo bot publicado no canal Facebook, através do portal do BLiP, utiliza a aplicação **BLiP Messaging**, mantida pela equipe do BLiP, para enviar e receber mensagens. Esse processo facilita a integração com o Facebook e diminui muito o número de atividades necessárias para ter um bot disponível neste canal. Apesar disso, por várias razões, algumas pessoas/empresas podem desejar utilizar suas próprias aplicações do Facebook nesse processo.
 
 O BLiP permite que qualquer bot seja publicado no Facebook utilizando, não só a aplicação padrão da plataforma, como também outra aplicação customizada.
 
 Existem duas formas de utilizar uma aplicação customizada para publicar bots no Facebook Messenger:
-
-* **A) Usando uma Aplicação previamente criada e analisada pelo Facebook, um PageId e um PageAccessToken**
-* **B) Usando uma Aplicação previamente criada e analisada pelo Facebook e gerando um token através do BLiP**
+[Clique aqui](https://help.blip.ai/docs/en/channels/messenger/como-configurar-sua-propria-aplicacao-facebook/) para saber detalhes de como configurar sua aplicação customizada no BLiP.
 
 -----------------
 
-##  A) Usando Aplicação, PageId e PageAccessToken
+Para criar uma aplicação própria do Facebook recomenda-se seguir os passos da página oficial através [deste link](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/).
 
-Para utilizar uma aplicação customizada durante a publicação de um bot no Facebook você precisará de:
+Abaixo listamos alguns passos para ajudar na criação e aprovação de uma aplicação própria no Facebook:
 
-* **Aplicação previamente criada e analisada pelo Facebook.**
-* **PageId - [Clique aqui](https://findmyfbid.com/) para entender como criar um Facebook PageId**
+* Acessar o site https://developers.facebook.com/apps/;
+* Clicar em **Adicionar um novo Aplicativo**;
+* Selecionar **Gerenciar integrações comerciais**;
+* Preencher com o nome de exibição do Aplicativo e email de contato;
+* Escolher a opção **Outros Empresas**;
+* Clicar em  **Criar ID do aplicativo**;
+
+
+![Configurando informações básicas de Aplicativo no Facebook 1](/img/channels/messenger/messenger-como-criar-aplicacao-facebook-1.png)<br>
+
+-----------------
+
+* Após a aplicação ser criada ir em **Configurações -> Básico**;
+* Preencher os campos de acordo com a sua empresa. Abaixo segue exemplo dos valores usados pela aplicação padrão do BLiP;
+
+![Configurando informações básicas de Aplicativo no Facebook 2](/img/channels/messenger/messenger-como-criar-aplicacao-facebook-2.png)<br>
+
+* Ainda em **Configurações -> Básico**, acessar  **Status de verificação** e clicar em **Começar** em **Verificação da empresa**;
+* Associar uma conta do **Gerenciador do Negócio**. Caso não tenha ainda os detalhes para criação estão
+[neste link](https://www.facebook.com/business/help/1710077379203657?id=180505742745347):
+
+
+![Configurando informações básicas de Aplicativo no Facebook 3](/img/channels/messenger/messenger-como-criar-aplicacao-facebook-3.png)<br>
+
+* Preencher a seção de **Informações de contato do encarregado da proteção dos dados**:
+
+![Configurando informações básicas de Aplicativo no Facebook 4](/img/channels/messenger/messenger-como-criar-aplicacao-facebook-4.png)<br>
+
+-----------------
+
+* Ir em **Configurações -> Avançado** e selecionar a versão do API citada abaixo:
+
+![Configurações de versão da Aplicação](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-3.png)
+
+**Atenção**: É recomendável que sua aplicação do Facebook esteja configurada para a versão **v5.0**. Caso contrário sua aplicação pode apresentar instabilidades.
+
+* Escolher a opção **Outros Empresas**;
+* Clicar em  **Criar ID do aplicativo**;
+
+-----------------
+
+* Clicar em  **Criar ID do aplicativo**;
+
 * **PageAccessToken - Token de acesso a sua página no Facebook**
 
 *Se você não sabe como criar uma aplicação no Facebook, ou precisa de ajuda para gerar um PageAccessToken [clique aqui](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup).*
 
 **Atenção**: É recomendável que sua aplicação do Facebook esteja configurada para a versão **v5.0**. Caso contrário sua aplicação pode apresentar instabilidades. Você pode definir essa informação nas configurações avançadas da sua aplicação:
 
-![Configurações de versão da Aplicação](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-3.png)
 
 
-## 1. Configuração de Webhooks
+
+###### 1. Configuração de Webhooks
 De posse das duas informações acima, vá até o portal de desenvolvedores do Facebook, acesse sua aplicação, clique no menu **Webhook** e configure as informações **Url de retorno de chamada** e **Verificar Token**, conforme imagem abaixo:
 
 Url: https://messenger.gw.msging.net
