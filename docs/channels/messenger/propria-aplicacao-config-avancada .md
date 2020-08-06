@@ -34,11 +34,6 @@ para configurar. Caso contrário é só seguir os passos da **Seção 1**:
 
 ## 2. Configurando sua própria aplicação do Facebook para conectar via Configurações Avançadas
 
-> **Atenção**: É recomendável que sua aplicação do Facebook esteja configurada para a versão **v5.0**. Caso contrário sua aplicação pode apresentar instabilidades. Você pode definir essa informação nas configurações avançadas da sua aplicação:
-
-![Configurações de versão da Aplicação](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-3.png)
-<br>
-
 > **Importante: Para que sua aplicação funcione corretamente é preciso adicionar os produtos: Messenger e Webhooks em sua aplicação.**
 
 ![Produtos necesários na Aplicação](/img/channels/messenger/propria-aplicacao-config-avancada-1.png)
@@ -100,126 +95,20 @@ Verificar se a versão dos webhooks selecionadas estão marcadas como **v5.0**. 
 
 -----------------
 
+## 3. Permissões necessárias pela aplicação do Facebook para conectar via Configurações Avançadas
 
+Após a criação da aplicação do Facebook, você vai precisar solicitar algumas permissões específicas para que sua aplicação funcione corretamente junto ao BLiP. Para isto você deve ir em **Análise do Aplicativo->Permissões e recursos** e solicitar cada permissão separadamente:
 
+![Menu de Permisões da Aplicação](/img/channels/messenger/propria-aplicacao-portal-6.png)<br>
 
+Segue a lista de permissões e o motivo do seu uso:
 
-Abaixo listamos alguns passos para ajudar na criação e aprovação de uma aplicação própria no Facebook:
-
-* Acessar o site https://developers.facebook.com/apps/;
-* Clicar em **Adicionar um novo Aplicativo**;
-* Selecionar **Gerenciar integrações comerciais**;
-* Preencher com o nome de exibição do Aplicativo e email de contato;
-* Escolher a opção **Outros Empresas**;
-* Clicar em  **Criar ID do aplicativo**;
-
-
-![Configurando informações básicas de Aplicativo no Facebook 1](/img/channels/messenger/messenger-como-criar-aplicacao-facebook-1.png)<br>
-
------------------
-
-* Após a aplicação ser criada ir em **Configurações -> Básico**;
-* Preencher os campos de acordo com a sua empresa. Abaixo segue exemplo dos valores usados pela aplicação padrão do BLiP;
-
-![Configurando informações básicas de Aplicativo no Facebook 2](/img/channels/messenger/messenger-como-criar-aplicacao-facebook-2.png)<br>
-
-* Ainda em **Configurações -> Básico**, acessar  **Status de verificação** e clicar em **Começar** em **Verificação da empresa**;
-* Associar uma conta do **Gerenciador do Negócio**. Caso não tenha ainda os detalhes para criação estão
-[neste link](https://www.facebook.com/business/help/1710077379203657?id=180505742745347):
-
-
-![Configurando informações básicas de Aplicativo no Facebook 3](/img/channels/messenger/messenger-como-criar-aplicacao-facebook-3.png)<br>
-
-* Preencher a seção de **Informações de contato do encarregado da proteção dos dados**:
-
-![Configurando informações básicas de Aplicativo no Facebook 4](/img/channels/messenger/messenger-como-criar-aplicacao-facebook-4.png)<br>
-
------------------
-
-* Ir em **Configurações -> Avançado** e selecionar a versão do API citada abaixo:
-
-![Configurações de versão da Aplicação](/img/channels/messenger/messenger-propria-aplicacao-portal-3.png)
-
-**Atenção**: É recomendável que sua aplicação do Facebook esteja configurada para a versão **v5.0**. Caso contrário sua aplicação pode apresentar instabilidades.
-
------------------
-
-> **Atenção: Para que sua aplicação funcione corretamente é preciso adicionar os produtos: Login do Facebook, Messenger e Webhooks.**
-
-![Produtos necesários na Aplicação](/img/channels/messenger/messenger-como-criar-aplicacao-facebook-5.png)
-
------------------
-
-## 1. Configurações do Produto: Login do Facebook
-Após adicionar o produto **Login do Facebook**, clique no menu **Login do Facebook -> Configurações** e configure as informações de OAuth do cliente conforme imagem abaixo:
-
-![Configurando informações de url de login](/img/channels/messenger/messenger-propria-aplicacao-portal-6.png)<br>
-
------------------
-
-## 2. Configurações do Produto Webhooks
-
-Após adicionar o produto **Webhooks**, é necessário configurar quais eventos do Messenger serão enviados pelo Facebook. Para isto, no menu **Webhooks**, selecione a opção **Page** e clique em **Subscribe to this Object**. Preencha com os valores abaixo:
-
-**Url**: https://messenger.gw.msging.net
-
-**Token**: ze3jRmmaLU5KUTtUN*
-
-![Configurações de eventos de Webhook](/img/channels/messenger/messenger-como-criar-aplicacao-facebook-7.png)<br>
-
------------------
-
-## (Apenas se for utilizar Organização) Alteração de URL do Webhook
-
-Usar os valores abaixo:
-
-**Url**: [https://{IdOrganização}-messenger.gw.msging.net](https://messenger.gw.msging.net)  
-**Token**: ze3jRmmaLU5KUTtUN
-
-
-> **Nota: Lembre-se de substituir {IdOrganização} pelo valor correspondente.** 
-
------------------
-
-## 3. Configurações do Produto: Messsenger
-Após adicionar o produto **Messenger**, e de posse das duas informações abaixo, clique no menu **Messenger->Configurações->Webhook** e configure as informações **Url de retorno de chamada** e **Verificar Token** conforme imagem abaixo:
-
-Url: https://messenger.gw.msging.net
-
-*Token: ze3jRmmaLU5KUTtUN*
-
-![Configurando informações de url de retorno de chamada](/img/channels/messenger/messenger-como-criar-aplicacao-facebook-6.png)<br>
-
------------------
-
-## (Apenas se for utilizar Organização) Alteração de URL do Messenger
-Após realizar a migração para Organização será necessário alterar a Url de retorno de chamada em sua aplicação do Facebook.
-
-Acesse sua aplicação, clique no menu **Messenger**, entre em **Configurações** e altere as informações **Url de retorno de chamada** e **Verificar Token**, com os dados abaixo:
-
-**Url**: [https://{IdOrganização}-messenger.gw.msging.net](https://messenger.gw.msging.net)  
-**Token**: ze3jRmmaLU5KUTtUN
-
-![Configurações da versão de eventos de Webhook](/img/channels/messenger/messenger-propria-aplicacao-portal-5.png)<br>
-
-> **Nota: Lembre-se de substituir {IdOrganização} pelo valor correspondente.** 
-
------------------
-
-Acessar  **Messenger->Configurações->Webhook->Controles de versão de campo do webhook** .<br>
-Verificar se a versão dos webhooks selecionadas estão marcadas como v5.0. Faça as alterações se necessário, caso contrário sua aplicação pode apresentar instabilidades:
-
-![Configurações da versão de eventos de Webhook](/img/channels/messenger/messenger-propria-aplicacao-portal-4.png)<br>
-
------------------
-
-Acessar  **Messenger->Configurações->Webhook->Adicionar ou Remover Páginas** e adicionar uma página onde será publicado um bot seu.<br>
-Para a página selecionada clicar em **Adicionar Assinaturas** e eelecionar os itens, conforme apresentado pela imagem abaixo:
-
-![Configurações de eventos de Webhook](/img/channels/messenger/messenger-propria-aplicacao-portal-2.png)<br>
-
------------------
-Após os passos acima é necessário enviar a Aplicação para revisão do Facebook.
+* **pages_messaging:** Enviar e responder as messagens no Facebook Messenger automaticamente.
+* **pages_user_gender:** Os bots associados a aplicação podem enviar mensagens em vários idiomas. Essa permissão será usada para aplicar o pronome correto.
+* **pages_user_locale:** Os bots associados a aplicação podem enviar mensagens para pessoas em muitos países. Essa permissão pode ser usada para direcionar pessoas para bots que usam seus idiomas.
+* **pages_user_timezone:** Os bots associados a aplicação podem enviar notificações para o usuário usando Tags de mensagem. Essa permissão pode ser usada para evitar o envio de notificações em horários inconvenientes, como no meio da noite.
+* **pages_manage_metadata:** A aplicação usará a permissão pages_manage_metadata para permitir que o Administrador da página assine os webhooks para receber as mensagens enviadas para a página do administrador. Com essas mensagens, podemos criar chatbots. A aplicação ajudará o administrador da página a gerenciar as mensagens recebidas por um chat automático.
+* **Page Public Metadata Access:** A aplicação usará este recurso para mostrar informações públicas sobre as páginas conectadas à aplicação, como o nome da página e a imagem da página.
 
 <!-- Rating frame -->
 <script type="text/javascript" src="/scripts/rating.js"></script>

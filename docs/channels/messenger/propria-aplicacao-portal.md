@@ -37,12 +37,6 @@ para configurar. Caso contrário é só seguir os passos da **Seção 1**:
 
 ## 2. Configurando sua própria aplicação do Facebook para conectar via Portal
 
-> **Atenção**: É recomendável que sua aplicação do Facebook esteja configurada para a versão **v5.0**. Caso contrário sua aplicação pode apresentar instabilidades. Você pode definir essa informação nas configurações avançadas da sua aplicação:
-
-![Configurações de versão da Aplicação](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-3.png)
-
------------------
-
 > **Importante: Para que sua aplicação funcione corretamente é preciso adicionar os produtos: Login do Facebook, Messenger e Webhooks em sua aplicação.**
 
 ![Produtos necesários na Aplicação](/img/channels/messenger/propria-aplicacao-portal-1.png)
@@ -115,38 +109,20 @@ Verificar se a versão dos webhooks selecionadas estão marcadas como **v5.0**. 
 
 -----------------
 
+## 3. Permissões necessárias pela aplicação do Facebook para conectar via Portal
 
+Após a criação da aplicação do Facebook, você vai precisar solicitar algumas permissões específicas para que sua aplicação funcione corretamente junto ao BLiP. Para isto você deve ir em **Análise do Aplicativo->Permissões e recursos** e solicitar cada permissão separadamente:
 
-## 2. Testando o processo de configuração
+![Menu de Permisões da Aplicação](/img/channels/messenger/propria-aplicacao-portal-6.png)<br>
 
-Envie uma mensagem para sua página no Facebook e teste se a mensagem chegou para o seu bot no BLiP.
+Segue a lista de permissões e o motivo do seu uso:
 
-> **Nota: O bot pode começar a responder em até 3 minutos.**
-
-<br>
------------------
-
-##  B) Usando uma Aplicação e gerando um token através do BLiP
-
-Para utilizar uma aplicação customizada durante a publicação de um bot no Facebook você precisará de:
-
-* **Aplicação previamente criada e analisada pelo Facebook.**
-* **App Id - Id único da Aplicação**
-* **App Secret - Chave secreta do Aplicação**
-
-*Se você não sabe onde pegar o AppId e/ou o AppSecret [clique aqui](https://help.blip.ai/docs/en/channels/messenger/publicando-bot-no-messenger/) e olhe a seção **Publicando na sua própria aplicação do Facebook**.*
-
-## 1. Autentição pelo portal do BLiP
-
-Para fazer a publicação dos seu bot siga os passos detalhados [nesta página](https://help.blip.ai/docs/en/channels/messenger/publicando-bot-no-messenger/) na seção **Publicando na sua própria aplicação do Facebook**
-
-## 2. Testando o processo de configuração
-
-Envie uma mensagem para sua página no Facebook e teste se a mensagem chegou para o seu bot no BLiP.
-
-> **Nota: O bot pode começar a responder em até 3 minutos.**
-
-<br>
+* **pages_messaging:** Enviar e responder as messagens no Facebook Messenger automaticamente.
+* **pages_user_gender:** Os bots associados a aplicação podem enviar mensagens em vários idiomas. Essa permissão será usada para aplicar o pronome correto.
+* **pages_user_locale:** Os bots associados a aplicação podem enviar mensagens para pessoas em muitos países. Essa permissão pode ser usada para direcionar pessoas para bots que usam seus idiomas.
+* **pages_user_timezone:** Os bots associados a aplicação podem enviar notificações para o usuário usando Tags de mensagem. Essa permissão pode ser usada para evitar o envio de notificações em horários inconvenientes, como no meio da noite.
+* **pages_manage_metadata:** A aplicação usará a permissão pages_manage_metadata para permitir que o Administrador da página assine os webhooks para receber as mensagens enviadas para a página do administrador. Com essas mensagens, podemos criar chatbots. A aplicação ajudará o administrador da página a gerenciar as mensagens recebidas por um chat automático.
+* **Page Public Metadata Access:** A aplicação usará este recurso para mostrar informações públicas sobre as páginas conectadas à aplicação, como o nome da página e a imagem da página.
 
 <!-- Rating frame -->
 <script type="text/javascript" src="/scripts/rating.js"></script>
