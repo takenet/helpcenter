@@ -10,7 +10,7 @@ para configurar. Caso contrário é só seguir os passos da **Seção 1**:
 
 ## 1. Publicando através de sua própria aplicação do Facebook via Portal
 
-**1.1)** Vá para aba **Configurações**, e clique no botão **Usar minha própria aplicação**. Será disponibilizado os campos para se adicionar seu *App ID* e *App Secret* da sua aplicação no Facebook.
+**1.1)** Vá para aba **Configurações**, e clique no botão **Usar minha própria aplicação**. Serão disponibilizados os campos para você adicionar o *App ID* e *App Secret* da sua aplicação no Facebook.
 
 ![Selecionando opção Usar aplicação Propria](/img/channels/messenger/usar-aplicacao-propria.png)<br>
 
@@ -30,9 +30,20 @@ para configurar. Caso contrário é só seguir os passos da **Seção 1**:
 
 ![Lista páginas para conexeção com o Facebook Messenger](/img/channels/messenger/propria-aplicacao-portal-3.png)<br>
 
+**1.6)** Envie uma mensagem para sua página no Facebook e teste se a mensagem chegou para o seu bot no BLiP.
+
+> **Nota: O bot pode começar a responder em até 3 minutos.**
+<br>
+
 ## 2. Configurando sua própria aplicação do Facebook para conectar via Portal
 
-> **Atenção: Para que sua aplicação funcione corretamente é preciso adicionar os produtos: Login do Facebook, Messenger e Webhooks em sua aplicação.**
+> **Atenção**: É recomendável que sua aplicação do Facebook esteja configurada para a versão **v5.0**. Caso contrário sua aplicação pode apresentar instabilidades. Você pode definir essa informação nas configurações avançadas da sua aplicação:
+
+![Configurações de versão da Aplicação](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-3.png)
+
+-----------------
+
+> **Importante: Para que sua aplicação funcione corretamente é preciso adicionar os produtos: Login do Facebook, Messenger e Webhooks em sua aplicação.**
 
 ![Produtos necesários na Aplicação](/img/channels/messenger/propria-aplicacao-portal-1.png)
 
@@ -104,15 +115,7 @@ Verificar se a versão dos webhooks selecionadas estão marcadas como **v5.0**. 
 
 -----------------
 
-## 1. Configuração das informações da aplicação do Facebook BLiP
 
-A última etapa do processo de publicação customizada acontece no BLiP. No portal, escolha o bot que deseja publicar, vá até a tela de Configurações Avançadas (clique aqui se você não sabe como chegar até a tela de Configurações Avançadas) e adicione os seguintes registros na tabela.
-
-| Domínio | Chave | Valor |
-|------------------------------------|-----------------|-----------------------|
-| postmaster@messenger<span>.</span>gw<span>.</span>msging<span>.</span>net | PageAccessToken | SEU_PAGE_ACCESS_TOKEN |
-| postmaster@messenger<span>.</span>gw<span>.</span>msging<span>.</span>net | PageId | SEU_PAGE_ID |
-| postmaster@messenger<span>.</span>gw<span>.</span>msging<span>.</span>net | isChannelActive | True |
 
 ## 2. Testando o processo de configuração
 
