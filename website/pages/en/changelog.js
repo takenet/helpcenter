@@ -124,6 +124,13 @@ var aux;
 var releases =[
       {
          "id":"news",
+         "title":"Adição de Atendentes no BLiP Desk",
+         "date":"11 de Agosto de 2020",
+         "text":"Para agilizar a adição de novos atendentes na equipe do chatbot, disponibilizamos a possibilidade de acrescentar mais de um e-mail simultaneamente.",
+         "link": "https://help.blip.ai/docs/en/helpdesk/blipdesk/gerenciamento-equipes/?utm_source=changelog",
+      },
+      {
+         "id":"news",
          "title":"Botões de ação e de resposta rápida nos modelos de mensagem do WhatsApp",
          "date":"03 de Agosto de 2020",
          "text":"Adicionamos à funcionalidade de modelos de mensagem do WhatsApp no portal do BLiP a atualização que possibilita o uso de botões de ação e de respostas rápidas nas mensagens.",
