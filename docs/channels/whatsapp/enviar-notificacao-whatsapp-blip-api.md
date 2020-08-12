@@ -82,8 +82,8 @@ Authorization: Key YOUR_TOKEN
    "to": "553199998888@wa.gw.msging.net",
    "type": "application/json",
    "content": {
-      "type": "hsm",
-      "hsm": {
+      "type": "template",
+      "template": {
          "namespace": "{{NAMESPACE}}",
          "element_name": "{{MESSAGE_TEMPLATE_NAME}}",
          "language": {
