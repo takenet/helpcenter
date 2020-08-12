@@ -29,8 +29,11 @@ Preencha as informações necessárias para a submissão de um message template.
 * Categoria: categoria que mais se aproxima do conteúdo da sua mensagem.
 * Idioma do modelo: o idioma utilizado no template (*é possível disponibilizar diferentes traduções para cada template*)
 * Conteúdo da mensagem: (*tipos suportados: texto, documentos e imagens*)
+* Para criação do Message Template dentro do Blip, **o tamanho máximo do vídeo é de 16MB**.
 
 **Observação: clique no botão 'Adicionar tradução' caso queira utilizar um mesmo template em diferentes idiomas**
+
+> 
 
 
 ------------------------------
