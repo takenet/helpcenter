@@ -476,6 +476,9 @@
         "title": "Arquitetura do canal do Messenger",
         "sidebar_label": "Arquitetura do canal do Messenger"
       },
+      "channels/messenger/como-adicionar-message-tags": {
+        "title": "Como adicionar tags nas mensagens (Message Tags)"
+		  },
       "channels/messenger/como-enviar-mensagens-ativas-messenger-via-portal": {
         "title": "Como enviar mensagens ativas do Messenger via Portal",
         "sidebar_label": "Como enviar mensagens ativas do Messenger via Portal"
