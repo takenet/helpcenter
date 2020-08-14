@@ -3,7 +3,7 @@ id: como-adicionar-message-tags
 title: Como adicionar tags nas mensagens (Message Tags)
 ---
 
-> **Observação: O uso de Message Tags usando a API do BLiP está em manutenção. Enquanto isto você pode enviar mensagens ativas no Facebook Messnger através do portal. Para saber como [clique aqui](http://help.blip.ai/en/channels/messenger/como-enviar-mensagens-ativas-messenger-via-portal/)**.
+> **Observação: O uso de Message Tags usando a API do BLiP está em manutenção. Enquanto isto você pode enviar mensagens ativas no Facebook Messnger através do portal. Para saber como [clique aqui](http://help.blip.ai/docs/en/channels/messenger/como-enviar-mensagens-ativas-messenger-via-portal/)**.
 
 De acordo com a política do Messenger, as empresas devem responder às mensagens do usuário dentro da janela de 24 horas. **Fora da janela de mensagens padrão, é necessário adicionar as tags de mensagem**, que permitem enviar atualizações importantes e relevantes.
 
