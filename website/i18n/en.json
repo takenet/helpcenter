@@ -477,8 +477,11 @@
         "sidebar_label": "Arquitetura do canal do Messenger"
       },
       "channels/messenger/como-adicionar-message-tags": {
-        "title": "Como adicionar tags nas mensagens (Message Tags)",
-        "sidebar_label": "Como adicionar tags nas mensagens (Message Tags)"
+        "title": "Como adicionar tags nas mensagens (Message Tags)"
+		  },
+      "channels/messenger/como-enviar-mensagens-ativas-messenger-via-portal": {
+        "title": "Como enviar mensagens ativas do Messenger via Portal",
+        "sidebar_label": "Como enviar mensagens ativas do Messenger via Portal"
       },
       "channels/messenger/como-configurar-sua-propria-aplicacao-facebook": {
         "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
