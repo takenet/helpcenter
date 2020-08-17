@@ -8,11 +8,8 @@ Em novembro de 2018 lançamos um novo módulo na plataforma, o BLiP Growth (cres
 
 Além da já conhecida ferramenta de agendamento de mensagens, a partir de agora é possível também criar e gerenciar campanhas de anúncios para o Facebook, com o objetivo de alcançar novos usuários, sem sair do BLiP.
 
+> A integração com o Sugar ADs e Facebook ADs será descontinuada a partir do dia **22/07/2020**.
+
 [**Este vídeo**](https://www.facebook.com/blip.messaging/videos/1898010483588086/) apresenta detalhadamente como utilizar todas as ferramentas do módulo de Growth do BLiP, através de alguns testes rápidos.
-
-Outros links importantes para quem quer saber mais sobre este módulo da plataforma:
-
-* [**Criando uma campanha de anúncio (Facebook Ads) para o seu bot**](/docs/growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot)
-* [**Como analisar os resultados de sua campanha de anúncio (Facebook Ads)**](/docs/growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads)
 
 Ficou com alguma dúvida? Use o fórum do BLiP para pedir ajuda [**forum.blip.ai**](https://forum.blip.ai).

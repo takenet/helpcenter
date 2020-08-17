@@ -20,10 +20,12 @@ Ao longo de um atendimento um ticket pode assumir diferentes status. A lista aba
 * **Aberto**: Total de tickets que foram abertos pelo BLiP Desk em um determinado período. (*Presente apenas na tela de relatório de tickets*)
 * **Na fila**: Total de tickets que estão aguardando atribuição a um atendente. Esses são os tickets que estão na fila à espera de atendimento.
 * **Em atendimento**: Total de tickets que foram atribuídos a um atendente e iniciou-se o atendimento. **Um ticket é considerado fora da fila e em atendimento após a primeira resposta do atendente.**. 
-* **Perdido**: Total de tickets cancelados por clientes antes de serem atribuídos a um atendente.
-* **Abandonado**: Total de Tickets cancelados por clientes após serem atribuídos a um atendente.
+* **Perdido**: Total de tickets cancelados por clientes* antes de serem atribuídos a um atendente.
+* **Abandonado**: Total de Tickets cancelados por clientes* após serem atribuídos a um atendente.
 * **Atendido**: Tickets finalizados e transferidos pelo atendente. *Tickets transferidos geram um ticket com um novo ID para transferência, por isso são considerados como atendidos*.
 * **Fechado**: Total de tickets fechados pelo BLiP Desk no período. Tickets **perdidos**, **abandonados** e **atendidos** são considerados como tickets fechados.
+
+> \* Um ticket só pode ser cancelado/fechado por um cliente através de uma requisição à API do BLiP, pois essa funcionalidade não está presente nativamente no Desk. Portanto, caso você não tenha feito ou permitido que seu cliente faça essa requisição, as métricas **Perdidos** e **Abandonados** ficarão zeradas nos relatórios.
 
 ## Métricas - Tempo
 

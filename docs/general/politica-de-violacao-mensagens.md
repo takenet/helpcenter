@@ -18,7 +18,7 @@ São as mensagens enviadas pelo bot, depois de 24 horas, após o recebimento de 
 Devem ser enviadas através de Messages Templates (ou modelos de mensagens) previamente aprovados pelo WhatsApp (Mensagens ativas no WhatsApp possuem tarifação).
 
 ### Mensagens ativas no Facebook Messenger
-Devem ser enviadas através da Ferramenta Agendador (agendamento de mensagens) do módulo de Growth, ou através da API HTTP do BLiP. Por padrão, o Agendador já adiciona os parâmetros especiais que identificam uma mensagem ativa, conforme solicitado pelo Facebook.
+Devem ser enviadas através da Ferramenta Agendador (agendamento de mensagens) do módulo de Growth. Por padrão, o Agendador já adiciona os parâmetros especiais que identificam uma mensagem ativa, conforme solicitado pelo Facebook.
 
 ## Alerta de violação da Política de mensagens ativas do BLiP
 Para reduzir as chances de que um bot seja punido por violar as políticas de mensagens ativas, o BLiP envia um email de alerta para o criador do bot informando que a política foi violada. Esse é apenas um alerta para que você fique atento e não cometa o erro novamente.
