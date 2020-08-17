@@ -209,6 +209,10 @@
         "title": "Como definir um tempo limite (timeout) para ações do Builder",
         "sidebar_label": "Como definir um tempo limite (timeout) para ações do Builder"
       },
+      "builder/como-usar-tempo-inatividade": {
+        "title": "Como usar o tempo de inatividade de usuário",
+        "sidebar_label": "Como usar o tempo de inatividade de usuário"
+      },
       "builder/como-utilizar-debug-builder": {
         "title": "Como utilizar a ferramenta de debug do Builder",
         "sidebar_label": "Como utilizar a ferramenta de debug do Builder"
@@ -428,6 +432,22 @@
         "title": "Visão geral do Google Assistant",
         "sidebar_label": "Visão geral do Google Assistant"
       },
+      "channels/google-bm/arquitetura-google-bm": {
+        "title": "Arquitetura do Canal Google Business Messages",
+        "sidebar_label": "Arquitetura do Canal Google Business Messages"
+      },
+      "channels/google-bm/beneficios-google-bm": {
+        "title": "Benefícios do Google Business Messages",
+        "sidebar_label": "Benefícios do Google Business Messages"
+      },
+      "channels/google-bm/publicando-bot-google-bm": {
+        "title": "Como publicar seu Chatbot no Google Business Messages",
+        "sidebar_label": "Como publicar seu Chatbot no Google Business Messages"
+      },
+      "channels/google-bm/visao-geral-google-bm": {
+        "title": "Visão geral do Google Business Messages",
+        "sidebar_label": "Visão geral do Business Messages"
+      },
       "channels/google-rcs/como-interagir-google-rcs": {
         "title": "Como interagir com os usuários através do Google RCS",
         "sidebar_label": "Como interagir com os usuários através do Google RCS"
@@ -457,8 +477,11 @@
         "sidebar_label": "Arquitetura do canal do Messenger"
       },
       "channels/messenger/como-adicionar-message-tags": {
-        "title": "Como adicionar tags nas mensagens (Message Tags)",
-        "sidebar_label": "Como adicionar tags nas mensagens (Message Tags)"
+        "title": "Como adicionar tags nas mensagens (Message Tags)"
+		  },
+      "channels/messenger/como-enviar-mensagens-ativas-messenger-via-portal": {
+        "title": "Como enviar mensagens ativas do Messenger via Portal",
+        "sidebar_label": "Como enviar mensagens ativas do Messenger via Portal"
       },
       "channels/messenger/como-configurar-sua-propria-aplicacao-facebook": {
         "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
@@ -551,6 +574,10 @@
       "channels/whatsapp/arquitetura-do-whatsapp": {
         "title": "Arquitetura do canal WhatsApp",
         "sidebar_label": "Arquitetura do canal WhatsApp"
+      },
+      "channels/whatsapp/como-buscar-informacoes-de-uma-waba-fora-do-business-manager-da-take": {
+        "title": "Como buscar informações de uma WABA fora do Business Manager da Take",
+        "sidebar_label": "Como buscar informações de uma WABA fora do Business Manager da Take"
       },
       "channels/whatsapp/como-criar-aprovar-message-template": {
         "title": "Como criar e aprovar um Message Template no WhatsApp",
@@ -732,17 +759,9 @@
         "title": "Política de violação de mensagens ativas do BLiP",
         "sidebar_label": "Política de violação de mensagens ativas do BLiP"
       },
-      "growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads": {
-        "title": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)",
-        "sidebar_label": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)"
-      },
       "growth/como-identificar-usuarios-campanha": {
         "title": "Como identificar usuários vindos de uma campanha (anúncio)",
         "sidebar_label": "Como identificar usuários vindos de uma campanha (anúncio)"
-      },
-      "growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot": {
-        "title": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot",
-        "sidebar_label": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot"
       },
       "growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast": {
         "title": "Obtendo o número de usuários afetados por um broadcast",
@@ -812,6 +831,10 @@
         "title": "Dominando e customizando o template de atendimento",
         "sidebar_label": "Dominando e customizando o template de atendimento"
       },
+      "helpdesk/blipdesk/exemplos-regras-atendimento": {
+        "title": "Exemplos práticos de regras de atendimento",
+        "sidebar_label": "Exemplos práticos de regras de atendimento"
+      },
       "helpdesk/blipdesk/gerenciamento-equipes": {
         "title": "Gerenciando equipes de atendimento no BLiP Desk",
         "sidebar_label": "Gerenciando equipes de atendimento no BLiP Desk"
@@ -837,8 +860,8 @@
         "sidebar_label": "Como conectar a um canal de atendimento personalizado"
       },
       "helpdesk/liveagent/utilizar-live-agent-salesForce-atendimento-humano": {
-        "title": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?",
-        "sidebar_label": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?"
+        "title": "Configurando o atendimento via chat no Salesforce",
+        "sidebar_label": "Configurando o atendimento via chat no Salesforce"
       },
       "introduction/como-criar-um-bot-com-builder": {
         "title": "Como criar um bot com o Builder do BLiP",
@@ -1026,8 +1049,6 @@
     "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!|no description given": "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!",
     "Mais recentes|no description given": "Mais recentes",
     "Como salvar o número do WhatsApp de um contato?|no description given": "Como salvar o número do WhatsApp de um contato?",
-    "Como identificar usuários vindos de uma campanha (anúncio)|no description given": "Como identificar usuários vindos de uma campanha (anúncio)",
-    "Como validar a entrada do usuário|no description given": "Como validar a entrada do usuário",
     "Dominando e customizando o template de atendimento|no description given": "Dominando e customizando o template de atendimento",
     "Mais acessados|no description given": "Mais acessados",
     "Como criar um bot com o Builder do BLiP|no description given": "Como criar um bot com o Builder do BLiP",

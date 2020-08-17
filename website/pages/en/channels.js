@@ -46,6 +46,13 @@ const data = {
       "abstract": "Conecte-se com clientes através do aplicativo nativo de mensagens do Android.",
       "text": "Aprenda mais!"
     },
+    {
+      "title": "Google Business Messages",
+      "icon": "/img/illustrations/google-rcs-logo.svg",
+      "url": "/googlebm",
+      "abstract": "Fique disponível para seus clientes na pesquisa do Google",
+      "text": "Aprenda mais!"
+    },
     /* {
       "title": "Infobip",
       "icon": "/img/illustrations/infobip-logo.svg",

@@ -65,7 +65,7 @@ Após configurado um número de teste, criar uma chave de acesso e submeter as i
 ![Imagem que demonstra um exemplo de configurações de um bot do BLiP no canal Google RCS](/img/channels/google-rcs/advanced-settings-rcs.png)
 
 - **AccountExternalId** - Chave aleatória utilizada para identificar seu bot. Essa é a mesma informação utilizada na URL de PubSub durante a configuração do agente no Google RCS.
-- **RCSClientToken** - Token obtido durante a criação da chave do RCS no passo 3.
+- **RcsClientToken** - Token obtido durante a criação da chave do RCS no passo 3.
 - **ServiceCredentialJson** - Conteúdo do arquivo JSON obtido durante a criação da chave do RCS no passo 1. Para obter o conteúdo do arquivo, abra-o em um editor de texto e copie o conteúdo, conforme demostrado na imagem abaixo.
 
 ![Imagem que demonstra como abrir um arquivo JSON e copiar seu conteúdo](/img/channels/google-rcs/rcs-credential-json.png)

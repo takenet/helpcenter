@@ -73,6 +73,8 @@ Armazene com segurança o arquivo JSON que contém a chave.
 
 Após todos os passos acima o seu aplicativo já pode receber as mensagens.
 
+> **Nota: Atualmente, para realizar este processo abra um chamado no suporte (https://support.blip.ai/), enviando o arquivo JSON gerado e solicitando as informações.**
+
 ## Testando a integração
 
 Crie uma classe que herda de **FirebaseMessagingService** para consumir os pushes enviados pelo BLiP através do método abaixo:

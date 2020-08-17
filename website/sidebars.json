@@ -74,14 +74,12 @@
       },
       {
         "type": "subcategory",
-        "label": "Infobip",
+        "label": "Google Business Messages",
         "ids": [
-          "channels/infobip/visao-geral-infobip",
-          "channels/infobip/arquitetura-infobip",
-          "channels/infobip/funcionalidades-infobip",
-          "channels/infobip/tipos-conteudo-infobip",
-          "channels/infobip/publicando-bot-infobip",
-          "channels/infobip/como-interagir-infobip"
+          "channels/google-bm/visao-geral-google-bm",
+          "channels/google-bm/arquitetura-google-bm",
+          "channels/google-bm/beneficios-google-bm",
+          "channels/google-bm/publicando-bot-google-bm"
         ]
       },
       {
@@ -96,7 +94,7 @@
           "channels/messenger/como-interagir-messenger",
           "channels/messenger/outros-recursos-messenger",
           "channels/messenger/como-configurar-sua-propria-aplicacao-facebook",
-          "channels/messenger/como-adicionar-message-tags"
+          "channels/messenger/como-enviar-mensagens-ativas-messenger-via-portal"
         ]
       },
       {
@@ -137,7 +135,8 @@
           "channels/whatsapp/como-enviar-notificacoes-respostas-prontas",
           "channels/whatsapp/como-gerenciar-lista-de-distribuicao-notificacao-whatsapp",
           "channels/whatsapp/como-salvar-numero-whatsapp",
-          "channels/whatsapp/qualidade-contato-whatsapp"
+          "channels/whatsapp/qualidade-contato-whatsapp",
+          "channels/whatsapp/como-buscar-informacoes-de-uma-waba-fora-do-business-manager-da-take"
         ]
       },
       {
@@ -187,7 +186,8 @@
       "builder/salvando-entrada-variavel",
       "builder/como-validar-entrada-usuario",
       "builder/tipo-conteudo-dinamico",
-      "builder/criando-carrinho-compras"
+      "builder/criando-carrinho-compras",
+      "builder/como-usar-tempo-inatividade"
     ],
     "Inteligência Artificial": [
       {
@@ -226,6 +226,7 @@
           "helpdesk/blipdesk/utilizando-variav-respostas",
           "helpdesk/blipdesk/gerenciamento-equipes",
           "helpdesk/blipdesk/como-definir-regras-atendimento",
+          "helpdesk/blipdesk/exemplos-regras-atendimento",
           "helpdesk/blipdesk/habilitando-uso-emoji-desk",
           "helpdesk/blipdesk/descricao-metricas-desk",
           "helpdesk/blipdesk/como-filtrar-ticket-id",
@@ -311,8 +312,6 @@
       }
     ],
     "Retenção e Engajamento": [
-      "growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot",
-      "growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads",
       "growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast",
       "growth/como-identificar-usuarios-campanha"
     ],
