@@ -49,11 +49,11 @@ Ao final do processo de criação de uma chave você terá um arquivo JSON (**Se
 
 Insira a URL de enpoint do BLiP para o canal Google RCS. Esta é a configuração que define qual URL deverá ser utilizada pelo Google RCS para enviar as mensagens recebidas pela sua empresa. Por isso, você deverá configurar a URL do BLiP para recebimento de mensagens do RCS.
 
-> [https://googlercs.gw.msging.net/{{chave-aleatoria}}](https://googlercs.gw.msging.net/{{chave-aleatória}})
+> [https://googlercs.gw.msging.net/{{chave-aleatoria}}](https://googlercs.gw.msging.net/{{chave-aleatoria}})
 
 Se o seu contato inteligente (bot) estiver em uma organização, utilize a URL abaixo:
 
-> [https://{{id-da-organizacao}}.googlercs.gw.msging.net/{{chave-aleatória}}](https://googlercs.gw.msging.net/{{chave-aleatória}})
+> [https://{{id-da-organizacao}}.googlercs.gw.msging.net/{{chave-aleatoria}}](https://{{id-da-organizacao}}.googlercs.gw.msging.net/{{chave-aleatoria}})
 
 **Chave-aleatoria** é um código alfanumérico, gerado por você, utilizado para identificar unicamente seu bot. **Sugerimos que seja utilizado um UUID (Universally Unique Identifier ou Globally Unique Identifier).** [Clique aqui](https://www.uuidgenerator.net/) para gerar um UUID.
 
