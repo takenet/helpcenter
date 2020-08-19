@@ -123,6 +123,13 @@ var releasesAux;
 var aux;
 var releases =[
       {
+         "id":"atts",
+         "title":"Aplicação Messenger própria do cliente",
+         "date":"19 de Agosto de 2020",
+         "text":"Com esta modificação é possível usar sua própria aplicação do Facebook integrada ao Messenger no Blip.",
+         "link": "https://help.blip.ai/docs/en/channels/messenger/propria-aplicacao-portal/?utm_source=changelog",
+      },
+      {
          "id":"news",
          "title":"Adição de Atendentes no BLiP Desk",
          "date":"11 de Agosto de 2020",
