@@ -124,9 +124,9 @@ var aux;
 var releases =[
       {
          "id":"atts",
-         "title":"Aplicação Messenger própria do cliente",
+         "title":"Publicação de chatbots no Facebook com aplicação própria",
          "date":"19 de Agosto de 2020",
-         "text":"Com esta modificação é possível usar sua própria aplicação do Facebook integrada ao Messenger no Blip.",
+         "text":"Adicionamos a atualização que possibilita o uso de aplicação própria para publicação de chatbots no Facebook através do Portal do BLiP.",
          "link": "https://help.blip.ai/docs/en/channels/messenger/propria-aplicacao-portal/?utm_source=changelog",
       },
       {
