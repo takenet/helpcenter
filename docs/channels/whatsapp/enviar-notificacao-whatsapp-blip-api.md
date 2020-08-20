@@ -78,26 +78,37 @@ Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
 {
-   "id": "{{RANDOM_ID}}",
-   "to": "553199998888@wa.gw.msging.net",
-   "type": "application/json",
-   "content": {
-      "type": "template",
-      "template": {
-         "namespace": "{{NAMESPACE}}",
-         "element_name": "{{MESSAGE_TEMPLATE_NAME}}",
-         "language": {
-            "policy": "deterministic",
-            "code": "pt_BR"
+   "id":"{{RANDOM_ID}}",
+   "to":"553175713755@wa.gw.msging.net",
+   "type":"application/json",
+   "content":{
+      "type":"template",
+      "template":{
+         "namespace":"{{NAMESPACE}}",
+         "name":"{{MESSAGE_TEMPLATE_NAME}}",
+         "language":{
+            "code":"pt_BR",
+            "policy":"deterministic"
          },
-         "localizable_params": [
+         "components":[
             {
-               "default": "BLiPPer"
+                "type": "body",
+                "parameters": [
+                    {
+                        "type": "text",
+                        "text": "parâmetro1"
+                    },
+                    {
+                       "Type":"text",
+                       "text":"parâmetro2"
+                    }
+                ]
             }
-         ]
-      }
-   }
+          ]
+        }
+    }
 }
+
 ```
 
 ### Requisição 3: Envio da notificação com imagem
