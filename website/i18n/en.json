@@ -444,6 +444,10 @@
         "title": "Como publicar seu Chatbot no Google Business Messages",
         "sidebar_label": "Como publicar seu Chatbot no Google Business Messages"
       },
+      "channels/google-bm/recebendo-solicitacoes-de-agente-humano": {
+        "title": "Recebendo Solicitações de Atendimento Humano no Business Messages",
+        "sidebar_label": "Recebendo Solicitações de Atendimento Humano no Business Messages"
+      },
       "channels/google-bm/visao-geral-google-bm": {
         "title": "Visão geral do Google Business Messages",
         "sidebar_label": "Visão geral do Business Messages"
@@ -478,7 +482,7 @@
       },
       "channels/messenger/como-adicionar-message-tags": {
         "title": "Como adicionar tags nas mensagens (Message Tags)"
-		  },
+      },
       "channels/messenger/como-enviar-mensagens-ativas-messenger-via-portal": {
         "title": "Como enviar mensagens ativas do Messenger via Portal",
         "sidebar_label": "Como enviar mensagens ativas do Messenger via Portal"
