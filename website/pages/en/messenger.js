@@ -62,7 +62,7 @@ const data = {
     {  
       "title":"Veja outros artigos",
       "type": "video",
-      "url": "/docs/channels/messenger/como-configurar-sua-propria-aplicacao-facebook",
+      "url": "/docs/channels/messenger/propria-aplicacao-portal",
       "abstract":"Não encontrou o que procurava por aqui? Dê uma olhada nestes outros artigos",
       "text":"Ver mais!"
     }, 

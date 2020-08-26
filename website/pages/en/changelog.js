@@ -123,6 +123,13 @@ var releasesAux;
 var aux;
 var releases =[
       {
+         "id":"atts",
+         "title":"Publicação de chatbots no Facebook com aplicação própria",
+         "date":"19 de Agosto de 2020",
+         "text":"Adicionamos a atualização que possibilita o uso de aplicação própria para publicação de chatbots no Facebook através do Portal do BLiP.",
+         "link": "https://help.blip.ai/docs/en/channels/messenger/propria-aplicacao-portal/?utm_source=changelog",
+      },
+      {
          "id":"news",
          "title":"Adição de Atendentes no BLiP Desk",
          "date":"11 de Agosto de 2020",

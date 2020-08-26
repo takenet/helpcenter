@@ -13,7 +13,7 @@ Antes de começar, tenha em mãos as informações necessárias para a configura
 - Business System User Access Token
 - WhatsApp Business Account Id
 
-Todas as informações anteriores, necessárias para configuração da sua waba, você encontra na página do Facebook Business Manager da sua empresa. 
+Todas as informações anteriores, necessárias para configuração da sua waba, você encontra na página do Facebook Business Manager da sua empresa.
 
 Um aviso, apenas administradores do Business Manager terão acesso a esses dados.
 
@@ -51,7 +51,7 @@ Logo em seguida será exibido três campos: domínio, chave e valor. Você deve 
 
 ![Imagem que demonstra o Access Token adicionado](/img/channels/whatsapp/configuracoes-avancadas-adicionadas.png)<br>
 
-Após preencher todos os campos tecle enter para salvar suas informações. 
+Após preencher todos os campos tecle enter para salvar suas informações.
 
 **Atenção: Verifique se o seu bot já possui um número de Business System User Access Token antes de inserir esses dados. Caso o seu bot já tenha esse dado configurado você pode alterá-lo. Encontre-o na lista de configurações e clique no botão de editar (o ícone de cinza lápis ao lado) e insira o Business System User Access Token da sua empresa.**
 

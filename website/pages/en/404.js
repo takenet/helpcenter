@@ -127,7 +127,7 @@ function redirectURL(path) {
     "hc/pt-br/articles/360018345271": "/docs/introduction/visao-geral-da-plataforma",
     "hc/pt-br/articles/360017465132": "/docs/channels/whatsapp/enviar-notificacao-whatsapp-blip-api",
     "hc/pt-br/articles/360017464592": "/docs/channels/whatsapp/criando-solucao-atendimento-humano-whatsapp",
-    "hc/pt-br/articles/360002964992": "/docs/channels/messenger/como-configurar-sua-propria-aplicacao-facebook",
+    "hc/pt-br/articles/360002964992": "/docs/channels/messenger/propria-aplicacao-portal",
     "hc/pt-br/articles/360000646332": "/docs/analytics/blip-analytics/criando-graficos-em-um-relatorio-customizado",
     "hc/pt-br/articles/360000644692": "/docs/channels/workplace/publicando-chatbot-no-workplace",
     "hc/pt-br/articles/360025264272": "/docs/management/como-encontrar-id-usuario",
