@@ -30,11 +30,9 @@ Preencha as informações necessárias para a submissão de um message template.
 * Idioma do modelo: o idioma utilizado no template (*é possível disponibilizar diferentes traduções para cada template*)
 * Conteúdo da mensagem: (*tipos suportados: texto, documentos e imagens*)
 * Para criação do Message Template dentro do Blip, **o tamanho máximo do vídeo é de 16MB**.
+* Ao preencher o campo *Link* assegurar que o servidor aonde o arquivo está não valide o cabeçalho "User-Agent", pois hoje ele não é enviado pelo BLiP. Exemplos de servidores válidos: [Google Drive](https://drive.google.com/), [Amazon S3](https://aws.amazon.com/pt/s3/), [Imgur](https://imgur.com/), etc.
 
 **Observação: clique no botão 'Adicionar tradução' caso queira utilizar um mesmo template em diferentes idiomas**
-
-> 
-
 
 ------------------------------
 
