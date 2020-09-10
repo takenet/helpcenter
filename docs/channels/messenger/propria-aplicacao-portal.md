@@ -72,7 +72,7 @@ Acesse sua aplicação, clique no menu **Messenger**, entre em **Configurações
 -----------------
 
 Acessar  **Messenger → Configurações → Webhook → Controles de versão de campo do webhook** .<br>
-Verificar se a versão dos webhooks selecionadas estão marcadas como **v5.0**. Faça as alterações se necessário, caso contrário sua aplicação pode apresentar instabilidades:
+Verificar se a versão dos webhooks selecionadas estão marcadas como **v8.0**. Faça as alterações se necessário, caso contrário sua aplicação pode apresentar instabilidades:
 
 ![Configurações da versão de eventos de Webhook](/img/channels/messenger/propria-aplicacao-portal-4.png)<br>
 
