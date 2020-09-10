@@ -1,4 +1,4 @@
-Fix---
+---
 id: propria-aplicacao-config-avancada
 title: Como conectar sua própria aplicação pelas Configurações Avançadas
 sidebar_label: Como conectar sua própria aplicação pelas Configurações Avançadas
