@@ -39,7 +39,7 @@ class HomeSplash extends React.Component {
     return (
       <div>
         <div className="div-rectangle-main">
-          <img className="main-logo" src={url + "/img/logo.svg"} />
+          <img className="main-logo" src="/img/logo.png" />
           <h1 className="main-title"><translate>Estamos aqui para te ajudar!</translate> </h1>
           <div className="main-subtitle">
             <translate>Antes de começar a explorar, que tal escolher uma área de conhecimento?</translate>

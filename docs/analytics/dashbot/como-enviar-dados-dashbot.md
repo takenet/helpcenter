@@ -4,7 +4,9 @@ title: Integração Dashbot - Como enviar dados de um bot para o Dashbot?
 sidebar_label: Integração Dashbot - Como enviar dados de um bot para o Dashbot?
 ---
 
-Para enviar as informações geradas pelo seu bot, automaticamente, para o Dashbot é preciso configurar no BLiP a API-KEY do seu bot fornecida pelo Dashbot. Siga os passos abaixo para realizar a integração.
+Para enviar as informações geradas pelo seu bot, automaticamente, para o Dashbot, é preciso configurar no BLiP a API-KEY do seu bot fornecida pelo Dashbot. Siga os passos abaixo para realizar a integração.
+
+> **Observação: nossa integração atual com o Dashbot não envia intenções.**
 
 ## 1 - Criando um bot no Dashbot
 
