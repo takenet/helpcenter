@@ -297,6 +297,8 @@ function filter(){
 	if (value == "recent"){
 		displaysAllReleasesAgain();
 	}else{
+    var buttonSeeMore = document.getElementsByClassName('button-changelog')[0];
+    buttonSeeMore.style.display = 'none';
     var count = 0;
 		for (i=0; i<releases.length; i++){
       console.log('legal');
@@ -328,6 +330,10 @@ function displaysAllReleasesAgain(){
   var allReleases = document.getElementsByClassName('release');
   for (i=0; i<releases.length && i<aux; i++){
       allReleases[i].style.display = "block";
+  }
+  if (aux != releases.length){
+    var buttonSeeMore = document.getElementsByClassName('button-changelog')[0];
+    buttonSeeMore.style.display = 'block';
   }
 }
 
