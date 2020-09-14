@@ -55,7 +55,7 @@ class Changelog extends React.Component {
               todas as melhorias implementadas na plataforma como também consiga acompanhar a evolução da plataforma.</p>
           </div>
 
-          <div className="content-changelog">
+          <div className="content-changelog" id='content-changelog'>
 
             <div className="toolbar">
 
@@ -97,6 +97,7 @@ class Changelog extends React.Component {
 
             </div>
 
+
             <div className="releases" id="releases">
               
             </div>
@@ -117,7 +118,7 @@ class InfiniteScroll extends React.Component {
         dangerouslySetInnerHTML={{
           __html: `
 
-var nextItem = 0;
+          var nextItem = 0;
 var releaseItem = document.getElementById('releases');
 var releasesAux;
 var aux;
@@ -211,7 +212,6 @@ createReleases(releases, nextItem);
 
 function createReleases(releasess, index){
   aux = index + 7;
-  console.log(releasess.length, aux);
   for (i=index; i<releasess.length; i++){
     var mainDiv = document.createElement('div');
     mainDiv.setAttribute('class', "release");
@@ -253,15 +253,32 @@ function createReleases(releasess, index){
     mainDiv.appendChild(contentDiv);
     
     releaseItem.appendChild(mainDiv);
+
   }
-  nextItem = i
-  releaseItem.setAttribute('class', 'releases-special');
+    nextItem = aux;
+    releaseItem.setAttribute('class', 'releases-special');
+    var changelogDivMain = document.getElementById('content-changelog');
+    var buttonSeeMore = document.createElement('button');
+    buttonSeeMore.setAttribute('class', 'button-changelog');
+    buttonSeeMore.innerHTML = 'Ver mais';
+    changelogDivMain.appendChild(buttonSeeMore);
+    buttonSeeMore.onclick = function(){
+      var allReleases = document.getElementsByClassName('release');
+      for (j=nextItem; j<releases.length && j <= (nextItem + 7); j++){
+        allReleases[j].style.display = "block";
+      }
+      nextItem = j;
+      if (nextItem == releases.length){
+      	buttonSeeMore.style.display = "none";
+      }else{
+        console.log('não', nextItem, releases.length);
+      }
+    };
 }
 
 //function to add more items
 var loadMore = function() {
-  console.log(nextItem);
-  createReleases(releases, nextItem);
+  
 }
 
 // Detect when scrolled to bottom.

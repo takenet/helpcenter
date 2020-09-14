@@ -923,6 +923,10 @@
         "title": "Política de Uso de Cookies",
         "sidebar_label": "Política de Uso de Cookies"
       },
+      "security/images": {
+        "title": "Política de upload de mídias no BLiP",
+        "sidebar_label": "Política de upload de mídias no BLiP"
+      },
       "security/privacy": {
         "title": "Política de Privacidade",
         "sidebar_label": "Política de Privacidade"
