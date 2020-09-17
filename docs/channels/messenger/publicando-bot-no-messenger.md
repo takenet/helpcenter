@@ -47,7 +47,7 @@ O BLiP permite que qualquer bot seja publicado no Facebook utilizando, não só 
 
 > Se você não souber criar uma aplicação própria do Facebook recomenda-se seguir os passos da página oficial através [deste link](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/).
 
-> **Atenção**: É recomendável que sua aplicação do Facebook esteja configurada para a versão **v5.0**. Caso contrário sua aplicação pode apresentar instabilidades. Você pode definir essa informação nas configurações avançadas da sua aplicação:
+> **Atenção**: É recomendável que sua aplicação do Facebook esteja configurada para a versão **v8.0**. Caso contrário sua aplicação pode apresentar instabilidades. Você pode definir essa informação nas configurações avançadas da sua aplicação:
 
 ![Configurações de versão da Aplicação](/img/channels/messenger/messenger-como-configurar-sua-propria-aplicacao-facebook-3.png)
 <br>
