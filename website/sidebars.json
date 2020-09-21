@@ -340,6 +340,7 @@
     "Geral": [
       "general/central-notificacoes",
       "general/politica-de-violacao-mensagens",
+      "general/filtro-contatos",
       "general/chatbots-e-a-importancia-contexto",
       {
         "type": "subcategory",
@@ -372,6 +373,9 @@
       "security/cookies",
       "security/privacy",
       "security/terms"
-    ]
+    ],
+    "Privacidade e Segurança": [
+    "security/images"
+]
   }
 }
