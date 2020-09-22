@@ -683,6 +683,10 @@
         "title": "Chatbots e a importância do contexto",
         "sidebar_label": "Chatbots e a importância do contexto"
       },
+      "general/filtro-contatos": {
+        "title": "Filtro de contatos por data e hora da última interação com o chatbot",
+        "sidebar_label": "Filtro de contatos por data e hora"
+      },
       "general/level-up/level-up-0-lancamento-oficial-do-blip": {
         "title": "LevelUp 0 - Lançamento oficial do BLiP",
         "sidebar_label": "LevelUp 0 - Lançamento oficial do BLiP"
@@ -957,7 +961,8 @@
       "Router": "Router",
       "API e SDKs": "API e SDKs",
       "Geral": "Geral",
-      "Políticas": "Políticas"
+      "Políticas": "Políticas",
+      "Privacidade e Segurança": "Privacidade e Segurança"
     }
   },
   "pages-strings": {

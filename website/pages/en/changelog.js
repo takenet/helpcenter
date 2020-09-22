@@ -123,18 +123,24 @@ var releaseItem = document.getElementById('releases');
 var releasesAux;
 var aux;
 var releases =[
+      {
+         "id":"news",
+         "title":"Equipes de Atendimento no BLiP Desk",
+         "date":"17 de Setembro de 2020",
+         "text":"Para simplificar a visão de equipes existentes e evitar a criação duplicada ou com nome incorreto na adição de atendentes, disponibilizamos um autocomplete que listará todas as equipes cadastradas, além da opção de criar uma nova quando o conteúdo digitado não corresponder a nenhum resultado.",       
+      },
        {
          "id":"news",
          "title":"Filtro de contatos por data e hora da última interação com o chatbot",
          "date":"10 de Setembro de 2020",
-         "text":"Adicionamos a atualização que possibilita o uso de aplicação própria para publicação de chatbots no Facebook através do Portal do BLiP.",
+         "text":"Disponibilizamos o filtro que permite visualizar contatos que tiveram a última interação com o chatbot em período determinado por data e hora.",
          "link": "https://help.blip.ai/docs/en/general/filtro-contatos/?utm_source=changelog",
       },
        {
          "id":"atts",
          "title":"Publicação de chatbots no Facebook com aplicação própria",
          "date":"19 de Agosto de 2020",
-         "text":"Disponibilizamos o filtro que permite visualizar contatos que tiveram a última interação com o chatbot em período determinado por data e hora.",
+         "text":"Adicionamos a atualização que possibilita o uso de aplicação própria para publicação de chatbots no Facebook através do Portal do BLiP.",
          "link": "https://help.blip.ai/docs/en/channels/messenger/propria-aplicacao-portal/?utm_source=changelog",
       },
       {
