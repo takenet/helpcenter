@@ -162,6 +162,14 @@ class Index extends React.Component {
 
               <ul className="ul-recent-accessed">
 
+              <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-finalizar-tickets">
+                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
+                    <translate>Como finalizar tickets?</translate>
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/whatsapp/como-salvar-numero-whatsapp" >
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
@@ -169,6 +177,7 @@ class Index extends React.Component {
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/en/builder/criando-carrinho-compras/">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
@@ -176,18 +185,11 @@ class Index extends React.Component {
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+
                 <li className="li-recent-accessed">
                   <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/en/channels/whatsapp/qualidade-contato-whatsapp">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
                     Qualidade do contato no WhatsApp
-                  </a>
-                </li>
-                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
-
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/dominando-customizando-template-atendimento">
-                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Dominando e customizando o template de atendimento</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>

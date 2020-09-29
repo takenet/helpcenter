@@ -780,6 +780,10 @@
         "title": "Como filtrar um ticket por ID?",
         "sidebar_label": "Como filtrar um ticket por ID?"
       },
+      "helpdesk/blipdesk/como-finalizar-tickets": {
+        "title": "Como finalizar tickets?",
+        "sidebar_label": "Como finalizar tickets?"
+      },
       "helpdesk/blipdesk/como-funciona-a-distribuicao-de-tickets": {
         "title": "Como funciona a distribuição de tickets?",
         "sidebar_label": "Como funciona a distribuição de tickets?"
@@ -1029,8 +1033,8 @@
     "Dominando o BLiP|no description given": "Dominando o BLiP",
     "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!|no description given": "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!",
     "Mais recentes|no description given": "Mais recentes",
+    "Como finalizar tickets?|no description given": "Como finalizar tickets?",
     "Como salvar o número do WhatsApp de um contato?|no description given": "Como salvar o número do WhatsApp de um contato?",
-    "Dominando e customizando o template de atendimento|no description given": "Dominando e customizando o template de atendimento",
     "Mais acessados|no description given": "Mais acessados",
     "Como criar um bot com o Builder do BLiP|no description given": "Como criar um bot com o Builder do BLiP",
     "Como configurar o DialogFlow como um provedor de Inteligência Artificial|no description given": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",
