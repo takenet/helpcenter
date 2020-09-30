@@ -15,18 +15,9 @@ Garantir a disponibilidade, integridade e confidencialidade da informação.
 
 As responsabilidades dos times de segurança são assim distribuídos, mas não limitados, aos seguintes temas:
 
-* Security Operations Center (SOC)
-* Security Governance
-* Segurança de aplicações
-* Segurança de nuvem
-* Testes de penetração
-* Investigações de incidentes
-* Controle de acesso e identidades
-* Privacidade e proteção dos dados
-* Compliance e auditoria de segurança
-* Gestão de incidentes de segurança
-* Avaliação de risco
-* Direcionamento de boas práticas de segurança
+| Security Operations Center (SOC)                                                                                                        | Privacidade de Proteção de Dados                                                                                                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Segurança de Aplicações<br>Segurança de Nuvem<br>Testes de Penetração<br>Investigação de Incidentes<br>Controle de Acesso e Identidades | Compliance e Auditoria de Segurança<br>Gestão de Incidentes de Segurança<br>Avaliação de Risco<br>Direcionamento de boas práticas |
 
 ## 2. Segurança BLiP
 
@@ -189,7 +180,7 @@ https://status.blip.ai/
 
 * Changelog do BLiP
 
-http://help.blip.ai/changelog/
+https://help.blip.ai/changelog/
 
 ## 11. Contatos
 O time de Segurança da Informação da Take está à disposição para esclarecimentos por meio do endereço eletrônico: si@take.net 
