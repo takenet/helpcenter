@@ -135,7 +135,7 @@ Você tem as seguintes opções disponíveis para realizar o gerenciamento de se
 
 * Comunicação: podemos entrar em contato com você através do seu endereço de e-mail ou através de seu telefone. Esses dados são fornecidos por você através do cadastro na plataforma, e você poderá optar a qualquer momento por não receber mais nossas comunicações. Nesse caso, basta seguir as instruções presentes nas mensagens ou através do envio desta solicitação para legal@blip.ai. No entanto, ao optar por desativar as mensagens, poderemos enviar outros tipos de mensagens sobre sua conta, recuperação de senha e avisos legais.<br>
 
-* *Cookies*: utilizamos *cookies*, mas é possível configurar seu navegador ou dispositivo para remover ou rejeitar. No entanto, ao realizar esta ação, você deve estar ciente de que alguns recursos podem não funcionar adequadamente, o que compromete a prestação de serviço.<br>
+* *Cookies*: utilizamos *cookies*, mas é possível configurar seu navegador ou dispositivo para remover ou rejeitar. No entanto, ao realizar esta ação, você deve estar ciente de que alguns recursos podem não funcionar adequadamente.<br>
 
 #### Segurança
 
