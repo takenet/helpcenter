@@ -113,7 +113,7 @@ Após preencher todas as informações do Microsoft Teams é preciso configurar 
 ![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-11.png)
 <br>
 
-**17.** Tudo pronto. Seu contato já está disponível para testes no Microsoft Teams!
+**17.** Tudo pronto. Seu contato inteligente já está disponível para testes no Microsoft Teams!
 
 <!-- Rating frame -->
 <script type="text/javascript" src="/scripts/rating.js"></script>
