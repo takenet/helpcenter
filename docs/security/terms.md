@@ -54,7 +54,7 @@ Você é responsável por manter, proteger e fazer backups de seu Conteúdo. O B
 
 ### 9. SUSPENSÃO E ENCERRAMENTO DO SERVIÇO
 * **Pela BLiP**
-O BLiP pode limitar, suspender ou deixar de lhe prestar o serviço se você não cumprir com este Termo ou se usar o serviço de forma a gerar uma responsabilidade legal. A TAKE ou o BLiP também poderá suspender a prestação do serviço se houver a suspeita de má conduta adotada por você. Se suspendermos ou encerrarmos o serviço prestado a você, nos esforçaremos para notificar-lhe antecipadamente para que você possa exportar uma cópia de seu Conteúdo do serviço.<br><br>
+O BLiP pode limitar, suspender ou deixar de lhe prestar o serviço se você não cumprir com este Termo ou se usar o serviço de forma a gerar uma responsabilidade legal. A TAKE ou o BLiP também poderá suspender o licenciamento da plataforma se houver a suspeita de má conduta adotada por você. Se suspendermos ou encerrarmos o serviço prestado a você, nos esforçaremos para notificar-lhe antecipadamente para que você possa exportar uma cópia de seu Conteúdo do serviço.<br><br>
 
 * **Medidas Adicionais**
 Se houver infração a este Termo de forma contínua e ofensiva, o BLiP poderá adotar medidas para impedir que você continue utilizando o serviço, bloqueando, inclusive, seu endereço IP. <br><br>
