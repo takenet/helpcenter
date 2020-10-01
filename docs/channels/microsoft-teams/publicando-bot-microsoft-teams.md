@@ -102,9 +102,18 @@ Após preencher todas as informações do Microsoft Teams é preciso configurar 
 
 **15.** Volte à aba de aplicativos, clique na opção **Carregar um aplicativo personalizado** e escolha o arquivo baixado no passo 13. Caso algum erro ocorra ao escolher o arquivo, verifique se todas as informações preenchidas durante as configurações do contato inteligente no Microsoft Teams estão corretas. Repita o passo 14 e 15 se algum ajuste foi necessário.
 
-![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-8.png)<br>
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-8.png)
 
 > Caso a opção **Carregar um aplicativo personalizado**  não esteja disponível, significa que seu email é corporativo e sua empresa não possui contrato com a Microsoft para acesso privilegiado dos recursos Microsoft Teams. Portanto, contrate o serviço ou faça a integração utilizando um email não corporativo.
+
+**16.** Seu aplicativo agora estará disponível na seção **Criados por sua organização**. Clique no aplicativo e em seguida clique em **Adicionar**.
+
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-10.png)
+
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-11.png)
+<br>
+
+**17.** Tudo pronto. Seu contato já está disponível para testes no Microsoft Teams!
 
 <!-- Rating frame -->
 <script type="text/javascript" src="/scripts/rating.js"></script>
