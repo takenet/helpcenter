@@ -55,7 +55,7 @@ sidebar_label: Como publicar seu bot no Microsoft Teams
 
 **8.** Clique no botão **Generate new password**, copie o valor gerado e salve em um local temporário. Ele será necessário nas próximas etapas. **Atenção:** Esse valor só será exibido uma vez.
 
-**9.** O campo **Bot endpoint address** se trata da URL de enpoint do Take Blip. Esta é a configuração que define qual URL deverá ser utilizada pelo Microsoft Teams para enviar as mensagens eviadas pelos usuários do seu aplicativo. Por isso, você deverá configurar a URL do Take Blip, conforme abaixo (utilize o ID do bot copiado no passo 8):
+**9.** O campo **Bot endpoint address** se trata da URL de endpoint do Take Blip. Esta é a configuração que define qual URL deverá ser utilizada pelo Microsoft Teams para enviar as mensagens eviadas pelos usuários do seu aplicativo. Por isso, você deverá configurar a URL do Take Blip, conforme abaixo (utilize o ID do bot copiado no passo 7):
 
 > [https://abs.gw.msging.net/{{id-do-bot}}](https://abs.gw.msging.net/{{id-do-bot}})
 
