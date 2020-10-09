@@ -125,6 +125,12 @@ var aux;
 var releases =[
       {
          "id":"news",
+         "title":"Inatividade no portal Blip",
+         "date":"06 de Outubro de 2020",
+         "text":"Para proporcionar mais segurança no uso do portal Blip, uma conta logada e inativa por mais de 30 minutos será desconectada automaticamente. Um alerta será exibido na tela cinco minutos antes.",       
+      },
+      {
+         "id":"news",
          "title":"Equipes de Atendimento no BLiP Desk",
          "date":"17 de Setembro de 2020",
          "text":"Para simplificar a visão de equipes existentes e evitar a criação duplicada ou com nome incorreto na adição de atendentes, disponibilizamos um autocomplete que listará todas as equipes cadastradas, além da opção de criar uma nova quando o conteúdo digitado não corresponder a nenhum resultado.",       
