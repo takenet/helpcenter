@@ -6,7 +6,7 @@ sidebar_label: Enviar notificações WhatsApp via API do BLiP
 
 Através do BLiP, é possível criar aplicações para o canal WhatsApp capazes **não só de responder às mensagens recebidas**, mas também de **enviar mensagens (notificações) para o cliente de forma ativa**.
 
-Qualquer mensagem enviada pelo bot, após um período de 24 horas em relação à última mensagem enviada pelo cliente é considerada uma notificação. Para saber mais sobre as diferenças entre uma mensagem normal e uma notificação [clique aqui](https://help.blip.ai/docs/general/politica-de-violacao-mensagens/#mensagens-de-respostas). Notificações no WhatsApp estão sempre associadas a um Modelo de Mensagem (*Message Template*), previamente aprovado pelo próprio WhatsApp. 
+Qualquer mensagem enviada pelo bot, após um período de 24 horas em relação à última mensagem enviada pelo cliente é considerada uma notificação. Para saber mais sobre as diferenças entre uma mensagem normal e uma notificação [clique aqui](https://help.blip.ai/docs/general/politica-de-violacao-mensagens/#mensagens-de-respostas). Notificações no WhatsApp estão sempre associadas a um Modelo de Mensagem (*Message Template*), previamente aprovado pelo próprio WhatsApp.
 
 Para enviar uma notificação (mensagem ativa) é necessário garantir que os pré-requisitos abaixo já foram satisfeitos:
 
@@ -21,7 +21,7 @@ Para realizar o envio de uma notificação através da API do BLiP será necess�
 
 ### Requisição 1: Buscando o identificador de um cliente
 
-Antes de enviar uma notificação, é preciso ter acesso ao identificador do usuário no WhatsApp. **Lembre-se de realizar essa operação uma única vez para cada cliente.** 
+Antes de enviar uma notificação, é preciso ter acesso ao identificador do usuário no WhatsApp. **Lembre-se de realizar essa operação uma única vez para cada cliente.**
 
 A busca pelo identificador é feita através de uma requisição HTTP levando em consideração o número do celular do cliente no formato internacional. Veja um exemplo de um número considerando o identificador do país igual a 55 (Brasil) e o DDD igual a 31 (Minas Gerais)
 
@@ -32,7 +32,7 @@ POST https://http.msging.net/commands HTTP/1.1
 Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
-{  
+{
   "id": "a456-42665544000-0123e4567-e89b-12d3",
   "to": "postmaster@wa.gw.msging.net",
   "method": "get",
@@ -78,26 +78,37 @@ Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
 {
-  "id": "123e4567-e89b-12d3-a456-426655440002",
-  "to": "553199998888@wa.gw.msging.net",
-  "type": "application/json",
-  "content": {
-    "type": "hsm",
-    "hsm": {
-      "namespace": "NAMESPACE",
-      "element_name": "ELEMENT_NAME",
-      "language": {
-                "policy": "deterministic",
-                "code": "pt_BR"
-      },
-      "localizable_params": [
-        {
-          "default": "BLiPPer"
+   "id":"{{RANDOM_ID}}",
+   "to":"553175713755@wa.gw.msging.net",
+   "type":"application/json",
+   "content":{
+      "type":"template",
+      "template":{
+         "namespace":"{{NAMESPACE}}",
+         "name":"{{MESSAGE_TEMPLATE_NAME}}",
+         "language":{
+            "code":"pt_BR",
+            "policy":"deterministic"
+         },
+         "components":[
+            {
+                "type": "body",
+                "parameters": [
+                    {
+                        "type": "text",
+                        "text": "parâmetro1"
+                    },
+                    {
+                       "Type":"text",
+                       "text":"parâmetro2"
+                    }
+                ]
+            }
+          ]
         }
-      ]
     }
-  }
 }
+
 ```
 
 ### Requisição 3: Envio da notificação com imagem
@@ -110,14 +121,14 @@ Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
 {
-   "id":"964g2478-e89b-12d3-a456-256325440002",
+   "id":"{{RANDOM_ID}}",
    "to":"553199998888@wa.gw.msging.net",
    "type":"application/json",
    "content":{
       "type":"template",
       "template":{
-         "namespace":"NAMESPACE",
-         "name":"ELEMENT_NAME",
+         "namespace":"{{NAMESPACE}}",
+         "name":"{{MESSAGE_TEMPLATE_NAME}}",
          "language":{
             "code":"pt_BR",
             "policy":"deterministic"
@@ -145,7 +156,58 @@ Authorization: Key YOUR_TOKEN
    }
 }
 ```
-### Requisição 4: Envio da notificação com documento
+
+### Requisição 4: Envio da notificação com vídeo
+
+De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo **alterando** o `id` da mesma:
+
+O tamanho do vídeo deve ser de no máximo 16MB.
+
+**Não** são aceitos links do YouTube, como https://www.youtube.com/watch?v=WU9gzjhyrcc ou http://youtu.be/WU9gzjhyrcc.
+
+```http
+POST https://http.msging.net/messages HTTP/1.1
+Content-Type: application/json
+Authorization: Key YOUR_TOKEN
+
+{
+   "id":"{{RANDOM_ID}}",
+   "to":"553199998888@wa.gw.msging.net",
+   "type":"application/json",
+   "content":{
+      "type":"template",
+      "template":{
+         "namespace":"{{NAMESPACE}}",
+         "name":"{{MESSAGE_TEMPLATE_NAME}}",
+         "language":{
+            "code":"pt_BR",
+            "policy":"deterministic"
+         },
+         "components":[
+            {
+               "type":"header",
+               "parameters":[
+                  {
+                     "type":"video",
+                     "video":{
+                        "link":"http://techslides.com/demos/sample-videos/small.mp4"
+                     }
+                  }
+               ]
+            },
+            {
+               "type":"body",
+               "parameters":[
+
+               ]
+            }
+         ]
+      }
+   }
+}
+```
+
+### Requisição 5: Envio da notificação com documento
 
 De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo **alterando** o `id` da mesma:
 
@@ -155,14 +217,14 @@ Content-Type: application/json
 Authorization: Key YOUR_TOKEN
 
 {
-   "id":"851d4853-f78i-12d3-a456-256325440002",
+   "id":"{{RANDOM_ID}}",
    "to":"553199998888@wa.gw.msging.net",
    "type":"application/json",
    "content":{
       "type":"template",
       "template":{
-         "namespace":"NAMESPACE",
-         "name":"ELEMENT_NAME",
+         "namespace":"{{NAMESPACE}}",
+         "name":"{{MESSAGE_TEMPLATE_NAME}}",
          "language":{
             "code":"pt_BR",
             "policy":"deterministic"
@@ -195,22 +257,26 @@ Authorization: Key YOUR_TOKEN
 }
 ```
 
-### Requisição 5: Envio da notificação com quick reply
+### Requisição 6: Envio da notificação com quick reply
 
-De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo alterando o id da mesma:
+De posse do identificador do cliente que receberá a notificação, realize a requisição HTTP descrita abaixo **alterando** o `id` da mesma:
 
-```
+```http
+POST https://http.msging.net/messages HTTP/1.1
+Content-Type: application/json
+Authorization: Key YOUR_TOKEN
+
 {
-   "id":"964g2478-e89b-12d3-a456-256325449992",
+   "id":"{{RANDOM_ID}}",
    "to":"553175713755@wa.gw.msging.net",
    "type":"application/json",
    "content":{
       "type":"template",
       "template":{
-         "namespace":"NAMESPACE",
-         "name":"ELEMENT_NAME",
+         "namespace":"{{NAMESPACE}}",
+         "name":"{{MESSAGE_TEMPLATE_NAME}}",
          "language":{
-            "code":"en_US",
+            "code":"pt_BR",
             "policy":"deterministic"
          },
          "components":[
@@ -251,8 +317,8 @@ De posse do identificador do cliente que receberá a notificação, realize a re
 }
 ```
 
-Note que além do **token** do bot e do **identificador do cliente** será necessário alterar no corpo da requisição os valores  `NAMESPACE` e `ELEMENT_NAME` correspondentes ao Message Template pré aprovado.
-Além disso é precisso inserir os valores das varáveis definidas na criação do Message Template, quando for o caso.  
+Note que além do **token** do bot e do **identificador do cliente** será necessário alterar no corpo da requisição os valores  `NAMESPACE` e `MESSAGE_TEMPLATE_NAME` correspondentes ao Message Template pré aprovado.
+Além disso é precisso inserir os valores das varáveis definidas na criação do Message Template, quando for o caso.
 
 ---
 

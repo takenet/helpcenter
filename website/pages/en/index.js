@@ -39,7 +39,7 @@ class HomeSplash extends React.Component {
     return (
       <div>
         <div className="div-rectangle-main">
-          <img className="main-logo" src={url + "/img/logo.svg"} />
+          <img className="main-logo" src="/img/logo.png" />
           <h1 className="main-title"><translate>Estamos aqui para te ajudar!</translate> </h1>
           <div className="main-subtitle">
             <translate>Antes de começar a explorar, que tal escolher uma área de conhecimento?</translate>
@@ -162,32 +162,34 @@ class Index extends React.Component {
 
               <ul className="ul-recent-accessed">
 
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/messenger/como-adicionar-message-tags" >
+              <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/como-finalizar-tickets">
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Como adicionar tags nas mensagens (Message Tags)</translate>
-                  </a>
-                </li>
-                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/growth/como-identificar-usuarios-campanha">
-                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Como identificar usuários vindos de uma campanha (anúncio)</translate>
-                  </a>
-                </li>
-                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
-                <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/builder/como-validar-entrada-usuario">
-                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Como validar a entrada do usuário</translate>
+                    <translate>Como finalizar tickets?</translate>
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
 
                 <li className="li-recent-accessed">
-                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/helpdesk/blipdesk/dominando-customizando-template-atendimento">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/channels/whatsapp/como-salvar-numero-whatsapp" >
                     <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
-                    <translate>Dominando e customizando o template de atendimento</translate>
+                    <translate>Como salvar o número do WhatsApp de um contato?</translate>
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+
+                <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/en/builder/criando-carrinho-compras/">
+                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
+                    Como criar um carrinho de compras usando o Builder
+                  </a>
+                </li>
+                <hr className="bp-divider-h bp-divider--recent-accessed"></hr>
+
+                <li className="li-recent-accessed">
+                  <a className="a-recent-accessed bp-fill-bot bp-fill-suit--hover" href="/docs/en/channels/whatsapp/qualidade-contato-whatsapp">
+                    <BlipIcon name="txt-file" className="bp-fs-4"></BlipIcon>
+                    Qualidade do contato no WhatsApp
                   </a>
                 </li>
                 <hr className="bp-divider-h bp-divider--recent-accessed"></hr>

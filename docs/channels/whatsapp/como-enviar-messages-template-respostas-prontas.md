@@ -31,8 +31,8 @@ Neste tipo de conteúdo, preencha os três campos apresentados. Assim sendo, sel
 
 ```json
  {
-    "type": "hsm",
-    "hsm": {
+    "type": "template",
+    "template": {
       "namespace": "{NAMESPACE}",
       "element_name": "{ELEMENT_NAME}",
       "language": {
@@ -55,8 +55,8 @@ Para ilustrar, suponhamos que seu message template contém 3 placeholders, sendo
 
 ```json
 {
-    "type": "hsm",
-    "hsm": {
+    "type": "template",
+    "template": {
       "namespace": "{NAMESPACE}",
       "element_name": "{ELEMENT_NAME}",
       "language": {
@@ -67,7 +67,7 @@ Para ilustrar, suponhamos que seu message template contém 3 placeholders, sendo
         {
           "default": "${contact.name}"
         },
-        {
+        {f
           "default": "${calendar.date}"
         },
         {

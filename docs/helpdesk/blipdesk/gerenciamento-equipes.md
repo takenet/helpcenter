@@ -17,6 +17,13 @@ Para adicionar um novo atendente em alguma equipe, basta clicar no botão **+ Ad
 
 ![Adicionar atendentes](/img/helpdesk/desk-gerenciando-equipes-2.png)<br><br>
 
+Além disso, também é possível adicionar mais de um atendente por vez na mesma equipe, o caminho é o mesmo. Basta clicar em Adicionar Atendente e:
+
+- escrever os e-mails dos atendentes, separando-os com vírgula **ou**
+- escrever os e-mails dos atendentes, separando-os com &quot;enter&quot; **ou**
+- copiar e colar uma lista de e-mails na caixa de texto.
+
+![Adicionar atendentes](/img/helpdesk/gerenciando-equipes-gif.gif)<br><br>
 Para editar as informações ou excluir um atendente, pare o mouse sobre o nome do atendente e selecione o ícone correspondente à ação desejada (lápis para editar e lixeira para excluir), conforme a imagem abaixo:
 
 ![Editar informações atendente](/img/helpdesk/desk-gerenciando-equipes-3.png)<br><br>

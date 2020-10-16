@@ -209,6 +209,10 @@
         "title": "Como definir um tempo limite (timeout) para ações do Builder",
         "sidebar_label": "Como definir um tempo limite (timeout) para ações do Builder"
       },
+      "builder/como-usar-tempo-inatividade": {
+        "title": "Como usar o tempo de inatividade de usuário",
+        "sidebar_label": "Como usar o tempo de inatividade de usuário"
+      },
       "builder/como-utilizar-debug-builder": {
         "title": "Como utilizar a ferramenta de debug do Builder",
         "sidebar_label": "Como utilizar a ferramenta de debug do Builder"
@@ -220,6 +224,10 @@
       "builder/criando-acoes-condicionais": {
         "title": "Criando ações condicionais",
         "sidebar_label": "Criando ações condicionais"
+      },
+      "builder/criando-carrinho-compras": {
+        "title": "Criando um carrinho de compras usando o Builder",
+        "sidebar_label": "Criando um carrinho de compras usando o Builder"
       },
       "builder/criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat": {
         "title": "Criando um elemento web através de um weblink no BLiP Chat",
@@ -424,6 +432,26 @@
         "title": "Visão geral do Google Assistant",
         "sidebar_label": "Visão geral do Google Assistant"
       },
+      "channels/google-bm/arquitetura-google-bm": {
+        "title": "Arquitetura do Canal Google Business Messages",
+        "sidebar_label": "Arquitetura do Canal Google Business Messages"
+      },
+      "channels/google-bm/beneficios-google-bm": {
+        "title": "Benefícios do Google Business Messages",
+        "sidebar_label": "Benefícios do Google Business Messages"
+      },
+      "channels/google-bm/publicando-bot-google-bm": {
+        "title": "Como publicar seu Chatbot no Google Business Messages",
+        "sidebar_label": "Como publicar seu Chatbot no Google Business Messages"
+      },
+      "channels/google-bm/recebendo-solicitacoes-de-agente-humano": {
+        "title": "Recebendo Solicitações de Atendimento Humano no Business Messages",
+        "sidebar_label": "Recebendo Solicitações de Atendimento Humano no Business Messages"
+      },
+      "channels/google-bm/visao-geral-google-bm": {
+        "title": "Visão geral do Google Business Messages",
+        "sidebar_label": "Visão geral do Business Messages"
+      },
       "channels/google-rcs/como-interagir-google-rcs": {
         "title": "Como interagir com os usuários através do Google RCS",
         "sidebar_label": "Como interagir com os usuários através do Google RCS"
@@ -453,12 +481,11 @@
         "sidebar_label": "Arquitetura do canal do Messenger"
       },
       "channels/messenger/como-adicionar-message-tags": {
-        "title": "Como adicionar tags nas mensagens (Message Tags)",
-        "sidebar_label": "Como adicionar tags nas mensagens (Message Tags)"
+        "title": "Como adicionar tags nas mensagens (Message Tags)"
       },
-      "channels/messenger/como-configurar-sua-propria-aplicacao-facebook": {
-        "title": "Como configurar sua própria aplicação do Facebook em um bot no BLiP",
-        "sidebar_label": "Como configurar sua própria aplicação do Facebook em um bot no BLiP"
+      "channels/messenger/como-enviar-mensagens-ativas-messenger-via-portal": {
+        "title": "Como enviar mensagens ativas do Messenger via Portal",
+        "sidebar_label": "Como enviar mensagens ativas do Messenger via Portal"
       },
       "channels/messenger/como-interagir-messenger": {
         "title": "Como interagir com os usuários através do Messenger",
@@ -471,6 +498,14 @@
       "channels/messenger/outros-recursos-messenger": {
         "title": "Acessando outros recursos do Messenger",
         "sidebar_label": "Acessando outros recursos do Messenger"
+      },
+      "channels/messenger/propria-aplicacao-config-avancada": {
+        "title": "Como conectar sua própria aplicação pelas Configurações Avançadas",
+        "sidebar_label": "Como conectar sua própria aplicação pelas Configurações Avançadas"
+      },
+      "channels/messenger/propria-aplicacao-portal": {
+        "title": "Como conectar sua própria aplicação através do Portal",
+        "sidebar_label": "Como conectar sua própria aplicação através do Portal"
       },
       "channels/messenger/publicando-bot-no-messenger": {
         "title": "Como publicar seu Chatbot no Messenger",
@@ -548,6 +583,10 @@
         "title": "Arquitetura do canal WhatsApp",
         "sidebar_label": "Arquitetura do canal WhatsApp"
       },
+      "channels/whatsapp/como-buscar-informacoes-de-uma-waba-fora-do-business-manager-da-take": {
+        "title": "Como buscar informações de uma WABA fora do Business Manager da Take",
+        "sidebar_label": "Como buscar informações de uma WABA fora do Business Manager da Take"
+      },
       "channels/whatsapp/como-criar-aprovar-message-template": {
         "title": "Como criar e aprovar um Message Template no WhatsApp",
         "sidebar_label": "Como criar e aprovar um Message Template no WhatsApp"
@@ -568,6 +607,10 @@
         "title": "Como interagir com os usuários através do WhatsApp",
         "sidebar_label": "Como interagir com os usuários através do WhatsApp"
       },
+      "channels/whatsapp/como-salvar-numero-whatsapp": {
+        "title": "Como salvar o número do WhatsApp de um contato",
+        "sidebar_label": "Como salvar o número do WhatsApp de um contato"
+      },
       "channels/whatsapp/configurando-canal-whatsapp-container-proprio": {
         "title": "Configurando um container próprio no canal WhatsApp",
         "sidebar_label": "Como configurar um container próprio (WhatsApp Business API Client) do WhatsApp Business API no BLiP."
@@ -587,6 +630,10 @@
       "channels/whatsapp/publicando-bot-no-whatsapp": {
         "title": "Publicando seu bot no canal WhatsApp",
         "sidebar_label": "Publicando seu bot no canal WhatsApp"
+      },
+      "channels/whatsapp/qualidade-contato-whatsapp": {
+        "title": "Qualidade do contato no WhatsApp",
+        "sidebar_label": "Qualidade do contato no WhatsApp"
       },
       "channels/whatsapp/tipos-conteudo-whatsapp": {
         "title": "Conteúdos suportados no canal WhatsApp",
@@ -635,6 +682,10 @@
       "general/chatbots-e-a-importancia-contexto": {
         "title": "Chatbots e a importância do contexto",
         "sidebar_label": "Chatbots e a importância do contexto"
+      },
+      "general/filtro-contatos": {
+        "title": "Filtro de contatos por data e hora da última interação com o chatbot",
+        "sidebar_label": "Filtro de contatos por data e hora"
       },
       "general/level-up/level-up-0-lancamento-oficial-do-blip": {
         "title": "LevelUp 0 - Lançamento oficial do BLiP",
@@ -720,17 +771,9 @@
         "title": "Política de violação de mensagens ativas do BLiP",
         "sidebar_label": "Política de violação de mensagens ativas do BLiP"
       },
-      "growth/como-analisar-os-resultados-de-sua-campanha-de-anuncio-facebook-ads": {
-        "title": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)",
-        "sidebar_label": "Como analisar os resultados de sua campanha de anúncio (Facebook Ads)"
-      },
       "growth/como-identificar-usuarios-campanha": {
         "title": "Como identificar usuários vindos de uma campanha (anúncio)",
         "sidebar_label": "Como identificar usuários vindos de uma campanha (anúncio)"
-      },
-      "growth/criando-uma-campanha-de-anuncio-facebook-ads-para-o-seu-bot": {
-        "title": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot",
-        "sidebar_label": "Criando uma campanha de anúncio (Facebook Ads) para o seu bot"
       },
       "growth/obtendo-o-numero-de-usuarios-afetados-por-um-broadcast": {
         "title": "Obtendo o número de usuários afetados por um broadcast",
@@ -768,6 +811,10 @@
         "title": "Como filtrar um ticket por ID?",
         "sidebar_label": "Como filtrar um ticket por ID?"
       },
+      "helpdesk/blipdesk/como-finalizar-tickets": {
+        "title": "Como finalizar tickets?",
+        "sidebar_label": "Como finalizar tickets?"
+      },
       "helpdesk/blipdesk/como-funciona-a-distribuicao-de-tickets": {
         "title": "Como funciona a distribuição de tickets?",
         "sidebar_label": "Como funciona a distribuição de tickets?"
@@ -800,6 +847,10 @@
         "title": "Dominando e customizando o template de atendimento",
         "sidebar_label": "Dominando e customizando o template de atendimento"
       },
+      "helpdesk/blipdesk/exemplos-regras-atendimento": {
+        "title": "Exemplos práticos de regras de atendimento",
+        "sidebar_label": "Exemplos práticos de regras de atendimento"
+      },
       "helpdesk/blipdesk/gerenciamento-equipes": {
         "title": "Gerenciando equipes de atendimento no BLiP Desk",
         "sidebar_label": "Gerenciando equipes de atendimento no BLiP Desk"
@@ -825,8 +876,8 @@
         "sidebar_label": "Como conectar a um canal de atendimento personalizado"
       },
       "helpdesk/liveagent/utilizar-live-agent-salesForce-atendimento-humano": {
-        "title": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?",
-        "sidebar_label": "Como utilizar a ferramenta Live Agent do SalesForce para atendimento humano?"
+        "title": "Configurando o atendimento via chat no Salesforce",
+        "sidebar_label": "Configurando o atendimento via chat no Salesforce"
       },
       "introduction/como-criar-um-bot-com-builder": {
         "title": "Como criar um bot com o Builder do BLiP",
@@ -880,6 +931,10 @@
         "title": "Política de Uso de Cookies",
         "sidebar_label": "Política de Uso de Cookies"
       },
+      "security/images": {
+        "title": "Política de upload de mídias no BLiP",
+        "sidebar_label": "Política de upload de mídias no BLiP"
+      },
       "security/privacy": {
         "title": "Política de Privacidade",
         "sidebar_label": "Política de Privacidade"
@@ -910,7 +965,8 @@
       "Router": "Router",
       "API e SDKs": "API e SDKs",
       "Geral": "Geral",
-      "Políticas": "Políticas"
+      "Políticas": "Políticas",
+      "Privacidade e Segurança": "Privacidade e Segurança"
     }
   },
   "pages-strings": {
@@ -1013,10 +1069,8 @@
     "Dominando o BLiP|no description given": "Dominando o BLiP",
     "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!|no description given": "Para usuários do BLiP e que tem domínio de programação e buscam utilizar todo o potencial da plataforma!",
     "Mais recentes|no description given": "Mais recentes",
-    "Como adicionar tags nas mensagens (Message Tags)|no description given": "Como adicionar tags nas mensagens (Message Tags)",
-    "Como identificar usuários vindos de uma campanha (anúncio)|no description given": "Como identificar usuários vindos de uma campanha (anúncio)",
-    "Como validar a entrada do usuário|no description given": "Como validar a entrada do usuário",
-    "Dominando e customizando o template de atendimento|no description given": "Dominando e customizando o template de atendimento",
+    "Como finalizar tickets?|no description given": "Como finalizar tickets?",
+    "Como salvar o número do WhatsApp de um contato?|no description given": "Como salvar o número do WhatsApp de um contato?",
     "Mais acessados|no description given": "Mais acessados",
     "Como criar um bot com o Builder do BLiP|no description given": "Como criar um bot com o Builder do BLiP",
     "Como configurar o DialogFlow como um provedor de Inteligência Artificial|no description given": "Como configurar o DialogFlow como um provedor de Inteligência Artificial",

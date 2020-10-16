@@ -5,56 +5,121 @@ sidebar_label: Como publicar seu bot no Microsoft Teams
 ---
 
 
-### Introdução ao Microsoft Teams
-Acesse [o site oficial](https://products.office.com/pt-br/microsoft-teams/group-chat-software), utilize a versão online ou baixe e instale o aplicativo do Microsoft Teams.
+## Pré-requisitos
 
-### Criação da aplicação
-Na aba aplicativos, pesquise e instale o aplicativo App Studio.
+1. Possuir uma conta no Microsoft Teams. Acesse [o site oficial](https://products.office.com/pt-br/microsoft-teams/group-chat-software) para utilizar a versão online, ou fazer o download do aplicativo do Microsoft Teams para Windows, Linux ou Mac.
 
-![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-1.png)<br>
+## Configurando o contato inteligente no Microsoft Teams
+**1.** Na aba aplicativos, pesquise e instale o aplicativo **App Studio**.
+
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-1.png)
+<br>
+
+**2.** Após a instalação, o App Studio estará disponível para criação de novos aplicativos personalizados. Clique no ícone do App Studio.
+
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-2.png)
+<br>
+
+**3.** Clique na aba de **Manifest editor** e em seguida selecione a opção **+ Create a new app** para criar seu aplicativo.
+
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-3.png)
+<br>
+
+**4.** Em **App details** preencha todos os campos obrigatórios e os campos opcionais que desejar. Neste momento os dados não precisam ter relação com o Take Blip, portanto sinta-se livre para preecnher como preferir.
+
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-4.png)
+<br>
+
+**5.** No menu lateral esquerdo, selecione a opção **Bots** e clique em **Set up**.
+
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-5.png)
+<br>
+
+**6.** Na janela que se abriu, insira o nome do seu contato inteligente (não é necessário ser igual ao que está no Take Blip), e marque as seguintes opções:
+- *Messaging Bot*
+    - *My bot supports uploading and downloading files*
+- **Scope*
+    - *Personal*
+    - *Team*
+    - *Group Chat*
+
+> Caso ocorra um erro ao criar o bot, tente utilizar um nome menor.
+
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-9.png)
+<br>
+
+**7.** Finalizada a configuração inicial, copie o ID do bot (exibido abaixo do nome dele) e salve em um local temporário. Ele será necessário nas próximas etapas.
+
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-6.png)
+<br>
+
+**8.** Clique no botão **Generate new password**, copie o valor gerado e salve em um local temporário. Ele será necessário nas próximas etapas. **Atenção:** Esse valor só será exibido uma vez.
+
+**9.** O campo **Bot endpoint address** se trata da URL de endpoint do Take Blip. Esta é a configuração que define qual URL deverá ser utilizada pelo Microsoft Teams para enviar as mensagens eviadas pelos usuários do seu aplicativo. Por isso, você deverá configurar a URL do Take Blip, conforme abaixo (utilize o ID do bot copiado no passo 7):
+
+> [https://abs.gw.msging.net/{{id-do-bot}}](https://abs.gw.msging.net/{{id-do-bot}})
+
+Se o seu contato inteligente estiver associado a um contrato no Take Blip, utilize a URL abaixo:
+
+> [https://{{id-do-contrato}}.abs.gw.msging.net/{{id-do-bot}}](https://{{id-do-contrato}}.abs.gw.msging.net/{{id-do-bot}})
 
 
-Após a instalação, o aplicativo estará disponível para criação de novos aplicativos personalizados.
+## Configurando o contato inteligente no Take Blip
 
-![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-2.png)<br>
+Após preencher todas as informações do Microsoft Teams é preciso configurar seu contato inteligente no Take Blip.
 
-Como apresentado na imagem abaixo, basta selecionar a aba de **manifest editor** e clicar na opção **create a new app** para criação de novos aplicativos.
+**10.** Acesse seu contato inteligente no Take Blip, e vá para a tela de configurações avançadas. Caso não saiba como acessar as configurações avançadas, [clique aqui](/docs/management/configuracoes-avancadas-bot).
 
-![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-3.png)<br>
+**11.** Utilizando sempre o domínio `postmaster@abs.gw.msging.net`, adicione as chaves de configuração do Microsoft Teams substituindo os valores com os seus dados, conforme demonstrado na tabela abaixo.
 
-Para conclusão do processo de criação do aplicativo é necessário o preenchimento de todos os campos obrigatórios. É importante ressaltar que, o valor do campo **App ID** *(4f2ec3e7-097e-42eb-b9ea-b43791cef48e)* será necessário nas próximas etapas e este será retratado como **AccountExternalId**.
+| Domínio                      | Chave                 | Valor        |
+| ---------------------------- | --------------------- | ------------ |
+| postmaster@abs.gw.msging.net | ApplicationId         | ID-DO-BOT    |
+| postmaster@abs.gw.msging.net | ApplicationPassword   | APP-PASSWORD |
+| postmaster@abs.gw.msging.net | AccountExternalId     | ID-DO-BOT    |
 
-![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-4.png)<br>
+- **ApplicationId** - ID do bot copiado no passo 7.
+- **ApplicationPassword** - *Password* copiado no passo 8.
+- **AccountExternalId** - ID do bot copiado no passo 7.
 
-Por sua vez, será necessário configurar a aplicação como bot, conforme apresentado na imagem abaixo. Analogamente, preencha todos os campos de acordo com o tipo de seu bot.
+**12.** Com objetivo ter uma integração ainda melhor do Take Blip com o Teams, outras variáveis são necessárias para rotulação do tipo de conteúdo trafegado, são elas: **AudioSentence**, **DocumentSentence**, **GifSentence**, **VideoSentence**, **WeblinkSentence**, **TextButton**. Quando um destes tipos de conteúdos é enviado, o rótulo apresentado adapta-se ao valor preenchido nas configurações avançadas. Sinta-se livre para preencher os valores da forma que melhor lhe convém.
 
-![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-5.png)<br>
+| Domínio                      | Chave            | Valor                      |
+| ---------------------------- | ---------------- | -------------------------- |
+| postmaster@abs.gw.msging.net | AudioSentence    | Você recebeu um áudio!     |
+| postmaster@abs.gw.msging.net | DocumentSentence | Você recebeu um documento! |
+| postmaster@abs.gw.msging.net | GifSentence      | Você recebeu um GIF!       |
+| postmaster@abs.gw.msging.net | VideoSentence    | Você recebeu um vídeo!     |
+| postmaster@abs.gw.msging.net | WeblinkSentence  | Você recebeu um weblink!   |
+| postmaster@abs.gw.msging.net | TextButton       | Você recebeu uma mensagem! |
 
-Finalizada sua configuração inicial, gere uma senha no botão **"generate new password"** e armazene a mesma, pois utilizaremos da mesma nas demais etapas. Além disso, preencha o campo **Bot endpoint address** com https://abs.gw.msging.net/**{AccountExternalId}**, substitua o **{AccountExternalId}** com o valor do mesmo.
-Em suma, o valor abaixo do nome do Bot (*05465a70-2a28-45c7-babe-333aa39cbcd1*) corresponde ao **ApplicationId**, enquanto a senha gerada e parcialmente visualizada no campo *password* equivale ao **ApplicationPassword**.
 
-![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-6.png)<br>
+## Testando o seu contato inteligente no Teams
 
-Conforme indicação na imagem abaixo, baixe o pacote do aplicativo desenvolvido nas etapas anteriores.
+**13.** No menu lateral esquerdo, selecione a opção **Test and distribute** e clique em **Download**, conforme apresentado na imagem abaixo. Será feito o download de um arquivo com um "pacote de aplicativo".
 
 ![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-7.png)<br>
 
-Novamente na aba de aplicativos, na funcionalidade apontada abaixo, carregue e adicione o aplicativo previamente baixado.
+**14.** Volte à aba de aplicativos, clique na opção **Carregar um aplicativo personalizado** e escolha o arquivo baixado no passo 13.
 
-![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-8.png)<br>
+> Se a opção **Carregar um aplicativo personalizado**  não está disponível, isto significa que seu email é corporativo e sua empresa não possui contrato com a Microsoft para acesso privilegiado dos recursos Microsoft Teams. Portanto, contrate o serviço ou faça a integração utilizando um email não corporativo.
 
-<div class="span-warning-message">Note: Caso a <b>opção indicada acima não esteja disponível</b>, significa que seu email é corporativo e sua organização não possui contrato com a Microsoft para acesso privilegiado dos recursos Microsoft Teams. Portanto, contrate o serviço ou faça a integração utilizando um email não corporativo.</div>
+> Caso algum erro ocorra ao selecionar o arquivo, verifique se todas as informações preenchidas durante as configurações do contato inteligente no Microsoft Teams estão corretas. Repita o passo 13 e 14 se algum ajuste foi necessário.
 
-### Integração com o BLiP
-Abra as configurações do seu bot no Builder e acesse as configurações avançadas.
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-8.png)
+<br>
 
-![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-9.png)<br>
+**15.** Seu aplicativo agora estará disponível na seção **Criados por sua organização**. Clique no aplicativo e em seguida clique em **Adicionar**.
 
-Nesta etapa, adicione as variáveis de integração. O *domínio* sempre será **postmaster@abs.gw.msging.net**, a *chave*, por sua vez, corresponde ao nome da variável de integração, algumas destas variáveis já foram apresentadas anteriormente com a localização dos seus valores, são elas: **AccountExternalId, ApplicationId e ApplicationPassword**.
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-10.png)
 
-Com objetivo de integralizar as duas plataformas, outras variáveis são necessárias para rotulação do tipo de conteúdo trafegado são elas: **AudioSentence, DocumentSentence, GifSentence, VideoSentence, WeblinkSentence, TextButton**. Quando um destes tipos de conteúdos são enviados, o rotulo apresentado adapta-se ao valor preenchido respectivamente, portanto preencha o valor da forma que melhor lhe convém.
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-11.png)
+<br>
 
-![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-10.png)<br>
+**16.** Tudo pronto. Seu contato inteligente já está disponível para testes no Microsoft Teams!
+
+![](/img/channels/microsoft-teams/publicando-bot-microsoft-teams-12.png)
+<br>
 
 <!-- Rating frame -->
 <script type="text/javascript" src="/scripts/rating.js"></script>

@@ -4,6 +4,8 @@ title: Como identificar usuários vindos de uma campanha (anúncio)
 sidebar_label: Como identificar usuários vindos de uma campanha (anúncio)
 ---
 
+> A integração com o Sugar ADs e Facebook ADs será descontinuada a partir do dia **22/07/2020**
+
 Sempre que um usuário acessa o bot via Campanha, nos metadados do envio da primeira mensagem, será possivel identificar atributos relacionados à essa campanha. Observe tais metados no log do bot:
 
 ![](/img/growth/como-identificar-usuarios-campanha-1.png)<br/>
