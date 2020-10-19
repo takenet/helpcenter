@@ -124,6 +124,12 @@ var releasesAux;
 var aux;
 var releases =[
       {
+         "id":"atts",
+         "title":"Padrão de comunicação de chatbots HTTP",
+         "date":"14 de Outubro de 2020",
+         "text":"Atualizamos o padrão de comunicação de chatbots HTTP através da implementação de um novo modelo.",       
+      },
+      {
          "id":"news",
          "title":"Inatividade no portal Blip",
          "date":"06 de Outubro de 2020",
