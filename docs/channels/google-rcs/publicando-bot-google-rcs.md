@@ -31,7 +31,7 @@ Utilizando sempre o domínio `postmaster@googlercs.gw.msging.net`, adicione as c
 
 Após realizada todas as configurações anteriores, clique no botão **Verify**. Esta é a última etapa de configuração. Caso todos os passos tenham sido executados com sucesso, basta testar o funcionamento da sua aplicação.
 
-**7.** Para testar o funcionamento do bot, acesse o aplicativo **Mensagens**, através do número de teste habilitado, e envie uma mensagem para o seu agente.
+Para testar o funcionamento do bot, acesse o aplicativo **Mensagens**, através do número de teste habilitado, e envie uma mensagem para o seu agente.
 
 
 <!-- Rating frame -->
