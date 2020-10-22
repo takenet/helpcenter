@@ -4,7 +4,7 @@ title: Como publicar seu Chatbot no Google Business Messages
 sidebar_label: Como publicar seu Chatbot no Google Business Messages
 ---
  
-O processo de publicação do seu contato/chatbot no Business Messages começa com o preenchimento [deste formulário](https://docs.google.com/forms/d/e/1FAIpQLSdM7pFU1_eud2erYUk-qyE0Lwf3kp4jMMHOhdUTLMOQrWigTg/viewform).
+O processo de publicação do seu contato/chatbot no Business Messages começa com o preenchimento [deste formulário](https://licenastake.typeform.com/to/cjkj9ZGS).
 
 **É essencial que as informações repassadas estejam corretas**, porque elas serão utilizadas para a criação do Agente/Contato da marca no canal. Portanto, **siga as instruções abaixo:**
 

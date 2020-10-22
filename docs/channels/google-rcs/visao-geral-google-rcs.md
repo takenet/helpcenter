@@ -8,9 +8,9 @@ Milhões de empresas no mundo utilizam o canal SMS para estreitar a comunicaçã
 
 ![Imagem que apresenta uma visão geral sobre as principais funcionalidades do canal Google RCS](/img/channels/google-rcs/rcs-home.png)
 
-O app **Menssagens** é o aplicativo oficial e nativo do Android para conversação. Ele engloba o envio de mensagens de SMS, MMS e Chat Corporativos numa única aplicação.
+O app [Mensagens](https://messages.google.com/) é o aplicativo oficial e nativo do Android para conversação. Ele engloba o envio de mensagens de SMS, MMS e Chat Corporativos numa única aplicação.
 
-Para saber mais sobre esse canal de mensageria, acesse a documentação oficial do Google [neste link](https://developers.google.com/business-communications/rcs-business-messaging).
+Para saber mais sobre esse canal de mensageria, acesse a documentação oficial do Google [neste link](https://jibe.google.com/).
 
 **Obs.: O uso deste canal está restrito a algumas empresas. Caso tenha interesse em utilizá-lo entre em contato [clicando aqui](mailto:community@take.net)**
 
