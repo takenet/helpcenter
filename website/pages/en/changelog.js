@@ -124,6 +124,12 @@ var releasesAux;
 var aux;
 var releases =[
       {
+         "id":"news",
+         "title":"Acesso e download de mídias no portal do Blip",
+         "date":"26 de Outubro de 2020",
+         "text":"Para proporcionar mais segurança no acesso e download de arquivos gravados no portal do Blip, disponibilizamos a autorização através de um token, revogado após 60 minutos.",       
+      },
+      {
          "id":"atts",
          "title":"Padrão de comunicação de chatbots HTTP",
          "date":"14 de Outubro de 2020",
