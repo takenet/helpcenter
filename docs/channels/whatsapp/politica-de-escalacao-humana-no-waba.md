@@ -1,6 +1,6 @@
 ---
 id: politica-de-escalacao-humana-no-waba
-title: Aumento na fiscalização da Política de Escalação Humana no WhatsApp Business
+title: Política de Escalação Humana no WhatsApp Business
 sidebar_label: Política de Escalação Humana no WhatsApp Business
 ---
 
@@ -40,13 +40,13 @@ Caso esteja no horário, o usuário será encaminhado para atendimento no Blip D
 
 Se a opção de transbordo humano não for identificada e o número for penalizado incorretamente, abra um chamado no WABA para mostrá-lo.
 
-Para abrir um chamado no WABA:
+Para abrir um chamado no [WABA](https://help.blip.ai/docs/en/channels/whatsapp/arquitetura-do-whatsapp/):
 
-Acesse https://business.facebook.com/
-Selecione o menu de ajuda
-Clique em “Entrar em contato com a equipe de suporte”
+- Acesse https://business.facebook.com/
+- Selecione o menu de ajuda
+- Clique em “Entrar em contato com a equipe de suporte”
 
-​!Abertura de chamado no WABA](/img/channels/whatsapp/fiscalização-da-politica-de-escalação-humana-no-whatsapp-business.3.png)<br>
+​![Abertura de chamado no WABA](/img/channels/whatsapp/fiscalização-da-politica-de-escalação-humana-no-whatsapp-business.3.png)<br>
 
 Para saber mais detalhes sobre o canal WhatsApp, acesse a documentação oficial, clicando [neste link](https://developers.facebook.com/docs/whatsapp/overview).
 
