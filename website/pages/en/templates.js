@@ -1,7 +1,7 @@
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
-//BLiP Icon for SVGs
+//Blip Icon for SVGs
 const defs = '/img/defs.svg';
 class BlipIcon extends React.Component {
     render() {
@@ -45,13 +45,13 @@ class Template extends React.Component {
                 {/* Conteudo */}
                 <div className="pages-content-templates">
                     <div className="navigation">
-                        <p className="from">BLiP Help Center ></p>
+                        <p className="from">Blip Help Center ></p>
                         <p className="from"><a className="link-from" href="/resources">Recursos</a> ></p>
                         <p className="here">Templates de chatbot</p>
                     </div>
                     <div className="info-templates">
                         <p className="intro-templates">Os templates de chatbot auxiliam os usuários a criar mais facilmente os fluxos de conversa,
-                      eles servem para agilizar o processo de criação dos bots no BLiP.</p>
+                      eles servem para agilizar o processo de criação dos bots no Blip.</p>
                     </div>
 
                     <div className="banner-templates-section">
@@ -73,7 +73,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Petshop - Agendamento</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" name="petshop2" data-title="Petshop - Agendamento"></div>
                                     <a href="/template?Id=Petshop_agendamento"><div className="seeMore-card-templates">
@@ -89,7 +89,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Entretenimento</button>
                                 <p className="title-card-templates">Programação de Evento</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" data-title="Programação de Evento"></div>
                                     <a href="/template?Id=Programacao_evento"><div className="seeMore-card-templates">
@@ -105,7 +105,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Varejo</button>
                                 <p className="title-card-templates">Concessionária de Carros</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" data-title="Concessionaria de Carros"></div>
                                     <a href="/template?Id=Concessionaria_carros"><div className="seeMore-card-templates">
@@ -121,7 +121,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Imobiliária</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" data-title="Imobiliária"></div>
                                     <a href="/template?Id=Imobiliaria"><div className="seeMore-card-templates">
@@ -137,7 +137,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Varejo</button>
                                 <p className="title-card-templates">Loja de Impressoras</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" data-title="Loja de Impressoras"></div>
                                     <a href="/template?Id=Loja_impressora"><div className="seeMore-card-templates">
@@ -169,7 +169,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Seguradora de Carros</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" data-title="Seguradora de Carros"></div>
                                     <a href="/template?Id=Seguradora_carros"><div className="seeMore-card-templates">
@@ -185,7 +185,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Identificador de Endereço por CEP</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" data-title="Identificador de Endereço por CEP"></div>
                                     <a href="/template?Id=Busca_cep"><div className="seeMore-card-templates">
@@ -201,7 +201,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Condição e Previsão do Tempo</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" data-title="Condição e Previsão do Tempo"></div>
                                     <a href="/template?Id=Previsao_tempo"><div className="seeMore-card-templates">
@@ -217,7 +217,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">FAQ - Loja Virtual</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" data-title="FAQ - Loja Virtual"></div>
                                     <a href="/template?Id=Faq_loja_virtual"><div className="seeMore-card-templates">
@@ -266,7 +266,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Atendimento Humano para Equipes</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" data-title="Atendimento Humano para Equipes"></div>
                                     <a href="/template?Id=Atendimento_humano_equipes"><div className="seeMore-card-templates">
@@ -282,7 +282,7 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Atendimento Humano - Horários</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" data-title="Atendimento Humano - Horários"></div>
                                     <a href="/template?Id=Atendimento_humano_horarios"><div className="seeMore-card-templates">
@@ -298,10 +298,26 @@ class Template extends React.Component {
                             <div className="text-card-templates">
                                 <button className="category-card-templates">Serviços</button>
                                 <p className="title-card-templates">Carrinho de Compras</p>
-                                <p className="creator-card-templates">criado por BLiP</p>
+                                <p className="creator-card-templates">criado por Blip</p>
                                 <div className="card-footer">
                                     <div className="rw-ui-container" data-title="Carrinho de compras"></div>
                                     <a href="/template?Id=Carrinho"><div className="seeMore-card-templates">
+                                        <p className="text-seeMore">Ver detalhes</p>
+                                        <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
+                                    </div></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card-templates">
+                            <img className="thumb-card-templates" src="https://blipmediastore.blob.core.windows.net/secure-medias/Media_760f8bff-26eb-4b43-bbc0-204565e36e3d?sv=2019-07-07&st=2020-10-30T16%3A57%3A00Z&se=2020-10-30T17%3A27%3A00Z&sr=b&sp=r&sig=QeHp3IaVLZtTYGXC2%2B%2B6JRU6Uh6Ftr6BWGY3Dmhm%2BBM%3D&secure=true"></img>
+                            <div className="text-card-templates">
+                                <button className="category-card-templates">Varejo</button>
+                                <p className="title-card-templates">Status do pedido no e-commerce</p>
+                                <p className="creator-card-templates">criado por Blip</p>
+                                <div className="card-footer">
+                                    <div className="rw-ui-container" data-title="Status do pedido no e-commerce"></div>
+                                    <a href="/template?Id=Ecommerce"><div className="seeMore-card-templates">
                                         <p className="text-seeMore">Ver detalhes</p>
                                         <BlipIcon name="arrow-ball-right-solid" className="bp-fs-4-articles bp-fill-bot"></BlipIcon>
                                     </div></a>

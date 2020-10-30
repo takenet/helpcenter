@@ -1831,6 +1831,93 @@ class ScriptDynamically extends React.Component {
                                                 ]
                                                 },
                                                 {
+                                                "id": "Ecommerce",
+                                                "title": "Status do pedido no e-commerce",
+                                                "topicId": 4788,
+                                                "creator": "Criado por BLiP",
+                                                "subtitle": "Esse chatbot foi desenvolvido como um exemplo de como se criar um bot que permite que o usuário digite email ou ID do pedido, e receba status da compra feita",
+                                                "categories": [
+                                                    {
+                                                    "category": "Varejo"
+                                                    },
+                                                    {
+                                                    "subcategory": "Serviços"
+                                                    }
+                                                    ,
+                                                    {
+                                                    "subcategory": "Vendas"
+                                                    }
+                                                ],
+                                                "download_uri": "/templates/carrinho/carrinhodecompras.json",
+                                                "link_bot": "Y2FycmluaG9kZWNvbXByYXM6YjE1OGI2Y2YtMGRjMi00YzgwLWJmNGQtYmU0MjY0ZDdiNDJl",
+                                                "images": [
+                                                    {
+                                                    "url": "/templates/carrinho/Exemplo02.png"
+                                                    },
+                                                    {
+                                                    "url": "/templates/carrinho/Exemplo01.png"
+                                                    },
+                                                    {
+                                                    "url": "/templates/carrinho/Exemplo03.png"
+                                                    },
+                                                ],
+                                                "tabs": {
+                                                    "details": '<p class="content-title">Compatível com:</p> \\
+                                                    <div class="compatible-channels"> \\
+                                                        <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
+                                                        <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
+                                                        <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
+                                                        <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
+                                                    </div> \\
+                                                    <p class="content-text">Esse chatbot foi desenvolvido como um exemplo de como se criar uma espécie de carrinho de compras utilizando o Builder.\\
+                                                        Mais detalhes podem ser encontrados no artigo abaixo, que apresenta as informações de construção e também dos \\
+                                                        scripts e funções geradas.\\
+                                                        <br><br> <a href="http://help.blip.ai/docs/en/builder/criando-carrinho-compras"> Criando um carrinho de compras usando o Builder </a>\\
+                                                    <p class="content-title">O que pode ser feito?</p> \\
+                                                    <ul> \\
+                                                        <li class="content-list-text">Exibir seus produtos em forma de catálogo</li> \\
+                                                        <li class="content-list-text">Permitir que o cliente compre diretamente pelo bot</li> \\
+                                                    </ul>',  
+                        
+                                                    "install": '<p class="content-title">Como instalar?</p>\\
+                                                    \\
+                                                    <ul>\\
+                                                    <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
+                                    <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
+                                        </ul>\\
+                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
+                                    <li class="content-list-text">Volte ao seu bot e clique em <b>Publicar fluxo</b></li> \\
+                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
+                                        <ul>\\
+                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
+                                        </ul>\\
+                                                    <li class="content-list-text"><b>Customize </b> conforme necessidade</li> \\
+                                                    </ul>',
+                        
+                                                    "support": '<p class="content-title">Suporte</p> \\
+                                                    <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
+                                                        e aprenderem sobre algumas funcionalidades do BLiP.</p>\\
+                                                        \\
+                                                        <p class="content-text"> A equipe do BLiP e da Take não prestam suporte a este modelo.</p>\\
+                                <p class="content-text"> <b> Ficou com alguma dúvida ou gostaria de dicas e sugestões de uso deste template? Deixe seu comentário abaixo. </b></p>',
+                                                },
+                                                "table": [
+                                                    {
+                                                    "func": "✓ Multicanal"
+                                                    },
+                                                    {
+                                                    "func": "✓ Carrosel"
+                                                    },
+                                                    {
+                                                    "func": "✓ Menu"
+                                                    },
+                                                    {
+                                                    "func": "✓ Scripts Javascript"
+                                                    }
+                                                ]
+                                                },
+                                                {
                                                 "id": "Carrinho",
                                                 "title": "Carrinho de Compras",
                                                 "topicId": 4788,
@@ -1912,7 +1999,7 @@ class ScriptDynamically extends React.Component {
                                                     "func": "✓ Scripts Javascript"
                                                     }
                                                 ]
-                                                },
+                                                }
 
                     ]
                     };
