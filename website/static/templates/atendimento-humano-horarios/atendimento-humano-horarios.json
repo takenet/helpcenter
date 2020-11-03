@@ -519,7 +519,6 @@
        ],
        "$enteringCustomActions":[
           {
-              "$id": "5db3ceb4-241a-430a-81e0-a0167e12991f",
               "type": "ProcessCommand",
               "$title": "CheckAgentsAvailability",
               "$invalid": false,
