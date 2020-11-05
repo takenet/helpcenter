@@ -40,12 +40,13 @@ class Detail extends React.Component {
                             <a id="linkProfile"><p className="creator-template"></p></a>
                             <p className="subtitle-details"> </p>
                             <div className="buttons-details">
-                                <button id="download" className="button-details-download">
+                                <a id="download" href="#" download target="_blank"><button className="button-details-download">
                                     <div className="button-content-download">
                                         <BlipIcon name="download" className="icon-button-download"></BlipIcon>
                                         <p className="text-button-download">Download</p>
                                     </div>
-                                </button>
+                                
+                                </button></a>
 
                                 <button id="test" className="button-details-see">
                                     <div className="button-content-see">
@@ -75,39 +76,6 @@ class Detail extends React.Component {
                     <div className="modal-content-bot">
                         <span className="closeBot">&times;</span>
                         <div className="iframe-bot" id="iframe"></div>
-                    </div>
-                </div>
-
-                {/* Modal donwload */}
-                <div id="modalDownload" className="modal-beta">
-                    <div className="modal-template-content">
-                        <div className="modal-template-header">
-                            <p className="modal-template-title">Publique esse template diretamente em seu bot</p>
-                            <span className="closeDownload" id="closeDownload">&times;</span>
-                        </div>
-                        <div className="modal-beta-body">
-                            <div className="modal-template-text"> <p>Para instalar informe a API-Key do seu bot</p>
-                                <div className="tooltip">
-                                    <BlipIcon className="template-tooltip" name="blip-attention"></BlipIcon>
-                                    <div className="right">
-                                        <p>API-KEY é necessária para realizar qualquer requisição na API do BLiP.
-                                            Para saber como encontrar seu API-KEY, <a target="_blank" href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">
-                                                clique aqui</a></p>
-                                        <i></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <input type="text"
-                                id="botKey"
-                                name="botKey"
-                                className="input-template-page"
-                                placeholder="Cole a sua API-Key">
-                            </input>
-                            <button id="BPublish" disabled={true} className="button-template-page">Instalar!</button>
-                            <p className="modal-template-subtext">Ao clicar em <b>instalar</b>, o fluxo atual do seu bot será substituído.</p>
-                            <p className="modal-template-subtext">Alguns templates requerem arquivos extras, confira a sessão <b>Instalação</b></p>
-                            <p className="modal-template-subtext">Caso prefira fazer o download, <a href="#" id="download_link" download target="_blank">clique aqui</a></p>
-                        </div>
                     </div>
                 </div>
 
@@ -1866,8 +1834,7 @@ class ScriptDynamically extends React.Component {
                                                     <div class="compatible-channels"> \\
                                                         <img class="compatible-channels-img" src="/img/illustrations/blipchat-logo.svg"></img> \\
                                                         <img class="compatible-channels-img" src="/img/illustrations/messenger-logo.svg"></img> \\
-                                                        <img class="compatible-channels-img" src="/img/illustrations/workplace-logo.svg"></img> \\
-                                                        <img class="compatible-channels-img" src="/img/illustrations/microsoft-teams-logo.svg"></img> \\
+                                                        <img class="compatible-channels-img" src="/img/illustrations/whatsapp-logo.svg"></img> \\
                                                     </div> \\
                                                     <p class="content-text">Esse chatbot foi desenvolvido como um exemplo de como se criar uma espécie de carrinho de compras utilizando o Builder.\\
                                                         Mais detalhes podem ser encontrados no artigo abaixo, que apresenta as informações de construção e também dos \\
@@ -1882,18 +1849,15 @@ class ScriptDynamically extends React.Component {
                                                     "install": '<p class="content-title">Como instalar?</p>\\
                                                     \\
                                                     <ul>\\
-                                                    <li class="content-list-text">Crie um bot e copie a API-Key dele.</li> \\
-                                    <ul>\\
-                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/en/api-sdks/como-encontrar-a-api-key-do-meu-bot/">Clique aqui para descobrir como encontrar sua API-Key</a></li><br>\\
-                                        </ul>\\
-                                    <li class="content-list-text">Informe sua API-Key e clique em <b>Instalar</b></li> \\
-                                    <li class="content-list-text">Volte ao seu bot e clique em <b>Publicar fluxo</b></li> \\
-                                    <li class="content-list-text">Caso prefira, baixe o fluxo e o importe no seu bot</li>\\
-                                        <ul>\\
-                                        <li class="content-list-text"><a href="https://help.blip.ai/docs/builder/importando-o-fluxo-de-um-bot-no-builder/">Clique aqui para aprender como importar um fluxo no Builder</a></li><br>\\
-                                        </ul>\\
-                                                    <li class="content-list-text"><b>Customize </b> conforme necessidade</li> \\
-                                                    </ul>',
+                                                    <li class="content-list-text">Faça o download do arquivo .ZIP que contém os arquivos .JSON necessários</li> \\
+                                                    <li class="content-list-text">Caso prefira, faça o download dos arquivos separadamente:</li>\\
+                                                    <ul>\\
+                                                        <li class="content-list-text">Arquivo 1</li>\\
+                                                        <li class="content-list-text">Arquivo 2</li>\\
+                                                        <li class="content-list-text">Arquivo 3</li>\\
+                                                    </ul>\\
+                                    <li class="content-list-text">Por se tratar de um template mais complexo, acesse este <a href="https://docs.google.com/document/d/e/2PACX-1vTMYJ26ZtGNoPyCi-gijGQ92njzUoZ0RjmR0p_93LsTA4O7qvsEkfQWZGftK7iPvhCRaKgDPtP3mT4q/pub">artigo</a> para prosseguir com a instalação e configuração</li>\\
+                                        </ul>',
                         
                                                     "support": '<p class="content-title">Suporte</p> \\
                                                     <p class="content-text"> Este modelo de Chatbot é gratuito e tem como objetivo ajudar os usuários a compreenderem \\
@@ -2042,61 +2006,13 @@ class ScriptDynamically extends React.Component {
                         var subtitle = document.getElementsByClassName('subtitle-details')[0];
                         subtitle.innerHTML = template.subtitle.toString();
 
-                        function readTextFile(file, callback) {
-                            var rawFile = new XMLHttpRequest();
-                            rawFile.overrideMimeType("application/json");
-                            rawFile.open("GET", file, true);
-                            rawFile.onreadystatechange = function() {
-                                if (rawFile.readyState === 4 && rawFile.status == "200") {
-                                    callback(rawFile.responseText);
-                                }
-                            }
-                            rawFile.send(null);
-                        };
-
-                        var download_link = document.getElementById("download_link");
-                        download_link.href = template.download_uri.toString();
-                        download_link.onclick = function(){
-                            ga('send', 'event', 'Template download', template.title.toString(), 'Template');
-                        }
                         
                         var download = document.getElementById('download');
-                        var modalDownload = document.getElementById("modalDownload");
-                        var modalCloseDonwload = document.getElementById("closeDownload");
+                        download.href = template.download_uri.toString();
                         download.onclick = function(){
-                            modalDownload.style.display = "block";
+                            ga('send', 'event', 'Template download', template.title.toString(), 'Template');
                         };
 
-                        var Bpublish = document.getElementById("BPublish");
-                        var aKey = document.getElementById("botKey");
-                        Bpublish.onclick = function() {
-                            readTextFile(template.download_uri.toString(), function(json_file){
-                                axios.post('https://http.msging.net/commands', {
-                                "id": "0094447a-2581-4597-be6a-a5dff33af156",
-                                "method": "set",
-                                "uri": "/buckets/blip_portal:builder_working_flow",
-                                "type": "application/json", 
-                                "resource": JSON.parse(json_file)
-                                }, {
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Access-Control-Allow-Origin' : '*',
-                                    'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-                                    'X-Requested-With': 'XMLHttpRequest',
-                                    'Authorization': aKey.value.toString()
-                                }
-                                })
-                                .then(function (response) {
-                                    ga('send', 'event', 'Template install', template.title.toString(), 'Template');
-                                })
-                                .catch(function (error) {
-                                    console.log(error.response);
-                                });    
-                            });
-                            
-                        };
-
-                        
                         var linkBot = document.getElementsByClassName('iframe-bot')[0];
                         linkBot.src = template.link_bot.toString();
 
@@ -2236,19 +2152,6 @@ class ScriptDynamically extends React.Component {
                             modalDownload.style.display = "none";
                         }
                     };
-
-                    modalCloseDonwload.onclick = function(){
-                        modalDownload.style.display = "none";
-                    };
-
-                    document.getElementById("botKey").addEventListener("keyup", function() {
-                        var nameInput = document.getElementById('botKey').value;
-                        if (nameInput != "") {
-                            document.getElementById('BPublish').removeAttribute("disabled");
-                        } else {
-                            document.getElementById('BPublish').setAttribute("disabled", null);
-                        }
-                    });
                     
                 `
                 }}
