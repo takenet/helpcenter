@@ -428,7 +428,9 @@
                 "source": "// Receive the variables as parameters\nfunction run(offset, start, end, workDays) {\n\n    offset = parseInt(offset);\n    let today = nowUTC(offset);\n    let startDate = utcDate(start);\n    let endDate = utcDate(end);\n\n    \n    return ((today - startDate) > 0) && ((endDate - today) > 0) && isWorkDay(today, workDays);\n}\n\n//Get now UTC Date\nfunction nowUTC(offset) {\n    let now = new Date;\n    let utc_timestamp = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(),\n        now.getUTCHours(), now.getUTCMinutes(), now.getUTCSeconds(), now.getUTCMilliseconds());\n\n    return new Date(utc_timestamp + offset * 3600 * 1000);\n}\n\n//Get UTC Date\nfunction utcDate(timeString) {\n    let now = new Date;\n\n    let hour = getValueByString('hour', timeString);\n    let minutes = getValueByString('minutes', timeString);\n    let utc_timestamp = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(),\n        hour, minutes, 0, 0);\n    return new Date(utc_timestamp);\n}\n\n//Get hour/minute by string with pattern HH:mm\nfunction getValueByString(type, timeString) {\n\n    if (type === 'hour') {\n        return parseInt(timeString.substring(0, timeString.indexOf(':')));\n    }\n\n    else if (type === 'minutes') {\n        return parseInt(timeString.substring(timeString.indexOf(':') + 1, timeString.length));\n    }\n\n    return 0;\n}\n\n//Get if today is a work day\nfunction isWorkDay(today, workDays) {\n    workDays = workDays.split(',');\n\n    return workDays.indexOf(today.getDay().toString()) >= 0;\n}\n",
                 "inputVariables": [
                     "config.dateTimeOffset",
-                    "workSchedule"
+                    "config.startDate",
+                    "config.endDate",
+                    "config.workDays"
                 ],
                 "outputVariable": "isWorkTime"
             },

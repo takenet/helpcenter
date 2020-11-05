@@ -487,7 +487,7 @@
         ],
         "$enteringCustomActions": [
             {
-                "type": "ProcessHttp",
+                "type": "ProcessCommand",
                 "$title": "CheckAgentsAvailability",
                 "$invalid": false,
                 "settings": {
@@ -496,9 +496,7 @@
                     "uri": "/attendants",
                     "variable": "result"
                 },
-                "$$hashKey": "object:10425",
-                "conditions": [
-                ]
+                "$$hashKey": "object:10425"
             },
             {
                 "type": "ExecuteScript",
@@ -1502,20 +1500,16 @@
         ],
         "$enteringCustomActions": [
             {
-                "type": "ProcessHttp",
+                "type": "ProcessCommand",
                 "$title": "CheckAgentsAvailability",
                 "$invalid": false,
                 "settings": {
-                    "headers": {
-                        "Content-Type": "application/json",
-                        "Authorization": "Key {{config.token}}"
-                    },
-                    "method": "POST",
-                    "body": "{\n  \"id\": \"{{random.guid}}\",\n  \"from\": \"{{application.identifier}}@{{application.domain}}\",  \"to\": \"postmaster@desk.msging.net\",\n  \"method\": \"get\",\n  \"uri\": \"/attendants\"\n}",
-                    "uri": "https://http.msging.net/commands",
-                    "responseStatusVariable": "status",
-                    "responseBodyVariable": "result"
-                }
+                    "to": "postmaster@desk.msging.net",
+                    "method": "get",
+                    "uri": "/attendants",
+                    "variable": "result"
+                },
+                "$$hashKey": "object:10425"
             },
             {
                 "type": "ExecuteScript",
