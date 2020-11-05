@@ -1,7 +1,7 @@
 ---
 id: ctrl-z-no-builder
 title: Como utilizar o atalho Ctrl+Z no Builder 
-sidebar_label: Ação: Como utilizar o Ctrl+Z no Builder
+sidebar_label: Como utilizar o Ctrl+Z no Builder
 ---
 
 O atalho Ctrl + Z no Builder do Blip permite desfazer de forma rápida os comandos realizados na criação do fluxo conversacional.
@@ -14,15 +14,9 @@ Criação de nova tag
 
 Remoção de uma tag existente
 
-![Tags do bloco](/img/builder/ctrl-z-tags-do-bloco.gif)
-
 ### Nome do bloco
 
-![Nome do bloco](/img/builder/crtl-z-nome-do-bloco.gif)
-
 ### Movimentação de um ou mais blocos
-
-![Movimentação do bloco](/img/builder/movimentacoes-do-bloco.gif)
 
 ### Barra de Conteúdo
 Criação e remoção de um conteúdo
@@ -33,14 +27,10 @@ Edição de um conteúdo
 
 Alteração da posição do conteúdo
 
-![Barra de conteúdo](/img/builder/barra-de-conteudo.gif)
-
 ### Barra de Condições de Saída
 Criação e remoção de uma Condição de Saída
 
 Alteração da Saída Padrão
-
-![Barra de condições de saída](/img/builder/barra-de-condicoes-de-saida.gif)
 
 ### Condição de Saída
 Alteração do Se em uma Condição de Saída
@@ -59,8 +49,6 @@ Criação e remoção de uma Ação de Saída
 Alteração do nome de uma Ação
 
 Edição de uma Ação
-
-![Barra de ações](/img/builder/barra-de-acoes.gif)
 
 ### Ação
 
