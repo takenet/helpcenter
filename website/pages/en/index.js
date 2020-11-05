@@ -504,6 +504,7 @@ class Index extends React.Component {
             <input id="check7-aprendaMais" className="hidden-checkbox" type="checkbox" />
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://help.blip.ai/changelog">Changelog</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/beta"><translate>BLiP Beta</translate></a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://ideas.blip.ai">BLiP Ideas </a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://meetup.blip.ai"><translate>Eventos</translate></a></li>
