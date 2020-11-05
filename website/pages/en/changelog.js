@@ -124,6 +124,19 @@ var releasesAux;
 var aux;
 var releases =[
       {
+         "id":"bugs",
+         "title":"Data da primeira reposta dos tickets fechados no Blip Desk",
+         "date":"05 de Novembro de 2020",
+         "text":"Corrigimos o código que atualizava equivocadamente a data da primeira reposta dos tickets de atendimento fechados no Blip Desk, informação utilizada no cálculo do tempo médio de primeira resposta e que influencia os dados exibidos nos relatórios e históricos de atendimento.",
+      },
+      {
+         "id":"news",
+         "title":"Atalho Ctrl + Z no Builder",
+         "date":"05 de Novembro de 2020",
+         "text":"Disponibilizamos o uso do Ctrl + Z no Builder do Blip, atalho que permite desfazer de forma rápida o último comando realizado.",
+         "link": "https://help.blip.ai/docs/en/builder/ctrl-z-no-builder/?utm_source=changelog",
+      },
+      {
          "id":"news",
          "title":"Acesso e download de mídias no portal do Blip",
          "date":"26 de Outubro de 2020",
