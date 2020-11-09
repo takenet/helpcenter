@@ -52,6 +52,7 @@ const siteConfig = {
     { page: 'resources', label: 'Recursos' },
     { page: 'courses', label: 'Cursos' },
     { page: 'community', label: 'Comunidade' },
+    { page: 'changelog', label: 'Changelog' },
     { page: 'security', label: 'Políticas' },
     { languages: true },
     { search: true }

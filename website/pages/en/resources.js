@@ -18,15 +18,15 @@ const data = {
             "text": "Aprenda mais!",
             "class": "seeMore-session-small"
         },
-        // {
-        //     "title": "Changelogs",
-        //     "url": "/changelog",
-        //     "icon": "restore",
-        //     "color": "blip",
-        //     "abstract": "Fique por dentro de todas as atualizações e melhorias feitas no BLiP!",
-        //     "text": "Veja as novidades!",
-        //     "class": "seeMore-session-small"
-        // },
+         {
+             "title": "Changelogs",
+             "url": "/changelog",
+             "icon": "restore",
+             "color": "blip",
+             "abstract": "Fique por dentro de todas as atualizações e melhorias feitas no BLiP!",
+             "text": "Veja as novidades!",
+             "class": "seeMore-session-small"
+         },
         {
             "title": "FAQ",
             "url": "/faq",

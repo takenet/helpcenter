@@ -209,6 +209,10 @@
         "title": "Como definir um tempo limite (timeout) para ações do Builder",
         "sidebar_label": "Como definir um tempo limite (timeout) para ações do Builder"
       },
+      "builder/como-usar-tempo-de-espera-de-resposta-do-usuario": {
+        "title": "Como usar tempo de espera de resposta do usuário",
+        "sidebar_label": "Como usar tempo de espera de resposta do usuário"
+      },
       "builder/como-usar-tempo-inatividade": {
         "title": "Como usar o tempo de inatividade de usuário",
         "sidebar_label": "Como usar o tempo de inatividade de usuário"
@@ -232,6 +236,10 @@
       "builder/criando-um-elemento-web-atraves-de-um-weblink-no-blip-chat": {
         "title": "Criando um elemento web através de um weblink no BLiP Chat",
         "sidebar_label": "Criando um elemento web através de um weblink no BLiP Chat"
+      },
+      "builder/ctrl-z-no-builder": {
+        "title": "Como utilizar o atalho Ctrl+Z no Builder",
+        "sidebar_label": "Ação: Como utilizar o Ctrl+Z no Builder"
       },
       "builder/definindo-acoes-globais": {
         "title": "Definindo ações globais no Builder",
@@ -627,6 +635,14 @@
         "title": "Funcionalidades do canal WhatsApp",
         "sidebar_label": "Funcionalidades do canal WhatsApp"
       },
+      "channels/whatsapp/mensagens-duplicadas-whatsapp": {
+        "title": "Mensagens duplicadas no WhatsApp",
+        "sidebar_label": "Mensagens duplicadas no WhatsApp"
+      },
+      "channels/whatsapp/politica-de-escalacao-humana-no-waba": {
+        "title": "Política de Escalação Humana no WhatsApp Business",
+        "sidebar_label": "Política de Escalação Humana no WhatsApp Business"
+      },
       "channels/whatsapp/publicando-bot-no-whatsapp": {
         "title": "Publicando seu bot no canal WhatsApp",
         "sidebar_label": "Publicando seu bot no canal WhatsApp"
@@ -934,6 +950,14 @@
       "security/images": {
         "title": "Política de upload de mídias no BLiP",
         "sidebar_label": "Política de upload de mídias no BLiP"
+      },
+      "security/information-security-document": {
+        "title": "Informativo Público de Segurança da Informação",
+        "sidebar_label": "Segurança da Informação"
+      },
+      "security/lgpd": {
+        "title": "LGPD aplicada ao BLiP",
+        "sidebar_label": "BLiP e LGPD"
       },
       "security/privacy": {
         "title": "Política de Privacidade",

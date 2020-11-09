@@ -456,7 +456,7 @@ class Index extends React.Component {
             <div className="hidden-content">
               <ul className="ul-aprenda-mais">
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://docs.blip.ai"><translate>API Reference</translate></a></li>
-                {/* <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/changelog">Changelogs</a></li> */}
+                <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/changelog">Changelogs</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/faq">Faq</a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" target="blank" href="https://github.com/takenet"><translate>Github</translate></a></li>
                 <li className="li-aprenda-mais"><a className="a-aprenda-mais" href="/templates"><translate>Templates de chatbot</translate></a></li>
