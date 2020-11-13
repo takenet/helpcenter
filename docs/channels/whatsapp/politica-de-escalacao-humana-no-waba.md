@@ -54,58 +54,54 @@ Para saber mais detalhes sobre o canal WhatsApp, acesse a documentação oficial
 
 ## FAQ
 
-### A minha opção de transbordo pode redirecionar para um canal que autentica o usuário?
+#### A minha opção de transbordo pode redirecionar para um canal que autentica o usuário?
 
 Não. Como o tester do Whatsapp não será um usuário da marca, ele poderá não conseguir finalizar o teste. 
 
-### Perguntas para captação de lead (nome, CPF, localização etc.) que ocorrem antes do transbordo, podem ser consideradas obstáculos para o atendimento?
+#### Perguntas para captação de lead (nome, CPF, localização etc.) que ocorrem antes do transbordo, podem ser consideradas obstáculos para o atendimento?
 
 O tester do Whatsapp não será um usuário da marca. Se você exige alguma informação para transferir o atendimento (evite CPF ou outros dados pessoais) e o usuário não fornecer, recomendamos que use uma mensagem de retorno informando outros canais de atendimento (email, telefone etc.).
 
-### Como eu posso saber se o motivo de sinalização do meu número é realmente esse?
+#### Como eu posso saber se o motivo de sinalização do meu número é realmente esse?
 
 O motivo da mudança na Classificação de Qualidade é exibido em detalhes no número sinalizado, na sua conta do WhatsApp Business. 
 
-### Posso redirecionar o usuário para uma fila de atendimento?
+#### Posso redirecionar o usuário para uma fila de atendimento?
 
 Recomendamos que o meio para que o usuário entre em contato seja imediato, ou com o menor tempo possível. Neste caso, filas em que o usuário poderá ficar horas e até mesmo desistir do atendimento, é importante oferecer também um outro meio de contato. 
 
-### Meu número foi penalizado. O que eu faço?
+#### Meu número foi penalizado. O que eu faço?
 
 Se você verificou o seu fluxo e não está em conformidade com as diretrizes, implemente uma das opções de transbordo indicadas pelo WhatsApp e, assim que estiver disponível para os usuários, abra um chamado na sua conta do WhatsApp Business. Acesse https://business.facebook.com/, selecione o menu de ajuda e clique em “Entrar em contato com a equipe de suporte”.
 
-### Eu sei que existe uma opção de transbordo no meu fluxo, mas meu número foi penalizado mesmo assim. O que aconteceu e o que eu faço?
+#### Eu sei que existe uma opção de transbordo no meu fluxo, mas meu número foi penalizado mesmo assim. O que aconteceu e o que eu faço?
 
 É provável que o WhatsApp não tenha identificado a opção de transbordo e o penalizou incorretamente. **Se você verificou o seu fluxo e está em conformidade com as diretrizes**, abra um chamado na sua conta do WhatsApp Business. Acesse https://business.facebook.com/, selecione o menu de ajuda e clique em “Entrar em contato com a equipe de suporte”.
 
-### Existe alguma indicação ou obrigatoriedade de qual ponto do fluxo ou momento que o cliente deve dar as opções de contato (transbordo) ou pode ser no ponto do fluxo que ele achar mais adequado?
+#### Existe alguma indicação ou obrigatoriedade de qual ponto do fluxo ou momento que o cliente deve dar as opções de contato (transbordo) ou pode ser no ponto do fluxo que ele achar mais adequado?
 
 A obrigatoriedade é de ter a opção clara e de fácil acesso ao usuário para escalar o atendimento para um humano. Exemplo: quando o usuário escrever, “falar com um humano”, o contato poderá entender e mostrar pra ele as informações necessárias. 
 
-### Atualmente o BOT direciona algumas opções para o Site, diretamente para a FAQ, perguntas frequentes, com finalização do atendimento neste canal. Há algum impacto?
+#### Atualmente o BOT direciona algumas opções para o Site, diretamente para a FAQ, perguntas frequentes, com finalização do atendimento neste canal. Há algum impacto?
 
 Não há impacto. No entanto, isto não representa uma solução de transferência para humano. 
 
-### Algumas opções são direcionadas para o formulário de cadastro, sem possibilidade de transbordo para o humano. Esta situação se enquadra na opção “um formulário de contato”?
+#### Algumas opções são direcionadas para o formulário de cadastro, sem possibilidade de transbordo para o humano. Esta situação se enquadra na opção “um formulário de contato”?
 
 Sim. esta pode ser uma forma válida de fazer o contato direto com um humano, desde que o cadastro incida em um contato posterior com este usuário e que apenas dados que qualquer usuário possa fornecer sejam solicitados de forma obrigatória neste formulário.
 
-### No fluxo conversacional não tenho uma opção direta em menu para atendimento humano, ou seja, o transbordo ocorre se o usuário solicitar “falar com humano” ou se o BOT não compreender a mensagem do cliente. Alguma restrição?
+#### No fluxo conversacional não tenho uma opção direta em menu para atendimento humano, ou seja, o transbordo ocorre se o usuário solicitar “falar com humano” ou se o BOT não compreender a mensagem do cliente. Alguma restrição?
 
 Não há restrições. Mas é necessário que o usuário saiba de alguma maneira que esta opção existe. Do contrário, ele poderá não imaginar esta possibilidade durante a conversa com o Contato Inteligente. 
 
-### Opções com finalização no próprio Contato Inteligente, sem possibilidade de transbordo (Contato das Unidades) – Esta situação se enquadra na opção “redirecionamento para visita a loja física”?
+#### Opções com finalização no próprio Contato Inteligente, sem possibilidade de transbordo (Contato das Unidades) – Esta situação se enquadra na opção “redirecionamento para visita a loja física”?
 
 Não. É importante deixar claro para o usuário que ele possui uma forma de contactar um humano. Finalizar o atendimento pelo Contato Inteligente não implica nisso.
 
-### Recebi o email sobre a Aplicação da Política de Escalação Humana do WhatsApp, mas não consigo verificar/adequar meu fluxo agora. Quanto tempo eu tenho?
+#### Recebi o email sobre a Aplicação da Política de Escalação Humana do WhatsApp, mas não consigo verificar/adequar meu fluxo agora. Quanto tempo eu tenho?
 
 Recomendamos que você verifique/adeque o seu fluxo o mais rápido possível. Dito isso, o WhatsApp iniciou a fiscalização com mais rigor no dia 30 de outubro de 2020 e, se identificada a inconformidade com a política, o número será sinalizado e, caso a classificação de qualidade não melhore nos próximos 7 dias, será imposto ao número um limite inferior de mensagens, como descrito na [documentação oficial do facebook](https://developers.facebook.com/docs/whatsapp/api/rate-limits).
 
-### Onde eu vejo a Classificação de Qualidade do meu número?
+#### Onde eu vejo a Classificação de Qualidade do meu número?
 
 Você precisa acessar a sua conta do WhatsApp Business (https://business.facebook.com/), e selecionar Phone Numbers, no menu WhatsApp Manager. Nesse local você confere o status, a Classificação de Qualidade e o limite de mensagens do(s) seu(s) número(s).
-
-
-<!-- Rating frame -->
-<script type="text/javascript" src="/scripts/rating.js"></script>
