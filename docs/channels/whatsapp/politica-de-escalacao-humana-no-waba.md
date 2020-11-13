@@ -68,7 +68,7 @@ O motivo da mudança na Classificação de Qualidade é exibido em detalhes no n
 
 ### Posso redirecionar o usuário para uma fila de atendimento?
 
-Recomendamos que o meio para que o usuário entre em contato seja imediato, ou com o menor tempo possível. Neste caso, filas em que o usuário poderá ficar horas e até mesmo desistir do atendimento, é importante oferecer também um outro meio de contato (podemos linkar com o meio de contato). 
+Recomendamos que o meio para que o usuário entre em contato seja imediato, ou com o menor tempo possível. Neste caso, filas em que o usuário poderá ficar horas e até mesmo desistir do atendimento, é importante oferecer também um outro meio de contato. 
 
 ### Meu número foi penalizado. O que eu faço?
 
@@ -100,7 +100,7 @@ Não. É importante deixar claro para o usuário que ele possui uma forma de con
 
 ### Recebi o email sobre a Aplicação da Política de Escalação Humana do WhatsApp, mas não consigo verificar/adequar meu fluxo agora. Quanto tempo eu tenho?
 
-Recomendamos que você verifique/adeque o seu fluxo o mais rápido possível. Dito isso, o WhatsApp iniciou a fiscalização com mais rigor no dia 30 de outubro de 2020 e, se identificada a inconformidade com a política, o número será sinalizado e, caso a classificação de qualidade não melhore nos próximos 7 dias, será imposto ao número um limite inferior de mensagens, como descrito na documentação oficial do facebook (https://developers.facebook.com/docs/whatsapp/api/rate-limits).
+Recomendamos que você verifique/adeque o seu fluxo o mais rápido possível. Dito isso, o WhatsApp iniciou a fiscalização com mais rigor no dia 30 de outubro de 2020 e, se identificada a inconformidade com a política, o número será sinalizado e, caso a classificação de qualidade não melhore nos próximos 7 dias, será imposto ao número um limite inferior de mensagens, como descrito na [documentação oficial do facebook](https://developers.facebook.com/docs/whatsapp/api/rate-limits).
 
 ### Onde eu vejo a Classificação de Qualidade do meu número?
 
