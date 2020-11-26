@@ -31,13 +31,53 @@ class Changelog extends React.Component {
           <div className="pages-top-category">
             <div className="main-category">
               <p className="title-category">Changelog</p>
-              <p className="subtitle-category">Fique por dentro de todas as atualizações do BLiP</p>
+              <p className="subtitle-category-changelog">Fique por dentro de todas as atualizações do BLiP</p>
+              <button className="button-subs-changelog" id="subscribe">Subscreva as atualizações</button>
             </div>
             <div className="image-category">
               <img className="img" src='/img/illustrations/Versionamento.svg' />
             </div>
           </div>
         </div>
+
+
+        {/* Modal subs */}
+        <div id="modalDownload" className="modal-beta">
+          <div className="modal-template-content">
+            <div className="modal-template-header">
+              <p className="modal-template-title">Subscreva as atualizações</p>
+              <span className="closeDownload" id="closeDownload">&times;</span>
+            </div>
+            <div className="modal-beta-body">
+              <div className="modal-template-text"> <p>Receba notificações por e-mail sempre que houver atualizações.</p>
+              </div>
+              <input type="text"
+                id="email"
+                name="email"
+                className="input-template-page"
+                placeholder="Informe o seu e-mail">
+              </input>
+              <button id="Bsubscribe" disabled={true} className="button-template-page">Assinar!</button>
+              <p className="modal-template-subtext">Ao clicar em <b>assinar</b>, você está concordando em receber e-mails.</p>
+              <p className="modal-template-subtext"></p>
+              <p className="modal-template-subtext">Caso queira cancelar a assinatura, entre em contato conosco.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Modal confirmation */}
+        <div id="myModal" className="modal-beta">
+                    <div className="modal-beta-content">
+                        <div className="modal-beta-header">
+                            <BlipIcon name="checkball-outline" className="bp-fs-1 bp-fill-white"></BlipIcon>
+                            <p className="modal-beta-title">Assinatura concluída</p>
+                        </div>
+                        <div className="modal-beta-body">
+                            <p className="modal-beta-text">Email cadastrado com sucesso!</p>
+                            <button id="close-beta" className="close-beta" > Ok</button>
+                        </div>
+                    </div>
+                </div>
 
         {/* Conteudo */}
         <div className="pages-content-changelog" id="pages-content-changelog">
@@ -99,13 +139,15 @@ class Changelog extends React.Component {
 
 
             <div className="releases" id="releases">
-              
+
             </div>
 
           </div>
 
         </div>
         <InfiniteScroll></InfiniteScroll>
+        <ScriptModal></ScriptModal>
+        <ScriptSubscribe></ScriptSubscribe>
       </div>
     );
   }
@@ -119,11 +161,11 @@ class InfiniteScroll extends React.Component {
           __html: `
 
           var nextItem = 0;
-var releaseItem = document.getElementById('releases');
-var releasesAux;
-var aux;
-var releases =[
-      {
+          var releaseItem = document.getElementById('releases');
+          var releasesAux;
+          var aux;
+          var releases =[
+                {
          "id":"bug",
          "title":"Data da primeira reposta dos tickets fechados no Blip Desk",
          "date":"05 de Novembro de 2020",
@@ -345,7 +387,6 @@ function filter(){
     buttonSeeMore.style.display = 'none';
     var count = 0;
 		for (i=0; i<releases.length; i++){
-      console.log('legal');
       if (releases[i].id == value){
         if (count < aux){
           allReleases[i].style.display = "block";
@@ -389,6 +430,116 @@ function displaysAllReleasesAgain(){
   }
 }
 
+class ScriptModal extends React.Component {
+  render() {
+      return (
+          <script
+              dangerouslySetInnerHTML={{
+                  __html: `
+                  var subs = document.getElementById('subscribe');
+                        var modalDownload = document.getElementById("modalDownload");
+                        var modalConfirm = document.getElementById("myModal");
+                        var modalCloseDonwload = document.getElementById("closeDownload");
+                        var modalClose = document.getElementById("close-beta");
+                        subscribe.onclick = function(){
+                            modalDownload.style.display = "block";
+                        };  
+
+                  modalCloseDonwload.onclick = function(){
+                    modalDownload.style.display = "none";
+                  };
+
+                  modalClose.onclick = function(){
+                    myModal.style.display = "none";
+                  };
+
+                  window.onclick = function(event) {
+                      if (event.target == modalDownload) {
+                        modalDownload.style.display = "none";
+                      }
+                      if (event.target == myModal) {
+                        myModal.style.display = "none";
+                      }
+                    };           
+
+              `
+              }}
+          />
+      );
+  }
+}
+
+class ScriptSubscribe extends React.Component {
+  render() {
+      return (
+          <script
+              dangerouslySetInnerHTML={{
+            __html: `
+                  var buttonSubs = document.getElementById('Bsubscribe');
+                  document.getElementById("email").addEventListener("keyup", function() {
+                    var nameInput = document.getElementById('email').value;
+                        if (nameInput != "") {
+                          buttonSubs.removeAttribute("disabled");
+                        } else {
+                          buttonSubs.setAttribute("disabled", null);
+                        }
+                  });
+
+                  buttonSubs.onclick = function(){
+                    var nameInput = document.getElementById('email');
+                    var config = "https://apilayer.net/api/check?access_key=3eea312bdbe933103bb0237db2d83e7b&email=";
+                    var config = config.concat(nameInput.value);
+                    axios.get(config).then(resp => {
+                       if(resp.data['format_valid'] == true){
+                         subscribeReq(nameInput.value);
+                       }else if(resp.data['format_valid'] == false){
+                         alert("Informe um email válido");
+                       }else{
+                        subscribeReq(nameInput.value);
+                       }
+                    }); 
+                  }  
+
+                  function subscribeReq(email){
+                    var json = JSON.stringify({
+                      "id": CreateGuid(),
+                      "to": "hubspotapi@msging.net", 
+                      "type": "text/plain",
+                      "content": email
+                    }); 
+                    axios.post('https://msging.net/messages', json, {
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'Authorization': 'Key aHVic3BvdGFwaTpOQWJQYmhLQ0pTYmxiWmZlc1E4Qg==',
+                                'Access-Control-Allow-Origin' : '*',
+                                'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+                                'X-Requested-With': 'XMLHttpRequest'
+                            }
+                            })
+                            .then(function (response) {
+                                var modalDownload = document.getElementById("modalDownload");
+                                var modalConfirm = document.getElementById("myModal");
+                                modalDownload.style.display = 'none'; 
+                                modalConfirm.style.display = 'block';
+                            });
+                    }
+                  
+
+                  function CreateGuid() {  
+                    function _p8(s) {  
+                        var p = (Math.random().toString(16)+"000000000").substr(2,8);  
+                        return s ? "-" + p.substr(0,4) + "-" + p.substr(4,4) : p ;  
+                    }  
+                    return _p8() + _p8(true) + _p8(true) + _p8();  
+                  }  
+   
+
+              `
+              }}
+          />
+      );
+  }
+}
 
 Changelog.title = 'Changelogs';
 module.exports = Changelog; 

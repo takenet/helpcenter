@@ -537,6 +537,10 @@
   .main-category .subtitle-category {
     display: none;
   }
+
+  .main-category .subtitle-category-changelog {
+    display: none;
+  }
   .pages-content-category {
     padding-left: 5% !important;
     padding-bottom: 15%;
@@ -11907,4 +11911,38 @@ div #discourse-comments{
   background-color: #ffffff;
   border: 1px solid #2cc3d5;
   color: #2cc3d5;
+}
+
+.main-category .subtitle-category-changelog{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 100%;
+  color: #ffffff;
+  width: 100%;
+}
+
+.button-subs-changelog {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  min-width: 3rem;
+  height: 3.2rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  background-color: #2cc3d5;
+  border: 1px solid #2cc3d5;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.button-subs-changelog:hover {
+  background-color: #25a9b9;
 }
