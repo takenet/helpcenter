@@ -32,7 +32,7 @@ class Changelog extends React.Component {
             <div className="main-category">
               <p className="title-category">Changelog</p>
               <p className="subtitle-category-changelog">Fique por dentro de todas as atualizações do BLiP</p>
-              <button className="button-subs-changelog" id="subscribe">Subscreva as atualizações</button>
+              <button className="button-subs-changelog" id="subscribe">Inscreva-se para ser notificado</button>
             </div>
             <div className="image-category">
               <img className="img" src='/img/illustrations/Versionamento.svg' />
@@ -45,7 +45,7 @@ class Changelog extends React.Component {
         <div id="modalDownload" className="modal-beta">
           <div className="modal-template-content">
             <div className="modal-template-header">
-              <p className="modal-template-title">Subscreva as atualizações</p>
+              <p className="modal-template-title">Inscreva-se para ser notificado</p>
               <span className="closeDownload" id="closeDownload">&times;</span>
             </div>
             <div className="modal-beta-body">
