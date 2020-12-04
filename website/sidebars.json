@@ -291,6 +291,7 @@
         "label": "Chatbase",
         "ids": [
           "analytics/chatbase/como-enviar-dados-chatbase",
+          "analytics/chatbase/como-ativar-o-tracking-automatico",
           "analytics/chatbase/tratando-eventos-not-handled-sessionFlow-chatbase"
         ]
       },
@@ -299,6 +300,13 @@
         "label": "Dashbot",
         "ids": [
           "analytics/dashbot/como-enviar-dados-dashbot"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Hubspot",
+        "ids": [
+          "analytics/como-disparar-notificacoes-hubspot"
         ]
       },
       {
@@ -380,6 +388,7 @@
     "security/lgpd",
     "security/information-security-document",
     "security/images"
+    "security/contracts"
 ]
   }
 }
