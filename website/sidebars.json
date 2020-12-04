@@ -291,6 +291,7 @@
         "label": "Chatbase",
         "ids": [
           "analytics/chatbase/como-enviar-dados-chatbase",
+          "analytics/chatbase/como-ativar-o-tracking-automatico",
           "analytics/chatbase/tratando-eventos-not-handled-sessionFlow-chatbase"
         ]
       },
