@@ -12,6 +12,6 @@ Nesse caso, não é necessário criar os event-tracks personalizados de bloco po
 
 ## Confira como ativar o tracking automático do seu contato inteligente:
 
-Builder > Configurações > Tracking Automático
+Para ativar o tracking automático, siga os seguintes passos: entre no **Builder**, clique em **Configurações** e ative **Tracking Automático**
 
 ![gif](/img/analytics/chatbase/como-ativar-o-tracking-automatico-02.gif)
