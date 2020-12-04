@@ -4,7 +4,7 @@ title: Como ativar o tracking automático
 sidebar_label: Como ativar o tracking automático
 ---
 
-O Tracking Automático registra um evento para cada bloco do fluxo do bot, sempre que um usuário passa por ele.
+O tracking automático registra um evento para cada bloco do fluxo do bot, sempre que um usuário passa por ele.
 O evento é registrado na categoria “flow” e a ação é o nome de cada bloco.
 
 Essa funcionalidade pode ser usada para criar relatórios personalizados na tela de análise, permitindo, por exemplo, a avaliação dos fluxos e blocos mais utilizados.
