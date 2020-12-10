@@ -231,7 +231,7 @@ class InfiniteScroll extends React.Component {
       {
          "id":"news",
          "title":"Adição de Atendentes no Blip Desk",
-         "date":"11 de Agosto de 2020",at
+         "date":"11 de Agosto de 2020",
          "text":"Para agilizar a adição de novos atendentes a equipes do chatbot, disponibilizamos a possibilidade de acrescentar mais de um e-mail simultaneamente.",
          "link": "https://help.blip.ai/docs/en/helpdesk/blipdesk/gerenciamento-equipes/?utm_source=changelog",
       },
