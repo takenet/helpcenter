@@ -49,7 +49,24 @@ class Changelog extends React.Component {
               <span className="closeDownload" id="closeDownload">&times;</span>
             </div>
             <div className="modal-beta-body">
-              <div className="modal-template-text"> <p>Receba notificações por e-mail sempre que houver atualizações.</p>
+              <div className="modal-template-text"> <p>Receba notificações por e-mail sempre que implementarmos uma melhoria no Blip. Selecione abaixo uma ou mais categorias para acompanhar:</p>
+              </div>
+              <div className="radio-changelog">
+                <label className="bp-input--check--wrapper mb4">
+                  <input className="bp-input" type="checkbox" name="checkbox-group" id="atts" value="atts"></input>
+                  <div className="bp-input--checkbox">&#10003;</div>
+                  <span className="bp-inpu--span">Atualizações</span>
+                </label>
+                <label className="bp-input--check--wrapper mb4">
+                  <input className="bp-input" type="checkbox" name="checkbox-group" id="bugs" value="bugs"></input>
+                  <div className="bp-input--checkbox">&#10003;</div>
+                  <span className="bp-inpu--span">Correção de bugs</span>
+                </label>
+                <label className="bp-input--check--wrapper mb4">
+                  <input className="bp-input" type="checkbox" name="checkbox-group" id="news" value="news"></input>
+                  <div className="bp-input--checkbox">&#10003;</div>
+                  <span className="bp-inpu--span">Novidades</span>
+                </label>
               </div>
               <input type="text"
                 id="email"
@@ -67,17 +84,17 @@ class Changelog extends React.Component {
 
         {/* Modal confirmation */}
         <div id="myModal" className="modal-beta">
-                    <div className="modal-beta-content">
-                        <div className="modal-beta-header">
-                            <BlipIcon name="checkball-outline" className="bp-fs-1 bp-fill-white"></BlipIcon>
-                            <p className="modal-beta-title">Assinatura concluída</p>
-                        </div>
-                        <div className="modal-beta-body">
-                            <p className="modal-beta-text">Email cadastrado com sucesso!</p>
-                            <button id="close-beta" className="close-beta" > Ok</button>
-                        </div>
-                    </div>
-                </div>
+          <div className="modal-beta-content">
+            <div className="modal-beta-header">
+              <BlipIcon name="checkball-outline" className="bp-fs-1 bp-fill-white"></BlipIcon>
+              <p className="modal-beta-title">Assinatura concluída</p>
+            </div>
+            <div className="modal-beta-body">
+              <p className="modal-beta-text">Email cadastrado com sucesso!</p>
+              <button id="close-beta" className="close-beta" > Ok</button>
+            </div>
+          </div>
+        </div>
 
         {/* Conteudo */}
         <div className="pages-content-changelog" id="pages-content-changelog">
@@ -444,10 +461,10 @@ function displaysAllReleasesAgain(){
 
 class ScriptModal extends React.Component {
   render() {
-      return (
-          <script
-              dangerouslySetInnerHTML={{
-                  __html: `
+    return (
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
                   var subs = document.getElementById('subscribe');
                         var modalDownload = document.getElementById("modalDownload");
                         var modalConfirm = document.getElementById("myModal");
@@ -475,18 +492,18 @@ class ScriptModal extends React.Component {
                     };           
 
               `
-              }}
-          />
-      );
+        }}
+      />
+    );
   }
 }
 
 class ScriptSubscribe extends React.Component {
   render() {
-      return (
-          <script
-              dangerouslySetInnerHTML={{
-            __html: `
+    return (
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
                   var buttonSubs = document.getElementById('Bsubscribe');
                   document.getElementById("email").addEventListener("keyup", function() {
                     var nameInput = document.getElementById('email').value;
@@ -501,16 +518,36 @@ class ScriptSubscribe extends React.Component {
                     var nameInput = document.getElementById('email');
                     var config = "https://apilayer.net/api/check?access_key=3eea312bdbe933103bb0237db2d83e7b&email=";
                     var config = config.concat(nameInput.value);
-                    axios.get(config).then(resp => {
-                       if(resp.data['format_valid'] == true){
-                         subscribeReq(nameInput.value);
-                       }else if(resp.data['format_valid'] == false){
-                         alert("Informe um email válido");
-                       }else{
-                        subscribeReq(nameInput.value);
-                       }
-                    }); 
+                    var atts = document.getElementById('atts');
+                    var bugs = document.getElementById('bugs');
+                    var news = document.getElementById('news');
+                    if (atts.checked || bugs.checked || news.checked){
+                      axios.get(config).then(resp => {
+                        if(resp.data['format_valid'] == true){
+                          var txt = getSelectedCheckboxValues();
+                          var final = nameInput.value.concat(' ', txt);
+                          subscribeReq(final);
+                        }else if(resp.data['format_valid'] == false){
+                          alert("Informe um email válido");
+                        }else{
+                          var txt = getSelectedCheckboxValues();
+                          var final = nameInput.value.concat(' ', txt);
+                          subscribeReq(final);
+                        }
+                      }); 
+                    }
                   }  
+
+                  function getSelectedCheckboxValues(){
+                    var checkboxes = document.querySelectorAll('input[type=checkbox]');
+                    var txt = "";
+                      for (var i = 0; i < checkboxes.length; i++){
+                          if (checkboxes[i].checked){
+                            txt = txt + checkboxes[i].value + " ";
+                          } 
+                      }
+                    return txt;
+                  }
 
                   function subscribeReq(email){
                     var json = JSON.stringify({
@@ -547,9 +584,9 @@ class ScriptSubscribe extends React.Component {
    
 
               `
-              }}
-          />
-      );
+        }}
+      />
+    );
   }
 }
 

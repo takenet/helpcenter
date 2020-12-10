@@ -6135,8 +6135,14 @@ ol {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: flex-start;
-  font-size: 0.875rem;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8ca0b3;
   line-height: 1.5rem;
+  padding-left: 10px;
 }
 
 .bp-input[type="checkbox"], .bp-input[type="radio"] {
