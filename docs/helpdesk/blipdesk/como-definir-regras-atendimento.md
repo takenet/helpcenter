@@ -4,6 +4,8 @@ title: Como definir regras de atendimento no BLiP Desk
 sidebar_label: Como definir regras de atendimento no BLiP Desk
 ---
 
+>A partir do dia 30/11/2020, as novas regras de atendimento serão obedecidas de acordo com a sequência em que forem criadas. Por isso, cadastre suas regras na exata ordem em que devem ser aplicadas.
+
 Uma regra de atendimento define como seu bot direciona os atendimentos humanos entre as equipes cadastradas.
 
 Qualquer integrante da equipe de um bot que tenha acesso de escrita no módulo de **Atendimento** — pode definir as regras de atendimento das equipes.
