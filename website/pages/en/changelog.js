@@ -31,7 +31,7 @@ class Changelog extends React.Component {
           <div className="pages-top-category">
             <div className="main-category">
               <p className="title-category">Changelog</p>
-              <p className="subtitle-category-changelog">Fique por dentro de todas as atualizações do BLiP</p>
+              <p className="subtitle-category-changelog">Fique por dentro das melhorias e novidades implementadas no Blip</p>
               <button className="button-subs-changelog" id="subscribe">Inscreva-se para ser notificado</button>
             </div>
             <div className="image-category">
@@ -91,8 +91,7 @@ class Changelog extends React.Component {
               <img href="/" src="/img/banners/Banner-Changelog.svg"></img>
             </div>
             <p className="title">Atualizações Recentes</p>
-            <p className="intro">Nossa página de changelog permite que você esteja sempre inteirado de
-              todas as melhorias implementadas na plataforma como também consiga acompanhar a evolução da plataforma.</p>
+            <p className="intro">Aqui você acompanha a evolução constante do portal, com informações pontuais que impactam diretamente o seu uso, listadas das mais recentes para as mais antigas.</p>
           </div>
 
           <div className="content-changelog" id='content-changelog'>
@@ -165,7 +164,20 @@ class InfiniteScroll extends React.Component {
           var releasesAux;
           var aux;
           var releases =[
-                {
+       {
+         "id":"bug",
+         "title":"Comando de eventos gerados a partir das Integrações",
+         "date":"04 de Dezembro de 2020",
+         "text":"Corrigimos o comando que impede o envio duplicado dos eventos gerados através das integrações de análise de dados e de contatos (Chatbase, Dashbot, Botanalytics, Webhook e RD Station).",
+      },
+      {
+         "id":"bug",
+         "title":"Ordenação das Regras de atendimento",
+         "date":"30 de Novembro de 2020",
+         "text":"Corrigimos a ordenação das regras de atendimento para que sejam obedecidas de acordo com a sequência em que forem criadas.",
+         "link": "https://help.blip.ai/docs/en/helpdesk/blipdesk/como-definir-regras-atendimento/?utm_source=changelog",
+      },
+      {
          "id":"bug",
          "title":"Data da primeira reposta dos tickets fechados no Blip Desk",
          "date":"05 de Novembro de 2020",
@@ -192,13 +204,13 @@ class InfiniteScroll extends React.Component {
       },
       {
          "id":"news",
-         "title":"Inatividade no portal Blip",
+         "title":"Inatividade no portal do Blip",
          "date":"06 de Outubro de 2020",
          "text":"Para proporcionar mais segurança no uso do portal Blip, uma conta logada e inativa por mais de 30 minutos será desconectada automaticamente. Um alerta será exibido na tela cinco minutos antes.",       
       },
       {
          "id":"news",
-         "title":"Equipes de Atendimento no BLiP Desk",
+         "title":"Equipes de Atendimento no Blip Desk",
          "date":"17 de Setembro de 2020",
          "text":"Para simplificar a visão de equipes existentes e evitar a criação duplicada ou com nome incorreto na adição de atendentes, disponibilizamos um autocomplete que listará todas as equipes cadastradas, além da opção de criar uma nova quando o conteúdo digitado não corresponder a nenhum resultado.",       
       },
@@ -211,36 +223,36 @@ class InfiniteScroll extends React.Component {
       },
        {
          "id":"atts",
-         "title":"Publicação de chatbots no Facebook com aplicação própria",
+         "title":"Conexão de chatbots no Facebook com aplicação própria",
          "date":"19 de Agosto de 2020",
-         "text":"Adicionamos a atualização que possibilita o uso de aplicação própria para publicação de chatbots no Facebook através do Portal do BLiP.",
+         "text":"Atualizamos as configurações de conexão do chatbot ao Facebook para permitir, através do portal do Blip, o uso de aplicação própria.",
          "link": "https://help.blip.ai/docs/en/channels/messenger/propria-aplicacao-portal/?utm_source=changelog",
       },
       {
          "id":"news",
-         "title":"Adição de Atendentes no BLiP Desk",
-         "date":"11 de Agosto de 2020",
-         "text":"Para agilizar a adição de novos atendentes na equipe do chatbot, disponibilizamos a possibilidade de acrescentar mais de um e-mail simultaneamente.",
+         "title":"Adição de Atendentes no Blip Desk",
+         "date":"11 de Agosto de 2020",at
+         "text":"Para agilizar a adição de novos atendentes a equipes do chatbot, disponibilizamos a possibilidade de acrescentar mais de um e-mail simultaneamente.",
          "link": "https://help.blip.ai/docs/en/helpdesk/blipdesk/gerenciamento-equipes/?utm_source=changelog",
       },
       {
          "id":"news",
          "title":"Botões de ação e de resposta rápida nos modelos de mensagem do WhatsApp",
          "date":"03 de Agosto de 2020",
-         "text":"Adicionamos à funcionalidade de modelos de mensagem do WhatsApp no portal do BLiP a atualização que possibilita o uso de botões de ação e de respostas rápidas nas mensagens.",
+         "text":"Adicionamos à funcionalidade de modelos de mensagem do WhatsApp no portal do Blip a atualização que possibilita o uso de botões de ação e de respostas rápidas nas mensagens.",
          "link": "http://help.blip.ai/docs/en/channels/whatsapp/como-criar-aprovar-message-template?utm_source=changelog",
       },
       {
          "id":"atts",
          "title":"Integração com a SugarAds",
          "date":"22 de Julho de 2020",
-         "text":"Com o fechamento da SugarAds, descontinuamos a integração antes disponível em Growth, no portal do BLiP.",
+         "text":"Com o fechamento da SugarAds, descontinuamos a integração antes disponível em Growth, no portal do Blip.",
       },
       {
          "id":"atts",
-         "title":"Notificações no portal do BLiP",
+         "title":"Notificações no portal do Blip",
          "date":"21 de Julho de 2020",
-         "text":"Atualizamos o modelo de notificações temporárias que fornecem feedbacks sobre as ações realizadas no portal do BLiP.",
+         "text":"Atualizamos o modelo de notificações temporárias que fornecem feedbacks sobre as ações realizadas no portal do Blip.",
       },
       {
          "id":"news",
@@ -251,14 +263,14 @@ class InfiniteScroll extends React.Component {
       },
       {
          "id":"news",
-         "title":"Tempo de Inatividade do Usuário",
+         "title":"Tempo de inatividade do usuário",
          "date":"06 de Julho de 2020",
-         "text":"Disponibilizamos o Tempo de Inatividade do Usuário, nova funcionalidade que permite programar diretamente no Builder quanto tempo o chatbot deve esperar por uma resposta do usuário para encerrar a conversa ou enviar uma mensagem para reengajamento.",
+         "text":"Disponibilizamos essa nova funcionalidade que permite programar diretamente no Builder do Blip quanto tempo o chatbot deve esperar por uma resposta do usuário para encerrar a conversa ou enviar uma mensagem para reengajamento.",
          "link": "https://help.blip.ai/docs/en/builder/como-usar-tempo-inatividade/?utm_source=changelog",
       },
       {
          "id":"atts",
-         "title":"Permissões de Acesso ao Chatbot",
+         "title":"Permissões de acesso ao chatbot",
          "date":"03 de Julho de 2020",
          "text":"Atualizamos a mensagem de alerta da permissão de acesso à um chatbot, porque para acessar o projeto, a conta do usuário logado deve ser a mesma do membro convidado para compor a equipe.",
          "link": "https://help.blip.ai/docs/en/management/gerenciando-permissoes-acesso-equipe/?utm_source=changelog",
@@ -267,7 +279,7 @@ class InfiniteScroll extends React.Component {
          "id":"news",
          "title":"Integração com o RD Station",
          "date":"29 de Junho de 2020",
-         "text":"Disponibilizamos uma nova integração entre RD Station e BLiP para que a instalação seja feita com apenas um clique.",
+         "text":"Disponibilizamos uma nova integração entre RD Station e Blip para que a instalação seja feita com apenas um clique.",
          "link": "https://help.blip.ai/docs/en/analytics/rd-station/como-enviar-dados-rd-station/?utm_source=changelog",
       },
   ];
