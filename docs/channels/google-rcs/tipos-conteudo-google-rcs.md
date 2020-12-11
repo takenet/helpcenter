@@ -4,6 +4,8 @@ title: Tipos de conteúdo suportados pelo Google RCS
 sidebar_label: Tipos de conteúdo suportados pelo Google RCS
 ---
 
+> A partir do dia 07/12/2020, não serão mais aceitas mensagens com IDs duplicados. Embora já trabalhemos com esta premissa,  instruímos que você utilize Message IDs únicos independente do canal para evitar problemas.
+
 Entenda melhor quais são os tipos de conteúdo enviados pelo BLiP suportados pelo Google RCS. Para mais informações sobre os tipos de conteúdos presentes no BLiP, acesse [nosso artigo](https://help.blip.ai/contenttypes/).
 
 ### Texto
