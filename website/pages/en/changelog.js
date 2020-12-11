@@ -544,10 +544,9 @@ class ScriptSubscribe extends React.Component {
                       "type": "text/plain",
                       "content": email
                     }); 
-                    axios.post('https://msging.net/messages', json, {
+                    axios.post('https://changelogs-api.herokuapp.com/api/v1/subscribe/', json, {
                             headers: {
                                 'Content-Type': 'application/json',
-                                'Authorization': 'Key aHVic3BvdGFwaTpOQWJQYmhLQ0pTYmxiWmZlc1E4Qg==',
                                 'Access-Control-Allow-Origin' : '*',
                                 'Access-Control-Allow-Methods' : 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
                                 'X-Requested-With': 'XMLHttpRequest'
