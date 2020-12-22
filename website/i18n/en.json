@@ -85,6 +85,10 @@
         "title": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?",
         "sidebar_label": "Integração BotAnalytics - Como enviar dados de um bot para o BotAnalytics?"
       },
+      "analytics/chatbase/como-ativar-o-tracking-automatico": {
+        "title": "Como ativar o tracking automático",
+        "sidebar_label": "Como ativar o tracking automático"
+      },
       "analytics/chatbase/como-enviar-dados-chatbase": {
         "title": "Integração Chatbase - Como enviar dados de um bot para o Chatbase?",
         "sidebar_label": "Integração Chatbase - Como enviar dados de um bot para um Chatbase?"
@@ -942,6 +946,10 @@
       "router/recuperando-infomacoes-contatos-subbots": {
         "title": "Como recuperar informações de contatos em um subbot",
         "sidebar_label": "Como recuperar informações de contatos em um subbot"
+      },
+      "security/contracts": {
+        "title": "Visão de Contratos",
+        "sidebar_label": "Visão de Contratos"
       },
       "security/cookies": {
         "title": "Política de Uso de Cookies",

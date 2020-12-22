@@ -304,13 +304,6 @@
       },
       {
         "type": "subcategory",
-        "label": "Hubspot",
-        "ids": [
-          "analytics/como-disparar-notificacoes-hubspot"
-        ]
-      },
-      {
-        "type": "subcategory",
         "label": "RD Station",
         "ids": [
           "analytics/rd-station/como-enviar-dados-rd-station"
