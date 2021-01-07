@@ -33,7 +33,7 @@ Por sua vez, a validação de número, verifica se a entrada do usuário apresen
 
 #### Data
 
-A validação de data, apura se a entrada do usuário apresentada é uma data. Isto **contempla diferentes formados de data**, tais como: dd/mm/aaaa, mm/dd/aaaa, dd-mm-aaaa, mm-dd-aaaa, dd-mm, dd/mm, mm-dd, mm-dd, mm-dd-aa...
+A validação de data, apura se a entrada do usuário apresentada é uma data. Isto **contempla diferentes formados de data**, tais como: dd/mm/aaaa, mm/dd/aaaa, dd-mm-aaaa, mm-dd-aaaa, dd-mm, dd/mm, mm-dd, mm-dd-aa...
 
 #### Expressão Regular
 
