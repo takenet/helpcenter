@@ -8,7 +8,7 @@ Enviar um email é uma tarefa comum para quem está desenvolvendo um bot. Email 
 
 ## Qual é o email do meu bot?
 
-No BLiP, todo chatbot já possui, automaticamente, um email. Este email é formado sempre pelo identificador do bot + **@blip.bot**. Assim, um bot criado com o identificador papagaio, terá um email **papagaio@blip.bot**. Para saber exatamente qual é o email do seu bot acesse no **Portal** o módulo **Canais > Email**, conforme imagem abaixo:
+No BLiP, todo chatbot já possui, automaticamente, um email. Este email é formado sempre pelo identificador do bot + **@blip.bot**. Assim, um bot criado com o identificador "mailgunportal", terá um email **mailgunportal@blip.bot**. Para saber exatamente qual é o email do seu bot acesse no **Portal** o módulo **Canais > Email**, conforme imagem abaixo:
 
 ![Email do Bot](/img/builder/builder-enviando-email-pelo-bot-atraves-do-builder-1.png)
 
