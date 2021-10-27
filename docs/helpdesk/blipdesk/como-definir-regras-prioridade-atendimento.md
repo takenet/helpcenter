@@ -4,7 +4,9 @@ title: Como definir regras de prioridade de atendimento no Blip Desk
 sidebar_label: Como definir regras de prioridade de atendimento no Blip Desk
 ---
 
-Uma regra de prioridade de atendimento define a prioridade do atendimento em relação as filas de atendimento.
+A priorização de atendimento é uma funcionalidade do Blip Desk que permite que os atendimentos sejam priorizados automaticamente com base nas regras configuradas pelo contato inteligente.
+
+Isso permite que os clientes possam ser atendidos de acordo com os critérios de prioridade definidos pela empresa. E as regras de prioridade são o que define quais serão os critérios para que um atendimento tenha ou não prioridade com relação aos demais.
 
 Qualquer integrante da equipe de um contato inteligente que tenha acesso de escrita no módulo de **Atendimento** — pode definir as regras de prioridade de atendimento das filas.
 
